@@ -18,7 +18,7 @@ import pandas as pd
 
 from cdr_tools import mutate
 from metrics import liability_flags, score_mutations, sequence_metrics
-from structure import cdr_res_ids, epitope_summary, load_complex
+from structure import cdr_res_ids, disulfide_res_ids, epitope_summary, load_complex
 
 RESULTS = Path(__file__).resolve().parent.parent / "results"
 TOP_N = 10
@@ -57,6 +57,12 @@ def run(pdb_id: str = "1N8Z", ab_chain: str | None = None) -> pd.DataFrame:
 
     scores = score_mutations(chain.seq, hot)
 
+    # Цистеины в дисульфидах не считаем «свободными»
+    ss = disulfide_res_ids(cx, ab_chain)
+    bonded_idx = {i for i, r in enumerate(chain.res_ids) if int(r) in ss}
+    if ss:
+        print(f"дисульфиды в цепи {ab_chain}: остатки {sorted(ss)}")
+
     rows = []
     for ms in scores:
         variant = mutate(chain.seq, ms.position, ms.mut)
@@ -68,7 +74,9 @@ def run(pdb_id: str = "1N8Z", ab_chain: str | None = None) -> pd.DataFrame:
                 "res_id": res_id,
                 "esm_score": round(ms.esm_score, 3),
                 **sequence_metrics(variant),
-                "liabilities": "; ".join(liability_flags(variant, (ms.position - 2, ms.position + 3))),
+                "liabilities": "; ".join(
+                    liability_flags(variant, (ms.position - 2, ms.position + 3), bonded_idx)
+                ),
             }
         )
     df = pd.DataFrame(rows)

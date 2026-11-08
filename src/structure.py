@@ -139,6 +139,28 @@ def interface_res_ids(
     return {int(r) for r in np.unique(ab.res_id[touching])}
 
 
+def disulfide_res_ids(cx: Complex, chain_id: str, cutoff: float = 2.5) -> set[int]:
+    """Остатки цепи, чей SG участвует в дисульфидной связи.
+
+    В biotite нет готового детектора, поэтому ищем по расстоянию SG-SG:
+    дисульфид — около 2.05 Å, 2.5 Å берём с запасом на разрешение структуры.
+    Нужно, чтобы не помечать как «свободный цистеин» то, что связано —
+    у VHH, например, бывает дополнительный дисульфид CDR1-CDR3.
+    """
+    sg = cx.atoms[(cx.atoms.atom_name == "SG") & (cx.atoms.element == "S")]
+    if sg.array_length() < 2:
+        return set()
+    bonded: set[int] = set()
+    coords = sg.coord
+    for i in range(sg.array_length()):
+        d = np.linalg.norm(coords - coords[i], axis=1)
+        d[i] = np.inf
+        partners = np.nonzero(d < cutoff)[0]
+        if len(partners) and sg.chain_id[i] == chain_id:
+            bonded.add(int(sg.res_id[i]))
+    return bonded
+
+
 def epitope_summary(cx: Complex, ab_chain_id: str) -> dict[str, list[int]]:
     """Для каждой CDR — какие её остатки реально трогают антиген."""
     chain = cx.chains[ab_chain_id]

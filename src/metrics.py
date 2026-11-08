@@ -101,16 +101,29 @@ def sequence_metrics(seq: str) -> dict[str, float]:
     }
 
 
-def liability_flags(seq: str, region: tuple[int, int] | None = None) -> list[str]:
-    """Мотивы-риски developability. region — полуинтервал индексов (lo, hi)."""
+def liability_flags(
+    seq: str,
+    region: tuple[int, int] | None = None,
+    bonded_cys_idx: set[int] | None = None,
+) -> list[str]:
+    """Мотивы-риски developability. region — полуинтервал индексов (lo, hi).
+
+    bonded_cys_idx — 0-based индексы цистеинов, уже связанных дисульфидом
+    (из структуры). Они не помечаются как свободные: связанный цистеин
+    нормален и часто структурно необходим.
+    """
     lo, hi = region or (0, len(seq))
+    lo, hi = max(0, lo), min(len(seq), hi)
     window = seq[lo:hi]
+    bonded = bonded_cys_idx or set()
     flags: list[str] = []
     for name, motifs in RISK_MOTIFS.items():
         for m in motifs:
             start = window.find(m)
             if start != -1:
                 flags.append(f"{name} {m}@{lo + start + 1}")
-    if "C" in window:
-        flags.append(f"свободный C@{lo + window.find('C') + 1}")
+    for off, aa in enumerate(window):
+        if aa == "C" and (lo + off) not in bonded:
+            flags.append(f"свободный C@{lo + off + 1}")
+            break
     return flags
