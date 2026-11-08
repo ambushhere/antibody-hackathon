@@ -28,6 +28,24 @@ export REQUESTS_CA_BUNDLE=$SSL_CERT_FILE
 .venv/bin/python src/cdr_tools.py
 ```
 
+## Мини-задача (репетиция пайплайна)
+Комплекс антитело-антиген из PDB -> CDR -> остатки на интерфейсе ->
+скан точечных мутаций через ESM-2 -> метрики -> CSV в `results/`.
+
+```bash
+export SSL_CERT_FILE=$(.venv/bin/python -c "import certifi;print(certifi.where())")
+PYTHONPATH=src .venv/bin/python src/mini_task.py 1N8Z B
+```
+
+По умолчанию 1N8Z (Fab трастузумаба + HER2). ~1,5 мин на этом ноутбуке,
+из них почти всё — загрузка весов ESM-2 в память.
+
+Модули: [src/structure.py](src/structure.py) (PDB, цепи, интерфейс),
+[src/metrics.py](src/metrics.py) (ESM wt-marginals, developability),
+[src/cdr_tools.py](src/cdr_tools.py) (нумерация, мутации).
+
+Шаблон питча: [PITCH.md](PITCH.md).
+
 ## Структура
 - `data/` — входные PDB/последовательности
 - `notebooks/` — исследования

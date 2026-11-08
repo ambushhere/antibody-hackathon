@@ -25,6 +25,8 @@ class NumberedChain:
     chain_type: str  # 'H', 'K', 'L'
     score: float
     numbering: list[tuple[tuple[int, str], str]]
+    query_start: int = 0  # где в seq начинается пронумерованный вариабельный домен
+    query_end: int = 0
 
     @property
     def cdrs(self) -> dict[str, str]:
@@ -62,6 +64,8 @@ def number_chains(seqs: list[str], mode: str = "accuracy") -> list[NumberedChain
                 chain_type=str(rec["chain_type"]),
                 score=float(rec["score"]),
                 numbering=rec["numbering"],
+                query_start=int(rec["query_start"]),
+                query_end=int(rec["query_end"]),
             )
         )
     return chains
