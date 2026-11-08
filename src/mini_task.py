@@ -63,6 +63,8 @@ def run(pdb_id: str = "1N8Z", ab_chain: str | None = None) -> pd.DataFrame:
     if ss:
         print(f"дисульфиды в цепи {ab_chain}: остатки {sorted(ss)}")
 
+    res_to_cdr = {rid: name for name, rids in all_cdr.items() for rid in rids}
+
     rows = []
     for ms in scores:
         variant = mutate(chain.seq, ms.position, ms.mut)
@@ -72,6 +74,7 @@ def run(pdb_id: str = "1N8Z", ab_chain: str | None = None) -> pd.DataFrame:
                 # метка по номеру остатка в структуре, а не по индексу в строке
                 "mutation": f"{ms.wt}{res_id}{ms.mut}",
                 "res_id": res_id,
+                "cdr": res_to_cdr.get(res_id, "—"),
                 "esm_score": round(ms.esm_score, 3),
                 **sequence_metrics(variant),
                 "liabilities": "; ".join(

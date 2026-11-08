@@ -46,6 +46,16 @@ PYTHONPATH=src .venv/bin/python src/mini_task.py 1N8Z B
 
 Шаблон питча: [PITCH.md](PITCH.md).
 
+### График для слайда
+```bash
+PYTHONPATH=src .venv/bin/python src/plot_scan.py results/1MEL_A_scan.csv
+```
+Тепловая карта позиция × аминокислота, светлая и тёмная версии PNG.
+Ноль палитры привязан к «как у WT», поэтому красные ячейки сразу читаются
+как улучшения. Точка — исходный остаток.
+
+![скан мутаций VHH](results/1MEL_A_heatmap_light.png)
+
 ### Что показали два прогона
 | | 1N8Z (Fab трастузумаба + HER2) | 1MEL (VHH cAb-Lys3 + лизоцим) |
 |---|---|---|
