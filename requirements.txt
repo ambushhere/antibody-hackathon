@@ -1,0 +1,11 @@
+torch==2.2.2
+numpy<2
+pandas
+matplotlib
+biopython
+biotite
+py3Dmol
+fair-esm
+anarcii   # IMGT-нумерация без HMMER; abnumber требует классический ANARCI
+jupyterlab
+ipykernel
