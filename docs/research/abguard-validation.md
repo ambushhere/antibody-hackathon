@@ -21,6 +21,19 @@ To avoid measuring generator yield only after our local preselection, all 64 exi
 
 Across these 64, 16 rows have an unpaired-cysteine hard error and one has insufficient CDRH3 novelty. The checkpoints use different seeds, so the yield difference is descriptive, not a controlled causal estimate. Our stricter local sequence gate retained 43 before abguard; 42 of those pass abguard. The five additional tool passes outside that local pool are not silently added to the frozen candidate panel. Full-arm and preselected-pool denominators must remain separate.
 
+## Entire optimization proposal pool
+
+The same installed build was run on all 743 existing proposals, before local filtering. **124 pass and 619 fail**, all failures caused by insufficient CDRH3 novelty. Agreement with our earlier strict local filter is exact for this pool: all 124 local passes pass abguard, and all 619 local failures fail it. This validates that gate on these inputs, not arbitrary future designs.
+
+| Proposal origin | Input rows | Installed-tool passes |
+| --- | ---: | ---: |
+| WT mutations | 318 | 48 |
+| Mutations of high-class training examples | 252 | 45 |
+| High-class position frequencies | 169 | 28 |
+| Earlier HER2-novel RFD4 optimization pilot | 4 | 3 |
+
+These are different proposal strategies with different sample sizes, not a randomized head-to-head generator trial. The four-row RFD4 pilot cannot establish a superior generator. [Full-pool per-design evidence](../../results/abguard-expanded/designs.csv) and [summary with source hashes](../../results/abguard-expanded/summary.json) preserve all outcomes. Replay with `python -m scripts.audit_abguard_expanded`.
+
 ## What this adds to the benchmark
 
 The generation benchmark can now report eligible yield, failure categories, database distance, assigned class and motif profiles alongside diversity. Evaluate binding rankers on measured held-out SPR, and structural predictors on known complexes, separately. The current 72-pose structural control experiment still fails its WT reproducibility criterion. No common weighted score across these endpoints has been validated, and no thermal ranker is admitted.
@@ -32,7 +45,7 @@ flowchart LR
   B --> D[Eligible pool and tool classes]:::allowed
   D --> E[Measured-data ranking where validated]:::action
   D --> F[Structure controls before candidate scoring]:::action
-  E --> G[Diverse ranked list of at most 20]:::future
+  E --> G[Diverse ranked draft of about 30]:::future
   F --> G
   G --> H[Lab SPR, competition and Tm]:::future
   classDef data fill:#edf4fc,stroke:#2867b2,color:#10243e;
@@ -42,9 +55,13 @@ flowchart LR
   classDef future fill:#fff4e3,stroke:#a45b08,color:#10243e;
 ```
 
+## Organizer update and explicit track
+
+The 16:33 update supplied by the user requires a sixth column `track` and one file for both tracks, posted in the team's own channel. The current 52-row research export declares **10 optimization and 42 denovo**. This supersedes automatic classification as the submission mechanism. All 52 six-column rows strictly revalidate, but installed abguard discards `track` in its emitted CSV and does not use it to select its novelty regime. Our reconciliation preserves the original declaration and flags `denovo-scale-her2novel-k1_30` because its declared denovo conflicts with the tool's internal novel class. Its final track-specific acceptance is not established. Both the original five-column run and six-column compatibility receipts are preserved.
+
 ## Implementation caveats
 
-The installed tool assigns `novel` when its length-weighted Levenshtein identity to WT is at least 0.70, otherwise `de_novo`. It requires minimum numbered IMGT CDRH3 distance three or two respectively from WT and its reference. This is not the global full-antibody identity search described by the PDF. Its length schema is per chain; our independent preflight also enforces the PDF's stricter combined VH+VL limit of 250, and all current rows meet it. An installed-tool pass does not certify a later organizer database or ruleset, other teams' duplicate submissions, or the final ≤20 list.
+The installed tool assigns `novel` when its length-weighted Levenshtein identity to WT is at least 0.70, otherwise `de_novo`. It requires minimum numbered IMGT CDRH3 distance three or two respectively from WT and its reference. This is not the global full-antibody identity search described by the PDF. Its length schema is per chain; our independent preflight also enforces the PDF's stricter combined VH+VL limit of 250, and all current rows meet it. An installed-tool pass does not certify a later organizer database or ruleset, other teams' duplicate submissions, or the final ranked list.
 
 **CLI defect in this installed build:** `novelty-report` calls `_reference` without `skipped=False`. `_reference` defaults to skipping the database, even when `--reference-db` is supplied. It reports `is_novel_enough=null` but its summary misleadingly counts those rows as passing. Both diagnostic outputs are preserved in `raw/novelty*.json`; neither supplies our acceptance result. We used `team-validate --all-liabilities`, whose database handling is correct, plus strict validation without `--drop`. No installed package was patched.
 
@@ -71,4 +88,8 @@ source .venv/bin/activate
 python -m scripts.reconcile_abguard
 ```
 
-The reconciliation rejects missing annotations, sequence mismatches, unchecked novelty and differences between accepted input rows and the strict CLI revalidation. The accepted CSV preserves the five organizer fields and input order. It exceeds 20 rows and is not the final ranked competition file.
+The reconciliation rejects missing annotations, sequence mismatches, unchecked novelty and differences between accepted input rows and the strict CLI revalidation. The accepted CSV preserves the six updated organizer fields and input order. It contains 52 rows and is not the ranked competition file. The latest organizer clarification requires at least 28 designs and recommends about 30, taking the first N rows.
+
+## Ranked review draft
+
+The [30-row review draft](../../output/submission-draft/team-3-ranked-draft30.csv) passes strict installed validation in all 30 rows. It declares 10 optimization and 20 denovo, with row priority duplicated in the description. The declaration/class mismatch is excluded. Root independently reproduced the exact CSV and checked that validation preserves every sequence, ID and description while dropping only the unsupported track column. [Receipt](../../results/abguard-ranked/receipt.json). No competition submission was sent.

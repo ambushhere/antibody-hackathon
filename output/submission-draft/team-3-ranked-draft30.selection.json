@@ -1,0 +1,649 @@
+{
+  "annotation_only_ids": [
+    "denovo-scale-antibody-k1_23"
+  ],
+  "counts_by_track": {
+    "denovo": 20,
+    "optimization": 10
+  },
+  "design_rows": [
+    {
+      "cdrh3_min_distance": 3,
+      "input_order": 1,
+      "min_pair_edit_distance_to_selected_denovo": null,
+      "n_high_severity": 2,
+      "novelty_class": "novel",
+      "rank": 1,
+      "selection_basis": "optimization existing frozen FACS/SPR shortlist",
+      "selection_method": "preserved_frozen_optimization_order",
+      "sequence_id": "opt_WGAPGFYLMT",
+      "track": "optimization",
+      "track_rank": 1
+    },
+    {
+      "cdrh3_min_distance": 3,
+      "input_order": 2,
+      "min_pair_edit_distance_to_selected_denovo": null,
+      "n_high_severity": 3,
+      "novelty_class": "novel",
+      "rank": 2,
+      "selection_basis": "optimization existing frozen FACS/SPR shortlist",
+      "selection_method": "preserved_frozen_optimization_order",
+      "sequence_id": "opt_YTGDGFPAMN",
+      "track": "optimization",
+      "track_rank": 2
+    },
+    {
+      "cdrh3_min_distance": 3,
+      "input_order": 3,
+      "min_pair_edit_distance_to_selected_denovo": null,
+      "n_high_severity": 2,
+      "novelty_class": "novel",
+      "rank": 3,
+      "selection_basis": "optimization existing frozen FACS/SPR shortlist",
+      "selection_method": "preserved_frozen_optimization_order",
+      "sequence_id": "opt_WEKGGFYRMD",
+      "track": "optimization",
+      "track_rank": 3
+    },
+    {
+      "cdrh3_min_distance": 11,
+      "input_order": 33,
+      "min_pair_edit_distance_to_selected_denovo": 0,
+      "n_high_severity": 0,
+      "novelty_class": "de_novo",
+      "rank": 4,
+      "selection_basis": "denovo motif/diversity screen only",
+      "selection_method": "greedy_motif_and_pairwise_diversity",
+      "sequence_id": "denovo-scale-her2novel-k1_7",
+      "track": "denovo",
+      "track_rank": 1
+    },
+    {
+      "cdrh3_min_distance": 3,
+      "input_order": 4,
+      "min_pair_edit_distance_to_selected_denovo": null,
+      "n_high_severity": 2,
+      "novelty_class": "novel",
+      "rank": 5,
+      "selection_basis": "optimization existing frozen FACS/SPR shortlist",
+      "selection_method": "preserved_frozen_optimization_order",
+      "sequence_id": "opt_WYGPGFPVMD",
+      "track": "optimization",
+      "track_rank": 4
+    },
+    {
+      "cdrh3_min_distance": 3,
+      "input_order": 5,
+      "min_pair_edit_distance_to_selected_denovo": null,
+      "n_high_severity": 2,
+      "novelty_class": "novel",
+      "rank": 6,
+      "selection_basis": "optimization existing frozen FACS/SPR shortlist",
+      "selection_method": "preserved_frozen_optimization_order",
+      "sequence_id": "opt_FTSDRFYAMD",
+      "track": "optimization",
+      "track_rank": 5
+    },
+    {
+      "cdrh3_min_distance": 3,
+      "input_order": 6,
+      "min_pair_edit_distance_to_selected_denovo": null,
+      "n_high_severity": 2,
+      "novelty_class": "novel",
+      "rank": 7,
+      "selection_basis": "optimization existing frozen FACS/SPR shortlist",
+      "selection_method": "preserved_frozen_optimization_order",
+      "sequence_id": "opt_WTAVGFFAMD",
+      "track": "optimization",
+      "track_rank": 6
+    },
+    {
+      "cdrh3_min_distance": 8,
+      "input_order": 49,
+      "min_pair_edit_distance_to_selected_denovo": 98,
+      "n_high_severity": 0,
+      "novelty_class": "de_novo",
+      "rank": 8,
+      "selection_basis": "denovo motif/diversity screen only",
+      "selection_method": "greedy_motif_and_pairwise_diversity",
+      "sequence_id": "denovo-scale-her2novel-k1_28",
+      "track": "denovo",
+      "track_rank": 2
+    },
+    {
+      "cdrh3_min_distance": 3,
+      "input_order": 7,
+      "min_pair_edit_distance_to_selected_denovo": null,
+      "n_high_severity": 3,
+      "novelty_class": "novel",
+      "rank": 9,
+      "selection_basis": "optimization existing frozen FACS/SPR shortlist",
+      "selection_method": "preserved_frozen_optimization_order",
+      "sequence_id": "opt_YQADGFYHMD",
+      "track": "optimization",
+      "track_rank": 7
+    },
+    {
+      "cdrh3_min_distance": 3,
+      "input_order": 8,
+      "min_pair_edit_distance_to_selected_denovo": null,
+      "n_high_severity": 2,
+      "novelty_class": "novel",
+      "rank": 10,
+      "selection_basis": "optimization existing frozen FACS/SPR shortlist",
+      "selection_method": "preserved_frozen_optimization_order",
+      "sequence_id": "opt_WVGGWFYLMD",
+      "track": "optimization",
+      "track_rank": 8
+    },
+    {
+      "cdrh3_min_distance": 3,
+      "input_order": 9,
+      "min_pair_edit_distance_to_selected_denovo": null,
+      "n_high_severity": 2,
+      "novelty_class": "novel",
+      "rank": 11,
+      "selection_basis": "optimization existing frozen FACS/SPR shortlist",
+      "selection_method": "preserved_frozen_optimization_order",
+      "sequence_id": "opt_WSGRRFYHMD",
+      "track": "optimization",
+      "track_rank": 9
+    },
+    {
+      "cdrh3_min_distance": 7,
+      "input_order": 19,
+      "min_pair_edit_distance_to_selected_denovo": 93,
+      "n_high_severity": 0,
+      "novelty_class": "de_novo",
+      "rank": 12,
+      "selection_basis": "denovo motif/diversity screen only",
+      "selection_method": "greedy_motif_and_pairwise_diversity",
+      "sequence_id": "denovo-scale-antibody-k1_13",
+      "track": "denovo",
+      "track_rank": 3
+    },
+    {
+      "cdrh3_min_distance": 3,
+      "input_order": 10,
+      "min_pair_edit_distance_to_selected_denovo": null,
+      "n_high_severity": 3,
+      "novelty_class": "novel",
+      "rank": 13,
+      "selection_basis": "optimization existing frozen FACS/SPR shortlist",
+      "selection_method": "preserved_frozen_optimization_order",
+      "sequence_id": "opt_YTADGVYHLK",
+      "track": "optimization",
+      "track_rank": 10
+    },
+    {
+      "cdrh3_min_distance": 7,
+      "input_order": 43,
+      "min_pair_edit_distance_to_selected_denovo": 91,
+      "n_high_severity": 0,
+      "novelty_class": "de_novo",
+      "rank": 14,
+      "selection_basis": "denovo motif/diversity screen only",
+      "selection_method": "greedy_motif_and_pairwise_diversity",
+      "sequence_id": "denovo-scale-her2novel-k1_17",
+      "track": "denovo",
+      "track_rank": 4
+    },
+    {
+      "cdrh3_min_distance": 6,
+      "input_order": 40,
+      "min_pair_edit_distance_to_selected_denovo": 101,
+      "n_high_severity": 1,
+      "novelty_class": "de_novo",
+      "rank": 15,
+      "selection_basis": "denovo motif/diversity screen only",
+      "selection_method": "greedy_motif_and_pairwise_diversity",
+      "sequence_id": "denovo-scale-her2novel-k1_14",
+      "track": "denovo",
+      "track_rank": 5
+    },
+    {
+      "cdrh3_min_distance": 6,
+      "input_order": 29,
+      "min_pair_edit_distance_to_selected_denovo": 100,
+      "n_high_severity": 1,
+      "novelty_class": "de_novo",
+      "rank": 16,
+      "selection_basis": "denovo motif/diversity screen only",
+      "selection_method": "greedy_motif_and_pairwise_diversity",
+      "sequence_id": "denovo-scale-her2novel-k1_1",
+      "track": "denovo",
+      "track_rank": 6
+    },
+    {
+      "cdrh3_min_distance": 11,
+      "input_order": 15,
+      "min_pair_edit_distance_to_selected_denovo": 99,
+      "n_high_severity": 1,
+      "novelty_class": "de_novo",
+      "rank": 17,
+      "selection_basis": "denovo motif/diversity screen only",
+      "selection_method": "greedy_motif_and_pairwise_diversity",
+      "sequence_id": "denovo-scale-antibody-k1_6",
+      "track": "denovo",
+      "track_rank": 7
+    },
+    {
+      "cdrh3_min_distance": 9,
+      "input_order": 36,
+      "min_pair_edit_distance_to_selected_denovo": 99,
+      "n_high_severity": 1,
+      "novelty_class": "de_novo",
+      "rank": 18,
+      "selection_basis": "denovo motif/diversity screen only",
+      "selection_method": "greedy_motif_and_pairwise_diversity",
+      "sequence_id": "denovo-scale-her2novel-k1_10",
+      "track": "denovo",
+      "track_rank": 8
+    },
+    {
+      "cdrh3_min_distance": 9,
+      "input_order": 34,
+      "min_pair_edit_distance_to_selected_denovo": 99,
+      "n_high_severity": 1,
+      "novelty_class": "de_novo",
+      "rank": 19,
+      "selection_basis": "denovo motif/diversity screen only",
+      "selection_method": "greedy_motif_and_pairwise_diversity",
+      "sequence_id": "denovo-scale-her2novel-k1_8",
+      "track": "denovo",
+      "track_rank": 9
+    },
+    {
+      "cdrh3_min_distance": 3,
+      "input_order": 16,
+      "min_pair_edit_distance_to_selected_denovo": 93,
+      "n_high_severity": 1,
+      "novelty_class": "de_novo",
+      "rank": 20,
+      "selection_basis": "denovo motif/diversity screen only",
+      "selection_method": "greedy_motif_and_pairwise_diversity",
+      "sequence_id": "denovo-scale-antibody-k1_7",
+      "track": "denovo",
+      "track_rank": 10
+    },
+    {
+      "cdrh3_min_distance": 10,
+      "input_order": 22,
+      "min_pair_edit_distance_to_selected_denovo": 91,
+      "n_high_severity": 1,
+      "novelty_class": "de_novo",
+      "rank": 21,
+      "selection_basis": "denovo motif/diversity screen only",
+      "selection_method": "greedy_motif_and_pairwise_diversity",
+      "sequence_id": "denovo-scale-antibody-k1_21",
+      "track": "denovo",
+      "track_rank": 11
+    },
+    {
+      "cdrh3_min_distance": 3,
+      "input_order": 44,
+      "min_pair_edit_distance_to_selected_denovo": 90,
+      "n_high_severity": 1,
+      "novelty_class": "de_novo",
+      "rank": 22,
+      "selection_basis": "denovo motif/diversity screen only",
+      "selection_method": "greedy_motif_and_pairwise_diversity",
+      "sequence_id": "denovo-scale-her2novel-k1_18",
+      "track": "denovo",
+      "track_rank": 12
+    },
+    {
+      "cdrh3_min_distance": 3,
+      "input_order": 13,
+      "min_pair_edit_distance_to_selected_denovo": 86,
+      "n_high_severity": 1,
+      "novelty_class": "de_novo",
+      "rank": 23,
+      "selection_basis": "denovo motif/diversity screen only",
+      "selection_method": "greedy_motif_and_pairwise_diversity",
+      "sequence_id": "denovo-scale-antibody-k1_4",
+      "track": "denovo",
+      "track_rank": 13
+    },
+    {
+      "cdrh3_min_distance": 7,
+      "input_order": 24,
+      "min_pair_edit_distance_to_selected_denovo": 85,
+      "n_high_severity": 1,
+      "novelty_class": "de_novo",
+      "rank": 24,
+      "selection_basis": "denovo motif/diversity screen only",
+      "selection_method": "greedy_motif_and_pairwise_diversity",
+      "sequence_id": "denovo-scale-antibody-k1_26",
+      "track": "denovo",
+      "track_rank": 14
+    },
+    {
+      "cdrh3_min_distance": 5,
+      "input_order": 37,
+      "min_pair_edit_distance_to_selected_denovo": 85,
+      "n_high_severity": 1,
+      "novelty_class": "de_novo",
+      "rank": 25,
+      "selection_basis": "denovo motif/diversity screen only",
+      "selection_method": "greedy_motif_and_pairwise_diversity",
+      "sequence_id": "denovo-scale-her2novel-k1_11",
+      "track": "denovo",
+      "track_rank": 15
+    },
+    {
+      "cdrh3_min_distance": 5,
+      "input_order": 45,
+      "min_pair_edit_distance_to_selected_denovo": 85,
+      "n_high_severity": 1,
+      "novelty_class": "de_novo",
+      "rank": 26,
+      "selection_basis": "denovo motif/diversity screen only",
+      "selection_method": "greedy_motif_and_pairwise_diversity",
+      "sequence_id": "denovo-scale-her2novel-k1_19",
+      "track": "denovo",
+      "track_rank": 16
+    },
+    {
+      "cdrh3_min_distance": 8,
+      "input_order": 28,
+      "min_pair_edit_distance_to_selected_denovo": 84,
+      "n_high_severity": 1,
+      "novelty_class": "de_novo",
+      "rank": 27,
+      "selection_basis": "denovo motif/diversity screen only",
+      "selection_method": "greedy_motif_and_pairwise_diversity",
+      "sequence_id": "denovo-scale-her2novel-k1_0",
+      "track": "denovo",
+      "track_rank": 17
+    },
+    {
+      "cdrh3_min_distance": 6,
+      "input_order": 47,
+      "min_pair_edit_distance_to_selected_denovo": 90,
+      "n_high_severity": 2,
+      "novelty_class": "de_novo",
+      "rank": 28,
+      "selection_basis": "denovo motif/diversity screen only",
+      "selection_method": "greedy_motif_and_pairwise_diversity",
+      "sequence_id": "denovo-scale-her2novel-k1_25",
+      "track": "denovo",
+      "track_rank": 18
+    },
+    {
+      "cdrh3_min_distance": 11,
+      "input_order": 39,
+      "min_pair_edit_distance_to_selected_denovo": 89,
+      "n_high_severity": 2,
+      "novelty_class": "de_novo",
+      "rank": 29,
+      "selection_basis": "denovo motif/diversity screen only",
+      "selection_method": "greedy_motif_and_pairwise_diversity",
+      "sequence_id": "denovo-scale-her2novel-k1_13",
+      "track": "denovo",
+      "track_rank": 19
+    },
+    {
+      "cdrh3_min_distance": 7,
+      "input_order": 25,
+      "min_pair_edit_distance_to_selected_denovo": 89,
+      "n_high_severity": 2,
+      "novelty_class": "de_novo",
+      "rank": 30,
+      "selection_basis": "denovo motif/diversity screen only",
+      "selection_method": "greedy_motif_and_pairwise_diversity",
+      "sequence_id": "denovo-scale-antibody-k1_28",
+      "track": "denovo",
+      "track_rank": 20
+    }
+  ],
+  "eligible_counts_by_track": {
+    "denovo": 41,
+    "optimization": 10
+  },
+  "eligible_row_count": 51,
+  "exclusion_counts": {
+    "annotation_only_not_in_input_csv": 1,
+    "ranked_out_after_top_20_de_novo": 21,
+    "track_novelty_class_mismatch": 1
+  },
+  "exclusions": [
+    {
+      "reason": "annotation_only_not_in_input_csv",
+      "sequence_id": "denovo-scale-antibody-k1_23"
+    },
+    {
+      "cdrh3_min_distance": 6,
+      "expected_novelty_class": "de_novo",
+      "n_high_severity": 0,
+      "observed_novelty_class": "novel",
+      "reason": "track_novelty_class_mismatch",
+      "sequence_id": "denovo-scale-her2novel-k1_30",
+      "track": "denovo"
+    },
+    {
+      "cdrh3_min_distance": 5,
+      "de_novo_selection_rank": 21,
+      "min_pair_edit_distance_to_selected_denovo": 85,
+      "n_high_severity": 2,
+      "reason": "ranked_out_after_top_20_de_novo",
+      "sequence_id": "denovo-scale-antibody-k1_20",
+      "track": "denovo"
+    },
+    {
+      "cdrh3_min_distance": 5,
+      "de_novo_selection_rank": 22,
+      "min_pair_edit_distance_to_selected_denovo": 85,
+      "n_high_severity": 2,
+      "reason": "ranked_out_after_top_20_de_novo",
+      "sequence_id": "denovo-scale-antibody-k1_5",
+      "track": "denovo"
+    },
+    {
+      "cdrh3_min_distance": 4,
+      "de_novo_selection_rank": 23,
+      "min_pair_edit_distance_to_selected_denovo": 82,
+      "n_high_severity": 2,
+      "reason": "ranked_out_after_top_20_de_novo",
+      "sequence_id": "denovo-scale-her2novel-k1_31",
+      "track": "denovo"
+    },
+    {
+      "cdrh3_min_distance": 9,
+      "de_novo_selection_rank": 24,
+      "min_pair_edit_distance_to_selected_denovo": 95,
+      "n_high_severity": 3,
+      "reason": "ranked_out_after_top_20_de_novo",
+      "sequence_id": "denovo-scale-her2novel-k1_15",
+      "track": "denovo"
+    },
+    {
+      "cdrh3_min_distance": 6,
+      "de_novo_selection_rank": 25,
+      "min_pair_edit_distance_to_selected_denovo": 95,
+      "n_high_severity": 3,
+      "reason": "ranked_out_after_top_20_de_novo",
+      "sequence_id": "denovo-scale-her2novel-k1_4",
+      "track": "denovo"
+    },
+    {
+      "cdrh3_min_distance": 10,
+      "de_novo_selection_rank": 26,
+      "min_pair_edit_distance_to_selected_denovo": 94,
+      "n_high_severity": 3,
+      "reason": "ranked_out_after_top_20_de_novo",
+      "sequence_id": "denovo-scale-her2novel-k1_29",
+      "track": "denovo"
+    },
+    {
+      "cdrh3_min_distance": 6,
+      "de_novo_selection_rank": 27,
+      "min_pair_edit_distance_to_selected_denovo": 89,
+      "n_high_severity": 3,
+      "reason": "ranked_out_after_top_20_de_novo",
+      "sequence_id": "denovo-scale-her2novel-k1_27",
+      "track": "denovo"
+    },
+    {
+      "cdrh3_min_distance": 6,
+      "de_novo_selection_rank": 28,
+      "min_pair_edit_distance_to_selected_denovo": 87,
+      "n_high_severity": 3,
+      "reason": "ranked_out_after_top_20_de_novo",
+      "sequence_id": "denovo-scale-antibody-k1_30",
+      "track": "denovo"
+    },
+    {
+      "cdrh3_min_distance": 4,
+      "de_novo_selection_rank": 29,
+      "min_pair_edit_distance_to_selected_denovo": 85,
+      "n_high_severity": 3,
+      "reason": "ranked_out_after_top_20_de_novo",
+      "sequence_id": "denovo-scale-her2novel-k1_23",
+      "track": "denovo"
+    },
+    {
+      "cdrh3_min_distance": 4,
+      "de_novo_selection_rank": 30,
+      "min_pair_edit_distance_to_selected_denovo": 84,
+      "n_high_severity": 3,
+      "reason": "ranked_out_after_top_20_de_novo",
+      "sequence_id": "denovo-scale-her2novel-k1_5",
+      "track": "denovo"
+    },
+    {
+      "cdrh3_min_distance": 8,
+      "de_novo_selection_rank": 31,
+      "min_pair_edit_distance_to_selected_denovo": 82,
+      "n_high_severity": 3,
+      "reason": "ranked_out_after_top_20_de_novo",
+      "sequence_id": "denovo-scale-antibody-k1_3",
+      "track": "denovo"
+    },
+    {
+      "cdrh3_min_distance": 9,
+      "de_novo_selection_rank": 32,
+      "min_pair_edit_distance_to_selected_denovo": 81,
+      "n_high_severity": 3,
+      "reason": "ranked_out_after_top_20_de_novo",
+      "sequence_id": "denovo-scale-antibody-k1_11",
+      "track": "denovo"
+    },
+    {
+      "cdrh3_min_distance": 9,
+      "de_novo_selection_rank": 33,
+      "min_pair_edit_distance_to_selected_denovo": 81,
+      "n_high_severity": 3,
+      "reason": "ranked_out_after_top_20_de_novo",
+      "sequence_id": "denovo-scale-antibody-k1_9",
+      "track": "denovo"
+    },
+    {
+      "cdrh3_min_distance": 6,
+      "de_novo_selection_rank": 34,
+      "min_pair_edit_distance_to_selected_denovo": 81,
+      "n_high_severity": 3,
+      "reason": "ranked_out_after_top_20_de_novo",
+      "sequence_id": "denovo-scale-antibody-k1_18",
+      "track": "denovo"
+    },
+    {
+      "cdrh3_min_distance": 4,
+      "de_novo_selection_rank": 35,
+      "min_pair_edit_distance_to_selected_denovo": 78,
+      "n_high_severity": 3,
+      "reason": "ranked_out_after_top_20_de_novo",
+      "sequence_id": "denovo-scale-antibody-k1_24",
+      "track": "denovo"
+    },
+    {
+      "cdrh3_min_distance": 8,
+      "de_novo_selection_rank": 36,
+      "min_pair_edit_distance_to_selected_denovo": 90,
+      "n_high_severity": 4,
+      "reason": "ranked_out_after_top_20_de_novo",
+      "sequence_id": "denovo-scale-her2novel-k1_6",
+      "track": "denovo"
+    },
+    {
+      "cdrh3_min_distance": 7,
+      "de_novo_selection_rank": 37,
+      "min_pair_edit_distance_to_selected_denovo": 85,
+      "n_high_severity": 4,
+      "reason": "ranked_out_after_top_20_de_novo",
+      "sequence_id": "denovo-scale-antibody-k1_2",
+      "track": "denovo"
+    },
+    {
+      "cdrh3_min_distance": 5,
+      "de_novo_selection_rank": 38,
+      "min_pair_edit_distance_to_selected_denovo": 78,
+      "n_high_severity": 4,
+      "reason": "ranked_out_after_top_20_de_novo",
+      "sequence_id": "denovo-scale-her2novel-k1_9",
+      "track": "denovo"
+    },
+    {
+      "cdrh3_min_distance": 9,
+      "de_novo_selection_rank": 39,
+      "min_pair_edit_distance_to_selected_denovo": 85,
+      "n_high_severity": 5,
+      "reason": "ranked_out_after_top_20_de_novo",
+      "sequence_id": "denovo-scale-her2novel-k1_16",
+      "track": "denovo"
+    },
+    {
+      "cdrh3_min_distance": 8,
+      "de_novo_selection_rank": 40,
+      "min_pair_edit_distance_to_selected_denovo": 80,
+      "n_high_severity": 5,
+      "reason": "ranked_out_after_top_20_de_novo",
+      "sequence_id": "denovo-scale-antibody-k1_31",
+      "track": "denovo"
+    },
+    {
+      "cdrh3_min_distance": 5,
+      "de_novo_selection_rank": 41,
+      "min_pair_edit_distance_to_selected_denovo": 94,
+      "n_high_severity": 6,
+      "reason": "ranked_out_after_top_20_de_novo",
+      "sequence_id": "denovo-scale-her2novel-k1_12",
+      "track": "denovo"
+    }
+  ],
+  "file": "team-3-ranked-draft30.csv",
+  "input_hashes": {
+    "output/submission-draft/team-3-abguard-pass.csv": "2129d33fd119474445a28ff14bba8c9635ba8695d102f3218a50aec9005fc383",
+    "results/abguard-validation/raw/annotated.json": "2a0aad7c2200aebf66f22c8302b8328814d40e13cdae0f2ed4c842c40f411aab"
+  },
+  "input_row_count": 52,
+  "no_lab_evidence": {
+    "binding": "not_measured",
+    "epitope_competition": "not_measured",
+    "thermal_stability": "not_measured"
+  },
+  "policy": {
+    "denovo": [
+      "greedy selection over eligible de novo rows",
+      "lowest n_high_severity motif occurrence count",
+      "highest minimum pair edit distance to selected de novo rows, Lev VH plus Lev VL, zero when empty",
+      "highest cdrh3_min_distance",
+      "lexical sequence_id"
+    ],
+    "description_prefix": "priority=NN; selection_basis=...; original description follows unchanged",
+    "interleaving": "three optimization rows then one de novo row while optimization rows remain, then remaining de novo rows",
+    "minimum_rows": 28,
+    "optimization": "preserve all eligible rows in original CSV order",
+    "requested_rows": 30,
+    "score_scope": "sequence warnings and diversity only; not a calibrated biological score",
+    "suggested_rows": 30,
+    "track_counts": {
+      "denovo": 20,
+      "optimization": 10
+    }
+  },
+  "row_count": 30,
+  "sha256": "6bde64fc843d7334807b32bb0deda2c57c7104ab1ef5da828c1b0833622a6919",
+  "status": "review_draft_not_submitted"
+}

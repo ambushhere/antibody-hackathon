@@ -1,0 +1,549 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "cohort": "Primary novelty cohort",
+  "ordered_sequence_ids": [
+    "AGDYARYGFG",
+    "AGYDGLYAID",
+    "DGGAGTYAID",
+    "DGGDGWYSSD",
+    "DGGIGYYDYD",
+    "DGGPGAYAID",
+    "DGGPSFNALA",
+    "DGGSGFRASD",
+    "DGLANWGSFE",
+    "DGSLGSPRLG",
+    "EDGPWNYALA",
+    "EGGPSFHALA",
+    "FGSRGFYAYA",
+    "FPAVGAYIIQ",
+    "GGYGGLYAFD",
+    "HDGFGFYNMD",
+    "HGGPGGYLMD",
+    "HGGTGYLYFD",
+    "HSGDGYYAYD",
+    "LWGVSRVPMD",
+    "LYYSTGPYFN",
+    "MADPDAYSFY",
+    "MGGDGFYAID",
+    "NANGNGYYLD",
+    "NDGDGRYAYD",
+    "NGFVGFYSWD",
+    "NGGSGFPMFD",
+    "NGGWIFYYID",
+    "NGQVYVGAYD",
+    "QYGSGFYYYD",
+    "SGGAGWYAPD",
+    "SGGTGYYALA",
+    "SSGDGIYYFD",
+    "TGGPSFNALA",
+    "VGGDGFYAMD",
+    "VGGDGWYDFD",
+    "VGGEGFNGLQ",
+    "VGGGGWYPID",
+    "VGGPGHNALD",
+    "VGGPGQYGLE",
+    "VGGPGRNALD",
+    "VGGPSFNALE",
+    "VGGPSFNALQ",
+    "VGGPSHYALA",
+    "VGGQSFNALA",
+    "VTGSGFNYYD",
+    "WAERYGWTFD",
+    "WASCSFYSFD",
+    "WDAGGFYAKV",
+    "WDEKGFYTMG",
+    "WDGGGFYADD",
+    "WDVGGWYYFD",
+    "WENFGKWYFD",
+    "WFENGGNVLD",
+    "WGAEGFYYWD",
+    "WGAVRLYTLE",
+    "WGDNGFYALD",
+    "WGGAGFYAHI",
+    "WGGAGSTGYD",
+    "WGGDAFYAMS",
+    "WGGDDLYAMD",
+    "WGGDGAYATE",
+    "WGGDGFHAMD",
+    "WGGDGFHAYD",
+    "WGGDGFHHYD",
+    "WGGDGFNAGD",
+    "WGGDGFTQHD",
+    "WGGDGFYAAD",
+    "WGGDGFYAKD",
+    "WGGDGFYLMD",
+    "WGGDGGNTYD",
+    "WGGDGGYAMD",
+    "WGGDGHVAFD",
+    "WGGDGKYASD",
+    "WGGDGRYAMD",
+    "WGGDGSTNFD",
+    "WGGDGTYHFD",
+    "WGGDGWYAPD",
+    "WGGDGWYGFD",
+    "WGGDNFYAFD",
+    "WGGDNFYAID",
+    "WGGDNFYAMD",
+    "WGGDTKYVMD",
+    "WGGDVSYAFD",
+    "WGGDWYYAMD",
+    "WGGDYFYAFE",
+    "WGGEGFYAMD",
+    "WGGFGFSALD",
+    "WGGGGMHAFD",
+    "WGGGGVNWFD",
+    "WGGHGEFAYD",
+    "WGGNGFYAMD",
+    "WGGPSFNALQ",
+    "WGGSGDWAFD",
+    "WGGSGRYADD",
+    "WGGSGVYGFD",
+    "WGGSGYHGPD",
+    "WGGTGDYRYD",
+    "WGGTGFYTVD",
+    "WGGVGWYAVD",
+    "WGGYAFYSYD",
+    "WGGYGFNYLD",
+    "WGHFGFYYSD",
+    "WGLALFHAWD",
+    "WGLDGWYGFD",
+    "WGMCGSYMFA",
+    "WGMRAAYFYN",
+    "WGNLGYSSAD",
+    "WGRGVFLFYR",
+    "WGSAWSYYLD",
+    "WGSDGWYAMD",
+    "WGSGGVGAFD",
+    "WGSQGFYAYD",
+    "WGSRGDYYTD",
+    "WGSSGFYYTD",
+    "WGSYGSNSFE",
+    "WGTGGFTAYD",
+    "WGTSGHGAFD",
+    "WKGYGSYVHD",
+    "WLGSGFQHLD",
+    "WPGAGFNGLD",
+    "WSARAAYGAD",
+    "WSEAGFFDLT",
+    "WSGDGDYYND",
+    "WTGDGDYSFE",
+    "WTRPGLYVFA",
+    "WTYNSFYAMD",
+    "WVGDGFYATD",
+    "WVGDGTYALY",
+    "WVGVGNYAND",
+    "WWGDGKYLND",
+    "WWGSGFHSMD",
+    "WWGSGPHNFD",
+    "WYRSGWYELD",
+    "YAARTFYAMT",
+    "YADDGFWALF",
+    "YASNFYSDML",
+    "YDAYGFYAAN",
+    "YESVGWIDFD",
+    "YFGDNFYAMG",
+    "YGAAGWWAFD",
+    "YGGDAVYSPD",
+    "YGGPTQHALT",
+    "YGLRGGFGYY",
+    "YGSTGYYYMA",
+    "YGSYGYLGRD",
+    "YGSYGYYVGR",
+    "YGYPGGYSAD",
+    "YLGDGWWAMT",
+    "YLLNGVFVFD",
+    "YNAGMYVYTG",
+    "YSGSGPYAFD",
+    "YSSGSYGFFH",
+    "YSSPDGFGLS",
+    "YYAQGNYVYD",
+    "YYGDGFYAMD",
+    "YYLGGFYFYD",
+    "YYPAWGATDD"
+  ],
+  "inputs": {
+    "train": {
+      "source": "/home/hackathon/almaz/data/hackathon-data/zenodo-10831512-trastuzumab-ngs/data.zip!data/affinity_data/her2/her2_aff_large/processed/remove_overlap/clonotype_split/0.7_0.15_0.15/train.csv",
+      "sha256": "b639077ff116daa8b8c3a2122b6ed9291361892469f6237963967ca0772cb262"
+    },
+    "val": {
+      "source": "/home/hackathon/almaz/data/hackathon-data/zenodo-10831512-trastuzumab-ngs/data.zip!data/affinity_data/her2/her2_aff_large/processed/remove_overlap/clonotype_split/0.7_0.15_0.15/val.csv",
+      "sha256": "ea5e2e0908f018f579e476cef4452f9de11ba9144513bffa783588d49123f5d1"
+    },
+    "test": {
+      "source": "/home/hackathon/almaz/data/hackathon-data/zenodo-10831512-trastuzumab-ngs/data.zip!data/affinity_data/her2/her2_aff_large/processed/remove_overlap/clonotype_split/0.7_0.15_0.15/test.csv",
+      "sha256": "b350c10c7df4eb5e1b966f76909a805fc7d8011486f1ddb5dd1d7a6e19556a06"
+    },
+    "facs": {
+      "source": "/home/hackathon/almaz/data/hackathon-data/her2-trastuzumab/tz_her2_facs_3classes_524346.csv.zip!tz_her2_facs_3classes_524346.csv",
+      "sha256": "7ff5a95bcc1942bb6e34b1e4ed6c02a9c177ee30ca160440f8abe82ed787735e"
+    },
+    "frozen_oof": {
+      "source": "/home/hackathon/almaz/work/neural-20261114/results/spr-benchmark/oof_predictions.csv",
+      "sha256": "44dfc97781fb80652aa59bfb8226e3b71fc501053d12c1d6e66cf8ea1c180fbf"
+    }
+  },
+  "code": {
+    "trainer": {
+      "source": "/home/hackathon/almaz/work/neural-20261114/scripts/train_her2_neural.py",
+      "sha256": "bbf798058a270178f93950439dce550ab73f2dff559b6496f7b467428d7fa1e7"
+    },
+    "facs_benchmark": {
+      "source": "/home/hackathon/almaz/work/neural-20261114/src/her2_benchmark.py",
+      "sha256": "47faea9e341cbfc76a43af13fb16bd694545c9814ac8de5028b4040e20243257"
+    }
+  },
+  "audits": {
+    "split_audit": {
+      "counts": {
+        "train": {
+          "rows": 367044,
+          "unique_cdrh3": 367044,
+          "duplicate_cdrh3_rows": 0,
+          "unique_cluster_centres": 13829,
+          "facs_class_counts": {
+            "high": 120505,
+            "mid": 143278,
+            "low": 103261
+          },
+          "positive_high": 120505,
+          "negative_mid_or_low": 246539
+        },
+        "val": {
+          "rows": 78651,
+          "unique_cdrh3": 78651,
+          "duplicate_cdrh3_rows": 0,
+          "unique_cluster_centres": 251,
+          "facs_class_counts": {
+            "high": 25822,
+            "mid": 18629,
+            "low": 34200
+          },
+          "positive_high": 25822,
+          "negative_mid_or_low": 52829
+        },
+        "test": {
+          "rows": 78651,
+          "unique_cdrh3": 78651,
+          "duplicate_cdrh3_rows": 0,
+          "unique_cluster_centres": 706,
+          "facs_class_counts": {
+            "high": 25822,
+            "mid": 28104,
+            "low": 24725
+          },
+          "positive_high": 25822,
+          "negative_mid_or_low": 52829
+        }
+      },
+      "overlaps": {
+        "train/val": {
+          "cdrh3": 0,
+          "cluster_centre": 0,
+          "left_cdrh3_right_centre": 0,
+          "left_centre_right_cdrh3": 0
+        },
+        "train/test": {
+          "cdrh3": 0,
+          "cluster_centre": 0,
+          "left_cdrh3_right_centre": 0,
+          "left_centre_right_cdrh3": 0
+        },
+        "val/test": {
+          "cdrh3": 0,
+          "cluster_centre": 0,
+          "left_cdrh3_right_centre": 0,
+          "left_centre_right_cdrh3": 0
+        }
+      }
+    },
+    "facs_mapping": {
+      "rows": 524346,
+      "matched_rows_by_split": {
+        "train": 367044,
+        "val": 78651,
+        "test": 78651
+      },
+      "unused_mapping_rows": 0
+    },
+    "primary_spr_encoder_overlap": {
+      "rows": 158,
+      "exact_cdrh3_match_count_by_split": {
+        "train": 0,
+        "val": 0,
+        "test": 6
+      },
+      "exact_cdrh3_match_ids_by_split": {
+        "train": [],
+        "val": [],
+        "test": [
+          "FGSRGFYAYA",
+          "WASCSFYSFD",
+          "WDAGGFYAKV",
+          "WGAVRLYTLE",
+          "WGMCGSYMFA",
+          "WTRPGLYVFA"
+        ]
+      }
+    }
+  },
+  "configuration": {
+    "data_dir": "/home/hackathon/almaz/data/hackathon-data",
+    "oof": "/home/hackathon/almaz/work/neural-20261114/results/spr-benchmark/oof_predictions.csv",
+    "output": "runs/large-seed3",
+    "size": "large",
+    "seed": 3,
+    "epochs": 15,
+    "models": [
+      "transformer"
+    ],
+    "device": "cuda",
+    "batch_size": 2048,
+    "class_to_index": {
+      "low": 0,
+      "mid": 1,
+      "high": 2
+    },
+    "residue_alphabet": "ACDEFGHIKLMNPQRSTVWY",
+    "loss": "unweighted three-class cross entropy",
+    "optimizer": "AdamW",
+    "learning_rate": 0.0003,
+    "weight_decay": 0.01,
+    "dropout": 0.1,
+    "cpu_threads": 4,
+    "dtype": "float32",
+    "deterministic_algorithms": true,
+    "checkpoint_selection": "highest validation high-class AP; ties use earliest epoch",
+    "architecture": {
+      "transformer": [
+        256,
+        6,
+        8,
+        1024
+      ],
+      "mlp": [
+        2048,
+        2048,
+        256
+      ]
+    },
+    "cuda_device_name": "NVIDIA H100 80GB HBM3",
+    "cublas_workspace_config": ":4096:8"
+  },
+  "versions": {
+    "python": "3.12.3",
+    "platform": "Linux-6.11.0-1016-nvidia-x86_64-with-glibc2.39",
+    "torch": "2.15.0",
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "torch_cuda": "13.2",
+    "cudnn": 92600
+  },
+  "historical_facs_logistic": {
+    "source": "docs/BENCHMARK.md",
+    "original_metrics_sha256": "229f4e90912aad73e4923f50f59970a53b922da8d4ce1ef0b8e413773fe36a78",
+    "selected_model": "pairwise logistic regression",
+    "selection": "validation high-class average precision",
+    "split": "published FACS test",
+    "roc_auc": 0.9858926153128575,
+    "pr_auc_average_precision": 0.973718568352088
+  },
+  "models": {
+    "transformer": {
+      "parameter_count": 4748035,
+      "latent_width": 256,
+      "history": [
+        {
+          "epoch": 1,
+          "train_cross_entropy": 0.8998709112531468,
+          "validation_high_ap": 0.8805860733424111,
+          "checkpoint": {
+            "file": "epoch-01.pt",
+            "sha256": "2560f9bbdbf391c6a94d45212be77b4e68f93a2a8b2e3f84e741dc3b8d68748c"
+          },
+          "elapsed_seconds": 7.630560287998378
+        },
+        {
+          "epoch": 2,
+          "train_cross_entropy": 0.6976564373072438,
+          "validation_high_ap": 0.9658080489956328,
+          "checkpoint": {
+            "file": "epoch-02.pt",
+            "sha256": "62d7c9ecf9bd65111892f3e28e0431ce48d397e3a9bed383002e3474fa7f5f71"
+          },
+          "elapsed_seconds": 7.330356923997897
+        },
+        {
+          "epoch": 3,
+          "train_cross_entropy": 0.5159075785191967,
+          "validation_high_ap": 0.9810284948712223,
+          "checkpoint": {
+            "file": "epoch-03.pt",
+            "sha256": "3c35e6222a07c3892b806ab70918a42576d4a78769292633e1f7f671be1d7401"
+          },
+          "elapsed_seconds": 7.324253110000427
+        },
+        {
+          "epoch": 4,
+          "train_cross_entropy": 0.4111000656597029,
+          "validation_high_ap": 0.9853186504104708,
+          "checkpoint": {
+            "file": "epoch-04.pt",
+            "sha256": "431e57834fa5767be959747caa40f1fd34c65877a3c39015d2a3e7925a49883e"
+          },
+          "elapsed_seconds": 7.322206092001579
+        },
+        {
+          "epoch": 5,
+          "train_cross_entropy": 0.3403542686639749,
+          "validation_high_ap": 0.9902232067826093,
+          "checkpoint": {
+            "file": "epoch-05.pt",
+            "sha256": "7860371e63f4adba4a22ca4407dbc48bbf62e03581ff1af142d129c740a40014"
+          },
+          "elapsed_seconds": 7.323826144998748
+        },
+        {
+          "epoch": 6,
+          "train_cross_entropy": 0.2931696157340809,
+          "validation_high_ap": 0.9918465932943905,
+          "checkpoint": {
+            "file": "epoch-06.pt",
+            "sha256": "828a879cc39cb58924ebcad66bd97ace1b36c1d982a073937897075401844097"
+          },
+          "elapsed_seconds": 7.326687929999025
+        },
+        {
+          "epoch": 7,
+          "train_cross_entropy": 0.2575504614228812,
+          "validation_high_ap": 0.9931346371119097,
+          "checkpoint": {
+            "file": "epoch-07.pt",
+            "sha256": "05fe67887f10bffabc66c8f5baa327689d40ea3bacd619939e61577c3734b46c"
+          },
+          "elapsed_seconds": 7.325316154998291
+        },
+        {
+          "epoch": 8,
+          "train_cross_entropy": 0.23050806323628775,
+          "validation_high_ap": 0.9936309432829982,
+          "checkpoint": {
+            "file": "epoch-08.pt",
+            "sha256": "32265438033d7376fce5195c108878d0b293bf919cdf87574aaf5b3ddfb24e29"
+          },
+          "elapsed_seconds": 7.3244401890005975
+        },
+        {
+          "epoch": 9,
+          "train_cross_entropy": 0.21060824366424732,
+          "validation_high_ap": 0.9939438680176058,
+          "checkpoint": {
+            "file": "epoch-09.pt",
+            "sha256": "019f734a17b4caab4d9850b0939d022784abae337d0e7901042052b3f200c6ea"
+          },
+          "elapsed_seconds": 7.321100437002315
+        },
+        {
+          "epoch": 10,
+          "train_cross_entropy": 0.19062622175406763,
+          "validation_high_ap": 0.9947295774261479,
+          "checkpoint": {
+            "file": "epoch-10.pt",
+            "sha256": "3975c64a1aed4c5ca85d0917eb0ff5b8e5c9e5cb52ee8bdd459b1fa5cdafc8e4"
+          },
+          "elapsed_seconds": 7.322116163999453
+        },
+        {
+          "epoch": 11,
+          "train_cross_entropy": 0.17595361523414085,
+          "validation_high_ap": 0.9954200937154916,
+          "checkpoint": {
+            "file": "epoch-11.pt",
+            "sha256": "e79e26914c53eafd3e6b3f9a55d6eaa43b36d68805f677972c19baebb92d219a"
+          },
+          "elapsed_seconds": 7.323036835998209
+        },
+        {
+          "epoch": 12,
+          "train_cross_entropy": 0.16572729955400442,
+          "validation_high_ap": 0.9954621925685565,
+          "checkpoint": {
+            "file": "epoch-12.pt",
+            "sha256": "19337c181866660afc2a8d06a8bdd597ad2499daa97a3becb37a0b48341a96ef"
+          },
+          "elapsed_seconds": 7.323669474997587
+        },
+        {
+          "epoch": 13,
+          "train_cross_entropy": 0.1537467770383115,
+          "validation_high_ap": 0.9956837131361493,
+          "checkpoint": {
+            "file": "epoch-13.pt",
+            "sha256": "475bd0b89d113fcfff67a48ab1bd41a35d898d1110718511b3d91e55321049ea"
+          },
+          "elapsed_seconds": 7.323940760998084
+        },
+        {
+          "epoch": 14,
+          "train_cross_entropy": 0.1445870909720633,
+          "validation_high_ap": 0.9960795418494993,
+          "checkpoint": {
+            "file": "epoch-14.pt",
+            "sha256": "b1bb6681fb02fee4ef268d93794f0e5f5a313b2c429194e91251f72e37553537"
+          },
+          "elapsed_seconds": 7.322324277996813
+        },
+        {
+          "epoch": 15,
+          "train_cross_entropy": 0.13595614345623414,
+          "validation_high_ap": 0.9964055028193805,
+          "checkpoint": {
+            "file": "epoch-15.pt",
+            "sha256": "6244ba960ea2b72bf22fd1547e24ad272864fb321e7e548a0959c40c4cdd30bb"
+          },
+          "elapsed_seconds": 7.323647887002153
+        }
+      ],
+      "best_epoch": 15,
+      "best_validation_high_ap": 0.9964055028193805,
+      "best_checkpoint": {
+        "file": "best.pt",
+        "sha256": "6244ba960ea2b72bf22fd1547e24ad272864fb321e7e548a0959c40c4cdd30bb"
+      },
+      "training_seconds": 110.1733830689991,
+      "facs_test": {
+        "roc_auc": 0.9963202097362812,
+        "pr_auc_average_precision": 0.9929669653227211,
+        "balanced_accuracy_at_0_5": 0.9732284486500308,
+        "brier": 0.020436817780137062,
+        "top_1_percent": {
+          "n": 787,
+          "precision": 1.0,
+          "enrichment": 3.045891100611881
+        },
+        "top_5_percent": {
+          "n": 3933,
+          "precision": 0.9997457411645054,
+          "enrichment": 3.0451166558875964
+        }
+      }
+    }
+  },
+  "output": {
+    "file": "features.npz",
+    "sha256": "3729d5a058e5d1143caf9a4bfdcbd7140d301b7ea9db6c75b549e6a7c9440d5b",
+    "feature_shapes": {
+      "facs_transformer": [
+        158,
+        256
+      ]
+    },
+    "primary_probabilities": {
+      "source": "runs/large-seed3/primary_probabilities.csv",
+      "sha256": "4bc64f7bff67d562805bc6518b469b72673b7f7a076b4e698d68ae97a5abb591"
+    }
+  }
+}

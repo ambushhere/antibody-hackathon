@@ -1,0 +1,13 @@
+{
+  "file": "neural-large-seed3-weights.tar.gz",
+  "bytes": 17566497,
+  "sha256": "ddeee4c98b7322c8212fc7892ee1672e7aa55266a1d7ab3709765e37ed864222",
+  "extract_under": "results",
+  "members": [
+    {
+      "path": "neural-runs/large-seed3/transformer/best.pt",
+      "bytes": 19015734,
+      "sha256": "6244ba960ea2b72bf22fd1547e24ad272864fb321e7e548a0959c40c4cdd30bb"
+    }
+  ]
+}

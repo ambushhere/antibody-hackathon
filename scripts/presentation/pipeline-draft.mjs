@@ -8,7 +8,7 @@
  *   RUNTIME_NODE_MODULES=/path/to/node_modules \
  *   RUNTIME_PYTHON=/path/to/python3 \
  *   PRESENTATIONS_SKILL_DIR=/path/to/presentations/skills/presentations \
- *   OUTPUT_STEM=her2-hackathon-pipeline-draft-v6 \
+ *   OUTPUT_STEM=her2-hackathon-pipeline-draft-v8 \
  *   "$RUNTIME_NODE" scripts/presentation/pipeline-draft.mjs
  *
  * The runtime module directory is linked only inside the ignored results/tmp
@@ -24,7 +24,7 @@ const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const workspaceDir = path.resolve(scriptDir, "../..");
 const buildDir = process.env.BUILD_DIR ?? path.join(workspaceDir, "results/tmp/her2-slide-build");
 const outputDir = path.join(workspaceDir, "output/pipeline-draft");
-const outputStem = process.env.OUTPUT_STEM ?? "her2-hackathon-pipeline-draft-v6";
+const outputStem = process.env.OUTPUT_STEM ?? "her2-hackathon-pipeline-draft-v8";
 const finalPath = path.join(outputDir, `${outputStem}.pptx`);
 const candidatePath = path.join(outputDir, ".candidate-her2-pipeline.pptx");
 const receiptPath = path.join(buildDir, `${path.basename(finalPath)}.validation.json`);
@@ -161,12 +161,12 @@ function addHeader(slide, title, subtitle) {
 
   addRule(slide, 64, 555, 1216, C.rule, 1.2);
   addText(slide, "52", 68, 574, 83, 59, { size: 46, bold: true, color: C.ink });
-  addText(slide, "pass installed abguard\n11 novel + 41 de_novo", 158, 578, 426, 56, { size: 22, color: C.ink, bold: true });
-  addText(slide, "53 screened against bundled reference. Final list ≤20; laboratory outcomes unmeasured.", 617, 584, 585, 48, { size: 18, color: C.amber, valign: "middle" });
+  addText(slide, "pass installed abguard\nDraft: 10 optimization + 20 de novo", 158, 578, 426, 56, { size: 22, color: C.ink, bold: true });
+  addText(slide, "53 screened → 52 pass → ranked draft of 30. Up to 28 lab slots; outcomes unmeasured.", 617, 584, 585, 48, { size: 18, color: C.amber, valign: "middle" });
 
   slide.speakerNotes.text = [
     "Питч: в оптимизации сохраняем каркас VH/VL трастузумаба и меняем десятиостаточное окно CDRH3. Сигнал FACS и ridge, обученный на измерениях SPR, дают предварительный порядок для десяти вариантов.",
-    "De novo ветка использует RFD4-Proteina с antibody и HER2-novel checkpoint. Из 64 созданных пар после локальной проверки осталось 43 уникальные последовательности. Это происхождение дизайнов, не присвоенный трек. Abguard 0.1.0 с базой 610109 CDRH3 допускает 52/53 (11 novel, 41 de_novo), один дизайн отклонён. Допуск не доказывает связывание.",
+    "De novo ветка использует RFD4-Proteina с antibody и HER2-novel checkpoint. Из 64 созданных пар после локальной проверки осталось 43 уникальные последовательности. Это происхождение дизайнов, не присвоенный трек. Abguard 0.1.0 с базой 610109 CDRH3 допускает 52/53 (11 novel, 41 de_novo), один дизайн отклонён. Допуск не доказывает связывание. Обновление организаторов 16:33 требует явную шестую колонку track; в прошедшем пуле 10 optimization и 42 denovo. Внутренний класс инструмента отличается от заявленного трека у одного дизайна. Уточнение 16:39: минимум 28 строк, рекомендовано около 30, берут первые N. Черновик на 30 исключает конфликт треков и содержит 10 optimization и 20 denovo; первые четыре 3+1.",
     "Sources: docs/research/abguard-validation.md; docs/research/denovo-scale-results.md; results/denovo-scale-audit/summary.json; results/spr-expanded-ranking/report.md; configs/her2-candidate-screen/manifest.json; docs/research/candidate-screen-results.md.",
   ].join("\n\n");
 }

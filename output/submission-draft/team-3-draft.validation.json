@@ -1,7 +1,7 @@
 {
   "status": "draft_research_pool_not_submitted_not_final_slot_selection",
   "file": "team-3-draft.csv",
-  "sha256": "661bffcab9fb9e5c954d12e38e4424d3c1641550de82a68e7ce5ebf3340ecb87",
+  "sha256": "01c946144ad03e997c13e1fcf6e0d3451584b22fd6c378989d9e1e33f13092ce",
   "source_panel_sha256": "0e99a647b10e1c92105b000cf5a1c9c999b86b8aaa4c811ad8591059ee8964b7",
   "rows": 53,
   "kind": "paired",
@@ -10,9 +10,10 @@
     "denovo": 43
   },
   "validation": "local format and immunum checks, not the official abguard gate",
-  "official_track_assignment": "abguard determines the track; descriptions record intent only",
-  "final_ranked_submission_limit": 20,
-  "within_final_submission_row_limit": false,
+  "official_track_assignment": "explicit track column per organizer update at 16:33; installed tool class audited separately",
+  "minimum_ranked_submission_count": 28,
+  "recommended_ranked_submission_count": 30,
+  "meets_minimum_submission_count": true,
   "team_filename": "team-3 is the VM team label; confirm the actual team name before manual submission",
   "designs": [
     {

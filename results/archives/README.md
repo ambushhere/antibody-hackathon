@@ -9,6 +9,7 @@ The later control experiment and sequence audit have separate archives so they c
 | [template-controls-manifest.json](template-controls-manifest.json) | All 48 no-MSA Protenix poses, confidence arrays, logs and receipts, plus the pinned original 1N8Z and 6OGE deposits | `results/` |
 | [template-msa-controls-manifest.json](template-msa-controls-manifest.json) | All 24 target-MSA control poses and their runtime receipts | `results/` |
 | [denovo-scale-manifest.json](denovo-scale-manifest.json) | All 64 generated structures from the two pre-existing team VM RFD4 runs and their provenance | `results/` |
+| [neural-seed3-weights-manifest.json](neural-seed3-weights-manifest.json) | Selected fourth-seed large Transformer weights, metadata under `results/neural-runs/large-seed3/` | `results/` |
 | [abguard-installed-package-manifest.json](abguard-installed-package-manifest.json) | Exact installed abguard Python package and bundled reference, with dependency versions recorded separately in `results/abguard-validation/raw/environment.json` | `results/tmp/abguard-installed/` |
 | [external-spr-sources-manifest.json](external-spr-sources-manifest.json) | Five pinned Absci source files, including source README and Clear BSD license | `data/` |
 

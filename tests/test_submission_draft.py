@@ -31,6 +31,9 @@ def test_export_exact_schema_and_source_sequences_without_controls(tmp_path):
     assert report["counts_by_track"] == {"optimization": 10, "denovo": 43}
     assert len({r["sequence_id"] for r in rows}) == 53
     assert all(r["kind"] == "paired" and r["light_sequence"] for r in rows)
+    assert FIELDS[-1] == 'track' and len(FIELDS) == 6
+    assert sum(r['track'] == 'optimization' for r in rows) == 10
+    assert sum(r['track'] == 'denovo' for r in rows) == 43
     assert all(not r["sequence_id"].startswith("control_") for r in rows)
     assert all(r["design_description"].startswith("DRAFT") for r in rows)
     assert all(r["official_abguard_status"] == "not_run_by_this_exporter" for r in report["designs"])

@@ -11,8 +11,11 @@ def test_saved_tool_evidence_and_exact_export(tmp_path):
     result = reconcile(Path('results/abguard-validation/raw'), tmp_path/'report', tmp_path/'pass.csv')
     assert result['passed'] == 52
     assert result['accepted_classes'] == {'novel': 11, 'de_novo': 41}
+    assert result['explicit_submission_tracks'] == {'optimization': 10, 'denovo': 42}
+    assert result['track_class_mismatch_ids'] == ['denovo-scale-her2novel-k1_30']
     assert result['rejected_ids'] == ['denovo-scale-antibody-k1_23']
-    assert not result['within_20_design_final_limit']
+    assert result['meets_minimum_28_design_count']
+    assert not result['is_final_ranked_submission']
 
 
 @pytest.mark.parametrize('tamper', ['unchecked', 'sequence', 'missing', 'duplicate'])

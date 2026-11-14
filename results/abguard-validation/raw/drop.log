@@ -1,0 +1,5 @@
+INFO     using the reference bundled with abguard (reference_data)
+WARNING  candidates.csv: dropped rows for [novelty] denovo-scale-antibody-k1_23: CDRH3 ARVSGYGAMDY is 1 mutation(s) from ARGVSGYGAMDY in uspto:uspto_AKV99494; a de_novo design needs at least 2
+INFO     candidates: 52/53 design(s) valid
+WARNING    [novelty] denovo-scale-antibody-k1_23: CDRH3 ARVSGYGAMDY is 1 mutation(s) from ARGVSGYGAMDY in uspto:uspto_AKV99494; a de_novo design needs at least 2
+INFO     wrote 52 rows to valid.csv

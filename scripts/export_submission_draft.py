@@ -11,7 +11,7 @@ from immunum import Annotator
 
 from scripts.prepare_candidate_screen import panel_bundle
 
-FIELDS = ("sequence_id", "kind", "heavy_sequence", "light_sequence", "design_description")
+FIELDS = ("sequence_id", "kind", "heavy_sequence", "light_sequence", "design_description", "track")
 AA = frozenset("ACDEFGHIKLMNPQRSTVWY")
 
 
@@ -60,7 +60,7 @@ def export(output, selected_ids=None):
                f"RFD4-Proteina {candidate['generation']['checkpoint']}, paired VH/VL design; ")
             + "local sequence checks passed; official novelty pending; binding, epitope and thermal results unmeasured"
         )
-        rows.append(dict(zip(FIELDS, (candidate["query_id"], "paired", heavy, light, description))))
+        rows.append(dict(zip(FIELDS, (candidate["query_id"], "paired", heavy, light, description, candidate['track']))))
         evidence.append({"sequence_id": candidate["query_id"], "track": candidate["track"],
                          "source": candidate["source"], "source_sha256": candidate["source_sha256"],
                          "paired_sequence_sha256": candidate["paired_sequence_sha256"],
@@ -78,9 +78,10 @@ def export(output, selected_ids=None):
         "rows": len(rows), "kind": "paired",
         "counts_by_track": {t: sum(r["track"] == t for r in evidence) for t in ("optimization", "denovo")},
         "validation": "local format and immunum checks, not the official abguard gate",
-        "official_track_assignment": "abguard determines the track; descriptions record intent only",
-        "final_ranked_submission_limit": 20,
-        "within_final_submission_row_limit": len(rows) <= 20,
+        "official_track_assignment": "explicit track column per organizer update at 16:33; installed tool class audited separately",
+        "minimum_ranked_submission_count": 28,
+        "recommended_ranked_submission_count": 30,
+        "meets_minimum_submission_count": len(rows) >= 28,
         "team_filename": "team-3 is the VM team label; confirm the actual team name before manual submission",
         "designs": evidence,
     }

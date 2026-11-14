@@ -2,6 +2,12 @@
 
 Audited 14 November 2026 from the two supplied PDFs, the organizer instructions relayed by the user, and the current draft export. PDF text was extracted with `pdftotext -layout`; the relevant whole pages were rendered with `pdftoppm` and visually checked. The PDF rules below are distinguished from the user supplied organizer clarification and from unresolved interpretation.
 
+## Latest organizer clarification, superseding the earlier CSV instructions
+
+The user supplied Davide's 16:33 update: submit **one CSV per team containing both tracks**, with six columns `sequence_id,kind,heavy_sequence,light_sequence,design_description,track`. Every `track` must be `optimization` or `denovo`. Post only in the team's own channel and tag Davide; name the file after that channel. This supersedes the earlier five-column format, announcement-channel routing and reliance on inferred track assignment. The PDF analysis below records the earlier text, not a reason to ignore the update. The current exporter writes six columns. Installed abguard accepts all 52 retained six-column rows but drops the track field on output; its novelty class is not the explicit declared track. No submission was sent.
+
+The subsequent 16:39 clarification further supersedes the PDF limit: a team can win up to 28 lab slots, so submit **at least 28**, preferably about **30** designs as reserves. Organizers take **top-N rows**, so row order is the ranking. The user also permits a priority number in `design_description`; this duplicates the row priority without adding a seventh column. The historical ≤20 and uncertain row-order findings below no longer govern the current export.
+
 ## Sources and provenance
 
 | Source | Pages | SHA-256 |
@@ -32,7 +38,7 @@ Full extracted text and page renders are in `/tmp/her2-workers/rules-ai-antibodi
 4. **Optimisation reference format.** The PDFs say “same format as trastuzumab” but do not identify whether the assay reference construct is Fab/paired or scFv. The current rows are paired variable domains. Confirm that this matches the trastuzumab reference used for the format gate.
 5. **ScFv length details.** The PDF clearly says combined VH+VL for paired formats. For scFv it calls the limit the whole chain, but the flow says linkers are stripped before checks. The exact length input to `abguard` is not described.
 
-## Draft CSV comparison
+## Historical five-column draft comparison
 
 Read only. `output/submission-draft/team-3-draft.csv` has the exact five supplied headers, 53 unique IDs, 10 rows marked optimisation and 43 marked de novo in `design_description`. Every row is `kind=paired` with both variable-domain fields populated. The CSV hash is `661bffcab9fb9e5c954d12e38e4424d3c1641550de82a68e7ce5ebf3340ecb87`.
 

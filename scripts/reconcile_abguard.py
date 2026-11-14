@@ -32,6 +32,14 @@ def reconcile(raw: Path, output: Path, accepted: Path):
     # Strict CLI revalidation must preserve every accepted row, including description.
     if revalidated != passed:
         raise ValueError('Strict revalidation differs from accepted input rows')
+    six_column_input = list(csv.DictReader((raw / 'accepted-six-columns.csv').open()))
+    six_column_result = list(csv.DictReader((raw / 'revalidated-six-columns.csv').open()))
+    if [{k: r[k] for k in FIELDS} for r in six_column_input] != passed or six_column_result != passed:
+        raise ValueError('Six-column strict validation differs from accepted input rows')
+    expected_tracks = {r['query_id']: r['track'] for r in
+                       json.loads(Path('configs/her2-candidate-screen/manifest.json').read_text())['panel']}
+    if any(r.get('track') != expected_tracks.get(r['sequence_id']) for r in six_column_input):
+        raise ValueError('Explicit track differs from frozen generation intent')
     wt = json.loads((raw / 'wt-control.json').read_text())[0]
     if wt['is_valid'] or wt['is_novel_enough'] or wt['cdrh3_min_distance'] != 0:
         raise ValueError('Known WT must fail novelty at distance zero')
@@ -51,9 +59,9 @@ def reconcile(raw: Path, output: Path, accepted: Path):
     output.mkdir(parents=True, exist_ok=True)
     accepted.parent.mkdir(parents=True, exist_ok=True)
     with accepted.open('w', newline='') as f:
-        w = csv.DictWriter(f, fieldnames=FIELDS, lineterminator='\n')
+        w = csv.DictWriter(f, fieldnames=FIELDS + ['track'], lineterminator='\n')
         w.writeheader()
-        w.writerows(passed)
+        w.writerows(six_column_input)
     columns = ['sequence_id', 'novelty_class', 'is_valid', 'is_novel_enough',
                'identity_to_trastuzumab', 'cdrh3', 'cdrh3_min_distance',
                'required_cdrh3_mutations', 'cdrh3_nearest_source', 'cdrh3_nearest_id',
@@ -66,10 +74,16 @@ def reconcile(raw: Path, output: Path, accepted: Path):
         'status': 'installed_tool_eligibility_only_not_submitted',
         'input_rows': len(original), 'passed': len(passed), 'rejected': len(original)-len(passed),
         'accepted_classes': dict(Counter(by_id[r['sequence_id']]['novelty_class'] for r in passed)),
+        'explicit_submission_tracks': dict(Counter(r['track'] for r in six_column_input)),
+        'installed_tool_preserves_track_column': False,
+        'track_class_mismatch_ids': [r['sequence_id'] for r in six_column_input
+                                    if ('novel' if r['track']=='optimization' else 'de_novo') != by_id[r['sequence_id']]['novelty_class']],
         'accepted_with_high_severity_motifs': sum(by_id[r['sequence_id']]['n_high_severity'] > 0 for r in passed),
         'rejected_ids': [i for i in ids if not by_id[i]['is_valid']],
         'generation_denovo_but_tool_novel': [i for i in ids if i.startswith('denovo') and by_id[i]['novelty_class']=='novel'],
-        'within_20_design_final_limit': len(passed)<=20,
+        'meets_minimum_28_design_count': len(passed)>=28,
+        'recommended_ranked_submission_count': 30,
+        'is_final_ranked_submission': False,
         'binding_epitope_thermal_status': 'not_measured',
         'wt_control': {k: wt[k] for k in ('is_valid', 'is_novel_enough', 'cdrh3_min_distance', 'n_high_severity')},
         'generator_arms': {
