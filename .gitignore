@@ -13,3 +13,5 @@ participant-*/
 japanfold-*.txt
 *nebius*creds*
 nebius-runs/
+.env
+.env.local
