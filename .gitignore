@@ -20,3 +20,7 @@ nebius-runs/
 .venv
 .pytest_cache/
 *.joblib
+
+# Large local intermediate artifacts; curated evidence is tracked separately
+results/benchmark/
+results/campaign/

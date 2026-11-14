@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: Verify configured credentials and VM connection
+      - name: Check secret presence and verify VM connection
         env:
           AMASS_API_KEY: ${{ secrets.AMASS_API_KEY }}
           JAPANFOLD_API_KEY: ${{ secrets.JAPANFOLD_API_KEY }}

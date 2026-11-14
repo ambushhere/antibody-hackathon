@@ -36,16 +36,32 @@ def contacts(atoms, antibody_chains, target_chains, cutoff=4.5):
             'contact_cutoff_A': cutoff}
 
 
+def remap_target_residues(atoms, mapping):
+    atoms = atoms.copy()
+    for chain, residue_ids in mapping.items():
+        mask = atoms.chain_id == chain
+        actual = list(dict.fromkeys(atoms.res_id[mask]))
+        if actual == residue_ids:
+            continue
+        if actual != list(range(1, len(residue_ids) + 1)):
+            raise ValueError(f'Cannot map target chain {chain}: unexpected residue numbering')
+        atoms.res_id[mask] = np.array(residue_ids)[atoms.res_id[mask] - 1]
+    return atoms
+
+
 def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--structures', nargs='+', type=Path, required=True)
     p.add_argument('--antibody-chains', nargs='+', required=True)
     p.add_argument('--target-chains', nargs='+', required=True)
     p.add_argument('--reference', type=Path)
+    p.add_argument('--target-residue-map', type=Path, help='JSON chain to source residue IDs for renumbered predictions')
     p.add_argument('--output', type=Path, required=True)
     args = p.parse_args()
+    mapping = json.loads(args.target_residue_map.read_text()) if args.target_residue_map else None
     def read(path):
-        return get_structure(CIFFile.read(path), model=1)
+        atoms = get_structure(CIFFile.read(path), model=1)
+        return remap_target_residues(atoms, mapping) if mapping else atoms
     ref = None
     if args.reference:
         ref = set(contacts(read(args.reference), args.antibody_chains, args.target_chains)['target_contact_residues'])

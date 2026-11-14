@@ -1,0 +1,25 @@
+{
+  "sample_seed": 20261114,
+  "sample_size": 2000,
+  "interpretation": "Diagnostic only. Distance 3 means at least 3. No model selection on these results. Train-only distance, not full submission novelty corpus.",
+  "cohorts": {
+    "train_distance_at_least_0": {
+      "n": 2000,
+      "high_prevalence": 0.3215,
+      "roc_auc": 0.9827276571799242,
+      "average_precision": 0.9689821558524466
+    },
+    "train_distance_at_least_2": {
+      "n": 867,
+      "high_prevalence": 0.28604382929642447,
+      "roc_auc": 0.9732138204179478,
+      "average_precision": 0.9526186974012552
+    },
+    "train_distance_at_least_3": {
+      "n": 109,
+      "high_prevalence": 0.08256880733944955,
+      "roc_auc": 0.9766666666666666,
+      "average_precision": 0.6532066698733366
+    }
+  }
+}
