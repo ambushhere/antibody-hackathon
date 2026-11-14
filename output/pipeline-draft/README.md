@@ -20,3 +20,5 @@ OUTPUT_STEM=her2-hackathon-pipeline-next \
 The builder exports two slides, validates the presentation package and layout and renders each finalized slide to PNG. Native PowerPoint rendering was not tested. The reviewed draft SHA-256 is `a5b0ff3c4b66f2e9c24ec5cfbfceecdb0a6daa5af1c3a0a3c760483865496295`.
 
 [Two-page PDF for quick viewing](her2-hackathon-pipeline-draft-v8.pdf) is a raster copy of the reviewed slide previews; the PPTX remains editable. [Russian beginner explanation, diagrams and speaking notes](../../docs/PIPELINE_EXPLAINED_RU.md) accompanies the two slides.
+
+[English explanation and speaking notes](../../docs/PIPELINE_EXPLAINED_EN.md) and [Russian and English PDF guides](../pdf/README.md) are also available. Each PDF has four pages with diagrams, the dataset table, terminology and the current ranked draft status.
