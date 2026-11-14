@@ -1,0 +1,448 @@
+{
+  "file": "denovo-scale-20261114.tar.gz",
+  "bytes": 10649236,
+  "sha256": "395a56a77370caad836b95f353cbf90feae3279b74c323c97624aa1f3b6bd7c3",
+  "extract_under": "results",
+  "members": [
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/design/.apheris-foundry",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/design/config.json",
+      "bytes": 374,
+      "sha256": "23830242ea2d1b90ff25b88f95e912266a0c84f5d450fe7d075276abc860240f"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/design/generate.log",
+      "bytes": 48962,
+      "sha256": "3989b4239d66bb1b1010ad28f9fe4026bbeab1a76de9b4bbd730a149d38cda5b"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/design/generation/inference_metrics/aggregated_metrics.csv",
+      "bytes": 6359,
+      "sha256": "3d1a0bebbcb39b2f905a7ce618f25ae935f7fc78b8d4fed47824bea1b3c1abcb"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/design/generation/inference_metrics/per_example_metrics.csv",
+      "bytes": 54830,
+      "sha256": "9fa9f528ea77c96defcb28c79ae79b05d69304d378cc01ba70ee516a70b46a33"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/design/generation/inference_samples/her2_denovo_full_sequence_0/her2_denovo_full_sequence_0_generated.cif",
+      "bytes": 1119828,
+      "sha256": "e3700ec037297200ff086ecc7e3ec4b7c32f5b6eef73483fec133ea0d799d615"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/design/generation/inference_samples/her2_denovo_full_sequence_1/her2_denovo_full_sequence_1_generated.cif",
+      "bytes": 1119426,
+      "sha256": "e895e9b3b8c10ecafee0b05237019223e2982e6561f3c00789f555b3cb54f500"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/design/generation/inference_samples/her2_denovo_full_sequence_10/her2_denovo_full_sequence_10_generated.cif",
+      "bytes": 1115477,
+      "sha256": "47e37a50c32d5c3bbc50fa18a31842334bb534d6dec17870d08f725200aa927a"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/design/generation/inference_samples/her2_denovo_full_sequence_11/her2_denovo_full_sequence_11_generated.cif",
+      "bytes": 1117217,
+      "sha256": "e66d98f6c84d7fe83e190fbc7aecebf5915233251eb7d0d114aca45ba9d8f631"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/design/generation/inference_samples/her2_denovo_full_sequence_12/her2_denovo_full_sequence_12_generated.cif",
+      "bytes": 1062510,
+      "sha256": "57100ea9076d874a1a57128278eb57ae8d9008259e0d453ec498b289dfe4abd7"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/design/generation/inference_samples/her2_denovo_full_sequence_13/her2_denovo_full_sequence_13_generated.cif",
+      "bytes": 1103142,
+      "sha256": "3b48769b70731464d7826e5cc815adf6d9d9d2e572611f407c6d1cc399dada19"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/design/generation/inference_samples/her2_denovo_full_sequence_14/her2_denovo_full_sequence_14_generated.cif",
+      "bytes": 1073701,
+      "sha256": "0a5463a7ead945a2009005b9754499c5b1afa32c982db33e2ec6daae63c818fb"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/design/generation/inference_samples/her2_denovo_full_sequence_15/her2_denovo_full_sequence_15_generated.cif",
+      "bytes": 1068546,
+      "sha256": "e0f5539d15f6f81e9f0a75621d5dfd88a342008a43007e4ad1304ffdd66c459a"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/design/generation/inference_samples/her2_denovo_full_sequence_16/her2_denovo_full_sequence_16_generated.cif",
+      "bytes": 1069134,
+      "sha256": "5c4a058c3e49c16cecdb8441c9423b6aad9ed14c0cd8878b1084b4cf488ee89d"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/design/generation/inference_samples/her2_denovo_full_sequence_17/her2_denovo_full_sequence_17_generated.cif",
+      "bytes": 1077757,
+      "sha256": "aa31edd22767cb2e30038c0a6ee35a811a962daf09da22a05ef0976909bf82f3"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/design/generation/inference_samples/her2_denovo_full_sequence_18/her2_denovo_full_sequence_18_generated.cif",
+      "bytes": 1094532,
+      "sha256": "bf5907d41c1a167454669074cc11db2c870ad97cf593d4340a4078a9bedf6eb4"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/design/generation/inference_samples/her2_denovo_full_sequence_19/her2_denovo_full_sequence_19_generated.cif",
+      "bytes": 1062060,
+      "sha256": "24d8cd2ac6862dd6c9500d61a85d1438129aac938429da2929734b5ab4a8e6e8"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/design/generation/inference_samples/her2_denovo_full_sequence_2/her2_denovo_full_sequence_2_generated.cif",
+      "bytes": 1098684,
+      "sha256": "ed56b7072799af29e33fd557b806eecfc026774eba6b4b56cbba1e896184e73a"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/design/generation/inference_samples/her2_denovo_full_sequence_20/her2_denovo_full_sequence_20_generated.cif",
+      "bytes": 1096745,
+      "sha256": "1e15d8cb634277f999c48b99671a3b314c7f53f8267fe8c87ad648537d513778"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/design/generation/inference_samples/her2_denovo_full_sequence_21/her2_denovo_full_sequence_21_generated.cif",
+      "bytes": 1093416,
+      "sha256": "3aed2e88a2515d4146b265221d111949b2d742328d41c8316ead0b711b2d284f"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/design/generation/inference_samples/her2_denovo_full_sequence_22/her2_denovo_full_sequence_22_generated.cif",
+      "bytes": 1088270,
+      "sha256": "924cae5b2959bcb49bf2bae6c9a77e55ece3a0720ec1d48ef1f4deca61137fa5"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/design/generation/inference_samples/her2_denovo_full_sequence_23/her2_denovo_full_sequence_23_generated.cif",
+      "bytes": 1062380,
+      "sha256": "cb55428ff13060ae3473249a00443ab534baa8d714b98050d210cb420a76e85c"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/design/generation/inference_samples/her2_denovo_full_sequence_24/her2_denovo_full_sequence_24_generated.cif",
+      "bytes": 1088702,
+      "sha256": "478e371e08dba0fcf1c22aec2551b9d7de7e0a8b213475526f3dc91e484d0c00"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/design/generation/inference_samples/her2_denovo_full_sequence_25/her2_denovo_full_sequence_25_generated.cif",
+      "bytes": 1072884,
+      "sha256": "1f5f8e11b625533d8231e236741fba7fe3dffe3f6795185876a382503cbe8862"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/design/generation/inference_samples/her2_denovo_full_sequence_26/her2_denovo_full_sequence_26_generated.cif",
+      "bytes": 1118640,
+      "sha256": "2664604a36afb9a669907f9c1a3d6570a1735958c2dcd7de63625baf9a409ba6"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/design/generation/inference_samples/her2_denovo_full_sequence_27/her2_denovo_full_sequence_27_generated.cif",
+      "bytes": 1117766,
+      "sha256": "bc3b708e878a5c8e66e5b62f40adabf4f502deb82f1384146b9eda9ef1564a39"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/design/generation/inference_samples/her2_denovo_full_sequence_28/her2_denovo_full_sequence_28_generated.cif",
+      "bytes": 1093970,
+      "sha256": "3d6f4d25134e6d11f0085a59c8a1eacdc5cf72e764e50be95dd0804d39658976"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/design/generation/inference_samples/her2_denovo_full_sequence_29/her2_denovo_full_sequence_29_generated.cif",
+      "bytes": 1110659,
+      "sha256": "cfd655a4d2173399e0fe1f838798ab0fada39d2c98b3c6f7d86b9ef3e5254ccb"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/design/generation/inference_samples/her2_denovo_full_sequence_3/her2_denovo_full_sequence_3_generated.cif",
+      "bytes": 1104595,
+      "sha256": "7a36888a4e761faea36871654b961780f07bc77ab51dbe23821df3b017b4a42b"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/design/generation/inference_samples/her2_denovo_full_sequence_30/her2_denovo_full_sequence_30_generated.cif",
+      "bytes": 1105217,
+      "sha256": "cf7a6f1eb78cb70bcd5bf94c9eb75fe2c9ef13877d5c95850d263949ca7880f3"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/design/generation/inference_samples/her2_denovo_full_sequence_31/her2_denovo_full_sequence_31_generated.cif",
+      "bytes": 1097535,
+      "sha256": "ccc5d0618103aa214a518c52609eef227fddbbea66e2e0552a97b558fccf4779"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/design/generation/inference_samples/her2_denovo_full_sequence_4/her2_denovo_full_sequence_4_generated.cif",
+      "bytes": 1078291,
+      "sha256": "2f7887e031f790256af3b88adab547c7ff0e8baa170a8be1c6db986436a5d65f"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/design/generation/inference_samples/her2_denovo_full_sequence_5/her2_denovo_full_sequence_5_generated.cif",
+      "bytes": 1085076,
+      "sha256": "cbc18b7bc3abb36d32048182d90692940ef85429b5238fda1f9f7715a7066473"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/design/generation/inference_samples/her2_denovo_full_sequence_6/her2_denovo_full_sequence_6_generated.cif",
+      "bytes": 1091203,
+      "sha256": "c4c7d8c918fe9407130ba71e9e52f669df899c39435a10acea7775bc97f0afcb"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/design/generation/inference_samples/her2_denovo_full_sequence_7/her2_denovo_full_sequence_7_generated.cif",
+      "bytes": 1070038,
+      "sha256": "a1437917c9ad4377aa521f682debc6a225966a78f3fd06c0fe7d99ce7b07535b"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/design/generation/inference_samples/her2_denovo_full_sequence_8/her2_denovo_full_sequence_8_generated.cif",
+      "bytes": 1091278,
+      "sha256": "cfabd1eb283d4869e44d1f87ab2549f0f8c7a9bf01620f364919e612d3376ff8"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/design/generation/inference_samples/her2_denovo_full_sequence_9/her2_denovo_full_sequence_9_generated.cif",
+      "bytes": 1094677,
+      "sha256": "77fb0adae32b5e17e5115e14b6e5db257eb91759ad6fcc50748d22e7fb40de07"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/design/generation.log",
+      "bytes": 58788,
+      "sha256": "a98e4f5514a2507d3cd544d382da1b17361dc26b04562c7639714282ca6f272f"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/design/result.json",
+      "bytes": 4568,
+      "sha256": "13f29955d8e902b9bb48826cb5a8166e58e012e54e02be1b90437d1ca0d3b6c4"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/design.log",
+      "bytes": 4316,
+      "sha256": "38de734bb285afa3e1f8ccf331f6dc6dd0ef73a8fee837b598aaf2f54efe11eb"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/image-id.txt",
+      "bytes": 72,
+      "sha256": "5c45c32de13db6e2d2afc2ac740b4491220a36df38de9c4be710fa12021b764e"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/image.txt",
+      "bytes": 80,
+      "sha256": "ec4ce7ce9a8b261429ec970df892d7a248c65091f7e506d85039c3598d6561a6"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/input.sha256",
+      "bytes": 149,
+      "sha256": "77cc19149f9fc85a7c164983aac15638055b5ba55f2382fbf66aa83eb973b821"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-antibody-k1/parameters.txt",
+      "bytes": 60,
+      "sha256": "740088b03dcce6e28de5c905b58ce844a1e1da96c5703fd17d68d5ac287cd06b"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/design/.apheris-foundry",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/design/config.json",
+      "bytes": 374,
+      "sha256": "a5d7bee7201f04839b3d31a9c03cc297b6e3ba740452d31fef9c44616b495d24"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/design/generate.log",
+      "bytes": 48963,
+      "sha256": "bde10a2775d41bae2861aea2c252847b155e9b036236c57ef517aab2c6512106"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/design/generation/inference_metrics/aggregated_metrics.csv",
+      "bytes": 6358,
+      "sha256": "78549200b9f3946e7cb11f9f2b8a8db2484cabfb7d36d8512b593e880d9efb56"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/design/generation/inference_metrics/per_example_metrics.csv",
+      "bytes": 54955,
+      "sha256": "990b16b45b4dcfe783f70bae5104810189c5d6544856f0571871991e56ff9092"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/design/generation/inference_samples/her2_denovo_full_sequence_0/her2_denovo_full_sequence_0_generated.cif",
+      "bytes": 1083641,
+      "sha256": "c7e36f7ae0d60d5c4425c8ade53ce0b14a1b9046292c7da4c7eeac793d0dc343"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/design/generation/inference_samples/her2_denovo_full_sequence_1/her2_denovo_full_sequence_1_generated.cif",
+      "bytes": 1066149,
+      "sha256": "382989cafcd1bce1d4fba9ec8864b87d67e6005f2cde1dcbab501fae165faf31"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/design/generation/inference_samples/her2_denovo_full_sequence_10/her2_denovo_full_sequence_10_generated.cif",
+      "bytes": 1089297,
+      "sha256": "44d2666ae1746f60284a36dbf6e04dba4e8a4ab9bb0aef682713e8e9bbbb872c"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/design/generation/inference_samples/her2_denovo_full_sequence_11/her2_denovo_full_sequence_11_generated.cif",
+      "bytes": 1067210,
+      "sha256": "fdf3aaec3d88a72112f69c08b75552b64ad33395b1fe907a2381d79b006b000d"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/design/generation/inference_samples/her2_denovo_full_sequence_12/her2_denovo_full_sequence_12_generated.cif",
+      "bytes": 1066772,
+      "sha256": "837fd96f6995ff0c2baf0d9859209436b0ab400091de53ba7e971640a5f85bf6"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/design/generation/inference_samples/her2_denovo_full_sequence_13/her2_denovo_full_sequence_13_generated.cif",
+      "bytes": 1131944,
+      "sha256": "e0d52ae6a405d0620af70c5f642c091be4b98e85f962c9785578f61389b15598"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/design/generation/inference_samples/her2_denovo_full_sequence_14/her2_denovo_full_sequence_14_generated.cif",
+      "bytes": 1082611,
+      "sha256": "62337a7a6e262f437346e2559becca6ed790000003678817d0fcf6ef424e1eeb"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/design/generation/inference_samples/her2_denovo_full_sequence_15/her2_denovo_full_sequence_15_generated.cif",
+      "bytes": 1109401,
+      "sha256": "a994f310cc609e57e8f12077888c968c517b8a094fd80865b23b89c20048f40e"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/design/generation/inference_samples/her2_denovo_full_sequence_16/her2_denovo_full_sequence_16_generated.cif",
+      "bytes": 1078992,
+      "sha256": "fda6813f6a3eef319a5f81fa80a00ed9582f9a15f8406c96a49fe914108b7f43"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/design/generation/inference_samples/her2_denovo_full_sequence_17/her2_denovo_full_sequence_17_generated.cif",
+      "bytes": 1090096,
+      "sha256": "555cd64cfedb7533018a1269d477231d6545f7502fba3add433934e9f2b9166a"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/design/generation/inference_samples/her2_denovo_full_sequence_18/her2_denovo_full_sequence_18_generated.cif",
+      "bytes": 1055861,
+      "sha256": "56d794c1d6af7048ca3aba247adcbdf080c8b883de3f3a75cce636d1b351d246"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/design/generation/inference_samples/her2_denovo_full_sequence_19/her2_denovo_full_sequence_19_generated.cif",
+      "bytes": 1093089,
+      "sha256": "107fed72197e463b41ef7ccbf2cccbe9aba05957ce14987a03961777d60a88fe"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/design/generation/inference_samples/her2_denovo_full_sequence_2/her2_denovo_full_sequence_2_generated.cif",
+      "bytes": 1083844,
+      "sha256": "bde3a56e3c68bb2c938aa806ac5cef70b01ea12a94b252fdc3b236f58e5d93f3"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/design/generation/inference_samples/her2_denovo_full_sequence_20/her2_denovo_full_sequence_20_generated.cif",
+      "bytes": 1080884,
+      "sha256": "f3535ee805c802c4dfb0fc62b0a5ce06850f02dddb113d2faa5253159bfc8f9e"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/design/generation/inference_samples/her2_denovo_full_sequence_21/her2_denovo_full_sequence_21_generated.cif",
+      "bytes": 1102023,
+      "sha256": "36f9d4fe66f89636dd0bf318d7a129454aa8a64e119039ac21743c14b191cd1f"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/design/generation/inference_samples/her2_denovo_full_sequence_22/her2_denovo_full_sequence_22_generated.cif",
+      "bytes": 1083700,
+      "sha256": "f400f8b42a09fe026f25f7c339841fe597ed86dd649464ef867ee095af4ef9d2"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/design/generation/inference_samples/her2_denovo_full_sequence_23/her2_denovo_full_sequence_23_generated.cif",
+      "bytes": 1077169,
+      "sha256": "4cc1f66e2061b1d6d7acef0da93dc264dc0423c65db30d6dce9cee3e960c3f0e"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/design/generation/inference_samples/her2_denovo_full_sequence_24/her2_denovo_full_sequence_24_generated.cif",
+      "bytes": 1104194,
+      "sha256": "0672d01fe9afda1bd8c74e36371d3155f8450fdf07b3cd6f94c873b54a09c981"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/design/generation/inference_samples/her2_denovo_full_sequence_25/her2_denovo_full_sequence_25_generated.cif",
+      "bytes": 1100287,
+      "sha256": "2118b9a23d48b40c1b881df20e643519a89861184fb7aa601b92275e9b520acb"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/design/generation/inference_samples/her2_denovo_full_sequence_26/her2_denovo_full_sequence_26_generated.cif",
+      "bytes": 1072985,
+      "sha256": "856ec33fc77c29694d01d33323a14ddc5a2d05babff9fee3fefd94d4349ffee0"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/design/generation/inference_samples/her2_denovo_full_sequence_27/her2_denovo_full_sequence_27_generated.cif",
+      "bytes": 1067029,
+      "sha256": "c7866699be683970104134a9e92e4fafd2f9c8ab67f7974abe0b353f586e64c6"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/design/generation/inference_samples/her2_denovo_full_sequence_28/her2_denovo_full_sequence_28_generated.cif",
+      "bytes": 1103297,
+      "sha256": "18c021d22989c7c8ba02956c72014970d809cc0efabb2b1842744c618f8a2551"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/design/generation/inference_samples/her2_denovo_full_sequence_29/her2_denovo_full_sequence_29_generated.cif",
+      "bytes": 1088599,
+      "sha256": "efd7803146b7673f6bb77f15814b2e4ea9223a1c00b0dff3737d03aec1f34904"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/design/generation/inference_samples/her2_denovo_full_sequence_3/her2_denovo_full_sequence_3_generated.cif",
+      "bytes": 1105733,
+      "sha256": "328b76e5fa6409d8a65046639e0d065aa4710e498f752ae781b7641449f90225"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/design/generation/inference_samples/her2_denovo_full_sequence_30/her2_denovo_full_sequence_30_generated.cif",
+      "bytes": 1073463,
+      "sha256": "03e19203d7b86d4e82dfd99f663b3dd9d6ed131ef91c2ea00e6a3fca545ac098"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/design/generation/inference_samples/her2_denovo_full_sequence_31/her2_denovo_full_sequence_31_generated.cif",
+      "bytes": 1079787,
+      "sha256": "df729e3ecb7ee71f6139deb2a800ad2cb5b5cee095a030a2280e0e07bd499497"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/design/generation/inference_samples/her2_denovo_full_sequence_4/her2_denovo_full_sequence_4_generated.cif",
+      "bytes": 1097688,
+      "sha256": "9b9cacb5658b17e8d75e8ea0ec30be32584ad551b28471a8602a81b96d39a531"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/design/generation/inference_samples/her2_denovo_full_sequence_5/her2_denovo_full_sequence_5_generated.cif",
+      "bytes": 1061656,
+      "sha256": "22e51d64e888abeda21dbb06c2d86a35876ab02381bf7e86f4190b867affd71c"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/design/generation/inference_samples/her2_denovo_full_sequence_6/her2_denovo_full_sequence_6_generated.cif",
+      "bytes": 1085910,
+      "sha256": "3e2dd1e76793f8d8867e3932937294d1daf529663e0f8e939382b894cddece65"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/design/generation/inference_samples/her2_denovo_full_sequence_7/her2_denovo_full_sequence_7_generated.cif",
+      "bytes": 1113844,
+      "sha256": "5369d4df6af0653dbbdbd2459294c63b5da7a56482568469c5e155e09a3750db"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/design/generation/inference_samples/her2_denovo_full_sequence_8/her2_denovo_full_sequence_8_generated.cif",
+      "bytes": 1118028,
+      "sha256": "bbcefc21f3abbfc0abb621bde4a2d635091b4e0099b0e96f0102a7f452f32016"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/design/generation/inference_samples/her2_denovo_full_sequence_9/her2_denovo_full_sequence_9_generated.cif",
+      "bytes": 1090188,
+      "sha256": "bf393f446b3090272b8e5232ebb340885c560c6ba22ae1246e81a1e17e3bd974"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/design/generation.log",
+      "bytes": 58681,
+      "sha256": "4e36db1d30c42545dbcf6160d82bc5b281f39f0f6c9f17ba0f98c4e049e574e6"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/design/result.json",
+      "bytes": 4568,
+      "sha256": "a5febd7f14b554c3d45fa4867595c6833bbdfd18d9c82cb0f70ac7ea6bb9672d"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/design.log",
+      "bytes": 4316,
+      "sha256": "38de734bb285afa3e1f8ccf331f6dc6dd0ef73a8fee837b598aaf2f54efe11eb"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/image-id.txt",
+      "bytes": 72,
+      "sha256": "cac889c91bffa365e911f4dad795ae9f9fd619210af88a4433cc893a5ce5dff4"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/image.txt",
+      "bytes": 82,
+      "sha256": "59886a14bd0e1747ee5f6e532919b2c973a54c875aa39e34bf6defa28b2ffc07"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/input.sha256",
+      "bytes": 149,
+      "sha256": "77cc19149f9fc85a7c164983aac15638055b5ba55f2382fbf66aa83eb973b821"
+    },
+    {
+      "path": "campaign/denovo-scale/denovo-scale-her2novel-k1/parameters.txt",
+      "bytes": 62,
+      "sha256": "a3d53ac6497764f0a5ef55fa3cd4bb1f377150a97b7379cf2f030715bdd46c0e"
+    }
+  ]
+}
