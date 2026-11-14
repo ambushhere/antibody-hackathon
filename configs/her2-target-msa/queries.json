@@ -1,0 +1,84 @@
+{
+  "queries": [
+    {
+      "query_id": "control_wt",
+      "chains": [
+        {
+          "chain_id": "T",
+          "sequence": "CHQLCARGHCWGPGPTQCVNCSQFLRGQECVEECRVLQGLPREYVNARHCLPCHPECQPQNGSVTCFGPEADQCVACAHYKDPPFCVARCPSGVKPDLSYMPIWKFPDEEGACQPCPIN",
+          "msa_path": "/home/hackathon/almaz/work/template-msa-20261114/input/target.a3m"
+        },
+        {
+          "chain_id": "H",
+          "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGGDGFYAMDYWGQGTLVTVSS",
+          "msa_path": null
+        },
+        {
+          "chain_id": "L",
+          "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+          "msa_path": null
+        }
+      ]
+    },
+    {
+      "query_id": "control_facs_low",
+      "chains": [
+        {
+          "chain_id": "T",
+          "sequence": "CHQLCARGHCWGPGPTQCVNCSQFLRGQECVEECRVLQGLPREYVNARHCLPCHPECQPQNGSVTCFGPEADQCVACAHYKDPPFCVARCPSGVKPDLSYMPIWKFPDEEGACQPCPIN",
+          "msa_path": "/home/hackathon/almaz/work/template-msa-20261114/input/target.a3m"
+        },
+        {
+          "chain_id": "H",
+          "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWSMFGHYMFAYWGQGTLVTVSS",
+          "msa_path": null
+        },
+        {
+          "chain_id": "L",
+          "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+          "msa_path": null
+        }
+      ]
+    },
+    {
+      "query_id": "control_spr_strong",
+      "chains": [
+        {
+          "chain_id": "T",
+          "sequence": "CHQLCARGHCWGPGPTQCVNCSQFLRGQECVEECRVLQGLPREYVNARHCLPCHPECQPQNGSVTCFGPEADQCVACAHYKDPPFCVARCPSGVKPDLSYMPIWKFPDEEGACQPCPIN",
+          "msa_path": "/home/hackathon/almaz/work/template-msa-20261114/input/target.a3m"
+        },
+        {
+          "chain_id": "H",
+          "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGSQGFYAYDYWGQGTLVTVSS",
+          "msa_path": null
+        },
+        {
+          "chain_id": "L",
+          "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+          "msa_path": null
+        }
+      ]
+    },
+    {
+      "query_id": "control_spr_weak",
+      "chains": [
+        {
+          "chain_id": "T",
+          "sequence": "CHQLCARGHCWGPGPTQCVNCSQFLRGQECVEECRVLQGLPREYVNARHCLPCHPECQPQNGSVTCFGPEADQCVACAHYKDPPFCVARCPSGVKPDLSYMPIWKFPDEEGACQPCPIN",
+          "msa_path": "/home/hackathon/almaz/work/template-msa-20261114/input/target.a3m"
+        },
+        {
+          "chain_id": "H",
+          "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRYLLNGVFVFDYWGQGTLVTVSS",
+          "msa_path": null
+        },
+        {
+          "chain_id": "L",
+          "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+          "msa_path": null
+        }
+      ]
+    }
+  ]
+}
