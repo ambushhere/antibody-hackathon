@@ -1,0 +1,7 @@
+# Operational structural reproduction rule
+
+14 November 2026, recorded while the template runs are still in progress and before inspecting their predicted coordinates. This heuristic determines whether to spend the next candidate-refold batch using this target configuration. It is not a calibrated probability of binding or a competition criterion.
+
+For each template arm, select WT top-1 separately at each of seeds 42/43/44 using the fixed mean antibody-target pair-ipTM rule. An arm qualifies for a follow-up candidate screen only if at least two of these three selected poses simultaneously recover at least 13 of 19 reference target contacts, have target-fit C-alpha RMSD at most 2 Å and reference-interface C-alpha RMSD at most 4 Å, with no antibody-target heavy-atom pairs below 1.5 Å. Report every individual condition and all six WT samples, including best-reference diagnostics, rather than one pass label alone.
+
+The footprint criterion comes from the earlier diagnostic. RMSD and clash thresholds here are explicit engineering choices for known-pose reproduction, not learned or published assay thresholds. If both arms qualify, use the complete template for the next fixed candidate panel. If only one qualifies, record the selection as control-based configuration development. If neither qualifies, do not promote this setup from the candidate scores; diagnose guidance, MSA, target boundaries or model choice next. Strong and weak measured controls are descriptive tests of model behavior, not an affinity calibration from two points.
