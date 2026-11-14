@@ -40,7 +40,8 @@ def main():
             {'select': f"sel('{chain}/*/{int(resid)}')"}
             for chain, resid in zip(cysteines.chain_id, cysteines.res_id)
         ]
-    (args.output / 'design.json').write_text(json.dumps({'her2_denovo_fv': spec}, indent=2) + '\n')
+    name = 'her2_denovo_full_sequence' if args.free_framework_sequence else 'her2_denovo_fv'
+    (args.output / 'design.json').write_text(json.dumps({name: spec}, indent=2) + '\n')
 
 if __name__ == '__main__':
     main()

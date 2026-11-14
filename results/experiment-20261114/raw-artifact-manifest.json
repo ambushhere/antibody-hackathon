@@ -1,0 +1,587 @@
+[
+  {
+    "path": "denovo-fullseq-pilot/design/.apheris-foundry",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "denovo-fullseq-pilot/design/config.json",
+    "bytes": 348,
+    "sha256": "c2676e486d19846a303dadc72fa4a06ab608371f0ba3d0cf5d8dc7f20269d4ae"
+  },
+  {
+    "path": "denovo-fullseq-pilot/design/generate.log",
+    "bytes": 6286,
+    "sha256": "51aacc24b7b4d9424054e8e16060879fe647e9c548bad5c7f3628569edc2903b"
+  },
+  {
+    "path": "denovo-fullseq-pilot/design/generation/inference_metrics/aggregated_metrics.csv",
+    "bytes": 6280,
+    "sha256": "f131badd9724c2cfbc682f960979359ddd38e53dd01b4ae61fd7c18523ba8f93"
+  },
+  {
+    "path": "denovo-fullseq-pilot/design/generation/inference_metrics/per_example_metrics.csv",
+    "bytes": 10267,
+    "sha256": "8f3a872e09abf5425a7b0833cbe6af1e2269276d60c18b721cd9e991d3b926e6"
+  },
+  {
+    "path": "denovo-fullseq-pilot/design/generation/inference_samples/her2_denovo_full_sequence_0/her2_denovo_full_sequence_0_generated.cif",
+    "bytes": 1078824,
+    "sha256": "e0df141897b60c0114590240e1385fe11f8e23d41aec23fce4dfbbfb8a2f1a70"
+  },
+  {
+    "path": "denovo-fullseq-pilot/design/generation/inference_samples/her2_denovo_full_sequence_1/her2_denovo_full_sequence_1_generated.cif",
+    "bytes": 1110867,
+    "sha256": "0525291fcef24f94e4a38d57f4422f8999f096ad9cbd46cefcfb1fb15f560bcd"
+  },
+  {
+    "path": "denovo-fullseq-pilot/design/generation/inference_samples/her2_denovo_full_sequence_2/her2_denovo_full_sequence_2_generated.cif",
+    "bytes": 1118405,
+    "sha256": "485c16ceb1b7064e25189f36ac05ece2b40df0922baeac54eed0232ad72730c8"
+  },
+  {
+    "path": "denovo-fullseq-pilot/design/generation/inference_samples/her2_denovo_full_sequence_3/her2_denovo_full_sequence_3_generated.cif",
+    "bytes": 1088571,
+    "sha256": "00b4826058c14dd3f3b2e62e79882b9c8091597a2cf0e42238d22491aef639b9"
+  },
+  {
+    "path": "denovo-fullseq-pilot/design/generation.log",
+    "bytes": 11246,
+    "sha256": "b3b7f0a1d36b0b7fea94944ac602a5695910af4daf89311dc11422d301463c61"
+  },
+  {
+    "path": "denovo-fullseq-pilot/design/result.json",
+    "bytes": 1470,
+    "sha256": "b12faaf7aeeef1fc0f4221a001d37c404224e3bb26e2774c8d7d73dba9f435e8"
+  },
+  {
+    "path": "denovo-fullseq-pilot/design.log",
+    "bytes": 4316,
+    "sha256": "38de734bb285afa3e1f8ccf331f6dc6dd0ef73a8fee837b598aaf2f54efe11eb"
+  },
+  {
+    "path": "denovo-fullseq-pilot/image-id.txt",
+    "bytes": 72,
+    "sha256": "5c45c32de13db6e2d2afc2ac740b4491220a36df38de9c4be710fa12021b764e"
+  },
+  {
+    "path": "denovo-fullseq-pilot/image.txt",
+    "bytes": 80,
+    "sha256": "ec4ce7ce9a8b261429ec970df892d7a248c65091f7e506d85039c3598d6561a6"
+  },
+  {
+    "path": "denovo-fullseq-pilot/input.sha256",
+    "bytes": 149,
+    "sha256": "77cc19149f9fc85a7c164983aac15638055b5ba55f2382fbf66aa83eb973b821"
+  },
+  {
+    "path": "denovo-fullseq-pilot/parameters.txt",
+    "bytes": 31,
+    "sha256": "9bc68aa54a80ed0934cd2ed69d2231688dfa6daed1f35794c58da1f2bd860816"
+  },
+  {
+    "path": "denovo-input/design.json",
+    "bytes": 1574,
+    "sha256": "5061912146b3c84895cbd2a203b95a1a946c81ff5518aa069b1948198726f1c9"
+  },
+  {
+    "path": "denovo-input/framework_adalimumab.cif",
+    "bytes": 79970,
+    "sha256": "080ddb11f7540aa14e69368a36c8380c2963595513d56907b92cc1fb9491e67c"
+  },
+  {
+    "path": "denovo-input/full_sequence_design.json",
+    "bytes": 1660,
+    "sha256": "4acf71167985f6079fbc63d5d348d03b419520efe11ba07e6489f8b5e5b66a72"
+  },
+  {
+    "path": "denovo-input/her2_target.cif",
+    "bytes": 59101,
+    "sha256": "a42817a955f5f75289630634acb1861df126ecc1f3dbb1b0177e542e8ac0235d"
+  },
+  {
+    "path": "denovo-launch.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "denovo-pilot/design/.apheris-foundry",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "denovo-pilot/design/config.json",
+    "bytes": 348,
+    "sha256": "662f7f3d74c65163e5401ede42f786ae3550e112f0dca8a96d4c10bad5b53da2"
+  },
+  {
+    "path": "denovo-pilot/design/generate.log",
+    "bytes": 6278,
+    "sha256": "989c4034ae8db75935e53af115103ca9d1c1bf4e695da0438e073f22e6d90ece"
+  },
+  {
+    "path": "denovo-pilot/design/generation/inference_metrics/aggregated_metrics.csv",
+    "bytes": 5669,
+    "sha256": "c367fe6014a8e8b1b34b1fe4c3c1b769d8b10e07db16cf67af70d0f8601689ba"
+  },
+  {
+    "path": "denovo-pilot/design/generation/inference_metrics/per_example_metrics.csv",
+    "bytes": 9891,
+    "sha256": "1084a540deae0b9707405482c945b932716afa356fcb3711d45aabe5b2a8ad3c"
+  },
+  {
+    "path": "denovo-pilot/design/generation/inference_samples/her2_denovo_fv_0/her2_denovo_fv_0_generated.cif",
+    "bytes": 1074974,
+    "sha256": "83d12d2b24af4fcc8d0995cdd8f5c923e340fae8b15bab11ac258db723d4132f"
+  },
+  {
+    "path": "denovo-pilot/design/generation/inference_samples/her2_denovo_fv_1/her2_denovo_fv_1_generated.cif",
+    "bytes": 1084834,
+    "sha256": "9a4ef858bcb931f751392675a2c13fdc038e90fd1a6789b67d0c3feabd5642e6"
+  },
+  {
+    "path": "denovo-pilot/design/generation/inference_samples/her2_denovo_fv_2/her2_denovo_fv_2_generated.cif",
+    "bytes": 1111943,
+    "sha256": "118fdb0b48ffbd321654f95251f512f173f83c409ce73fd8b0466a43a2ef882b"
+  },
+  {
+    "path": "denovo-pilot/design/generation/inference_samples/her2_denovo_fv_3/her2_denovo_fv_3_generated.cif",
+    "bytes": 1057550,
+    "sha256": "13001febe8d7cf582bb2b179d873cb53a51b27a6e986247a7b2c2248c337d1bd"
+  },
+  {
+    "path": "denovo-pilot/design/generation.log",
+    "bytes": 10909,
+    "sha256": "ee38a893cf5657dae898397ada2222913b3c4ad5ad7e6dbb6ab3746025f047e3"
+  },
+  {
+    "path": "denovo-pilot/design/result.json",
+    "bytes": 1368,
+    "sha256": "356eef7d69e72508d39e6d409f1ed8c3014ccf798ed4634d798a272e5163c568"
+  },
+  {
+    "path": "denovo-pilot/design.log",
+    "bytes": 4316,
+    "sha256": "9134b25656f5e6a1d04f096ffffe4e88e9fc8cbf96e6c187ac51e0d2095b1641"
+  },
+  {
+    "path": "denovo-pilot/image-id.txt",
+    "bytes": 72,
+    "sha256": "5c45c32de13db6e2d2afc2ac740b4491220a36df38de9c4be710fa12021b764e"
+  },
+  {
+    "path": "denovo-pilot/image.txt",
+    "bytes": 80,
+    "sha256": "ec4ce7ce9a8b261429ec970df892d7a248c65091f7e506d85039c3598d6561a6"
+  },
+  {
+    "path": "denovo-pilot/input.sha256",
+    "bytes": 135,
+    "sha256": "6373fadee704c34ff67a205f1b10feab90d0063f2922ee19373d9766dc24798f"
+  },
+  {
+    "path": "denovo-pilot/parameters.txt",
+    "bytes": 31,
+    "sha256": "5e475818d895c1441659c92da641585697c442022704ae880bd13c05878f11d5"
+  },
+  {
+    "path": "denovo-prepare.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "denovo-prepared/.apheris-foundry",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "denovo-prepared/apo/queries.json",
+    "bytes": 241,
+    "sha256": "0d6067d9986a8f360f6302c31eea436ec46eca3a6aab125f61420f875fe0731b"
+  },
+  {
+    "path": "denovo-prepared/config.json",
+    "bytes": 78,
+    "sha256": "26c7a8bca2d8755bcedeac07004df9f2292339b446b1e7ba2305c8e763b0d993"
+  },
+  {
+    "path": "denovo-prepared/holo/queries.json",
+    "bytes": 620,
+    "sha256": "0e5c985da00a640833c2a1758b9237aa267fc394c6a3046d406583aeb954966e"
+  },
+  {
+    "path": "denovo-prepared/holo/template.cif",
+    "bytes": 154540,
+    "sha256": "330f49ed56c5158ff7e853c9a299946ad70ae28acda49832fb198b93fdaa1ed7"
+  },
+  {
+    "path": "denovo-prepared/result.json",
+    "bytes": 705,
+    "sha256": "ccd8b98c00e0a11c2eaedb27880f78cb45ad18f66a4b0f09bdfa44724d795173"
+  },
+  {
+    "path": "denovo-prepared/selection.csv",
+    "bytes": 887,
+    "sha256": "ab58ca0cc9faebe9a63f71400cdf743158db77f1d84884b967105603c92d1b6e"
+  },
+  {
+    "path": "denovo.pid",
+    "bytes": 6,
+    "sha256": "1a6ebc9b6c59d534e421a1758c83b0920248f1c4d52388b2239d105793bc843b"
+  },
+  {
+    "path": "dependencies.log",
+    "bytes": 65,
+    "sha256": "af3f16a9dcf210b0339c0f8d8820b348b4a6d911186d58fb8d4e2734c935bb24"
+  },
+  {
+    "path": "openfold-controls/.apheris-foundry",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "openfold-controls/config.json",
+    "bytes": 355,
+    "sha256": "84fe1bc82aeb930fec2145f74d865ea25d25774f98c53be578bd3240dcc28def"
+  },
+  {
+    "path": "openfold-controls/control_facs_low/seed_42/control_facs_low_seed_42_sample_1_detailed_scores.cbor.gz",
+    "bytes": 815856,
+    "sha256": "98865d19a15da8ab408fae3469a9432a24790817f4fd9f7872f775c4ea38d294"
+  },
+  {
+    "path": "openfold-controls/control_facs_low/seed_42/control_facs_low_seed_42_sample_1_model.cif",
+    "bytes": 225614,
+    "sha256": "710d536614c7514170d75960cb77e39340097e5f3e058d98b8b1c050fb698164"
+  },
+  {
+    "path": "openfold-controls/control_facs_low/seed_42/control_facs_low_seed_42_sample_1_scores.json",
+    "bytes": 659,
+    "sha256": "d2a09e29219a0e8fe304a93284f3bdbb920593dacdba3c78487ab6f3af6a1166"
+  },
+  {
+    "path": "openfold-controls/control_wt/seed_42/control_wt_seed_42_sample_1_detailed_scores.cbor.gz",
+    "bytes": 816541,
+    "sha256": "b94756707463069b8bd2d902abc834ae7bed8ce1fc916f5ca14b6238bc8e41a6"
+  },
+  {
+    "path": "openfold-controls/control_wt/seed_42/control_wt_seed_42_sample_1_model.cif",
+    "bytes": 224604,
+    "sha256": "bb88276c9ecee6000f2bb2409f3a89058d9d1d70404a79e7a977d6a6a3cab8ad"
+  },
+  {
+    "path": "openfold-controls/control_wt/seed_42/control_wt_seed_42_sample_1_scores.json",
+    "bytes": 661,
+    "sha256": "773051c99442406239474a050b774c8bce8d2d355175ab4e0e8e32c8ed9fb39c"
+  },
+  {
+    "path": "openfold-controls/her2_cdrh3_1/seed_42/her2_cdrh3_1_seed_42_sample_1_detailed_scores.cbor.gz",
+    "bytes": 816409,
+    "sha256": "85cf3a73d421304b5b652f6b5c8af5565abd765721b0b9c39f8a3bb546df4faf"
+  },
+  {
+    "path": "openfold-controls/her2_cdrh3_1/seed_42/her2_cdrh3_1_seed_42_sample_1_model.cif",
+    "bytes": 224418,
+    "sha256": "2a0595273928eb90dffad17441f34595a08b1ef7a5108449287dffd9e46ed766"
+  },
+  {
+    "path": "openfold-controls/her2_cdrh3_1/seed_42/her2_cdrh3_1_seed_42_sample_1_scores.json",
+    "bytes": 659,
+    "sha256": "95bf11134283eeae6bb5acffa87de04ce5404edbe3f08607eb6b0f3810b88569"
+  },
+  {
+    "path": "openfold-controls/her2_cdrh3_2/seed_42/her2_cdrh3_2_seed_42_sample_1_detailed_scores.cbor.gz",
+    "bytes": 816376,
+    "sha256": "a7185aea2351f86b8b077668b1ed98ab1ea9846322e9812c491e709c9d67c309"
+  },
+  {
+    "path": "openfold-controls/her2_cdrh3_2/seed_42/her2_cdrh3_2_seed_42_sample_1_model.cif",
+    "bytes": 224291,
+    "sha256": "23b8d9624d66ca0343083aca48471391ae3881f174c0bc4c3b9337c28c997697"
+  },
+  {
+    "path": "openfold-controls/her2_cdrh3_2/seed_42/her2_cdrh3_2_seed_42_sample_1_scores.json",
+    "bytes": 659,
+    "sha256": "f23c335f5008bc479c2b8a436316040ce876e68e42e4312f248a3147072a2584"
+  },
+  {
+    "path": "openfold-controls/result.json",
+    "bytes": 2495,
+    "sha256": "77164d39ab4222a742023122fa485abd288c79376b8375009fa4c5407e58e917"
+  },
+  {
+    "path": "openfold-help.txt",
+    "bytes": 4756,
+    "sha256": "ee785cd5275b9436f867477582072ae816954d909d0ba9259102ffc9084cf0a0"
+  },
+  {
+    "path": "openfold.log",
+    "bytes": 6356,
+    "sha256": "47b28c312c6fb3f9482a6c2a44e34f4c39067d5ccc72dcccf29566999aade70a"
+  },
+  {
+    "path": "openfold.pid",
+    "bytes": 6,
+    "sha256": "80df172320542d04132f5e59f93bc451b5be719c84c088814041d3c581c08a20"
+  },
+  {
+    "path": "optimization-geometry.json",
+    "bytes": 4066,
+    "sha256": "da4ad4f15ac3be74ce9848b359bdb0769fae1524e767bc82e2e9c8616d9b87c3"
+  },
+  {
+    "path": "optimization-launch.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "optimization-pilot/design/.apheris-foundry",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "optimization-pilot/design/config.json",
+    "bytes": 348,
+    "sha256": "11624ba4e0407b7e24558e23082ac00c6ec8110812e2e4d8ab56c5c3e155bc3a"
+  },
+  {
+    "path": "optimization-pilot/design/generate.log",
+    "bytes": 188,
+    "sha256": "d1cab1b319e4cacd05d75a2467ffa07b37550defc96a6e4c1a361d34fa5e2d93"
+  },
+  {
+    "path": "optimization-pilot/design/generation/inference_metrics/aggregated_metrics.csv",
+    "bytes": 5547,
+    "sha256": "87d2ede8dc482d11c630957cd32773dd80855f60d1e2f4458c15583bca496cb0"
+  },
+  {
+    "path": "optimization-pilot/design/generation/inference_metrics/per_example_metrics.csv",
+    "bytes": 9392,
+    "sha256": "28e8337f86157042d47e3d77e2080a75a0bbc864e947c6df478627fa93422c6b"
+  },
+  {
+    "path": "optimization-pilot/design/generation/inference_samples/her2_cdrh3_0/her2_cdrh3_0_generated.cif",
+    "bytes": 955688,
+    "sha256": "0276ffcca45a8dbd25398504b8d79c7b6175a89309d0474078a01b8592429ee5"
+  },
+  {
+    "path": "optimization-pilot/design/generation/inference_samples/her2_cdrh3_1/her2_cdrh3_1_generated.cif",
+    "bytes": 963187,
+    "sha256": "f6fb65a1325d6b5fb5b8cd1cc92874a116abeed1ed142988cc37ff3c0105ccf4"
+  },
+  {
+    "path": "optimization-pilot/design/generation/inference_samples/her2_cdrh3_2/her2_cdrh3_2_generated.cif",
+    "bytes": 957737,
+    "sha256": "307ea89c8358897c6edf3f5c9e4549009a969bb0bde34834fa8d88cdadc99330"
+  },
+  {
+    "path": "optimization-pilot/design/generation/inference_samples/her2_cdrh3_3/her2_cdrh3_3_generated.cif",
+    "bytes": 956845,
+    "sha256": "a34573f580c67fb9fe0ebd65eb1cafe7697d415b584b759b1bfb698fa17c2972"
+  },
+  {
+    "path": "optimization-pilot/design/generation.log",
+    "bytes": 5364,
+    "sha256": "37f397eec9dc76da763958d63f0483007fe6dcd455059f590e4bbf59e1b11d09"
+  },
+  {
+    "path": "optimization-pilot/design/result.json",
+    "bytes": 1333,
+    "sha256": "64349480768c3410c6dd4401b90989852ff12ed250ef0b43d9dcd1ee2657ce06"
+  },
+  {
+    "path": "optimization-pilot/design.log",
+    "bytes": 2453,
+    "sha256": "2a04de1218b38d3b45396c3e192b55c922ff729ef4e02ad1f85c7745402ce8d4"
+  },
+  {
+    "path": "optimization-pilot/image-id.txt",
+    "bytes": 72,
+    "sha256": "cac889c91bffa365e911f4dad795ae9f9fd619210af88a4433cc893a5ce5dff4"
+  },
+  {
+    "path": "optimization-pilot/image.txt",
+    "bytes": 82,
+    "sha256": "59886a14bd0e1747ee5f6e532919b2c973a54c875aa39e34bf6defa28b2ffc07"
+  },
+  {
+    "path": "optimization-pilot/input.sha256",
+    "bytes": 132,
+    "sha256": "430a348013afb47deef6981e62db964fb28edc3d8091d915ff27f318aa5448e8"
+  },
+  {
+    "path": "optimization-pilot/parameters.txt",
+    "bytes": 37,
+    "sha256": "f078b75d1958e0dd0e689688b4afc54ae7c6456a35cef99e5e5276cf03fdb7b0"
+  },
+  {
+    "path": "optimization-prepared/.apheris-foundry",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "optimization-prepared/apo/queries.json",
+    "bytes": 873,
+    "sha256": "222a67628c58d3eda07e9e571aaac5a5b244d157f1fb1076a4f6066dee3cc450"
+  },
+  {
+    "path": "optimization-prepared/config.json",
+    "bytes": 78,
+    "sha256": "f1073f6c8cd730211e6c9671fa0e40e2e8aeff33e12fb94ee300861bd0463000"
+  },
+  {
+    "path": "optimization-prepared/holo/queries.json",
+    "bytes": 5561,
+    "sha256": "b289bcc0adb6cd80516fdd363131e49d59c15efa4030285387c1702b682fc7c1"
+  },
+  {
+    "path": "optimization-prepared/holo/template.cif",
+    "bytes": 186039,
+    "sha256": "3e5e813582f2e733ccdb41303d17d040730d5a3a1fa58637c5f1fa3b6dcd9d98"
+  },
+  {
+    "path": "optimization-prepared/result.json",
+    "bytes": 711,
+    "sha256": "b77dda7871929d10dd2bab82ec33ad66936e2eba1a4637bca7b0d5ddda4509b8"
+  },
+  {
+    "path": "optimization-prepared/selection.csv",
+    "bytes": 2875,
+    "sha256": "04f2f7e2b1869454c384b897486ff22f16d36a1ef963667c83a86ef313ac53dd"
+  },
+  {
+    "path": "optimization.pid",
+    "bytes": 6,
+    "sha256": "fa45dd11f17bc40b9668afabf3be4d9c5c3037ec681e7ba06436629df2bc94af"
+  },
+  {
+    "path": "prepare.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "protenix-controls/.apheris-foundry",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "protenix-controls/config.json",
+    "bytes": 344,
+    "sha256": "dce9c483cd8b541c78130ecd0a3583695cc6b105cfcef459294e5f471c67cab5"
+  },
+  {
+    "path": "protenix-controls/control_facs_low/seed_42/control_facs_low_seed_42_sample_1_detailed_scores.cbor.gz",
+    "bytes": 814499,
+    "sha256": "070b1a79c32290e099a90b943c23ee77dc7f20ed7b8040a36e93fe9e07388aae"
+  },
+  {
+    "path": "protenix-controls/control_facs_low/seed_42/control_facs_low_seed_42_sample_1_model.cif",
+    "bytes": 225246,
+    "sha256": "6587c5406044d3d8a1caec92cbbb797a6ead3fe20239134a46d3a3efb6a8881c"
+  },
+  {
+    "path": "protenix-controls/control_facs_low/seed_42/control_facs_low_seed_42_sample_1_scores.json",
+    "bytes": 638,
+    "sha256": "c6d81c538ba55147a8d406f0f47b5587934c5c227121127e04d0bd1990116893"
+  },
+  {
+    "path": "protenix-controls/control_wt/seed_42/control_wt_seed_42_sample_1_detailed_scores.cbor.gz",
+    "bytes": 810771,
+    "sha256": "eb9693857b7114751f560d932a692e792dde375315ad37d43bdeaeec29e1a783"
+  },
+  {
+    "path": "protenix-controls/control_wt/seed_42/control_wt_seed_42_sample_1_model.cif",
+    "bytes": 224358,
+    "sha256": "248d67b92e2638533b2f3d9aada212d89a96c41861519bdc754ce70a298a028b"
+  },
+  {
+    "path": "protenix-controls/control_wt/seed_42/control_wt_seed_42_sample_1_scores.json",
+    "bytes": 637,
+    "sha256": "975eb0cc6dadb4e47d4f8118af9bf0a59746a428697516b009fd70fdcfefbeaa"
+  },
+  {
+    "path": "protenix-controls/her2_cdrh3_1/seed_42/her2_cdrh3_1_seed_42_sample_1_detailed_scores.cbor.gz",
+    "bytes": 811759,
+    "sha256": "7e303e381b933520a86ef8926b5c3474cee053eac8b55d31a41a888c0a9bf0da"
+  },
+  {
+    "path": "protenix-controls/her2_cdrh3_1/seed_42/her2_cdrh3_1_seed_42_sample_1_model.cif",
+    "bytes": 225154,
+    "sha256": "c11e64d4737c84a15a521019fb8f3c2a1da7cf3afcd1e0785e8b21a633b1e7fe"
+  },
+  {
+    "path": "protenix-controls/her2_cdrh3_1/seed_42/her2_cdrh3_1_seed_42_sample_1_scores.json",
+    "bytes": 635,
+    "sha256": "454d5de0bdcf8774770f162e54a97586cfb1af00b3060c6b4d69e54f18a1bef8"
+  },
+  {
+    "path": "protenix-controls/her2_cdrh3_2/seed_42/her2_cdrh3_2_seed_42_sample_1_detailed_scores.cbor.gz",
+    "bytes": 811332,
+    "sha256": "09db0217e559608cd7daff18009f9c954c52116e953414d6cf4949fd9f38bc38"
+  },
+  {
+    "path": "protenix-controls/her2_cdrh3_2/seed_42/her2_cdrh3_2_seed_42_sample_1_model.cif",
+    "bytes": 224734,
+    "sha256": "7c5c2a6c4385626477dfb60a06481ef46fa1240e0fb71273b3ac7def27abdd65"
+  },
+  {
+    "path": "protenix-controls/her2_cdrh3_2/seed_42/her2_cdrh3_2_seed_42_sample_1_scores.json",
+    "bytes": 638,
+    "sha256": "5e47efaafcd9b0865a857b90193792648f4355663d100e96ee06e77a32b65133"
+  },
+  {
+    "path": "protenix-controls/result.json",
+    "bytes": 2483,
+    "sha256": "7dfa841553f3b61ba7b916ae48fb3a82f6868b9795d5c3b85c631731d648bec6"
+  },
+  {
+    "path": "refold-controls.json",
+    "bytes": 11868,
+    "sha256": "8924beda4c43bb05821d12c91aa4a154c7f24ebb78130e6e439c9965c9f5c2cf"
+  },
+  {
+    "path": "statistical-protenix/.apheris-foundry",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "statistical-protenix/config.json",
+    "bytes": 344,
+    "sha256": "dce9c483cd8b541c78130ecd0a3583695cc6b105cfcef459294e5f471c67cab5"
+  },
+  {
+    "path": "statistical-protenix/result.json",
+    "bytes": 1726,
+    "sha256": "0b9aa2ca2ed9a540cb4c1f98d91ca36acadf288236a3702582294f5a956b3f60"
+  },
+  {
+    "path": "statistical-protenix/stat_YTADGVYHLK/seed_42/stat_YTADGVYHLK_seed_42_sample_1_detailed_scores.cbor.gz",
+    "bytes": 808825,
+    "sha256": "6058019dd5ed644b49295702a78a8ff058fb90d36f940ad61be84ff64796b613"
+  },
+  {
+    "path": "statistical-protenix/stat_YTADGVYHLK/seed_42/stat_YTADGVYHLK_seed_42_sample_1_model.cif",
+    "bytes": 225389,
+    "sha256": "e79e7ad8f9dd82b642a6422a5efa17583d40a6dbdd4052b79930c91e946a2a14"
+  },
+  {
+    "path": "statistical-protenix/stat_YTADGVYHLK/seed_42/stat_YTADGVYHLK_seed_42_sample_1_scores.json",
+    "bytes": 638,
+    "sha256": "5082395358f9c178b07b4b20e75035ff8e485b9be4cb5ad94010f8123d91e655"
+  },
+  {
+    "path": "statistical-protenix/stat_YTGDGFPAMN/seed_42/stat_YTGDGFPAMN_seed_42_sample_1_detailed_scores.cbor.gz",
+    "bytes": 812349,
+    "sha256": "cc632cc949ba315ba8f318d10f1eb1cb68277fa05bfa19f0755d19d7b4515c08"
+  },
+  {
+    "path": "statistical-protenix/stat_YTGDGFPAMN/seed_42/stat_YTGDGFPAMN_seed_42_sample_1_model.cif",
+    "bytes": 223794,
+    "sha256": "64236fde07a07d2e167d8f2d654f4d2e12b18c202fd3bf068a47fff14801a665"
+  },
+  {
+    "path": "statistical-protenix/stat_YTGDGFPAMN/seed_42/stat_YTGDGFPAMN_seed_42_sample_1_scores.json",
+    "bytes": 638,
+    "sha256": "3fc4510523c543077775a5e8c0e79d5b1c7e71279afc2c0edcf3d53da1545ded"
+  }
+]
