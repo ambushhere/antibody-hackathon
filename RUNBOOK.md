@@ -54,6 +54,9 @@ design  →  refold-prepare  →  cofolding predict  →  refold-score
   ресурса, 5 результат не сохранился.
 - Веса уже внутри образов, монтировать не нужно: rfd4 в `/weights`, остальные в `/app/weights`.
 - **rfd4 принимает только CIF и BCIF, PDB отклоняется.**
+- `--seeds` принимает **одно** целое за флаг. Несколько сидов задаются повторением флага:
+  `--seeds 42 --seeds 43 --seeds 44`. Запись через пробел падает с
+  `error[usage]: No such command '43'`. Проверено 14.11.2026 на `apheris-protenix-v1.3.0-v2`.
 - У кофолдинга по умолчанию `missing_msas=fail`: запрос без `msa_path` и без совпадения в
   `--msa-dir` будет отвергнут.
 
@@ -86,7 +89,7 @@ docker run --rm --gpus all --user "$(id -u):$(id -g)" \
   -v "$PWD/out:/output" \
   quay.io/apheris/oslo-hackathon:apheris-protenix-v1.3.0-v2 \
   module-run predict --input /output/refold/queries --output /output/pred_protenix \
-  --seeds 42 43 44 --num-diffusion-samples 5 --write-detailed-scores true
+  --seeds 42 --seeds 43 --seeds 44 --num-diffusion-samples 5 --write-detailed-scores true
 ```
 
 OpenFold3 (обязателен для денежного приза, плюс второй голос в консенсусе):
