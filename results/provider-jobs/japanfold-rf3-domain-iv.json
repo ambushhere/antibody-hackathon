@@ -1,0 +1,71 @@
+{
+  "created_at": "2026-11-14T12:30:03.185828+00:00",
+  "done": 7,
+  "download": "curl -fsSL -H \"Authorization: Bearer $JAPANFOLD_API_KEY\" -o a6b1ac5596c635805e1f3312d28fd797-results.zip https://api.japanfold.aiand.com/v1/jobs/a6b1ac5596c635805e1f3312d28fd797/archive && unzip -oq a6b1ac5596c635805e1f3312d28fd797-results.zip",
+  "error": null,
+  "finished_at": "2026-11-14T12:32:14.184227+00:00",
+  "id": "a6b1ac5596c635805e1f3312d28fd797",
+  "kind": "predict",
+  "links": {
+    "archive": "/v1/jobs/a6b1ac5596c635805e1f3312d28fd797/archive",
+    "logs": "/v1/jobs/a6b1ac5596c635805e1f3312d28fd797/logs",
+    "results": "/v1/jobs/a6b1ac5596c635805e1f3312d28fd797/results",
+    "self": "/v1/jobs/a6b1ac5596c635805e1f3312d28fd797",
+    "usage": "/v1/jobs/a6b1ac5596c635805e1f3312d28fd797/usage"
+  },
+  "model": "rf3",
+  "name": "her2-context-domain-iv-20261114",
+  "object": "job",
+  "params": {
+    "diffusion_samples": 1,
+    "output_format": "cif",
+    "seed": 42,
+    "use_msa_server": false,
+    "write_pae": true
+  },
+  "progress": 1.0,
+  "protocol": null,
+  "residues": 381,
+  "results_ready": true,
+  "stage": "done",
+  "started_at": "2026-11-14T12:30:14.410146+00:00",
+  "status": "succeeded",
+  "targets": [
+    {
+      "id": "control_wt",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "control_facs_low",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "control_spr_strong",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "control_spr_weak",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "denovo_fullseq_k1_1",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "opt_WTAVGFFAMD",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "opt_YTGDGFPAMN",
+      "stage": null,
+      "state": "done"
+    }
+  ],
+  "total": 7
+}

@@ -1,0 +1,8 @@
+dataset,target,pair_rows,unique_vhh_target_pairs,cognate_pairs,noncognate_pairs,kd_reported,no_reportable_fit,not_expressed,antigen_not_produced,response_without_kd,af3_numeric,af3_ge_0_7,confirmed_negative_pairs,matched_confirmed_negative_scores,false_positive_n,false_positive_denominator,false_positive_fraction,wilson95_low,wilson95_high
+pairwise,C3b,5,5,1,4,1,1,3,0,0,0,0,0,0,,,,,
+pairwise,CD4,6,6,1,5,1,3,2,0,0,1,0,0,0,,,,,
+pairwise,CD8a,5,5,1,4,1,4,0,0,0,0,0,0,0,,,,,
+pairwise,CDK7,5,5,1,4,0,0,0,5,0,0,0,0,0,,,,,
+pairwise,CNPase,4,4,1,3,1,3,0,0,0,1,0,0,0,,,,,
+pairwise,Leptin receptor,4,4,1,3,0,1,2,0,1,1,0,0,0,,,,,
+pairwise,ALL,29,29,6,23,4,12,7,5,1,3,0,0,0,,,,,

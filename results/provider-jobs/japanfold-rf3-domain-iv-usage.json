@@ -1,0 +1,156 @@
+{
+  "amount": 0.022406,
+  "amount_micros": 22406,
+  "billable_s": 310.246,
+  "closed_at": "2026-11-14T12:32:13.846000+00:00",
+  "currency": "usd",
+  "excluded_s": 0.0,
+  "job": "a6b1ac5596c635805e1f3312d28fd797",
+  "kind": "predict",
+  "links": {
+    "job": "/v1/jobs/a6b1ac5596c635805e1f3312d28fd797"
+  },
+  "load_s": 32.19,
+  "meter": {
+    "bias": "under",
+    "bound_s": 6.0,
+    "method": "sampled-lease-integral+engine-clock-cap",
+    "sample_gap_s": 3.0,
+    "visible": true
+  },
+  "model": "rf3",
+  "name": "her2-context-domain-iv-20261114",
+  "object": "usage",
+  "reconcile": {
+    "agree": 1,
+    "capped": 0,
+    "checked": 1,
+    "over_engine": 0,
+    "rate": 1.0,
+    "worst_delta_s": -0.768
+  },
+  "status": "succeeded",
+  "submitted_at": "2026-11-14T12:30:14.729000+00:00",
+  "surface": "mcp",
+  "targets": [
+    {
+      "amount": 0.003772,
+      "amount_micros": 3772,
+      "attempts": 1,
+      "billable_s": 52.232,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "control_wt",
+      "intervals": [
+        [
+          "2026-11-14T12:30:18.743000+00:00",
+          "2026-11-14T12:31:10.975000+00:00"
+        ]
+      ],
+      "load_s": 9.832,
+      "runtime_s": 42.4
+    },
+    {
+      "amount": 0.003627,
+      "amount_micros": 3627,
+      "attempts": 1,
+      "billable_s": 50.227,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "control_facs_low",
+      "intervals": [
+        [
+          "2026-11-14T12:30:21.627000+00:00",
+          "2026-11-14T12:31:11.855000+00:00"
+        ]
+      ],
+      "load_s": 8.027,
+      "runtime_s": 42.2
+    },
+    {
+      "amount": 0.003481,
+      "amount_micros": 3481,
+      "attempts": 1,
+      "billable_s": 48.195,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "control_spr_strong",
+      "intervals": [
+        [
+          "2026-11-14T12:30:22.270000+00:00",
+          "2026-11-14T12:31:10.465000+00:00"
+        ]
+      ],
+      "load_s": 5.695,
+      "runtime_s": 42.5
+    },
+    {
+      "amount": 0.003195,
+      "amount_micros": 3195,
+      "attempts": 1,
+      "billable_s": 44.232,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "control_spr_weak",
+      "intervals": [
+        [
+          "2026-11-14T12:30:27.495000+00:00",
+          "2026-11-14T12:31:11.727000+00:00"
+        ]
+      ],
+      "load_s": 5.732,
+      "runtime_s": 38.5
+    },
+    {
+      "amount": 0.004201,
+      "amount_micros": 4201,
+      "attempts": 1,
+      "billable_s": 58.175,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "denovo_fullseq_k1_1",
+      "intervals": [
+        [
+          "2026-11-14T12:31:13.664000+00:00",
+          "2026-11-14T12:32:11.839000+00:00"
+        ]
+      ],
+      "load_s": 0.0,
+      "runtime_s": 60.0
+    },
+    {
+      "amount": 0.00268,
+      "amount_micros": 2680,
+      "attempts": 1,
+      "billable_s": 37.104,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "opt_WTAVGFFAMD",
+      "intervals": [
+        [
+          "2026-11-14T12:30:23.382000+00:00",
+          "2026-11-14T12:31:00.486000+00:00"
+        ]
+      ],
+      "load_s": 2.904,
+      "runtime_s": 34.2
+    },
+    {
+      "amount": 0.00145,
+      "amount_micros": 1450,
+      "attempts": 1,
+      "billable_s": 20.081,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "opt_YTGDGFPAMN",
+      "intervals": [
+        [
+          "2026-11-14T12:31:12.744000+00:00",
+          "2026-11-14T12:31:32.825000+00:00"
+        ]
+      ],
+      "load_s": 0.0,
+      "runtime_s": 21.7
+    }
+  ]
+}

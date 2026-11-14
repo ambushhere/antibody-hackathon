@@ -1,0 +1,2584 @@
+[
+  {
+    "pair_sha256": "894faa02c8b920eb5271ef7be55183078c00f8c4ad7161488065b44b9a81b5f6",
+    "cross_source": true,
+    "observations": [
+      {
+        "row": "garbinski2023_tm1.csv:86",
+        "value": 46.6
+      },
+      {
+        "row": "jain2017biophysical_Tm.csv:81",
+        "value": 86.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "ae1043c96fe680f4294dd09f4d3855a03bb6c65ae707019644bfb863a3b432c2",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_multitm1_igg.csv:2",
+        "value": 67.3
+      },
+      {
+        "row": "hutchinson2023enhancement_singletm1_igg.csv:2",
+        "value": 67.3
+      },
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:2",
+        "value": 67.3
+      },
+      {
+        "row": "hutchinson2023enhancement_top27tm1_igg.csv:2",
+        "value": 67.3
+      }
+    ]
+  },
+  {
+    "pair_sha256": "88c047140180e7c1da3ebb5d9a3ed0007f1d199965eabdb61338e5b66898d466",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_singletm1_igg.csv:3",
+        "value": 67.6
+      },
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:4",
+        "value": 67.6
+      }
+    ]
+  },
+  {
+    "pair_sha256": "937400a911d9f80a2e4240f4429003748b2f71f85b2b35dc3f07f007ba7a3a8d",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_singletm1_igg.csv:4",
+        "value": 67.9
+      },
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:5",
+        "value": 67.9
+      }
+    ]
+  },
+  {
+    "pair_sha256": "236bfc8f29695881205681a6414fe1f9a50b8f8ac686ffc93655ef39a07ba259",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_singletm1_igg.csv:5",
+        "value": 64.0
+      },
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:6",
+        "value": 64.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "cd712b2ab08acafd207096694f562ebc415a21e61116561c22cb8b8677f5a392",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_singletm1_igg.csv:6",
+        "value": 66.6
+      },
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:7",
+        "value": 66.6
+      },
+      {
+        "row": "hutchinson2023enhancement_top27tm1_igg.csv:3",
+        "value": 66.6
+      }
+    ]
+  },
+  {
+    "pair_sha256": "693f3fa81b3c6d6903a09429d9b037e4fba1f7b92dec02404525218e69559e29",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_singletm1_igg.csv:7",
+        "value": 68.1
+      },
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:8",
+        "value": 68.1
+      }
+    ]
+  },
+  {
+    "pair_sha256": "4c2c3808f41f8ad73152da831b4c381a87157f03f80b9c1ece4a171d4e4c3331",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_singletm1_igg.csv:8",
+        "value": 68.8
+      },
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:9",
+        "value": 68.8
+      }
+    ]
+  },
+  {
+    "pair_sha256": "8d2aa29f254e1a18a8ca34573019d1094a537325b1ac9af0ca9bb2487e4c5ea4",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_singletm1_igg.csv:9",
+        "value": 64.7
+      },
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:10",
+        "value": 64.7
+      }
+    ]
+  },
+  {
+    "pair_sha256": "2a1130ad7778f1dc99d7900bf77ee1d755ace4b7004e4f1ec9352b1aa4dd86e0",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_singletm1_igg.csv:10",
+        "value": 65.1
+      },
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:11",
+        "value": 65.1
+      }
+    ]
+  },
+  {
+    "pair_sha256": "465dc62a0d9a49b875f10f6f27eb131b67b7b5088b78e40cfe8acfa1ef6e60cf",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_singletm1_igg.csv:11",
+        "value": 70.5
+      },
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:12",
+        "value": 70.5
+      }
+    ]
+  },
+  {
+    "pair_sha256": "ddfa21b4fa6635bf0fd96837d38a476e8779587bcc3d51ddf41b37bb3b57fc7c",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_singletm1_igg.csv:12",
+        "value": 68.9
+      },
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:13",
+        "value": 68.9
+      },
+      {
+        "row": "hutchinson2023enhancement_top27tm1_igg.csv:4",
+        "value": 68.9
+      }
+    ]
+  },
+  {
+    "pair_sha256": "3c38d1414a3ae0ad7570868455f572d355efa33bf06872714e226688f5c98a4f",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_singletm1_igg.csv:13",
+        "value": 69.3
+      },
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:14",
+        "value": 69.3
+      }
+    ]
+  },
+  {
+    "pair_sha256": "1effea97a920ba084ee4dc282ae8a48c24be710eb3cc9fb25fd01340bb947d8e",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_singletm1_igg.csv:14",
+        "value": 68.7
+      },
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:15",
+        "value": 68.7
+      }
+    ]
+  },
+  {
+    "pair_sha256": "b127e568f1b2f877687776668131e96f806e186397b54c91233c5afcb71a6a95",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_singletm1_igg.csv:15",
+        "value": 65.6
+      },
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:16",
+        "value": 65.6
+      }
+    ]
+  },
+  {
+    "pair_sha256": "e8d31c4ccdd1dab05d614c51f413cded843056349504343508cb08e680084cea",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_singletm1_igg.csv:16",
+        "value": 66.2
+      },
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:17",
+        "value": 66.2
+      }
+    ]
+  },
+  {
+    "pair_sha256": "e7bc988bbd91dd2bc5d81c6381eff83b7b7158d1c51912d26e5b4b57dbd60711",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_singletm1_igg.csv:17",
+        "value": 69.6
+      },
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:18",
+        "value": 69.6
+      }
+    ]
+  },
+  {
+    "pair_sha256": "3648a5bfe010c2c8ddaa7e39b647bd63ca2a4746c1d916797719b72a523383c5",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_singletm1_igg.csv:18",
+        "value": 67.2
+      },
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:19",
+        "value": 67.2
+      }
+    ]
+  },
+  {
+    "pair_sha256": "85761e60185801376777809e79f55021d0cce4c5e68f7c70c1d8c3e304b06f69",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_singletm1_igg.csv:19",
+        "value": 67.5
+      },
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:20",
+        "value": 67.5
+      }
+    ]
+  },
+  {
+    "pair_sha256": "4273dd656cf54948e9a038f818a449f6fe33f4f5d1b087a615e911a1dfbbe630",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_singletm1_igg.csv:20",
+        "value": 68.9
+      },
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:21",
+        "value": 68.9
+      }
+    ]
+  },
+  {
+    "pair_sha256": "2deca19be0e0aa29ca90bc69e2535ca8b99e5c489667e928b3fc47885b525a57",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_singletm1_igg.csv:21",
+        "value": 66.8
+      },
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:22",
+        "value": 66.8
+      }
+    ]
+  },
+  {
+    "pair_sha256": "cfda97b5d64fb4263fe121f7fd49054f3507767400fd753e113e10d6ef5f4e77",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_singletm1_igg.csv:22",
+        "value": 69.3
+      },
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:23",
+        "value": 69.3
+      }
+    ]
+  },
+  {
+    "pair_sha256": "ed50eb1ab0c79a0d437df6aa462ef55666160300c294af8c6e1f7a7f7de983b7",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_singletm1_igg.csv:23",
+        "value": 66.4
+      },
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:24",
+        "value": 66.4
+      }
+    ]
+  },
+  {
+    "pair_sha256": "cc16e64f46a5f0d22c18315c8a9d78bd6e66d16ca66877922fa81fe030a33ef4",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_singletm1_igg.csv:24",
+        "value": 68.5
+      },
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:25",
+        "value": 68.5
+      }
+    ]
+  },
+  {
+    "pair_sha256": "e9b518d9d6fd474978f4213f18c629637be342c04d4ece738df69451a438d5af",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:27",
+        "value": 68.4
+      },
+      {
+        "row": "hutchinson2023enhancement_top27tm1_igg.csv:5",
+        "value": 68.4
+      }
+    ]
+  },
+  {
+    "pair_sha256": "79ef5f8c482d745bde6345c4715808e6c9319b21a14876e621651c68aec7b3b2",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:29",
+        "value": 70.8
+      },
+      {
+        "row": "hutchinson2023enhancement_top27tm1_igg.csv:6",
+        "value": 70.8
+      }
+    ]
+  },
+  {
+    "pair_sha256": "b7e5a0e1c0a5f9dec8c0287194d56856eae54eaa4ffb5711078ba653ce72be1a",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:40",
+        "value": 73.4
+      },
+      {
+        "row": "hutchinson2023enhancement_top27tm1_igg.csv:7",
+        "value": 73.4
+      }
+    ]
+  },
+  {
+    "pair_sha256": "5ceb3ba1f89944b29cf1ccee3ea1ed3f211b7f21bd8ae59db6f09784e99d8fe9",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:41",
+        "value": 70.7
+      },
+      {
+        "row": "hutchinson2023enhancement_top27tm1_igg.csv:8",
+        "value": 70.7
+      }
+    ]
+  },
+  {
+    "pair_sha256": "18132005379041a9c8423eda793b2da36b7ef2c15d507f1025e059a92c0b9347",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:52",
+        "value": 71.0
+      },
+      {
+        "row": "hutchinson2023enhancement_top27tm1_igg.csv:9",
+        "value": 71.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "c7e24e82ac492a22dfe990963d30bb35f68c06194c14ed325e86f5a0ea863625",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:56",
+        "value": 70.5
+      },
+      {
+        "row": "hutchinson2023enhancement_top27tm1_igg.csv:10",
+        "value": 70.5
+      }
+    ]
+  },
+  {
+    "pair_sha256": "3280b8748afab1763737aedb483d2eb4376182eb2f7d76065521704c757c1d51",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:57",
+        "value": 58.8
+      },
+      {
+        "row": "hutchinson2023enhancement_top27tm1_igg.csv:11",
+        "value": 58.8
+      }
+    ]
+  },
+  {
+    "pair_sha256": "3619f7fdb98a5dea4f3d34ef5b1aa39d1c05096d7911536d0cbd80abb4afb725",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:61",
+        "value": 71.7
+      },
+      {
+        "row": "hutchinson2023enhancement_top27tm1_igg.csv:12",
+        "value": 71.7
+      }
+    ]
+  },
+  {
+    "pair_sha256": "2bd5ff648c1438ce241fe0214e4eef6ef27092e0c4b65d106d1e9059e659fea7",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:67",
+        "value": 70.6
+      },
+      {
+        "row": "hutchinson2023enhancement_top27tm1_igg.csv:13",
+        "value": 70.6
+      }
+    ]
+  },
+  {
+    "pair_sha256": "9e7a85b45f9d0a07461ab8ab56a97fe469724dc7f6ed470721918d081eb5d58b",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:71",
+        "value": 70.0
+      },
+      {
+        "row": "hutchinson2023enhancement_top27tm1_igg.csv:14",
+        "value": 70.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "5fe3efc41d240a3d8182e020ea0228a9d7dbc8888a601c5b386d801faa67d840",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:74",
+        "value": 69.9
+      },
+      {
+        "row": "hutchinson2023enhancement_top27tm1_igg.csv:15",
+        "value": 69.9
+      }
+    ]
+  },
+  {
+    "pair_sha256": "500667ccf639ff7f6fe90bbaab6d87744e1453bb1025c3869a9a7adcbfe0e347",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:75",
+        "value": 72.2
+      },
+      {
+        "row": "hutchinson2023enhancement_top27tm1_igg.csv:16",
+        "value": 72.2
+      }
+    ]
+  },
+  {
+    "pair_sha256": "6008e4265df286e3c0e37ff62a45628c6afbc7a5f3339bcf6acff8e0fba39a75",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:76",
+        "value": 71.7
+      },
+      {
+        "row": "hutchinson2023enhancement_top27tm1_igg.csv:17",
+        "value": 71.7
+      }
+    ]
+  },
+  {
+    "pair_sha256": "b038ee78a9b0b0e6f69a2b07f330e895970884b55b4b9f18d532e00a56ea6c7b",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:77",
+        "value": 70.6
+      },
+      {
+        "row": "hutchinson2023enhancement_top27tm1_igg.csv:18",
+        "value": 70.6
+      }
+    ]
+  },
+  {
+    "pair_sha256": "be5dafa4f0ecbf36e034719366b933f54d50ee011def0edb128e298896881cf7",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:81",
+        "value": 71.2
+      },
+      {
+        "row": "hutchinson2023enhancement_top27tm1_igg.csv:19",
+        "value": 71.2
+      }
+    ]
+  },
+  {
+    "pair_sha256": "8db91235654340098493887aa856c4942878e2ae3d33f79effa45465f3e74f77",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:83",
+        "value": 71.4
+      },
+      {
+        "row": "hutchinson2023enhancement_top27tm1_igg.csv:20",
+        "value": 71.4
+      }
+    ]
+  },
+  {
+    "pair_sha256": "c73eeac9e0ace234086c4856ae22cd09614046d8d4488c491abcbb5aa6e61018",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:113",
+        "value": 69.8
+      },
+      {
+        "row": "hutchinson2023enhancement_top27tm1_igg.csv:21",
+        "value": 69.8
+      }
+    ]
+  },
+  {
+    "pair_sha256": "b449fa19c87bb26721e82219c61d49ea90ef8c1199c0c8f15e4ab7490cbe97df",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:116",
+        "value": 70.3
+      },
+      {
+        "row": "hutchinson2023enhancement_top27tm1_igg.csv:22",
+        "value": 70.3
+      }
+    ]
+  },
+  {
+    "pair_sha256": "b132694ae24408ea648d91dae87cd984b52b895b4d26f3079bb6ab06aeff74e8",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:133",
+        "value": 70.4
+      },
+      {
+        "row": "hutchinson2023enhancement_top27tm1_igg.csv:23",
+        "value": 70.4
+      }
+    ]
+  },
+  {
+    "pair_sha256": "d301e2e27071cfa294029e0aca08d1208bf3ded0e549f4df85eefd8f86046bbd",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:136",
+        "value": 70.8
+      },
+      {
+        "row": "hutchinson2023enhancement_top27tm1_igg.csv:24",
+        "value": 70.8
+      }
+    ]
+  },
+  {
+    "pair_sha256": "0a59a4762060a26db9542fbfdb96fb55b1f987d1a9e29d1a88ef73995da29857",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:150",
+        "value": 71.6
+      },
+      {
+        "row": "hutchinson2023enhancement_top27tm1_igg.csv:25",
+        "value": 71.6
+      }
+    ]
+  },
+  {
+    "pair_sha256": "bd8fe25649a46449ba9c3818e57c9081520a0f0f266eb7434f781301cb17fa81",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:151",
+        "value": 70.7
+      },
+      {
+        "row": "hutchinson2023enhancement_top27tm1_igg.csv:26",
+        "value": 70.7
+      }
+    ]
+  },
+  {
+    "pair_sha256": "feb62c7e2c2444bb726b2b000e40641e48fc5b24c90b8278b750f9d726d5ac36",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:190",
+        "value": 69.5
+      },
+      {
+        "row": "hutchinson2023enhancement_top27tm1_igg.csv:27",
+        "value": 69.8
+      },
+      {
+        "row": "hutchinson2023enhancement_top27tm1_igg.csv:28",
+        "value": 69.5
+      }
+    ]
+  },
+  {
+    "pair_sha256": "a0bbe4303e72cd934879dc810499cd810de4d6377a6f5101803bb64922ab85a4",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "hutchinson2023enhancement_top200tm1_igg.csv:191",
+        "value": 69.1
+      },
+      {
+        "row": "hutchinson2023enhancement_top27tm1_igg.csv:29",
+        "value": 69.1
+      }
+    ]
+  },
+  {
+    "pair_sha256": "6140119b9f830de3bca8dde487d1a8e3f41d0b15da36711a0b67b3e605ec748b",
+    "cross_source": true,
+    "observations": [
+      {
+        "row": "jain2017biophysical_Tm.csv:4",
+        "value": 71.0
+      },
+      {
+        "row": "rosace2023automated_tm1_adalimumab.csv:2",
+        "value": 57.9
+      }
+    ]
+  },
+  {
+    "pair_sha256": "669169455dee694b8accf02e59b3c99987bdde89778c9b79dcfaa62043cb8aaa",
+    "cross_source": true,
+    "observations": [
+      {
+        "row": "jain2017biophysical_Tm.csv:63",
+        "value": 70.0
+      },
+      {
+        "row": "rosace2023automated_tm1_golimumab.csv:2",
+        "value": 62.4
+      }
+    ]
+  },
+  {
+    "pair_sha256": "c677caa596170fc62c0364f665ba1e18986c9f4e59bfb53fccdfc9c91616192f",
+    "cross_source": true,
+    "observations": [
+      {
+        "row": "jain2017biophysical_Tm.csv:130",
+        "value": 78.5
+      },
+      {
+        "row": "shanehsazzadeh2023unlocking_DLS.csv:2",
+        "value": 0.11
+      },
+      {
+        "row": "shanehsazzadeh2023unlocking_DSF1.csv:2",
+        "value": 79.52
+      },
+      {
+        "row": "shanehsazzadeh2023unlocking_DSF2.csv:2",
+        "value": 79.52
+      }
+    ]
+  },
+  {
+    "pair_sha256": "9da0214a1f5f338db444c948874effba7d39c5273d2f0b388391517aa7e1b12c",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "shanehsazzadeh2023unlocking_DLS.csv:3",
+        "value": 0.05
+      },
+      {
+        "row": "shanehsazzadeh2023unlocking_DSF1.csv:3",
+        "value": 70.79
+      },
+      {
+        "row": "shanehsazzadeh2023unlocking_DSF2.csv:3",
+        "value": 79.42
+      }
+    ]
+  },
+  {
+    "pair_sha256": "f1d42172f4ce10f31cfba982b2c7fa0996977e8c2a3b69d07f448b65469fd1c3",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "shanehsazzadeh2023unlocking_DLS.csv:4",
+        "value": 0.04
+      },
+      {
+        "row": "shanehsazzadeh2023unlocking_DSF1.csv:4",
+        "value": 70.6
+      },
+      {
+        "row": "shanehsazzadeh2023unlocking_DSF2.csv:4",
+        "value": 78.9
+      }
+    ]
+  },
+  {
+    "pair_sha256": "7508006f828ad45b8cea3c496c18065dec482476e94ff221958f04768e69b888",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "shanehsazzadeh2023unlocking_DLS.csv:5",
+        "value": 0.08
+      },
+      {
+        "row": "shanehsazzadeh2023unlocking_DSF1.csv:5",
+        "value": 70.39
+      },
+      {
+        "row": "shanehsazzadeh2023unlocking_DSF2.csv:5",
+        "value": 70.39
+      }
+    ]
+  },
+  {
+    "pair_sha256": "1a6454ec6e8a4bbc53da41c7dca823854732d2941957326c833f0e2f60885aa2",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "shanehsazzadeh2023unlocking_DLS.csv:6",
+        "value": 0.08
+      },
+      {
+        "row": "shanehsazzadeh2023unlocking_DSF1.csv:6",
+        "value": 80.24
+      },
+      {
+        "row": "shanehsazzadeh2023unlocking_DSF2.csv:6",
+        "value": 80.24
+      }
+    ]
+  },
+  {
+    "pair_sha256": "eb7ce7201a43af59a2d6148bad495ccdb91334f2ad25ff4e87194ffb831717b9",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "shanehsazzadeh2023unlocking_DLS.csv:7",
+        "value": 0.04
+      },
+      {
+        "row": "shanehsazzadeh2023unlocking_DSF1.csv:7",
+        "value": 71.86
+      },
+      {
+        "row": "shanehsazzadeh2023unlocking_DSF2.csv:7",
+        "value": 71.86
+      }
+    ]
+  },
+  {
+    "pair_sha256": "1537c4002ac57d698b68463bd3b554153d1288a08a68ec7d8b94148cf8491d49",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "shanehsazzadeh2023unlocking_DLS.csv:8",
+        "value": 0.07
+      },
+      {
+        "row": "shanehsazzadeh2023unlocking_DSF1.csv:8",
+        "value": 70.5
+      },
+      {
+        "row": "shanehsazzadeh2023unlocking_DSF2.csv:8",
+        "value": 80.73
+      }
+    ]
+  },
+  {
+    "pair_sha256": "09a18e3031e540c97b29d4e2262bf62e0d853e3d7addcf3fc106b508b4ad2c55",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "shanehsazzadeh2023unlocking_DLS.csv:9",
+        "value": 0.05
+      },
+      {
+        "row": "shanehsazzadeh2023unlocking_DSF1.csv:9",
+        "value": 70.66
+      },
+      {
+        "row": "shanehsazzadeh2023unlocking_DSF2.csv:9",
+        "value": 78.36
+      }
+    ]
+  },
+  {
+    "pair_sha256": "8942f433a0675a52a96952a5e0e12153627cf8bc1b93be7e84c3853992539142",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "shanehsazzadeh2023unlocking_DLS.csv:10",
+        "value": 0.06
+      },
+      {
+        "row": "shanehsazzadeh2023unlocking_DSF1.csv:10",
+        "value": 70.3
+      },
+      {
+        "row": "shanehsazzadeh2023unlocking_DSF2.csv:10",
+        "value": 82.73
+      }
+    ]
+  },
+  {
+    "pair_sha256": "026b6d7094ceabeef298802125de2dbd3620e3fe7981a7c50283c65310d40712",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "shanehsazzadeh2023unlocking_DLS.csv:11",
+        "value": 0.04
+      },
+      {
+        "row": "shanehsazzadeh2023unlocking_DSF1.csv:11",
+        "value": 69.98
+      },
+      {
+        "row": "shanehsazzadeh2023unlocking_DSF2.csv:11",
+        "value": 80.43
+      }
+    ]
+  },
+  {
+    "pair_sha256": "c5af77eebafa85bfceb2a302c4a785e0857d722422249e5e047e13a80b7d53e9",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "shanehsazzadeh2023unlocking_DLS.csv:12",
+        "value": 0.07
+      },
+      {
+        "row": "shanehsazzadeh2023unlocking_DSF1.csv:12",
+        "value": 72.02
+      },
+      {
+        "row": "shanehsazzadeh2023unlocking_DSF2.csv:12",
+        "value": 72.02
+      }
+    ]
+  },
+  {
+    "pair_sha256": "d55e429a9f467a336fe274c95ed9cbcb79ccb0d06ef681bd67effba71c785fd7",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "shanehsazzadeh2023unlocking_DLS.csv:13",
+        "value": 0.05
+      },
+      {
+        "row": "shanehsazzadeh2023unlocking_DSF1.csv:13",
+        "value": 75.66
+      },
+      {
+        "row": "shanehsazzadeh2023unlocking_DSF2.csv:13",
+        "value": 75.66
+      }
+    ]
+  },
+  {
+    "pair_sha256": "cce66b719d341567f85c34a72fe2869d5f0b1f593c69b60f64523b1e9b8b9166",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "shanehsazzadeh2023unlocking_DLS.csv:14",
+        "value": 0.09
+      },
+      {
+        "row": "shanehsazzadeh2023unlocking_DSF1.csv:14",
+        "value": 71.07
+      },
+      {
+        "row": "shanehsazzadeh2023unlocking_DSF2.csv:14",
+        "value": 80.37
+      }
+    ]
+  },
+  {
+    "pair_sha256": "734815dff252bedb859239f001d62ea3744d3fa1fb629ec5ab91eca9aa6382d8",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:46",
+        "value": 71.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:47",
+        "value": 72.3
+      }
+    ]
+  },
+  {
+    "pair_sha256": "102b44f5ee00060ee7f9d6ddabbfaf4f19af94f92c176625d3a374e357148f41",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:48",
+        "value": 74.3
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:49",
+        "value": 69.3
+      }
+    ]
+  },
+  {
+    "pair_sha256": "b975c6334ded4c9971a63317b9f6551966d6faf9d93de699e5280fa6ef4c2053",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:50",
+        "value": 63.9
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:51",
+        "value": 59.7
+      }
+    ]
+  },
+  {
+    "pair_sha256": "94c66cdc8280eb350101d57ac45d8c385650e01fec64bf343a8cb0099500ebe3",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:52",
+        "value": 62.5
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:53",
+        "value": 57.9
+      }
+    ]
+  },
+  {
+    "pair_sha256": "53c410c6be9a52c015bcfbaf2b60c5866d94df7a9550447c3ae79f94136cbaa2",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:54",
+        "value": 64.5
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:55",
+        "value": 64.8
+      }
+    ]
+  },
+  {
+    "pair_sha256": "36527f4bc9fe217b6761ca8a792e740d89bd3b8b53fa7d545616e46094779882",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:56",
+        "value": 63.2
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:57",
+        "value": 55.3
+      }
+    ]
+  },
+  {
+    "pair_sha256": "c65b1bb621ec2aaa80a88cb78f2489547a0ffcdd96248cd58cab4b7036d9e38d",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:58",
+        "value": 58.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:59",
+        "value": 53.6
+      }
+    ]
+  },
+  {
+    "pair_sha256": "1b1dc55cfb788d91b56ce9c9401387d81e230db00e42295b32f476581306e97a",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:60",
+        "value": 67.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:61",
+        "value": 67.1
+      }
+    ]
+  },
+  {
+    "pair_sha256": "12c99268a77b9fda05ec227bb678d70caac84bd22a2ba6846d9042d72a4783cc",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:62",
+        "value": 58.6
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:63",
+        "value": 60.8
+      }
+    ]
+  },
+  {
+    "pair_sha256": "31f8463a4eeb54249fd118205ef3cb40c58501fd96f27201b5025e7856c2ca8d",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:64",
+        "value": 69.5
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:65",
+        "value": 64.7
+      }
+    ]
+  },
+  {
+    "pair_sha256": "e4f8f9fd39fa891d1245d9ae7cca8f4ffa6cab3923c51147928d8d6bc1a3055e",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:66",
+        "value": 65.5
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:67",
+        "value": 64.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "6c14ec7d958b6e79dcfcd1958fee4c497e748cef2b47b1171624bd04009e4860",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:68",
+        "value": 67.2
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:69",
+        "value": 61.5
+      }
+    ]
+  },
+  {
+    "pair_sha256": "a4205507e5267bde1c525d2af7cd9d1f6830d875445c0659025d04ebaf349681",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:70",
+        "value": 70.8
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:71",
+        "value": 70.4
+      }
+    ]
+  },
+  {
+    "pair_sha256": "21180e4536cb62017ad53f10bd76133216ffeda9ebfdcf4ecfd56dc0656c3806",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:72",
+        "value": 85.8
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:73",
+        "value": 86.4
+      }
+    ]
+  },
+  {
+    "pair_sha256": "88d58a7df98a740c3ee28913a00f632935f055ba838f99961a0be8632085446e",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:75",
+        "value": 66.5
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:76",
+        "value": 67.4
+      }
+    ]
+  },
+  {
+    "pair_sha256": "e25ebbc8d53894eb99ee24218a057fd9427b625c42424347b04f61aa20f74f8a",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:77",
+        "value": 63.6
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:78",
+        "value": 68.4
+      }
+    ]
+  },
+  {
+    "pair_sha256": "eef50d5314650042055153fdb7099fa8fcebcbb5839b89367acb2b9612a9be79",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:81",
+        "value": 73.2
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:82",
+        "value": 71.9
+      }
+    ]
+  },
+  {
+    "pair_sha256": "d49d015c56861dff0707e48236af4aa3a5d0bd8daa6d200a99f4729ec7f86cda",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:83",
+        "value": 72.5
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:84",
+        "value": 67.1
+      }
+    ]
+  },
+  {
+    "pair_sha256": "e216ef6537adf855bc130a1ed64a6b9654316ad310c3558d8094be988a025093",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:85",
+        "value": 71.5
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:86",
+        "value": 77.7
+      }
+    ]
+  },
+  {
+    "pair_sha256": "a9a602d18c5e8c887f525720e0372b35911b2fb70718b50dd95ecff8b6714902",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:87",
+        "value": 70.4
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:88",
+        "value": 67.6
+      }
+    ]
+  },
+  {
+    "pair_sha256": "49670bef91ac2b398db21321cd8290ce89246e5e275bc46a41fbcbf238d64dfd",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:89",
+        "value": 60.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:90",
+        "value": 53.7
+      }
+    ]
+  },
+  {
+    "pair_sha256": "21c1057ad792233e1fb1664dfcc8af08c8cb68ba71123ec6f76f14e10ace0a79",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:91",
+        "value": 58.5
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:92",
+        "value": 51.8
+      }
+    ]
+  },
+  {
+    "pair_sha256": "3a72dda847b8f5f7d208009f0933dc79441a3b2cb29667007d6fdf212565291b",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:93",
+        "value": 63.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:94",
+        "value": 57.2
+      }
+    ]
+  },
+  {
+    "pair_sha256": "dd53c98d329d5aa883df6edbcdaef6620ed729cbc78bc4056fc73e6bd1de01d2",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:95",
+        "value": 67.2
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:96",
+        "value": 65.7
+      }
+    ]
+  },
+  {
+    "pair_sha256": "94c8812228f89f13f8dcc5274f748e802591f46a823159d6edc74b10a4b55a0c",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:97",
+        "value": 64.2
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:98",
+        "value": 65.7
+      }
+    ]
+  },
+  {
+    "pair_sha256": "ce289c464fb304814021507d6f314546864a2b5813f06f414a4aefebeef51a00",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:99",
+        "value": 70.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:100",
+        "value": 62.5
+      }
+    ]
+  },
+  {
+    "pair_sha256": "dcac519896a427772b7e1266e1a6b1989dcca79b4dd1ebc58e3cc33ad65bd4be",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:101",
+        "value": 77.5
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:102",
+        "value": 76.4
+      }
+    ]
+  },
+  {
+    "pair_sha256": "394f6d7164732d04617d251eb9ace961b7bb3e100a6c63df7a22828bd4c59805",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:103",
+        "value": 68.8
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:104",
+        "value": 64.7
+      }
+    ]
+  },
+  {
+    "pair_sha256": "eeb5d8f250ffba17a6ae0537a06734b73a77ebca3edbebb45f32327018273206",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:106",
+        "value": 69.2
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:107",
+        "value": 67.8
+      }
+    ]
+  },
+  {
+    "pair_sha256": "29b821016a0db62a855d9b59135cf7c298e335f528d326507b193dd359482aac",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:108",
+        "value": 85.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:109",
+        "value": 85.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "fe5372554de222eeb49de958b7e1dd1a97ebe4ba98ff741aef3d9984e65365f0",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:110",
+        "value": 61.5
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:111",
+        "value": 55.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "184ef4ba40eea20a2764fdad31655d5a5054bb902dddd2913fba488f290c64c8",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:112",
+        "value": 57.4
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:113",
+        "value": 58.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "2bc95afe07722c3ec5a23bb1017c5197fd3dcd2e85da1b0fb45c0ff0b95ee926",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:114",
+        "value": 73.1
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:115",
+        "value": 67.4
+      }
+    ]
+  },
+  {
+    "pair_sha256": "13104c6f76a2437a5883bade555d3bb332838045c5deeda547ce0a93285a08f9",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:116",
+        "value": 63.3
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:117",
+        "value": 58.6
+      }
+    ]
+  },
+  {
+    "pair_sha256": "632be406515bfb050d198cf1aad5975f8100480ece6e443b1d00c4c2e9243508",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:118",
+        "value": 60.1
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:119",
+        "value": 59.2
+      }
+    ]
+  },
+  {
+    "pair_sha256": "43c52d4b43f7d2b9b658fb125458fe3958f8ede01284a58c2156ce33c5096d91",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:120",
+        "value": 76.3
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:121",
+        "value": 70.8
+      }
+    ]
+  },
+  {
+    "pair_sha256": "59d688f102f4dfddedaec526d65451f90c1a96a790cdb44e3d230ceb88751678",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:122",
+        "value": 65.8
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:123",
+        "value": 57.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "6f1c7afd10639fd8e1c589e816f4948d1ae9620356842844432e730e337b70e3",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:124",
+        "value": 62.5
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:125",
+        "value": 58.7
+      }
+    ]
+  },
+  {
+    "pair_sha256": "9b9cceb8962792fd05fe953bdcc5974c3d56e2afa9ec0a8c0806882a6f1a86d5",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:126",
+        "value": 53.6
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:127",
+        "value": 48.3
+      }
+    ]
+  },
+  {
+    "pair_sha256": "504cf06787b480c7b48ae5d45e36a6d72ec6ba0be858de7770269543943aeb16",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:128",
+        "value": 60.8
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:129",
+        "value": 57.2
+      }
+    ]
+  },
+  {
+    "pair_sha256": "0768f39948a0c257d0a11ff623b6b8e60d3805df5e480acb5f02ed4b595ddafa",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:130",
+        "value": 71.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:131",
+        "value": 74.4
+      }
+    ]
+  },
+  {
+    "pair_sha256": "2b24dbc94f376b9d0ef541515b014943ee580b71e3919f0c21d399d82c6c997f",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:132",
+        "value": 69.5
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:133",
+        "value": 66.4
+      }
+    ]
+  },
+  {
+    "pair_sha256": "a196e5ad96e0b0cba9dce6d1079ccbfa759c3fa0f01ec66ebc2709a00e10366d",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:134",
+        "value": 76.6
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:135",
+        "value": 73.3
+      }
+    ]
+  },
+  {
+    "pair_sha256": "a5dfbf580f87292ce11928d613800318bf3986ef373061eafc565e0789df6065",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:136",
+        "value": 74.1
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:137",
+        "value": 76.6
+      }
+    ]
+  },
+  {
+    "pair_sha256": "b99a7186e0cdcf7d937488b180cc7951b611376e231fb73e1686c0c55bc94b6c",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:138",
+        "value": 77.8
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:139",
+        "value": 72.1
+      }
+    ]
+  },
+  {
+    "pair_sha256": "a1fb97d24cf36c9af41f4ab2fec4f431a67ac2d571e533fae9a34810653679ed",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:140",
+        "value": 78.8
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:141",
+        "value": 83.8
+      }
+    ]
+  },
+  {
+    "pair_sha256": "693b5fa8d2d2beaefb21f685685208099697e3cdc8b9cd2c9e839e447f8c5bde",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:143",
+        "value": 63.5
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:144",
+        "value": 59.6
+      }
+    ]
+  },
+  {
+    "pair_sha256": "0720d329cf1999a2338166b8c947557c6492985788ed465cf51b41910fc9cfda",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:148",
+        "value": 78.7
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:149",
+        "value": 76.1
+      }
+    ]
+  },
+  {
+    "pair_sha256": "81e433ba02bac3a38400477de3035a504b34fb55609e8a0f420e1edb85c288e6",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:150",
+        "value": 74.8
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:151",
+        "value": 77.8
+      }
+    ]
+  },
+  {
+    "pair_sha256": "1e4352f8521f9a5dbc299fc3c4e08bb3cb7379be4595f13999c4cc51cca34d0d",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:152",
+        "value": 76.3
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:153",
+        "value": 76.8
+      }
+    ]
+  },
+  {
+    "pair_sha256": "5bb03172f62afd0a85bbcd7a173c1d89cf1bc2a28ec7547068c337416de2f143",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:154",
+        "value": 67.5
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:155",
+        "value": 69.9
+      }
+    ]
+  },
+  {
+    "pair_sha256": "2f1e74168246354bd8e253f0041af23412f57d616fdc02d4b3f49e08fe39a05e",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:156",
+        "value": 80.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:157",
+        "value": 81.3
+      }
+    ]
+  },
+  {
+    "pair_sha256": "5bc17dc262283b0c74b9e074bc38f2c815a0c9812b3acb064d8f3700f7407fa6",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:159",
+        "value": 75.2
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:160",
+        "value": 77.4
+      }
+    ]
+  },
+  {
+    "pair_sha256": "d2a1b59b02a405013198f15637f6193fdf77277ef76a2cea21b8621c1f55e811",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:161",
+        "value": 75.8
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:162",
+        "value": 74.7
+      }
+    ]
+  },
+  {
+    "pair_sha256": "91bccb734970360758167c2c162c8a70e7d339653ad4bfdfb2a3e25365021098",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:163",
+        "value": 74.7
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:164",
+        "value": 74.6
+      }
+    ]
+  },
+  {
+    "pair_sha256": "8cd52a69e3b9c7746e5d86e62ebecdff551f6205797cdd5ba29b4984ee9da27c",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:165",
+        "value": 66.6
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:166",
+        "value": 66.7
+      }
+    ]
+  },
+  {
+    "pair_sha256": "8d9918d46614f7e74dc463f1e16859105e783c51160a6793e8f80a08b114c20b",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:170",
+        "value": 78.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:190",
+        "value": 77.8
+      }
+    ]
+  },
+  {
+    "pair_sha256": "d89371ee4c08dd1161fcbde34fb0003a448f62f0e8bc61b70fe27fed3fa57f12",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:173",
+        "value": 76.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:187",
+        "value": 79.7
+      }
+    ]
+  },
+  {
+    "pair_sha256": "bdac15e371a10133893880a46b2d057b287d3227dd262b1a83a2120504a12a9c",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:198",
+        "value": 71.2
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:206",
+        "value": 71.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "bd6a098d112f816d0bb8010e8c9e47b5c1ad6ae616eb8c5b4052377ab4751799",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:412",
+        "value": 55.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:413",
+        "value": 59.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "b5ca0c84eb2f166cedf975a38142660846446f15fdaa3cc48f6ece6998412568",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:414",
+        "value": 71.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:415",
+        "value": 74.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "d40b6d8aad0cc0b80c1a8add91d89fe19210ef84b63e7744722c41d218b65dad",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:416",
+        "value": 73.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:417",
+        "value": 75.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "711ba14e53e6e205b57636c013e40aebf3f8584f768831140fa47bf34e77ae48",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:418",
+        "value": 55.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:419",
+        "value": 60.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "cdc3c0734a52f8b885223059d8a2e1a74389d3bb05801781636b25ff4866ecec",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:420",
+        "value": 47.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:421",
+        "value": 47.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "ea2a510e31cd4cfe4d6e3f2156a5f09bd6d0ac31c81775c17345ac69ccd92bf5",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:422",
+        "value": 70.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:423",
+        "value": 72.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "c5221bd5fe6ff19940c45a28cb864100a9006a51dab472bd6c495ca0c2a515cb",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:424",
+        "value": 72.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:425",
+        "value": 73.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "4aad7bbd02bf483061599ce42451908a6c473cab1763558f917ab5646a733693",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:427",
+        "value": 71.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:428",
+        "value": 72.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "f3cefde45c2cc520e2d95189cc3593a631ab19f9df0712a3c424399c1053661a",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:429",
+        "value": 63.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:430",
+        "value": 65.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "c5a2c5fcaad8d22ac890a0b099a00c337b8281b7f2a2e4d11b08565dede8280f",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:472",
+        "value": 62.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:473",
+        "value": 66.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "eec92d08878f6e10cf60674816f9c9e987e5524b3e79adec4946d8665910e2bb",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:474",
+        "value": 60.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:475",
+        "value": 60.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "e1a782d22c33084cd14feeebd219eb225948fdaf88c640eb74c05e72dc773c76",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:476",
+        "value": 60.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:477",
+        "value": 62.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "ae5e8811c4085518a110fd6e6687d486e5ccd2e7b007ba55f36c0f85ac38b610",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:478",
+        "value": 57.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:479",
+        "value": 58.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "6ac786f7771058437a5bb117f41a892b4a69ebb89216d39a0502bbdc1f58e3d3",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:480",
+        "value": 61.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:481",
+        "value": 64.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "92e18ff02a27d022c538a5fb784f12d71169ef067e4ac3bc154d2c745e44d5f6",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:482",
+        "value": 80.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:483",
+        "value": 81.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "293df33ab29955bac8c0536cf9dc26ee96eb645742075a8d9d7ed3eb5c17aeda",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:484",
+        "value": 56.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:485",
+        "value": 56.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "76d830338858c4aabf5ac8ed054fba7a0eee6d4e4f7ccaaec7f2089ca86c298e",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:496",
+        "value": 81.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:497",
+        "value": 78.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "c128ceaf3f16403852643d446e0f8f6d5e071a8bee484b172170343e86028139",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:498",
+        "value": 81.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:499",
+        "value": 78.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "aec292b63a5a3350ec6d4a865f1bf76bccd8aefe86d6b64d8e6e97bbe3b41e65",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:500",
+        "value": 86.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:501",
+        "value": 85.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "31774e23cae921fca50359bb1ab59f71f42365aeb2fbadc9e6986c231624fced",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:502",
+        "value": 87.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:503",
+        "value": 90.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "79dcf87252d6ee2b81dc05e882a9777092f8339607b98a128a8640b83fff7fe8",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:504",
+        "value": 85.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:505",
+        "value": 87.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "afe2308a2e310f143a19be788670d09227370b778e705fd77a489a3f8e251849",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:506",
+        "value": 73.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:507",
+        "value": 74.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "562e9d5bfcd885fa5c1e88f42da82ce7be145e949c3255fbdcdd75eff21c85bc",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:508",
+        "value": 80.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:509",
+        "value": 81.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "89c294032666be0e0d9c4362b38a539f0c5a5b78095242a06fd03d8e417e1bbe",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:510",
+        "value": 81.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:511",
+        "value": 80.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "f2bf51adc2e7cd4e1a0bf958df73dd81e8bd9b94a41718698dedad71693e6ac1",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:512",
+        "value": 76.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:513",
+        "value": 82.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "8438930a6b75f8857a3f4d084c69bd046780a4e690505c961a7218f52044b9c8",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:514",
+        "value": 82.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:515",
+        "value": 86.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "3a9417e61034eafdc5264a579526d0098f0bd6f51e6a74003ebf2fd04e7a1c2c",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:516",
+        "value": 81.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:517",
+        "value": 85.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "a9f0eda61afaf42b2a797b291ef8dd2d88260514e5e3097029d61a0fc4548b21",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:530",
+        "value": 71.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:531",
+        "value": 74.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "5c2aea09eb3b49ece1596efb94f6fefbb8a7b6878cb61479f73e3941000bd43a",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:532",
+        "value": 73.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:533",
+        "value": 76.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "d3c8beb71196a36d1f82762a1a97558810c460d72c5efeffc48944c51d55b830",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:534",
+        "value": 86.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:535",
+        "value": 87.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "402b944f67326e64bfe13be915eab57f9085a4c9ba2e04e60dcba7b46e44f787",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:536",
+        "value": 60.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:537",
+        "value": 57.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "46eba245355d817e3e485b0792c856480df8d67c032381d97db317d6515be745",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:538",
+        "value": 66.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:539",
+        "value": 67.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "a4d88477fabcdb9612781fd5f59880e3eef90a4f253221115dcea71b27f01df5",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:540",
+        "value": 75.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:541",
+        "value": 76.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "2067fcc2d271655f006c47bc6843a670eb5924342a6cc85bbb3f50e0a1d8a9a3",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:543",
+        "value": 58.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:544",
+        "value": 60.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "4d4f2aa886864954ee1ac5df9efd24c79ca4f03ec8920aa0d2e2608d2e558d66",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:545",
+        "value": 74.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:546",
+        "value": 76.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "f182de824e72418693b124e26b3905ae5c7399da8c9ca22c158679bab1c90605",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:547",
+        "value": 55.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:548",
+        "value": 58.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "e21e379f4580e9796b61210945c2bc7c5afea5358eccb4198d7643e62224e981",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:549",
+        "value": 53.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:550",
+        "value": 57.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "16ab1a0940a333fba115e4c163834c7f8d65481ca29d70a604b58a23672e2499",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:551",
+        "value": 65.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:552",
+        "value": 65.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "74e68c3cd3bc5b7c6dd6d568e657c9a65eb8cef6ca71470d774cf87e9764894f",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:553",
+        "value": 58.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:554",
+        "value": 59.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "fd379c8548da2f3d3d5e842baf3f42d49da629d776fde22e6a8ad80e38d91f52",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:555",
+        "value": 50.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:556",
+        "value": 49.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "600106232a26b1512b118690abaf828ac0750959297ce2e4669fa999449f50f2",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:557",
+        "value": 50.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:558",
+        "value": 54.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "a8bd36ca542258d64d5adbb3a7fb1797122fcf233c84384f4ac8ec7dcf513dbe",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:559",
+        "value": 74.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:560",
+        "value": 78.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "0f07545e29a257cf4540da49c20e1b368097672b7c1ca9d378090650d19bc7ae",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:561",
+        "value": 70.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:562",
+        "value": 71.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "5517e4eed9a6ebfbc011f6d1040f06e83a444f3e380e752f3a99fd706cdb1a94",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:563",
+        "value": 60.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:564",
+        "value": 66.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "0a5a5a0bb3f75e07db5f77c517450640693151b4861322abaf8ef9ff36d78331",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:565",
+        "value": 77.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:566",
+        "value": 79.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "a544ade951f967c3f3cd120d883604e979499acea19b2a7a49aa97fbdbcc1726",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:567",
+        "value": 62.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:568",
+        "value": 65.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "a4186431e61729db7e8e04b0bf26bb3efb7839042ccd781df71a6bdd689e38cc",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:569",
+        "value": 65.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:570",
+        "value": 65.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "80e731e677f28bf95894ad2fb63e34018de6a45e860ca175346ceef964423b34",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:571",
+        "value": 77.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:572",
+        "value": 82.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "51ea6bf0f0d6083cec22f25ed823321aaca8f115f31aeaeef5c51aac1ef0e9f2",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:573",
+        "value": 75.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:574",
+        "value": 78.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "9ee48614423571ad0f807ae6bd672643e91765880948aa9bdb07b948b19a03d7",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:575",
+        "value": 68.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:576",
+        "value": 75.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "50af345055ca699a8b34ef7453a99c14a96f9e53604fed5df8e88d5c6e876d26",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:577",
+        "value": 78.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:578",
+        "value": 78.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "bf6e0638d0ea9f87dfb599dc04007baa03c1ed8046f3c5cc6da34abb20d6ce8b",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:583",
+        "value": 53.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:584",
+        "value": 52.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "0779ce39bd6be24b39b7323d69d3576fa69970dcc2b11f61ecb0b62453926096",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:644",
+        "value": 50.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:645",
+        "value": 52.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "1907aa60560a29c7eee23ba1712f5d3e39cae5ec5da6856940472fc3836b3bf9",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:646",
+        "value": 53.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:647",
+        "value": 53.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "51031120e7c3f832caa5b21a0cc525c511f9220b9aee6cf4d98953bca0800ad4",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:648",
+        "value": 68.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:649",
+        "value": 68.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "41eb25aaca991c067464eec4c7b504239013cff8e1f89eeb482ee20d8b569e65",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:650",
+        "value": 61.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:651",
+        "value": 63.0
+      }
+    ]
+  },
+  {
+    "pair_sha256": "c660edb3f430dc0aa7e0d77b00f3601234eb5b8a74d967877bddb3991d1d1799",
+    "cross_source": false,
+    "observations": [
+      {
+        "row": "tresanco2023nbthermo_tm.csv:654",
+        "value": 66.0
+      },
+      {
+        "row": "tresanco2023nbthermo_tm.csv:655",
+        "value": 66.0
+      }
+    ]
+  }
+]

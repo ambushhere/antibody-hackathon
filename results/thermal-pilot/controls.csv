@@ -1,0 +1,7 @@
+template,control,study,wt_tm_c,mutant_tm_c,delta_tm_c,folding_ddg_kcal_mol,direction_agrees,ca_distance_angstrom,joint_ddg_kcal_mol,joint_direction_agrees
+1N8Z,H91Y,Morrison Table 1,68.5,72.5,4.0,-0.9271485209465027,True,,,
+1N8Z,A34D+Y49S,Morrison Table 1,68.5,62.5,-6.0,3.6863099336624146,True,4.344302142104466,2.0042591094970703,True
+1N8Z,R66G,Okazaki Table 1,61.8,66.7,4.9,1.463310718536377,False,,,
+4HKZ,H91Y,Morrison Table 1,68.5,72.5,4.0,0.016453564167022705,False,,,
+4HKZ,A34D+Y49S,Morrison Table 1,68.5,62.5,-6.0,3.9362473487854004,True,4.208426023442492,2.6428582668304443,True
+4HKZ,R66G,Okazaki Table 1,61.8,66.7,4.9,1.3570444583892822,False,,,

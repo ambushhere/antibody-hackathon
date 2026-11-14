@@ -1,0 +1,62 @@
+--- a/v2_ssm.py
++++ b/v2_ssm.py
+@@ -79,7 +79,7 @@
+     all_mpnn_hid, mpnn_embed, cfg, loader, batch_size, model, X, mask, mpnn_edges_raw
+ ):
+     """Batched mutation processing using shared protein embeddings and only stability prediction module head"""
+-    device = "cuda"
++    device = "cpu"
+     all_mpnn_hid = torch.cat(all_mpnn_hid[: cfg.model.num_final_layers], -1)
+     all_mpnn_hid = all_mpnn_hid.repeat(batch_size, 1, 1)
+     mpnn_embed = mpnn_embed.repeat(batch_size, 1, 1)
+@@ -238,14 +238,14 @@
+     """Runs single-mutant SSM sweep with ThermoMPNN v2"""
+ 
+     model.eval()
+-    model.cuda()
++    model.cpu()
+     stime = time.time()
+ 
+     # placeholder mutation to keep featurization from throwing error
+     pdb["mutation"] = Mutation([0], ["A"], ["A"], [0.0], "")
+ 
+     # featurize input
+-    device = "cuda"
++    device = "cpu"
+     batch = tied_featurize_mut([pdb])
+     (
+         X,
+@@ -406,14 +406,14 @@
+     """Run epistatic model on double mutations"""
+ 
+     model.eval()
+-    model.cuda()
++    model.cpu()
+     stime = time.time()
+ 
+     # placeholder mutation to keep featurization from throwing error
+     pdb["mutation"] = Mutation([0], ["A"], ["A"], [0.0], "")
+ 
+     # featurize input
+-    device = "cuda"
++    device = "cpu"
+     batch = tied_featurize_mut([pdb])
+     (
+         X,
+--- a/thermompnn/ssm_utils.py
++++ b/thermompnn/ssm_utils.py
+@@ -15,12 +15,12 @@
+ 
+     if (mode.lower() == "single") or (mode.lower() == "additive"):
+         model_path = os.path.join(cwd, "model_weights/ThermoMPNN-ens1.ckpt")
+-        return TransferModelPLv2.load_from_checkpoint(model_path, cfg=config).model
++        return TransferModelPLv2.load_from_checkpoint(model_path, cfg=config, map_location="cpu").model
+ 
+     elif mode.lower() == "epistatic":
+         model_path = os.path.join(cwd, "model_weights/ThermoMPNN-D-ens1.ckpt")
+         return TransferModelPLv2Siamese.load_from_checkpoint(
+-            model_path, cfg=config
++            model_path, cfg=config, map_location="cpu"
+         ).model
+     else:
+         raise ValueError(f"Invalid model mode {mode.lower()} specified")

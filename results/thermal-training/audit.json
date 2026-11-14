@@ -1,0 +1,1547 @@
+{
+  "flab_revision": "e05e3f0135783ffb7de412df6a1467e7a0031911",
+  "absci_revision": "cd2bd4b6932b5301d435555dc22084d407e4b92b",
+  "absci_sha256": "f67f8284ce21f86b56b17f75493b05217d8f603565487692372083f626fa08b5",
+  "seed": 0,
+  "random_operations": false,
+  "model_fitted": false,
+  "training_rows": 0,
+  "nearest_train_similarity": null,
+  "fit_decision": "The scFv and confirmed purified Fab strata each have one independent study. No assay and construct matched trastuzumab fragment panel is present in FLAb.",
+  "raw_tables": [
+    {
+      "file": "garbinski2023_tm1.csv",
+      "sha256": "ea02da65b2ab0663bb3e4ddbef3ec2038511443a2cbc2af2ac8afe3b4af4baf8",
+      "source": "Garbinski",
+      "construct": "unknown",
+      "assay": "nanoDSF per FLAb",
+      "endpoint": "Tm1",
+      "unit": "unverified",
+      "label_column": "Tm1 (nanoDSF)",
+      "raw_rows": 86,
+      "valid_sequence_rows": 86,
+      "numeric_value_rows": 86,
+      "invalid_sequence_lines": [],
+      "invalid_value_lines": [],
+      "distinct_pairs_or_domains": 86,
+      "lineage_holdout_rows": 0
+    },
+    {
+      "file": "hie2023efficient_C143_Tm.csv",
+      "sha256": "bcce005b7498b00e1298a4b4517c1dbddfad9efc71abdbf952b2165419c6fb84",
+      "source": "Hie",
+      "construct": "purified Fab",
+      "assay": "nanoDSF fluorescence ratio",
+      "endpoint": "reported Tm, index unstated",
+      "unit": "degC",
+      "label_column": "Tm",
+      "raw_rows": 2,
+      "valid_sequence_rows": 2,
+      "numeric_value_rows": 2,
+      "invalid_sequence_lines": [],
+      "invalid_value_lines": [],
+      "distinct_pairs_or_domains": 2,
+      "lineage_holdout_rows": 0
+    },
+    {
+      "file": "hie2023efficient_MEDIUCA_Tm.csv",
+      "sha256": "61be0d21700fbfa750d3aaf633889e909ffa1953b686901f78b0cd3676dae30d",
+      "source": "Hie",
+      "construct": "purified Fab",
+      "assay": "nanoDSF fluorescence ratio",
+      "endpoint": "reported Tm, index unstated",
+      "unit": "degC",
+      "label_column": "Tm",
+      "raw_rows": 6,
+      "valid_sequence_rows": 6,
+      "numeric_value_rows": 6,
+      "invalid_sequence_lines": [],
+      "invalid_value_lines": [],
+      "distinct_pairs_or_domains": 6,
+      "lineage_holdout_rows": 0
+    },
+    {
+      "file": "hie2023efficient_MEDI_Tm.csv",
+      "sha256": "4d692039defa0a45f01dbf07655238abdbc44c4afc0218db7227ae41688578c2",
+      "source": "Hie",
+      "construct": "purified Fab",
+      "assay": "nanoDSF fluorescence ratio",
+      "endpoint": "reported Tm, index unstated",
+      "unit": "degC",
+      "label_column": "Tm",
+      "raw_rows": 2,
+      "valid_sequence_rows": 2,
+      "numeric_value_rows": 2,
+      "invalid_sequence_lines": [],
+      "invalid_value_lines": [],
+      "distinct_pairs_or_domains": 2,
+      "lineage_holdout_rows": 0
+    },
+    {
+      "file": "hie2023efficient_REGN10987_Tm.csv",
+      "sha256": "fdf06e368ba1df2af8c213f4fe82b12b6e0d163a08da88c654b9eec683f4a137",
+      "source": "Hie",
+      "construct": "purified Fab",
+      "assay": "nanoDSF fluorescence ratio",
+      "endpoint": "reported Tm, index unstated",
+      "unit": "degC",
+      "label_column": "Tm",
+      "raw_rows": 8,
+      "valid_sequence_rows": 8,
+      "numeric_value_rows": 8,
+      "invalid_sequence_lines": [],
+      "invalid_value_lines": [],
+      "distinct_pairs_or_domains": 8,
+      "lineage_holdout_rows": 0
+    },
+    {
+      "file": "hie2023efficient_S309_Tm.csv",
+      "sha256": "3d346b0a70bfe898498dffdab433bef0450aa1db0dc6638b1ec7bbcbcdb79ccf",
+      "source": "Hie",
+      "construct": "purified Fab",
+      "assay": "nanoDSF fluorescence ratio",
+      "endpoint": "reported Tm, index unstated",
+      "unit": "degC",
+      "label_column": "Tm",
+      "raw_rows": 10,
+      "valid_sequence_rows": 10,
+      "numeric_value_rows": 10,
+      "invalid_sequence_lines": [],
+      "invalid_value_lines": [],
+      "distinct_pairs_or_domains": 10,
+      "lineage_holdout_rows": 0
+    },
+    {
+      "file": "hie2023efficient_mAb114UCA_Tm.csv",
+      "sha256": "fd372f1dcd491e0889b485fcafb6f1d5b0a75b1b57c182c202accb2b44ab8920",
+      "source": "Hie",
+      "construct": "purified Fab",
+      "assay": "nanoDSF fluorescence ratio",
+      "endpoint": "reported Tm, index unstated",
+      "unit": "degC",
+      "label_column": "Tm",
+      "raw_rows": 2,
+      "valid_sequence_rows": 2,
+      "numeric_value_rows": 2,
+      "invalid_sequence_lines": [],
+      "invalid_value_lines": [],
+      "distinct_pairs_or_domains": 2,
+      "lineage_holdout_rows": 0
+    },
+    {
+      "file": "hie2023efficient_mAb114_Tm.csv",
+      "sha256": "2a77e7049a183ca67a5d97237914be689e4e631377ce1ea1d66fe9e2b492ec57",
+      "source": "Hie",
+      "construct": "purified Fab",
+      "assay": "nanoDSF fluorescence ratio",
+      "endpoint": "reported Tm, index unstated",
+      "unit": "degC",
+      "label_column": "Tm",
+      "raw_rows": 7,
+      "valid_sequence_rows": 7,
+      "numeric_value_rows": 7,
+      "invalid_sequence_lines": [],
+      "invalid_value_lines": [],
+      "distinct_pairs_or_domains": 7,
+      "lineage_holdout_rows": 0
+    },
+    {
+      "file": "hutchinson2023enhancement_multitm1_igg.csv",
+      "sha256": "ded8db1c627e602e8aa14f4cad98c61d05cb0bfc38a5421d369f61dbb1864928",
+      "source": "Hutchinson",
+      "construct": "IgG",
+      "assay": "intrinsic DSF barycentric mean",
+      "endpoint": "Tm1",
+      "unit": "degC",
+      "label_column": "Tm1 (\u00b0C) IgG Thermostability",
+      "raw_rows": 15,
+      "valid_sequence_rows": 15,
+      "numeric_value_rows": 15,
+      "invalid_sequence_lines": [],
+      "invalid_value_lines": [],
+      "distinct_pairs_or_domains": 15,
+      "lineage_holdout_rows": 0
+    },
+    {
+      "file": "hutchinson2023enhancement_singletm1_igg.csv",
+      "sha256": "cdc94741be47c4b6d1b750b81834514026373a0e7730a43c2c29e427811e66b9",
+      "source": "Hutchinson",
+      "construct": "IgG",
+      "assay": "intrinsic DSF barycentric mean",
+      "endpoint": "Tm1",
+      "unit": "degC",
+      "label_column": "Tm1 (C) IgG Thermostability",
+      "raw_rows": 23,
+      "valid_sequence_rows": 23,
+      "numeric_value_rows": 23,
+      "invalid_sequence_lines": [],
+      "invalid_value_lines": [],
+      "distinct_pairs_or_domains": 23,
+      "lineage_holdout_rows": 0
+    },
+    {
+      "file": "hutchinson2023enhancement_top200tm1_igg.csv",
+      "sha256": "74a6293f2be33d51acaaf102dea91b4584e24901cbbde843f1fa9daa450afce5",
+      "source": "Hutchinson",
+      "construct": "IgG",
+      "assay": "intrinsic DSF barycentric mean",
+      "endpoint": "Tm1",
+      "unit": "degC",
+      "label_column": "Tm1 (C) Thermostability (IgG)",
+      "raw_rows": 192,
+      "valid_sequence_rows": 192,
+      "numeric_value_rows": 192,
+      "invalid_sequence_lines": [],
+      "invalid_value_lines": [],
+      "distinct_pairs_or_domains": 192,
+      "lineage_holdout_rows": 0
+    },
+    {
+      "file": "hutchinson2023enhancement_top27tm1_igg.csv",
+      "sha256": "51398c33760f5652449800516a72d232a9e331a0d57c6749cef61e69c46fe6ac",
+      "source": "Hutchinson",
+      "construct": "IgG",
+      "assay": "intrinsic DSF barycentric mean",
+      "endpoint": "Tm1",
+      "unit": "degC",
+      "label_column": "Tm1 (C) IgG Thermostability",
+      "raw_rows": 28,
+      "valid_sequence_rows": 28,
+      "numeric_value_rows": 28,
+      "invalid_sequence_lines": [],
+      "invalid_value_lines": [],
+      "distinct_pairs_or_domains": 27,
+      "lineage_holdout_rows": 0
+    },
+    {
+      "file": "jain2017biophysical_Tm.csv",
+      "sha256": "86bf8d8da6015bd36907847ac94983edfcea425d1d188a422f75d40ea27bb09b",
+      "source": "Jain 2017",
+      "construct": "IgG1",
+      "assay": "dye DSF",
+      "endpoint": "Fab-assigned Tm",
+      "unit": "degC",
+      "label_column": "Fab Tm by DSF (\u00b0C)",
+      "raw_rows": 137,
+      "valid_sequence_rows": 137,
+      "numeric_value_rows": 137,
+      "invalid_sequence_lines": [],
+      "invalid_value_lines": [],
+      "distinct_pairs_or_domains": 137,
+      "lineage_holdout_rows": 1
+    },
+    {
+      "file": "jain2024assessment_Tm.csv",
+      "sha256": "b4ce11c7473b3d55f44c56bd62509db42ffa077dfb006cafad7ea326bb8d67b2",
+      "source": "Jain 2024",
+      "construct": "IgG1 or Fab unresolved",
+      "assay": "dye DSF",
+      "endpoint": "Fab-assigned Tm",
+      "unit": "degC",
+      "label_column": "Fab Tm by DSF (\u00b0C)",
+      "raw_rows": 43,
+      "valid_sequence_rows": 43,
+      "numeric_value_rows": 43,
+      "invalid_sequence_lines": [],
+      "invalid_value_lines": [],
+      "distinct_pairs_or_domains": 43,
+      "lineage_holdout_rows": 0
+    },
+    {
+      "file": "rosace2023automated_tm1_adalimumab.csv",
+      "sha256": "eaa1fddba5702e22ae2858994f0911cbaf1efaab92f9a58546aa3f96f43657a7",
+      "source": "Rosace",
+      "construct": "scFv",
+      "assay": "nanoDSF 350 nm",
+      "endpoint": "apparent Tm, replicate 1",
+      "unit": "degC",
+      "label_column": "Tm (C) rep1",
+      "raw_rows": 14,
+      "valid_sequence_rows": 14,
+      "numeric_value_rows": 14,
+      "invalid_sequence_lines": [],
+      "invalid_value_lines": [],
+      "distinct_pairs_or_domains": 14,
+      "lineage_holdout_rows": 0
+    },
+    {
+      "file": "rosace2023automated_tm1_golimumab.csv",
+      "sha256": "4c7998d6f2159baeb8a3bc506d2065e18b9c2e2e69e2266c43a761b2d41fb0b2",
+      "source": "Rosace",
+      "construct": "scFv",
+      "assay": "nanoDSF 350 nm",
+      "endpoint": "apparent Tm, replicate 1",
+      "unit": "degC",
+      "label_column": "Tm (C) rep1",
+      "raw_rows": 5,
+      "valid_sequence_rows": 5,
+      "numeric_value_rows": 5,
+      "invalid_sequence_lines": [],
+      "invalid_value_lines": [],
+      "distinct_pairs_or_domains": 5,
+      "lineage_holdout_rows": 0
+    },
+    {
+      "file": "shanehsazzadeh2023unlocking_DLS.csv",
+      "sha256": "81de45d852c20c4e03d957de2408b0ab8c6025f121af53305523aa423079c8e5",
+      "source": "Shanehsazzadeh",
+      "construct": "IgG1",
+      "assay": "DLS",
+      "endpoint": "pdi",
+      "unit": "dimensionless",
+      "label_column": "DLS - Cumulant PDI",
+      "raw_rows": 13,
+      "valid_sequence_rows": 13,
+      "numeric_value_rows": 13,
+      "invalid_sequence_lines": [],
+      "invalid_value_lines": [],
+      "distinct_pairs_or_domains": 13,
+      "lineage_holdout_rows": 13
+    },
+    {
+      "file": "shanehsazzadeh2023unlocking_DSF1.csv",
+      "sha256": "fb21d1ba98309a7830f05d6232ebcee083eccd6551529e6482d906e3d712af6f",
+      "source": "Shanehsazzadeh",
+      "construct": "IgG1",
+      "assay": "nanoDSF",
+      "endpoint": "first_inflection",
+      "unit": "degC",
+      "label_column": "DSF - IP #1 (oC)",
+      "raw_rows": 13,
+      "valid_sequence_rows": 13,
+      "numeric_value_rows": 13,
+      "invalid_sequence_lines": [],
+      "invalid_value_lines": [],
+      "distinct_pairs_or_domains": 13,
+      "lineage_holdout_rows": 13
+    },
+    {
+      "file": "shanehsazzadeh2023unlocking_DSF2.csv",
+      "sha256": "026d21ae62bd4211cd4882f565dc36b69e00307fd4b3fb47954bd5d0cdae30fc",
+      "source": "Shanehsazzadeh",
+      "construct": "IgG1",
+      "assay": "nanoDSF",
+      "endpoint": "second_inflection",
+      "unit": "degC",
+      "label_column": "DSF - IP #2 (oC)",
+      "raw_rows": 13,
+      "valid_sequence_rows": 13,
+      "numeric_value_rows": 13,
+      "invalid_sequence_lines": [],
+      "invalid_value_lines": [],
+      "distinct_pairs_or_domains": 13,
+      "lineage_holdout_rows": 13
+    },
+    {
+      "file": "sulea2019assisted_sdAb_tm.csv",
+      "sha256": "718a22d91a402abb4641d34fc47a22327302ab9f31837f2e02f82de21b0b4864",
+      "source": "Sulea",
+      "construct": "single domain",
+      "assay": "unverified",
+      "endpoint": "Tm",
+      "unit": "degC",
+      "label_column": "Tm",
+      "raw_rows": 33,
+      "valid_sequence_rows": 33,
+      "numeric_value_rows": 33,
+      "invalid_sequence_lines": [],
+      "invalid_value_lines": [],
+      "distinct_pairs_or_domains": 33,
+      "lineage_holdout_rows": 0
+    },
+    {
+      "file": "tresanco2023nbthermo_tm.csv",
+      "sha256": "cf61929d109de4ef272ad46dfc2cd5812241b42a6ba92ee372afdfdb893dda44",
+      "source": "NbThermo compilation",
+      "construct": "single domain collection",
+      "assay": "row-specific",
+      "endpoint": "Tm",
+      "unit": "degC",
+      "label_column": "Tm measurement",
+      "raw_rows": 672,
+      "valid_sequence_rows": 670,
+      "numeric_value_rows": 670,
+      "invalid_sequence_lines": [
+        643,
+        659
+      ],
+      "invalid_value_lines": [],
+      "distinct_pairs_or_domains": 554,
+      "lineage_holdout_rows": 0
+    }
+  ],
+  "raw_rows": 1324,
+  "paired_rows": 619,
+  "paired_tm_or_inflection_rows": 606,
+  "unique_valid_sequence_keys": 1124,
+  "holdout_observations": [
+    {
+      "row": "jain2017biophysical_Tm.csv:130",
+      "reason": "exact WT pair",
+      "endpoint": "Fab-assigned Tm",
+      "value": 78.5
+    },
+    {
+      "row": "shanehsazzadeh2023unlocking_DLS.csv:2",
+      "reason": "known study lineage",
+      "endpoint": "pdi",
+      "value": 0.11
+    },
+    {
+      "row": "shanehsazzadeh2023unlocking_DLS.csv:3",
+      "reason": "known study lineage",
+      "endpoint": "pdi",
+      "value": 0.05
+    },
+    {
+      "row": "shanehsazzadeh2023unlocking_DLS.csv:4",
+      "reason": "known study lineage",
+      "endpoint": "pdi",
+      "value": 0.04
+    },
+    {
+      "row": "shanehsazzadeh2023unlocking_DLS.csv:5",
+      "reason": "known study lineage",
+      "endpoint": "pdi",
+      "value": 0.08
+    },
+    {
+      "row": "shanehsazzadeh2023unlocking_DLS.csv:6",
+      "reason": "known study lineage",
+      "endpoint": "pdi",
+      "value": 0.08
+    },
+    {
+      "row": "shanehsazzadeh2023unlocking_DLS.csv:7",
+      "reason": "known study lineage",
+      "endpoint": "pdi",
+      "value": 0.04
+    },
+    {
+      "row": "shanehsazzadeh2023unlocking_DLS.csv:8",
+      "reason": "known study lineage",
+      "endpoint": "pdi",
+      "value": 0.07
+    },
+    {
+      "row": "shanehsazzadeh2023unlocking_DLS.csv:9",
+      "reason": "known study lineage",
+      "endpoint": "pdi",
+      "value": 0.05
+    },
+    {
+      "row": "shanehsazzadeh2023unlocking_DLS.csv:10",
+      "reason": "known study lineage",
+      "endpoint": "pdi",
+      "value": 0.06
+    },
+    {
+      "row": "shanehsazzadeh2023unlocking_DLS.csv:11",
+      "reason": "known study lineage",
+      "endpoint": "pdi",
+      "value": 0.04
+    },
+    {
+      "row": "shanehsazzadeh2023unlocking_DLS.csv:12",
+      "reason": "known study lineage",
+      "endpoint": "pdi",
+      "value": 0.07
+    },
+    {
+      "row": "shanehsazzadeh2023unlocking_DLS.csv:13",
+      "reason": "known study lineage",
+      "endpoint": "pdi",
+      "value": 0.05
+    },
+    {
+      "row": "shanehsazzadeh2023unlocking_DLS.csv:14",
+      "reason": "known study lineage",
+      "endpoint": "pdi",
+      "value": 0.09
+    },
+    {
+      "row": "shanehsazzadeh2023unlocking_DSF1.csv:2",
+      "reason": "known study lineage",
+      "endpoint": "first_inflection",
+      "value": 79.52
+    },
+    {
+      "row": "shanehsazzadeh2023unlocking_DSF1.csv:3",
+      "reason": "known study lineage",
+      "endpoint": "first_inflection",
+      "value": 70.79
+    },
+    {
+      "row": "shanehsazzadeh2023unlocking_DSF1.csv:4",
+      "reason": "known study lineage",
+      "endpoint": "first_inflection",
+      "value": 70.6
+    },
+    {
+      "row": "shanehsazzadeh2023unlocking_DSF1.csv:5",
+      "reason": "known study lineage",
+      "endpoint": "first_inflection",
+      "value": 70.39
+    },
+    {
+      "row": "shanehsazzadeh2023unlocking_DSF1.csv:6",
+      "reason": "known study lineage",
+      "endpoint": "first_inflection",
+      "value": 80.24
+    },
+    {
+      "row": "shanehsazzadeh2023unlocking_DSF1.csv:7",
+      "reason": "known study lineage",
+      "endpoint": "first_inflection",
+      "value": 71.86
+    },
+    {
+      "row": "shanehsazzadeh2023unlocking_DSF1.csv:8",
+      "reason": "known study lineage",
+      "endpoint": "first_inflection",
+      "value": 70.5
+    },
+    {
+      "row": "shanehsazzadeh2023unlocking_DSF1.csv:9",
+      "reason": "known study lineage",
+      "endpoint": "first_inflection",
+      "value": 70.66
+    },
+    {
+      "row": "shanehsazzadeh2023unlocking_DSF1.csv:10",
+      "reason": "known study lineage",
+      "endpoint": "first_inflection",
+      "value": 70.3
+    },
+    {
+      "row": "shanehsazzadeh2023unlocking_DSF1.csv:11",
+      "reason": "known study lineage",
+      "endpoint": "first_inflection",
+      "value": 69.98
+    },
+    {
+      "row": "shanehsazzadeh2023unlocking_DSF1.csv:12",
+      "reason": "known study lineage",
+      "endpoint": "first_inflection",
+      "value": 72.02
+    },
+    {
+      "row": "shanehsazzadeh2023unlocking_DSF1.csv:13",
+      "reason": "known study lineage",
+      "endpoint": "first_inflection",
+      "value": 75.66
+    },
+    {
+      "row": "shanehsazzadeh2023unlocking_DSF1.csv:14",
+      "reason": "known study lineage",
+      "endpoint": "first_inflection",
+      "value": 71.07
+    },
+    {
+      "row": "shanehsazzadeh2023unlocking_DSF2.csv:2",
+      "reason": "known study lineage",
+      "endpoint": "second_inflection",
+      "value": 79.52
+    },
+    {
+      "row": "shanehsazzadeh2023unlocking_DSF2.csv:3",
+      "reason": "known study lineage",
+      "endpoint": "second_inflection",
+      "value": 79.42
+    },
+    {
+      "row": "shanehsazzadeh2023unlocking_DSF2.csv:4",
+      "reason": "known study lineage",
+      "endpoint": "second_inflection",
+      "value": 78.9
+    },
+    {
+      "row": "shanehsazzadeh2023unlocking_DSF2.csv:5",
+      "reason": "known study lineage",
+      "endpoint": "second_inflection",
+      "value": 70.39
+    },
+    {
+      "row": "shanehsazzadeh2023unlocking_DSF2.csv:6",
+      "reason": "known study lineage",
+      "endpoint": "second_inflection",
+      "value": 80.24
+    },
+    {
+      "row": "shanehsazzadeh2023unlocking_DSF2.csv:7",
+      "reason": "known study lineage",
+      "endpoint": "second_inflection",
+      "value": 71.86
+    },
+    {
+      "row": "shanehsazzadeh2023unlocking_DSF2.csv:8",
+      "reason": "known study lineage",
+      "endpoint": "second_inflection",
+      "value": 80.73
+    },
+    {
+      "row": "shanehsazzadeh2023unlocking_DSF2.csv:9",
+      "reason": "known study lineage",
+      "endpoint": "second_inflection",
+      "value": 78.36
+    },
+    {
+      "row": "shanehsazzadeh2023unlocking_DSF2.csv:10",
+      "reason": "known study lineage",
+      "endpoint": "second_inflection",
+      "value": 82.73
+    },
+    {
+      "row": "shanehsazzadeh2023unlocking_DSF2.csv:11",
+      "reason": "known study lineage",
+      "endpoint": "second_inflection",
+      "value": 80.43
+    },
+    {
+      "row": "shanehsazzadeh2023unlocking_DSF2.csv:12",
+      "reason": "known study lineage",
+      "endpoint": "second_inflection",
+      "value": 72.02
+    },
+    {
+      "row": "shanehsazzadeh2023unlocking_DSF2.csv:13",
+      "reason": "known study lineage",
+      "endpoint": "second_inflection",
+      "value": 75.66
+    },
+    {
+      "row": "shanehsazzadeh2023unlocking_DSF2.csv:14",
+      "reason": "known study lineage",
+      "endpoint": "second_inflection",
+      "value": 80.37
+    }
+  ],
+  "cross_source_duplicate_keys": 4,
+  "conflicting_same_stratum_observations": [
+    [
+      "hutchinson2023enhancement_top200tm1_igg.csv:190",
+      "hutchinson2023enhancement_top27tm1_igg.csv:27",
+      "hutchinson2023enhancement_top27tm1_igg.csv:28"
+    ],
+    [
+      "tresanco2023nbthermo_tm.csv:170",
+      "tresanco2023nbthermo_tm.csv:190"
+    ],
+    [
+      "tresanco2023nbthermo_tm.csv:173",
+      "tresanco2023nbthermo_tm.csv:187"
+    ],
+    [
+      "tresanco2023nbthermo_tm.csv:198",
+      "tresanco2023nbthermo_tm.csv:206"
+    ],
+    [
+      "tresanco2023nbthermo_tm.csv:583",
+      "tresanco2023nbthermo_tm.csv:584"
+    ]
+  ],
+  "non_target_strata_after_within_stratum_deduplication": [
+    {
+      "source": "Garbinski",
+      "construct": "unknown",
+      "assay": "nanoDSF per FLAb",
+      "endpoint": "Tm1",
+      "unit": "unverified",
+      "distinct_pairs_or_domains": 86,
+      "source_documented_families": {},
+      "rows_without_documented_family": 86,
+      "value_range": [
+        35.2,
+        76.8
+      ]
+    },
+    {
+      "source": "Hie",
+      "construct": "purified Fab",
+      "assay": "nanoDSF fluorescence ratio",
+      "endpoint": "reported Tm, index unstated",
+      "unit": "degC",
+      "distinct_pairs_or_domains": 37,
+      "source_documented_families": {
+        "C143": 2,
+        "MEDI8852": 8,
+        "REGN10987": 8,
+        "S309": 10,
+        "mAb114": 9
+      },
+      "rows_without_documented_family": 0,
+      "value_range": [
+        68.38333333,
+        88.17333333
+      ]
+    },
+    {
+      "source": "Hutchinson",
+      "construct": "IgG",
+      "assay": "intrinsic DSF barycentric mean",
+      "endpoint": "Tm1",
+      "unit": "degC",
+      "distinct_pairs_or_domains": 205,
+      "source_documented_families": {
+        "D44.1": 205
+      },
+      "rows_without_documented_family": 0,
+      "value_range": [
+        55.8,
+        73.6
+      ]
+    },
+    {
+      "source": "Jain 2017",
+      "construct": "IgG1",
+      "assay": "dye DSF",
+      "endpoint": "Fab-assigned Tm",
+      "unit": "degC",
+      "distinct_pairs_or_domains": 136,
+      "source_documented_families": {},
+      "rows_without_documented_family": 136,
+      "value_range": [
+        59.5,
+        91.5
+      ]
+    },
+    {
+      "source": "Jain 2024",
+      "construct": "IgG1 or Fab unresolved",
+      "assay": "dye DSF",
+      "endpoint": "Fab-assigned Tm",
+      "unit": "degC",
+      "distinct_pairs_or_domains": 43,
+      "source_documented_families": {},
+      "rows_without_documented_family": 43,
+      "value_range": [
+        65.5,
+        85.0
+      ]
+    },
+    {
+      "source": "NbThermo compilation",
+      "construct": "single domain collection",
+      "assay": "Circular dichroism",
+      "endpoint": "Tm",
+      "unit": "degC",
+      "distinct_pairs_or_domains": 299,
+      "source_documented_families": {},
+      "rows_without_documented_family": 299,
+      "value_range": [
+        43.0,
+        98.2
+      ]
+    },
+    {
+      "source": "NbThermo compilation",
+      "construct": "single domain collection",
+      "assay": "DSF (SYPRO)",
+      "endpoint": "Tm",
+      "unit": "degC",
+      "distinct_pairs_or_domains": 252,
+      "source_documented_families": {},
+      "rows_without_documented_family": 252,
+      "value_range": [
+        39.0,
+        95.0
+      ]
+    },
+    {
+      "source": "NbThermo compilation",
+      "construct": "single domain collection",
+      "assay": "Diferencial scanning calorimetric (DSC)",
+      "endpoint": "Tm",
+      "unit": "degC",
+      "distinct_pairs_or_domains": 30,
+      "source_documented_families": {},
+      "rows_without_documented_family": 30,
+      "value_range": [
+        42.4,
+        81.9
+      ]
+    },
+    {
+      "source": "NbThermo compilation",
+      "construct": "single domain collection",
+      "assay": "Other",
+      "endpoint": "Tm",
+      "unit": "degC",
+      "distinct_pairs_or_domains": 5,
+      "source_documented_families": {},
+      "rows_without_documented_family": 5,
+      "value_range": [
+        57.9,
+        66.7
+      ]
+    },
+    {
+      "source": "NbThermo compilation",
+      "construct": "single domain collection",
+      "assay": "nanoDSF",
+      "endpoint": "Tm",
+      "unit": "degC",
+      "distinct_pairs_or_domains": 76,
+      "source_documented_families": {},
+      "rows_without_documented_family": 76,
+      "value_range": [
+        46.8,
+        85.8
+      ]
+    },
+    {
+      "source": "Rosace",
+      "construct": "scFv",
+      "assay": "nanoDSF 350 nm",
+      "endpoint": "apparent Tm, replicate 1",
+      "unit": "degC",
+      "distinct_pairs_or_domains": 19,
+      "source_documented_families": {
+        "adalimumab": 14,
+        "golimumab": 5
+      },
+      "rows_without_documented_family": 0,
+      "value_range": [
+        52.3,
+        66.9
+      ]
+    },
+    {
+      "source": "Sulea",
+      "construct": "single domain",
+      "assay": "unverified",
+      "endpoint": "Tm",
+      "unit": "degC",
+      "distinct_pairs_or_domains": 33,
+      "source_documented_families": {},
+      "rows_without_documented_family": 33,
+      "value_range": [
+        70.8,
+        81.9
+      ]
+    }
+  ],
+  "non_target_paired_strata_without_cross_source_duplicate_keys": [
+    {
+      "source": "Garbinski",
+      "construct": "unknown",
+      "assay": "nanoDSF per FLAb",
+      "endpoint": "Tm1",
+      "unit": "unverified",
+      "distinct_pairs_or_domains": 85,
+      "source_documented_families": {},
+      "rows_without_documented_family": 85,
+      "value_range": [
+        35.2,
+        76.8
+      ]
+    },
+    {
+      "source": "Hie",
+      "construct": "purified Fab",
+      "assay": "nanoDSF fluorescence ratio",
+      "endpoint": "reported Tm, index unstated",
+      "unit": "degC",
+      "distinct_pairs_or_domains": 37,
+      "source_documented_families": {
+        "C143": 2,
+        "MEDI8852": 8,
+        "REGN10987": 8,
+        "S309": 10,
+        "mAb114": 9
+      },
+      "rows_without_documented_family": 0,
+      "value_range": [
+        68.38333333,
+        88.17333333
+      ]
+    },
+    {
+      "source": "Hutchinson",
+      "construct": "IgG",
+      "assay": "intrinsic DSF barycentric mean",
+      "endpoint": "Tm1",
+      "unit": "degC",
+      "distinct_pairs_or_domains": 205,
+      "source_documented_families": {
+        "D44.1": 205
+      },
+      "rows_without_documented_family": 0,
+      "value_range": [
+        55.8,
+        73.6
+      ]
+    },
+    {
+      "source": "Jain 2017",
+      "construct": "IgG1",
+      "assay": "dye DSF",
+      "endpoint": "Fab-assigned Tm",
+      "unit": "degC",
+      "distinct_pairs_or_domains": 133,
+      "source_documented_families": {},
+      "rows_without_documented_family": 133,
+      "value_range": [
+        59.5,
+        91.5
+      ]
+    },
+    {
+      "source": "Jain 2024",
+      "construct": "IgG1 or Fab unresolved",
+      "assay": "dye DSF",
+      "endpoint": "Fab-assigned Tm",
+      "unit": "degC",
+      "distinct_pairs_or_domains": 43,
+      "source_documented_families": {},
+      "rows_without_documented_family": 43,
+      "value_range": [
+        65.5,
+        85.0
+      ]
+    },
+    {
+      "source": "Rosace",
+      "construct": "scFv",
+      "assay": "nanoDSF 350 nm",
+      "endpoint": "apparent Tm, replicate 1",
+      "unit": "degC",
+      "distinct_pairs_or_domains": 17,
+      "source_documented_families": {
+        "adalimumab": 13,
+        "golimumab": 4
+      },
+      "rows_without_documented_family": 0,
+      "value_range": [
+        52.3,
+        66.9
+      ]
+    }
+  ],
+  "target_panel": [
+    {
+      "case": "Trastuzumab",
+      "measurements": {
+        "pdi": 0.11,
+        "first_inflection": 79.52,
+        "second_inflection": 79.52
+      },
+      "pair_sha256": "c677caa596170fc62c0364f665ba1e18986c9f4e59bfb53fccdfc9c91616192f",
+      "primary_supplement_case": true,
+      "nearest_observed_non_target_by_source": {
+        "Garbinski": {
+          "row": "garbinski2023_tm1.csv:4",
+          "paired_edit_similarity": 0.726087,
+          "vh_edit_similarity": 0.704918,
+          "vl_edit_similarity": 0.75
+        },
+        "Hie": {
+          "row": "hie2023efficient_mAb114UCA_Tm.csv:3",
+          "paired_edit_similarity": 0.77533,
+          "vh_edit_similarity": 0.725,
+          "vl_edit_similarity": 0.831776
+        },
+        "Hutchinson": {
+          "row": "hutchinson2023enhancement_top200tm1_igg.csv:109",
+          "paired_edit_similarity": 0.572687,
+          "vh_edit_similarity": 0.55,
+          "vl_edit_similarity": 0.598131
+        },
+        "Jain 2017": {
+          "row": "jain2017biophysical_Tm.csv:8",
+          "paired_edit_similarity": 0.885463,
+          "vh_edit_similarity": 0.841667,
+          "vl_edit_similarity": 0.934579
+        },
+        "Jain 2024": {
+          "row": "jain2024assessment_Tm.csv:20",
+          "paired_edit_similarity": 0.796537,
+          "vh_edit_similarity": 0.741935,
+          "vl_edit_similarity": 0.859813
+        },
+        "Rosace": {
+          "row": "rosace2023automated_tm1_adalimumab.csv:3",
+          "paired_edit_similarity": 0.780702,
+          "vh_edit_similarity": 0.719008,
+          "vl_edit_similarity": 0.850467
+        }
+      }
+    },
+    {
+      "case": "1",
+      "measurements": {
+        "pdi": 0.05,
+        "first_inflection": 70.79,
+        "second_inflection": 79.42
+      },
+      "pair_sha256": "9da0214a1f5f338db444c948874effba7d39c5273d2f0b388391517aa7e1b12c",
+      "primary_supplement_case": true,
+      "nearest_observed_non_target_by_source": {
+        "Garbinski": {
+          "row": "garbinski2023_tm1.csv:4",
+          "paired_edit_similarity": 0.726087,
+          "vh_edit_similarity": 0.704918,
+          "vl_edit_similarity": 0.75
+        },
+        "Hie": {
+          "row": "hie2023efficient_mAb114UCA_Tm.csv:3",
+          "paired_edit_similarity": 0.779736,
+          "vh_edit_similarity": 0.733333,
+          "vl_edit_similarity": 0.831776
+        },
+        "Hutchinson": {
+          "row": "hutchinson2023enhancement_top200tm1_igg.csv:99",
+          "paired_edit_similarity": 0.559471,
+          "vh_edit_similarity": 0.525,
+          "vl_edit_similarity": 0.598131
+        },
+        "Jain 2017": {
+          "row": "jain2017biophysical_Tm.csv:8",
+          "paired_edit_similarity": 0.881057,
+          "vh_edit_similarity": 0.833333,
+          "vl_edit_similarity": 0.934579
+        },
+        "Jain 2024": {
+          "row": "jain2024assessment_Tm.csv:20",
+          "paired_edit_similarity": 0.792208,
+          "vh_edit_similarity": 0.733871,
+          "vl_edit_similarity": 0.859813
+        },
+        "Rosace": {
+          "row": "rosace2023automated_tm1_adalimumab.csv:3",
+          "paired_edit_similarity": 0.776316,
+          "vh_edit_similarity": 0.710744,
+          "vl_edit_similarity": 0.850467
+        }
+      }
+    },
+    {
+      "case": "2",
+      "measurements": {
+        "pdi": 0.04,
+        "first_inflection": 70.6,
+        "second_inflection": 78.9
+      },
+      "pair_sha256": "f1d42172f4ce10f31cfba982b2c7fa0996977e8c2a3b69d07f448b65469fd1c3",
+      "primary_supplement_case": true,
+      "nearest_observed_non_target_by_source": {
+        "Garbinski": {
+          "row": "garbinski2023_tm1.csv:4",
+          "paired_edit_similarity": 0.726087,
+          "vh_edit_similarity": 0.704918,
+          "vl_edit_similarity": 0.75
+        },
+        "Hie": {
+          "row": "hie2023efficient_mAb114UCA_Tm.csv:3",
+          "paired_edit_similarity": 0.783186,
+          "vh_edit_similarity": 0.739496,
+          "vl_edit_similarity": 0.831776
+        },
+        "Hutchinson": {
+          "row": "hutchinson2023enhancement_top200tm1_igg.csv:125",
+          "paired_edit_similarity": 0.575221,
+          "vh_edit_similarity": 0.554622,
+          "vl_edit_similarity": 0.598131
+        },
+        "Jain 2017": {
+          "row": "jain2017biophysical_Tm.csv:8",
+          "paired_edit_similarity": 0.889381,
+          "vh_edit_similarity": 0.848739,
+          "vl_edit_similarity": 0.934579
+        },
+        "Jain 2024": {
+          "row": "jain2024assessment_Tm.csv:20",
+          "paired_edit_similarity": 0.805195,
+          "vh_edit_similarity": 0.758065,
+          "vl_edit_similarity": 0.859813
+        },
+        "Rosace": {
+          "row": "rosace2023automated_tm1_adalimumab.csv:3",
+          "paired_edit_similarity": 0.789474,
+          "vh_edit_similarity": 0.735537,
+          "vl_edit_similarity": 0.850467
+        }
+      }
+    },
+    {
+      "case": "3",
+      "measurements": {
+        "pdi": 0.08,
+        "first_inflection": 70.39,
+        "second_inflection": 70.39
+      },
+      "pair_sha256": "7508006f828ad45b8cea3c496c18065dec482476e94ff221958f04768e69b888",
+      "primary_supplement_case": true,
+      "nearest_observed_non_target_by_source": {
+        "Garbinski": {
+          "row": "garbinski2023_tm1.csv:4",
+          "paired_edit_similarity": 0.73913,
+          "vh_edit_similarity": 0.729508,
+          "vl_edit_similarity": 0.75
+        },
+        "Hie": {
+          "row": "hie2023efficient_mAb114UCA_Tm.csv:3",
+          "paired_edit_similarity": 0.774336,
+          "vh_edit_similarity": 0.722689,
+          "vl_edit_similarity": 0.831776
+        },
+        "Hutchinson": {
+          "row": "hutchinson2023enhancement_top200tm1_igg.csv:112",
+          "paired_edit_similarity": 0.570796,
+          "vh_edit_similarity": 0.546218,
+          "vl_edit_similarity": 0.598131
+        },
+        "Jain 2017": {
+          "row": "jain2017biophysical_Tm.csv:8",
+          "paired_edit_similarity": 0.884956,
+          "vh_edit_similarity": 0.840336,
+          "vl_edit_similarity": 0.934579
+        },
+        "Jain 2024": {
+          "row": "jain2024assessment_Tm.csv:11",
+          "paired_edit_similarity": 0.80786,
+          "vh_edit_similarity": 0.770492,
+          "vl_edit_similarity": 0.850467
+        },
+        "Rosace": {
+          "row": "rosace2023automated_tm1_adalimumab.csv:3",
+          "paired_edit_similarity": 0.785088,
+          "vh_edit_similarity": 0.727273,
+          "vl_edit_similarity": 0.850467
+        }
+      }
+    },
+    {
+      "case": "4",
+      "measurements": {
+        "pdi": 0.08,
+        "first_inflection": 80.24,
+        "second_inflection": 80.24
+      },
+      "pair_sha256": "1a6454ec6e8a4bbc53da41c7dca823854732d2941957326c833f0e2f60885aa2",
+      "primary_supplement_case": true,
+      "nearest_observed_non_target_by_source": {
+        "Garbinski": {
+          "row": "garbinski2023_tm1.csv:4",
+          "paired_edit_similarity": 0.721739,
+          "vh_edit_similarity": 0.696721,
+          "vl_edit_similarity": 0.75
+        },
+        "Hie": {
+          "row": "hie2023efficient_mAb114UCA_Tm.csv:3",
+          "paired_edit_similarity": 0.770925,
+          "vh_edit_similarity": 0.716667,
+          "vl_edit_similarity": 0.831776
+        },
+        "Hutchinson": {
+          "row": "hutchinson2023enhancement_top200tm1_igg.csv:112",
+          "paired_edit_similarity": 0.555066,
+          "vh_edit_similarity": 0.516667,
+          "vl_edit_similarity": 0.598131
+        },
+        "Jain 2017": {
+          "row": "jain2017biophysical_Tm.csv:8",
+          "paired_edit_similarity": 0.876652,
+          "vh_edit_similarity": 0.825,
+          "vl_edit_similarity": 0.934579
+        },
+        "Jain 2024": {
+          "row": "jain2024assessment_Tm.csv:11",
+          "paired_edit_similarity": 0.790393,
+          "vh_edit_similarity": 0.737705,
+          "vl_edit_similarity": 0.850467
+        },
+        "Rosace": {
+          "row": "rosace2023automated_tm1_adalimumab.csv:3",
+          "paired_edit_similarity": 0.785088,
+          "vh_edit_similarity": 0.727273,
+          "vl_edit_similarity": 0.850467
+        }
+      }
+    },
+    {
+      "case": "5",
+      "measurements": {
+        "pdi": 0.04,
+        "first_inflection": 71.86,
+        "second_inflection": 71.86
+      },
+      "pair_sha256": "eb7ce7201a43af59a2d6148bad495ccdb91334f2ad25ff4e87194ffb831717b9",
+      "primary_supplement_case": true,
+      "nearest_observed_non_target_by_source": {
+        "Garbinski": {
+          "row": "garbinski2023_tm1.csv:4",
+          "paired_edit_similarity": 0.726087,
+          "vh_edit_similarity": 0.704918,
+          "vl_edit_similarity": 0.75
+        },
+        "Hie": {
+          "row": "hie2023efficient_mAb114UCA_Tm.csv:3",
+          "paired_edit_similarity": 0.784141,
+          "vh_edit_similarity": 0.741667,
+          "vl_edit_similarity": 0.831776
+        },
+        "Hutchinson": {
+          "row": "hutchinson2023enhancement_top200tm1_igg.csv:112",
+          "paired_edit_similarity": 0.572687,
+          "vh_edit_similarity": 0.55,
+          "vl_edit_similarity": 0.598131
+        },
+        "Jain 2017": {
+          "row": "jain2017biophysical_Tm.csv:8",
+          "paired_edit_similarity": 0.894273,
+          "vh_edit_similarity": 0.858333,
+          "vl_edit_similarity": 0.934579
+        },
+        "Jain 2024": {
+          "row": "jain2024assessment_Tm.csv:20",
+          "paired_edit_similarity": 0.805195,
+          "vh_edit_similarity": 0.758065,
+          "vl_edit_similarity": 0.859813
+        },
+        "Rosace": {
+          "row": "rosace2023automated_tm1_adalimumab.csv:3",
+          "paired_edit_similarity": 0.789474,
+          "vh_edit_similarity": 0.735537,
+          "vl_edit_similarity": 0.850467
+        }
+      }
+    },
+    {
+      "case": "6",
+      "measurements": {
+        "pdi": 0.07,
+        "first_inflection": 70.5,
+        "second_inflection": 80.73
+      },
+      "pair_sha256": "1537c4002ac57d698b68463bd3b554153d1288a08a68ec7d8b94148cf8491d49",
+      "primary_supplement_case": true,
+      "nearest_observed_non_target_by_source": {
+        "Garbinski": {
+          "row": "garbinski2023_tm1.csv:4",
+          "paired_edit_similarity": 0.730435,
+          "vh_edit_similarity": 0.713115,
+          "vl_edit_similarity": 0.75
+        },
+        "Hie": {
+          "row": "hie2023efficient_mAb114UCA_Tm.csv:3",
+          "paired_edit_similarity": 0.778761,
+          "vh_edit_similarity": 0.731092,
+          "vl_edit_similarity": 0.831776
+        },
+        "Hutchinson": {
+          "row": "hutchinson2023enhancement_top200tm1_igg.csv:109",
+          "paired_edit_similarity": 0.570796,
+          "vh_edit_similarity": 0.546218,
+          "vl_edit_similarity": 0.598131
+        },
+        "Jain 2017": {
+          "row": "jain2017biophysical_Tm.csv:8",
+          "paired_edit_similarity": 0.889381,
+          "vh_edit_similarity": 0.848739,
+          "vl_edit_similarity": 0.934579
+        },
+        "Jain 2024": {
+          "row": "jain2024assessment_Tm.csv:2",
+          "paired_edit_similarity": 0.800885,
+          "vh_edit_similarity": 0.747899,
+          "vl_edit_similarity": 0.859813
+        },
+        "Rosace": {
+          "row": "rosace2023automated_tm1_adalimumab.csv:3",
+          "paired_edit_similarity": 0.789474,
+          "vh_edit_similarity": 0.735537,
+          "vl_edit_similarity": 0.850467
+        }
+      }
+    },
+    {
+      "case": "7",
+      "measurements": {
+        "pdi": 0.05,
+        "first_inflection": 70.66,
+        "second_inflection": 78.36
+      },
+      "pair_sha256": "09a18e3031e540c97b29d4e2262bf62e0d853e3d7addcf3fc106b508b4ad2c55",
+      "primary_supplement_case": true,
+      "nearest_observed_non_target_by_source": {
+        "Garbinski": {
+          "row": "garbinski2023_tm1.csv:4",
+          "paired_edit_similarity": 0.726087,
+          "vh_edit_similarity": 0.704918,
+          "vl_edit_similarity": 0.75
+        },
+        "Hie": {
+          "row": "hie2023efficient_mAb114UCA_Tm.csv:3",
+          "paired_edit_similarity": 0.784141,
+          "vh_edit_similarity": 0.741667,
+          "vl_edit_similarity": 0.831776
+        },
+        "Hutchinson": {
+          "row": "hutchinson2023enhancement_top200tm1_igg.csv:112",
+          "paired_edit_similarity": 0.572687,
+          "vh_edit_similarity": 0.55,
+          "vl_edit_similarity": 0.598131
+        },
+        "Jain 2017": {
+          "row": "jain2017biophysical_Tm.csv:8",
+          "paired_edit_similarity": 0.894273,
+          "vh_edit_similarity": 0.858333,
+          "vl_edit_similarity": 0.934579
+        },
+        "Jain 2024": {
+          "row": "jain2024assessment_Tm.csv:20",
+          "paired_edit_similarity": 0.800866,
+          "vh_edit_similarity": 0.75,
+          "vl_edit_similarity": 0.859813
+        },
+        "Rosace": {
+          "row": "rosace2023automated_tm1_adalimumab.csv:3",
+          "paired_edit_similarity": 0.789474,
+          "vh_edit_similarity": 0.735537,
+          "vl_edit_similarity": 0.850467
+        }
+      }
+    },
+    {
+      "case": "8",
+      "measurements": {
+        "pdi": 0.06,
+        "first_inflection": 70.3,
+        "second_inflection": 82.73
+      },
+      "pair_sha256": "8942f433a0675a52a96952a5e0e12153627cf8bc1b93be7e84c3853992539142",
+      "primary_supplement_case": true,
+      "nearest_observed_non_target_by_source": {
+        "Garbinski": {
+          "row": "garbinski2023_tm1.csv:4",
+          "paired_edit_similarity": 0.734783,
+          "vh_edit_similarity": 0.721311,
+          "vl_edit_similarity": 0.75
+        },
+        "Hie": {
+          "row": "hie2023efficient_mAb114UCA_Tm.csv:3",
+          "paired_edit_similarity": 0.776316,
+          "vh_edit_similarity": 0.727273,
+          "vl_edit_similarity": 0.831776
+        },
+        "Hutchinson": {
+          "row": "hutchinson2023enhancement_top200tm1_igg.csv:125",
+          "paired_edit_similarity": 0.570175,
+          "vh_edit_similarity": 0.545455,
+          "vl_edit_similarity": 0.598131
+        },
+        "Jain 2017": {
+          "row": "jain2017biophysical_Tm.csv:8",
+          "paired_edit_similarity": 0.881579,
+          "vh_edit_similarity": 0.834711,
+          "vl_edit_similarity": 0.934579
+        },
+        "Jain 2024": {
+          "row": "jain2024assessment_Tm.csv:12",
+          "paired_edit_similarity": 0.806867,
+          "vh_edit_similarity": 0.761905,
+          "vl_edit_similarity": 0.859813
+        },
+        "Rosace": {
+          "row": "rosace2023automated_tm1_adalimumab.csv:3",
+          "paired_edit_similarity": 0.785088,
+          "vh_edit_similarity": 0.727273,
+          "vl_edit_similarity": 0.850467
+        }
+      }
+    },
+    {
+      "case": "9",
+      "measurements": {
+        "pdi": 0.04,
+        "first_inflection": 69.98,
+        "second_inflection": 80.43
+      },
+      "pair_sha256": "026b6d7094ceabeef298802125de2dbd3620e3fe7981a7c50283c65310d40712",
+      "primary_supplement_case": true,
+      "nearest_observed_non_target_by_source": {
+        "Garbinski": {
+          "row": "garbinski2023_tm1.csv:4",
+          "paired_edit_similarity": 0.726087,
+          "vh_edit_similarity": 0.704918,
+          "vl_edit_similarity": 0.75
+        },
+        "Hie": {
+          "row": "hie2023efficient_mAb114UCA_Tm.csv:3",
+          "paired_edit_similarity": 0.783186,
+          "vh_edit_similarity": 0.739496,
+          "vl_edit_similarity": 0.831776
+        },
+        "Hutchinson": {
+          "row": "hutchinson2023enhancement_top200tm1_igg.csv:112",
+          "paired_edit_similarity": 0.568889,
+          "vh_edit_similarity": 0.542373,
+          "vl_edit_similarity": 0.598131
+        },
+        "Jain 2017": {
+          "row": "jain2017biophysical_Tm.csv:8",
+          "paired_edit_similarity": 0.888889,
+          "vh_edit_similarity": 0.847458,
+          "vl_edit_similarity": 0.934579
+        },
+        "Jain 2024": {
+          "row": "jain2024assessment_Tm.csv:20",
+          "paired_edit_similarity": 0.805195,
+          "vh_edit_similarity": 0.758065,
+          "vl_edit_similarity": 0.859813
+        },
+        "Rosace": {
+          "row": "rosace2023automated_tm1_adalimumab.csv:3",
+          "paired_edit_similarity": 0.780702,
+          "vh_edit_similarity": 0.719008,
+          "vl_edit_similarity": 0.850467
+        }
+      }
+    },
+    {
+      "case": "10",
+      "measurements": {
+        "pdi": 0.07,
+        "first_inflection": 72.02,
+        "second_inflection": 72.02
+      },
+      "pair_sha256": "c5af77eebafa85bfceb2a302c4a785e0857d722422249e5e047e13a80b7d53e9",
+      "primary_supplement_case": true,
+      "nearest_observed_non_target_by_source": {
+        "Garbinski": {
+          "row": "garbinski2023_tm1.csv:4",
+          "paired_edit_similarity": 0.726087,
+          "vh_edit_similarity": 0.704918,
+          "vl_edit_similarity": 0.75
+        },
+        "Hie": {
+          "row": "hie2023efficient_mAb114UCA_Tm.csv:3",
+          "paired_edit_similarity": 0.769912,
+          "vh_edit_similarity": 0.714286,
+          "vl_edit_similarity": 0.831776
+        },
+        "Hutchinson": {
+          "row": "hutchinson2023enhancement_top200tm1_igg.csv:99",
+          "paired_edit_similarity": 0.568889,
+          "vh_edit_similarity": 0.542373,
+          "vl_edit_similarity": 0.598131
+        },
+        "Jain 2017": {
+          "row": "jain2017biophysical_Tm.csv:8",
+          "paired_edit_similarity": 0.88,
+          "vh_edit_similarity": 0.830508,
+          "vl_edit_similarity": 0.934579
+        },
+        "Jain 2024": {
+          "row": "jain2024assessment_Tm.csv:11",
+          "paired_edit_similarity": 0.79476,
+          "vh_edit_similarity": 0.745902,
+          "vl_edit_similarity": 0.850467
+        },
+        "Rosace": {
+          "row": "rosace2023automated_tm1_adalimumab.csv:3",
+          "paired_edit_similarity": 0.780702,
+          "vh_edit_similarity": 0.719008,
+          "vl_edit_similarity": 0.850467
+        }
+      }
+    },
+    {
+      "case": "11",
+      "measurements": {
+        "pdi": 0.05,
+        "first_inflection": 75.66,
+        "second_inflection": 75.66
+      },
+      "pair_sha256": "d55e429a9f467a336fe274c95ed9cbcb79ccb0d06ef681bd67effba71c785fd7",
+      "primary_supplement_case": true,
+      "nearest_observed_non_target_by_source": {
+        "Garbinski": {
+          "row": "garbinski2023_tm1.csv:4",
+          "paired_edit_similarity": 0.73913,
+          "vh_edit_similarity": 0.729508,
+          "vl_edit_similarity": 0.75
+        },
+        "Hie": {
+          "row": "hie2023efficient_mAb114UCA_Tm.csv:3",
+          "paired_edit_similarity": 0.779736,
+          "vh_edit_similarity": 0.733333,
+          "vl_edit_similarity": 0.831776
+        },
+        "Hutchinson": {
+          "row": "hutchinson2023enhancement_top200tm1_igg.csv:112",
+          "paired_edit_similarity": 0.568282,
+          "vh_edit_similarity": 0.541667,
+          "vl_edit_similarity": 0.598131
+        },
+        "Jain 2017": {
+          "row": "jain2017biophysical_Tm.csv:8",
+          "paired_edit_similarity": 0.885463,
+          "vh_edit_similarity": 0.841667,
+          "vl_edit_similarity": 0.934579
+        },
+        "Jain 2024": {
+          "row": "jain2024assessment_Tm.csv:20",
+          "paired_edit_similarity": 0.809524,
+          "vh_edit_similarity": 0.766129,
+          "vl_edit_similarity": 0.859813
+        },
+        "Rosace": {
+          "row": "rosace2023automated_tm1_adalimumab.csv:3",
+          "paired_edit_similarity": 0.789474,
+          "vh_edit_similarity": 0.735537,
+          "vl_edit_similarity": 0.850467
+        }
+      }
+    },
+    {
+      "case": "12",
+      "measurements": {
+        "pdi": 0.09,
+        "first_inflection": 71.07,
+        "second_inflection": 80.37
+      },
+      "pair_sha256": "cce66b719d341567f85c34a72fe2869d5f0b1f593c69b60f64523b1e9b8b9166",
+      "primary_supplement_case": false,
+      "nearest_observed_non_target_by_source": {
+        "Garbinski": {
+          "row": "garbinski2023_tm1.csv:4",
+          "paired_edit_similarity": 0.734783,
+          "vh_edit_similarity": 0.721311,
+          "vl_edit_similarity": 0.75
+        },
+        "Hie": {
+          "row": "hie2023efficient_mAb114UCA_Tm.csv:3",
+          "paired_edit_similarity": 0.778761,
+          "vh_edit_similarity": 0.731092,
+          "vl_edit_similarity": 0.831776
+        },
+        "Hutchinson": {
+          "row": "hutchinson2023enhancement_top200tm1_igg.csv:99",
+          "paired_edit_similarity": 0.566372,
+          "vh_edit_similarity": 0.537815,
+          "vl_edit_similarity": 0.598131
+        },
+        "Jain 2017": {
+          "row": "jain2017biophysical_Tm.csv:8",
+          "paired_edit_similarity": 0.89823,
+          "vh_edit_similarity": 0.865546,
+          "vl_edit_similarity": 0.934579
+        },
+        "Jain 2024": {
+          "row": "jain2024assessment_Tm.csv:20",
+          "paired_edit_similarity": 0.800866,
+          "vh_edit_similarity": 0.75,
+          "vl_edit_similarity": 0.859813
+        },
+        "Rosace": {
+          "row": "rosace2023automated_tm1_adalimumab.csv:3",
+          "paired_edit_similarity": 0.789474,
+          "vh_edit_similarity": 0.735537,
+          "vl_edit_similarity": 0.850467
+        }
+      }
+    }
+  ]
+}

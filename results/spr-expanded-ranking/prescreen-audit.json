@@ -1,0 +1,33 @@
+{
+  "purpose": "post_benchmark_exploratory_prescreen_not_new_performance_estimate",
+  "pool_with_at_least_four_wt_changes": 8940,
+  "spr_top_n": 250,
+  "additional_screened": 239,
+  "additional_strict_passes": 36,
+  "combined_screened": 743,
+  "combined_strict_passes": 124,
+  "wt_score_diagnostic": -0.5908070229955034,
+  "score_caveat": "WT was excluded from training; absolute KD calibration is not established.",
+  "inputs": {
+    "pool": {
+      "source": "results/benchmark/candidate_scores.csv",
+      "sha256": "4c39c47c5dfab13301fc1cc4a9efea471c1c1c20e99fe5e99ddeb26c8e237a1c"
+    },
+    "previous_preflight": {
+      "source": "results/benchmark/preflight.json",
+      "sha256": "850c7f2cb708eda5cf85cc473d5986f79050032fbe5fc554cbcf2838ed931b31"
+    },
+    "model": {
+      "source": "results/spr-candidate-ranking/model.json",
+      "sha256": "b124a240dbcd9059da47181e0c27e038a176d2a9586d01072cf3308f76dc7697"
+    },
+    "facs": {
+      "source": "/tmp/her2-benchmark.NjMJ71m1/facs.csv",
+      "sha256": "7ff5a95bcc1942bb6e34b1e4ed6c02a9c177ee30ca160440f8abe82ed787735e"
+    },
+    "spr": {
+      "source": "/tmp/her2-benchmark.NjMJ71m1/spr.csv",
+      "sha256": "4d6f53a6183f377670e9577b3233a7c4c14888965ac63824863219d13424fa9b"
+    }
+  }
+}

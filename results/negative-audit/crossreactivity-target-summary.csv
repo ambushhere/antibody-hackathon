@@ -1,0 +1,12 @@
+dataset,target,pair_rows,unique_vhh_target_pairs,cognate_pairs,noncognate_pairs,confirmed_binder,off_target_binder,weak_underloaded,weak_low_loading_background,silent,not_quantified_in_text,confirmed_negative_pairs,matched_confirmed_negative_scores,false_positive_n,false_positive_denominator,false_positive_fraction,wilson95_low,wilson95_high
+crossreactivity,CD1d,1,1,1,0,0,0,0,1,0,0,0,0,,,,,
+crossreactivity,CD38,1,1,1,0,0,0,0,1,0,0,0,0,,,,,
+crossreactivity,CD4,1,1,1,0,0,0,0,1,0,0,0,0,,,,,
+crossreactivity,CD8a,1,1,1,0,0,0,1,0,0,0,0,0,,,,,
+crossreactivity,EGFR,1,1,1,0,0,0,0,1,0,0,0,0,,,,,
+crossreactivity,hMPV F,1,1,1,0,0,0,0,1,0,0,0,0,,,,,
+crossreactivity,IL-4Ra,1,1,1,0,1,0,0,0,0,0,0,0,,,,,
+crossreactivity,Properdin,2,2,0,2,0,2,0,0,0,0,0,0,,,,,
+crossreactivity,SARS-CoV-2 RBD,2,2,2,0,0,0,1,0,1,0,0,0,,,,,
+crossreactivity,Synaptotagmin-1,1,1,1,0,0,0,0,0,0,1,0,0,,,,,
+crossreactivity,ALL,12,12,10,2,1,2,2,5,1,1,0,0,,,,,

@@ -1,0 +1,104 @@
+{
+  "audit_date": "2026-11-14",
+  "scope": "Read-only audit of the named VM SPR supplement files and local HER2 structural score CSV",
+  "source_hashes_sha256": {
+    "vm:/home/hackathon/almaz/data/hackathon-data/sigma2-ab-ag-champloo/spr-supplementary/spr_table_s1_pairwise.csv": "6d28ccec9ed5d4f15cd88e4edd063bfcaaa1d80d48323447441ad03dd35e00f1",
+    "vm:/home/hackathon/almaz/data/hackathon-data/sigma2-ab-ag-champloo/spr-supplementary/spr_crossreactivity_14target.csv": "5ac9147ea62e9b84e641887e183a0d22bc592a97d6b13b718e1b8791a5ea33fb",
+    "vm:/home/hackathon/almaz/data/hackathon-data/sigma2-ab-ag-champloo/spr-supplementary/README.md": "6f26633b36da366f492e0d896d1853e7ee5d54aaa9a42e9fcf05c7a688487bc7",
+    "vm:/home/hackathon/almaz/data/hackathon-data/sigma2-ab-ag-champloo/README.txt": "a7c1c811708c90d55c08b187e3d11b51abde24cea244dac4506dd993118f601d",
+    "local:results/experiment-20261114/structure_comparison.csv": "a2819c7e652de3b196a9ddfc4db0586835910a1703082576d8babc0fe0a3a86d"
+  },
+  "pairwise_spr": {
+    "rows": 29,
+    "unique_pair_key": "(vhh_design, antigen_name)",
+    "unique_pairs": 29,
+    "unique_targets": 6,
+    "pair_type_counts": {
+      "cognate": 6,
+      "non-cognate": 23
+    },
+    "outcome_class_counts": {
+      "KD reported": 4,
+      "no reportable fit": 12,
+      "not expressed": 7,
+      "antigen not produced": 5,
+      "response without fitted KD": 1
+    },
+    "numeric_af3_iptm": {
+      "n": 3,
+      "cognate_only": true,
+      "values_by_target": {
+        "CD4": 0.12,
+        "Leptin receptor": 0.15,
+        "CNPase": 0.46
+      },
+      "n_ge_0_7": 0
+    },
+    "explicit_confirmed_negative_pairs": 0
+  },
+  "crossreactivity_spr": {
+    "rows": 12,
+    "unique_pair_key": "(vhh_design, target)",
+    "unique_pairs": 12,
+    "unique_targets": 10,
+    "pair_type_counts": {
+      "cognate": 10,
+      "non-cognate": 2
+    },
+    "call_counts": {
+      "confirmed binder": 1,
+      "off-target binder": 2,
+      "weak (under-loaded)": 2,
+      "weak (low loading background)": 5,
+      "silent": 1,
+      "not quantified in text": 1
+    },
+    "response_ru_nonempty": 6,
+    "explicit_confirmed_negative_pairs": 0,
+    "source_scope_note": "Partial extraction, not the full 14-target matrix"
+  },
+  "claims": {
+    "454_measured_negatives": {
+      "status": "not verified from supplied files",
+      "in_scope_confirmed_negative_n": 0,
+      "reason": "No explicit confirmed-nonbinder labels; no-reportable-fit rows are not confirmed negatives"
+    },
+    "21_af3_iptm_ge_0_7_of_454": {
+      "status": "not reproducible from supplied files",
+      "numerator": null,
+      "denominator": null,
+      "reason": "No 454-row SPR negative table or pair-level matched AF3 score table was supplied"
+    },
+    "source_reported_non_cognate_high_af3": {
+      "numerator": 11,
+      "denominator": 12,
+      "reported_range": [0.75, 0.9],
+      "per_pair_values_in_csv": false,
+      "confirmed_negative_labels": false,
+      "interpretation": "Descriptive high-confidence non-cognate observations, not a false-positive rate"
+    }
+  },
+  "false_positive_analysis": {
+    "pairwise_per_target_and_pooled_fpr": null,
+    "crossreactivity_per_target_and_pooled_fpr": null,
+    "reason": "No row-level confidence scores matched to confirmed negative SPR labels",
+    "wilson_95_intervals": null
+  },
+  "current_her2_scores": {
+    "rows": 10,
+    "unique_query_ids": 6,
+    "models": ["openfold3_of3ob", "protenix_v2"],
+    "af3_rows": 0,
+    "matched_supplement_pairs": 0,
+    "benchmarkable_against_spr_supplement": false
+  },
+  "missing_data": [
+    "Row-level 454 measured-negative table and exact negative-label definition",
+    "Pair-level AF3 values for the 12 non-cognate rows and target mapping for the source-reported 11/12 aggregate",
+    "Full 14-target cross-reactivity response matrix",
+    "Matched Protenix v2 or OpenFold3 scores for SPR pairs",
+    "Pair identifier join between SPR tables and the local HER2 Fv score CSV"
+  ],
+  "archive_boundary": "No archives were downloaded, opened or extracted. VM README lists a 1.3 GB AF3 real-pair archive and a 152 GB AF3 shuffled archive; the latter was absent from the top-level directory listing.",
+  "reproducibility": "CSV aggregation ran on the VM only after activating /home/hackathon/almaz/work/.venv. No raw rows are included."
+}
