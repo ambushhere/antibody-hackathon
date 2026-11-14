@@ -19,7 +19,7 @@ def validate_pair(heavy, light, annotator):
     if not heavy or not light or set(heavy + light) - AA:
         raise ValueError("Both variable domains must contain only the 20 standard amino acids")
     if len(heavy) + len(light) > 250:
-        raise ValueError("Paired variable domains exceed the conservative total length limit")
+        raise ValueError("Paired variable domains exceed the combined total length limit")
     checks = {}
     for role, sequence, allowed in (("heavy", heavy, {"H"}), ("light", light, {"K", "L"})):
         if sequence.count("C") % 2:
@@ -54,7 +54,7 @@ def export(output, selected_ids=None):
         seen.add((heavy, light))
         checks = validate_pair(heavy, light, annotator)
         description = (
-            f"DRAFT research candidate; {candidate['track']}; CDRH3 {candidate['cdrh3']}; "
+            f"DRAFT research candidate; intended track {candidate['track']}; CDRH3 {candidate['cdrh3']}; "
             + ("trastuzumab framework, statistical proposal and SPR model ranking; "
                if candidate["track"] == "optimization" else
                f"RFD4-Proteina {candidate['generation']['checkpoint']}, paired VH/VL design; ")
@@ -64,7 +64,7 @@ def export(output, selected_ids=None):
         evidence.append({"sequence_id": candidate["query_id"], "track": candidate["track"],
                          "source": candidate["source"], "source_sha256": candidate["source_sha256"],
                          "paired_sequence_sha256": candidate["paired_sequence_sha256"],
-                         "checks": checks, "official_abguard_status": "not_run_tool_unavailable",
+                         "checks": checks, "official_abguard_status": "not_run_by_this_exporter",
                          "official_novelty_status": "pending", "laboratory_status": "not_measured"})
     output.parent.mkdir(parents=True, exist_ok=True)
     with output.open("w", newline="") as stream:
@@ -78,6 +78,9 @@ def export(output, selected_ids=None):
         "rows": len(rows), "kind": "paired",
         "counts_by_track": {t: sum(r["track"] == t for r in evidence) for t in ("optimization", "denovo")},
         "validation": "local format and immunum checks, not the official abguard gate",
+        "official_track_assignment": "abguard determines the track; descriptions record intent only",
+        "final_ranked_submission_limit": 20,
+        "within_final_submission_row_limit": len(rows) <= 20,
         "team_filename": "team-3 is the VM team label; confirm the actual team name before manual submission",
         "designs": evidence,
     }

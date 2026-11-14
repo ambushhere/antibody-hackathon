@@ -1,0 +1,11 @@
+{
+  "host": "team-3",
+  "working_directory": "/home/hackathon/almaz/work/neural-20261114",
+  "launcher_pid": 89744,
+  "training_pid": 89750,
+  "log": "/home/hackathon/almaz/work/neural-20261114/seed3.log",
+  "protocol_commit": "dbdfb3c",
+  "trainer_sha256": "bbf798058a270178f93950439dce550ab73f2dff559b6496f7b467428d7fa1e7",
+  "observed_gpu_utilization_percent_after_launch": 100,
+  "observed_memory_MiB_after_launch": 3889
+}

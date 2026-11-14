@@ -1,7 +1,7 @@
 {
   "status": "draft_research_pool_not_submitted_not_final_slot_selection",
   "file": "team-3-draft.csv",
-  "sha256": "8bf588a971b06a7b74eab104020ee6b7aa8e30ee5079817618e23a5ac95f4658",
+  "sha256": "661bffcab9fb9e5c954d12e38e4424d3c1641550de82a68e7ce5ebf3340ecb87",
   "source_panel_sha256": "0e99a647b10e1c92105b000cf5a1c9c999b86b8aaa4c811ad8591059ee8964b7",
   "rows": 53,
   "kind": "paired",
@@ -10,6 +10,9 @@
     "denovo": 43
   },
   "validation": "local format and immunum checks, not the official abguard gate",
+  "official_track_assignment": "abguard determines the track; descriptions record intent only",
+  "final_ranked_submission_limit": 20,
+  "within_final_submission_row_limit": false,
   "team_filename": "team-3 is the VM team label; confirm the actual team name before manual submission",
   "designs": [
     {
@@ -32,7 +35,7 @@
           "confidence": 0.9022924304008484
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -56,7 +59,7 @@
           "confidence": 0.9022924304008484
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -80,7 +83,7 @@
           "confidence": 0.9022924304008484
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -104,7 +107,7 @@
           "confidence": 0.9022924304008484
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -128,7 +131,7 @@
           "confidence": 0.9022924304008484
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -152,7 +155,7 @@
           "confidence": 0.9022924304008484
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -176,7 +179,7 @@
           "confidence": 0.9022924304008484
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -200,7 +203,7 @@
           "confidence": 0.9022924304008484
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -224,7 +227,7 @@
           "confidence": 0.9022924304008484
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -248,7 +251,7 @@
           "confidence": 0.9022924304008484
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -272,7 +275,7 @@
           "confidence": 0.7525326609611511
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -296,7 +299,7 @@
           "confidence": 0.844330370426178
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -320,7 +323,7 @@
           "confidence": 0.8646361231803894
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -344,7 +347,7 @@
           "confidence": 0.8277222514152527
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -368,7 +371,7 @@
           "confidence": 0.7697872519493103
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -392,7 +395,7 @@
           "confidence": 0.8725091814994812
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -416,7 +419,7 @@
           "confidence": 0.76667320728302
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -440,7 +443,7 @@
           "confidence": 0.8302249908447266
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -464,7 +467,7 @@
           "confidence": 0.7340357899665833
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -488,7 +491,7 @@
           "confidence": 0.834758460521698
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -512,7 +515,7 @@
           "confidence": 0.783992350101471
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -536,7 +539,7 @@
           "confidence": 0.7904893159866333
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -560,7 +563,7 @@
           "confidence": 0.8053250908851624
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -584,7 +587,7 @@
           "confidence": 0.9009400010108948
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -608,7 +611,7 @@
           "confidence": 0.7853655219078064
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -632,7 +635,7 @@
           "confidence": 0.8171589374542236
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -656,7 +659,7 @@
           "confidence": 0.7427803874015808
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -680,7 +683,7 @@
           "confidence": 0.7931164503097534
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -704,7 +707,7 @@
           "confidence": 0.8303263187408447
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -728,7 +731,7 @@
           "confidence": 0.8033820390701294
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -752,7 +755,7 @@
           "confidence": 0.7511815428733826
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -776,7 +779,7 @@
           "confidence": 0.828187108039856
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -800,7 +803,7 @@
           "confidence": 0.7948165535926819
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -824,7 +827,7 @@
           "confidence": 0.8486015200614929
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -848,7 +851,7 @@
           "confidence": 0.8124722838401794
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -872,7 +875,7 @@
           "confidence": 0.8425990343093872
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -896,7 +899,7 @@
           "confidence": 0.7810500860214233
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -920,7 +923,7 @@
           "confidence": 0.8778945207595825
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -944,7 +947,7 @@
           "confidence": 0.7442351579666138
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -968,7 +971,7 @@
           "confidence": 0.7965108156204224
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -992,7 +995,7 @@
           "confidence": 0.7384195327758789
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -1016,7 +1019,7 @@
           "confidence": 0.7690626978874207
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -1040,7 +1043,7 @@
           "confidence": 0.7856814861297607
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -1064,7 +1067,7 @@
           "confidence": 0.7711992263793945
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -1088,7 +1091,7 @@
           "confidence": 0.8336842656135559
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -1112,7 +1115,7 @@
           "confidence": 0.7955248355865479
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -1136,7 +1139,7 @@
           "confidence": 0.7394270300865173
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -1160,7 +1163,7 @@
           "confidence": 0.8116989135742188
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -1184,7 +1187,7 @@
           "confidence": 0.764829158782959
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -1208,7 +1211,7 @@
           "confidence": 0.806911051273346
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -1232,7 +1235,7 @@
           "confidence": 0.7223808169364929
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -1256,7 +1259,7 @@
           "confidence": 0.8880265951156616
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     },
@@ -1280,7 +1283,7 @@
           "confidence": 0.8368374109268188
         }
       },
-      "official_abguard_status": "not_run_tool_unavailable",
+      "official_abguard_status": "not_run_by_this_exporter",
       "official_novelty_status": "pending",
       "laboratory_status": "not_measured"
     }

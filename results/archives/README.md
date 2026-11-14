@@ -9,6 +9,7 @@ The later control experiment and sequence audit have separate archives so they c
 | [template-controls-manifest.json](template-controls-manifest.json) | All 48 no-MSA Protenix poses, confidence arrays, logs and receipts, plus the pinned original 1N8Z and 6OGE deposits | `results/` |
 | [template-msa-controls-manifest.json](template-msa-controls-manifest.json) | All 24 target-MSA control poses and their runtime receipts | `results/` |
 | [denovo-scale-manifest.json](denovo-scale-manifest.json) | All 64 generated structures from the two pre-existing team VM RFD4 runs and their provenance | `results/` |
+| [abguard-installed-package-manifest.json](abguard-installed-package-manifest.json) | Exact installed abguard Python package and bundled reference, with dependency versions recorded separately in `results/abguard-validation/raw/environment.json` | `results/tmp/abguard-installed/` |
 | [external-spr-sources-manifest.json](external-spr-sources-manifest.json) | Five pinned Absci source files, including source README and Clear BSD license | `data/` |
 
 For these manifests, select a filename below. Archive and member hashes are checked before use. The original reference deposits restore to `results/campaign/template-references/{1n8z,6oge}.cif`, allowing the template and candidate auditors to run without the original machine's `/tmp` files.

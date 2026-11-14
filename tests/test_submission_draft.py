@@ -33,7 +33,7 @@ def test_export_exact_schema_and_source_sequences_without_controls(tmp_path):
     assert all(r["kind"] == "paired" and r["light_sequence"] for r in rows)
     assert all(not r["sequence_id"].startswith("control_") for r in rows)
     assert all(r["design_description"].startswith("DRAFT") for r in rows)
-    assert all(r["official_abguard_status"] == "not_run_tool_unavailable" for r in report["designs"])
+    assert all(r["official_abguard_status"] == "not_run_by_this_exporter" for r in report["designs"])
 
 
 def test_unknown_or_duplicate_subset_is_rejected_before_writing(tmp_path):
