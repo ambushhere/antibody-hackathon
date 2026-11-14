@@ -6,8 +6,15 @@ out=${2:?absolute new output directory}
 [[ ! -e "$out" ]] || { echo 'Output already exists' >&2; exit 2; }
 exec 9>/home/hackathon/almaz/work/gpu.lock
 flock -n 9 || { echo 'GPU admission lock is held' >&2; exit 2; }
-[[ -z "$(nvidia-smi --query-compute-apps=pid --format=csv,noheader)" ]] || { echo 'GPU has an active process' >&2; exit 2; }
+active=$(nvidia-smi --query-compute-apps=pid,used_gpu_memory --format=csv,noheader,nounits)
+if [[ -n "$active" ]]; then
+  [[ "${HER2_ALLOW_SHARED_GPU:-0}" == 1 ]] || { echo 'GPU has an active process' >&2; exit 2; }
+  free_mib=$(nvidia-smi --query-gpu=memory.free --format=csv,noheader,nounits)
+  [[ "$free_mib" =~ ^[0-9]+$ && "$free_mib" -ge 40000 ]] || { echo 'Insufficient shared GPU headroom' >&2; exit 2; }
+fi
 mkdir -p "$out"
+printf '%s\n' "$active" > "$out/preexisting-gpu-processes.csv"
+printf '%s\n' "${HER2_ALLOW_SHARED_GPU:-0}" > "$out/shared-gpu-admission.txt"
 image=quay.io/apheris/oslo-hackathon:apheris-protenix-v1.3.0-v2
 docker image inspect "$image" --format '{{.Id}}' > "$out/image-id.txt"
 sha256sum "$input"/{complete-target.cif,manifest.json,target.a3m,queries.json} > "$out/input.sha256"
