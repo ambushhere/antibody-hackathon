@@ -1,0 +1,2812 @@
+{
+  "seed": 0,
+  "bootstrap_draws": 2000,
+  "alpha_grid": [
+    0.1,
+    1.0,
+    10.0,
+    100.0
+  ],
+  "max_folds": 5,
+  "levenshtein_cutoff": 2,
+  "versions": {
+    "python": "3.13.18",
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "rapidfuzz": "3.14.6",
+    "threadpoolctl": "3.8.0"
+  },
+  "inputs": {
+    "train": {
+      "source": "/tmp/her2-benchmark.NjMJ71m1/train.csv",
+      "sha256": "b639077ff116daa8b8c3a2122b6ed9291361892469f6237963967ca0772cb262"
+    },
+    "val": {
+      "source": "/tmp/her2-benchmark.NjMJ71m1/val.csv",
+      "sha256": "ea5e2e0908f018f579e476cef4452f9de11ba9144513bffa783588d49123f5d1"
+    },
+    "test": {
+      "source": "/tmp/her2-benchmark.NjMJ71m1/test.csv",
+      "sha256": "b350c10c7df4eb5e1b966f76909a805fc7d8011486f1ddb5dd1d7a6e19556a06"
+    },
+    "facs": {
+      "source": "/tmp/her2-benchmark.NjMJ71m1/facs.csv",
+      "sha256": "7ff5a95bcc1942bb6e34b1e4ed6c02a9c177ee30ca160440f8abe82ed787735e"
+    },
+    "spr": {
+      "source": "/tmp/her2-benchmark.NjMJ71m1/spr.csv",
+      "sha256": "4d6f53a6183f377670e9577b3233a7c4c14888965ac63824863219d13424fa9b"
+    },
+    "facs_model": {
+      "source": "results/experiment-20261114/selected_model.json",
+      "sha256": "4067c8e66e703a4db828cec37086f3d157fcad38c172ab265f1aebffe9f3a487"
+    }
+  },
+  "facs_features": "pairwise",
+  "spr_audit": {
+    "input_rows": 768,
+    "kd_state_by_binding_result": {
+      "inconclusive": {
+        "missing": 104,
+        "invalid": 0,
+        "finite_positive": 0
+      },
+      "no_reportable_kd": {
+        "missing": 460,
+        "invalid": 0,
+        "finite_positive": 0
+      },
+      "not_reported": {
+        "missing": 14,
+        "invalid": 0,
+        "finite_positive": 0
+      },
+      "quantified_binding": {
+        "missing": 0,
+        "invalid": 0,
+        "finite_positive": 190
+      }
+    },
+    "quantified_rows_with_finite_positive_kd": 190,
+    "excluded_other_background_rows": 0,
+    "excluded_wild_type_rows": 8,
+    "excluded_other_length_rows_by_length": {
+      "9": 3
+    },
+    "eligible_quantified_variant_rows": 179,
+    "eligible_unique_cdrh3": 179,
+    "replicate_rows_collapsed": 0,
+    "overlaps_by_facs_split": {
+      "train": 14,
+      "val": 7,
+      "test": 6
+    },
+    "wt_reference_kd_nm": [
+      0.02851802,
+      0.0378713,
+      0.07916459,
+      0.123,
+      0.146,
+      0.152,
+      0.165,
+      0.178
+    ]
+  },
+  "cohorts": {
+    "Primary novelty cohort": {
+      "n": 158,
+      "groups": 115,
+      "group_size_counts": {
+        "1": 110,
+        "2": 3,
+        "7": 1,
+        "35": 1
+      },
+      "facs_overlaps": {
+        "train": 0,
+        "val": 0,
+        "test": 6
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "train_n": 123,
+          "test_n": 35,
+          "train_groups": 114,
+          "test_groups": [
+            20
+          ],
+          "inner_folds": [
+            {
+              "train_n": 98,
+              "val_n": 25,
+              "val_groups": [
+                3,
+                5,
+                9,
+                14,
+                19,
+                25,
+                30,
+                36,
+                41,
+                46,
+                51,
+                56,
+                61,
+                66,
+                71,
+                77,
+                82,
+                87,
+                92
+              ]
+            },
+            {
+              "train_n": 98,
+              "val_n": 25,
+              "val_groups": [
+                1,
+                8,
+                13,
+                18,
+                24,
+                29,
+                35,
+                40,
+                45,
+                50,
+                55,
+                60,
+                65,
+                70,
+                73,
+                76,
+                81,
+                86,
+                91,
+                96,
+                100,
+                104,
+                108,
+                112
+              ]
+            },
+            {
+              "train_n": 98,
+              "val_n": 25,
+              "val_groups": [
+                0,
+                7,
+                12,
+                17,
+                23,
+                28,
+                32,
+                34,
+                39,
+                44,
+                49,
+                54,
+                59,
+                64,
+                69,
+                75,
+                80,
+                85,
+                90,
+                95,
+                99,
+                103,
+                107,
+                111
+              ]
+            },
+            {
+              "train_n": 99,
+              "val_n": 24,
+              "val_groups": [
+                2,
+                6,
+                11,
+                16,
+                22,
+                27,
+                33,
+                38,
+                43,
+                48,
+                53,
+                58,
+                63,
+                68,
+                74,
+                79,
+                84,
+                89,
+                94,
+                98,
+                102,
+                106,
+                110
+              ]
+            },
+            {
+              "train_n": 99,
+              "val_n": 24,
+              "val_groups": [
+                4,
+                10,
+                15,
+                21,
+                26,
+                31,
+                37,
+                42,
+                47,
+                52,
+                57,
+                62,
+                67,
+                72,
+                78,
+                83,
+                88,
+                93,
+                97,
+                101,
+                105,
+                109,
+                113,
+                114
+              ]
+            }
+          ],
+          "tuning": {
+            "position_ridge": {
+              "alpha": 10.0,
+              "inner_pooled_rmse_by_alpha": {
+                "0.1": 1.1253106365101837,
+                "1.0": 0.8993061347594555,
+                "10.0": 0.8084598199741679,
+                "100.0": 0.8400664083772624
+              }
+            },
+            "facs_residual_ridge": {
+              "alpha": 10.0,
+              "inner_pooled_rmse_by_alpha": {
+                "0.1": 1.1465132194204648,
+                "1.0": 0.9162936843867358,
+                "10.0": 0.8194921608631862,
+                "100.0": 0.8404659716454852
+              }
+            }
+          }
+        },
+        {
+          "fold": 2,
+          "train_n": 127,
+          "test_n": 31,
+          "train_groups": 90,
+          "test_groups": [
+            3,
+            5,
+            8,
+            12,
+            16,
+            21,
+            25,
+            29,
+            34,
+            38,
+            42,
+            46,
+            50,
+            54,
+            58,
+            62,
+            66,
+            70,
+            75,
+            79,
+            83,
+            87,
+            91,
+            95,
+            99
+          ],
+          "inner_folds": [
+            {
+              "train_n": 92,
+              "val_n": 35,
+              "val_groups": [
+                20
+              ]
+            },
+            {
+              "train_n": 104,
+              "val_n": 23,
+              "val_groups": [
+                6,
+                11,
+                17,
+                23,
+                28,
+                35,
+                40,
+                45,
+                51,
+                56,
+                61,
+                67,
+                72,
+                73,
+                78,
+                84,
+                89,
+                94,
+                100,
+                104,
+                108,
+                112
+              ]
+            },
+            {
+              "train_n": 104,
+              "val_n": 23,
+              "val_groups": [
+                4,
+                10,
+                15,
+                22,
+                27,
+                32,
+                33,
+                39,
+                44,
+                49,
+                55,
+                60,
+                65,
+                71,
+                77,
+                82,
+                88,
+                93,
+                98,
+                103,
+                107,
+                111
+              ]
+            },
+            {
+              "train_n": 104,
+              "val_n": 23,
+              "val_groups": [
+                1,
+                2,
+                9,
+                14,
+                19,
+                26,
+                31,
+                37,
+                43,
+                48,
+                53,
+                59,
+                64,
+                69,
+                76,
+                81,
+                86,
+                92,
+                97,
+                102,
+                106,
+                110
+              ]
+            },
+            {
+              "train_n": 104,
+              "val_n": 23,
+              "val_groups": [
+                0,
+                7,
+                13,
+                18,
+                24,
+                30,
+                36,
+                41,
+                47,
+                52,
+                57,
+                63,
+                68,
+                74,
+                80,
+                85,
+                90,
+                96,
+                101,
+                105,
+                109,
+                113,
+                114
+              ]
+            }
+          ],
+          "tuning": {
+            "position_ridge": {
+              "alpha": 10.0,
+              "inner_pooled_rmse_by_alpha": {
+                "0.1": 1.161780866205992,
+                "1.0": 0.8449197161154685,
+                "10.0": 0.7811654275561656,
+                "100.0": 0.9098659803887496
+              }
+            },
+            "facs_residual_ridge": {
+              "alpha": 10.0,
+              "inner_pooled_rmse_by_alpha": {
+                "0.1": 1.2408423487499034,
+                "1.0": 0.8947388218050331,
+                "10.0": 0.8084140283647798,
+                "100.0": 0.8895086036135421
+              }
+            }
+          }
+        },
+        {
+          "fold": 3,
+          "train_n": 127,
+          "test_n": 31,
+          "train_groups": 85,
+          "test_groups": [
+            1,
+            7,
+            11,
+            15,
+            19,
+            24,
+            28,
+            33,
+            37,
+            41,
+            45,
+            49,
+            53,
+            57,
+            61,
+            65,
+            69,
+            73,
+            74,
+            78,
+            82,
+            86,
+            90,
+            94,
+            98,
+            102,
+            105,
+            108,
+            111,
+            114
+          ],
+          "inner_folds": [
+            {
+              "train_n": 92,
+              "val_n": 35,
+              "val_groups": [
+                20
+              ]
+            },
+            {
+              "train_n": 104,
+              "val_n": 23,
+              "val_groups": [
+                5,
+                6,
+                12,
+                17,
+                23,
+                29,
+                35,
+                40,
+                46,
+                51,
+                56,
+                62,
+                67,
+                72,
+                79,
+                84,
+                89
+              ]
+            },
+            {
+              "train_n": 104,
+              "val_n": 23,
+              "val_groups": [
+                4,
+                10,
+                16,
+                22,
+                27,
+                32,
+                34,
+                39,
+                44,
+                50,
+                55,
+                60,
+                66,
+                71,
+                77,
+                83,
+                88,
+                93,
+                97,
+                101,
+                106,
+                110
+              ]
+            },
+            {
+              "train_n": 104,
+              "val_n": 23,
+              "val_groups": [
+                2,
+                3,
+                9,
+                14,
+                21,
+                26,
+                31,
+                38,
+                43,
+                48,
+                54,
+                59,
+                64,
+                70,
+                76,
+                81,
+                87,
+                92,
+                96,
+                100,
+                104,
+                109
+              ]
+            },
+            {
+              "train_n": 104,
+              "val_n": 23,
+              "val_groups": [
+                0,
+                8,
+                13,
+                18,
+                25,
+                30,
+                36,
+                42,
+                47,
+                52,
+                58,
+                63,
+                68,
+                75,
+                80,
+                85,
+                91,
+                95,
+                99,
+                103,
+                107,
+                112,
+                113
+              ]
+            }
+          ],
+          "tuning": {
+            "position_ridge": {
+              "alpha": 10.0,
+              "inner_pooled_rmse_by_alpha": {
+                "0.1": 1.0103995346187666,
+                "1.0": 0.8058707631581568,
+                "10.0": 0.7942907746881935,
+                "100.0": 0.9582222407964424
+              }
+            },
+            "facs_residual_ridge": {
+              "alpha": 10.0,
+              "inner_pooled_rmse_by_alpha": {
+                "0.1": 1.076051030951295,
+                "1.0": 0.8552766599897119,
+                "10.0": 0.8263495450834094,
+                "100.0": 0.9558666895194236
+              }
+            }
+          }
+        },
+        {
+          "fold": 4,
+          "train_n": 127,
+          "test_n": 31,
+          "train_groups": 85,
+          "test_groups": [
+            0,
+            6,
+            10,
+            14,
+            18,
+            23,
+            27,
+            31,
+            32,
+            36,
+            40,
+            44,
+            48,
+            52,
+            56,
+            60,
+            64,
+            68,
+            72,
+            77,
+            81,
+            85,
+            89,
+            93,
+            97,
+            101,
+            104,
+            107,
+            110,
+            113
+          ],
+          "inner_folds": [
+            {
+              "train_n": 92,
+              "val_n": 35,
+              "val_groups": [
+                20
+              ]
+            },
+            {
+              "train_n": 104,
+              "val_n": 23,
+              "val_groups": [
+                5,
+                7,
+                12,
+                17,
+                24,
+                29,
+                35,
+                41,
+                46,
+                51,
+                57,
+                62,
+                67,
+                74,
+                79,
+                84,
+                90
+              ]
+            },
+            {
+              "train_n": 104,
+              "val_n": 23,
+              "val_groups": [
+                4,
+                11,
+                16,
+                22,
+                28,
+                34,
+                39,
+                45,
+                50,
+                55,
+                61,
+                66,
+                71,
+                73,
+                78,
+                83,
+                88,
+                94,
+                98,
+                102,
+                106,
+                111
+              ]
+            },
+            {
+              "train_n": 104,
+              "val_n": 23,
+              "val_groups": [
+                2,
+                3,
+                9,
+                15,
+                21,
+                26,
+                33,
+                38,
+                43,
+                49,
+                54,
+                59,
+                65,
+                70,
+                76,
+                82,
+                87,
+                92,
+                96,
+                100,
+                105,
+                109
+              ]
+            },
+            {
+              "train_n": 104,
+              "val_n": 23,
+              "val_groups": [
+                1,
+                8,
+                13,
+                19,
+                25,
+                30,
+                37,
+                42,
+                47,
+                53,
+                58,
+                63,
+                69,
+                75,
+                80,
+                86,
+                91,
+                95,
+                99,
+                103,
+                108,
+                112,
+                114
+              ]
+            }
+          ],
+          "tuning": {
+            "position_ridge": {
+              "alpha": 1.0,
+              "inner_pooled_rmse_by_alpha": {
+                "0.1": 0.8848221891198819,
+                "1.0": 0.7161661144479103,
+                "10.0": 0.758761421754984,
+                "100.0": 0.8584821409873296
+              }
+            },
+            "facs_residual_ridge": {
+              "alpha": 1.0,
+              "inner_pooled_rmse_by_alpha": {
+                "0.1": 0.9269025936767811,
+                "1.0": 0.7462890580431579,
+                "10.0": 0.7818204713692661,
+                "100.0": 0.8800716159679439
+              }
+            }
+          }
+        },
+        {
+          "fold": 5,
+          "train_n": 128,
+          "test_n": 30,
+          "train_groups": 86,
+          "test_groups": [
+            2,
+            4,
+            9,
+            13,
+            17,
+            22,
+            26,
+            30,
+            35,
+            39,
+            43,
+            47,
+            51,
+            55,
+            59,
+            63,
+            67,
+            71,
+            76,
+            80,
+            84,
+            88,
+            92,
+            96,
+            100,
+            103,
+            106,
+            109,
+            112
+          ],
+          "inner_folds": [
+            {
+              "train_n": 93,
+              "val_n": 35,
+              "val_groups": [
+                20
+              ]
+            },
+            {
+              "train_n": 104,
+              "val_n": 24,
+              "val_groups": [
+                0,
+                5,
+                7,
+                12,
+                18,
+                24,
+                29,
+                36,
+                41,
+                46,
+                52,
+                57,
+                62,
+                68,
+                74,
+                79,
+                85,
+                90
+              ]
+            },
+            {
+              "train_n": 105,
+              "val_n": 23,
+              "val_groups": [
+                6,
+                11,
+                16,
+                23,
+                28,
+                34,
+                40,
+                45,
+                50,
+                56,
+                61,
+                66,
+                72,
+                73,
+                78,
+                83,
+                89,
+                94,
+                98,
+                102,
+                107,
+                111
+              ]
+            },
+            {
+              "train_n": 105,
+              "val_n": 23,
+              "val_groups": [
+                3,
+                10,
+                15,
+                21,
+                27,
+                32,
+                33,
+                38,
+                44,
+                49,
+                54,
+                60,
+                65,
+                70,
+                77,
+                82,
+                87,
+                93,
+                97,
+                101,
+                105,
+                110
+              ]
+            },
+            {
+              "train_n": 105,
+              "val_n": 23,
+              "val_groups": [
+                1,
+                8,
+                14,
+                19,
+                25,
+                31,
+                37,
+                42,
+                48,
+                53,
+                58,
+                64,
+                69,
+                75,
+                81,
+                86,
+                91,
+                95,
+                99,
+                104,
+                108,
+                113,
+                114
+              ]
+            }
+          ],
+          "tuning": {
+            "position_ridge": {
+              "alpha": 10.0,
+              "inner_pooled_rmse_by_alpha": {
+                "0.1": 1.0972647862508553,
+                "1.0": 0.7975843679467309,
+                "10.0": 0.7869638478538818,
+                "100.0": 0.9411708036198785
+              }
+            },
+            "facs_residual_ridge": {
+              "alpha": 10.0,
+              "inner_pooled_rmse_by_alpha": {
+                "0.1": 1.191588236240219,
+                "1.0": 0.8457454867009419,
+                "10.0": 0.8224846228467719,
+                "100.0": 0.9383204400763777
+              }
+            }
+          }
+        }
+      ],
+      "split_issue": null,
+      "metrics": {
+        "training_mean": {
+          "spearman": -0.2519373657510088,
+          "rmse": 0.9776237086802546,
+          "top_k": {
+            "better_than_best_wt": {
+              "5": {
+                "k": 5,
+                "precision": 0.0,
+                "enrichment": 0.0
+              },
+              "10": {
+                "k": 10,
+                "precision": 0.0,
+                "enrichment": 0.0
+              }
+            },
+            "at_or_better_than_weakest_wt": {
+              "5": {
+                "k": 5,
+                "precision": 0.0,
+                "enrichment": 0.0
+              },
+              "10": {
+                "k": 10,
+                "precision": 0.0,
+                "enrichment": 0.0
+              }
+            }
+          },
+          "intervals": {
+            "spearman": {
+              "95_percent": [
+                -0.41216507702544064,
+                0.15788089069175826
+              ],
+              "valid_draws": 2000
+            },
+            "rmse": {
+              "95_percent": [
+                0.7935237805603249,
+                1.101106482926431
+              ],
+              "valid_draws": 2000
+            },
+            "top_k_enrichment": {
+              "better_than_best_wt": {
+                "5": {
+                  "95_percent": [
+                    0.0,
+                    0.0
+                  ],
+                  "valid_draws": 1238
+                },
+                "10": {
+                  "95_percent": [
+                    0.0,
+                    0.0
+                  ],
+                  "valid_draws": 1238
+                }
+              },
+              "at_or_better_than_weakest_wt": {
+                "5": {
+                  "95_percent": [
+                    0.0,
+                    0.0
+                  ],
+                  "valid_draws": 1697
+                },
+                "10": {
+                  "95_percent": [
+                    0.0,
+                    0.0
+                  ],
+                  "valid_draws": 1697
+                }
+              }
+            }
+          }
+        },
+        "p_facs_high": {
+          "spearman": 0.3473306219682282,
+          "rmse": null,
+          "top_k": {
+            "better_than_best_wt": {
+              "5": {
+                "k": 5,
+                "precision": 0.0,
+                "enrichment": 0.0
+              },
+              "10": {
+                "k": 10,
+                "precision": 0.0,
+                "enrichment": 0.0
+              }
+            },
+            "at_or_better_than_weakest_wt": {
+              "5": {
+                "k": 5,
+                "precision": 0.2,
+                "enrichment": 7.9
+              },
+              "10": {
+                "k": 10,
+                "precision": 0.2,
+                "enrichment": 7.9
+              }
+            }
+          },
+          "intervals": {
+            "spearman": {
+              "95_percent": [
+                0.061105407426938034,
+                0.5038595666213204
+              ],
+              "valid_draws": 2000
+            },
+            "top_k_enrichment": {
+              "better_than_best_wt": {
+                "5": {
+                  "95_percent": [
+                    0.0,
+                    0.0
+                  ],
+                  "valid_draws": 1238
+                },
+                "10": {
+                  "95_percent": [
+                    0.0,
+                    0.0
+                  ],
+                  "valid_draws": 1238
+                }
+              },
+              "at_or_better_than_weakest_wt": {
+                "5": {
+                  "95_percent": [
+                    0.0,
+                    12.8
+                  ],
+                  "valid_draws": 1697
+                },
+                "10": {
+                  "95_percent": [
+                    0.0,
+                    10.906666666666663
+                  ],
+                  "valid_draws": 1697
+                }
+              }
+            }
+          }
+        },
+        "facs_scalar": {
+          "spearman": 0.016922401722040525,
+          "rmse": 0.9686535118674688,
+          "top_k": {
+            "better_than_best_wt": {
+              "5": {
+                "k": 5,
+                "precision": 0.0,
+                "enrichment": 0.0
+              },
+              "10": {
+                "k": 10,
+                "precision": 0.0,
+                "enrichment": 0.0
+              }
+            },
+            "at_or_better_than_weakest_wt": {
+              "5": {
+                "k": 5,
+                "precision": 0.0,
+                "enrichment": 0.0
+              },
+              "10": {
+                "k": 10,
+                "precision": 0.0,
+                "enrichment": 0.0
+              }
+            }
+          },
+          "intervals": {
+            "spearman": {
+              "95_percent": [
+                -0.11288011257950124,
+                0.2525127386895971
+              ],
+              "valid_draws": 2000
+            },
+            "rmse": {
+              "95_percent": [
+                0.8022359278923323,
+                1.0836176362769552
+              ],
+              "valid_draws": 2000
+            },
+            "top_k_enrichment": {
+              "better_than_best_wt": {
+                "5": {
+                  "95_percent": [
+                    0.0,
+                    0.0
+                  ],
+                  "valid_draws": 1238
+                },
+                "10": {
+                  "95_percent": [
+                    0.0,
+                    0.0
+                  ],
+                  "valid_draws": 1238
+                }
+              },
+              "at_or_better_than_weakest_wt": {
+                "5": {
+                  "95_percent": [
+                    0.0,
+                    0.0
+                  ],
+                  "valid_draws": 1697
+                },
+                "10": {
+                  "95_percent": [
+                    0.0,
+                    0.0
+                  ],
+                  "valid_draws": 1697
+                }
+              }
+            }
+          }
+        },
+        "position_ridge": {
+          "spearman": 0.6127403292354852,
+          "rmse": 0.7406030519189883,
+          "top_k": {
+            "better_than_best_wt": {
+              "5": {
+                "k": 5,
+                "precision": 0.2,
+                "enrichment": 31.6
+              },
+              "10": {
+                "k": 10,
+                "precision": 0.1,
+                "enrichment": 15.8
+              }
+            },
+            "at_or_better_than_weakest_wt": {
+              "5": {
+                "k": 5,
+                "precision": 0.2,
+                "enrichment": 7.9
+              },
+              "10": {
+                "k": 10,
+                "precision": 0.2,
+                "enrichment": 7.9
+              }
+            }
+          },
+          "intervals": {
+            "spearman": {
+              "95_percent": [
+                0.447920445087779,
+                0.7036567603721446
+              ],
+              "valid_draws": 2000
+            },
+            "rmse": {
+              "95_percent": [
+                0.6266600447609614,
+                0.8204969529542581
+              ],
+              "valid_draws": 2000
+            },
+            "top_k_enrichment": {
+              "better_than_best_wt": {
+                "5": {
+                  "95_percent": [
+                    23.200000000000003,
+                    46.21500000000001
+                  ],
+                  "valid_draws": 1238
+                },
+                "10": {
+                  "95_percent": [
+                    11.7,
+                    23.107500000000005
+                  ],
+                  "valid_draws": 1238
+                }
+              },
+              "at_or_better_than_weakest_wt": {
+                "5": {
+                  "95_percent": [
+                    0.0,
+                    26.8
+                  ],
+                  "valid_draws": 1697
+                },
+                "10": {
+                  "95_percent": [
+                    0.0,
+                    13.5
+                  ],
+                  "valid_draws": 1697
+                }
+              }
+            }
+          }
+        },
+        "facs_residual_ridge": {
+          "spearman": 0.5873962791915086,
+          "rmse": 0.7678869117360029,
+          "top_k": {
+            "better_than_best_wt": {
+              "5": {
+                "k": 5,
+                "precision": 0.2,
+                "enrichment": 31.6
+              },
+              "10": {
+                "k": 10,
+                "precision": 0.1,
+                "enrichment": 15.8
+              }
+            },
+            "at_or_better_than_weakest_wt": {
+              "5": {
+                "k": 5,
+                "precision": 0.2,
+                "enrichment": 7.9
+              },
+              "10": {
+                "k": 10,
+                "precision": 0.2,
+                "enrichment": 7.9
+              }
+            }
+          },
+          "intervals": {
+            "spearman": {
+              "95_percent": [
+                0.4160790779829074,
+                0.6913849748726324
+              ],
+              "valid_draws": 2000
+            },
+            "rmse": {
+              "95_percent": [
+                0.6625340161820125,
+                0.8452049829356425
+              ],
+              "valid_draws": 2000
+            },
+            "top_k_enrichment": {
+              "better_than_best_wt": {
+                "5": {
+                  "95_percent": [
+                    23.200000000000003,
+                    46.21500000000001
+                  ],
+                  "valid_draws": 1238
+                },
+                "10": {
+                  "95_percent": [
+                    11.7,
+                    23.107500000000005
+                  ],
+                  "valid_draws": 1238
+                }
+              },
+              "at_or_better_than_weakest_wt": {
+                "5": {
+                  "95_percent": [
+                    0.0,
+                    26.8
+                  ],
+                  "valid_draws": 1697
+                },
+                "10": {
+                  "95_percent": [
+                    5.033333333333333,
+                    13.5
+                  ],
+                  "valid_draws": 1697
+                }
+              }
+            }
+          }
+        }
+      },
+      "reference_label_counts": {
+        "better_than_best_wt": 1,
+        "at_or_better_than_weakest_wt": 4
+      },
+      "paired_spearman_deltas": {
+        "position_ridge minus p_facs_high": {
+          "spearman_delta": 0.26540970726725693,
+          "95_percent": [
+            0.1102953162018084,
+            0.5154219360469648
+          ],
+          "valid_draws": 2000
+        },
+        "facs_residual_ridge minus p_facs_high": {
+          "spearman_delta": 0.24006565722328038,
+          "95_percent": [
+            0.09320187714294556,
+            0.4708611635544803
+          ],
+          "valid_draws": 2000
+        },
+        "facs_residual_ridge minus facs_scalar": {
+          "spearman_delta": 0.5704738774694681,
+          "95_percent": [
+            0.24442231740056528,
+            0.7202198732375804
+          ],
+          "valid_draws": 2000
+        }
+      },
+      "without_largest_group": {
+        "excluded_group": 20,
+        "n": 123,
+        "spearman": {
+          "training_mean": 0.008302337359222887,
+          "p_facs_high": 0.197726367666456,
+          "facs_scalar": 0.12048864877484622,
+          "position_ridge": 0.5556485302034991,
+          "facs_residual_ridge": 0.5250668692020368
+        }
+      }
+    },
+    "Broader cohort with FACS overlaps": {
+      "n": 179,
+      "groups": 126,
+      "group_size_counts": {
+        "1": 121,
+        "2": 3,
+        "7": 1,
+        "45": 1
+      },
+      "facs_overlaps": {
+        "train": 14,
+        "val": 7,
+        "test": 6
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "train_n": 134,
+          "test_n": 45,
+          "train_groups": 125,
+          "test_groups": [
+            11
+          ],
+          "inner_folds": [
+            {
+              "train_n": 107,
+              "val_n": 27,
+              "val_groups": [
+                4,
+                5,
+                10,
+                16,
+                21,
+                26,
+                31,
+                37,
+                42,
+                47,
+                52,
+                57,
+                62,
+                67,
+                72,
+                77,
+                83,
+                88,
+                93,
+                98,
+                103
+              ]
+            },
+            {
+              "train_n": 107,
+              "val_n": 27,
+              "val_groups": [
+                3,
+                9,
+                15,
+                20,
+                25,
+                30,
+                36,
+                41,
+                46,
+                51,
+                56,
+                61,
+                66,
+                71,
+                76,
+                79,
+                82,
+                87,
+                92,
+                97,
+                102,
+                107,
+                111,
+                115,
+                119,
+                123
+              ]
+            },
+            {
+              "train_n": 107,
+              "val_n": 27,
+              "val_groups": [
+                1,
+                8,
+                14,
+                19,
+                24,
+                29,
+                34,
+                35,
+                40,
+                45,
+                50,
+                55,
+                60,
+                65,
+                70,
+                75,
+                81,
+                86,
+                91,
+                96,
+                101,
+                106,
+                110,
+                114,
+                118,
+                122
+              ]
+            },
+            {
+              "train_n": 107,
+              "val_n": 27,
+              "val_groups": [
+                0,
+                2,
+                7,
+                13,
+                18,
+                23,
+                28,
+                33,
+                39,
+                44,
+                49,
+                54,
+                59,
+                64,
+                69,
+                74,
+                80,
+                85,
+                90,
+                95,
+                100,
+                105,
+                109,
+                113,
+                117,
+                121
+              ]
+            },
+            {
+              "train_n": 108,
+              "val_n": 26,
+              "val_groups": [
+                6,
+                12,
+                17,
+                22,
+                27,
+                32,
+                38,
+                43,
+                48,
+                53,
+                58,
+                63,
+                68,
+                73,
+                78,
+                84,
+                89,
+                94,
+                99,
+                104,
+                108,
+                112,
+                116,
+                120,
+                124,
+                125
+              ]
+            }
+          ],
+          "tuning": {
+            "position_ridge": {
+              "alpha": 10.0,
+              "inner_pooled_rmse_by_alpha": {
+                "0.1": 1.0106139590419325,
+                "1.0": 0.8430863139106632,
+                "10.0": 0.7657956808395604,
+                "100.0": 0.8130911520329355
+              }
+            },
+            "facs_residual_ridge": {
+              "alpha": 10.0,
+              "inner_pooled_rmse_by_alpha": {
+                "0.1": 1.012371579153182,
+                "1.0": 0.8436017496443785,
+                "10.0": 0.7665300343909924,
+                "100.0": 0.8175311943438955
+              }
+            }
+          }
+        },
+        {
+          "fold": 2,
+          "train_n": 145,
+          "test_n": 34,
+          "train_groups": 98,
+          "test_groups": [
+            1,
+            5,
+            7,
+            12,
+            16,
+            20,
+            24,
+            28,
+            32,
+            37,
+            41,
+            45,
+            49,
+            53,
+            57,
+            61,
+            65,
+            69,
+            73,
+            77,
+            82,
+            86,
+            90,
+            94,
+            98,
+            102,
+            106,
+            110
+          ],
+          "inner_folds": [
+            {
+              "train_n": 100,
+              "val_n": 45,
+              "val_groups": [
+                11
+              ]
+            },
+            {
+              "train_n": 120,
+              "val_n": 25,
+              "val_groups": [
+                6,
+                13,
+                18,
+                23,
+                29,
+                35,
+                40,
+                46,
+                51,
+                56,
+                62,
+                67,
+                72,
+                78,
+                79,
+                84,
+                89,
+                95,
+                100,
+                105,
+                111,
+                115,
+                119,
+                123
+              ]
+            },
+            {
+              "train_n": 120,
+              "val_n": 25,
+              "val_groups": [
+                4,
+                10,
+                17,
+                22,
+                27,
+                33,
+                34,
+                39,
+                44,
+                50,
+                55,
+                60,
+                66,
+                71,
+                76,
+                83,
+                88,
+                93,
+                99,
+                104,
+                109,
+                114,
+                118,
+                122
+              ]
+            },
+            {
+              "train_n": 120,
+              "val_n": 25,
+              "val_groups": [
+                2,
+                3,
+                9,
+                15,
+                21,
+                26,
+                31,
+                38,
+                43,
+                48,
+                54,
+                59,
+                64,
+                70,
+                75,
+                81,
+                87,
+                92,
+                97,
+                103,
+                108,
+                113,
+                117,
+                121
+              ]
+            },
+            {
+              "train_n": 120,
+              "val_n": 25,
+              "val_groups": [
+                0,
+                8,
+                14,
+                19,
+                25,
+                30,
+                36,
+                42,
+                47,
+                52,
+                58,
+                63,
+                68,
+                74,
+                80,
+                85,
+                91,
+                96,
+                101,
+                107,
+                112,
+                116,
+                120,
+                124,
+                125
+              ]
+            }
+          ],
+          "tuning": {
+            "position_ridge": {
+              "alpha": 10.0,
+              "inner_pooled_rmse_by_alpha": {
+                "0.1": 1.3077744527982893,
+                "1.0": 0.9491881605206117,
+                "10.0": 0.8667395629205914,
+                "100.0": 1.015451859314679
+              }
+            },
+            "facs_residual_ridge": {
+              "alpha": 10.0,
+              "inner_pooled_rmse_by_alpha": {
+                "0.1": 1.2844327242867022,
+                "1.0": 0.946224498764319,
+                "10.0": 0.8777057129502319,
+                "100.0": 1.0227669271227096
+              }
+            }
+          }
+        },
+        {
+          "fold": 3,
+          "train_n": 145,
+          "test_n": 34,
+          "train_groups": 93,
+          "test_groups": [
+            0,
+            6,
+            10,
+            15,
+            19,
+            23,
+            27,
+            31,
+            36,
+            40,
+            44,
+            48,
+            52,
+            56,
+            60,
+            64,
+            68,
+            72,
+            76,
+            79,
+            81,
+            85,
+            89,
+            93,
+            97,
+            101,
+            105,
+            109,
+            113,
+            116,
+            119,
+            122,
+            125
+          ],
+          "inner_folds": [
+            {
+              "train_n": 100,
+              "val_n": 45,
+              "val_groups": [
+                11
+              ]
+            },
+            {
+              "train_n": 120,
+              "val_n": 25,
+              "val_groups": [
+                5,
+                7,
+                13,
+                18,
+                24,
+                29,
+                35,
+                41,
+                46,
+                51,
+                57,
+                62,
+                67,
+                73,
+                78,
+                84,
+                90,
+                95,
+                100
+              ]
+            },
+            {
+              "train_n": 120,
+              "val_n": 25,
+              "val_groups": [
+                4,
+                12,
+                17,
+                22,
+                28,
+                33,
+                34,
+                39,
+                45,
+                50,
+                55,
+                61,
+                66,
+                71,
+                77,
+                83,
+                88,
+                94,
+                99,
+                104,
+                108,
+                112,
+                117,
+                121
+              ]
+            },
+            {
+              "train_n": 120,
+              "val_n": 25,
+              "val_groups": [
+                2,
+                3,
+                9,
+                16,
+                21,
+                26,
+                32,
+                38,
+                43,
+                49,
+                54,
+                59,
+                65,
+                70,
+                75,
+                82,
+                87,
+                92,
+                98,
+                103,
+                107,
+                111,
+                115,
+                120
+              ]
+            },
+            {
+              "train_n": 120,
+              "val_n": 25,
+              "val_groups": [
+                1,
+                8,
+                14,
+                20,
+                25,
+                30,
+                37,
+                42,
+                47,
+                53,
+                58,
+                63,
+                69,
+                74,
+                80,
+                86,
+                91,
+                96,
+                102,
+                106,
+                110,
+                114,
+                118,
+                123,
+                124
+              ]
+            }
+          ],
+          "tuning": {
+            "position_ridge": {
+              "alpha": 10.0,
+              "inner_pooled_rmse_by_alpha": {
+                "0.1": 1.224407105447042,
+                "1.0": 0.8569213450852659,
+                "10.0": 0.7948929660008089,
+                "100.0": 0.9888724902686735
+              }
+            },
+            "facs_residual_ridge": {
+              "alpha": 10.0,
+              "inner_pooled_rmse_by_alpha": {
+                "0.1": 1.2644234819933233,
+                "1.0": 0.8799464413125332,
+                "10.0": 0.8118984642170471,
+                "100.0": 0.9993518454827708
+              }
+            }
+          }
+        },
+        {
+          "fold": 4,
+          "train_n": 146,
+          "test_n": 33,
+          "train_groups": 94,
+          "test_groups": [
+            4,
+            9,
+            14,
+            18,
+            22,
+            26,
+            30,
+            34,
+            35,
+            39,
+            43,
+            47,
+            51,
+            55,
+            59,
+            63,
+            67,
+            71,
+            75,
+            80,
+            84,
+            88,
+            92,
+            96,
+            100,
+            104,
+            108,
+            112,
+            115,
+            118,
+            121,
+            124
+          ],
+          "inner_folds": [
+            {
+              "train_n": 101,
+              "val_n": 45,
+              "val_groups": [
+                11
+              ]
+            },
+            {
+              "train_n": 120,
+              "val_n": 26,
+              "val_groups": [
+                0,
+                5,
+                7,
+                13,
+                19,
+                24,
+                29,
+                36,
+                41,
+                46,
+                52,
+                57,
+                62,
+                68,
+                73,
+                78,
+                85,
+                90,
+                95,
+                101
+              ]
+            },
+            {
+              "train_n": 121,
+              "val_n": 25,
+              "val_groups": [
+                6,
+                12,
+                17,
+                23,
+                28,
+                33,
+                40,
+                45,
+                50,
+                56,
+                61,
+                66,
+                72,
+                77,
+                79,
+                83,
+                89,
+                94,
+                99,
+                105,
+                109,
+                113,
+                117,
+                122
+              ]
+            },
+            {
+              "train_n": 121,
+              "val_n": 25,
+              "val_groups": [
+                2,
+                3,
+                10,
+                16,
+                21,
+                27,
+                32,
+                38,
+                44,
+                49,
+                54,
+                60,
+                65,
+                70,
+                76,
+                82,
+                87,
+                93,
+                98,
+                103,
+                107,
+                111,
+                116,
+                120
+              ]
+            },
+            {
+              "train_n": 121,
+              "val_n": 25,
+              "val_groups": [
+                1,
+                8,
+                15,
+                20,
+                25,
+                31,
+                37,
+                42,
+                48,
+                53,
+                58,
+                64,
+                69,
+                74,
+                81,
+                86,
+                91,
+                97,
+                102,
+                106,
+                110,
+                114,
+                119,
+                123,
+                125
+              ]
+            }
+          ],
+          "tuning": {
+            "position_ridge": {
+              "alpha": 10.0,
+              "inner_pooled_rmse_by_alpha": {
+                "0.1": 1.28071893539352,
+                "1.0": 0.9181818257037943,
+                "10.0": 0.8676316596518265,
+                "100.0": 1.0172824241243283
+              }
+            },
+            "facs_residual_ridge": {
+              "alpha": 10.0,
+              "inner_pooled_rmse_by_alpha": {
+                "0.1": 1.2908759883770484,
+                "1.0": 0.9192302394669901,
+                "10.0": 0.8758338186371833,
+                "100.0": 1.032233176479412
+              }
+            }
+          }
+        },
+        {
+          "fold": 5,
+          "train_n": 146,
+          "test_n": 33,
+          "train_groups": 94,
+          "test_groups": [
+            2,
+            3,
+            8,
+            13,
+            17,
+            21,
+            25,
+            29,
+            33,
+            38,
+            42,
+            46,
+            50,
+            54,
+            58,
+            62,
+            66,
+            70,
+            74,
+            78,
+            83,
+            87,
+            91,
+            95,
+            99,
+            103,
+            107,
+            111,
+            114,
+            117,
+            120,
+            123
+          ],
+          "inner_folds": [
+            {
+              "train_n": 101,
+              "val_n": 45,
+              "val_groups": [
+                11
+              ]
+            },
+            {
+              "train_n": 120,
+              "val_n": 26,
+              "val_groups": [
+                0,
+                5,
+                7,
+                14,
+                19,
+                24,
+                30,
+                36,
+                41,
+                47,
+                52,
+                57,
+                63,
+                68,
+                73,
+                80,
+                85,
+                90,
+                96,
+                101
+              ]
+            },
+            {
+              "train_n": 121,
+              "val_n": 25,
+              "val_groups": [
+                6,
+                12,
+                18,
+                23,
+                28,
+                35,
+                40,
+                45,
+                51,
+                56,
+                61,
+                67,
+                72,
+                77,
+                79,
+                84,
+                89,
+                94,
+                100,
+                105,
+                109,
+                113,
+                118,
+                122
+              ]
+            },
+            {
+              "train_n": 121,
+              "val_n": 25,
+              "val_groups": [
+                4,
+                10,
+                16,
+                22,
+                27,
+                32,
+                34,
+                39,
+                44,
+                49,
+                55,
+                60,
+                65,
+                71,
+                76,
+                82,
+                88,
+                93,
+                98,
+                104,
+                108,
+                112,
+                116,
+                121
+              ]
+            },
+            {
+              "train_n": 121,
+              "val_n": 25,
+              "val_groups": [
+                1,
+                9,
+                15,
+                20,
+                26,
+                31,
+                37,
+                43,
+                48,
+                53,
+                59,
+                64,
+                69,
+                75,
+                81,
+                86,
+                92,
+                97,
+                102,
+                106,
+                110,
+                115,
+                119,
+                124,
+                125
+              ]
+            }
+          ],
+          "tuning": {
+            "position_ridge": {
+              "alpha": 10.0,
+              "inner_pooled_rmse_by_alpha": {
+                "0.1": 1.0796753211358256,
+                "1.0": 0.8106855553265092,
+                "10.0": 0.8062303427047152,
+                "100.0": 0.9705052367298191
+              }
+            },
+            "facs_residual_ridge": {
+              "alpha": 10.0,
+              "inner_pooled_rmse_by_alpha": {
+                "0.1": 1.0892922080541556,
+                "1.0": 0.8427604257128403,
+                "10.0": 0.8385176433003706,
+                "100.0": 1.0059898820348492
+              }
+            }
+          }
+        }
+      ],
+      "split_issue": null,
+      "metrics": {
+        "training_mean": {
+          "spearman": -0.3319336223045204,
+          "rmse": 1.0618017158292326,
+          "top_k": {
+            "better_than_best_wt": {
+              "5": {
+                "k": 5,
+                "precision": 0.0,
+                "enrichment": 0.0
+              },
+              "10": {
+                "k": 10,
+                "precision": 0.0,
+                "enrichment": 0.0
+              }
+            },
+            "at_or_better_than_weakest_wt": {
+              "5": {
+                "k": 5,
+                "precision": 0.0,
+                "enrichment": 0.0
+              },
+              "10": {
+                "k": 10,
+                "precision": 0.0,
+                "enrichment": 0.0
+              }
+            }
+          },
+          "intervals": {
+            "spearman": {
+              "95_percent": [
+                -0.4459728975406302,
+                -0.027341973385480237
+              ],
+              "valid_draws": 2000
+            },
+            "rmse": {
+              "95_percent": [
+                0.8345665944140036,
+                1.22744369520044
+              ],
+              "valid_draws": 2000
+            },
+            "top_k_enrichment": {
+              "better_than_best_wt": {
+                "5": {
+                  "95_percent": [
+                    0.0,
+                    0.0
+                  ],
+                  "valid_draws": 1323
+                },
+                "10": {
+                  "95_percent": [
+                    0.0,
+                    0.0
+                  ],
+                  "valid_draws": 1323
+                }
+              },
+              "at_or_better_than_weakest_wt": {
+                "5": {
+                  "95_percent": [
+                    0.0,
+                    0.0
+                  ],
+                  "valid_draws": 1323
+                },
+                "10": {
+                  "95_percent": [
+                    0.0,
+                    0.0
+                  ],
+                  "valid_draws": 1323
+                }
+              }
+            }
+          }
+        },
+        "p_facs_high": {
+          "spearman": 0.2871532413068271,
+          "rmse": null,
+          "top_k": {
+            "better_than_best_wt": {
+              "5": {
+                "k": 5,
+                "precision": 0.0,
+                "enrichment": 0.0
+              },
+              "10": {
+                "k": 10,
+                "precision": 0.0,
+                "enrichment": 0.0
+              }
+            },
+            "at_or_better_than_weakest_wt": {
+              "5": {
+                "k": 5,
+                "precision": 0.2,
+                "enrichment": 5.114285714285715
+              },
+              "10": {
+                "k": 10,
+                "precision": 0.2,
+                "enrichment": 5.114285714285715
+              }
+            }
+          },
+          "intervals": {
+            "spearman": {
+              "95_percent": [
+                -0.045085927549025476,
+                0.457174816762344
+              ],
+              "valid_draws": 2000
+            },
+            "top_k_enrichment": {
+              "better_than_best_wt": {
+                "5": {
+                  "95_percent": [
+                    0.0,
+                    0.0
+                  ],
+                  "valid_draws": 1323
+                },
+                "10": {
+                  "95_percent": [
+                    0.0,
+                    0.0
+                  ],
+                  "valid_draws": 1323
+                }
+              },
+              "at_or_better_than_weakest_wt": {
+                "5": {
+                  "95_percent": [
+                    0.0,
+                    6.6571428571428575
+                  ],
+                  "valid_draws": 1323
+                },
+                "10": {
+                  "95_percent": [
+                    2.717857142857144,
+                    7.971428571428571
+                  ],
+                  "valid_draws": 1323
+                }
+              }
+            }
+          }
+        },
+        "facs_scalar": {
+          "spearman": -0.17732661542366027,
+          "rmse": 1.0697717230169255,
+          "top_k": {
+            "better_than_best_wt": {
+              "5": {
+                "k": 5,
+                "precision": 0.0,
+                "enrichment": 0.0
+              },
+              "10": {
+                "k": 10,
+                "precision": 0.0,
+                "enrichment": 0.0
+              }
+            },
+            "at_or_better_than_weakest_wt": {
+              "5": {
+                "k": 5,
+                "precision": 0.0,
+                "enrichment": 0.0
+              },
+              "10": {
+                "k": 10,
+                "precision": 0.0,
+                "enrichment": 0.0
+              }
+            }
+          },
+          "intervals": {
+            "spearman": {
+              "95_percent": [
+                -0.382069475903166,
+                0.1728038289748796
+              ],
+              "valid_draws": 2000
+            },
+            "rmse": {
+              "95_percent": [
+                0.8431649651203178,
+                1.234833041058889
+              ],
+              "valid_draws": 2000
+            },
+            "top_k_enrichment": {
+              "better_than_best_wt": {
+                "5": {
+                  "95_percent": [
+                    0.0,
+                    0.0
+                  ],
+                  "valid_draws": 1323
+                },
+                "10": {
+                  "95_percent": [
+                    0.0,
+                    0.0
+                  ],
+                  "valid_draws": 1323
+                }
+              },
+              "at_or_better_than_weakest_wt": {
+                "5": {
+                  "95_percent": [
+                    0.0,
+                    0.0
+                  ],
+                  "valid_draws": 1323
+                },
+                "10": {
+                  "95_percent": [
+                    0.0,
+                    0.0
+                  ],
+                  "valid_draws": 1323
+                }
+              }
+            }
+          }
+        },
+        "position_ridge": {
+          "spearman": 0.6821579073149789,
+          "rmse": 0.7896248194231753,
+          "top_k": {
+            "better_than_best_wt": {
+              "5": {
+                "k": 5,
+                "precision": 0.0,
+                "enrichment": 0.0
+              },
+              "10": {
+                "k": 10,
+                "precision": 0.0,
+                "enrichment": 0.0
+              }
+            },
+            "at_or_better_than_weakest_wt": {
+              "5": {
+                "k": 5,
+                "precision": 0.0,
+                "enrichment": 0.0
+              },
+              "10": {
+                "k": 10,
+                "precision": 0.1,
+                "enrichment": 2.5571428571428574
+              }
+            }
+          },
+          "intervals": {
+            "spearman": {
+              "95_percent": [
+                0.559336366823975,
+                0.7492477793000045
+              ],
+              "valid_draws": 2000
+            },
+            "rmse": {
+              "95_percent": [
+                0.6184243504694622,
+                0.9004185531456171
+              ],
+              "valid_draws": 2000
+            },
+            "top_k_enrichment": {
+              "better_than_best_wt": {
+                "5": {
+                  "95_percent": [
+                    0.0,
+                    0.0
+                  ],
+                  "valid_draws": 1323
+                },
+                "10": {
+                  "95_percent": [
+                    0.0,
+                    18.400000000000002
+                  ],
+                  "valid_draws": 1323
+                }
+              },
+              "at_or_better_than_weakest_wt": {
+                "5": {
+                  "95_percent": [
+                    0.0,
+                    6.371428571428572
+                  ],
+                  "valid_draws": 1323
+                },
+                "10": {
+                  "95_percent": [
+                    0.0,
+                    10.514285714285714
+                  ],
+                  "valid_draws": 1323
+                }
+              }
+            }
+          }
+        },
+        "facs_residual_ridge": {
+          "spearman": 0.671703359957909,
+          "rmse": 0.8038838869287204,
+          "top_k": {
+            "better_than_best_wt": {
+              "5": {
+                "k": 5,
+                "precision": 0.0,
+                "enrichment": 0.0
+              },
+              "10": {
+                "k": 10,
+                "precision": 0.1,
+                "enrichment": 17.900000000000002
+              }
+            },
+            "at_or_better_than_weakest_wt": {
+              "5": {
+                "k": 5,
+                "precision": 0.2,
+                "enrichment": 5.114285714285715
+              },
+              "10": {
+                "k": 10,
+                "precision": 0.4,
+                "enrichment": 10.22857142857143
+              }
+            }
+          },
+          "intervals": {
+            "spearman": {
+              "95_percent": [
+                0.5410608655192242,
+                0.7416700551840425
+              ],
+              "valid_draws": 2000
+            },
+            "rmse": {
+              "95_percent": [
+                0.6402303867463732,
+                0.9101922150757255
+              ],
+              "valid_draws": 2000
+            },
+            "top_k_enrichment": {
+              "better_than_best_wt": {
+                "5": {
+                  "95_percent": [
+                    0.0,
+                    0.0
+                  ],
+                  "valid_draws": 1323
+                },
+                "10": {
+                  "95_percent": [
+                    0.0,
+                    18.900000000000002
+                  ],
+                  "valid_draws": 1323
+                }
+              },
+              "at_or_better_than_weakest_wt": {
+                "5": {
+                  "95_percent": [
+                    0.0,
+                    10.737142857142864
+                  ],
+                  "valid_draws": 1323
+                },
+                "10": {
+                  "95_percent": [
+                    2.4864285714285717,
+                    10.85714285714286
+                  ],
+                  "valid_draws": 1323
+                }
+              }
+            }
+          }
+        }
+      },
+      "reference_label_counts": {
+        "better_than_best_wt": 1,
+        "at_or_better_than_weakest_wt": 7
+      },
+      "paired_spearman_deltas": {
+        "position_ridge minus p_facs_high": {
+          "spearman_delta": 0.3950046660081518,
+          "95_percent": [
+            0.23764246244242693,
+            0.6989211901355353
+          ],
+          "valid_draws": 2000
+        },
+        "facs_residual_ridge minus p_facs_high": {
+          "spearman_delta": 0.38455011865108185,
+          "95_percent": [
+            0.23141861503268746,
+            0.6781284585703511
+          ],
+          "valid_draws": 2000
+        },
+        "facs_residual_ridge minus facs_scalar": {
+          "spearman_delta": 0.8490299753815692,
+          "95_percent": [
+            0.4425489006948989,
+            1.0800400582590357
+          ],
+          "valid_draws": 2000
+        }
+      },
+      "without_largest_group": {
+        "excluded_group": 11,
+        "n": 134,
+        "spearman": {
+          "training_mean": -0.1515081878498527,
+          "p_facs_high": 0.078715081783702,
+          "facs_scalar": 0.03624026005831825,
+          "position_ridge": 0.6441723682138738,
+          "facs_residual_ridge": 0.6304538387216628
+        }
+      }
+    }
+  }
+}

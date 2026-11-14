@@ -1,0 +1,26 @@
+[
+  {
+    "template": "1N8Z",
+    "subset": "all_five",
+    "proxy_spearman": -0.7,
+    "count_spearman": -0.7
+  },
+  {
+    "template": "1N8Z",
+    "subset": "four_clear",
+    "proxy_spearman": -0.39999999999999997,
+    "count_spearman": -0.39999999999999997
+  },
+  {
+    "template": "4HKZ",
+    "subset": "all_five",
+    "proxy_spearman": -0.7999999999999999,
+    "count_spearman": -0.7
+  },
+  {
+    "template": "4HKZ",
+    "subset": "four_clear",
+    "proxy_spearman": -0.6000000000000001,
+    "count_spearman": -0.39999999999999997
+  }
+]

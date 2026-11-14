@@ -1,0 +1,104 @@
+{
+  "scope": "post_benchmark_diagnostic_no_tuning",
+  "subsets": {
+    "primary": {
+      "n": 158,
+      "groups": 115,
+      "spearman": {
+        "p_facs_high": 0.3473306219682282,
+        "position_ridge": 0.6127403292354852
+      },
+      "intervals": {
+        "p_facs_high": {
+          "spearman": {
+            "95_percent": [
+              0.061105407426938034,
+              0.5038595666213204
+            ],
+            "valid_draws": 2000
+          },
+          "top_k_enrichment": {}
+        },
+        "position_ridge": {
+          "spearman": {
+            "95_percent": [
+              0.447920445087779,
+              0.7036567603721446
+            ],
+            "valid_draws": 2000
+          },
+          "rmse": {
+            "95_percent": [
+              0.6266600447609614,
+              0.8204969529542581
+            ],
+            "valid_draws": 2000
+          },
+          "top_k_enrichment": {}
+        }
+      },
+      "paired_deltas": {
+        "position_ridge minus p_facs_high": {
+          "spearman_delta": 0.26540970726725693,
+          "95_percent": [
+            0.1102953162018084,
+            0.5154219360469648
+          ],
+          "valid_draws": 2000
+        }
+      }
+    },
+    "distance_at_least_3_to_both_training_sources": {
+      "n": 75,
+      "groups": 67,
+      "spearman": {
+        "p_facs_high": 0.19703123115220278,
+        "position_ridge": 0.42476013011369396
+      },
+      "intervals": {
+        "p_facs_high": {
+          "spearman": {
+            "95_percent": [
+              -0.03765665584452898,
+              0.4211554013970528
+            ],
+            "valid_draws": 2000
+          },
+          "top_k_enrichment": {}
+        },
+        "position_ridge": {
+          "spearman": {
+            "95_percent": [
+              0.2030945941283099,
+              0.6077952724339729
+            ],
+            "valid_draws": 2000
+          },
+          "rmse": {
+            "95_percent": [
+              0.5186793118762824,
+              0.7302675850185177
+            ],
+            "valid_draws": 2000
+          },
+          "top_k_enrichment": {}
+        }
+      },
+      "paired_deltas": {
+        "position_ridge minus p_facs_high": {
+          "spearman_delta": 0.22772889896149118,
+          "95_percent": [
+            -0.06374968013970869,
+            0.5122358654691903
+          ],
+          "valid_draws": 2000
+        }
+      }
+    }
+  },
+  "hashes": {
+    "results/spr-benchmark/oof_predictions.csv": "44dfc97781fb80652aa59bfb8226e3b71fc501053d12c1d6e66cf8ea1c180fbf",
+    "/tmp/her2-benchmark.NjMJ71m1/train.csv": "b639077ff116daa8b8c3a2122b6ed9291361892469f6237963967ca0772cb262",
+    "/tmp/her2-benchmark.NjMJ71m1/val.csv": "ea5e2e0908f018f579e476cef4452f9de11ba9144513bffa783588d49123f5d1"
+  }
+}

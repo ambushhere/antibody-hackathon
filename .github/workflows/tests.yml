@@ -13,5 +13,5 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python -m pip install numpy pandas scipy scikit-learn biotite pytest immunum==2.1.0 rapidfuzz
+      - run: python -m pip install numpy pandas scipy scikit-learn biopython biotite gemmi pytest immunum==2.1.0 rapidfuzz
       - run: PYTHONPATH=.:src pytest -q tests

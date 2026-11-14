@@ -1,0 +1,24 @@
+{
+  "source": "RCSB PDB Data API via MCP, 2026-11-14",
+  "url": "https://www.rcsb.org/structure/4NYL",
+  "entities": [
+    {
+      "rcsb_id": "4NYL_2",
+      "rcsb_polymer_entity": {
+        "pdbx_description": "Adalimumab Heavy Chain"
+      },
+      "entity_poly": {
+        "pdbx_seq_one_letter_code_can": "EVQLVESGGGLVQPGRSLRLSCAASGFTFDDYAMHWVRQAPGKGLEWVSAITWNSGHIDYADSVEGRFTISRDNAKNSLYLQMNSLRAEDTAVYYCAKVSYLSTASSLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCHHHHHH"
+      }
+    },
+    {
+      "rcsb_id": "4NYL_1",
+      "rcsb_polymer_entity": {
+        "pdbx_description": "Adalimumab Light Chain"
+      },
+      "entity_poly": {
+        "pdbx_seq_one_letter_code_can": "DIQMTQSPSSLSASVGDRVTITCRASQGIRNYLAWYQQKPGKAPKLLIYAASTLQSGVPSRFSGSGSGTDFTLTISSLQPEDVATYYCQRYNRAPYTFGQGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+      }
+    }
+  ]
+}

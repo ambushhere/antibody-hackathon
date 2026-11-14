@@ -1,0 +1,710 @@
+{
+  "retrieved_at_utc": "2026-11-14T12:40:58+00:00",
+  "biotite_version": "2.0.0",
+  "uniprot": {
+    "url": "https://rest.uniprot.org/uniprotkb/P04626.json",
+    "sha256": "f89f8eb0558dc1b6e6292f61d229e38bc3e2c77cf0e4d3a3b5d8862f3d02927c",
+    "accession": "P04626",
+    "sequence_version": 1,
+    "n_glycosylation_sites": [
+      68,
+      124,
+      187,
+      259,
+      530,
+      571,
+      629
+    ]
+  },
+  "geometry": {
+    "model": 1,
+    "cutoff_angstrom": 4.5,
+    "altloc": "first",
+    "protein_heavy_atoms_only": true
+  },
+  "structures": {
+    "1N8Z": {
+      "mmcif": {
+        "url": "https://files.rcsb.org/download/1N8Z.cif",
+        "sha256": "9f22f02b6e514de56dab8a48bc31a16302a51397779e64c398ad3a7f05cb19a2"
+      },
+      "legacy_bcif": {
+        "url": "https://models.rcsb.org/1N8Z.bcif",
+        "sha256": "646cd9aa7ce54402ebd1f8d3e4cd9fbac284c46538c7ad9cfe2dfb72da1b1cf9"
+      },
+      "pdbe_sifts": {
+        "url": "https://www.ebi.ac.uk/pdbe/api/mappings/uniprot/1n8z",
+        "sha256": "1c0faefdee8ef6e362f77ded342073b3bb48f529994e085ccef02891dec58b76",
+        "mappings": [
+          {
+            "entity_id": 3,
+            "chain_id": "C",
+            "struct_asym_id": "C",
+            "unp_start": 23,
+            "unp_end": 629,
+            "start": {
+              "author_residue_number": 1,
+              "author_insertion_code": "",
+              "residue_number": 1
+            },
+            "end": {
+              "author_residue_number": 607,
+              "author_insertion_code": "",
+              "residue_number": 607
+            },
+            "identity": 1.0,
+            "coverage": 0.492
+          }
+        ]
+      },
+      "rcsb_entities": {
+        "3": {
+          "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/1N8Z/3",
+          "sha256": "36dc973b1749f7581b8ea80fc34cca9c8017936e406790199a66d96005eeb94a",
+          "provenance_source": "SIFTS",
+          "reference_database_accession": "P04626",
+          "reference_database_name": "UniProt",
+          "aligned_regions": [
+            {
+              "entity_beg_seq_id": 1,
+              "length": 607,
+              "ref_beg_seq_id": 23
+            }
+          ]
+        }
+      }
+    },
+    "1S78": {
+      "mmcif": {
+        "url": "https://files.rcsb.org/download/1S78.cif",
+        "sha256": "468b0fa0d3368c1d8971d26e896a7ed8b938437dfa5eb55132ef24ef0033d9f0"
+      },
+      "legacy_bcif": {
+        "url": "https://models.rcsb.org/1S78.bcif",
+        "sha256": "e3fae778260ecee6e57ca6e71a08097b74fc09ffc01a1bf4cdf57a3f1ad673f9"
+      },
+      "pdbe_sifts": {
+        "url": "https://www.ebi.ac.uk/pdbe/api/mappings/uniprot/1s78",
+        "sha256": "432787490dd7e734fcde39efccd534ab8b99737202fb5037e667bdedd6142d76",
+        "mappings": [
+          {
+            "entity_id": 1,
+            "chain_id": "A",
+            "struct_asym_id": "A",
+            "unp_start": 23,
+            "unp_end": 646,
+            "start": {
+              "author_residue_number": 1,
+              "author_insertion_code": "",
+              "residue_number": 1
+            },
+            "end": {
+              "author_residue_number": null,
+              "author_insertion_code": "",
+              "residue_number": 624
+            },
+            "identity": 1.0,
+            "coverage": 0.506
+          },
+          {
+            "entity_id": 1,
+            "chain_id": "B",
+            "struct_asym_id": "B",
+            "unp_start": 23,
+            "unp_end": 646,
+            "start": {
+              "author_residue_number": 1,
+              "author_insertion_code": "",
+              "residue_number": 1
+            },
+            "end": {
+              "author_residue_number": null,
+              "author_insertion_code": "",
+              "residue_number": 624
+            },
+            "identity": 1.0,
+            "coverage": 0.506
+          }
+        ]
+      },
+      "rcsb_entities": {
+        "1": {
+          "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/1S78/1",
+          "sha256": "b64f864a2b0eac1a826a31a0b0d5e789fa9578cffeaefa8ea84518f7643b8341",
+          "provenance_source": "SIFTS",
+          "reference_database_accession": "P04626",
+          "reference_database_name": "UniProt",
+          "aligned_regions": [
+            {
+              "entity_beg_seq_id": 1,
+              "length": 624,
+              "ref_beg_seq_id": 23
+            }
+          ]
+        }
+      }
+    },
+    "6OGE": {
+      "mmcif": {
+        "url": "https://files.rcsb.org/download/6OGE.cif",
+        "sha256": "33a32b66e64aac934a7cfebfd78903027d3b4bf2a7f510e37c2ace4e4b52f18a"
+      },
+      "legacy_bcif": {
+        "url": "https://models.rcsb.org/6OGE.bcif",
+        "sha256": "a8b6c0da69ec100a34053ec84d53107be334e77c5ff16a676e4e4848318770f8"
+      },
+      "pdbe_sifts": {
+        "url": "https://www.ebi.ac.uk/pdbe/api/mappings/uniprot/6oge",
+        "sha256": "924d50756fc012c433e7b6589c5064c57bfc5778548d4ac38f8785a5cc74b5c9",
+        "mappings": [
+          {
+            "entity_id": 1,
+            "chain_id": "A",
+            "struct_asym_id": "A",
+            "unp_start": 23,
+            "unp_end": 644,
+            "start": {
+              "author_residue_number": 23,
+              "author_insertion_code": "",
+              "residue_number": 1
+            },
+            "end": {
+              "author_residue_number": 644,
+              "author_insertion_code": "",
+              "residue_number": 622
+            },
+            "identity": 1.0,
+            "coverage": 0.504
+          }
+        ]
+      },
+      "rcsb_entities": {
+        "1": {
+          "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/6OGE/1",
+          "sha256": "bc4d0ca618f20c3fae5b0131c391dc0b22ae0a1445a00fec206c9a2dec040095",
+          "provenance_source": "SIFTS",
+          "reference_database_accession": "P04626",
+          "reference_database_name": "UniProt",
+          "aligned_regions": [
+            {
+              "entity_beg_seq_id": 1,
+              "length": 622,
+              "ref_beg_seq_id": 23
+            }
+          ]
+        }
+      }
+    },
+    "5MY6": {
+      "mmcif": {
+        "url": "https://files.rcsb.org/download/5MY6.cif",
+        "sha256": "72e58c526797b0e56572f3905bdd0b2d7765028bb37dc6fb32f110cc35e615b6"
+      },
+      "legacy_bcif": {
+        "url": "https://models.rcsb.org/5MY6.bcif",
+        "sha256": "9e385e5e38f33ef62949ef0dfb4733c996deb14ec186ab3e8d0fcf16a29c0b5c"
+      },
+      "pdbe_sifts": {
+        "url": "https://www.ebi.ac.uk/pdbe/api/mappings/uniprot/5my6",
+        "sha256": "b10b0ad78635660614f235d93e4c9c7f4c80f179ebfbbf6bc49b9d509a9ad30d",
+        "mappings": [
+          {
+            "entity_id": 1,
+            "chain_id": "A",
+            "struct_asym_id": "A",
+            "unp_start": 24,
+            "unp_end": 645,
+            "start": {
+              "author_residue_number": 24,
+              "author_insertion_code": "",
+              "residue_number": 1
+            },
+            "end": {
+              "author_residue_number": null,
+              "author_insertion_code": "",
+              "residue_number": 622
+            },
+            "identity": 1.0,
+            "coverage": 0.504
+          }
+        ]
+      },
+      "rcsb_entities": {
+        "1": {
+          "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/5MY6/1",
+          "sha256": "dc4a38c00df51204e04c5b49f7d55273554febe8db21eb41b18eb9a5dd1a77f7",
+          "provenance_source": "SIFTS",
+          "reference_database_accession": "P04626",
+          "reference_database_name": "UniProt",
+          "aligned_regions": [
+            {
+              "entity_beg_seq_id": 1,
+              "length": 622,
+              "ref_beg_seq_id": 24
+            }
+          ]
+        }
+      }
+    },
+    "9MTE": {
+      "mmcif": {
+        "url": "https://files.rcsb.org/download/9MTE.cif",
+        "sha256": "1029af22e767567db148f50700377ff19bb525451133bd12efde880baab4e32a"
+      },
+      "legacy_bcif": {
+        "url": "https://models.rcsb.org/9MTE.bcif",
+        "sha256": "7811c7d3bb3f8753a1a732ec33a7b0e1edddf76c2c52a0411db4a96dbb0aa4be"
+      },
+      "pdbe_sifts": {
+        "url": "https://www.ebi.ac.uk/pdbe/api/mappings/uniprot/9mte",
+        "sha256": "a5f2008c02a6ebfe1b79e3891564c345a6a93c09d877aedf426e9daa97c6ea99",
+        "mappings": [
+          {
+            "entity_id": 3,
+            "chain_id": "C",
+            "struct_asym_id": "C",
+            "unp_start": 23,
+            "unp_end": 652,
+            "start": {
+              "author_residue_number": null,
+              "author_insertion_code": "",
+              "residue_number": 1
+            },
+            "end": {
+              "author_residue_number": null,
+              "author_insertion_code": "",
+              "residue_number": 630
+            },
+            "identity": 1.0,
+            "coverage": 0.511
+          }
+        ]
+      },
+      "rcsb_entities": {
+        "3": {
+          "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/9MTE/3",
+          "sha256": "2a44515193a8612d85702387b34db35ede74bca717ae8dac353d7088716fc636",
+          "provenance_source": "SIFTS",
+          "reference_database_accession": "P04626",
+          "reference_database_name": "UniProt",
+          "aligned_regions": [
+            {
+              "entity_beg_seq_id": 1,
+              "length": 630,
+              "ref_beg_seq_id": 23
+            }
+          ]
+        }
+      }
+    },
+    "9MTX": {
+      "mmcif": {
+        "url": "https://files.rcsb.org/download/9MTX.cif",
+        "sha256": "87f5a2168d7c36644fa9893a55891acd8877e28a3d5f5a9491cce8b90753f51e"
+      },
+      "legacy_bcif": {
+        "url": "https://models.rcsb.org/9MTX.bcif",
+        "sha256": "531e1264de82b5d0903f4d7d62002c2c83b203b9382e2e5f7046a67c8b19bbd9"
+      },
+      "pdbe_sifts": {
+        "url": "https://www.ebi.ac.uk/pdbe/api/mappings/uniprot/9mtx",
+        "sha256": "15a8f300aaec45eec5f3afea1199ca09a99cfd60b6800b4cb3e1852a434edff7",
+        "mappings": [
+          {
+            "entity_id": 2,
+            "chain_id": "B",
+            "struct_asym_id": "B",
+            "unp_start": 23,
+            "unp_end": 652,
+            "start": {
+              "author_residue_number": null,
+              "author_insertion_code": "",
+              "residue_number": 1
+            },
+            "end": {
+              "author_residue_number": null,
+              "author_insertion_code": "",
+              "residue_number": 630
+            },
+            "identity": 1.0,
+            "coverage": 0.511
+          }
+        ]
+      },
+      "rcsb_entities": {
+        "2": {
+          "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/9MTX/2",
+          "sha256": "aead95d69593c85f639ae6b4f663015de52dd997b9d8895901038c4a71d71cb1",
+          "provenance_source": "SIFTS",
+          "reference_database_accession": "P04626",
+          "reference_database_name": "UniProt",
+          "aligned_regions": [
+            {
+              "entity_beg_seq_id": 1,
+              "length": 630,
+              "ref_beg_seq_id": 23
+            }
+          ]
+        }
+      }
+    }
+  },
+  "cases": [
+    {
+      "pdb_id": "1N8Z",
+      "label": "трастузумаб (Fab)",
+      "antigen_author_chain": "C",
+      "antigen_label_chain": "C",
+      "antigen_entity_id": "3",
+      "antibody_author_chains": [
+        "A",
+        "B"
+      ],
+      "observed_author_to_canonical_offsets": [
+        22
+      ],
+      "author_contact_count": 19,
+      "mapped_contact_count": 19,
+      "canonical_contacts": [
+        579,
+        580,
+        582,
+        583,
+        591,
+        592,
+        593,
+        594,
+        595,
+        601,
+        613,
+        615,
+        618,
+        620,
+        622,
+        624,
+        625,
+        626,
+        627
+      ],
+      "legacy_bcif_label_contacts_match": true
+    },
+    {
+      "pdb_id": "1S78",
+      "label": "пертузумаб (Fab), копия 1",
+      "antigen_author_chain": "A",
+      "antigen_label_chain": "A",
+      "antigen_entity_id": "1",
+      "antibody_author_chains": [
+        "C",
+        "D"
+      ],
+      "observed_author_to_canonical_offsets": [
+        22
+      ],
+      "author_contact_count": 26,
+      "mapped_contact_count": 26,
+      "canonical_contacts": [
+        150,
+        178,
+        258,
+        267,
+        268,
+        270,
+        274,
+        276,
+        277,
+        278,
+        279,
+        290,
+        307,
+        308,
+        309,
+        310,
+        312,
+        314,
+        316,
+        317,
+        318,
+        319,
+        333,
+        335,
+        336,
+        337
+      ],
+      "legacy_bcif_label_contacts_match": true
+    },
+    {
+      "pdb_id": "1S78",
+      "label": "пертузумаб (Fab), копия 2",
+      "antigen_author_chain": "B",
+      "antigen_label_chain": "B",
+      "antigen_entity_id": "1",
+      "antibody_author_chains": [
+        "E",
+        "F"
+      ],
+      "observed_author_to_canonical_offsets": [
+        22
+      ],
+      "author_contact_count": 27,
+      "mapped_contact_count": 27,
+      "canonical_contacts": [
+        150,
+        178,
+        258,
+        267,
+        268,
+        270,
+        274,
+        276,
+        277,
+        278,
+        279,
+        290,
+        292,
+        307,
+        308,
+        309,
+        310,
+        312,
+        314,
+        316,
+        317,
+        318,
+        319,
+        333,
+        335,
+        336,
+        337
+      ],
+      "legacy_bcif_label_contacts_match": true
+    },
+    {
+      "pdb_id": "6OGE",
+      "label": "пертузумаб (крио-ЭМ)",
+      "antigen_author_chain": "A",
+      "antigen_label_chain": "A",
+      "antigen_entity_id": "1",
+      "antibody_author_chains": [
+        "B",
+        "C"
+      ],
+      "observed_author_to_canonical_offsets": [
+        0
+      ],
+      "author_contact_count": 25,
+      "mapped_contact_count": 25,
+      "canonical_contacts": [
+        150,
+        258,
+        267,
+        268,
+        274,
+        276,
+        277,
+        278,
+        279,
+        290,
+        306,
+        307,
+        308,
+        309,
+        310,
+        312,
+        314,
+        316,
+        317,
+        318,
+        319,
+        333,
+        335,
+        336,
+        337
+      ],
+      "legacy_bcif_label_contacts_match": true
+    },
+    {
+      "pdb_id": "6OGE",
+      "label": "трастузумаб (крио-ЭМ)",
+      "antigen_author_chain": "A",
+      "antigen_label_chain": "A",
+      "antigen_entity_id": "1",
+      "antibody_author_chains": [
+        "D",
+        "E"
+      ],
+      "observed_author_to_canonical_offsets": [
+        0
+      ],
+      "author_contact_count": 18,
+      "mapped_contact_count": 18,
+      "canonical_contacts": [
+        579,
+        580,
+        582,
+        583,
+        591,
+        592,
+        593,
+        594,
+        595,
+        607,
+        608,
+        610,
+        615,
+        618,
+        624,
+        625,
+        626,
+        627
+      ],
+      "legacy_bcif_label_contacts_match": true
+    },
+    {
+      "pdb_id": "5MY6",
+      "label": "нанотело против HER2",
+      "antigen_author_chain": "A",
+      "antigen_label_chain": "A",
+      "antigen_entity_id": "1",
+      "antibody_author_chains": [
+        "B"
+      ],
+      "observed_author_to_canonical_offsets": [
+        0
+      ],
+      "author_contact_count": 18,
+      "mapped_contact_count": 18,
+      "canonical_contacts": [
+        109,
+        110,
+        111,
+        112,
+        156,
+        157,
+        170,
+        173,
+        174,
+        175,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        217
+      ],
+      "legacy_bcif_label_contacts_match": true
+    },
+    {
+      "pdb_id": "9MTE",
+      "label": "нанотело 27A05",
+      "antigen_author_chain": "C",
+      "antigen_label_chain": "C",
+      "antigen_entity_id": "3",
+      "antibody_author_chains": [
+        "A"
+      ],
+      "observed_author_to_canonical_offsets": [
+        0
+      ],
+      "author_contact_count": 23,
+      "mapped_contact_count": 23,
+      "canonical_contacts": [
+        35,
+        37,
+        39,
+        40,
+        66,
+        67,
+        90,
+        378,
+        382,
+        413,
+        414,
+        417,
+        446,
+        447,
+        448,
+        449,
+        469,
+        470,
+        472,
+        473,
+        497,
+        498,
+        500
+      ],
+      "legacy_bcif_label_contacts_match": true
+    },
+    {
+      "pdb_id": "9MTE",
+      "label": "нанотело 47D05",
+      "antigen_author_chain": "C",
+      "antigen_label_chain": "C",
+      "antigen_entity_id": "3",
+      "antibody_author_chains": [
+        "B"
+      ],
+      "observed_author_to_canonical_offsets": [
+        0
+      ],
+      "author_contact_count": 14,
+      "mapped_contact_count": 14,
+      "canonical_contacts": [
+        105,
+        107,
+        110,
+        111,
+        149,
+        150,
+        174,
+        176,
+        177,
+        178,
+        179,
+        180,
+        256,
+        257
+      ],
+      "legacy_bcif_label_contacts_match": true
+    },
+    {
+      "pdb_id": "9MTX",
+      "label": "нанотело 29E09",
+      "antigen_author_chain": "B",
+      "antigen_label_chain": "B",
+      "antigen_entity_id": "2",
+      "antibody_author_chains": [
+        "A"
+      ],
+      "observed_author_to_canonical_offsets": [
+        0
+      ],
+      "author_contact_count": 19,
+      "mapped_contact_count": 19,
+      "canonical_contacts": [
+        35,
+        36,
+        37,
+        39,
+        40,
+        66,
+        67,
+        90,
+        378,
+        382,
+        413,
+        417,
+        446,
+        447,
+        470,
+        472,
+        473,
+        497,
+        498
+      ],
+      "legacy_bcif_label_contacts_match": true
+    }
+  ]
+}

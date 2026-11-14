@@ -1,0 +1,254 @@
+{
+  "queries": [
+    {
+      "query_id": "denovo_fullseq_pilot_0",
+      "chains": [
+        {
+          "chain_id": "C",
+          "sequence": "CHQLCARGHCWGPGPTQCVNCSQFLRGQECVEECRVLQGLPREYVNARHCLPCHPECQPQNGSVTCFGPEADQCVACAHYKDPPFCVARCPS",
+          "msa_path": null
+        },
+        {
+          "chain_id": "D",
+          "sequence": "IWKFPDEEGACQPCPIN",
+          "msa_path": null
+        },
+        {
+          "chain_id": "H",
+          "sequence": "QVQLVESGGGLVQPGRSLRLSCAASGFTFSSYVMHWVRQAPGKGLEWVASISTSGSTYYADSVKGRFTISRDNAKNTLYLQMNSLRSEDTAVYYCAKRKPFTRAMDYWGQGTLVTVSS",
+          "msa_path": null
+        },
+        {
+          "chain_id": "L",
+          "sequence": "DIVMTQTPSSLSASVGERVTITCRSSQSVSSSYSYLHWYQQKPGKAPKLLIYLASNLESGVPSRFSGSGSGTDFTLTISSLQPEDVATYYCQQSYSYSLYTFGQGTKVELS",
+          "msa_path": null
+        }
+      ]
+    },
+    {
+      "query_id": "denovo_fullseq_pilot_1",
+      "chains": [
+        {
+          "chain_id": "C",
+          "sequence": "CHQLCARGHCWGPGPTQCVNCSQFLRGQECVEECRVLQGLPREYVNARHCLPCHPECQPQNGSVTCFGPEADQCVACAHYKDPPFCVARCPS",
+          "msa_path": null
+        },
+        {
+          "chain_id": "D",
+          "sequence": "IWKFPDEEGACQPCPIN",
+          "msa_path": null
+        },
+        {
+          "chain_id": "H",
+          "sequence": "EVQLVESGGGLVQPGRSLRLSCAASGFSITSVYAMHWVRQAPGKGLEWVAKISSSSGSIYYADSVKGRFTISRDNAKNTLYLQMNSLKSEDTAVYYCARENYYYTSTSFTTAMDYWGQGTLVTVSS",
+          "msa_path": null
+        },
+        {
+          "chain_id": "L",
+          "sequence": "DLVMTQTPSSLSASVGERVTITCKSSQSVSSSSTYLNWYQQKPGKAPRLLIYAASNLQSGVPSRFSGSGSGTDFTLTISSLQPEDVATYYCQGWYYSSDYYSAFGQGTKVEIS",
+          "msa_path": null
+        }
+      ]
+    },
+    {
+      "query_id": "denovo_fullseq_pilot_2",
+      "chains": [
+        {
+          "chain_id": "C",
+          "sequence": "CHQLCARGHCWGPGPTQCVNCSQFLRGQECVEECRVLQGLPREYVNARHCLPCHPECQPQNGSVTCFGPEADQCVACAHYKDPPFCVARCPS",
+          "msa_path": null
+        },
+        {
+          "chain_id": "D",
+          "sequence": "IWKFPDEEGACQPCPIN",
+          "msa_path": null
+        },
+        {
+          "chain_id": "H",
+          "sequence": "QVQLVESGGGLVQPGRSLRLSCAVSGDSISSSSYAWHWVRQAPGKGLEWVAHIWYNGSTYYSDSVKGRFTISRDTSKNTVYLQMNSLKSEDTAVYYCARARAYPVTVSGHTVYVWAMDYWGQGTLVTVSS",
+          "msa_path": null
+        },
+        {
+          "chain_id": "L",
+          "sequence": "DVQMTQTPSSLSASVGQRVTITCRASQSISSSSALAWYQQKPGKAPKLLIYAASSLQSGVPSRFSGSGSGTDFTLTISSLQPEDVATYYCQQSWYYSSHSWTFGQGTKVEVS",
+          "msa_path": null
+        }
+      ]
+    },
+    {
+      "query_id": "denovo_fullseq_pilot_3",
+      "chains": [
+        {
+          "chain_id": "C",
+          "sequence": "CHQLCARGHCWGPGPTQCVNCSQFLRGQECVEECRVLQGLPREYVNARHCLPCHPECQPQNGSVTCFGPEADQCVACAHYKDPPFCVARCPS",
+          "msa_path": null
+        },
+        {
+          "chain_id": "D",
+          "sequence": "IWKFPDEEGACQPCPIN",
+          "msa_path": null
+        },
+        {
+          "chain_id": "H",
+          "sequence": "EVQLVESGGGLVQPGRSLRLSCAASGFSISSSYGMHWVRQAPGKGLEWVAVIRSGGSTYYSDSVKGRFTISRDNAKNTLYLQMNSLRPEDTAVYYCAKEKTYLDSSGNTVPLGAMDYWGQGTLVTVSS",
+          "msa_path": null
+        },
+        {
+          "chain_id": "L",
+          "sequence": "DVVMTQTPSSLSASVGQRVTISCRASGSSVSGYSAVAWYQQKPGKAPKLLIYSASSLESGVPSRFSGSGSGTDFTLTISSLQPEDFAVYYCQQYASSSLYTFGQGTKVEIS",
+          "msa_path": null
+        }
+      ]
+    },
+    {
+      "query_id": "denovo_fullseq_k1_0",
+      "chains": [
+        {
+          "chain_id": "C",
+          "sequence": "CHQLCARGHCWGPGPTQCVNCSQFLRGQECVEECRVLQGLPREYVNARHCLPCHPECQPQNGSVTCFGPEADQCVACAHYKDPPFCVARCPS",
+          "msa_path": null
+        },
+        {
+          "chain_id": "D",
+          "sequence": "IWKFPDEEGACQPCPIN",
+          "msa_path": null
+        },
+        {
+          "chain_id": "H",
+          "sequence": "QVHLVMSGGGFVQPGRSLRLSCASSGYTFSNYTMDWIRQAPGKGLEWVASISSGGDTYYASSTKGRFTISRDNAKNTLYLQMNSLRTEDTAVYYCARRGASSWAFDYWGQGTLVTVSS",
+          "msa_path": null
+        },
+        {
+          "chain_id": "L",
+          "sequence": "DILMTQSPSSLSASVGQRVSISCRSSKSLLSSKTYLHWYKQKPGQSPKLLIYLASQLHSGVPSRFSGSGRGTDFTLTISSLQPEDLAVYYCQQSHSASHYYFGGGTKVELS",
+          "msa_path": null
+        }
+      ]
+    },
+    {
+      "query_id": "denovo_fullseq_k1_1",
+      "chains": [
+        {
+          "chain_id": "C",
+          "sequence": "CHQLCARGHCWGPGPTQCVNCSQFLRGQECVEECRVLQGLPREYVNARHCLPCHPECQPQNGSVTCFGPEADQCVACAHYKDPPFCVARCPS",
+          "msa_path": null
+        },
+        {
+          "chain_id": "D",
+          "sequence": "IWKFPDEEGACQPCPIN",
+          "msa_path": null
+        },
+        {
+          "chain_id": "H",
+          "sequence": "QVQLVESGGGVVKPGDSLRLSCAASGFSIQSTNGMRWVRQTPGKGLEWVAYISSTSGSIYYAPGQRDRFTISTDNSKNSLYMQMRSLRAEDTAVYYCARDSYYYTGTGYTVAMDYWGQGTLVTVST",
+          "msa_path": null
+        },
+        {
+          "chain_id": "L",
+          "sequence": "DVVMTQTPTSLLAALGQRVSISCKSSQSVTYSTTYLHWYQQKPGQSPRLLIYAASSLQSGIPPRFSGSGSGTDFSLTISSLQPEDFATYYCQQRNYAGTFYDTFGQGTKVEIS",
+          "msa_path": null
+        }
+      ]
+    },
+    {
+      "query_id": "denovo_fullseq_k1_2",
+      "chains": [
+        {
+          "chain_id": "C",
+          "sequence": "CHQLCARGHCWGPGPTQCVNCSQFLRGQECVEECRVLQGLPREYVNARHCLPCHPECQPQNGSVTCFGPEADQCVACAHYKDPPFCVARCPS",
+          "msa_path": null
+        },
+        {
+          "chain_id": "D",
+          "sequence": "IWKFPDEEGACQPCPIN",
+          "msa_path": null
+        },
+        {
+          "chain_id": "H",
+          "sequence": "EVQLVESGGGVVEPGRSLRLSCAVSGESIASTYYAWSWVRQAPGKGLEWVAMIYYDDMKYYSDSIKGRFTISRDTSKNMLYLQMSTLKSEDTAVYYCARQTGFAYTWLGHTVYSYFFDYWGQGTPVVVSS",
+          "msa_path": null
+        },
+        {
+          "chain_id": "L",
+          "sequence": "DVVMSQKPFSLTVAVGQRATISCRSSQSISGAPALAWYQQKPGQAPRLLIYLGSHLASGVPSRFSGSGSGTDFVLTISSVQPEDVATYYCQQSARDYQGVFSFGQGTRVSLS",
+          "msa_path": null
+        }
+      ]
+    },
+    {
+      "query_id": "denovo_fullseq_k1_3",
+      "chains": [
+        {
+          "chain_id": "C",
+          "sequence": "CHQLCARGHCWGPGPTQCVNCSQFLRGQECVEECRVLQGLPREYVNARHCLPCHPECQPQNGSVTCFGPEADQCVACAHYKDPPFCVARCPS",
+          "msa_path": null
+        },
+        {
+          "chain_id": "D",
+          "sequence": "IWKFPDEEGACQPCPIN",
+          "msa_path": null
+        },
+        {
+          "chain_id": "H",
+          "sequence": "QVQLQMTGGGVVKPGESLRLTCAVSGPSISSVYYWNWVRQAPGKGLQWVAVISYTGTSYYNNSSNGRFTISRDTSLNKLFLQMNRLKPEDTAVYYCARCNSYKSVDGALYPLGGLDYWGQGTLVTVST",
+          "msa_path": null
+        },
+        {
+          "chain_id": "L",
+          "sequence": "DVVMSQTPGTLVATEGQRVAISCSASGEEIKSYSALAWYQQKSGKSPKLLIYSASLLQSGIPDRFAGSGSGRDFTLTISNLQEEDVATYYCQQYSTTAFRTFGQGTKVTVS",
+          "msa_path": null
+        }
+      ]
+    },
+    {
+      "query_id": "control_wt",
+      "chains": [
+        {
+          "chain_id": "C",
+          "sequence": "CHQLCARGHCWGPGPTQCVNCSQFLRGQECVEECRVLQGLPREYVNARHCLPCHPECQPQNGSVTCFGPEADQCVACAHYKDPPFCVARCPS",
+          "msa_path": null
+        },
+        {
+          "chain_id": "D",
+          "sequence": "IWKFPDEEGACQPCPIN",
+          "msa_path": null
+        },
+        {
+          "chain_id": "H",
+          "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGGDGFYAMDYWGQGTLVTVSS",
+          "msa_path": null
+        },
+        {
+          "chain_id": "L",
+          "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+          "msa_path": null
+        }
+      ]
+    },
+    {
+      "query_id": "control_facs_low",
+      "chains": [
+        {
+          "chain_id": "C",
+          "sequence": "CHQLCARGHCWGPGPTQCVNCSQFLRGQECVEECRVLQGLPREYVNARHCLPCHPECQPQNGSVTCFGPEADQCVACAHYKDPPFCVARCPS",
+          "msa_path": null
+        },
+        {
+          "chain_id": "D",
+          "sequence": "IWKFPDEEGACQPCPIN",
+          "msa_path": null
+        },
+        {
+          "chain_id": "H",
+          "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWSMFGHYMFAYWGQGTLVTVSS",
+          "msa_path": null
+        },
+        {
+          "chain_id": "L",
+          "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+          "msa_path": null
+        }
+      ]
+    }
+  ]
+}

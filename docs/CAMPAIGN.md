@@ -28,7 +28,7 @@ Use published remove_overlap clonotype train/validation/test splits. Audit seque
 
 SPR is an external assay check, not a synonym for FACS classes. Aggregate repeated sequences, exclude WT reference and unrelated antibody backgrounds and remove training/validation overlaps. Report association with -log10(KD nM) for quantified values only. Missing, inconclusive and unreported KD are distinct, not automatic negatives. Report measured WT range rather than selecting a convenient reference row. No blind test claim for pretrained HER2 generation weights whose training examples are not disclosed.
 
-The generic VHH negative set is an external stress test for the matching folding model, not a transferable calibrated binding probability for HER2 Fv. Compare negative confidence distributions by model and target. Never transfer AF3 thresholds to Protenix/OpenFold without validation.
+The supplied Champloo supplement does not establish the previously claimed 454 confirmed negatives or 21 high-confidence negative predictions. Its missing fits, expression failures and unavailable antigens are distinct outcomes. Row-level AF3 confidence exists for only three cognate pairs. See [the source audit](research/structural-negative-audit.md). No false-positive rate or calibrated HER2 threshold can be inferred from these tables. Never transfer AF3 thresholds to Protenix/OpenFold without validation.
 
 ## Structural checks
 
@@ -52,4 +52,4 @@ Save exact commands, seed, image digest, input hashes, model files, score source
 
 ## Current experiment status
 
-User requested experiments and explanation before any competition submission. No submission has been made. See BENCHMARK.md and results/experiment-20261114 for the observed results and limitations. Further generation is paused after the current bounded pilots while their evidence is interpreted.
+User requested experiments and explanation before any competition submission. No submission has been made. See BENCHMARK.md and results/experiment-20261114 for observed results and limitations. Current follow-ups test direct SPR supervision, sequence diversity in full-antibody generation, target-only-template refolding and published thermal controls. Each follow-up addresses a specific weakness before scaling generation.
