@@ -1,0 +1,1757 @@
+{
+  "status": "retrospective_method_development_on_already_viewed_data",
+  "target": "neg_log10_kd_nm",
+  "cohort": "Primary novelty cohort",
+  "spr_audit": {
+    "input_rows": 768,
+    "kd_state_by_binding_result": {
+      "inconclusive": {
+        "missing": 104,
+        "invalid": 0,
+        "finite_positive": 0
+      },
+      "no_reportable_kd": {
+        "missing": 460,
+        "invalid": 0,
+        "finite_positive": 0
+      },
+      "not_reported": {
+        "missing": 14,
+        "invalid": 0,
+        "finite_positive": 0
+      },
+      "quantified_binding": {
+        "missing": 0,
+        "invalid": 0,
+        "finite_positive": 190
+      }
+    },
+    "quantified_rows_with_finite_positive_kd": 190,
+    "excluded_other_background_rows": 0,
+    "excluded_wild_type_rows": 8,
+    "excluded_other_length_rows_by_length": {
+      "9": 3
+    },
+    "eligible_quantified_variant_rows": 179,
+    "eligible_unique_cdrh3": 179,
+    "replicate_rows_collapsed": 0,
+    "overlaps_by_facs_split": {
+      "train": 14,
+      "val": 7,
+      "test": 6
+    },
+    "wt_reference_kd_nm": [
+      0.02851802,
+      0.0378713,
+      0.07916459,
+      0.123,
+      0.146,
+      0.152,
+      0.165,
+      0.178
+    ]
+  },
+  "alpha_grid": [
+    0.1,
+    1.0,
+    10.0,
+    100.0
+  ],
+  "alpha_selection": "Pooled inner GroupKFold RMSE, ties prefer larger alpha",
+  "levenshtein_group_cutoff": 2,
+  "max_folds": 5,
+  "fit_membership": "Join groups to oof_predictions.csv. Inner training uses outer train_groups minus inner val_groups.",
+  "distant75_definition": "Frozen rows at Levenshtein distance >=3 from FACS train/val and the row's SPR outer training fold",
+  "bootstrap": {
+    "draws": 2000,
+    "seed": 0,
+    "method": "Within each subset, resample original groups with replacement, pair all models on each draw, no refits"
+  },
+  "models": {
+    "position_ridge": {
+      "feature_columns": 200,
+      "preprocessing": "Fixed sparse one-hot features and train-only intercept centering",
+      "solver": "Centered dual Gram matrix, positive-definite solve"
+    },
+    "position_pairwise_ridge": {
+      "feature_columns": 18200,
+      "preprocessing": "Fixed sparse one-hot features and train-only intercept centering",
+      "solver": "Centered dual Gram matrix, positive-definite solve"
+    },
+    "p_facs_high": {
+      "preprocessing": "Frozen FACS high probability from the original SPR OOF CSV",
+      "original_model_source": {
+        "source": "results/experiment-20261114/selected_model.json",
+        "sha256": "4067c8e66e703a4db828cec37086f3d157fcad38c172ab265f1aebffe9f3a487"
+      },
+      "solver": null
+    }
+  },
+  "replay": {
+    "tolerance": 1e-10,
+    "max_label_gap": 0.0,
+    "max_position_oof_gap": 2.886579864025407e-15,
+    "pooled_position_spearman": 0.6127403292354852,
+    "frozen_pooled_position_spearman": 0.6127403292354852
+  },
+  "folds": [
+    {
+      "fold": 1,
+      "train_n": 123,
+      "test_n": 35,
+      "train_groups": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114
+      ],
+      "test_groups": [
+        20
+      ],
+      "inner_folds": [
+        {
+          "train_n": 98,
+          "val_n": 25,
+          "val_groups": [
+            3,
+            5,
+            9,
+            14,
+            19,
+            25,
+            30,
+            36,
+            41,
+            46,
+            51,
+            56,
+            61,
+            66,
+            71,
+            77,
+            82,
+            87,
+            92
+          ]
+        },
+        {
+          "train_n": 98,
+          "val_n": 25,
+          "val_groups": [
+            1,
+            8,
+            13,
+            18,
+            24,
+            29,
+            35,
+            40,
+            45,
+            50,
+            55,
+            60,
+            65,
+            70,
+            73,
+            76,
+            81,
+            86,
+            91,
+            96,
+            100,
+            104,
+            108,
+            112
+          ]
+        },
+        {
+          "train_n": 98,
+          "val_n": 25,
+          "val_groups": [
+            0,
+            7,
+            12,
+            17,
+            23,
+            28,
+            32,
+            34,
+            39,
+            44,
+            49,
+            54,
+            59,
+            64,
+            69,
+            75,
+            80,
+            85,
+            90,
+            95,
+            99,
+            103,
+            107,
+            111
+          ]
+        },
+        {
+          "train_n": 99,
+          "val_n": 24,
+          "val_groups": [
+            2,
+            6,
+            11,
+            16,
+            22,
+            27,
+            33,
+            38,
+            43,
+            48,
+            53,
+            58,
+            63,
+            68,
+            74,
+            79,
+            84,
+            89,
+            94,
+            98,
+            102,
+            106,
+            110
+          ]
+        },
+        {
+          "train_n": 99,
+          "val_n": 24,
+          "val_groups": [
+            4,
+            10,
+            15,
+            21,
+            26,
+            31,
+            37,
+            42,
+            47,
+            52,
+            57,
+            62,
+            67,
+            72,
+            78,
+            83,
+            88,
+            93,
+            97,
+            101,
+            105,
+            109,
+            113,
+            114
+          ]
+        }
+      ],
+      "tuning": {
+        "position_ridge": {
+          "alpha": 10.0,
+          "inner_pooled_rmse_by_alpha": {
+            "0.1": 1.1253106365101773,
+            "1.0": 0.8993061347594552,
+            "10.0": 0.8084598199741679,
+            "100.0": 0.8400664083772624
+          }
+        },
+        "position_pairwise_ridge": {
+          "alpha": 10.0,
+          "inner_pooled_rmse_by_alpha": {
+            "0.1": 0.817161850050896,
+            "1.0": 0.8145999706784577,
+            "10.0": 0.802802696663828,
+            "100.0": 0.8054321291369709
+          }
+        }
+      },
+      "max_position_inner_rmse_gap": 6.439293542825908e-15,
+      "metrics": {
+        "position_ridge": {
+          "spearman": 0.7336134453781513,
+          "rmse": 0.862612225434931
+        },
+        "position_pairwise_ridge": {
+          "spearman": 0.7854341736694679,
+          "rmse": 0.7102078381980885
+        },
+        "p_facs_high": {
+          "spearman": 0.4563025210084034,
+          "rmse": null
+        }
+      }
+    },
+    {
+      "fold": 2,
+      "train_n": 127,
+      "test_n": 31,
+      "train_groups": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        7,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        20,
+        22,
+        23,
+        24,
+        26,
+        27,
+        28,
+        30,
+        31,
+        32,
+        33,
+        35,
+        36,
+        37,
+        39,
+        40,
+        41,
+        43,
+        44,
+        45,
+        47,
+        48,
+        49,
+        51,
+        52,
+        53,
+        55,
+        56,
+        57,
+        59,
+        60,
+        61,
+        63,
+        64,
+        65,
+        67,
+        68,
+        69,
+        71,
+        72,
+        73,
+        74,
+        76,
+        77,
+        78,
+        80,
+        81,
+        82,
+        84,
+        85,
+        86,
+        88,
+        89,
+        90,
+        92,
+        93,
+        94,
+        96,
+        97,
+        98,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114
+      ],
+      "test_groups": [
+        3,
+        5,
+        8,
+        12,
+        16,
+        21,
+        25,
+        29,
+        34,
+        38,
+        42,
+        46,
+        50,
+        54,
+        58,
+        62,
+        66,
+        70,
+        75,
+        79,
+        83,
+        87,
+        91,
+        95,
+        99
+      ],
+      "inner_folds": [
+        {
+          "train_n": 92,
+          "val_n": 35,
+          "val_groups": [
+            20
+          ]
+        },
+        {
+          "train_n": 104,
+          "val_n": 23,
+          "val_groups": [
+            6,
+            11,
+            17,
+            23,
+            28,
+            35,
+            40,
+            45,
+            51,
+            56,
+            61,
+            67,
+            72,
+            73,
+            78,
+            84,
+            89,
+            94,
+            100,
+            104,
+            108,
+            112
+          ]
+        },
+        {
+          "train_n": 104,
+          "val_n": 23,
+          "val_groups": [
+            4,
+            10,
+            15,
+            22,
+            27,
+            32,
+            33,
+            39,
+            44,
+            49,
+            55,
+            60,
+            65,
+            71,
+            77,
+            82,
+            88,
+            93,
+            98,
+            103,
+            107,
+            111
+          ]
+        },
+        {
+          "train_n": 104,
+          "val_n": 23,
+          "val_groups": [
+            1,
+            2,
+            9,
+            14,
+            19,
+            26,
+            31,
+            37,
+            43,
+            48,
+            53,
+            59,
+            64,
+            69,
+            76,
+            81,
+            86,
+            92,
+            97,
+            102,
+            106,
+            110
+          ]
+        },
+        {
+          "train_n": 104,
+          "val_n": 23,
+          "val_groups": [
+            0,
+            7,
+            13,
+            18,
+            24,
+            30,
+            36,
+            41,
+            47,
+            52,
+            57,
+            63,
+            68,
+            74,
+            80,
+            85,
+            90,
+            96,
+            101,
+            105,
+            109,
+            113,
+            114
+          ]
+        }
+      ],
+      "tuning": {
+        "position_ridge": {
+          "alpha": 10.0,
+          "inner_pooled_rmse_by_alpha": {
+            "0.1": 1.1617808662059879,
+            "1.0": 0.8449197161154685,
+            "10.0": 0.7811654275561656,
+            "100.0": 0.9098659803887496
+          }
+        },
+        "position_pairwise_ridge": {
+          "alpha": 1.0,
+          "inner_pooled_rmse_by_alpha": {
+            "0.1": 0.7088053237776332,
+            "1.0": 0.7070014487341246,
+            "10.0": 0.7132677333814781,
+            "100.0": 0.8037843313420312
+          }
+        }
+      },
+      "max_position_inner_rmse_gap": 4.218847493575595e-15,
+      "metrics": {
+        "position_ridge": {
+          "spearman": 0.715999600372248,
+          "rmse": 0.7016402930049126
+        },
+        "position_pairwise_ridge": {
+          "spearman": 0.6379675402922537,
+          "rmse": 0.6650831670187386
+        },
+        "p_facs_high": {
+          "spearman": -0.0627079345862487,
+          "rmse": null
+        }
+      }
+    },
+    {
+      "fold": 3,
+      "train_n": 127,
+      "test_n": 31,
+      "train_groups": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14,
+        16,
+        17,
+        18,
+        20,
+        21,
+        22,
+        23,
+        25,
+        26,
+        27,
+        29,
+        30,
+        31,
+        32,
+        34,
+        35,
+        36,
+        38,
+        39,
+        40,
+        42,
+        43,
+        44,
+        46,
+        47,
+        48,
+        50,
+        51,
+        52,
+        54,
+        55,
+        56,
+        58,
+        59,
+        60,
+        62,
+        63,
+        64,
+        66,
+        67,
+        68,
+        70,
+        71,
+        72,
+        75,
+        76,
+        77,
+        79,
+        80,
+        81,
+        83,
+        84,
+        85,
+        87,
+        88,
+        89,
+        91,
+        92,
+        93,
+        95,
+        96,
+        97,
+        99,
+        100,
+        101,
+        103,
+        104,
+        106,
+        107,
+        109,
+        110,
+        112,
+        113
+      ],
+      "test_groups": [
+        1,
+        7,
+        11,
+        15,
+        19,
+        24,
+        28,
+        33,
+        37,
+        41,
+        45,
+        49,
+        53,
+        57,
+        61,
+        65,
+        69,
+        73,
+        74,
+        78,
+        82,
+        86,
+        90,
+        94,
+        98,
+        102,
+        105,
+        108,
+        111,
+        114
+      ],
+      "inner_folds": [
+        {
+          "train_n": 92,
+          "val_n": 35,
+          "val_groups": [
+            20
+          ]
+        },
+        {
+          "train_n": 104,
+          "val_n": 23,
+          "val_groups": [
+            5,
+            6,
+            12,
+            17,
+            23,
+            29,
+            35,
+            40,
+            46,
+            51,
+            56,
+            62,
+            67,
+            72,
+            79,
+            84,
+            89
+          ]
+        },
+        {
+          "train_n": 104,
+          "val_n": 23,
+          "val_groups": [
+            4,
+            10,
+            16,
+            22,
+            27,
+            32,
+            34,
+            39,
+            44,
+            50,
+            55,
+            60,
+            66,
+            71,
+            77,
+            83,
+            88,
+            93,
+            97,
+            101,
+            106,
+            110
+          ]
+        },
+        {
+          "train_n": 104,
+          "val_n": 23,
+          "val_groups": [
+            2,
+            3,
+            9,
+            14,
+            21,
+            26,
+            31,
+            38,
+            43,
+            48,
+            54,
+            59,
+            64,
+            70,
+            76,
+            81,
+            87,
+            92,
+            96,
+            100,
+            104,
+            109
+          ]
+        },
+        {
+          "train_n": 104,
+          "val_n": 23,
+          "val_groups": [
+            0,
+            8,
+            13,
+            18,
+            25,
+            30,
+            36,
+            42,
+            47,
+            52,
+            58,
+            63,
+            68,
+            75,
+            80,
+            85,
+            91,
+            95,
+            99,
+            103,
+            107,
+            112,
+            113
+          ]
+        }
+      ],
+      "tuning": {
+        "position_ridge": {
+          "alpha": 10.0,
+          "inner_pooled_rmse_by_alpha": {
+            "0.1": 1.0103995346187682,
+            "1.0": 0.805870763158157,
+            "10.0": 0.7942907746881934,
+            "100.0": 0.9582222407964424
+          }
+        },
+        "position_pairwise_ridge": {
+          "alpha": 1.0,
+          "inner_pooled_rmse_by_alpha": {
+            "0.1": 0.7173832368798688,
+            "1.0": 0.7141553692186716,
+            "10.0": 0.7186093957750993,
+            "100.0": 0.8265354776829428
+          }
+        }
+      },
+      "max_position_inner_rmse_gap": 1.5543122344752192e-15,
+      "metrics": {
+        "position_ridge": {
+          "spearman": 0.42500000000000004,
+          "rmse": 0.5885600941605492
+        },
+        "position_pairwise_ridge": {
+          "spearman": 0.47620967741935494,
+          "rmse": 0.6177309171545116
+        },
+        "p_facs_high": {
+          "spearman": 0.11411290322580646,
+          "rmse": null
+        }
+      }
+    },
+    {
+      "fold": 4,
+      "train_n": 127,
+      "test_n": 31,
+      "train_groups": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        15,
+        16,
+        17,
+        19,
+        20,
+        21,
+        22,
+        24,
+        25,
+        26,
+        28,
+        29,
+        30,
+        33,
+        34,
+        35,
+        37,
+        38,
+        39,
+        41,
+        42,
+        43,
+        45,
+        46,
+        47,
+        49,
+        50,
+        51,
+        53,
+        54,
+        55,
+        57,
+        58,
+        59,
+        61,
+        62,
+        63,
+        65,
+        66,
+        67,
+        69,
+        70,
+        71,
+        73,
+        74,
+        75,
+        76,
+        78,
+        79,
+        80,
+        82,
+        83,
+        84,
+        86,
+        87,
+        88,
+        90,
+        91,
+        92,
+        94,
+        95,
+        96,
+        98,
+        99,
+        100,
+        102,
+        103,
+        105,
+        106,
+        108,
+        109,
+        111,
+        112,
+        114
+      ],
+      "test_groups": [
+        0,
+        6,
+        10,
+        14,
+        18,
+        23,
+        27,
+        31,
+        32,
+        36,
+        40,
+        44,
+        48,
+        52,
+        56,
+        60,
+        64,
+        68,
+        72,
+        77,
+        81,
+        85,
+        89,
+        93,
+        97,
+        101,
+        104,
+        107,
+        110,
+        113
+      ],
+      "inner_folds": [
+        {
+          "train_n": 92,
+          "val_n": 35,
+          "val_groups": [
+            20
+          ]
+        },
+        {
+          "train_n": 104,
+          "val_n": 23,
+          "val_groups": [
+            5,
+            7,
+            12,
+            17,
+            24,
+            29,
+            35,
+            41,
+            46,
+            51,
+            57,
+            62,
+            67,
+            74,
+            79,
+            84,
+            90
+          ]
+        },
+        {
+          "train_n": 104,
+          "val_n": 23,
+          "val_groups": [
+            4,
+            11,
+            16,
+            22,
+            28,
+            34,
+            39,
+            45,
+            50,
+            55,
+            61,
+            66,
+            71,
+            73,
+            78,
+            83,
+            88,
+            94,
+            98,
+            102,
+            106,
+            111
+          ]
+        },
+        {
+          "train_n": 104,
+          "val_n": 23,
+          "val_groups": [
+            2,
+            3,
+            9,
+            15,
+            21,
+            26,
+            33,
+            38,
+            43,
+            49,
+            54,
+            59,
+            65,
+            70,
+            76,
+            82,
+            87,
+            92,
+            96,
+            100,
+            105,
+            109
+          ]
+        },
+        {
+          "train_n": 104,
+          "val_n": 23,
+          "val_groups": [
+            1,
+            8,
+            13,
+            19,
+            25,
+            30,
+            37,
+            42,
+            47,
+            53,
+            58,
+            63,
+            69,
+            75,
+            80,
+            86,
+            91,
+            95,
+            99,
+            103,
+            108,
+            112,
+            114
+          ]
+        }
+      ],
+      "tuning": {
+        "position_ridge": {
+          "alpha": 1.0,
+          "inner_pooled_rmse_by_alpha": {
+            "0.1": 0.8848221891198764,
+            "1.0": 0.7161661144479103,
+            "10.0": 0.7587614217549841,
+            "100.0": 0.8584821409873296
+          }
+        },
+        "position_pairwise_ridge": {
+          "alpha": 1.0,
+          "inner_pooled_rmse_by_alpha": {
+            "0.1": 0.7141627720180218,
+            "1.0": 0.7107753627779919,
+            "10.0": 0.7132665275622909,
+            "100.0": 0.7837370918753999
+          }
+        }
+      },
+      "max_position_inner_rmse_gap": 5.440092820663267e-15,
+      "metrics": {
+        "position_ridge": {
+          "spearman": 0.6298387096774194,
+          "rmse": 0.9274348999472567
+        },
+        "position_pairwise_ridge": {
+          "spearman": 0.6665322580645162,
+          "rmse": 0.8321041107108953
+        },
+        "p_facs_high": {
+          "spearman": 0.4669354838709678,
+          "rmse": null
+        }
+      }
+    },
+    {
+      "fold": 5,
+      "train_n": 128,
+      "test_n": 30,
+      "train_groups": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        14,
+        15,
+        16,
+        18,
+        19,
+        20,
+        21,
+        23,
+        24,
+        25,
+        27,
+        28,
+        29,
+        31,
+        32,
+        33,
+        34,
+        36,
+        37,
+        38,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        48,
+        49,
+        50,
+        52,
+        53,
+        54,
+        56,
+        57,
+        58,
+        60,
+        61,
+        62,
+        64,
+        65,
+        66,
+        68,
+        69,
+        70,
+        72,
+        73,
+        74,
+        75,
+        77,
+        78,
+        79,
+        81,
+        82,
+        83,
+        85,
+        86,
+        87,
+        89,
+        90,
+        91,
+        93,
+        94,
+        95,
+        97,
+        98,
+        99,
+        101,
+        102,
+        104,
+        105,
+        107,
+        108,
+        110,
+        111,
+        113,
+        114
+      ],
+      "test_groups": [
+        2,
+        4,
+        9,
+        13,
+        17,
+        22,
+        26,
+        30,
+        35,
+        39,
+        43,
+        47,
+        51,
+        55,
+        59,
+        63,
+        67,
+        71,
+        76,
+        80,
+        84,
+        88,
+        92,
+        96,
+        100,
+        103,
+        106,
+        109,
+        112
+      ],
+      "inner_folds": [
+        {
+          "train_n": 93,
+          "val_n": 35,
+          "val_groups": [
+            20
+          ]
+        },
+        {
+          "train_n": 104,
+          "val_n": 24,
+          "val_groups": [
+            0,
+            5,
+            7,
+            12,
+            18,
+            24,
+            29,
+            36,
+            41,
+            46,
+            52,
+            57,
+            62,
+            68,
+            74,
+            79,
+            85,
+            90
+          ]
+        },
+        {
+          "train_n": 105,
+          "val_n": 23,
+          "val_groups": [
+            6,
+            11,
+            16,
+            23,
+            28,
+            34,
+            40,
+            45,
+            50,
+            56,
+            61,
+            66,
+            72,
+            73,
+            78,
+            83,
+            89,
+            94,
+            98,
+            102,
+            107,
+            111
+          ]
+        },
+        {
+          "train_n": 105,
+          "val_n": 23,
+          "val_groups": [
+            3,
+            10,
+            15,
+            21,
+            27,
+            32,
+            33,
+            38,
+            44,
+            49,
+            54,
+            60,
+            65,
+            70,
+            77,
+            82,
+            87,
+            93,
+            97,
+            101,
+            105,
+            110
+          ]
+        },
+        {
+          "train_n": 105,
+          "val_n": 23,
+          "val_groups": [
+            1,
+            8,
+            14,
+            19,
+            25,
+            31,
+            37,
+            42,
+            48,
+            53,
+            58,
+            64,
+            69,
+            75,
+            81,
+            86,
+            91,
+            95,
+            99,
+            104,
+            108,
+            113,
+            114
+          ]
+        }
+      ],
+      "tuning": {
+        "position_ridge": {
+          "alpha": 10.0,
+          "inner_pooled_rmse_by_alpha": {
+            "0.1": 1.0972647862508602,
+            "1.0": 0.7975843679467307,
+            "10.0": 0.7869638478538818,
+            "100.0": 0.9411708036198785
+          }
+        },
+        "position_pairwise_ridge": {
+          "alpha": 0.1,
+          "inner_pooled_rmse_by_alpha": {
+            "0.1": 0.6912567624741195,
+            "1.0": 0.6929237206687289,
+            "10.0": 0.7126384113269411,
+            "100.0": 0.8195561131936645
+          }
+        }
+      },
+      "max_position_inner_rmse_gap": 4.884981308350689e-15,
+      "metrics": {
+        "position_ridge": {
+          "spearman": 0.5305895439377085,
+          "rmse": 0.5149244402553297
+        },
+        "position_pairwise_ridge": {
+          "spearman": 0.4629588431590656,
+          "rmse": 0.5741911376895972
+        },
+        "p_facs_high": {
+          "spearman": 0.17152391546162402,
+          "rmse": null
+        }
+      }
+    }
+  ],
+  "subsets": {
+    "pooled": {
+      "n": 158,
+      "groups": 115,
+      "metrics": {
+        "position_ridge": {
+          "spearman": {
+            "estimate": 0.6127403292354852,
+            "95_percent": [
+              0.447920445087779,
+              0.7036567603721446
+            ],
+            "valid_draws": 2000
+          },
+          "rmse": {
+            "estimate": 0.7406030519189885,
+            "95_percent": [
+              0.6266600447609615,
+              0.8204969529542581
+            ],
+            "valid_draws": 2000
+          }
+        },
+        "position_pairwise_ridge": {
+          "spearman": {
+            "estimate": 0.6484714845435837,
+            "95_percent": [
+              0.4648307102752571,
+              0.7472513256703744
+            ],
+            "valid_draws": 2000
+          },
+          "rmse": {
+            "estimate": 0.6869062452754807,
+            "95_percent": [
+              0.6024016581298935,
+              0.7689748295679832
+            ],
+            "valid_draws": 2000
+          }
+        },
+        "p_facs_high": {
+          "spearman": {
+            "estimate": 0.3473306219682282,
+            "95_percent": [
+              0.061105407426938034,
+              0.5038595666213204
+            ],
+            "valid_draws": 2000
+          },
+          "rmse": {
+            "estimate": null,
+            "95_percent": null,
+            "valid_draws": 0
+          }
+        }
+      },
+      "paired_differences": {
+        "position_pairwise_ridge minus position_ridge": {
+          "spearman": {
+            "estimate": 0.03573115530809856,
+            "95_percent": [
+              -0.04218612503064733,
+              0.09011897090375284
+            ],
+            "valid_draws": 2000
+          },
+          "rmse": {
+            "estimate": -0.05369680664350773,
+            "95_percent": [
+              -0.10023122026362201,
+              0.01656728419829677
+            ],
+            "valid_draws": 2000
+          }
+        },
+        "position_pairwise_ridge minus p_facs_high": {
+          "spearman": {
+            "estimate": 0.3011408625753555,
+            "95_percent": [
+              0.15926135864862737,
+              0.5295918332124998
+            ],
+            "valid_draws": 2000
+          },
+          "rmse": {
+            "estimate": null,
+            "95_percent": null,
+            "valid_draws": 0
+          }
+        }
+      }
+    },
+    "distant75": {
+      "n": 75,
+      "groups": 67,
+      "metrics": {
+        "position_ridge": {
+          "spearman": {
+            "estimate": 0.42476013011369396,
+            "95_percent": [
+              0.2030945941283099,
+              0.6077952724339729
+            ],
+            "valid_draws": 2000
+          },
+          "rmse": {
+            "estimate": 0.6248928511343438,
+            "95_percent": [
+              0.5186793118762824,
+              0.7302675850185177
+            ],
+            "valid_draws": 2000
+          }
+        },
+        "position_pairwise_ridge": {
+          "spearman": {
+            "estimate": 0.47177393553987473,
+            "95_percent": [
+              0.2667872125959283,
+              0.6354819800670747
+            ],
+            "valid_draws": 2000
+          },
+          "rmse": {
+            "estimate": 0.5786688613466581,
+            "95_percent": [
+              0.4825494224717638,
+              0.6816143364529876
+            ],
+            "valid_draws": 2000
+          }
+        },
+        "p_facs_high": {
+          "spearman": {
+            "estimate": 0.19703123115220278,
+            "95_percent": [
+              -0.03765665584452898,
+              0.4211554013970528
+            ],
+            "valid_draws": 2000
+          },
+          "rmse": {
+            "estimate": null,
+            "95_percent": null,
+            "valid_draws": 0
+          }
+        }
+      },
+      "paired_differences": {
+        "position_pairwise_ridge minus position_ridge": {
+          "spearman": {
+            "estimate": 0.04701380542618078,
+            "95_percent": [
+              -0.07311786788838978,
+              0.16124364436409308
+            ],
+            "valid_draws": 2000
+          },
+          "rmse": {
+            "estimate": -0.046223989787685715,
+            "95_percent": [
+              -0.10454821053281073,
+              0.019394630603292495
+            ],
+            "valid_draws": 2000
+          }
+        },
+        "position_pairwise_ridge minus p_facs_high": {
+          "spearman": {
+            "estimate": 0.27474270438767195,
+            "95_percent": [
+              -0.04029114797481159,
+              0.5493619619594811
+            ],
+            "valid_draws": 2000
+          },
+          "rmse": {
+            "estimate": null,
+            "95_percent": null,
+            "valid_draws": 0
+          }
+        }
+      }
+    }
+  },
+  "inputs": {
+    "train": {
+      "source": "/tmp/her2-benchmark.NjMJ71m1/train.csv",
+      "sha256": "b639077ff116daa8b8c3a2122b6ed9291361892469f6237963967ca0772cb262"
+    },
+    "val": {
+      "source": "/tmp/her2-benchmark.NjMJ71m1/val.csv",
+      "sha256": "ea5e2e0908f018f579e476cef4452f9de11ba9144513bffa783588d49123f5d1"
+    },
+    "test": {
+      "source": "/tmp/her2-benchmark.NjMJ71m1/test.csv",
+      "sha256": "b350c10c7df4eb5e1b966f76909a805fc7d8011486f1ddb5dd1d7a6e19556a06"
+    },
+    "spr": {
+      "source": "/tmp/her2-benchmark.NjMJ71m1/spr.csv",
+      "sha256": "4d6f53a6183f377670e9577b3233a7c4c14888965ac63824863219d13424fa9b"
+    },
+    "frozen_oof": {
+      "source": "results/spr-benchmark/oof_predictions.csv",
+      "sha256": "44dfc97781fb80652aa59bfb8226e3b71fc501053d12c1d6e66cf8ea1c180fbf"
+    },
+    "distance_diagnostic": {
+      "source": "results/spr-distance-diagnostic/distance_rows.csv",
+      "sha256": "359330bd47638d774c8f0e6754634cb0d876ad671d61ac7338d81ccc730ab770"
+    },
+    "frozen_metrics": {
+      "source": "results/spr-benchmark/metrics.json",
+      "sha256": "9668a01ca8dcfdcc8e84b127c4d5f8de1580232090f5efd2925f608ae3c41edf"
+    }
+  },
+  "code": {
+    "src/her2_interaction_benchmark.py": {
+      "source": "src/her2_interaction_benchmark.py",
+      "sha256": "d399225ada50d7bbb2ef6229f3254e67853812c18342181ae07419949b878843"
+    },
+    "src/her2_benchmark.py": {
+      "source": "src/her2_benchmark.py",
+      "sha256": "47faea9e341cbfc76a43af13fb16bd694545c9814ac8de5028b4040e20243257"
+    },
+    "src/her2_spr_benchmark.py": {
+      "source": "src/her2_spr_benchmark.py",
+      "sha256": "afdabf4a88357dccba743871c382f8ec1cbc4bb61cfb923c8d987ef63d1b6d94"
+    },
+    "scripts/rank_spr_candidates.py": {
+      "source": "scripts/rank_spr_candidates.py",
+      "sha256": "abae8b8635b5f3c65a19f190d5bad19e767f0195dea2f24c8228cff07d60d0d5"
+    }
+  },
+  "versions": {
+    "python": "3.13.18",
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "rapidfuzz": "3.14.6",
+    "threadpoolctl": "3.8.0"
+  }
+}
