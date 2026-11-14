@@ -49,3 +49,7 @@ Use separate columns for official eligibility, binding prediction, structural ta
 ## Delivery
 
 Save exact commands, seed, image digest, input hashes, model files, score sources and failures. Export results off the temporary VM during work. Submit only after official validation. Check the fresh-repository rule before publishing the competition submission; the development PR is not itself the submission repository.
+
+## Current experiment status
+
+User requested experiments and explanation before any competition submission. No submission has been made. See BENCHMARK.md and results/experiment-20261114 for the observed results and limitations. Further generation is paused after the current bounded pilots while their evidence is interpreted.

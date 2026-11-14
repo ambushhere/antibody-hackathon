@@ -4,6 +4,7 @@ import json
 import os
 from pathlib import Path
 import subprocess
+from urllib.parse import urlsplit
 
 
 def main():
@@ -12,6 +13,8 @@ def main():
     p.add_argument('--env-file', type=Path)
     p.add_argument('--credentials', type=Path)
     args = p.parse_args()
+    if args.service == 'nebius' and args.credentials is None:
+        p.error('--credentials is required for nebius')
     env = os.environ.copy()
     if args.service in ['amass', 'japanfold']:
         values = {}
@@ -27,7 +30,9 @@ def main():
         doc = json.loads(args.credentials.read_text())
         api = doc['scientific_api']
         key, url = api['api_key'], api['mcp_url']
-    if not key or not url.startswith('https://'):
+    parsed = urlsplit(url)
+    allowed = {'amass': 'api.amass.tech', 'japanfold': 'api.japanfold.aiand.com', 'nebius': 'forge.nebius.cloud'}
+    if not key or parsed.scheme != 'https' or parsed.hostname != allowed[args.service] or parsed.username or parsed.password:
         raise SystemExit('Missing credential or invalid MCP URL')
     env['HACKATHON_MCP_AUTH'] = 'Bearer ' + key
     # Literal variable reference is expanded by mcp-remote, not the shell.

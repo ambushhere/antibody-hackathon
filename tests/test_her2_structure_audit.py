@@ -25,3 +25,14 @@ def test_chain_validation():
         contacts(example(), ['H'], ['H'])
     with pytest.raises(ValueError):
         contacts(example(), ['H'], ['X'])
+
+
+def test_target_numbering_mapping():
+    from her2_structure_audit import remap_target_residues
+    a=example()
+    a.res_id[2:]=[1,2]
+    mapped=remap_target_residues(a,{'T':[489,490]})
+    assert list(mapped.res_id[2:]) == [489,490]
+    assert list(a.res_id[2:]) == [1,2]
+    with pytest.raises(ValueError):
+        remap_target_residues(example(),{'T':[489,490]})

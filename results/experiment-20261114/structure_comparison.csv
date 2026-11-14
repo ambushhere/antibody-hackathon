@@ -1,0 +1,11 @@
+query_id,model,overall_iptm,vh_vl_iptm,max_antibody_target_pair_iptm,seed,samples,source,template_conditioned
+control_wt,openfold3_of3ob,0.602,0.918,0.264,42,1,results/campaign/campaign-20261114/openfold-controls/control_wt/seed_42/control_wt_seed_42_sample_1_scores.json,True
+control_facs_low,openfold3_of3ob,0.567,0.894,0.225,42,1,results/campaign/campaign-20261114/openfold-controls/control_facs_low/seed_42/control_facs_low_seed_42_sample_1_scores.json,True
+her2_cdrh3_1,openfold3_of3ob,0.614,0.922,0.21,42,1,results/campaign/campaign-20261114/openfold-controls/her2_cdrh3_1/seed_42/her2_cdrh3_1_seed_42_sample_1_scores.json,True
+her2_cdrh3_2,openfold3_of3ob,0.597,0.919,0.227,42,1,results/campaign/campaign-20261114/openfold-controls/her2_cdrh3_2/seed_42/her2_cdrh3_2_seed_42_sample_1_scores.json,True
+control_wt,protenix_v2,0.68,0.948,0.484,42,1,results/campaign/campaign-20261114/protenix-controls/control_wt/seed_42/control_wt_seed_42_sample_1_scores.json,True
+control_facs_low,protenix_v2,0.612,0.926,0.308,42,1,results/campaign/campaign-20261114/protenix-controls/control_facs_low/seed_42/control_facs_low_seed_42_sample_1_scores.json,True
+her2_cdrh3_1,protenix_v2,0.65,0.944,0.427,42,1,results/campaign/campaign-20261114/protenix-controls/her2_cdrh3_1/seed_42/her2_cdrh3_1_seed_42_sample_1_scores.json,True
+her2_cdrh3_2,protenix_v2,0.656,0.945,0.403,42,1,results/campaign/campaign-20261114/protenix-controls/her2_cdrh3_2/seed_42/her2_cdrh3_2_seed_42_sample_1_scores.json,True
+stat_YTADGVYHLK,protenix_v2,0.441,0.182,0.445,42,1,results/campaign/campaign-20261114/statistical-protenix/stat_YTADGVYHLK/seed_42/stat_YTADGVYHLK_seed_42_sample_1_scores.json,True
+stat_YTGDGFPAMN,protenix_v2,0.646,0.937,0.423,42,1,results/campaign/campaign-20261114/statistical-protenix/stat_YTGDGFPAMN/seed_42/stat_YTGDGFPAMN_seed_42_sample_1_scores.json,True
