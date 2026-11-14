@@ -95,3 +95,7 @@ PYTHONPATH=src .venv/bin/python src/plot_scan.py results/1MEL_A_scan.csv
 - `notebooks/` — исследования
 - `src/` — пайплайн
 - `results/` — кандидаты, метрики, графики
+
+## For judges (English)
+
+Start with the [Execution guide](docs/EXECUTION_EN.md): models, scoring and filtering for both tracks, reproducibility commands, code and evidence links. The [English presentation](output/pipeline-draft/README.md) and [English explanation PDF](output/pdf/her2-pipeline-explained-en.pdf) accompany it. The repository is private, so reviewers need access.
