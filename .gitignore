@@ -15,3 +15,8 @@ japanfold-*.txt
 nebius-runs/
 .env
 .env.local
+
+# Local venv can be a symlink in a worktree
+.venv
+.pytest_cache/
+*.joblib
