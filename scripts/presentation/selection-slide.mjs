@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Build the three editable selection and architecture slides and PNG previews.
+ * Build the four editable selection and architecture slides and PNG previews.
  *
  * Rebuild from the repository root with the supplied presentation runtime:
  *   RUNTIME_NODE=/path/to/node \
@@ -165,7 +165,8 @@ addText(dataSlide,"Structural controls did not justify candidate ranking. Therma
 dataSlide.speakerNotes.text="FACS class is a sorting signal, not numeric affinity. The 158 SPR variants form a filtered cohort, with a nested distant subset of 75. External SPR controls are a separate limited transfer check. Synthetic labels add no measured evidence. RFD4 generated 64 pairs; the final ranked draft contains 20 selected de novo candidates. Abguard is eligibility only. Additional investigations included AbLang2, OpenDDE, Protenix, RF3 and ThermoMPNN-D; they did not justify candidate promotion. Sources: docs/EXPERIMENT_INDEX.md; docs/EXECUTION_EN.md; docs/research/neural-results.md; docs/research/abguard-validation.md.";
 
 }
-if (ppt.slides.items.length !== 2) throw new Error("Architecture append expects a two-slide source");
+if (![2, 3].includes(ppt.slides.items.length)) throw new Error("Append expects a two- or three-slide source");
+if (ppt.slides.items.length === 2) {
 const arch = ppt.slides.add();
 addHeader(arch, "The architecture used for optimization", "Two separate sequence scores guide selection. The SPR scorer is a small additive model.");
 addText(arch,"CDRH3 window",64,198,260,35,{size:27,bold:true,color:C.blue});
@@ -187,15 +188,43 @@ addText(arch,"Balance FACS and SPR scores\nRetain sequence diversity and eligibi
 addText(arch,"Transformer: trained and benchmarked, but excluded from final selection. This scorer does not rank de novo designs.",64,656,1152,46,{size:20,color:C.muted});
 arch.speakerNotes.text="The final optimization shortlist used position-one-hot ridge, with 200 coefficients and an intercept, alpha 10 selected by grouped tuning. Each sequence activates ten positional coefficients. The formula adds position effects independently; pairwise ridge was benchmarked later and did not replace the frozen shortlist. FACS uses a separate pairwise logistic model. The WT sequence is illustrative, not a submitted novel candidate. The large experimental Transformer used 10 residue tokens plus CLS, learned 256-dimensional embeddings and positions, six encoder blocks, eight attention heads and a 1024-wide feed-forward block. It predicted three FACS classes and was not promoted to final selection. Sources: scripts/rank_spr_candidates.py; src/her2_benchmark.py; results/spr-expanded-ranking/report.md; scripts/train_her2_neural.py; docs/research/neural-results.md.";
 
-if (ppt.slides.items.length !== 3) {
-  throw new Error(`Expected exactly 3 slides, got ${ppt.slides.items.length}`);
+}
+const flow = ppt.slides.add();
+addHeader(flow, "The complete selection pipeline", "Optimization uses measured-data models. De novo uses generation and sequence screening.");
+function node(x,y,w,h,title,body,fill,accent) {
+  addShape(flow,"roundRect",x,y,w,h,fill,accent,1.5);
+  addText(flow,title,x+14,y+12,w-28,32,{size:23,bold:true,color:accent,valign:"top"});
+  addText(flow,body,x+14,y+48,w-28,h-54,{size:20,valign:"top"});
+}
+node(64,247,230,112,"Optimization","10-residue CDRH3\nsequence variants",C.blueSoft,C.blue);
+node(350,183,264,112,"FACS scorer","Position + pair features\nLogistic regression",C.greenSoft,C.green);
+node(350,329,264,112,"SPR scorer","200 position features\nRidge regression",C.greenSoft,C.green);
+node(670,247,250,112,"Joint selection","FACS + SPR signals\nand sequence diversity",C.amberSoft,C.amber);
+addShape(flow,"line",294,303,24,0,C.transparent,C.blue,1.5);
+addShape(flow,"line",318,239,0,146,C.transparent,C.blue,1.5);
+addArrow(flow,324,230,C.blue);addArrow(flow,324,376,C.blue);
+addShape(flow,"line",614,239,25,0,C.transparent,C.green,1.5);
+addShape(flow,"line",614,385,25,0,C.transparent,C.green,1.5);
+addShape(flow,"line",639,239,0,146,C.transparent,C.green,1.5);
+addArrow(flow,645,294,C.green);
+node(64,494,230,112,"De novo","Ready-made generator\nRFD4-Proteina",C.blueSoft,C.blue);
+node(350,494,264,112,"New antibody pairs","Heavy and light\nvariable domains",C.greenSoft,C.green);
+node(670,494,250,112,"Final checks","Abguard + sequence\nchecks and diversity",C.amberSoft,C.amber);
+node(974,494,242,112,"Ranked list","10 optimization\n20 de novo",C.blueSoft,C.blue);
+addArrow(flow,311,541,C.blue);addArrow(flow,635,541,C.green);addArrow(flow,938,541,C.amber);
+addShape(flow,"downArrow",782,371,25,110,C.amber);
+addText(flow,"All 30 pass installed abguard. Laboratory binding, epitope and thermal tests remain pending.",64,662,1152,32,{size:21,color:C.muted});
+flow.speakerNotes.text="The diagram summarizes the two branches. Optimization uses independent FACS and SPR signals followed by diversity selection. Installed abguard eligibility is required for both tracks. De novo ordering also considers motif warnings, paired sequence diversity and nearest-reference distance. The SPR model was trained for the trastuzumab CDRH3 window and is not applied as a validated ranker to redesigned de novo frameworks. Sources: docs/EXECUTION_EN.md; docs/research/ranked-draft-policy.md; results/spr-expanded-ranking/report.md; results/abguard-ranked/receipt.json.";
+
+if (ppt.slides.items.length !== 4) {
+  throw new Error(`Expected exactly 4 slides, got ${ppt.slides.items.length}`);
 }
 
 const expectedSlideSizeEmu = "12192000,6858000";
 await (await PresentationFile.exportPptx(ppt)).save(candidatePath);
 
 const requirements = {
-  explicitTotalSlideCount: 3,
+  explicitTotalSlideCount: 4,
   requiredNativeTableOwnerSlides: [],
   requiredNativeChartOwnerSlides: [],
   fontPolicy: { basis: "design", families: [FONT] },
@@ -225,8 +254,8 @@ try {
 
 // Render from the finalized PPTX, so these previews represent the deliverable.
 const finalDeck = await PresentationFile.importPptx(await FileBlob.load(finalPath));
-if (finalDeck.slides.items.length !== 3) {
-  throw new Error(`Final PPTX has ${finalDeck.slides.items.length} slides, expected 3.`);
+if (finalDeck.slides.items.length !== 4) {
+  throw new Error(`Final PPTX has ${finalDeck.slides.items.length} slides, expected 4.`);
 }
 for (const [index, slide] of finalDeck.slides.items.entries()) {
   const image = await finalDeck.export({ slide, format: "png", scale: 1 });
@@ -236,6 +265,6 @@ for (const [index, slide] of finalDeck.slides.items.entries()) {
 console.log(JSON.stringify({
   slideCount: finalDeck.slides.items.length,
   finalPath,
-  previews: [1, 2, 3].map(n => path.join(outputDir, `slide-0${n}.png`)),
+  previews: [1, 2, 3, 4].map(n => path.join(outputDir, `slide-0${n}.png`)),
   validationReceipt: receiptPath,
 }, null, 2));
