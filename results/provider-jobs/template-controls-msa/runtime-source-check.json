@@ -1,0 +1,12 @@
+{
+  "image_id": "sha256:d0d1d4a8a911b8001a0868aa30b9f88f598ce12236cdd0b75a4b3465e7a3da58",
+  "source_path": "/app/apheris_protenix/src/apheris_protenix/inference/model.py",
+  "source_sha256": "dda353317b3f728eb4f778461c197a3d933de2192f37c1fd80a512493bb09add",
+  "observed": "predict_step calls seed_everything with batch seed before invoking the model",
+  "lines": [
+    69,
+    73
+  ],
+  "reason": "Combined 42/43/44 invocation logs only initialization seed 42. Prediction receipts and per-batch reseeding establish separate requested seeds.",
+  "runtime_note": "Shared with pre-existing team process PID67087. First admission was rejected before any outputs; explicit shared admission then required at least40000MiB free. Other team processes were not modified."
+}

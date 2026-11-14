@@ -1,0 +1,1288 @@
+{
+  "status": "draft_research_pool_not_submitted_not_final_slot_selection",
+  "file": "team-3-draft.csv",
+  "sha256": "8bf588a971b06a7b74eab104020ee6b7aa8e30ee5079817618e23a5ac95f4658",
+  "source_panel_sha256": "0e99a647b10e1c92105b000cf5a1c9c999b86b8aaa4c811ad8591059ee8964b7",
+  "rows": 53,
+  "kind": "paired",
+  "counts_by_track": {
+    "optimization": 10,
+    "denovo": 43
+  },
+  "validation": "local format and immunum checks, not the official abguard gate",
+  "team_filename": "team-3 is the VM team label; confirm the actual team name before manual submission",
+  "designs": [
+    {
+      "sequence_id": "opt_WGAPGFYLMT",
+      "track": "optimization",
+      "source": "results/spr-expanded-ranking/shortlist.csv",
+      "source_sha256": "8b79fc635a3036c202806ac24acedd5ab976ebe0245aaaeb3d071f1448486fe6",
+      "paired_sequence_sha256": "d6bbcdb34d1ca2245e5cb104a642e578ac83b743f068bb2070d3b48022569e9a",
+      "checks": {
+        "heavy": {
+          "length": 120,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.8714650273323059
+        },
+        "light": {
+          "length": 107,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.9022924304008484
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "opt_YTGDGFPAMN",
+      "track": "optimization",
+      "source": "results/spr-expanded-ranking/shortlist.csv",
+      "source_sha256": "8b79fc635a3036c202806ac24acedd5ab976ebe0245aaaeb3d071f1448486fe6",
+      "paired_sequence_sha256": "53aa8f06ce1003867ebef8c9cc354d419bc560df52da8b44eedafcca893044fe",
+      "checks": {
+        "heavy": {
+          "length": 120,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.8803471922874451
+        },
+        "light": {
+          "length": 107,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.9022924304008484
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "opt_WEKGGFYRMD",
+      "track": "optimization",
+      "source": "results/spr-expanded-ranking/shortlist.csv",
+      "source_sha256": "8b79fc635a3036c202806ac24acedd5ab976ebe0245aaaeb3d071f1448486fe6",
+      "paired_sequence_sha256": "0d768f331fdf6530eb9391de910eefd34487cfc3d885b7020cd38cc6c30db030",
+      "checks": {
+        "heavy": {
+          "length": 120,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.8844351172447205
+        },
+        "light": {
+          "length": 107,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.9022924304008484
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "opt_WYGPGFPVMD",
+      "track": "optimization",
+      "source": "results/spr-expanded-ranking/shortlist.csv",
+      "source_sha256": "8b79fc635a3036c202806ac24acedd5ab976ebe0245aaaeb3d071f1448486fe6",
+      "paired_sequence_sha256": "771cc61c4b757f9646917dbe4814b365119640ec91403c3bc1708866c611cb9f",
+      "checks": {
+        "heavy": {
+          "length": 120,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.8844351172447205
+        },
+        "light": {
+          "length": 107,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.9022924304008484
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "opt_FTSDRFYAMD",
+      "track": "optimization",
+      "source": "results/spr-expanded-ranking/shortlist.csv",
+      "source_sha256": "8b79fc635a3036c202806ac24acedd5ab976ebe0245aaaeb3d071f1448486fe6",
+      "paired_sequence_sha256": "87397f6079cdeb03447d17c781d4e7322e2ea8040d1397a5b6aab8d05be6de3a",
+      "checks": {
+        "heavy": {
+          "length": 120,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.8845326900482178
+        },
+        "light": {
+          "length": 107,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.9022924304008484
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "opt_WTAVGFFAMD",
+      "track": "optimization",
+      "source": "results/spr-expanded-ranking/shortlist.csv",
+      "source_sha256": "8b79fc635a3036c202806ac24acedd5ab976ebe0245aaaeb3d071f1448486fe6",
+      "paired_sequence_sha256": "cec0d9b816c15ca911d213ec60041103cc7d3904874b09e596c14c6ac0adcdac",
+      "checks": {
+        "heavy": {
+          "length": 120,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.8844351172447205
+        },
+        "light": {
+          "length": 107,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.9022924304008484
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "opt_YQADGFYHMD",
+      "track": "optimization",
+      "source": "results/spr-expanded-ranking/shortlist.csv",
+      "source_sha256": "8b79fc635a3036c202806ac24acedd5ab976ebe0245aaaeb3d071f1448486fe6",
+      "paired_sequence_sha256": "8721c14c9852de615b4b7ffc6bb6228e40952bcd057629a38b4f209bfe00e9d5",
+      "checks": {
+        "heavy": {
+          "length": 120,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.8900460004806519
+        },
+        "light": {
+          "length": 107,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.9022924304008484
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "opt_WVGGWFYLMD",
+      "track": "optimization",
+      "source": "results/spr-expanded-ranking/shortlist.csv",
+      "source_sha256": "8b79fc635a3036c202806ac24acedd5ab976ebe0245aaaeb3d071f1448486fe6",
+      "paired_sequence_sha256": "b22525fba38cb36b4e2a78c4ee31568da15622e35ed372b4e80b8eb8cb55dc0a",
+      "checks": {
+        "heavy": {
+          "length": 120,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.8844351172447205
+        },
+        "light": {
+          "length": 107,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.9022924304008484
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "opt_WSGRRFYHMD",
+      "track": "optimization",
+      "source": "results/spr-expanded-ranking/shortlist.csv",
+      "source_sha256": "8b79fc635a3036c202806ac24acedd5ab976ebe0245aaaeb3d071f1448486fe6",
+      "paired_sequence_sha256": "a6c4decf1827bdb8ee024db8ff8576f25037515098329e906ebc02a3c8abef00",
+      "checks": {
+        "heavy": {
+          "length": 120,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.8844351172447205
+        },
+        "light": {
+          "length": 107,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.9022924304008484
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "opt_YTADGVYHLK",
+      "track": "optimization",
+      "source": "results/spr-expanded-ranking/shortlist.csv",
+      "source_sha256": "8b79fc635a3036c202806ac24acedd5ab976ebe0245aaaeb3d071f1448486fe6",
+      "paired_sequence_sha256": "510a0f0e616fd7c78647e4df3b163afc5832958a10e58b69b1d5a42484c1efc8",
+      "checks": {
+        "heavy": {
+          "length": 120,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.8762880563735962
+        },
+        "light": {
+          "length": 107,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.9022924304008484
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "denovo-scale-antibody-k1_2",
+      "track": "denovo",
+      "source": "results/denovo-scale-audit/designs.csv",
+      "source_sha256": "dd5012da6b57418cc8b43e67aad638d241992829c9feb94e522d2d2f4d869d36",
+      "paired_sequence_sha256": "ba96bdc4d16c5f28be8ce54286d4016e686d9343027861da29d635521941995a",
+      "checks": {
+        "heavy": {
+          "length": 128,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.8488452434539795
+        },
+        "light": {
+          "length": 110,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.7525326609611511
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "denovo-scale-antibody-k1_3",
+      "track": "denovo",
+      "source": "results/denovo-scale-audit/designs.csv",
+      "source_sha256": "dd5012da6b57418cc8b43e67aad638d241992829c9feb94e522d2d2f4d869d36",
+      "paired_sequence_sha256": "2cd7e749edc1b4ab2271de768e4a3b216f0a378acd5666829e64c1ceaa8164f4",
+      "checks": {
+        "heavy": {
+          "length": 128,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.8011891841888428
+        },
+        "light": {
+          "length": 110,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.844330370426178
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "denovo-scale-antibody-k1_4",
+      "track": "denovo",
+      "source": "results/denovo-scale-audit/designs.csv",
+      "source_sha256": "dd5012da6b57418cc8b43e67aad638d241992829c9feb94e522d2d2f4d869d36",
+      "paired_sequence_sha256": "fbf4e092a4c44f88b9e3770a191be1d90d1be861026737c3aff501d01ebdf67d",
+      "checks": {
+        "heavy": {
+          "length": 121,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.8474321365356445
+        },
+        "light": {
+          "length": 112,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.8646361231803894
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "denovo-scale-antibody-k1_5",
+      "track": "denovo",
+      "source": "results/denovo-scale-audit/designs.csv",
+      "source_sha256": "dd5012da6b57418cc8b43e67aad638d241992829c9feb94e522d2d2f4d869d36",
+      "paired_sequence_sha256": "a88aacbc0066d7625824ac888e788a711221d39a1d48180e3f0fbc47412f7dfe",
+      "checks": {
+        "heavy": {
+          "length": 124,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.8268383145332336
+        },
+        "light": {
+          "length": 109,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.8277222514152527
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "denovo-scale-antibody-k1_6",
+      "track": "denovo",
+      "source": "results/denovo-scale-audit/designs.csv",
+      "source_sha256": "dd5012da6b57418cc8b43e67aad638d241992829c9feb94e522d2d2f4d869d36",
+      "paired_sequence_sha256": "75cf1ecf6bff20a7eddecf67e03dbab950a2978ccdd30a9d04e7d013df135428",
+      "checks": {
+        "heavy": {
+          "length": 130,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.7761991024017334
+        },
+        "light": {
+          "length": 109,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.7697872519493103
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "denovo-scale-antibody-k1_7",
+      "track": "denovo",
+      "source": "results/denovo-scale-audit/designs.csv",
+      "source_sha256": "dd5012da6b57418cc8b43e67aad638d241992829c9feb94e522d2d2f4d869d36",
+      "paired_sequence_sha256": "5d117dec905e4dde2db2015b11897732a79e2b42158ac78b8b9993bb070d3250",
+      "checks": {
+        "heavy": {
+          "length": 120,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.7613370418548584
+        },
+        "light": {
+          "length": 109,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.8725091814994812
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "denovo-scale-antibody-k1_9",
+      "track": "denovo",
+      "source": "results/denovo-scale-audit/designs.csv",
+      "source_sha256": "dd5012da6b57418cc8b43e67aad638d241992829c9feb94e522d2d2f4d869d36",
+      "paired_sequence_sha256": "44ee53e0894250e8b46118616d055831b654c34d9579924a033c0f6569b18542",
+      "checks": {
+        "heavy": {
+          "length": 127,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.8584326505661011
+        },
+        "light": {
+          "length": 106,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.76667320728302
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "denovo-scale-antibody-k1_11",
+      "track": "denovo",
+      "source": "results/denovo-scale-audit/designs.csv",
+      "source_sha256": "dd5012da6b57418cc8b43e67aad638d241992829c9feb94e522d2d2f4d869d36",
+      "paired_sequence_sha256": "42e59352dfa060d7013a904499b7ebd2ed236f7053f37f72a48e1106b5019827",
+      "checks": {
+        "heavy": {
+          "length": 129,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.843330979347229
+        },
+        "light": {
+          "length": 112,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.8302249908447266
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "denovo-scale-antibody-k1_13",
+      "track": "denovo",
+      "source": "results/denovo-scale-audit/designs.csv",
+      "source_sha256": "dd5012da6b57418cc8b43e67aad638d241992829c9feb94e522d2d2f4d869d36",
+      "paired_sequence_sha256": "e50b03ebc81e2d700841ae9c62cecf562f05a21ab865ca32dae6b91d9ec95ad0",
+      "checks": {
+        "heavy": {
+          "length": 126,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.8656467199325562
+        },
+        "light": {
+          "length": 112,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.7340357899665833
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "denovo-scale-antibody-k1_18",
+      "track": "denovo",
+      "source": "results/denovo-scale-audit/designs.csv",
+      "source_sha256": "dd5012da6b57418cc8b43e67aad638d241992829c9feb94e522d2d2f4d869d36",
+      "paired_sequence_sha256": "a3a3c68101ed157a790ba59c566d2a08359deba409519ccb57637a71d55b9269",
+      "checks": {
+        "heavy": {
+          "length": 125,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.8950456380844116
+        },
+        "light": {
+          "length": 110,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.834758460521698
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "denovo-scale-antibody-k1_20",
+      "track": "denovo",
+      "source": "results/denovo-scale-audit/designs.csv",
+      "source_sha256": "dd5012da6b57418cc8b43e67aad638d241992829c9feb94e522d2d2f4d869d36",
+      "paired_sequence_sha256": "188ff1b099e7af3b216af668f9ab050b3406c2b6a539981d2d196208a74951a2",
+      "checks": {
+        "heavy": {
+          "length": 127,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.8797222375869751
+        },
+        "light": {
+          "length": 112,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.783992350101471
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "denovo-scale-antibody-k1_21",
+      "track": "denovo",
+      "source": "results/denovo-scale-audit/designs.csv",
+      "source_sha256": "dd5012da6b57418cc8b43e67aad638d241992829c9feb94e522d2d2f4d869d36",
+      "paired_sequence_sha256": "c0dfd33be36fa6f97abf7718320bf0a1629e665c27f6e3363e5b366dcd3a126f",
+      "checks": {
+        "heavy": {
+          "length": 128,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.8237118721008301
+        },
+        "light": {
+          "length": 112,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.7904893159866333
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "denovo-scale-antibody-k1_23",
+      "track": "denovo",
+      "source": "results/denovo-scale-audit/designs.csv",
+      "source_sha256": "dd5012da6b57418cc8b43e67aad638d241992829c9feb94e522d2d2f4d869d36",
+      "paired_sequence_sha256": "73bd68423b8fcdfb208fc20f48920af423e95dcefac83912be854fb362c0b62c",
+      "checks": {
+        "heavy": {
+          "length": 119,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.8745375275611877
+        },
+        "light": {
+          "length": 108,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.8053250908851624
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "denovo-scale-antibody-k1_24",
+      "track": "denovo",
+      "source": "results/denovo-scale-audit/designs.csv",
+      "source_sha256": "dd5012da6b57418cc8b43e67aad638d241992829c9feb94e522d2d2f4d869d36",
+      "paired_sequence_sha256": "9214fb069ee3ba37d81d71bbefbd210c778f765c7a554cc891595751049f4f4d",
+      "checks": {
+        "heavy": {
+          "length": 121,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.8150474429130554
+        },
+        "light": {
+          "length": 110,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.9009400010108948
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "denovo-scale-antibody-k1_26",
+      "track": "denovo",
+      "source": "results/denovo-scale-audit/designs.csv",
+      "source_sha256": "dd5012da6b57418cc8b43e67aad638d241992829c9feb94e522d2d2f4d869d36",
+      "paired_sequence_sha256": "f4654525f859bc2ead1502bd8897a9fa6ef2e1cefe7140d830e83709fad7459a",
+      "checks": {
+        "heavy": {
+          "length": 129,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.8758512735366821
+        },
+        "light": {
+          "length": 112,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.7853655219078064
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "denovo-scale-antibody-k1_28",
+      "track": "denovo",
+      "source": "results/denovo-scale-audit/designs.csv",
+      "source_sha256": "dd5012da6b57418cc8b43e67aad638d241992829c9feb94e522d2d2f4d869d36",
+      "paired_sequence_sha256": "f0eb1afb031ffdbda663e6a5870a4e92ea8228828ae017c0244c768f79b16a77",
+      "checks": {
+        "heavy": {
+          "length": 126,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.8738605380058289
+        },
+        "light": {
+          "length": 108,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.8171589374542236
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "denovo-scale-antibody-k1_30",
+      "track": "denovo",
+      "source": "results/denovo-scale-audit/designs.csv",
+      "source_sha256": "dd5012da6b57418cc8b43e67aad638d241992829c9feb94e522d2d2f4d869d36",
+      "paired_sequence_sha256": "88ce6cff9371c29d8ff682e479eaa471239fac4ba14efca9d3e6773170fc0adf",
+      "checks": {
+        "heavy": {
+          "length": 127,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.8330221176147461
+        },
+        "light": {
+          "length": 110,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.7427803874015808
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "denovo-scale-antibody-k1_31",
+      "track": "denovo",
+      "source": "results/denovo-scale-audit/designs.csv",
+      "source_sha256": "dd5012da6b57418cc8b43e67aad638d241992829c9feb94e522d2d2f4d869d36",
+      "paired_sequence_sha256": "bb97f414ca80c371dd0c6cf42a01ed081965cb3e7ebc1bd76f8cabef0ef82b14",
+      "checks": {
+        "heavy": {
+          "length": 126,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.8933321237564087
+        },
+        "light": {
+          "length": 112,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.7931164503097534
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "denovo-scale-her2novel-k1_0",
+      "track": "denovo",
+      "source": "results/denovo-scale-audit/designs.csv",
+      "source_sha256": "dd5012da6b57418cc8b43e67aad638d241992829c9feb94e522d2d2f4d869d36",
+      "paired_sequence_sha256": "a201ccb3a739c69cc70419231f2bbb248db2fbb855f02a3232b154ab5e92fa1b",
+      "checks": {
+        "heavy": {
+          "length": 126,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.8101492524147034
+        },
+        "light": {
+          "length": 108,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.8303263187408447
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "denovo-scale-her2novel-k1_1",
+      "track": "denovo",
+      "source": "results/denovo-scale-audit/designs.csv",
+      "source_sha256": "dd5012da6b57418cc8b43e67aad638d241992829c9feb94e522d2d2f4d869d36",
+      "paired_sequence_sha256": "e5e188251b4b32dddca9300ea74bff62260836c0d00dd53b0b3cf4914bb46029",
+      "checks": {
+        "heavy": {
+          "length": 119,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.7232069373130798
+        },
+        "light": {
+          "length": 107,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.8033820390701294
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "denovo-scale-her2novel-k1_4",
+      "track": "denovo",
+      "source": "results/denovo-scale-audit/designs.csv",
+      "source_sha256": "dd5012da6b57418cc8b43e67aad638d241992829c9feb94e522d2d2f4d869d36",
+      "paired_sequence_sha256": "a6cb6f8a71670a388c0aef955e251410fdab5f0d8b6d9d6130c0e6f26360ef85",
+      "checks": {
+        "heavy": {
+          "length": 121,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.772750198841095
+        },
+        "light": {
+          "length": 113,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.7511815428733826
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "denovo-scale-her2novel-k1_5",
+      "track": "denovo",
+      "source": "results/denovo-scale-audit/designs.csv",
+      "source_sha256": "dd5012da6b57418cc8b43e67aad638d241992829c9feb94e522d2d2f4d869d36",
+      "paired_sequence_sha256": "2f7a513eb7cac3c430ef925cfe90ee223660760fbbb64eae0f37dbe90b22b8e6",
+      "checks": {
+        "heavy": {
+          "length": 119,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.7746158242225647
+        },
+        "light": {
+          "length": 110,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.828187108039856
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "denovo-scale-her2novel-k1_6",
+      "track": "denovo",
+      "source": "results/denovo-scale-audit/designs.csv",
+      "source_sha256": "dd5012da6b57418cc8b43e67aad638d241992829c9feb94e522d2d2f4d869d36",
+      "paired_sequence_sha256": "acd9736a0570f828346072fd35cf6b87c902a8367abab8f8f614b50a2f30dc36",
+      "checks": {
+        "heavy": {
+          "length": 126,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.7655336260795593
+        },
+        "light": {
+          "length": 110,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.7948165535926819
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "denovo-scale-her2novel-k1_7",
+      "track": "denovo",
+      "source": "results/denovo-scale-audit/designs.csv",
+      "source_sha256": "dd5012da6b57418cc8b43e67aad638d241992829c9feb94e522d2d2f4d869d36",
+      "paired_sequence_sha256": "3613c811c477d4529973544144ad566cad863af9897e8291bef48be5b94afa5d",
+      "checks": {
+        "heavy": {
+          "length": 131,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.8006951212882996
+        },
+        "light": {
+          "length": 110,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.8486015200614929
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "denovo-scale-her2novel-k1_8",
+      "track": "denovo",
+      "source": "results/denovo-scale-audit/designs.csv",
+      "source_sha256": "dd5012da6b57418cc8b43e67aad638d241992829c9feb94e522d2d2f4d869d36",
+      "paired_sequence_sha256": "8fbed11b375cb91cfd575a2a1f142203f765b61fd3f060e73a21a9ae4a059460",
+      "checks": {
+        "heavy": {
+          "length": 131,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.8160486221313477
+        },
+        "light": {
+          "length": 108,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.8124722838401794
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "denovo-scale-her2novel-k1_9",
+      "track": "denovo",
+      "source": "results/denovo-scale-audit/designs.csv",
+      "source_sha256": "dd5012da6b57418cc8b43e67aad638d241992829c9feb94e522d2d2f4d869d36",
+      "paired_sequence_sha256": "62292b5912d8ada005c96c5ac114b074269f2d6c8c1a9e19ba2563ec661e67b3",
+      "checks": {
+        "heavy": {
+          "length": 124,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.8633037209510803
+        },
+        "light": {
+          "length": 108,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.8425990343093872
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "denovo-scale-her2novel-k1_10",
+      "track": "denovo",
+      "source": "results/denovo-scale-audit/designs.csv",
+      "source_sha256": "dd5012da6b57418cc8b43e67aad638d241992829c9feb94e522d2d2f4d869d36",
+      "paired_sequence_sha256": "48cc75eab89fb3d3b527cdac10624f1529200090a0d844ea5a2e63b7bb5a2aae",
+      "checks": {
+        "heavy": {
+          "length": 126,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.7760178446769714
+        },
+        "light": {
+          "length": 110,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.7810500860214233
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "denovo-scale-her2novel-k1_11",
+      "track": "denovo",
+      "source": "results/denovo-scale-audit/designs.csv",
+      "source_sha256": "dd5012da6b57418cc8b43e67aad638d241992829c9feb94e522d2d2f4d869d36",
+      "paired_sequence_sha256": "14838a5a80639683bc57390613d0c2bfc3b6edac9e616d2385674be22d7f0e9c",
+      "checks": {
+        "heavy": {
+          "length": 122,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.7821040749549866
+        },
+        "light": {
+          "length": 109,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.8778945207595825
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "denovo-scale-her2novel-k1_12",
+      "track": "denovo",
+      "source": "results/denovo-scale-audit/designs.csv",
+      "source_sha256": "dd5012da6b57418cc8b43e67aad638d241992829c9feb94e522d2d2f4d869d36",
+      "paired_sequence_sha256": "257f98ec230d475c94ea070f1290b29a67db967801e2972ccef55ec329cd299e",
+      "checks": {
+        "heavy": {
+          "length": 120,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.7674944996833801
+        },
+        "light": {
+          "length": 113,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.7442351579666138
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "denovo-scale-her2novel-k1_13",
+      "track": "denovo",
+      "source": "results/denovo-scale-audit/designs.csv",
+      "source_sha256": "dd5012da6b57418cc8b43e67aad638d241992829c9feb94e522d2d2f4d869d36",
+      "paired_sequence_sha256": "f1a1f47cc33d7ba222ef458754197803e9e99d946e1eb280aa00e5e692acc12c",
+      "checks": {
+        "heavy": {
+          "length": 131,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.8098017573356628
+        },
+        "light": {
+          "length": 112,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.7965108156204224
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "denovo-scale-her2novel-k1_14",
+      "track": "denovo",
+      "source": "results/denovo-scale-audit/designs.csv",
+      "source_sha256": "dd5012da6b57418cc8b43e67aad638d241992829c9feb94e522d2d2f4d869d36",
+      "paired_sequence_sha256": "53a500ce9bf2b2955d354e3556446fedfecb543dd96a151ae28b4487bce1cfbb",
+      "checks": {
+        "heavy": {
+          "length": 127,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.7823599576950073
+        },
+        "light": {
+          "length": 108,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.7384195327758789
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "denovo-scale-her2novel-k1_15",
+      "track": "denovo",
+      "source": "results/denovo-scale-audit/designs.csv",
+      "source_sha256": "dd5012da6b57418cc8b43e67aad638d241992829c9feb94e522d2d2f4d869d36",
+      "paired_sequence_sha256": "c195bacb554a1b4efaa26c950dd744e61ee5b34621afa2a64ee5176fed13f471",
+      "checks": {
+        "heavy": {
+          "length": 129,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.8245766162872314
+        },
+        "light": {
+          "length": 108,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.7690626978874207
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "denovo-scale-her2novel-k1_16",
+      "track": "denovo",
+      "source": "results/denovo-scale-audit/designs.csv",
+      "source_sha256": "dd5012da6b57418cc8b43e67aad638d241992829c9feb94e522d2d2f4d869d36",
+      "paired_sequence_sha256": "04427a801c143cb89ba51a414bc1dd6e6c1ce80a3c9e90deeb21e4b3e487ad3e",
+      "checks": {
+        "heavy": {
+          "length": 127,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.7901856303215027
+        },
+        "light": {
+          "length": 108,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.7856814861297607
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "denovo-scale-her2novel-k1_17",
+      "track": "denovo",
+      "source": "results/denovo-scale-audit/designs.csv",
+      "source_sha256": "dd5012da6b57418cc8b43e67aad638d241992829c9feb94e522d2d2f4d869d36",
+      "paired_sequence_sha256": "6a1043dfc42d677442a97a38b3f223330e39ecca076b3b361892989d89c23e01",
+      "checks": {
+        "heavy": {
+          "length": 123,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.7941257953643799
+        },
+        "light": {
+          "length": 113,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.7711992263793945
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "denovo-scale-her2novel-k1_18",
+      "track": "denovo",
+      "source": "results/denovo-scale-audit/designs.csv",
+      "source_sha256": "dd5012da6b57418cc8b43e67aad638d241992829c9feb94e522d2d2f4d869d36",
+      "paired_sequence_sha256": "6af69272e4ecf3ebd8677f0170e956f1322a4c372ca846d42563f05ca8363d49",
+      "checks": {
+        "heavy": {
+          "length": 118,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.7518445253372192
+        },
+        "light": {
+          "length": 106,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.8336842656135559
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "denovo-scale-her2novel-k1_19",
+      "track": "denovo",
+      "source": "results/denovo-scale-audit/designs.csv",
+      "source_sha256": "dd5012da6b57418cc8b43e67aad638d241992829c9feb94e522d2d2f4d869d36",
+      "paired_sequence_sha256": "eb33a9db3b5740dd1905538bbe3f3ce61653d158afeb822cbfecac14ef00732f",
+      "checks": {
+        "heavy": {
+          "length": 124,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.8198850154876709
+        },
+        "light": {
+          "length": 109,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.7955248355865479
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "denovo-scale-her2novel-k1_23",
+      "track": "denovo",
+      "source": "results/denovo-scale-audit/designs.csv",
+      "source_sha256": "dd5012da6b57418cc8b43e67aad638d241992829c9feb94e522d2d2f4d869d36",
+      "paired_sequence_sha256": "c61b4a1bdee2d3cd7435ebf9764426d0b3a5678c110d364eb3286853268bdf71",
+      "checks": {
+        "heavy": {
+          "length": 121,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.8580011129379272
+        },
+        "light": {
+          "length": 112,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.7394270300865173
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "denovo-scale-her2novel-k1_25",
+      "track": "denovo",
+      "source": "results/denovo-scale-audit/designs.csv",
+      "source_sha256": "dd5012da6b57418cc8b43e67aad638d241992829c9feb94e522d2d2f4d869d36",
+      "paired_sequence_sha256": "2afe5a7025242413696588086e7124eb42165337ea847d413f52257604221a19",
+      "checks": {
+        "heavy": {
+          "length": 126,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.7903229594230652
+        },
+        "light": {
+          "length": 111,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.8116989135742188
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "denovo-scale-her2novel-k1_27",
+      "track": "denovo",
+      "source": "results/denovo-scale-audit/designs.csv",
+      "source_sha256": "dd5012da6b57418cc8b43e67aad638d241992829c9feb94e522d2d2f4d869d36",
+      "paired_sequence_sha256": "8d16e3556afbfff707ca097e0013049843532074897643017b37ac829c00671d",
+      "checks": {
+        "heavy": {
+          "length": 119,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.8064435720443726
+        },
+        "light": {
+          "length": 109,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.764829158782959
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "denovo-scale-her2novel-k1_28",
+      "track": "denovo",
+      "source": "results/denovo-scale-audit/designs.csv",
+      "source_sha256": "dd5012da6b57418cc8b43e67aad638d241992829c9feb94e522d2d2f4d869d36",
+      "paired_sequence_sha256": "9731be8ac2ef09275cf0ed2374671025c24fdcf7941509d70f5230cde6186022",
+      "checks": {
+        "heavy": {
+          "length": 128,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.8404728174209595
+        },
+        "light": {
+          "length": 113,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.806911051273346
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "denovo-scale-her2novel-k1_29",
+      "track": "denovo",
+      "source": "results/denovo-scale-audit/designs.csv",
+      "source_sha256": "dd5012da6b57418cc8b43e67aad638d241992829c9feb94e522d2d2f4d869d36",
+      "paired_sequence_sha256": "fddef0706d338f878c7e72d4123143340cfcb88f3d30e216f71da71f8f7be370",
+      "checks": {
+        "heavy": {
+          "length": 128,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.8254528641700745
+        },
+        "light": {
+          "length": 109,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.7223808169364929
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "denovo-scale-her2novel-k1_30",
+      "track": "denovo",
+      "source": "results/denovo-scale-audit/designs.csv",
+      "source_sha256": "dd5012da6b57418cc8b43e67aad638d241992829c9feb94e522d2d2f4d869d36",
+      "paired_sequence_sha256": "bc874f116b67860e90d81091b3b6808fc8d1f39be1c3b9178c3993babd6d3285",
+      "checks": {
+        "heavy": {
+          "length": 124,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.8343484401702881
+        },
+        "light": {
+          "length": 106,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.8880265951156616
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    },
+    {
+      "sequence_id": "denovo-scale-her2novel-k1_31",
+      "track": "denovo",
+      "source": "results/denovo-scale-audit/designs.csv",
+      "source_sha256": "dd5012da6b57418cc8b43e67aad638d241992829c9feb94e522d2d2f4d869d36",
+      "paired_sequence_sha256": "03080a16c6f25115f33347541bc25d86333b9d8c3208c139220502efba217dda",
+      "checks": {
+        "heavy": {
+          "length": 121,
+          "cysteines": 2,
+          "numbered_chain": "H",
+          "confidence": 0.8092544674873352
+        },
+        "light": {
+          "length": 108,
+          "cysteines": 2,
+          "numbered_chain": "K",
+          "confidence": 0.8368374109268188
+        }
+      },
+      "official_abguard_status": "not_run_tool_unavailable",
+      "official_novelty_status": "pending",
+      "laboratory_status": "not_measured"
+    }
+  ]
+}

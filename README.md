@@ -2,11 +2,15 @@
 
 Начать коллеге: [настройка и доступы](docs/SETUP.md). Текущий план: [HER2 campaign](docs/CAMPAIGN.md).
 
+**Текущий черновик для обоих треков:** [CSV, локальные проверки и порядок подачи](output/submission-draft/README.md), [два слайда о генерации и оценке](output/pipeline-draft/README.md). В CSV 10 вариантов оптимизации и 43 de novo. Это исследовательский пул, не финальная заявка. Официальный `abguard` в проверенных окружениях не найден, новизна по базе Adaptyv не подтверждена.
+
+**Последняя серия:** [внешняя проверка SPR](docs/research/external-spr-results.md), [72 структурных предсказания на контролях](docs/research/template-controls-results.md), [64 генеративных дизайна и 43 локальных допуска](docs/research/denovo-scale-results.md), [фиксированные смеси Transformer и ridge](docs/research/hybrid-spr-results.md). Структурная постановка не прошла заранее записанный порог воспроизведения WT; массовый refold новой панели не запускали.
+
 **Чекпойнт экспериментов 14 ноября:** [результаты, ограничения и расположение файлов](docs/EXPERIMENT_CHECKPOINT.md). [PDF с объяснением](output/explainer/her2-intuition.pdf). Новые кандидаты ещё не проверены в лаборатории, конкурсных подач не было.
 
 [Текущая воронка выбора с Mermaid и словарём](docs/SELECTION_PIPELINE_RU.md), [парные признаки и AbLang2](docs/research/ablang-benchmark.md), [проверка 28 структурных предсказаний](docs/research/context-results.md).
 
-**Новый стенд:** [единый benchmark и два пайплайна](docs/BENCHMARK_SYSTEM.md), [таблица кандидатов и контролей](results/evaluation-board/report.md), [11 нейросетевых экспериментов и 100000 псевдометок](docs/research/neural-results.md), [21 повтор OpenDDE](docs/research/structural-replicate-results.md), [возможности моделей](docs/research/model-capability-audit.md), [компактный срез обучающих данных RFD4](docs/research/rfd4-training-data.md).
+**Стенд:** [единый benchmark и два пайплайна](docs/BENCHMARK_SYSTEM.md), [предыдущая таблица кандидатов и контролей](results/evaluation-board/report.md), [11 нейросетевых экспериментов и 100000 псевдометок](docs/research/neural-results.md), [21 повтор OpenDDE](docs/research/structural-replicate-results.md), [возможности моделей](docs/research/model-capability-audit.md), [компактный срез обучающих данных RFD4](docs/research/rfd4-training-data.md).
 
 Разделы репетиции ниже описывают ранние ESM-эксперименты. Их скоры отражают правдоподобие последовательности, а не измеренное улучшение связывания.
 

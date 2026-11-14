@@ -1,0 +1,9 @@
+## 2026-11-14: external SPR checks and structural control experiments
+
+Evaluated frozen sequence models on 36 compatible external Absci SPR controls after sequence, assay and overlap audits. Ridge detection ROC AUC was 0.833 and quantified-affinity Spearman was 0.492 on 25 binders. Grouped intervals do not establish an advantage over FACS, and the distant detection subset is weaker. Three fixed neural/ridge blends did not establish an improvement over the existing statistical references.
+
+Ran and audited 72 Protenix v2 control poses on the team H100. Complete-template WT passed the fixed top-1 reproduction rule in one of three seeds, masked-template WT in zero and complete-template target-MSA WT in zero. Candidate refolding was not admitted. The combined-seed runner prints its initialization seed; inspection of the pinned container source confirmed separate per-batch reseeding. Tests now check the actual receipt and log conventions. A pre-existing colleague GPU job was preserved; the target-MSA run used explicit shared admission with recorded memory headroom.
+
+Audited all 64 designs from the two pre-existing team RFD4 generation runs. Forty-three unique paired sequences passed local sequence and provenance checks. Prepared immutable 57-query evaluation panels (43 de novo, 10 optimization, four controls) and a separate 53-row draft CSV in the organizer's five-column schema. Both tracks are included. Every exported row passed local format and immunum checks, but official abguard and Adaptyv novelty were unavailable. No submission or laboratory order was made.
+
+Added two editable draft slides with preview images and retained raw structural artifacts, source hashes, public SPR input files and replay commands. Root independently reproduced the external, generation and structural audits. The full local suite passed 294 tests with four optional skips and 22 subtests. Thermal improvement remains unmeasured and does not enter candidate promotion.
