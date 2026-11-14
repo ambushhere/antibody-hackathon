@@ -1,0 +1,8 @@
+# Python 3.12. Linux CPU: install torch from the CPU index first (see protocol).
+ablang2 @ https://codeload.github.com/oxpig/AbLang2/tar.gz/586af3083c32b5fb2f0a1c855f2ad4f1cad15ec3#sha256=e83a6f24c23e93dee4e6d5bef2a75d942f05bb0da8fde8035efdd8fdd5ec7c12
+torch==2.8.0
+numpy==2.2.6
+gemmi==0.7.3
+einops==0.8.1
+rotary-embedding-torch==0.8.9
+requests==2.32.5
