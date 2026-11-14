@@ -18,9 +18,21 @@
 
 ## Задача (известна, объявлена не в 09:30)
 **HER2, челлендж Apheris.** Оптимизация связывателей против HER2 плюс exploratory de novo арм.
-Правила с расхождениями по порогам, лимитами длины и границами доказательств разобраны в
-[docs/CAMPAIGN.md](docs/CAMPAIGN.md). Стратегия дня и воронка ранжирования — [STRATEGY.md](STRATEGY.md).
-Готовые команды Foundry — [RUNBOOK.md](RUNBOOK.md). Находки по ходу — [AGENTS.md](AGENTS.md).
+
+Где что лежит:
+- [docs/EXPERIMENT_CHECKPOINT.md](docs/EXPERIMENT_CHECKPOINT.md) — **актуальное состояние**: что
+  посчитано, что это значит и чего это не значит, со ссылками на файлы результатов
+- [docs/CAMPAIGN.md](docs/CAMPAIGN.md) — правила, расхождения порогов, лимиты длины, границы доказательств
+- [docs/BENCHMARK.md](docs/BENCHMARK.md) и [docs/EXPERIMENT_DECISIONS.md](docs/EXPERIMENT_DECISIONS.md) — как воспроизвести и почему так выбрано
+- [STRATEGY.md](STRATEGY.md) — стратегия дня и воронка ранжирования
+- [RUNBOOK.md](RUNBOOK.md) — готовые команды Foundry. [COMPUTE.md](COMPUTE.md) — площадки
+- [docs/research/](docs/research/) — разбор публикаций провайдеров, термостабильность, негативные контроли
+- [AGENTS.md](AGENTS.md) — находки по ходу дня
+
+**Устаревшее в старых доках.** Нумерация эпитопов HER2 в STRATEGY.md и AGENTS.md была авторской
+из PDB; теперь она пересчитана в канонический UniProt P04626 через mmCIF-метки и SIFTS
+(для 1N8Z авторские 557–605 это канонические 579–627). Там же устарел разбор негативных
+контролей. Исправления в EXPERIMENT_CHECKPOINT.md, старые заметки специально не перезаписаны.
 
 Два решения, которые уже приняты и обоснованы в STRATEGY.md:
 - не делать de novo диффузией, оптимизировать известный связыватель (по двум раундам Adaptyv
