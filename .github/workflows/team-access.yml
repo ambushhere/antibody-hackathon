@@ -1,0 +1,31 @@
+name: Team access check
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  connectivity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Verify configured credentials and VM connection
+        env:
+          AMASS_API_KEY: ${{ secrets.AMASS_API_KEY }}
+          JAPANFOLD_API_KEY: ${{ secrets.JAPANFOLD_API_KEY }}
+          NEBIUS_CREDENTIALS_JSON: ${{ secrets.NEBIUS_CREDENTIALS_JSON }}
+          VM_SSH_KEY: ${{ secrets.VM_SSH_KEY }}
+          VM_HOST: ${{ secrets.VM_HOST }}
+          VM_KNOWN_HOSTS: ${{ secrets.VM_KNOWN_HOSTS }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -n "$AMASS_API_KEY"
+          test -n "$JAPANFOLD_API_KEY"
+          test -n "$NEBIUS_CREDENTIALS_JSON"
+          umask 077
+          mkdir -p ~/.ssh
+          printf '%s\n' "$VM_SSH_KEY" > ~/.ssh/team
+          printf '%s\n' "$VM_KNOWN_HOSTS" > ~/.ssh/known_hosts
+          trap 'rm -f ~/.ssh/team ~/.ssh/known_hosts' EXIT
+          ssh -o BatchMode=yes -o StrictHostKeyChecking=yes -o ConnectTimeout=15 -i ~/.ssh/team "$VM_HOST" \
+            'test -d /home/hackathon/almaz/data/hackathon-data && test -x /home/hackathon/almaz/work/.venv/bin/python && echo "VM and dataset paths available"'

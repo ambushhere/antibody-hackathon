@@ -6,3 +6,17 @@ data/raw/
 results/tmp/
 .DS_Store
 team-3
+
+# Ключи организаторов: не попадают в публичный репозиторий
+*.private.json
+participant-*/
+japanfold-*.txt
+*nebius*creds*
+nebius-runs/
+.env
+.env.local
+
+# Local venv can be a symlink in a worktree
+.venv
+.pytest_cache/
+*.joblib

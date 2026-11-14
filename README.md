@@ -1,5 +1,7 @@
 # AI x Antibodies Hackathon (Nucleate Norway, 14.11.2026)
 
+Начать коллеге: [настройка и доступы](docs/SETUP.md). Текущий план: [HER2 campaign](docs/CAMPAIGN.md).
+
 Контекст и чек-лист: [CLAUDE.md](CLAUDE.md)
 
 ## Окружение
