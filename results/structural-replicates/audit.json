@@ -1,0 +1,5030 @@
+{
+  "predictions": [
+    {
+      "seed": 42,
+      "query_id": "control_wt",
+      "cif_chain_to_role": {
+        "T": "T",
+        "H": "H",
+        "L": "L"
+      },
+      "antibody_residue_mapping": "1-based variable positions with equal-length CDRH3 substitutions",
+      "wt_contact_criterion_met": false,
+      "vh_vl_heavy_atom_clash_pairs_below_1p5A": 0,
+      "vh_vl_minimum_heavy_atom_distance_A": 2.5379184807672757,
+      "pae_token_chain_order": [
+        "T",
+        "H",
+        "L"
+      ],
+      "pae_token_chain_lengths": {
+        "T": 142,
+        "H": 120,
+        "L": 107
+      },
+      "pae_token_order_declaration": "tokens of the written structure, in file order",
+      "indexed_confidence_chain_order_inferred": [
+        "T",
+        "H",
+        "L"
+      ],
+      "confidence_axis_evidence": {
+        "method": "descending indexed chain pTM matched to ascending within-chain mean PAE and PDE",
+        "status": "rank inference; no explicit provider index labels or numerical pair ipTM reconstruction",
+        "within_chain_error_means_A": {
+          "pae": {
+            "T": 16.680845312005623,
+            "H": 1.681083191115823,
+            "L": 1.421234967401636
+          },
+          "pde": {
+            "T": 5.7156396569701515,
+            "H": 0.3519130787750085,
+            "L": 0.3326832502000102
+          }
+        },
+        "indexed_chain_ptm": {
+          "0": 0.347131,
+          "1": 0.960308,
+          "2": 0.961002
+        }
+      },
+      "pair_iptm_field": "pair_chains_iptm",
+      "pair_iptm_axis_basis": "descending indexed chain pTM matched to ascending within-chain mean PAE and PDE",
+      "provider_indexed_pair_iptm": {
+        "0": {
+          "0": 0.347131,
+          "1": 0.355761,
+          "2": 0.364583
+        },
+        "1": {
+          "0": 0.355761,
+          "1": 0.960308,
+          "2": 0.9548
+        },
+        "2": {
+          "0": 0.364583,
+          "1": 0.9548,
+          "2": 0.961002
+        }
+      },
+      "overall_iptm": 0.664629,
+      "provider_clash_flag": null,
+      "vh_vl_iptm": 0.9548,
+      "max_antibody_target_pair_iptm": 0.364583,
+      "iptm_H_T": 0.355761,
+      "iptm_L_T": 0.364583,
+      "pae_mean_T_H_A": 25.782315374316184,
+      "pae_mean_T_L_A": 25.777339764577835,
+      "pae_mean_H_T_A": 17.231237779760583,
+      "pae_mean_H_L_A": 2.610206655960681,
+      "pae_mean_L_T_A": 17.17047140656984,
+      "pae_mean_L_H_A": 2.442179052139461,
+      "target_contacts_p04626": [
+        526,
+        527,
+        546,
+        547,
+        548,
+        549,
+        550,
+        551,
+        552,
+        553,
+        554,
+        555,
+        560,
+        561,
+        562,
+        563,
+        564,
+        565,
+        566,
+        568,
+        569,
+        572,
+        573,
+        579,
+        580,
+        581
+      ],
+      "target_contacts_outside_common_p04626": [],
+      "wt_positions_recovered_p04626": [
+        579,
+        580
+      ],
+      "wt_contact_count": 2,
+      "wt_footprint_recall": 0.10526315789473684,
+      "wt_footprint_jaccard": 0.046511627906976744,
+      "antibody_contact_residues": [
+        "H:31",
+        "H:33",
+        "H:50",
+        "H:52",
+        "H:54",
+        "H:55",
+        "H:57",
+        "H:58",
+        "H:59",
+        "H:99",
+        "H:100",
+        "H:102",
+        "H:103",
+        "H:105",
+        "L:30",
+        "L:31",
+        "L:32",
+        "L:49",
+        "L:50",
+        "L:53",
+        "L:91",
+        "L:92",
+        "L:93",
+        "L:94"
+      ],
+      "heavy_atom_contact_pairs": 463,
+      "heavy_atom_clash_pairs_below_1p5A": 0,
+      "minimum_target_distance_A": 1.8511224349714954,
+      "contact_cutoff_A": 4.5,
+      "target_fit_ca_count": 109,
+      "target_fit_ca_rmsd_A": 12.983510584166972,
+      "antibody_mapped_ca_count": 227,
+      "antibody_ca_rmsd_in_target_frame_A": 60.31642414719714,
+      "antibody_centroid_displacement_A": 54.570540957750765,
+      "antibody_ref_interface_ca_count": 20,
+      "antibody_ref_interface_ca_rmsd_in_target_frame_A": 34.9407779274935,
+      "ref_interface_ca_count": 39,
+      "ref_interface_ca_rmsd_in_target_frame_A": 27.532004393430682,
+      "ref_interface_pae_ab_rows_target_cols_A": 18.69513702392578,
+      "ref_interface_pae_target_rows_ab_cols_A": 23.133752822875977
+    },
+    {
+      "seed": 42,
+      "query_id": "control_spr_strong",
+      "cif_chain_to_role": {
+        "T": "T",
+        "H": "H",
+        "L": "L"
+      },
+      "antibody_residue_mapping": "1-based variable positions with equal-length CDRH3 substitutions",
+      "wt_contact_criterion_met": false,
+      "vh_vl_heavy_atom_clash_pairs_below_1p5A": 0,
+      "vh_vl_minimum_heavy_atom_distance_A": 2.687477679405943,
+      "pae_token_chain_order": [
+        "T",
+        "H",
+        "L"
+      ],
+      "pae_token_chain_lengths": {
+        "T": 142,
+        "H": 120,
+        "L": 107
+      },
+      "pae_token_order_declaration": "tokens of the written structure, in file order",
+      "indexed_confidence_chain_order_inferred": [
+        "T",
+        "H",
+        "L"
+      ],
+      "confidence_axis_evidence": {
+        "method": "descending indexed chain pTM matched to ascending within-chain mean PAE and PDE",
+        "status": "rank inference; no explicit provider index labels or numerical pair ipTM reconstruction",
+        "within_chain_error_means_A": {
+          "pae": {
+            "T": 16.225537581338614,
+            "H": 1.833020506641931,
+            "L": 1.4169195640976329
+          },
+          "pde": {
+            "T": 5.207325875600979,
+            "H": 0.37143395046807,
+            "L": 0.33220901821875576
+          }
+        },
+        "indexed_chain_ptm": {
+          "0": 0.350537,
+          "1": 0.958297,
+          "2": 0.960601
+        }
+      },
+      "pair_iptm_field": "pair_chains_iptm",
+      "pair_iptm_axis_basis": "descending indexed chain pTM matched to ascending within-chain mean PAE and PDE",
+      "provider_indexed_pair_iptm": {
+        "0": {
+          "0": 0.350537,
+          "1": 0.311675,
+          "2": 0.305032
+        },
+        "1": {
+          "0": 0.311675,
+          "1": 0.958297,
+          "2": 0.951625
+        },
+        "2": {
+          "0": 0.305032,
+          "1": 0.951625,
+          "2": 0.960601
+        }
+      },
+      "overall_iptm": 0.629803,
+      "provider_clash_flag": null,
+      "vh_vl_iptm": 0.951625,
+      "max_antibody_target_pair_iptm": 0.311675,
+      "iptm_H_T": 0.311675,
+      "iptm_L_T": 0.305032,
+      "pae_mean_T_H_A": 25.7790127712796,
+      "pae_mean_T_L_A": 26.021008401446174,
+      "pae_mean_H_T_A": 19.022562610319522,
+      "pae_mean_H_L_A": 2.7937198429185655,
+      "pae_mean_L_T_A": 18.885270478491,
+      "pae_mean_L_H_A": 2.48322170335695,
+      "target_contacts_p04626": [
+        514,
+        521,
+        524,
+        525,
+        526,
+        527,
+        548,
+        549,
+        550,
+        551,
+        553,
+        554,
+        556,
+        559,
+        561,
+        562,
+        563,
+        564,
+        565,
+        566,
+        568,
+        579,
+        580,
+        581,
+        582,
+        601,
+        602,
+        604,
+        623,
+        631,
+        632,
+        648,
+        649,
+        650,
+        651,
+        652
+      ],
+      "target_contacts_outside_common_p04626": [
+        604,
+        631,
+        632,
+        648,
+        649,
+        650,
+        651,
+        652
+      ],
+      "wt_positions_recovered_p04626": [
+        579,
+        580,
+        582,
+        601
+      ],
+      "wt_contact_count": 4,
+      "wt_footprint_recall": 0.21052631578947367,
+      "wt_footprint_jaccard": 0.09302325581395349,
+      "antibody_contact_residues": [
+        "H:33",
+        "H:50",
+        "H:52",
+        "H:55",
+        "H:57",
+        "H:58",
+        "H:59",
+        "H:65",
+        "H:66",
+        "H:67",
+        "H:68",
+        "H:69",
+        "H:84",
+        "H:85",
+        "H:99",
+        "H:102",
+        "H:103",
+        "H:104",
+        "H:105",
+        "L:28",
+        "L:30",
+        "L:31",
+        "L:49",
+        "L:50",
+        "L:53",
+        "L:91",
+        "L:92",
+        "L:93",
+        "L:94"
+      ],
+      "heavy_atom_contact_pairs": 538,
+      "heavy_atom_clash_pairs_below_1p5A": 1,
+      "minimum_target_distance_A": 1.3581550985977038,
+      "contact_cutoff_A": 4.5,
+      "target_fit_ca_count": 109,
+      "target_fit_ca_rmsd_A": 12.767454409978082,
+      "antibody_mapped_ca_count": 227,
+      "antibody_ca_rmsd_in_target_frame_A": 55.40968355875456,
+      "antibody_centroid_displacement_A": 47.22668871148788,
+      "antibody_ref_interface_ca_count": 20,
+      "antibody_ref_interface_ca_rmsd_in_target_frame_A": 31.24126582912431,
+      "ref_interface_ca_count": 39,
+      "ref_interface_ca_rmsd_in_target_frame_A": 24.973537500072716,
+      "ref_interface_pae_ab_rows_target_cols_A": 19.603195190429688,
+      "ref_interface_pae_target_rows_ab_cols_A": 22.72743797302246
+    },
+    {
+      "seed": 42,
+      "query_id": "control_spr_weak",
+      "cif_chain_to_role": {
+        "T": "T",
+        "H": "H",
+        "L": "L"
+      },
+      "antibody_residue_mapping": "1-based variable positions with equal-length CDRH3 substitutions",
+      "wt_contact_criterion_met": false,
+      "vh_vl_heavy_atom_clash_pairs_below_1p5A": 0,
+      "vh_vl_minimum_heavy_atom_distance_A": 2.525429420633604,
+      "pae_token_chain_order": [
+        "T",
+        "H",
+        "L"
+      ],
+      "pae_token_chain_lengths": {
+        "T": 142,
+        "H": 120,
+        "L": 107
+      },
+      "pae_token_order_declaration": "tokens of the written structure, in file order",
+      "indexed_confidence_chain_order_inferred": [
+        "T",
+        "H",
+        "L"
+      ],
+      "confidence_axis_evidence": {
+        "method": "descending indexed chain pTM matched to ascending within-chain mean PAE and PDE",
+        "status": "rank inference; no explicit provider index labels or numerical pair ipTM reconstruction",
+        "within_chain_error_means_A": {
+          "pae": {
+            "T": 16.705496939940776,
+            "H": 2.074358164384547,
+            "L": 1.5029209152779024
+          },
+          "pde": {
+            "T": 5.466146668116622,
+            "H": 0.41310361630800696,
+            "L": 0.3402783940276555
+          }
+        },
+        "indexed_chain_ptm": {
+          "0": 0.331466,
+          "1": 0.952457,
+          "2": 0.958757
+        }
+      },
+      "pair_iptm_field": "pair_chains_iptm",
+      "pair_iptm_axis_basis": "descending indexed chain pTM matched to ascending within-chain mean PAE and PDE",
+      "provider_indexed_pair_iptm": {
+        "0": {
+          "0": 0.331466,
+          "1": 0.361304,
+          "2": 0.353643
+        },
+        "1": {
+          "0": 0.361304,
+          "1": 0.952457,
+          "2": 0.945017
+        },
+        "2": {
+          "0": 0.353643,
+          "1": 0.945017,
+          "2": 0.958757
+        }
+      },
+      "overall_iptm": 0.65448,
+      "provider_clash_flag": null,
+      "vh_vl_iptm": 0.945017,
+      "max_antibody_target_pair_iptm": 0.361304,
+      "iptm_H_T": 0.361304,
+      "iptm_L_T": 0.353643,
+      "pae_mean_T_H_A": 25.01231805556257,
+      "pae_mean_T_L_A": 25.499893067619652,
+      "pae_mean_H_T_A": 16.979542886679162,
+      "pae_mean_H_L_A": 3.169479624488365,
+      "pae_mean_L_T_A": 17.074276389550956,
+      "pae_mean_L_H_A": 2.717586249521588,
+      "target_contacts_p04626": [
+        511,
+        512,
+        513,
+        515,
+        516,
+        517,
+        518,
+        523,
+        530,
+        558,
+        559,
+        561,
+        564,
+        565,
+        566,
+        579,
+        580,
+        581,
+        582,
+        583,
+        606,
+        607,
+        608,
+        609,
+        610,
+        619,
+        627,
+        637,
+        638,
+        640
+      ],
+      "target_contacts_outside_common_p04626": [
+        606,
+        607,
+        608,
+        609,
+        610,
+        637,
+        638,
+        640
+      ],
+      "wt_positions_recovered_p04626": [
+        579,
+        580,
+        582,
+        583,
+        627
+      ],
+      "wt_contact_count": 5,
+      "wt_footprint_recall": 0.2631578947368421,
+      "wt_footprint_jaccard": 0.1388888888888889,
+      "antibody_contact_residues": [
+        "H:31",
+        "H:33",
+        "H:50",
+        "H:52",
+        "H:55",
+        "H:57",
+        "H:58",
+        "H:59",
+        "H:60",
+        "H:62",
+        "H:65",
+        "H:98",
+        "H:99",
+        "H:100",
+        "H:101",
+        "H:102",
+        "H:103",
+        "H:104",
+        "H:105",
+        "L:28",
+        "L:30",
+        "L:49",
+        "L:53",
+        "L:55",
+        "L:56",
+        "L:57",
+        "L:91",
+        "L:92",
+        "L:93",
+        "L:94"
+      ],
+      "heavy_atom_contact_pairs": 535,
+      "heavy_atom_clash_pairs_below_1p5A": 1,
+      "minimum_target_distance_A": 1.459854895605145,
+      "contact_cutoff_A": 4.5,
+      "target_fit_ca_count": 109,
+      "target_fit_ca_rmsd_A": 13.08300258842499,
+      "antibody_mapped_ca_count": 227,
+      "antibody_ca_rmsd_in_target_frame_A": 48.86002122691809,
+      "antibody_centroid_displacement_A": 39.92733401763405,
+      "antibody_ref_interface_ca_count": 20,
+      "antibody_ref_interface_ca_rmsd_in_target_frame_A": 30.161906593551077,
+      "ref_interface_ca_count": 39,
+      "ref_interface_ca_rmsd_in_target_frame_A": 24.401706866145116,
+      "ref_interface_pae_ab_rows_target_cols_A": 17.232501983642578,
+      "ref_interface_pae_target_rows_ab_cols_A": 21.57086753845215
+    },
+    {
+      "seed": 42,
+      "query_id": "control_facs_low",
+      "cif_chain_to_role": {
+        "T": "T",
+        "H": "H",
+        "L": "L"
+      },
+      "antibody_residue_mapping": "1-based variable positions with equal-length CDRH3 substitutions",
+      "wt_contact_criterion_met": false,
+      "vh_vl_heavy_atom_clash_pairs_below_1p5A": 0,
+      "vh_vl_minimum_heavy_atom_distance_A": 2.6216272583863005,
+      "pae_token_chain_order": [
+        "T",
+        "H",
+        "L"
+      ],
+      "pae_token_chain_lengths": {
+        "T": 142,
+        "H": 120,
+        "L": 107
+      },
+      "pae_token_order_declaration": "tokens of the written structure, in file order",
+      "indexed_confidence_chain_order_inferred": [
+        "T",
+        "H",
+        "L"
+      ],
+      "confidence_axis_evidence": {
+        "method": "descending indexed chain pTM matched to ascending within-chain mean PAE and PDE",
+        "status": "rank inference; no explicit provider index labels or numerical pair ipTM reconstruction",
+        "within_chain_error_means_A": {
+          "pae": {
+            "T": 16.54009118395514,
+            "H": 2.9341794880996974,
+            "L": 1.5177957502444537
+          },
+          "pde": {
+            "T": 5.831979407003843,
+            "H": 0.588722695350233,
+            "L": 0.34409639558184874
+          }
+        },
+        "indexed_chain_ptm": {
+          "0": 0.363024,
+          "1": 0.939123,
+          "2": 0.957146
+        }
+      },
+      "pair_iptm_field": "pair_chains_iptm",
+      "pair_iptm_axis_basis": "descending indexed chain pTM matched to ascending within-chain mean PAE and PDE",
+      "provider_indexed_pair_iptm": {
+        "0": {
+          "0": 0.363024,
+          "1": 0.273111,
+          "2": 0.272847
+        },
+        "1": {
+          "0": 0.273111,
+          "1": 0.939123,
+          "2": 0.942579
+        },
+        "2": {
+          "0": 0.272847,
+          "1": 0.942579,
+          "2": 0.957146
+        }
+      },
+      "overall_iptm": 0.60276,
+      "provider_clash_flag": null,
+      "vh_vl_iptm": 0.942579,
+      "max_antibody_target_pair_iptm": 0.273111,
+      "iptm_H_T": 0.273111,
+      "iptm_L_T": 0.272847,
+      "pae_mean_T_H_A": 26.64341003475055,
+      "pae_mean_T_L_A": 27.051464356920413,
+      "pae_mean_H_T_A": 20.396882105433324,
+      "pae_mean_H_L_A": 4.073838989903158,
+      "pae_mean_L_T_A": 19.793818854180955,
+      "pae_mean_L_H_A": 3.003956410780874,
+      "target_contacts_p04626": [
+        514,
+        515,
+        521,
+        524,
+        525,
+        526,
+        527,
+        528,
+        547,
+        548,
+        549,
+        550,
+        551,
+        554,
+        558,
+        559,
+        560,
+        561,
+        562,
+        564,
+        565,
+        579,
+        580,
+        583,
+        607,
+        609,
+        610,
+        652
+      ],
+      "target_contacts_outside_common_p04626": [
+        607,
+        609,
+        610,
+        652
+      ],
+      "wt_positions_recovered_p04626": [
+        579,
+        580,
+        583
+      ],
+      "wt_contact_count": 3,
+      "wt_footprint_recall": 0.15789473684210525,
+      "wt_footprint_jaccard": 0.075,
+      "antibody_contact_residues": [
+        "H:30",
+        "H:31",
+        "H:32",
+        "H:33",
+        "H:50",
+        "H:52",
+        "H:54",
+        "H:55",
+        "H:57",
+        "H:58",
+        "H:59",
+        "H:98",
+        "H:99",
+        "H:101",
+        "H:102",
+        "H:103",
+        "H:104",
+        "H:105",
+        "L:30",
+        "L:31",
+        "L:32",
+        "L:50",
+        "L:53",
+        "L:91",
+        "L:92",
+        "L:93",
+        "L:94"
+      ],
+      "heavy_atom_contact_pairs": 392,
+      "heavy_atom_clash_pairs_below_1p5A": 0,
+      "minimum_target_distance_A": 1.8365734969249647,
+      "contact_cutoff_A": 4.5,
+      "target_fit_ca_count": 109,
+      "target_fit_ca_rmsd_A": 14.105333082667187,
+      "antibody_mapped_ca_count": 227,
+      "antibody_ca_rmsd_in_target_frame_A": 62.21328840407324,
+      "antibody_centroid_displacement_A": 55.87515136751518,
+      "antibody_ref_interface_ca_count": 20,
+      "antibody_ref_interface_ca_rmsd_in_target_frame_A": 37.146026414391606,
+      "ref_interface_ca_count": 39,
+      "ref_interface_ca_rmsd_in_target_frame_A": 29.285889588300183,
+      "ref_interface_pae_ab_rows_target_cols_A": 21.280542373657227,
+      "ref_interface_pae_target_rows_ab_cols_A": 23.492218017578125
+    },
+    {
+      "seed": 42,
+      "query_id": "denovo_fullseq_k1_1",
+      "cif_chain_to_role": {
+        "T": "T",
+        "H": "H",
+        "L": "L"
+      },
+      "antibody_residue_mapping": null,
+      "wt_contact_criterion_met": false,
+      "vh_vl_heavy_atom_clash_pairs_below_1p5A": 0,
+      "vh_vl_minimum_heavy_atom_distance_A": 1.5821696387902362,
+      "pae_token_chain_order": [
+        "T",
+        "H",
+        "L"
+      ],
+      "pae_token_chain_lengths": {
+        "T": 142,
+        "H": 126,
+        "L": 113
+      },
+      "pae_token_order_declaration": "tokens of the written structure, in file order",
+      "indexed_confidence_chain_order_inferred": [
+        "T",
+        "H",
+        "L"
+      ],
+      "confidence_axis_evidence": {
+        "method": "descending indexed chain pTM matched to ascending within-chain mean PAE and PDE",
+        "status": "rank inference; no explicit provider index labels or numerical pair ipTM reconstruction",
+        "within_chain_error_means_A": {
+          "pae": {
+            "T": 15.926067102070107,
+            "H": 2.2004790936452854,
+            "L": 2.9347793923556567
+          },
+          "pde": {
+            "T": 5.547248130506453,
+            "H": 0.4087155880282135,
+            "L": 0.5523889826756411
+          }
+        },
+        "indexed_chain_ptm": {
+          "0": 0.470586,
+          "1": 0.951499,
+          "2": 0.938763
+        }
+      },
+      "pair_iptm_field": "pair_chains_iptm",
+      "pair_iptm_axis_basis": "descending indexed chain pTM matched to ascending within-chain mean PAE and PDE",
+      "provider_indexed_pair_iptm": {
+        "0": {
+          "0": 0.470586,
+          "1": 0.624436,
+          "2": 0.590308
+        },
+        "1": {
+          "0": 0.624436,
+          "1": 0.951499,
+          "2": 0.939357
+        },
+        "2": {
+          "0": 0.590308,
+          "1": 0.939357,
+          "2": 0.938763
+        }
+      },
+      "overall_iptm": 0.719205,
+      "provider_clash_flag": null,
+      "vh_vl_iptm": 0.939357,
+      "max_antibody_target_pair_iptm": 0.624436,
+      "iptm_H_T": 0.624436,
+      "iptm_L_T": 0.590308,
+      "pae_mean_T_H_A": 22.608074207181183,
+      "pae_mean_T_L_A": 22.469924608727695,
+      "pae_mean_H_T_A": 14.857250213363201,
+      "pae_mean_H_L_A": 3.3194186392125493,
+      "pae_mean_L_T_A": 15.35888857734808,
+      "pae_mean_L_H_A": 4.224465855997104,
+      "target_contacts_p04626": [
+        564,
+        565,
+        566,
+        567,
+        568,
+        570,
+        571,
+        577,
+        579,
+        580,
+        581,
+        582,
+        583,
+        584,
+        585,
+        586,
+        589,
+        612,
+        613,
+        615,
+        616,
+        617,
+        618,
+        619
+      ],
+      "target_contacts_outside_common_p04626": [
+        612
+      ],
+      "wt_positions_recovered_p04626": [
+        579,
+        580,
+        582,
+        583,
+        613,
+        615,
+        618
+      ],
+      "wt_contact_count": 7,
+      "wt_footprint_recall": 0.3684210526315789,
+      "wt_footprint_jaccard": 0.2,
+      "antibody_contact_residues": [
+        "H:33",
+        "H:51",
+        "H:53",
+        "H:55",
+        "H:56",
+        "H:58",
+        "H:102",
+        "H:104",
+        "H:105",
+        "H:106",
+        "H:107",
+        "H:108",
+        "H:109",
+        "H:110",
+        "H:111",
+        "L:29",
+        "L:30",
+        "L:31",
+        "L:32",
+        "L:34",
+        "L:35",
+        "L:94",
+        "L:96",
+        "L:97",
+        "L:98"
+      ],
+      "heavy_atom_contact_pairs": 378,
+      "heavy_atom_clash_pairs_below_1p5A": 0,
+      "minimum_target_distance_A": 1.933241470269519,
+      "contact_cutoff_A": 4.5,
+      "target_fit_ca_count": 109,
+      "target_fit_ca_rmsd_A": 13.946774268286955
+    },
+    {
+      "seed": 42,
+      "query_id": "opt_WTAVGFFAMD",
+      "cif_chain_to_role": {
+        "T": "T",
+        "H": "H",
+        "L": "L"
+      },
+      "antibody_residue_mapping": "1-based variable positions with equal-length CDRH3 substitutions",
+      "wt_contact_criterion_met": false,
+      "vh_vl_heavy_atom_clash_pairs_below_1p5A": 0,
+      "vh_vl_minimum_heavy_atom_distance_A": 2.5794375417142477,
+      "pae_token_chain_order": [
+        "T",
+        "H",
+        "L"
+      ],
+      "pae_token_chain_lengths": {
+        "T": 142,
+        "H": 120,
+        "L": 107
+      },
+      "pae_token_order_declaration": "tokens of the written structure, in file order",
+      "indexed_confidence_chain_order_inferred": [
+        "T",
+        "H",
+        "L"
+      ],
+      "confidence_axis_evidence": {
+        "method": "descending indexed chain pTM matched to ascending within-chain mean PAE and PDE",
+        "status": "rank inference; no explicit provider index labels or numerical pair ipTM reconstruction",
+        "within_chain_error_means_A": {
+          "pae": {
+            "T": 16.49956534481745,
+            "H": 2.142569163646549,
+            "L": 1.4602296716891603
+          },
+          "pde": {
+            "T": 5.611167854069481,
+            "H": 0.41648540164447495,
+            "L": 0.336629138798555
+          }
+        },
+        "indexed_chain_ptm": {
+          "0": 0.3535,
+          "1": 0.954167,
+          "2": 0.959487
+        }
+      },
+      "pair_iptm_field": "pair_chains_iptm",
+      "pair_iptm_axis_basis": "descending indexed chain pTM matched to ascending within-chain mean PAE and PDE",
+      "provider_indexed_pair_iptm": {
+        "0": {
+          "0": 0.3535,
+          "1": 0.374631,
+          "2": 0.370522
+        },
+        "1": {
+          "0": 0.374631,
+          "1": 0.954167,
+          "2": 0.950333
+        },
+        "2": {
+          "0": 0.370522,
+          "1": 0.950333,
+          "2": 0.959487
+        }
+      },
+      "overall_iptm": 0.665628,
+      "provider_clash_flag": null,
+      "vh_vl_iptm": 0.950333,
+      "max_antibody_target_pair_iptm": 0.374631,
+      "iptm_H_T": 0.374631,
+      "iptm_L_T": 0.370522,
+      "pae_mean_T_H_A": 24.917531592577276,
+      "pae_mean_T_L_A": 24.858541813840738,
+      "pae_mean_H_T_A": 16.633350552723442,
+      "pae_mean_H_L_A": 3.13312831646139,
+      "pae_mean_L_T_A": 16.50195459414426,
+      "pae_mean_L_H_A": 2.588947955570024,
+      "target_contacts_p04626": [
+        512,
+        513,
+        514,
+        515,
+        517,
+        525,
+        528,
+        529,
+        530,
+        531,
+        532,
+        533,
+        534,
+        543,
+        547,
+        559,
+        560,
+        561,
+        562,
+        563,
+        564,
+        565,
+        568,
+        579,
+        580,
+        607,
+        608,
+        609,
+        610,
+        611,
+        612,
+        613,
+        627,
+        628,
+        629,
+        637,
+        639
+      ],
+      "target_contacts_outside_common_p04626": [
+        607,
+        608,
+        609,
+        610,
+        611,
+        612,
+        637,
+        639
+      ],
+      "wt_positions_recovered_p04626": [
+        579,
+        580,
+        613,
+        627
+      ],
+      "wt_contact_count": 4,
+      "wt_footprint_recall": 0.21052631578947367,
+      "wt_footprint_jaccard": 0.09090909090909091,
+      "antibody_contact_residues": [
+        "H:26",
+        "H:27",
+        "H:30",
+        "H:31",
+        "H:32",
+        "H:33",
+        "H:50",
+        "H:52",
+        "H:54",
+        "H:55",
+        "H:57",
+        "H:59",
+        "H:98",
+        "H:99",
+        "H:100",
+        "H:101",
+        "H:102",
+        "H:103",
+        "H:104",
+        "H:105",
+        "H:108",
+        "H:109",
+        "L:28",
+        "L:30",
+        "L:31",
+        "L:32",
+        "L:49",
+        "L:50",
+        "L:53",
+        "L:54",
+        "L:55",
+        "L:56",
+        "L:57",
+        "L:58",
+        "L:91",
+        "L:92",
+        "L:93",
+        "L:94",
+        "L:96"
+      ],
+      "heavy_atom_contact_pairs": 650,
+      "heavy_atom_clash_pairs_below_1p5A": 1,
+      "minimum_target_distance_A": 1.4650181315796866,
+      "contact_cutoff_A": 4.5,
+      "target_fit_ca_count": 109,
+      "target_fit_ca_rmsd_A": 15.078365389041291,
+      "antibody_mapped_ca_count": 227,
+      "antibody_ca_rmsd_in_target_frame_A": 56.70782894747836,
+      "antibody_centroid_displacement_A": 49.39789243053118,
+      "antibody_ref_interface_ca_count": 20,
+      "antibody_ref_interface_ca_rmsd_in_target_frame_A": 32.911104711577806,
+      "ref_interface_ca_count": 39,
+      "ref_interface_ca_rmsd_in_target_frame_A": 27.043286518221986,
+      "ref_interface_pae_ab_rows_target_cols_A": 18.676502227783203,
+      "ref_interface_pae_target_rows_ab_cols_A": 22.215593338012695
+    },
+    {
+      "seed": 42,
+      "query_id": "opt_YTGDGFPAMN",
+      "cif_chain_to_role": {
+        "T": "T",
+        "H": "H",
+        "L": "L"
+      },
+      "antibody_residue_mapping": "1-based variable positions with equal-length CDRH3 substitutions",
+      "wt_contact_criterion_met": false,
+      "vh_vl_heavy_atom_clash_pairs_below_1p5A": 0,
+      "vh_vl_minimum_heavy_atom_distance_A": 2.5996973087119826,
+      "pae_token_chain_order": [
+        "T",
+        "H",
+        "L"
+      ],
+      "pae_token_chain_lengths": {
+        "T": 142,
+        "H": 120,
+        "L": 107
+      },
+      "pae_token_order_declaration": "tokens of the written structure, in file order",
+      "indexed_confidence_chain_order_inferred": [
+        "T",
+        "H",
+        "L"
+      ],
+      "confidence_axis_evidence": {
+        "method": "descending indexed chain pTM matched to ascending within-chain mean PAE and PDE",
+        "status": "rank inference; no explicit provider index labels or numerical pair ipTM reconstruction",
+        "within_chain_error_means_A": {
+          "pae": {
+            "T": 17.584934795574995,
+            "H": 2.3500267269896966,
+            "L": 1.466980800333268
+          },
+          "pde": {
+            "T": 6.381926864237805,
+            "H": 0.4521635382187863,
+            "L": 0.3378870350995515
+          }
+        },
+        "indexed_chain_ptm": {
+          "0": 0.304751,
+          "1": 0.95094,
+          "2": 0.958868
+        }
+      },
+      "pair_iptm_field": "pair_chains_iptm",
+      "pair_iptm_axis_basis": "descending indexed chain pTM matched to ascending within-chain mean PAE and PDE",
+      "provider_indexed_pair_iptm": {
+        "0": {
+          "0": 0.304751,
+          "1": 0.313624,
+          "2": 0.322781
+        },
+        "1": {
+          "0": 0.313624,
+          "1": 0.95094,
+          "2": 0.948824
+        },
+        "2": {
+          "0": 0.322781,
+          "1": 0.948824,
+          "2": 0.958868
+        }
+      },
+      "overall_iptm": 0.6369,
+      "provider_clash_flag": null,
+      "vh_vl_iptm": 0.948824,
+      "max_antibody_target_pair_iptm": 0.322781,
+      "iptm_H_T": 0.313624,
+      "iptm_L_T": 0.322781,
+      "pae_mean_T_H_A": 26.4035790826793,
+      "pae_mean_T_L_A": 26.946091619340688,
+      "pae_mean_H_T_A": 19.502989694881887,
+      "pae_mean_H_L_A": 3.357277354177935,
+      "pae_mean_L_T_A": 19.135698225806696,
+      "pae_mean_L_H_A": 2.6676704448331554,
+      "target_contacts_p04626": [
+        512,
+        514,
+        525,
+        526,
+        527,
+        548,
+        550,
+        558,
+        559,
+        560,
+        561,
+        562,
+        564,
+        565,
+        566,
+        579,
+        580,
+        581,
+        582
+      ],
+      "target_contacts_outside_common_p04626": [],
+      "wt_positions_recovered_p04626": [
+        579,
+        580,
+        582
+      ],
+      "wt_contact_count": 3,
+      "wt_footprint_recall": 0.15789473684210525,
+      "wt_footprint_jaccard": 0.08571428571428572,
+      "antibody_contact_residues": [
+        "H:30",
+        "H:31",
+        "H:32",
+        "H:33",
+        "H:50",
+        "H:52",
+        "H:54",
+        "H:55",
+        "H:57",
+        "H:59",
+        "H:99",
+        "H:100",
+        "H:101",
+        "H:102",
+        "H:103",
+        "H:105",
+        "L:30",
+        "L:31",
+        "L:32",
+        "L:50",
+        "L:91",
+        "L:92",
+        "L:93",
+        "L:94"
+      ],
+      "heavy_atom_contact_pairs": 404,
+      "heavy_atom_clash_pairs_below_1p5A": 1,
+      "minimum_target_distance_A": 1.4962453107880809,
+      "contact_cutoff_A": 4.5,
+      "target_fit_ca_count": 109,
+      "target_fit_ca_rmsd_A": 14.188516917964344,
+      "antibody_mapped_ca_count": 227,
+      "antibody_ca_rmsd_in_target_frame_A": 60.472766581718915,
+      "antibody_centroid_displacement_A": 55.284346054737036,
+      "antibody_ref_interface_ca_count": 20,
+      "antibody_ref_interface_ca_rmsd_in_target_frame_A": 35.919014084694325,
+      "ref_interface_ca_count": 39,
+      "ref_interface_ca_rmsd_in_target_frame_A": 27.655960762541373,
+      "ref_interface_pae_ab_rows_target_cols_A": 19.657190322875977,
+      "ref_interface_pae_target_rows_ab_cols_A": 23.170818328857422
+    },
+    {
+      "seed": 43,
+      "query_id": "control_wt",
+      "cif_chain_to_role": {
+        "T": "T",
+        "H": "H",
+        "L": "L"
+      },
+      "antibody_residue_mapping": "1-based variable positions with equal-length CDRH3 substitutions",
+      "wt_contact_criterion_met": false,
+      "vh_vl_heavy_atom_clash_pairs_below_1p5A": 0,
+      "vh_vl_minimum_heavy_atom_distance_A": 2.6300835058954752,
+      "pae_token_chain_order": [
+        "T",
+        "H",
+        "L"
+      ],
+      "pae_token_chain_lengths": {
+        "T": 142,
+        "H": 120,
+        "L": 107
+      },
+      "pae_token_order_declaration": "tokens of the written structure, in file order",
+      "indexed_confidence_chain_order_inferred": [
+        "T",
+        "H",
+        "L"
+      ],
+      "confidence_axis_evidence": {
+        "method": "descending indexed chain pTM matched to ascending within-chain mean PAE and PDE",
+        "status": "rank inference; no explicit provider index labels or numerical pair ipTM reconstruction",
+        "within_chain_error_means_A": {
+          "pae": {
+            "T": 13.485599449494485,
+            "H": 1.680262326227708,
+            "L": 1.3861161408564735
+          },
+          "pde": {
+            "T": 3.6684835491743715,
+            "H": 0.35279961332264875,
+            "L": 0.32965988067573143
+          }
+        },
+        "indexed_chain_ptm": {
+          "0": 0.578172,
+          "1": 0.959945,
+          "2": 0.961513
+        }
+      },
+      "pair_iptm_field": "pair_chains_iptm",
+      "pair_iptm_axis_basis": "descending indexed chain pTM matched to ascending within-chain mean PAE and PDE",
+      "provider_indexed_pair_iptm": {
+        "0": {
+          "0": 0.578172,
+          "1": 0.218981,
+          "2": 0.224517
+        },
+        "1": {
+          "0": 0.218981,
+          "1": 0.959945,
+          "2": 0.954866
+        },
+        "2": {
+          "0": 0.224517,
+          "1": 0.954866,
+          "2": 0.961513
+        }
+      },
+      "overall_iptm": 0.583916,
+      "provider_clash_flag": null,
+      "vh_vl_iptm": 0.954866,
+      "max_antibody_target_pair_iptm": 0.224517,
+      "iptm_H_T": 0.218981,
+      "iptm_L_T": 0.224517,
+      "pae_mean_T_H_A": 26.924177715420164,
+      "pae_mean_T_L_A": 27.91741492833937,
+      "pae_mean_H_T_A": 22.7673607030385,
+      "pae_mean_H_L_A": 2.5818833008385336,
+      "pae_mean_L_T_A": 22.685705117650826,
+      "pae_mean_L_H_A": 2.4125476212168224,
+      "target_contacts_p04626": [
+        519,
+        521,
+        526,
+        527,
+        528,
+        529,
+        530,
+        532,
+        533,
+        538,
+        539,
+        540,
+        541,
+        542,
+        604,
+        605,
+        606,
+        607,
+        608,
+        609,
+        631,
+        632,
+        633,
+        634,
+        635,
+        636,
+        640,
+        641,
+        642,
+        643,
+        644,
+        645,
+        647,
+        650,
+        651,
+        652
+      ],
+      "target_contacts_outside_common_p04626": [
+        604,
+        605,
+        606,
+        607,
+        608,
+        609,
+        631,
+        632,
+        633,
+        634,
+        635,
+        636,
+        640,
+        641,
+        642,
+        643,
+        644,
+        645,
+        647,
+        650,
+        651,
+        652
+      ],
+      "wt_positions_recovered_p04626": [],
+      "wt_contact_count": 0,
+      "wt_footprint_recall": 0.0,
+      "wt_footprint_jaccard": 0.0,
+      "antibody_contact_residues": [
+        "H:31",
+        "H:32",
+        "H:33",
+        "H:50",
+        "H:52",
+        "H:55",
+        "H:56",
+        "H:57",
+        "H:58",
+        "H:59",
+        "H:60",
+        "H:62",
+        "H:65",
+        "H:66",
+        "H:67",
+        "H:68",
+        "H:69",
+        "H:84",
+        "H:85",
+        "H:99",
+        "H:100",
+        "H:101",
+        "H:102",
+        "H:103",
+        "H:104",
+        "H:105",
+        "L:28",
+        "L:30",
+        "L:31",
+        "L:32",
+        "L:49",
+        "L:50",
+        "L:53",
+        "L:91",
+        "L:92",
+        "L:93",
+        "L:94"
+      ],
+      "heavy_atom_contact_pairs": 646,
+      "heavy_atom_clash_pairs_below_1p5A": 1,
+      "minimum_target_distance_A": 1.449249060689612,
+      "contact_cutoff_A": 4.5,
+      "target_fit_ca_count": 109,
+      "target_fit_ca_rmsd_A": 11.744364826608194,
+      "antibody_mapped_ca_count": 227,
+      "antibody_ca_rmsd_in_target_frame_A": 42.08417487074025,
+      "antibody_centroid_displacement_A": 37.553138125995844,
+      "antibody_ref_interface_ca_count": 20,
+      "antibody_ref_interface_ca_rmsd_in_target_frame_A": 26.134209356534193,
+      "ref_interface_ca_count": 39,
+      "ref_interface_ca_rmsd_in_target_frame_A": 20.652431879635547,
+      "ref_interface_pae_ab_rows_target_cols_A": 22.01365852355957,
+      "ref_interface_pae_target_rows_ab_cols_A": 24.172163009643555
+    },
+    {
+      "seed": 43,
+      "query_id": "control_spr_strong",
+      "cif_chain_to_role": {
+        "T": "T",
+        "H": "H",
+        "L": "L"
+      },
+      "antibody_residue_mapping": "1-based variable positions with equal-length CDRH3 substitutions",
+      "wt_contact_criterion_met": false,
+      "vh_vl_heavy_atom_clash_pairs_below_1p5A": 0,
+      "vh_vl_minimum_heavy_atom_distance_A": 2.6011805388553046,
+      "pae_token_chain_order": [
+        "T",
+        "H",
+        "L"
+      ],
+      "pae_token_chain_lengths": {
+        "T": 142,
+        "H": 120,
+        "L": 107
+      },
+      "pae_token_order_declaration": "tokens of the written structure, in file order",
+      "indexed_confidence_chain_order_inferred": [
+        "T",
+        "H",
+        "L"
+      ],
+      "confidence_axis_evidence": {
+        "method": "descending indexed chain pTM matched to ascending within-chain mean PAE and PDE",
+        "status": "rank inference; no explicit provider index labels or numerical pair ipTM reconstruction",
+        "within_chain_error_means_A": {
+          "pae": {
+            "T": 16.85575894404264,
+            "H": 1.8078071619425382,
+            "L": 1.3952944624271963
+          },
+          "pde": {
+            "T": 6.085074228221841,
+            "H": 0.3694894815215634,
+            "L": 0.33081491346056885
+          }
+        },
+        "indexed_chain_ptm": {
+          "0": 0.336842,
+          "1": 0.958708,
+          "2": 0.961032
+        }
+      },
+      "pair_iptm_field": "pair_chains_iptm",
+      "pair_iptm_axis_basis": "descending indexed chain pTM matched to ascending within-chain mean PAE and PDE",
+      "provider_indexed_pair_iptm": {
+        "0": {
+          "0": 0.336842,
+          "1": 0.290847,
+          "2": 0.295422
+        },
+        "1": {
+          "0": 0.290847,
+          "1": 0.958708,
+          "2": 0.951946
+        },
+        "2": {
+          "0": 0.295422,
+          "1": 0.951946,
+          "2": 0.961032
+        }
+      },
+      "overall_iptm": 0.624644,
+      "provider_clash_flag": null,
+      "vh_vl_iptm": 0.951946,
+      "max_antibody_target_pair_iptm": 0.295422,
+      "iptm_H_T": 0.290847,
+      "iptm_L_T": 0.295422,
+      "pae_mean_T_H_A": 26.63366761285934,
+      "pae_mean_T_L_A": 27.168064827258075,
+      "pae_mean_H_T_A": 19.864627150218812,
+      "pae_mean_H_L_A": 2.7395998858983086,
+      "pae_mean_L_T_A": 19.749742854845056,
+      "pae_mean_L_H_A": 2.4365432876919475,
+      "target_contacts_p04626": [
+        536,
+        537,
+        538,
+        544,
+        546,
+        547,
+        548,
+        549,
+        550,
+        551,
+        554,
+        555,
+        559,
+        560,
+        561,
+        562,
+        564,
+        565,
+        568,
+        570,
+        578,
+        579,
+        580,
+        582,
+        583
+      ],
+      "target_contacts_outside_common_p04626": [],
+      "wt_positions_recovered_p04626": [
+        579,
+        580,
+        582,
+        583
+      ],
+      "wt_contact_count": 4,
+      "wt_footprint_recall": 0.21052631578947367,
+      "wt_footprint_jaccard": 0.1,
+      "antibody_contact_residues": [
+        "H:31",
+        "H:33",
+        "H:50",
+        "H:52",
+        "H:54",
+        "H:55",
+        "H:57",
+        "H:58",
+        "H:59",
+        "H:99",
+        "H:100",
+        "H:101",
+        "H:102",
+        "H:103",
+        "H:104",
+        "H:105",
+        "L:30",
+        "L:31",
+        "L:32",
+        "L:49",
+        "L:50",
+        "L:53",
+        "L:91",
+        "L:92",
+        "L:93",
+        "L:94"
+      ],
+      "heavy_atom_contact_pairs": 482,
+      "heavy_atom_clash_pairs_below_1p5A": 2,
+      "minimum_target_distance_A": 0.8463204334784616,
+      "contact_cutoff_A": 4.5,
+      "target_fit_ca_count": 109,
+      "target_fit_ca_rmsd_A": 16.352356783082847,
+      "antibody_mapped_ca_count": 227,
+      "antibody_ca_rmsd_in_target_frame_A": 58.328877264775734,
+      "antibody_centroid_displacement_A": 53.865511737792275,
+      "antibody_ref_interface_ca_count": 20,
+      "antibody_ref_interface_ca_rmsd_in_target_frame_A": 36.216433863967296,
+      "ref_interface_ca_count": 39,
+      "ref_interface_ca_rmsd_in_target_frame_A": 29.439854926546573,
+      "ref_interface_pae_ab_rows_target_cols_A": 20.327072143554688,
+      "ref_interface_pae_target_rows_ab_cols_A": 23.696020126342773
+    },
+    {
+      "seed": 43,
+      "query_id": "control_spr_weak",
+      "cif_chain_to_role": {
+        "T": "T",
+        "H": "H",
+        "L": "L"
+      },
+      "antibody_residue_mapping": "1-based variable positions with equal-length CDRH3 substitutions",
+      "wt_contact_criterion_met": false,
+      "vh_vl_heavy_atom_clash_pairs_below_1p5A": 0,
+      "vh_vl_minimum_heavy_atom_distance_A": 2.55626675487125,
+      "pae_token_chain_order": [
+        "T",
+        "H",
+        "L"
+      ],
+      "pae_token_chain_lengths": {
+        "T": 142,
+        "H": 120,
+        "L": 107
+      },
+      "pae_token_order_declaration": "tokens of the written structure, in file order",
+      "indexed_confidence_chain_order_inferred": [
+        "T",
+        "H",
+        "L"
+      ],
+      "confidence_axis_evidence": {
+        "method": "descending indexed chain pTM matched to ascending within-chain mean PAE and PDE",
+        "status": "rank inference; no explicit provider index labels or numerical pair ipTM reconstruction",
+        "within_chain_error_means_A": {
+          "pae": {
+            "T": 13.363160071998356,
+            "H": 2.1514192611413696,
+            "L": 1.4876302672854802
+          },
+          "pde": {
+            "T": 3.5646852635673363,
+            "H": 0.43143889765772553,
+            "L": 0.3405746027667175
+          }
+        },
+        "indexed_chain_ptm": {
+          "0": 0.594679,
+          "1": 0.950623,
+          "2": 0.959069
+        }
+      },
+      "pair_iptm_field": "pair_chains_iptm",
+      "pair_iptm_axis_basis": "descending indexed chain pTM matched to ascending within-chain mean PAE and PDE",
+      "provider_indexed_pair_iptm": {
+        "0": {
+          "0": 0.594679,
+          "1": 0.182294,
+          "2": 0.191785
+        },
+        "1": {
+          "0": 0.182294,
+          "1": 0.950623,
+          "2": 0.943052
+        },
+        "2": {
+          "0": 0.191785,
+          "1": 0.943052,
+          "2": 0.959069
+        }
+      },
+      "overall_iptm": 0.560379,
+      "provider_clash_flag": null,
+      "vh_vl_iptm": 0.943052,
+      "max_antibody_target_pair_iptm": 0.191785,
+      "iptm_H_T": 0.182294,
+      "iptm_L_T": 0.191785,
+      "pae_mean_T_H_A": 27.136752296053746,
+      "pae_mean_T_L_A": 28.512398457047,
+      "pae_mean_H_T_A": 23.978496683483392,
+      "pae_mean_H_L_A": 3.1876684465442677,
+      "pae_mean_L_T_A": 23.86779893654435,
+      "pae_mean_L_H_A": 2.7340253800107313,
+      "target_contacts_p04626": [
+        514,
+        517,
+        519,
+        521,
+        525,
+        526,
+        527,
+        528,
+        529,
+        530,
+        531,
+        532,
+        533,
+        540,
+        541,
+        542,
+        543,
+        547,
+        548,
+        558,
+        607,
+        608,
+        609,
+        610,
+        611,
+        628,
+        629,
+        631,
+        648,
+        649,
+        650,
+        651
+      ],
+      "target_contacts_outside_common_p04626": [
+        607,
+        608,
+        609,
+        610,
+        611,
+        631,
+        648,
+        649,
+        650,
+        651
+      ],
+      "wt_positions_recovered_p04626": [],
+      "wt_contact_count": 0,
+      "wt_footprint_recall": 0.0,
+      "wt_footprint_jaccard": 0.0,
+      "antibody_contact_residues": [
+        "H:11",
+        "H:12",
+        "H:13",
+        "H:16",
+        "H:17",
+        "H:18",
+        "H:33",
+        "H:35",
+        "H:50",
+        "H:52",
+        "H:55",
+        "H:57",
+        "H:58",
+        "H:59",
+        "H:60",
+        "H:65",
+        "H:66",
+        "H:69",
+        "H:70",
+        "H:71",
+        "H:80",
+        "H:82",
+        "H:84",
+        "H:100",
+        "H:102",
+        "H:103",
+        "H:104",
+        "H:105",
+        "L:30",
+        "L:31",
+        "L:49",
+        "L:50",
+        "L:53",
+        "L:91",
+        "L:92",
+        "L:93",
+        "L:94"
+      ],
+      "heavy_atom_contact_pairs": 531,
+      "heavy_atom_clash_pairs_below_1p5A": 0,
+      "minimum_target_distance_A": 1.8044804379965866,
+      "contact_cutoff_A": 4.5,
+      "target_fit_ca_count": 109,
+      "target_fit_ca_rmsd_A": 11.880262762804687,
+      "antibody_mapped_ca_count": 227,
+      "antibody_ca_rmsd_in_target_frame_A": 52.667717462790954,
+      "antibody_centroid_displacement_A": 42.8765763185394,
+      "antibody_ref_interface_ca_count": 20,
+      "antibody_ref_interface_ca_rmsd_in_target_frame_A": 36.22480988567871,
+      "ref_interface_ca_count": 39,
+      "ref_interface_ca_rmsd_in_target_frame_A": 27.78376288234289,
+      "ref_interface_pae_ab_rows_target_cols_A": 23.781471252441406,
+      "ref_interface_pae_target_rows_ab_cols_A": 25.117660522460938
+    },
+    {
+      "seed": 43,
+      "query_id": "control_facs_low",
+      "cif_chain_to_role": {
+        "T": "T",
+        "H": "H",
+        "L": "L"
+      },
+      "antibody_residue_mapping": "1-based variable positions with equal-length CDRH3 substitutions",
+      "wt_contact_criterion_met": false,
+      "vh_vl_heavy_atom_clash_pairs_below_1p5A": 0,
+      "vh_vl_minimum_heavy_atom_distance_A": 2.1630059633306744,
+      "pae_token_chain_order": [
+        "T",
+        "H",
+        "L"
+      ],
+      "pae_token_chain_lengths": {
+        "T": 142,
+        "H": 120,
+        "L": 107
+      },
+      "pae_token_order_declaration": "tokens of the written structure, in file order",
+      "indexed_confidence_chain_order_inferred": [
+        "T",
+        "H",
+        "L"
+      ],
+      "confidence_axis_evidence": {
+        "method": "descending indexed chain pTM matched to ascending within-chain mean PAE and PDE",
+        "status": "rank inference; no explicit provider index labels or numerical pair ipTM reconstruction",
+        "within_chain_error_means_A": {
+          "pae": {
+            "T": 17.658089793670204,
+            "H": 2.9017865910525953,
+            "L": 1.5118415057971515
+          },
+          "pde": {
+            "T": 6.004999833386573,
+            "H": 0.5719202902002467,
+            "L": 0.3420840274747235
+          }
+        },
+        "indexed_chain_ptm": {
+          "0": 0.330402,
+          "1": 0.940254,
+          "2": 0.957147
+        }
+      },
+      "pair_iptm_field": "pair_chains_iptm",
+      "pair_iptm_axis_basis": "descending indexed chain pTM matched to ascending within-chain mean PAE and PDE",
+      "provider_indexed_pair_iptm": {
+        "0": {
+          "0": 0.330402,
+          "1": 0.297053,
+          "2": 0.289106
+        },
+        "1": {
+          "0": 0.297053,
+          "1": 0.940254,
+          "2": 0.943315
+        },
+        "2": {
+          "0": 0.289106,
+          "1": 0.943315,
+          "2": 0.957147
+        }
+      },
+      "overall_iptm": 0.612091,
+      "provider_clash_flag": null,
+      "vh_vl_iptm": 0.943315,
+      "max_antibody_target_pair_iptm": 0.297053,
+      "iptm_H_T": 0.297053,
+      "iptm_L_T": 0.289106,
+      "pae_mean_T_H_A": 26.11066493148535,
+      "pae_mean_T_L_A": 26.8463025339751,
+      "pae_mean_H_T_A": 19.663997820845232,
+      "pae_mean_H_L_A": 3.9904628636402504,
+      "pae_mean_L_T_A": 19.203663282744646,
+      "pae_mean_L_H_A": 2.968151286810729,
+      "target_contacts_p04626": [
+        519,
+        521,
+        533,
+        534,
+        536,
+        554,
+        559,
+        560,
+        561,
+        562,
+        563,
+        564,
+        565,
+        566,
+        578,
+        579,
+        580,
+        581,
+        582,
+        583,
+        607,
+        608,
+        609,
+        610,
+        611,
+        624,
+        625,
+        628,
+        637,
+        651,
+        652
+      ],
+      "target_contacts_outside_common_p04626": [
+        607,
+        608,
+        609,
+        610,
+        611,
+        637,
+        651,
+        652
+      ],
+      "wt_positions_recovered_p04626": [
+        579,
+        580,
+        582,
+        583,
+        624,
+        625
+      ],
+      "wt_contact_count": 6,
+      "wt_footprint_recall": 0.3157894736842105,
+      "wt_footprint_jaccard": 0.16666666666666666,
+      "antibody_contact_residues": [
+        "H:30",
+        "H:31",
+        "H:33",
+        "H:50",
+        "H:52",
+        "H:54",
+        "H:55",
+        "H:57",
+        "H:58",
+        "H:59",
+        "H:65",
+        "H:98",
+        "H:99",
+        "H:101",
+        "H:102",
+        "H:103",
+        "H:104",
+        "H:105",
+        "L:1",
+        "L:3",
+        "L:26",
+        "L:27",
+        "L:29",
+        "L:30",
+        "L:31",
+        "L:32",
+        "L:49",
+        "L:56",
+        "L:91",
+        "L:92",
+        "L:93",
+        "L:94"
+      ],
+      "heavy_atom_contact_pairs": 635,
+      "heavy_atom_clash_pairs_below_1p5A": 1,
+      "minimum_target_distance_A": 1.1184853426621582,
+      "contact_cutoff_A": 4.5,
+      "target_fit_ca_count": 109,
+      "target_fit_ca_rmsd_A": 11.142835166476887,
+      "antibody_mapped_ca_count": 227,
+      "antibody_ca_rmsd_in_target_frame_A": 42.51443439377916,
+      "antibody_centroid_displacement_A": 32.61744094119232,
+      "antibody_ref_interface_ca_count": 20,
+      "antibody_ref_interface_ca_rmsd_in_target_frame_A": 27.401049490910705,
+      "ref_interface_ca_count": 39,
+      "ref_interface_ca_rmsd_in_target_frame_A": 21.84301472877423,
+      "ref_interface_pae_ab_rows_target_cols_A": 19.929920196533203,
+      "ref_interface_pae_target_rows_ab_cols_A": 22.329328536987305
+    },
+    {
+      "seed": 43,
+      "query_id": "denovo_fullseq_k1_1",
+      "cif_chain_to_role": {
+        "T": "T",
+        "H": "H",
+        "L": "L"
+      },
+      "antibody_residue_mapping": null,
+      "wt_contact_criterion_met": false,
+      "vh_vl_heavy_atom_clash_pairs_below_1p5A": 0,
+      "vh_vl_minimum_heavy_atom_distance_A": 1.5405611640238015,
+      "pae_token_chain_order": [
+        "T",
+        "H",
+        "L"
+      ],
+      "pae_token_chain_lengths": {
+        "T": 142,
+        "H": 126,
+        "L": 113
+      },
+      "pae_token_order_declaration": "tokens of the written structure, in file order",
+      "indexed_confidence_chain_order_inferred": [
+        "T",
+        "H",
+        "L"
+      ],
+      "confidence_axis_evidence": {
+        "method": "descending indexed chain pTM matched to ascending within-chain mean PAE and PDE",
+        "status": "rank inference; no explicit provider index labels or numerical pair ipTM reconstruction",
+        "within_chain_error_means_A": {
+          "pae": {
+            "T": 15.29784381249356,
+            "H": 2.449389160955904,
+            "L": 3.192101764297586
+          },
+          "pde": {
+            "T": 5.064562550279042,
+            "H": 0.44848991175665304,
+            "L": 0.6157660528099036
+          }
+        },
+        "indexed_chain_ptm": {
+          "0": 0.484784,
+          "1": 0.946219,
+          "2": 0.931808
+        }
+      },
+      "pair_iptm_field": "pair_chains_iptm",
+      "pair_iptm_axis_basis": "descending indexed chain pTM matched to ascending within-chain mean PAE and PDE",
+      "provider_indexed_pair_iptm": {
+        "0": {
+          "0": 0.484784,
+          "1": 0.205612,
+          "2": 0.220793
+        },
+        "1": {
+          "0": 0.205612,
+          "1": 0.946219,
+          "2": 0.930308
+        },
+        "2": {
+          "0": 0.220793,
+          "1": 0.930308,
+          "2": 0.931808
+        }
+      },
+      "overall_iptm": 0.584465,
+      "provider_clash_flag": null,
+      "vh_vl_iptm": 0.930308,
+      "max_antibody_target_pair_iptm": 0.220793,
+      "iptm_H_T": 0.205612,
+      "iptm_L_T": 0.220793,
+      "pae_mean_T_H_A": 27.325928382737082,
+      "pae_mean_T_L_A": 27.662379460249788,
+      "pae_mean_H_T_A": 22.96440592479471,
+      "pae_mean_H_L_A": 3.7050933011073983,
+      "pae_mean_L_T_A": 23.386404429857354,
+      "pae_mean_L_H_A": 4.55270790605837,
+      "target_contacts_p04626": [
+        513,
+        514,
+        516,
+        517,
+        521,
+        525,
+        526,
+        527,
+        528,
+        529,
+        530,
+        531,
+        532,
+        533,
+        542,
+        558,
+        589,
+        591,
+        595,
+        597,
+        605,
+        607,
+        608,
+        609,
+        610,
+        611,
+        612,
+        636,
+        637,
+        638,
+        639,
+        642,
+        644,
+        647,
+        649,
+        650,
+        651,
+        652
+      ],
+      "target_contacts_outside_common_p04626": [
+        605,
+        607,
+        608,
+        609,
+        610,
+        611,
+        612,
+        636,
+        637,
+        638,
+        639,
+        642,
+        644,
+        647,
+        649,
+        650,
+        651,
+        652
+      ],
+      "wt_positions_recovered_p04626": [
+        591,
+        595
+      ],
+      "wt_contact_count": 2,
+      "wt_footprint_recall": 0.10526315789473684,
+      "wt_footprint_jaccard": 0.05405405405405406,
+      "antibody_contact_residues": [
+        "H:30",
+        "H:31",
+        "H:32",
+        "H:33",
+        "H:51",
+        "H:53",
+        "H:54",
+        "H:55",
+        "H:56",
+        "H:57",
+        "H:58",
+        "H:60",
+        "H:100",
+        "H:101",
+        "H:102",
+        "H:103",
+        "H:104",
+        "H:105",
+        "H:106",
+        "H:107",
+        "H:108",
+        "H:109",
+        "H:111",
+        "L:31",
+        "L:33",
+        "L:52",
+        "L:53",
+        "L:55",
+        "L:56",
+        "L:57",
+        "L:58",
+        "L:59",
+        "L:66",
+        "L:67",
+        "L:68",
+        "L:69",
+        "L:70",
+        "L:73",
+        "L:94",
+        "L:96",
+        "L:100"
+      ],
+      "heavy_atom_contact_pairs": 651,
+      "heavy_atom_clash_pairs_below_1p5A": 1,
+      "minimum_target_distance_A": 1.3498729621110566,
+      "contact_cutoff_A": 4.5,
+      "target_fit_ca_count": 109,
+      "target_fit_ca_rmsd_A": 13.34727203834512
+    },
+    {
+      "seed": 43,
+      "query_id": "opt_WTAVGFFAMD",
+      "cif_chain_to_role": {
+        "T": "T",
+        "H": "H",
+        "L": "L"
+      },
+      "antibody_residue_mapping": "1-based variable positions with equal-length CDRH3 substitutions",
+      "wt_contact_criterion_met": false,
+      "vh_vl_heavy_atom_clash_pairs_below_1p5A": 0,
+      "vh_vl_minimum_heavy_atom_distance_A": 2.534879997348087,
+      "pae_token_chain_order": [
+        "T",
+        "H",
+        "L"
+      ],
+      "pae_token_chain_lengths": {
+        "T": 142,
+        "H": 120,
+        "L": 107
+      },
+      "pae_token_order_declaration": "tokens of the written structure, in file order",
+      "indexed_confidence_chain_order_inferred": [
+        "T",
+        "H",
+        "L"
+      ],
+      "confidence_axis_evidence": {
+        "method": "descending indexed chain pTM matched to ascending within-chain mean PAE and PDE",
+        "status": "rank inference; no explicit provider index labels or numerical pair ipTM reconstruction",
+        "within_chain_error_means_A": {
+          "pae": {
+            "T": 14.71143892676856,
+            "H": 2.108048883403341,
+            "L": 1.4372248234644927
+          },
+          "pde": {
+            "T": 4.878570885574669,
+            "H": 0.41546159649681713,
+            "L": 0.33405352148991796
+          }
+        },
+        "indexed_chain_ptm": {
+          "0": 0.540618,
+          "1": 0.954337,
+          "2": 0.959833
+        }
+      },
+      "pair_iptm_field": "pair_chains_iptm",
+      "pair_iptm_axis_basis": "descending indexed chain pTM matched to ascending within-chain mean PAE and PDE",
+      "provider_indexed_pair_iptm": {
+        "0": {
+          "0": 0.540618,
+          "1": 0.278576,
+          "2": 0.289601
+        },
+        "1": {
+          "0": 0.278576,
+          "1": 0.954337,
+          "2": 0.951334
+        },
+        "2": {
+          "0": 0.289601,
+          "1": 0.951334,
+          "2": 0.959833
+        }
+      },
+      "overall_iptm": 0.619466,
+      "provider_clash_flag": null,
+      "vh_vl_iptm": 0.951334,
+      "max_antibody_target_pair_iptm": 0.289601,
+      "iptm_H_T": 0.278576,
+      "iptm_L_T": 0.289601,
+      "pae_mean_T_H_A": 25.88780491883766,
+      "pae_mean_T_L_A": 26.594913803842235,
+      "pae_mean_H_T_A": 20.16605343147063,
+      "pae_mean_H_L_A": 3.0809981630273695,
+      "pae_mean_L_T_A": 20.044457167030025,
+      "pae_mean_L_H_A": 2.5530272901406357,
+      "target_contacts_p04626": [
+        532,
+        533,
+        534,
+        542,
+        543,
+        544,
+        546,
+        547,
+        548,
+        558,
+        591,
+        592,
+        593,
+        594,
+        595,
+        596,
+        612,
+        614,
+        622,
+        623,
+        624,
+        625,
+        626,
+        627,
+        628,
+        629,
+        637,
+        638,
+        639,
+        640,
+        647,
+        649,
+        650,
+        651
+      ],
+      "target_contacts_outside_common_p04626": [
+        612,
+        637,
+        638,
+        639,
+        640,
+        647,
+        649,
+        650,
+        651
+      ],
+      "wt_positions_recovered_p04626": [
+        591,
+        592,
+        593,
+        594,
+        595,
+        622,
+        624,
+        625,
+        626,
+        627
+      ],
+      "wt_contact_count": 10,
+      "wt_footprint_recall": 0.5263157894736842,
+      "wt_footprint_jaccard": 0.29411764705882354,
+      "antibody_contact_residues": [
+        "H:2",
+        "H:26",
+        "H:27",
+        "H:28",
+        "H:30",
+        "H:31",
+        "H:33",
+        "H:50",
+        "H:52",
+        "H:54",
+        "H:55",
+        "H:57",
+        "H:98",
+        "H:99",
+        "H:100",
+        "H:101",
+        "H:102",
+        "H:103",
+        "H:104",
+        "H:105",
+        "H:108",
+        "H:109",
+        "L:29",
+        "L:30",
+        "L:31",
+        "L:32",
+        "L:49",
+        "L:50",
+        "L:53",
+        "L:54",
+        "L:55",
+        "L:56",
+        "L:57",
+        "L:91",
+        "L:92",
+        "L:93",
+        "L:94"
+      ],
+      "heavy_atom_contact_pairs": 706,
+      "heavy_atom_clash_pairs_below_1p5A": 0,
+      "minimum_target_distance_A": 1.643519706918291,
+      "contact_cutoff_A": 4.5,
+      "target_fit_ca_count": 109,
+      "target_fit_ca_rmsd_A": 12.50227315040854,
+      "antibody_mapped_ca_count": 227,
+      "antibody_ca_rmsd_in_target_frame_A": 37.69757999208311,
+      "antibody_centroid_displacement_A": 23.10970961430426,
+      "antibody_ref_interface_ca_count": 20,
+      "antibody_ref_interface_ca_rmsd_in_target_frame_A": 24.01019282819789,
+      "ref_interface_ca_count": 39,
+      "ref_interface_ca_rmsd_in_target_frame_A": 20.62596229486297,
+      "ref_interface_pae_ab_rows_target_cols_A": 18.9174861907959,
+      "ref_interface_pae_target_rows_ab_cols_A": 22.712602615356445
+    },
+    {
+      "seed": 43,
+      "query_id": "opt_YTGDGFPAMN",
+      "cif_chain_to_role": {
+        "T": "T",
+        "H": "H",
+        "L": "L"
+      },
+      "antibody_residue_mapping": "1-based variable positions with equal-length CDRH3 substitutions",
+      "wt_contact_criterion_met": false,
+      "vh_vl_heavy_atom_clash_pairs_below_1p5A": 0,
+      "vh_vl_minimum_heavy_atom_distance_A": 2.4543207701108725,
+      "pae_token_chain_order": [
+        "T",
+        "H",
+        "L"
+      ],
+      "pae_token_chain_lengths": {
+        "T": 142,
+        "H": 120,
+        "L": 107
+      },
+      "pae_token_order_declaration": "tokens of the written structure, in file order",
+      "indexed_confidence_chain_order_inferred": [
+        "T",
+        "H",
+        "L"
+      ],
+      "confidence_axis_evidence": {
+        "method": "descending indexed chain pTM matched to ascending within-chain mean PAE and PDE",
+        "status": "rank inference; no explicit provider index labels or numerical pair ipTM reconstruction",
+        "within_chain_error_means_A": {
+          "pae": {
+            "T": 14.743102420546355,
+            "H": 2.353064738029821,
+            "L": 1.4469996937649439
+          },
+          "pde": {
+            "T": 4.612902227707135,
+            "H": 0.4512398027566572,
+            "L": 0.334806624622634
+          }
+        },
+        "indexed_chain_ptm": {
+          "0": 0.476723,
+          "1": 0.951182,
+          "2": 0.959323
+        }
+      },
+      "pair_iptm_field": "pair_chains_iptm",
+      "pair_iptm_axis_basis": "descending indexed chain pTM matched to ascending within-chain mean PAE and PDE",
+      "provider_indexed_pair_iptm": {
+        "0": {
+          "0": 0.476723,
+          "1": 0.388797,
+          "2": 0.387571
+        },
+        "1": {
+          "0": 0.388797,
+          "1": 0.951182,
+          "2": 0.950054
+        },
+        "2": {
+          "0": 0.387571,
+          "1": 0.950054,
+          "2": 0.959323
+        }
+      },
+      "overall_iptm": 0.671538,
+      "provider_clash_flag": null,
+      "vh_vl_iptm": 0.950054,
+      "max_antibody_target_pair_iptm": 0.388797,
+      "iptm_H_T": 0.388797,
+      "iptm_L_T": 0.387571,
+      "pae_mean_T_H_A": 23.72344758292319,
+      "pae_mean_T_L_A": 24.27925695098198,
+      "pae_mean_H_T_A": 16.88829423597721,
+      "pae_mean_H_L_A": 3.367915034549444,
+      "pae_mean_L_T_A": 16.657297964329562,
+      "pae_mean_L_H_A": 2.6248476316577922,
+      "target_contacts_p04626": [
+        511,
+        513,
+        516,
+        517,
+        518,
+        519,
+        520,
+        533,
+        534,
+        535,
+        536,
+        537,
+        547,
+        548,
+        549,
+        550,
+        558,
+        559,
+        560,
+        561,
+        562,
+        577,
+        578,
+        579,
+        580,
+        582,
+        583,
+        605,
+        607,
+        609,
+        610
+      ],
+      "target_contacts_outside_common_p04626": [
+        605,
+        607,
+        609,
+        610
+      ],
+      "wt_positions_recovered_p04626": [
+        579,
+        580,
+        582,
+        583
+      ],
+      "wt_contact_count": 4,
+      "wt_footprint_recall": 0.21052631578947367,
+      "wt_footprint_jaccard": 0.09523809523809523,
+      "antibody_contact_residues": [
+        "H:1",
+        "H:2",
+        "H:26",
+        "H:30",
+        "H:31",
+        "H:32",
+        "H:33",
+        "H:50",
+        "H:52",
+        "H:54",
+        "H:55",
+        "H:57",
+        "H:59",
+        "H:98",
+        "H:99",
+        "H:100",
+        "H:101",
+        "H:102",
+        "H:103",
+        "H:104",
+        "H:105",
+        "H:109",
+        "L:30",
+        "L:31",
+        "L:32",
+        "L:49",
+        "L:50",
+        "L:53",
+        "L:54",
+        "L:56",
+        "L:57",
+        "L:91",
+        "L:92"
+      ],
+      "heavy_atom_contact_pairs": 533,
+      "heavy_atom_clash_pairs_below_1p5A": 1,
+      "minimum_target_distance_A": 1.4016126717031099,
+      "contact_cutoff_A": 4.5,
+      "target_fit_ca_count": 109,
+      "target_fit_ca_rmsd_A": 14.116170793821128,
+      "antibody_mapped_ca_count": 227,
+      "antibody_ca_rmsd_in_target_frame_A": 59.62271586302565,
+      "antibody_centroid_displacement_A": 52.62144685479627,
+      "antibody_ref_interface_ca_count": 20,
+      "antibody_ref_interface_ca_rmsd_in_target_frame_A": 35.740018580662905,
+      "ref_interface_ca_count": 39,
+      "ref_interface_ca_rmsd_in_target_frame_A": 28.392288298189456,
+      "ref_interface_pae_ab_rows_target_cols_A": 18.747802734375,
+      "ref_interface_pae_target_rows_ab_cols_A": 22.327173233032227
+    },
+    {
+      "seed": 44,
+      "query_id": "control_wt",
+      "cif_chain_to_role": {
+        "T": "T",
+        "H": "H",
+        "L": "L"
+      },
+      "antibody_residue_mapping": "1-based variable positions with equal-length CDRH3 substitutions",
+      "wt_contact_criterion_met": false,
+      "vh_vl_heavy_atom_clash_pairs_below_1p5A": 0,
+      "vh_vl_minimum_heavy_atom_distance_A": 2.5273913170419773,
+      "pae_token_chain_order": [
+        "T",
+        "H",
+        "L"
+      ],
+      "pae_token_chain_lengths": {
+        "T": 142,
+        "H": 120,
+        "L": 107
+      },
+      "pae_token_order_declaration": "tokens of the written structure, in file order",
+      "indexed_confidence_chain_order_inferred": [
+        "T",
+        "H",
+        "L"
+      ],
+      "confidence_axis_evidence": {
+        "method": "descending indexed chain pTM matched to ascending within-chain mean PAE and PDE",
+        "status": "rank inference; no explicit provider index labels or numerical pair ipTM reconstruction",
+        "within_chain_error_means_A": {
+          "pae": {
+            "T": 16.537856106933646,
+            "H": 1.6943774560611282,
+            "L": 1.4157130803246822
+          },
+          "pde": {
+            "T": 5.592061069059989,
+            "H": 0.35522176678395934,
+            "L": 0.33328910388429256
+          }
+        },
+        "indexed_chain_ptm": {
+          "0": 0.348053,
+          "1": 0.960183,
+          "2": 0.961619
+        }
+      },
+      "pair_iptm_field": "pair_chains_iptm",
+      "pair_iptm_axis_basis": "descending indexed chain pTM matched to ascending within-chain mean PAE and PDE",
+      "provider_indexed_pair_iptm": {
+        "0": {
+          "0": 0.348053,
+          "1": 0.297391,
+          "2": 0.302127
+        },
+        "1": {
+          "0": 0.297391,
+          "1": 0.960183,
+          "2": 0.955506
+        },
+        "2": {
+          "0": 0.302127,
+          "1": 0.955506,
+          "2": 0.961619
+        }
+      },
+      "overall_iptm": 0.630323,
+      "provider_clash_flag": null,
+      "vh_vl_iptm": 0.955506,
+      "max_antibody_target_pair_iptm": 0.302127,
+      "iptm_H_T": 0.297391,
+      "iptm_L_T": 0.302127,
+      "pae_mean_T_H_A": 26.37669106777845,
+      "pae_mean_T_L_A": 26.55606073088531,
+      "pae_mean_H_T_A": 19.112946594209177,
+      "pae_mean_H_L_A": 2.625472791629881,
+      "pae_mean_L_T_A": 19.170775982428808,
+      "pae_mean_L_H_A": 2.4431378900749476,
+      "target_contacts_p04626": [
+        511,
+        519,
+        520,
+        521,
+        522,
+        523,
+        527,
+        538,
+        556,
+        558,
+        589,
+        590,
+        592,
+        594,
+        595,
+        607,
+        608,
+        609,
+        610,
+        611,
+        613,
+        614,
+        616,
+        617,
+        618,
+        619
+      ],
+      "target_contacts_outside_common_p04626": [
+        607,
+        608,
+        609,
+        610,
+        611
+      ],
+      "wt_positions_recovered_p04626": [
+        592,
+        594,
+        595,
+        613,
+        618
+      ],
+      "wt_contact_count": 5,
+      "wt_footprint_recall": 0.2631578947368421,
+      "wt_footprint_jaccard": 0.14285714285714285,
+      "antibody_contact_residues": [
+        "H:31",
+        "H:32",
+        "H:33",
+        "H:35",
+        "H:50",
+        "H:52",
+        "H:54",
+        "H:55",
+        "H:57",
+        "H:59",
+        "H:99",
+        "H:100",
+        "H:101",
+        "H:102",
+        "H:103",
+        "H:104",
+        "H:105",
+        "L:30",
+        "L:31",
+        "L:32",
+        "L:49",
+        "L:50",
+        "L:53",
+        "L:91",
+        "L:92",
+        "L:93",
+        "L:94",
+        "L:96"
+      ],
+      "heavy_atom_contact_pairs": 618,
+      "heavy_atom_clash_pairs_below_1p5A": 1,
+      "minimum_target_distance_A": 1.3974357733070715,
+      "contact_cutoff_A": 4.5,
+      "target_fit_ca_count": 109,
+      "target_fit_ca_rmsd_A": 14.44260619550591,
+      "antibody_mapped_ca_count": 227,
+      "antibody_ca_rmsd_in_target_frame_A": 34.31686840457105,
+      "antibody_centroid_displacement_A": 19.30097795824334,
+      "antibody_ref_interface_ca_count": 20,
+      "antibody_ref_interface_ca_rmsd_in_target_frame_A": 22.84066538558902,
+      "ref_interface_ca_count": 39,
+      "ref_interface_ca_rmsd_in_target_frame_A": 20.478337434472664,
+      "ref_interface_pae_ab_rows_target_cols_A": 20.054014205932617,
+      "ref_interface_pae_target_rows_ab_cols_A": 22.93515396118164
+    },
+    {
+      "seed": 44,
+      "query_id": "control_spr_strong",
+      "cif_chain_to_role": {
+        "T": "T",
+        "H": "H",
+        "L": "L"
+      },
+      "antibody_residue_mapping": "1-based variable positions with equal-length CDRH3 substitutions",
+      "wt_contact_criterion_met": false,
+      "vh_vl_heavy_atom_clash_pairs_below_1p5A": 0,
+      "vh_vl_minimum_heavy_atom_distance_A": 2.6491113818430825,
+      "pae_token_chain_order": [
+        "T",
+        "H",
+        "L"
+      ],
+      "pae_token_chain_lengths": {
+        "T": 142,
+        "H": 120,
+        "L": 107
+      },
+      "pae_token_order_declaration": "tokens of the written structure, in file order",
+      "indexed_confidence_chain_order_inferred": [
+        "T",
+        "H",
+        "L"
+      ],
+      "confidence_axis_evidence": {
+        "method": "descending indexed chain pTM matched to ascending within-chain mean PAE and PDE",
+        "status": "rank inference; no explicit provider index labels or numerical pair ipTM reconstruction",
+        "within_chain_error_means_A": {
+          "pae": {
+            "T": 16.254900721356087,
+            "H": 1.8490179503874646,
+            "L": 1.4081749980684368
+          },
+          "pde": {
+            "T": 5.467312662046572,
+            "H": 0.3726387355994019,
+            "L": 0.3319061772174029
+          }
+        },
+        "indexed_chain_ptm": {
+          "0": 0.360945,
+          "1": 0.957937,
+          "2": 0.960624
+        }
+      },
+      "pair_iptm_field": "pair_chains_iptm",
+      "pair_iptm_axis_basis": "descending indexed chain pTM matched to ascending within-chain mean PAE and PDE",
+      "provider_indexed_pair_iptm": {
+        "0": {
+          "0": 0.360945,
+          "1": 0.293852,
+          "2": 0.28951
+        },
+        "1": {
+          "0": 0.293852,
+          "1": 0.957937,
+          "2": 0.950718
+        },
+        "2": {
+          "0": 0.28951,
+          "1": 0.950718,
+          "2": 0.960624
+        }
+      },
+      "overall_iptm": 0.620231,
+      "provider_clash_flag": null,
+      "vh_vl_iptm": 0.950718,
+      "max_antibody_target_pair_iptm": 0.293852,
+      "iptm_H_T": 0.293852,
+      "iptm_L_T": 0.28951,
+      "pae_mean_T_H_A": 25.553982273961456,
+      "pae_mean_T_L_A": 26.889272463357777,
+      "pae_mean_H_T_A": 19.712837468234586,
+      "pae_mean_H_L_A": 2.7898653003633767,
+      "pae_mean_L_T_A": 19.618356551938234,
+      "pae_mean_L_H_A": 2.484403121601384,
+      "target_contacts_p04626": [
+        521,
+        526,
+        527,
+        528,
+        530,
+        544,
+        547,
+        548,
+        550,
+        559,
+        560,
+        561,
+        562,
+        563,
+        564,
+        565,
+        566,
+        579,
+        580,
+        581,
+        582,
+        583,
+        607,
+        609,
+        610,
+        611,
+        612,
+        629,
+        631,
+        632,
+        645,
+        647,
+        648,
+        649,
+        650,
+        651,
+        652
+      ],
+      "target_contacts_outside_common_p04626": [
+        607,
+        609,
+        610,
+        611,
+        612,
+        631,
+        632,
+        645,
+        647,
+        648,
+        649,
+        650,
+        651,
+        652
+      ],
+      "wt_positions_recovered_p04626": [
+        579,
+        580,
+        582,
+        583
+      ],
+      "wt_contact_count": 4,
+      "wt_footprint_recall": 0.21052631578947367,
+      "wt_footprint_jaccard": 0.10526315789473684,
+      "antibody_contact_residues": [
+        "H:30",
+        "H:31",
+        "H:32",
+        "H:33",
+        "H:50",
+        "H:51",
+        "H:52",
+        "H:53",
+        "H:54",
+        "H:55",
+        "H:56",
+        "H:57",
+        "H:58",
+        "H:59",
+        "H:60",
+        "H:65",
+        "H:66",
+        "H:69",
+        "H:70",
+        "H:71",
+        "H:72",
+        "H:73",
+        "H:74",
+        "H:99",
+        "H:105",
+        "L:30",
+        "L:31",
+        "L:32",
+        "L:91",
+        "L:92",
+        "L:93",
+        "L:94"
+      ],
+      "heavy_atom_contact_pairs": 612,
+      "heavy_atom_clash_pairs_below_1p5A": 1,
+      "minimum_target_distance_A": 0.8463539567503441,
+      "contact_cutoff_A": 4.5,
+      "target_fit_ca_count": 109,
+      "target_fit_ca_rmsd_A": 15.44147034044117,
+      "antibody_mapped_ca_count": 227,
+      "antibody_ca_rmsd_in_target_frame_A": 56.71895762884469,
+      "antibody_centroid_displacement_A": 51.83023074322641,
+      "antibody_ref_interface_ca_count": 20,
+      "antibody_ref_interface_ca_rmsd_in_target_frame_A": 32.316211473832624,
+      "ref_interface_ca_count": 39,
+      "ref_interface_ca_rmsd_in_target_frame_A": 26.849382095910727,
+      "ref_interface_pae_ab_rows_target_cols_A": 19.11882209777832,
+      "ref_interface_pae_target_rows_ab_cols_A": 22.35704231262207
+    },
+    {
+      "seed": 44,
+      "query_id": "control_spr_weak",
+      "cif_chain_to_role": {
+        "T": "T",
+        "H": "H",
+        "L": "L"
+      },
+      "antibody_residue_mapping": "1-based variable positions with equal-length CDRH3 substitutions",
+      "wt_contact_criterion_met": false,
+      "vh_vl_heavy_atom_clash_pairs_below_1p5A": 0,
+      "vh_vl_minimum_heavy_atom_distance_A": 2.3062291506992154,
+      "pae_token_chain_order": [
+        "T",
+        "H",
+        "L"
+      ],
+      "pae_token_chain_lengths": {
+        "T": 142,
+        "H": 120,
+        "L": 107
+      },
+      "pae_token_order_declaration": "tokens of the written structure, in file order",
+      "indexed_confidence_chain_order_inferred": [
+        "T",
+        "H",
+        "L"
+      ],
+      "confidence_axis_evidence": {
+        "method": "descending indexed chain pTM matched to ascending within-chain mean PAE and PDE",
+        "status": "rank inference; no explicit provider index labels or numerical pair ipTM reconstruction",
+        "within_chain_error_means_A": {
+          "pae": {
+            "T": 16.634658031001543,
+            "H": 2.076983646562116,
+            "L": 1.4881414526549477
+          },
+          "pde": {
+            "T": 5.825101614285145,
+            "H": 0.41781876158176195,
+            "L": 0.3403852829137466
+          }
+        },
+        "indexed_chain_ptm": {
+          "0": 0.364713,
+          "1": 0.952183,
+          "2": 0.959134
+        }
+      },
+      "pair_iptm_field": "pair_chains_iptm",
+      "pair_iptm_axis_basis": "descending indexed chain pTM matched to ascending within-chain mean PAE and PDE",
+      "provider_indexed_pair_iptm": {
+        "0": {
+          "0": 0.364713,
+          "1": 0.28832,
+          "2": 0.291035
+        },
+        "1": {
+          "0": 0.28832,
+          "1": 0.952183,
+          "2": 0.944993
+        },
+        "2": {
+          "0": 0.291035,
+          "1": 0.944993,
+          "2": 0.959134
+        }
+      },
+      "overall_iptm": 0.619897,
+      "provider_clash_flag": null,
+      "vh_vl_iptm": 0.944993,
+      "max_antibody_target_pair_iptm": 0.291035,
+      "iptm_H_T": 0.28832,
+      "iptm_L_T": 0.291035,
+      "pae_mean_T_H_A": 27.008321273158973,
+      "pae_mean_T_L_A": 27.555709679314724,
+      "pae_mean_H_T_A": 19.770064037114803,
+      "pae_mean_H_L_A": 3.1424265911088924,
+      "pae_mean_L_T_A": 19.859384739667284,
+      "pae_mean_L_H_A": 2.7008042248145814,
+      "target_contacts_p04626": [
+        514,
+        515,
+        521,
+        525,
+        526,
+        527,
+        528,
+        529,
+        530,
+        532,
+        533,
+        534,
+        535,
+        536,
+        539,
+        543,
+        546,
+        547,
+        548,
+        549,
+        550
+      ],
+      "target_contacts_outside_common_p04626": [],
+      "wt_positions_recovered_p04626": [],
+      "wt_contact_count": 0,
+      "wt_footprint_recall": 0.0,
+      "wt_footprint_jaccard": 0.0,
+      "antibody_contact_residues": [
+        "H:31",
+        "H:32",
+        "H:33",
+        "H:50",
+        "H:52",
+        "H:55",
+        "H:57",
+        "H:59",
+        "H:99",
+        "H:100",
+        "H:102",
+        "H:103",
+        "H:104",
+        "H:105",
+        "L:27",
+        "L:28",
+        "L:29",
+        "L:30",
+        "L:31",
+        "L:32",
+        "L:50",
+        "L:91",
+        "L:92",
+        "L:93",
+        "L:94"
+      ],
+      "heavy_atom_contact_pairs": 329,
+      "heavy_atom_clash_pairs_below_1p5A": 0,
+      "minimum_target_distance_A": 1.6825680498382392,
+      "contact_cutoff_A": 4.5,
+      "target_fit_ca_count": 109,
+      "target_fit_ca_rmsd_A": 14.310486444343539,
+      "antibody_mapped_ca_count": 227,
+      "antibody_ca_rmsd_in_target_frame_A": 54.25586300608889,
+      "antibody_centroid_displacement_A": 48.34014704492146,
+      "antibody_ref_interface_ca_count": 20,
+      "antibody_ref_interface_ca_rmsd_in_target_frame_A": 36.61577190501551,
+      "ref_interface_ca_count": 39,
+      "ref_interface_ca_rmsd_in_target_frame_A": 28.995010234003832,
+      "ref_interface_pae_ab_rows_target_cols_A": 21.135194778442383,
+      "ref_interface_pae_target_rows_ab_cols_A": 24.922557830810547
+    },
+    {
+      "seed": 44,
+      "query_id": "control_facs_low",
+      "cif_chain_to_role": {
+        "T": "T",
+        "H": "H",
+        "L": "L"
+      },
+      "antibody_residue_mapping": "1-based variable positions with equal-length CDRH3 substitutions",
+      "wt_contact_criterion_met": false,
+      "vh_vl_heavy_atom_clash_pairs_below_1p5A": 0,
+      "vh_vl_minimum_heavy_atom_distance_A": 2.5784737731177434,
+      "pae_token_chain_order": [
+        "T",
+        "H",
+        "L"
+      ],
+      "pae_token_chain_lengths": {
+        "T": 142,
+        "H": 120,
+        "L": 107
+      },
+      "pae_token_order_declaration": "tokens of the written structure, in file order",
+      "indexed_confidence_chain_order_inferred": [
+        "T",
+        "H",
+        "L"
+      ],
+      "confidence_axis_evidence": {
+        "method": "descending indexed chain pTM matched to ascending within-chain mean PAE and PDE",
+        "status": "rank inference; no explicit provider index labels or numerical pair ipTM reconstruction",
+        "within_chain_error_means_A": {
+          "pae": {
+            "T": 17.02505051062188,
+            "H": 2.876702807570497,
+            "L": 1.5490898345534858
+          },
+          "pde": {
+            "T": 5.840583161777375,
+            "H": 0.5664633157083557,
+            "L": 0.3465258521313792
+          }
+        },
+        "indexed_chain_ptm": {
+          "0": 0.348201,
+          "1": 0.940174,
+          "2": 0.957141
+        }
+      },
+      "pair_iptm_field": "pair_chains_iptm",
+      "pair_iptm_axis_basis": "descending indexed chain pTM matched to ascending within-chain mean PAE and PDE",
+      "provider_indexed_pair_iptm": {
+        "0": {
+          "0": 0.348201,
+          "1": 0.264012,
+          "2": 0.259166
+        },
+        "1": {
+          "0": 0.264012,
+          "1": 0.940174,
+          "2": 0.941576
+        },
+        "2": {
+          "0": 0.259166,
+          "1": 0.941576,
+          "2": 0.957141
+        }
+      },
+      "overall_iptm": 0.595377,
+      "provider_clash_flag": null,
+      "vh_vl_iptm": 0.941576,
+      "max_antibody_target_pair_iptm": 0.264012,
+      "iptm_H_T": 0.264012,
+      "iptm_L_T": 0.259166,
+      "pae_mean_T_H_A": 26.788180376386418,
+      "pae_mean_T_L_A": 26.402304428289387,
+      "pae_mean_H_T_A": 20.557966257428898,
+      "pae_mean_H_L_A": 4.09253309652952,
+      "pae_mean_L_T_A": 20.15474893633466,
+      "pae_mean_L_H_A": 3.019159532011112,
+      "target_contacts_p04626": [
+        519,
+        520,
+        521,
+        529,
+        536,
+        537,
+        538,
+        539,
+        541,
+        542,
+        555,
+        556,
+        557,
+        558,
+        577,
+        583,
+        590,
+        592,
+        593,
+        594,
+        595,
+        606,
+        607,
+        608,
+        609,
+        610,
+        611,
+        612,
+        613,
+        614,
+        615,
+        620,
+        621,
+        622,
+        637,
+        639,
+        640,
+        641,
+        649,
+        650,
+        651,
+        652
+      ],
+      "target_contacts_outside_common_p04626": [
+        606,
+        607,
+        608,
+        609,
+        610,
+        611,
+        612,
+        637,
+        639,
+        640,
+        641,
+        649,
+        650,
+        651,
+        652
+      ],
+      "wt_positions_recovered_p04626": [
+        583,
+        592,
+        593,
+        594,
+        595,
+        613,
+        615,
+        620,
+        622
+      ],
+      "wt_contact_count": 9,
+      "wt_footprint_recall": 0.47368421052631576,
+      "wt_footprint_jaccard": 0.24324324324324326,
+      "antibody_contact_residues": [
+        "H:31",
+        "H:32",
+        "H:33",
+        "H:50",
+        "H:52",
+        "H:54",
+        "H:55",
+        "H:57",
+        "H:58",
+        "H:59",
+        "H:60",
+        "H:65",
+        "H:99",
+        "H:100",
+        "H:101",
+        "H:102",
+        "H:103",
+        "H:104",
+        "H:105",
+        "L:1",
+        "L:27",
+        "L:29",
+        "L:30",
+        "L:31",
+        "L:32",
+        "L:49",
+        "L:50",
+        "L:52",
+        "L:53",
+        "L:54",
+        "L:55",
+        "L:56",
+        "L:57",
+        "L:58",
+        "L:59",
+        "L:60",
+        "L:91",
+        "L:92",
+        "L:93",
+        "L:94",
+        "L:95"
+      ],
+      "heavy_atom_contact_pairs": 1022,
+      "heavy_atom_clash_pairs_below_1p5A": 3,
+      "minimum_target_distance_A": 0.9671096313985197,
+      "contact_cutoff_A": 4.5,
+      "target_fit_ca_count": 109,
+      "target_fit_ca_rmsd_A": 11.81791159118702,
+      "antibody_mapped_ca_count": 227,
+      "antibody_ca_rmsd_in_target_frame_A": 33.873425907659666,
+      "antibody_centroid_displacement_A": 16.001660538714344,
+      "antibody_ref_interface_ca_count": 20,
+      "antibody_ref_interface_ca_rmsd_in_target_frame_A": 22.12122633669369,
+      "ref_interface_ca_count": 39,
+      "ref_interface_ca_rmsd_in_target_frame_A": 18.58918933113385,
+      "ref_interface_pae_ab_rows_target_cols_A": 20.26174545288086,
+      "ref_interface_pae_target_rows_ab_cols_A": 22.02129364013672
+    },
+    {
+      "seed": 44,
+      "query_id": "denovo_fullseq_k1_1",
+      "cif_chain_to_role": {
+        "T": "T",
+        "H": "H",
+        "L": "L"
+      },
+      "antibody_residue_mapping": null,
+      "wt_contact_criterion_met": false,
+      "vh_vl_heavy_atom_clash_pairs_below_1p5A": 1,
+      "vh_vl_minimum_heavy_atom_distance_A": 1.3581153986108279,
+      "pae_token_chain_order": [
+        "T",
+        "H",
+        "L"
+      ],
+      "pae_token_chain_lengths": {
+        "T": 142,
+        "H": 126,
+        "L": 113
+      },
+      "pae_token_order_declaration": "tokens of the written structure, in file order",
+      "indexed_confidence_chain_order_inferred": [
+        "T",
+        "H",
+        "L"
+      ],
+      "confidence_axis_evidence": {
+        "method": "descending indexed chain pTM matched to ascending within-chain mean PAE and PDE",
+        "status": "rank inference; no explicit provider index labels or numerical pair ipTM reconstruction",
+        "within_chain_error_means_A": {
+          "pae": {
+            "T": 16.437492740902723,
+            "H": 2.3890036456033488,
+            "L": 2.96859456474242
+          },
+          "pde": {
+            "T": 5.430255282360619,
+            "H": 0.4359326462495324,
+            "L": 0.5605776634177285
+          }
+        },
+        "indexed_chain_ptm": {
+          "0": 0.363577,
+          "1": 0.947607,
+          "2": 0.936521
+        }
+      },
+      "pair_iptm_field": "pair_chains_iptm",
+      "pair_iptm_axis_basis": "descending indexed chain pTM matched to ascending within-chain mean PAE and PDE",
+      "provider_indexed_pair_iptm": {
+        "0": {
+          "0": 0.363577,
+          "1": 0.253807,
+          "2": 0.268226
+        },
+        "1": {
+          "0": 0.253807,
+          "1": 0.947607,
+          "2": 0.934727
+        },
+        "2": {
+          "0": 0.268226,
+          "1": 0.934727,
+          "2": 0.936521
+        }
+      },
+      "overall_iptm": 0.613667,
+      "provider_clash_flag": null,
+      "vh_vl_iptm": 0.934727,
+      "max_antibody_target_pair_iptm": 0.268226,
+      "iptm_H_T": 0.253807,
+      "iptm_L_T": 0.268226,
+      "pae_mean_T_H_A": 26.888064186124762,
+      "pae_mean_T_L_A": 27.205059801805618,
+      "pae_mean_H_T_A": 21.38666702974517,
+      "pae_mean_H_L_A": 3.5241469305240467,
+      "pae_mean_L_T_A": 21.39934402045267,
+      "pae_mean_L_H_A": 4.2972506586755825,
+      "target_contacts_p04626": [
+        521,
+        522,
+        523,
+        527,
+        556,
+        558,
+        559,
+        561,
+        577,
+        578,
+        579,
+        580,
+        581,
+        582,
+        583,
+        607,
+        608,
+        609,
+        610,
+        611,
+        612,
+        613,
+        615,
+        619,
+        624,
+        625,
+        637,
+        638,
+        652
+      ],
+      "target_contacts_outside_common_p04626": [
+        607,
+        608,
+        609,
+        610,
+        611,
+        612,
+        637,
+        638,
+        652
+      ],
+      "wt_positions_recovered_p04626": [
+        579,
+        580,
+        582,
+        583,
+        613,
+        615,
+        624,
+        625
+      ],
+      "wt_contact_count": 8,
+      "wt_footprint_recall": 0.42105263157894735,
+      "wt_footprint_jaccard": 0.25806451612903225,
+      "antibody_contact_residues": [
+        "H:27",
+        "H:30",
+        "H:31",
+        "H:32",
+        "H:33",
+        "H:51",
+        "H:53",
+        "H:55",
+        "H:56",
+        "H:58",
+        "H:60",
+        "H:99",
+        "H:101",
+        "H:102",
+        "H:104",
+        "H:106",
+        "H:107",
+        "H:108",
+        "H:109",
+        "H:111",
+        "L:30",
+        "L:31",
+        "L:35",
+        "L:94",
+        "L:96",
+        "L:98",
+        "L:99",
+        "L:100"
+      ],
+      "heavy_atom_contact_pairs": 634,
+      "heavy_atom_clash_pairs_below_1p5A": 0,
+      "minimum_target_distance_A": 1.6182420209213995,
+      "contact_cutoff_A": 4.5,
+      "target_fit_ca_count": 109,
+      "target_fit_ca_rmsd_A": 14.543066154229415
+    },
+    {
+      "seed": 44,
+      "query_id": "opt_WTAVGFFAMD",
+      "cif_chain_to_role": {
+        "T": "T",
+        "H": "H",
+        "L": "L"
+      },
+      "antibody_residue_mapping": "1-based variable positions with equal-length CDRH3 substitutions",
+      "wt_contact_criterion_met": false,
+      "vh_vl_heavy_atom_clash_pairs_below_1p5A": 0,
+      "vh_vl_minimum_heavy_atom_distance_A": 2.5958565995551686,
+      "pae_token_chain_order": [
+        "T",
+        "H",
+        "L"
+      ],
+      "pae_token_chain_lengths": {
+        "T": 142,
+        "H": 120,
+        "L": 107
+      },
+      "pae_token_order_declaration": "tokens of the written structure, in file order",
+      "indexed_confidence_chain_order_inferred": [
+        "T",
+        "H",
+        "L"
+      ],
+      "confidence_axis_evidence": {
+        "method": "descending indexed chain pTM matched to ascending within-chain mean PAE and PDE",
+        "status": "rank inference; no explicit provider index labels or numerical pair ipTM reconstruction",
+        "within_chain_error_means_A": {
+          "pae": {
+            "T": 16.689966698213183,
+            "H": 2.1385645297314557,
+            "L": 1.4537419853085294
+          },
+          "pde": {
+            "T": 5.513582863122006,
+            "H": 0.415420601732201,
+            "L": 0.33610354609516097
+          }
+        },
+        "indexed_chain_ptm": {
+          "0": 0.349663,
+          "1": 0.954196,
+          "2": 0.95963
+        }
+      },
+      "pair_iptm_field": "pair_chains_iptm",
+      "pair_iptm_axis_basis": "descending indexed chain pTM matched to ascending within-chain mean PAE and PDE",
+      "provider_indexed_pair_iptm": {
+        "0": {
+          "0": 0.349663,
+          "1": 0.362171,
+          "2": 0.362738
+        },
+        "1": {
+          "0": 0.362171,
+          "1": 0.954196,
+          "2": 0.950736
+        },
+        "2": {
+          "0": 0.362738,
+          "1": 0.950736,
+          "2": 0.95963
+        }
+      },
+      "overall_iptm": 0.660898,
+      "provider_clash_flag": null,
+      "vh_vl_iptm": 0.950736,
+      "max_antibody_target_pair_iptm": 0.362738,
+      "iptm_H_T": 0.362171,
+      "iptm_L_T": 0.362738,
+      "pae_mean_T_H_A": 25.033650401276603,
+      "pae_mean_T_L_A": 25.07373136957492,
+      "pae_mean_H_T_A": 17.06511348068994,
+      "pae_mean_H_L_A": 3.1096278709066434,
+      "pae_mean_L_T_A": 16.91759305664375,
+      "pae_mean_L_H_A": 2.574429145692108,
+      "target_contacts_p04626": [
+        512,
+        513,
+        514,
+        515,
+        516,
+        517,
+        525,
+        526,
+        528,
+        529,
+        530,
+        531,
+        532,
+        543,
+        544,
+        547,
+        548,
+        549,
+        588,
+        589,
+        590,
+        594,
+        595,
+        607,
+        608,
+        609,
+        610,
+        611,
+        612,
+        614,
+        615,
+        619,
+        620,
+        621,
+        624,
+        635,
+        636,
+        637,
+        638,
+        639
+      ],
+      "target_contacts_outside_common_p04626": [
+        607,
+        608,
+        609,
+        610,
+        611,
+        612,
+        635,
+        636,
+        637,
+        638,
+        639
+      ],
+      "wt_positions_recovered_p04626": [
+        594,
+        595,
+        615,
+        620,
+        624
+      ],
+      "wt_contact_count": 5,
+      "wt_footprint_recall": 0.2631578947368421,
+      "wt_footprint_jaccard": 0.11627906976744186,
+      "antibody_contact_residues": [
+        "H:26",
+        "H:27",
+        "H:28",
+        "H:30",
+        "H:31",
+        "H:32",
+        "H:33",
+        "H:50",
+        "H:52",
+        "H:54",
+        "H:55",
+        "H:56",
+        "H:57",
+        "H:58",
+        "H:59",
+        "H:65",
+        "H:98",
+        "H:99",
+        "H:100",
+        "H:101",
+        "H:102",
+        "H:103",
+        "H:104",
+        "H:105",
+        "L:30",
+        "L:31",
+        "L:32",
+        "L:49",
+        "L:50",
+        "L:53",
+        "L:54",
+        "L:56",
+        "L:91",
+        "L:92",
+        "L:93",
+        "L:94",
+        "L:95",
+        "L:96"
+      ],
+      "heavy_atom_contact_pairs": 773,
+      "heavy_atom_clash_pairs_below_1p5A": 1,
+      "minimum_target_distance_A": 1.184295650259336,
+      "contact_cutoff_A": 4.5,
+      "target_fit_ca_count": 109,
+      "target_fit_ca_rmsd_A": 14.40068268530053,
+      "antibody_mapped_ca_count": 227,
+      "antibody_ca_rmsd_in_target_frame_A": 55.26343245318373,
+      "antibody_centroid_displacement_A": 47.922942287246556,
+      "antibody_ref_interface_ca_count": 20,
+      "antibody_ref_interface_ca_rmsd_in_target_frame_A": 31.159911774545982,
+      "ref_interface_ca_count": 39,
+      "ref_interface_ca_rmsd_in_target_frame_A": 24.987395200251434,
+      "ref_interface_pae_ab_rows_target_cols_A": 19.452787399291992,
+      "ref_interface_pae_target_rows_ab_cols_A": 22.60854721069336
+    },
+    {
+      "seed": 44,
+      "query_id": "opt_YTGDGFPAMN",
+      "cif_chain_to_role": {
+        "T": "T",
+        "H": "H",
+        "L": "L"
+      },
+      "antibody_residue_mapping": "1-based variable positions with equal-length CDRH3 substitutions",
+      "wt_contact_criterion_met": false,
+      "vh_vl_heavy_atom_clash_pairs_below_1p5A": 0,
+      "vh_vl_minimum_heavy_atom_distance_A": 2.2213232812086785,
+      "pae_token_chain_order": [
+        "T",
+        "H",
+        "L"
+      ],
+      "pae_token_chain_lengths": {
+        "T": 142,
+        "H": 120,
+        "L": 107
+      },
+      "pae_token_order_declaration": "tokens of the written structure, in file order",
+      "indexed_confidence_chain_order_inferred": [
+        "T",
+        "H",
+        "L"
+      ],
+      "confidence_axis_evidence": {
+        "method": "descending indexed chain pTM matched to ascending within-chain mean PAE and PDE",
+        "status": "rank inference; no explicit provider index labels or numerical pair ipTM reconstruction",
+        "within_chain_error_means_A": {
+          "pae": {
+            "T": 17.67663618956375,
+            "H": 2.354149662990951,
+            "L": 1.4935890622993402
+          },
+          "pde": {
+            "T": 6.694026572912477,
+            "H": 0.4589958699668447,
+            "L": 0.340887390707703
+          }
+        },
+        "indexed_chain_ptm": {
+          "0": 0.319129,
+          "1": 0.949784,
+          "2": 0.958737
+        }
+      },
+      "pair_iptm_field": "pair_chains_iptm",
+      "pair_iptm_axis_basis": "descending indexed chain pTM matched to ascending within-chain mean PAE and PDE",
+      "provider_indexed_pair_iptm": {
+        "0": {
+          "0": 0.319129,
+          "1": 0.259376,
+          "2": 0.262342
+        },
+        "1": {
+          "0": 0.259376,
+          "1": 0.949784,
+          "2": 0.947331
+        },
+        "2": {
+          "0": 0.262342,
+          "1": 0.947331,
+          "2": 0.958737
+        }
+      },
+      "overall_iptm": 0.602582,
+      "provider_clash_flag": null,
+      "vh_vl_iptm": 0.947331,
+      "max_antibody_target_pair_iptm": 0.262342,
+      "iptm_H_T": 0.259376,
+      "iptm_L_T": 0.262342,
+      "pae_mean_T_H_A": 26.687024690063907,
+      "pae_mean_T_L_A": 26.787241855137786,
+      "pae_mean_H_T_A": 20.770618154185478,
+      "pae_mean_H_L_A": 3.4272861094443225,
+      "pae_mean_L_T_A": 20.71665348704746,
+      "pae_mean_L_H_A": 2.7206212179961606,
+      "target_contacts_p04626": [
+        542,
+        545,
+        546,
+        547,
+        548,
+        549,
+        550,
+        551,
+        552,
+        553,
+        554,
+        562,
+        563,
+        564,
+        565,
+        566,
+        568,
+        570,
+        571,
+        579,
+        580,
+        591,
+        593,
+        607,
+        608,
+        609,
+        610,
+        611,
+        612,
+        613,
+        629,
+        630,
+        631,
+        632,
+        633,
+        644,
+        645,
+        646,
+        647,
+        648,
+        649,
+        650,
+        651,
+        652
+      ],
+      "target_contacts_outside_common_p04626": [
+        607,
+        608,
+        609,
+        610,
+        611,
+        612,
+        630,
+        631,
+        632,
+        633,
+        644,
+        645,
+        646,
+        647,
+        648,
+        649,
+        650,
+        651,
+        652
+      ],
+      "wt_positions_recovered_p04626": [
+        579,
+        580,
+        591,
+        593,
+        613
+      ],
+      "wt_contact_count": 5,
+      "wt_footprint_recall": 0.2631578947368421,
+      "wt_footprint_jaccard": 0.1282051282051282,
+      "antibody_contact_residues": [
+        "H:2",
+        "H:33",
+        "H:50",
+        "H:52",
+        "H:54",
+        "H:55",
+        "H:57",
+        "H:58",
+        "H:59",
+        "H:98",
+        "H:99",
+        "H:100",
+        "H:101",
+        "H:102",
+        "H:103",
+        "H:104",
+        "H:105",
+        "H:109",
+        "L:1",
+        "L:2",
+        "L:27",
+        "L:28",
+        "L:30",
+        "L:31",
+        "L:32",
+        "L:48",
+        "L:49",
+        "L:50",
+        "L:52",
+        "L:53",
+        "L:54",
+        "L:55",
+        "L:56",
+        "L:62",
+        "L:63",
+        "L:64",
+        "L:66",
+        "L:91",
+        "L:92",
+        "L:93",
+        "L:94"
+      ],
+      "heavy_atom_contact_pairs": 776,
+      "heavy_atom_clash_pairs_below_1p5A": 2,
+      "minimum_target_distance_A": 1.395731853693686,
+      "contact_cutoff_A": 4.5,
+      "target_fit_ca_count": 109,
+      "target_fit_ca_rmsd_A": 19.718971199256075,
+      "antibody_mapped_ca_count": 227,
+      "antibody_ca_rmsd_in_target_frame_A": 30.105245217726157,
+      "antibody_centroid_displacement_A": 22.435690913256963,
+      "antibody_ref_interface_ca_count": 20,
+      "antibody_ref_interface_ca_rmsd_in_target_frame_A": 14.927047748643956,
+      "ref_interface_ca_count": 39,
+      "ref_interface_ca_rmsd_in_target_frame_A": 20.346182759487785,
+      "ref_interface_pae_ab_rows_target_cols_A": 21.201684951782227,
+      "ref_interface_pae_target_rows_ab_cols_A": 23.267839431762695
+    }
+  ],
+  "per_query_ranges": [
+    {
+      "query_id": "control_wt",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "metrics": {
+        "wt_contact_count": {
+          "min": 0,
+          "max": 5,
+          "n": 3
+        },
+        "wt_footprint_recall": {
+          "min": 0.0,
+          "max": 0.2631578947368421,
+          "n": 3
+        },
+        "wt_footprint_jaccard": {
+          "min": 0.0,
+          "max": 0.14285714285714285,
+          "n": 3
+        },
+        "target_fit_ca_rmsd_A": {
+          "min": 11.744364826608194,
+          "max": 14.44260619550591,
+          "n": 3
+        },
+        "antibody_ca_rmsd_in_target_frame_A": {
+          "min": 34.31686840457105,
+          "max": 60.31642414719714,
+          "n": 3
+        },
+        "antibody_ref_interface_ca_rmsd_in_target_frame_A": {
+          "min": 22.84066538558902,
+          "max": 34.9407779274935,
+          "n": 3
+        },
+        "ref_interface_ca_rmsd_in_target_frame_A": {
+          "min": 20.478337434472664,
+          "max": 27.532004393430682,
+          "n": 3
+        },
+        "overall_iptm": {
+          "min": 0.583916,
+          "max": 0.664629,
+          "n": 3
+        },
+        "vh_vl_iptm": {
+          "min": 0.9548,
+          "max": 0.955506,
+          "n": 3
+        },
+        "iptm_H_T": {
+          "min": 0.218981,
+          "max": 0.355761,
+          "n": 3
+        },
+        "iptm_L_T": {
+          "min": 0.224517,
+          "max": 0.364583,
+          "n": 3
+        },
+        "heavy_atom_clash_pairs_below_1p5A": {
+          "min": 0,
+          "max": 1,
+          "n": 3
+        },
+        "vh_vl_heavy_atom_clash_pairs_below_1p5A": {
+          "min": 0,
+          "max": 0,
+          "n": 3
+        },
+        "pae_mean_H_L_A": {
+          "min": 2.5818833008385336,
+          "max": 2.625472791629881,
+          "n": 3
+        },
+        "pae_mean_L_H_A": {
+          "min": 2.4125476212168224,
+          "max": 2.4431378900749476,
+          "n": 3
+        },
+        "pae_mean_H_T_A": {
+          "min": 17.231237779760583,
+          "max": 22.7673607030385,
+          "n": 3
+        },
+        "pae_mean_T_H_A": {
+          "min": 25.782315374316184,
+          "max": 26.924177715420164,
+          "n": 3
+        },
+        "pae_mean_L_T_A": {
+          "min": 17.17047140656984,
+          "max": 22.685705117650826,
+          "n": 3
+        },
+        "pae_mean_T_L_A": {
+          "min": 25.777339764577835,
+          "max": 27.91741492833937,
+          "n": 3
+        },
+        "ref_interface_pae_ab_rows_target_cols_A": {
+          "min": 18.69513702392578,
+          "max": 22.01365852355957,
+          "n": 3
+        },
+        "ref_interface_pae_target_rows_ab_cols_A": {
+          "min": 22.93515396118164,
+          "max": 24.172163009643555,
+          "n": 3
+        }
+      }
+    },
+    {
+      "query_id": "control_spr_strong",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "metrics": {
+        "wt_contact_count": {
+          "min": 4,
+          "max": 4,
+          "n": 3
+        },
+        "wt_footprint_recall": {
+          "min": 0.21052631578947367,
+          "max": 0.21052631578947367,
+          "n": 3
+        },
+        "wt_footprint_jaccard": {
+          "min": 0.09302325581395349,
+          "max": 0.10526315789473684,
+          "n": 3
+        },
+        "target_fit_ca_rmsd_A": {
+          "min": 12.767454409978082,
+          "max": 16.352356783082847,
+          "n": 3
+        },
+        "antibody_ca_rmsd_in_target_frame_A": {
+          "min": 55.40968355875456,
+          "max": 58.328877264775734,
+          "n": 3
+        },
+        "antibody_ref_interface_ca_rmsd_in_target_frame_A": {
+          "min": 31.24126582912431,
+          "max": 36.216433863967296,
+          "n": 3
+        },
+        "ref_interface_ca_rmsd_in_target_frame_A": {
+          "min": 24.973537500072716,
+          "max": 29.439854926546573,
+          "n": 3
+        },
+        "overall_iptm": {
+          "min": 0.620231,
+          "max": 0.629803,
+          "n": 3
+        },
+        "vh_vl_iptm": {
+          "min": 0.950718,
+          "max": 0.951946,
+          "n": 3
+        },
+        "iptm_H_T": {
+          "min": 0.290847,
+          "max": 0.311675,
+          "n": 3
+        },
+        "iptm_L_T": {
+          "min": 0.28951,
+          "max": 0.305032,
+          "n": 3
+        },
+        "heavy_atom_clash_pairs_below_1p5A": {
+          "min": 1,
+          "max": 2,
+          "n": 3
+        },
+        "vh_vl_heavy_atom_clash_pairs_below_1p5A": {
+          "min": 0,
+          "max": 0,
+          "n": 3
+        },
+        "pae_mean_H_L_A": {
+          "min": 2.7395998858983086,
+          "max": 2.7937198429185655,
+          "n": 3
+        },
+        "pae_mean_L_H_A": {
+          "min": 2.4365432876919475,
+          "max": 2.484403121601384,
+          "n": 3
+        },
+        "pae_mean_H_T_A": {
+          "min": 19.022562610319522,
+          "max": 19.864627150218812,
+          "n": 3
+        },
+        "pae_mean_T_H_A": {
+          "min": 25.553982273961456,
+          "max": 26.63366761285934,
+          "n": 3
+        },
+        "pae_mean_L_T_A": {
+          "min": 18.885270478491,
+          "max": 19.749742854845056,
+          "n": 3
+        },
+        "pae_mean_T_L_A": {
+          "min": 26.021008401446174,
+          "max": 27.168064827258075,
+          "n": 3
+        },
+        "ref_interface_pae_ab_rows_target_cols_A": {
+          "min": 19.11882209777832,
+          "max": 20.327072143554688,
+          "n": 3
+        },
+        "ref_interface_pae_target_rows_ab_cols_A": {
+          "min": 22.35704231262207,
+          "max": 23.696020126342773,
+          "n": 3
+        }
+      }
+    },
+    {
+      "query_id": "control_spr_weak",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "metrics": {
+        "wt_contact_count": {
+          "min": 0,
+          "max": 5,
+          "n": 3
+        },
+        "wt_footprint_recall": {
+          "min": 0.0,
+          "max": 0.2631578947368421,
+          "n": 3
+        },
+        "wt_footprint_jaccard": {
+          "min": 0.0,
+          "max": 0.1388888888888889,
+          "n": 3
+        },
+        "target_fit_ca_rmsd_A": {
+          "min": 11.880262762804687,
+          "max": 14.310486444343539,
+          "n": 3
+        },
+        "antibody_ca_rmsd_in_target_frame_A": {
+          "min": 48.86002122691809,
+          "max": 54.25586300608889,
+          "n": 3
+        },
+        "antibody_ref_interface_ca_rmsd_in_target_frame_A": {
+          "min": 30.161906593551077,
+          "max": 36.61577190501551,
+          "n": 3
+        },
+        "ref_interface_ca_rmsd_in_target_frame_A": {
+          "min": 24.401706866145116,
+          "max": 28.995010234003832,
+          "n": 3
+        },
+        "overall_iptm": {
+          "min": 0.560379,
+          "max": 0.65448,
+          "n": 3
+        },
+        "vh_vl_iptm": {
+          "min": 0.943052,
+          "max": 0.945017,
+          "n": 3
+        },
+        "iptm_H_T": {
+          "min": 0.182294,
+          "max": 0.361304,
+          "n": 3
+        },
+        "iptm_L_T": {
+          "min": 0.191785,
+          "max": 0.353643,
+          "n": 3
+        },
+        "heavy_atom_clash_pairs_below_1p5A": {
+          "min": 0,
+          "max": 1,
+          "n": 3
+        },
+        "vh_vl_heavy_atom_clash_pairs_below_1p5A": {
+          "min": 0,
+          "max": 0,
+          "n": 3
+        },
+        "pae_mean_H_L_A": {
+          "min": 3.1424265911088924,
+          "max": 3.1876684465442677,
+          "n": 3
+        },
+        "pae_mean_L_H_A": {
+          "min": 2.7008042248145814,
+          "max": 2.7340253800107313,
+          "n": 3
+        },
+        "pae_mean_H_T_A": {
+          "min": 16.979542886679162,
+          "max": 23.978496683483392,
+          "n": 3
+        },
+        "pae_mean_T_H_A": {
+          "min": 25.01231805556257,
+          "max": 27.136752296053746,
+          "n": 3
+        },
+        "pae_mean_L_T_A": {
+          "min": 17.074276389550956,
+          "max": 23.86779893654435,
+          "n": 3
+        },
+        "pae_mean_T_L_A": {
+          "min": 25.499893067619652,
+          "max": 28.512398457047,
+          "n": 3
+        },
+        "ref_interface_pae_ab_rows_target_cols_A": {
+          "min": 17.232501983642578,
+          "max": 23.781471252441406,
+          "n": 3
+        },
+        "ref_interface_pae_target_rows_ab_cols_A": {
+          "min": 21.57086753845215,
+          "max": 25.117660522460938,
+          "n": 3
+        }
+      }
+    },
+    {
+      "query_id": "control_facs_low",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "metrics": {
+        "wt_contact_count": {
+          "min": 3,
+          "max": 9,
+          "n": 3
+        },
+        "wt_footprint_recall": {
+          "min": 0.15789473684210525,
+          "max": 0.47368421052631576,
+          "n": 3
+        },
+        "wt_footprint_jaccard": {
+          "min": 0.075,
+          "max": 0.24324324324324326,
+          "n": 3
+        },
+        "target_fit_ca_rmsd_A": {
+          "min": 11.142835166476887,
+          "max": 14.105333082667187,
+          "n": 3
+        },
+        "antibody_ca_rmsd_in_target_frame_A": {
+          "min": 33.873425907659666,
+          "max": 62.21328840407324,
+          "n": 3
+        },
+        "antibody_ref_interface_ca_rmsd_in_target_frame_A": {
+          "min": 22.12122633669369,
+          "max": 37.146026414391606,
+          "n": 3
+        },
+        "ref_interface_ca_rmsd_in_target_frame_A": {
+          "min": 18.58918933113385,
+          "max": 29.285889588300183,
+          "n": 3
+        },
+        "overall_iptm": {
+          "min": 0.595377,
+          "max": 0.612091,
+          "n": 3
+        },
+        "vh_vl_iptm": {
+          "min": 0.941576,
+          "max": 0.943315,
+          "n": 3
+        },
+        "iptm_H_T": {
+          "min": 0.264012,
+          "max": 0.297053,
+          "n": 3
+        },
+        "iptm_L_T": {
+          "min": 0.259166,
+          "max": 0.289106,
+          "n": 3
+        },
+        "heavy_atom_clash_pairs_below_1p5A": {
+          "min": 0,
+          "max": 3,
+          "n": 3
+        },
+        "vh_vl_heavy_atom_clash_pairs_below_1p5A": {
+          "min": 0,
+          "max": 0,
+          "n": 3
+        },
+        "pae_mean_H_L_A": {
+          "min": 3.9904628636402504,
+          "max": 4.09253309652952,
+          "n": 3
+        },
+        "pae_mean_L_H_A": {
+          "min": 2.968151286810729,
+          "max": 3.019159532011112,
+          "n": 3
+        },
+        "pae_mean_H_T_A": {
+          "min": 19.663997820845232,
+          "max": 20.557966257428898,
+          "n": 3
+        },
+        "pae_mean_T_H_A": {
+          "min": 26.11066493148535,
+          "max": 26.788180376386418,
+          "n": 3
+        },
+        "pae_mean_L_T_A": {
+          "min": 19.203663282744646,
+          "max": 20.15474893633466,
+          "n": 3
+        },
+        "pae_mean_T_L_A": {
+          "min": 26.402304428289387,
+          "max": 27.051464356920413,
+          "n": 3
+        },
+        "ref_interface_pae_ab_rows_target_cols_A": {
+          "min": 19.929920196533203,
+          "max": 21.280542373657227,
+          "n": 3
+        },
+        "ref_interface_pae_target_rows_ab_cols_A": {
+          "min": 22.02129364013672,
+          "max": 23.492218017578125,
+          "n": 3
+        }
+      }
+    },
+    {
+      "query_id": "denovo_fullseq_k1_1",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "metrics": {
+        "wt_contact_count": {
+          "min": 2,
+          "max": 8,
+          "n": 3
+        },
+        "wt_footprint_recall": {
+          "min": 0.10526315789473684,
+          "max": 0.42105263157894735,
+          "n": 3
+        },
+        "wt_footprint_jaccard": {
+          "min": 0.05405405405405406,
+          "max": 0.25806451612903225,
+          "n": 3
+        },
+        "target_fit_ca_rmsd_A": {
+          "min": 13.34727203834512,
+          "max": 14.543066154229415,
+          "n": 3
+        },
+        "antibody_ca_rmsd_in_target_frame_A": null,
+        "antibody_ref_interface_ca_rmsd_in_target_frame_A": null,
+        "ref_interface_ca_rmsd_in_target_frame_A": null,
+        "overall_iptm": {
+          "min": 0.584465,
+          "max": 0.719205,
+          "n": 3
+        },
+        "vh_vl_iptm": {
+          "min": 0.930308,
+          "max": 0.939357,
+          "n": 3
+        },
+        "iptm_H_T": {
+          "min": 0.205612,
+          "max": 0.624436,
+          "n": 3
+        },
+        "iptm_L_T": {
+          "min": 0.220793,
+          "max": 0.590308,
+          "n": 3
+        },
+        "heavy_atom_clash_pairs_below_1p5A": {
+          "min": 0,
+          "max": 1,
+          "n": 3
+        },
+        "vh_vl_heavy_atom_clash_pairs_below_1p5A": {
+          "min": 0,
+          "max": 1,
+          "n": 3
+        },
+        "pae_mean_H_L_A": {
+          "min": 3.3194186392125493,
+          "max": 3.7050933011073983,
+          "n": 3
+        },
+        "pae_mean_L_H_A": {
+          "min": 4.224465855997104,
+          "max": 4.55270790605837,
+          "n": 3
+        },
+        "pae_mean_H_T_A": {
+          "min": 14.857250213363201,
+          "max": 22.96440592479471,
+          "n": 3
+        },
+        "pae_mean_T_H_A": {
+          "min": 22.608074207181183,
+          "max": 27.325928382737082,
+          "n": 3
+        },
+        "pae_mean_L_T_A": {
+          "min": 15.35888857734808,
+          "max": 23.386404429857354,
+          "n": 3
+        },
+        "pae_mean_T_L_A": {
+          "min": 22.469924608727695,
+          "max": 27.662379460249788,
+          "n": 3
+        },
+        "ref_interface_pae_ab_rows_target_cols_A": null,
+        "ref_interface_pae_target_rows_ab_cols_A": null
+      }
+    },
+    {
+      "query_id": "opt_WTAVGFFAMD",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "metrics": {
+        "wt_contact_count": {
+          "min": 4,
+          "max": 10,
+          "n": 3
+        },
+        "wt_footprint_recall": {
+          "min": 0.21052631578947367,
+          "max": 0.5263157894736842,
+          "n": 3
+        },
+        "wt_footprint_jaccard": {
+          "min": 0.09090909090909091,
+          "max": 0.29411764705882354,
+          "n": 3
+        },
+        "target_fit_ca_rmsd_A": {
+          "min": 12.50227315040854,
+          "max": 15.078365389041291,
+          "n": 3
+        },
+        "antibody_ca_rmsd_in_target_frame_A": {
+          "min": 37.69757999208311,
+          "max": 56.70782894747836,
+          "n": 3
+        },
+        "antibody_ref_interface_ca_rmsd_in_target_frame_A": {
+          "min": 24.01019282819789,
+          "max": 32.911104711577806,
+          "n": 3
+        },
+        "ref_interface_ca_rmsd_in_target_frame_A": {
+          "min": 20.62596229486297,
+          "max": 27.043286518221986,
+          "n": 3
+        },
+        "overall_iptm": {
+          "min": 0.619466,
+          "max": 0.665628,
+          "n": 3
+        },
+        "vh_vl_iptm": {
+          "min": 0.950333,
+          "max": 0.951334,
+          "n": 3
+        },
+        "iptm_H_T": {
+          "min": 0.278576,
+          "max": 0.374631,
+          "n": 3
+        },
+        "iptm_L_T": {
+          "min": 0.289601,
+          "max": 0.370522,
+          "n": 3
+        },
+        "heavy_atom_clash_pairs_below_1p5A": {
+          "min": 0,
+          "max": 1,
+          "n": 3
+        },
+        "vh_vl_heavy_atom_clash_pairs_below_1p5A": {
+          "min": 0,
+          "max": 0,
+          "n": 3
+        },
+        "pae_mean_H_L_A": {
+          "min": 3.0809981630273695,
+          "max": 3.13312831646139,
+          "n": 3
+        },
+        "pae_mean_L_H_A": {
+          "min": 2.5530272901406357,
+          "max": 2.588947955570024,
+          "n": 3
+        },
+        "pae_mean_H_T_A": {
+          "min": 16.633350552723442,
+          "max": 20.16605343147063,
+          "n": 3
+        },
+        "pae_mean_T_H_A": {
+          "min": 24.917531592577276,
+          "max": 25.88780491883766,
+          "n": 3
+        },
+        "pae_mean_L_T_A": {
+          "min": 16.50195459414426,
+          "max": 20.044457167030025,
+          "n": 3
+        },
+        "pae_mean_T_L_A": {
+          "min": 24.858541813840738,
+          "max": 26.594913803842235,
+          "n": 3
+        },
+        "ref_interface_pae_ab_rows_target_cols_A": {
+          "min": 18.676502227783203,
+          "max": 19.452787399291992,
+          "n": 3
+        },
+        "ref_interface_pae_target_rows_ab_cols_A": {
+          "min": 22.215593338012695,
+          "max": 22.712602615356445,
+          "n": 3
+        }
+      }
+    },
+    {
+      "query_id": "opt_YTGDGFPAMN",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "metrics": {
+        "wt_contact_count": {
+          "min": 3,
+          "max": 5,
+          "n": 3
+        },
+        "wt_footprint_recall": {
+          "min": 0.15789473684210525,
+          "max": 0.2631578947368421,
+          "n": 3
+        },
+        "wt_footprint_jaccard": {
+          "min": 0.08571428571428572,
+          "max": 0.1282051282051282,
+          "n": 3
+        },
+        "target_fit_ca_rmsd_A": {
+          "min": 14.116170793821128,
+          "max": 19.718971199256075,
+          "n": 3
+        },
+        "antibody_ca_rmsd_in_target_frame_A": {
+          "min": 30.105245217726157,
+          "max": 60.472766581718915,
+          "n": 3
+        },
+        "antibody_ref_interface_ca_rmsd_in_target_frame_A": {
+          "min": 14.927047748643956,
+          "max": 35.919014084694325,
+          "n": 3
+        },
+        "ref_interface_ca_rmsd_in_target_frame_A": {
+          "min": 20.346182759487785,
+          "max": 28.392288298189456,
+          "n": 3
+        },
+        "overall_iptm": {
+          "min": 0.602582,
+          "max": 0.671538,
+          "n": 3
+        },
+        "vh_vl_iptm": {
+          "min": 0.947331,
+          "max": 0.950054,
+          "n": 3
+        },
+        "iptm_H_T": {
+          "min": 0.259376,
+          "max": 0.388797,
+          "n": 3
+        },
+        "iptm_L_T": {
+          "min": 0.262342,
+          "max": 0.387571,
+          "n": 3
+        },
+        "heavy_atom_clash_pairs_below_1p5A": {
+          "min": 1,
+          "max": 2,
+          "n": 3
+        },
+        "vh_vl_heavy_atom_clash_pairs_below_1p5A": {
+          "min": 0,
+          "max": 0,
+          "n": 3
+        },
+        "pae_mean_H_L_A": {
+          "min": 3.357277354177935,
+          "max": 3.4272861094443225,
+          "n": 3
+        },
+        "pae_mean_L_H_A": {
+          "min": 2.6248476316577922,
+          "max": 2.7206212179961606,
+          "n": 3
+        },
+        "pae_mean_H_T_A": {
+          "min": 16.88829423597721,
+          "max": 20.770618154185478,
+          "n": 3
+        },
+        "pae_mean_T_H_A": {
+          "min": 23.72344758292319,
+          "max": 26.687024690063907,
+          "n": 3
+        },
+        "pae_mean_L_T_A": {
+          "min": 16.657297964329562,
+          "max": 20.71665348704746,
+          "n": 3
+        },
+        "pae_mean_T_L_A": {
+          "min": 24.27925695098198,
+          "max": 26.946091619340688,
+          "n": 3
+        },
+        "ref_interface_pae_ab_rows_target_cols_A": {
+          "min": 18.747802734375,
+          "max": 21.201684951782227,
+          "n": 3
+        },
+        "ref_interface_pae_target_rows_ab_cols_A": {
+          "min": 22.327173233032227,
+          "max": 23.267839431762695,
+          "n": 3
+        }
+      }
+    }
+  ],
+  "controls_by_seed": [
+    {
+      "seed": 42,
+      "wt_at_least_13_of_19": false,
+      "wt_recovered": 2,
+      "wt_minus_facs_low_contacts": -1,
+      "spr_strong_minus_weak_contacts": -1,
+      "wt_has_no_antibody_target_heavy_atom_clashes": true
+    },
+    {
+      "seed": 43,
+      "wt_at_least_13_of_19": false,
+      "wt_recovered": 0,
+      "wt_minus_facs_low_contacts": -6,
+      "spr_strong_minus_weak_contacts": 4,
+      "wt_has_no_antibody_target_heavy_atom_clashes": false
+    },
+    {
+      "seed": 44,
+      "wt_at_least_13_of_19": false,
+      "wt_recovered": 5,
+      "wt_minus_facs_low_contacts": -4,
+      "spr_strong_minus_weak_contacts": 4,
+      "wt_has_no_antibody_target_heavy_atom_clashes": false
+    }
+  ],
+  "provenance": {
+    "coverage": {
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "query_ids": [
+        "control_wt",
+        "control_spr_strong",
+        "control_spr_weak",
+        "control_facs_low",
+        "denovo_fullseq_k1_1",
+        "opt_WTAVGFFAMD",
+        "opt_YTGDGFPAMN"
+      ],
+      "predictions": 21
+    },
+    "runs": [
+      {
+        "seed": 42,
+        "job_id": "9b7463e9c2372629d7590d16738f523a",
+        "model": "opendde-abag",
+        "params": {
+          "diffusion_samples": 1,
+          "fast": false,
+          "output_format": "cif",
+          "seed": 42,
+          "use_msa_server": false,
+          "use_tfg_guidance": false,
+          "write_pae": true
+        },
+        "status_in_submission_receipt": "queued",
+        "completed_job_status": "succeeded",
+        "duplicate_result_receipt_sidecar_paths": [
+          "control_wt_pae.json"
+        ],
+        "query_rows_with_explicit_seed": 0,
+        "queries_completed": 7,
+        "receipts_sha256": {
+          "request-seed42.json": "6db054961ce365df7e456b8772d23f195dd6f5c2ab292effb68bf17596fd8eab",
+          "job-seed42.json": "b679e225b68b2fbdf04b42462d5df7f86c47639e1bbda05d6205bdee349b8bbf",
+          "completed-seed42.json": "5acd12a91c04a8cb47b44d01fe382393ecf197ab681de601451fee429ea58a47",
+          "results-seed42.json": "1a0bdf74fe2c7da14771badb55b91bff0bb53a2a2f9efa30c6252f2667959183",
+          "files-seed42.json": "76516230bc1be701b7b8cd8f0a3430d3a54564326ee7819096f788643f6ad4ff",
+          "usage-seed42.json": "3b5b3b45a9cb0dee408f61b4a9f39598fc26a52552df64a2d2b9ce70fc49be64"
+        },
+        "artifacts_sha256": {
+          "control_facs_low.cif": "25b4bb1bb32aac04637404adb09e15fb2b1590cf725f414c64afec88b3a25a1c",
+          "control_facs_low_pae.json": "78ab03ae69e8800452fddabe959643b50ce56e61a6bac468df0e88826889908a",
+          "control_facs_low_pae.npz": "6724a0962aa75670569bd9470ec4b8014f66a3dab983be36e7c92d7a11753797",
+          "control_spr_strong.cif": "2e117b08d73ee1fbe3cd42fc5b984afe3ccccb744bd380543df60824a600d6bc",
+          "control_spr_strong_pae.json": "78ab03ae69e8800452fddabe959643b50ce56e61a6bac468df0e88826889908a",
+          "control_spr_strong_pae.npz": "66ed1699d63e409ad03966cab5d9c42140d29c3c935c766f5e4d92ea05df6acf",
+          "control_spr_weak.cif": "562487e0921ed36d28866ecd6e9d22e423bed9f0f44879e58c6100f13b310ae1",
+          "control_spr_weak_pae.json": "78ab03ae69e8800452fddabe959643b50ce56e61a6bac468df0e88826889908a",
+          "control_spr_weak_pae.npz": "7b4c94af304e260f8ffbb197b32e1520d397a67e871ee260c990fe715aa85091",
+          "control_wt.cif": "841a1d35384adf6a9a76cf52786a2c6290ef23a8ad4fbce4692ae341760f0bec",
+          "control_wt_pae.json": "78ab03ae69e8800452fddabe959643b50ce56e61a6bac468df0e88826889908a",
+          "control_wt_pae.npz": "7d1c59202e9a76c2d5f69ad04391046d063df46af0cfd2de1d318d670c42c453",
+          "denovo_fullseq_k1_1.cif": "c1203257d8009c06e688bb63daf5c093cc22cead98741dba02340ada53388dea",
+          "denovo_fullseq_k1_1_pae.json": "3f8dfca9b93d492b54b9438aca75870c673e5f67914842fdf3f40e3c43144301",
+          "denovo_fullseq_k1_1_pae.npz": "732f7160e0748816ded6e795bc00528561424d232f9329bb89de110d75bbbcb4",
+          "opt_WTAVGFFAMD.cif": "b3fa63cd0e152a9a77667d8e7af256a78268f88251bfdeb5a4ed37dca2111b3d",
+          "opt_WTAVGFFAMD_pae.json": "78ab03ae69e8800452fddabe959643b50ce56e61a6bac468df0e88826889908a",
+          "opt_WTAVGFFAMD_pae.npz": "cb5e32770be251cb6548a4c1b519f2d26d5365813992c27697632daa8ae05478",
+          "opt_YTGDGFPAMN.cif": "d55923e93cf7a2e5864c3926da0643a01a6f6e74ca5c169bbd7be4f3c64da961",
+          "opt_YTGDGFPAMN_pae.json": "78ab03ae69e8800452fddabe959643b50ce56e61a6bac468df0e88826889908a",
+          "opt_YTGDGFPAMN_pae.npz": "39be47f0fdb6f754144e9576ea07e6a361188d6785d7ed16e5afd3a7eefd2612",
+          "results.json": "4fe246a27740605232a4578799aaee038ed40ebefd7f8c43c46803dc989aa08b",
+          "provider-results.zip": "4580806bf0c91c10bcd0ac5bcf1071063c14436ca8a2b728a10036f27094d08f"
+        },
+        "usage": {
+          "currency": "usd",
+          "amount": 0.044462,
+          "billable_s": 615.633
+        }
+      },
+      {
+        "seed": 43,
+        "job_id": "18146fcd3496fd377066c179368331c1",
+        "model": "opendde-abag",
+        "params": {
+          "diffusion_samples": 1,
+          "fast": false,
+          "output_format": "cif",
+          "seed": 43,
+          "use_msa_server": false,
+          "use_tfg_guidance": false,
+          "write_pae": true
+        },
+        "status_in_submission_receipt": "queued",
+        "completed_job_status": "succeeded",
+        "duplicate_result_receipt_sidecar_paths": [
+          "control_wt_pae.json"
+        ],
+        "query_rows_with_explicit_seed": 0,
+        "queries_completed": 7,
+        "receipts_sha256": {
+          "request-seed43.json": "90a8c2e589d6d91ac5bd391d4476bc8954e483787484076023ca542fd5158ce7",
+          "job-seed43.json": "4420c1edd364301ba528114994bd0d0b3f285cb6fafa1bffd775238cfdfbd38a",
+          "completed-seed43.json": "939b8d35c49bc58a153ea0a95356613374d6d14391bf26df73ca695fb688ee8e",
+          "results-seed43.json": "93eb377144e8f102e4993480b77702661bd12872e729f6ac7ced2a9b5647588f",
+          "files-seed43.json": "5e83007134197ff9e026dfad18e3031baecc4e346e4e9b7e77ad050e80941713",
+          "usage-seed43.json": "e57ce6028fc2e19adbb6b68e64c3fc4c1acc564282a7cba69d003b940ea14df7"
+        },
+        "artifacts_sha256": {
+          "control_facs_low.cif": "5be258ec5c20c0811d9ee0c51d6223da2fceca525bc1cfae2926a8bd6609ed20",
+          "control_facs_low_pae.json": "78ab03ae69e8800452fddabe959643b50ce56e61a6bac468df0e88826889908a",
+          "control_facs_low_pae.npz": "cde3e2a834693bd749f6e70f5bb2a6a4e8f51a19d0ed371d91a1fd7537445de2",
+          "control_spr_strong.cif": "4a0e8f3b899091a6abfca6a73e718b7b7cee86d25bc3948e88f09f2faed96e90",
+          "control_spr_strong_pae.json": "78ab03ae69e8800452fddabe959643b50ce56e61a6bac468df0e88826889908a",
+          "control_spr_strong_pae.npz": "c995def26628ab5c748e4e803e5f8358df14285822c0070d9f615044cb164642",
+          "control_spr_weak.cif": "b09139dba0c81760135a2a4f18f7d83ca85fd6da51214360f679e01515beea5d",
+          "control_spr_weak_pae.json": "78ab03ae69e8800452fddabe959643b50ce56e61a6bac468df0e88826889908a",
+          "control_spr_weak_pae.npz": "f140e5c39ad22d4e16820a2081beaada08ceae57440b8a36f75e156dbceda046",
+          "control_wt.cif": "8a10a494e43d3b223ee550050f917aba0a8e6ae602a3b4178b260cc2873de3f3",
+          "control_wt_pae.json": "78ab03ae69e8800452fddabe959643b50ce56e61a6bac468df0e88826889908a",
+          "control_wt_pae.npz": "a58a9c2c53824937a14a9c42dfcfb12b2eeba7ddf539e7e461aed41b891328e4",
+          "denovo_fullseq_k1_1.cif": "dcf547b2abf1dbf84491e327066ea5e027fccae4d76ddf69181bcf3ab60c94b2",
+          "denovo_fullseq_k1_1_pae.json": "3f8dfca9b93d492b54b9438aca75870c673e5f67914842fdf3f40e3c43144301",
+          "denovo_fullseq_k1_1_pae.npz": "7d3c58e437b30920a15038e36ab25b0d3d801262dee38bf7ec1bbc5abbe5d118",
+          "opt_WTAVGFFAMD.cif": "879d528706e72a8f47d0fcfc77c8887aa9e019e1dba669cf32e263610a9b4189",
+          "opt_WTAVGFFAMD_pae.json": "78ab03ae69e8800452fddabe959643b50ce56e61a6bac468df0e88826889908a",
+          "opt_WTAVGFFAMD_pae.npz": "5a800f89e0bac2e3f853b50d28cce909cc98c0d859be4fd14b458899d5c0f11e",
+          "opt_YTGDGFPAMN.cif": "56993028cd4af52e2e1a12817a9e4f3f0ab2392db28ea37311a7245a6bc14c3b",
+          "opt_YTGDGFPAMN_pae.json": "78ab03ae69e8800452fddabe959643b50ce56e61a6bac468df0e88826889908a",
+          "opt_YTGDGFPAMN_pae.npz": "d84744c5ba40aa7b69a23f4534b274af30e62364b90ab3132bca4a9eb54fc18b",
+          "results.json": "6286096dd9d98877cf31d5c85443d7b3ccb2a953c58914c67f41d0ca13193e59",
+          "provider-results.zip": "f940e973729880f146f44415eccd046363c2b39235d2b482e5cc44cc8eefa72a"
+        },
+        "usage": {
+          "currency": "usd",
+          "amount": 0.037308,
+          "billable_s": 516.579
+        }
+      },
+      {
+        "seed": 44,
+        "job_id": "f407c12f045f1786c0d5dc3619c7e72c",
+        "model": "opendde-abag",
+        "params": {
+          "diffusion_samples": 1,
+          "fast": false,
+          "output_format": "cif",
+          "seed": 44,
+          "use_msa_server": false,
+          "use_tfg_guidance": false,
+          "write_pae": true
+        },
+        "status_in_submission_receipt": "queued",
+        "completed_job_status": "succeeded",
+        "duplicate_result_receipt_sidecar_paths": [
+          "control_wt_pae.json"
+        ],
+        "query_rows_with_explicit_seed": 0,
+        "queries_completed": 7,
+        "receipts_sha256": {
+          "request-seed44.json": "307722be1e448c129842b2e235c259ac4e3f1691874ec3e5d6b8cd65ea202cd2",
+          "job-seed44.json": "44c3069285691d9895301d6abfaeea0ec7caa270ab7de432a6db8c808430f058",
+          "completed-seed44.json": "051599387c716cb88ed8b1129892b4b38d2489f5c2f12079fe0db9b88f98c86f",
+          "results-seed44.json": "cc2c1303d46860be08c1481a2e80c8e4eccb151c1a327efc8d969c63952df315",
+          "files-seed44.json": "714ee1d4a7bc2624b69cda8bcd069936359546e2ec67154acdd96f25330f6111",
+          "usage-seed44.json": "19ddf21f4fea162d4e9ae103234924665ce2b27512b47964827e040d58388f4e"
+        },
+        "artifacts_sha256": {
+          "control_facs_low.cif": "e21e6af13de3c480664c9ae6a0fb319090380e17552ce76522568730284ea2ec",
+          "control_facs_low_pae.json": "78ab03ae69e8800452fddabe959643b50ce56e61a6bac468df0e88826889908a",
+          "control_facs_low_pae.npz": "4f3d5d261f3f004ffce771a80d04edc63a57499f9681b9218c819234087c689b",
+          "control_spr_strong.cif": "ed2c4bddd5891ce686d2088841434e90f867f99711b857e5ebad38e113f36c8d",
+          "control_spr_strong_pae.json": "78ab03ae69e8800452fddabe959643b50ce56e61a6bac468df0e88826889908a",
+          "control_spr_strong_pae.npz": "5179575ac456a292ce95ffeb69203c97de053b22d8b1b412b1601e58d53c1554",
+          "control_spr_weak.cif": "ec7b99c487a834738e0cbc14bfab8dac62af879ae845ace6e357853e3adaab90",
+          "control_spr_weak_pae.json": "78ab03ae69e8800452fddabe959643b50ce56e61a6bac468df0e88826889908a",
+          "control_spr_weak_pae.npz": "884e774e10e4b666cf38136be74724fb45c5c64ad5aacb13b4d0bba6a63ced85",
+          "control_wt.cif": "bf995717ecfbeac2e78fc0719361bc053f9af33ad73e525491719821d32ff09e",
+          "control_wt_pae.json": "78ab03ae69e8800452fddabe959643b50ce56e61a6bac468df0e88826889908a",
+          "control_wt_pae.npz": "450c6c7809bdb962f40239658d2d203216195c029c048aaa094f3450fec12a22",
+          "denovo_fullseq_k1_1.cif": "6b770018e79c286169bfa68a115a64c31d9d822cc7f62acd7948eea6692c5fa6",
+          "denovo_fullseq_k1_1_pae.json": "3f8dfca9b93d492b54b9438aca75870c673e5f67914842fdf3f40e3c43144301",
+          "denovo_fullseq_k1_1_pae.npz": "30c665c870b1f45be21c2cdf19e316b197be5ec02f05578d1ffb9047e119a13f",
+          "opt_WTAVGFFAMD.cif": "debaf43ebc1cd40a52cb57e6b0bc1f49ebbfa7f3364080be92a9d3c454bbdb82",
+          "opt_WTAVGFFAMD_pae.json": "78ab03ae69e8800452fddabe959643b50ce56e61a6bac468df0e88826889908a",
+          "opt_WTAVGFFAMD_pae.npz": "193e6abbcb1c803ab85465b3f95de52cc0a75bbfe827f69e34789c2d5b8812af",
+          "opt_YTGDGFPAMN.cif": "d6cfb671cc68ffcc5e8ad03e2200f37a8bd194b33b377e23e2f95312089c389a",
+          "opt_YTGDGFPAMN_pae.json": "78ab03ae69e8800452fddabe959643b50ce56e61a6bac468df0e88826889908a",
+          "opt_YTGDGFPAMN_pae.npz": "aff73196c68df1274d8137bef919b6f32cdcfd0639e1f0f69ac6d7b672f10a9b",
+          "results.json": "b1d9f8b7ee8b65d6b07b4412365feb08cfde3ca9c7e8896f415d9a7e0deb53bb",
+          "provider-results.zip": "0733f1ec7f56ff151cc36fa788b8ef962236ad17f5fa7051234886eee46f77d6"
+        },
+        "usage": {
+          "currency": "usd",
+          "amount": 0.039049,
+          "billable_s": 540.681
+        }
+      }
+    ],
+    "inputs_sha256": {
+      "P04626.fasta": "544da5f05e6961a6a51f6fb7540d48b61f57cdfe5c8cfe4da455bb3118574cdb",
+      "domain-iv-queries.json": "156ddcae0aa41acc2be6e2172b12eb470c1e633674319729eaad8529d4188126",
+      "manifest.json": "26c494433c5329ae1add7392c843241c9b519a8e1ecbac7f6cd0cf2a6261a7fa"
+    },
+    "request_policy": "FASTA only; no supplied templates or restraints; accepted TFG guidance false",
+    "seed_evidence": "provider accepted job parameters; per-row seeds checked where present",
+    "assay_evidence": {
+      "control_wt": {
+        "kd_nM": 0.152,
+        "all_wt_kd_nM": [
+          0.152,
+          0.123,
+          0.146,
+          0.165,
+          0.178,
+          0.0378713,
+          0.02851802,
+          0.07916459
+        ]
+      },
+      "control_spr_strong": {
+        "kd_nM": 0.02343889
+      },
+      "control_spr_weak": {
+        "kd_nM": 13863.16
+      },
+      "control_facs_low": {
+        "facs_class": "low"
+      }
+    },
+    "model_weights_revision": null,
+    "reference": {
+      "sha256": "9f22f02b6e514de56dab8a48bc31a16302a51397779e64c398ad3a7f05cb19a2",
+      "target_chain": "C",
+      "target_canonical_offset": 22,
+      "antibody_role_to_chain": {
+        "H": "B",
+        "L": "A"
+      },
+      "target_ca_fit_positions_p04626": [
+        511,
+        512,
+        513,
+        514,
+        515,
+        516,
+        517,
+        518,
+        519,
+        520,
+        521,
+        522,
+        523,
+        524,
+        525,
+        526,
+        527,
+        528,
+        529,
+        530,
+        531,
+        532,
+        533,
+        534,
+        535,
+        536,
+        537,
+        538,
+        539,
+        540,
+        541,
+        542,
+        543,
+        544,
+        545,
+        546,
+        547,
+        548,
+        549,
+        550,
+        551,
+        552,
+        553,
+        554,
+        555,
+        556,
+        557,
+        558,
+        559,
+        560,
+        561,
+        562,
+        563,
+        564,
+        565,
+        566,
+        567,
+        568,
+        569,
+        570,
+        571,
+        572,
+        573,
+        574,
+        575,
+        576,
+        577,
+        578,
+        579,
+        580,
+        581,
+        582,
+        583,
+        584,
+        585,
+        586,
+        587,
+        588,
+        589,
+        590,
+        591,
+        592,
+        593,
+        594,
+        595,
+        596,
+        597,
+        598,
+        599,
+        600,
+        601,
+        602,
+        613,
+        614,
+        615,
+        616,
+        617,
+        618,
+        619,
+        620,
+        621,
+        622,
+        623,
+        624,
+        625,
+        626,
+        627,
+        628,
+        629
+      ],
+      "wt_footprint_positions_p04626": [
+        579,
+        580,
+        582,
+        583,
+        591,
+        592,
+        593,
+        594,
+        595,
+        601,
+        613,
+        615,
+        618,
+        620,
+        622,
+        624,
+        625,
+        626,
+        627
+      ],
+      "antibody_interface_positions": {
+        "H": [
+          33,
+          50,
+          52,
+          57,
+          58,
+          59,
+          99,
+          103,
+          104,
+          105
+        ],
+        "L": [
+          28,
+          30,
+          31,
+          32,
+          50,
+          53,
+          91,
+          92,
+          93,
+          94
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "archives": [
+    {
+      "file": "neural-augmented-seed0-weights.tar.gz",
+      "sha256": "d610ed79710b54139634362ee46da507761613214b67a135cba069d1f0857e13",
+      "bytes": 17562161,
+      "members": [
+        {
+          "path": "neural-runs/augmented-seed0/transformer/best.pt",
+          "sha256": "fc16b9763d500739f0decaf3edca0ef7db57b172a9c917de136071d71d1cc69c",
+          "bytes": 19015734
+        }
+      ]
+    },
+    {
+      "file": "neural-augmented-seed1-weights.tar.gz",
+      "sha256": "2d98061e74cd3e0d4ad6c4a864efc5513a13503c5d20ff74d95f05b12d107815",
+      "bytes": 17558770,
+      "members": [
+        {
+          "path": "neural-runs/augmented-seed1/transformer/best.pt",
+          "sha256": "30c16321139f0530ae286b954e5c90ac87305f4dfc41a8c3948bd4877d4fdb63",
+          "bytes": 19015734
+        }
+      ]
+    },
+    {
+      "file": "neural-augmented-seed2-weights.tar.gz",
+      "sha256": "88a6161d7d42ad79220bb3798f38642c149ba9c62a8cd84a3b696560c58112c5",
+      "bytes": 17559612,
+      "members": [
+        {
+          "path": "neural-runs/augmented-seed2/transformer/best.pt",
+          "sha256": "e5baffc5f76f33e166486a53aa4deb0f14b9549a1070b6f7a7441c34e74018fc",
+          "bytes": 19015734
+        }
+      ]
+    },
+    {
+      "file": "neural-large-seed0-weights.tar.gz",
+      "sha256": "a253e4d0a562898ebef4afd8161a0cef371e05a277924ee2c6ae8edbc83bb6c1",
+      "bytes": 36634608,
+      "members": [
+        {
+          "path": "neural-runs/large-seed0/mlp/best.pt",
+          "sha256": "c0e2e5c47a70ea059852f3361f1631b9bea43107baf5107c737dc4818e4526f0",
+          "bytes": 20536269
+        },
+        {
+          "path": "neural-runs/large-seed0/transformer/best.pt",
+          "sha256": "54c6dd9de3ded6f1112e7c1337b89b48be21c5348a97d6e96124e866bcafdd69",
+          "bytes": 19015734
+        }
+      ]
+    },
+    {
+      "file": "neural-large-seed1-weights.tar.gz",
+      "sha256": "2ac08cbfd334d05dae62578d3d47aafe9d442bdeceb9596cf977a381e8b0d3ff",
+      "bytes": 36631914,
+      "members": [
+        {
+          "path": "neural-runs/large-seed1/mlp/best.pt",
+          "sha256": "44ce7be2a73ee13d93318696f47751e426ee6ae7315519a32ae1467ea983b45b",
+          "bytes": 20536269
+        },
+        {
+          "path": "neural-runs/large-seed1/transformer/best.pt",
+          "sha256": "b2ceccc500a957d4b25cbfefd094656d56c90b55eb343d6390c6dc6ef7f26e94",
+          "bytes": 19015734
+        }
+      ]
+    },
+    {
+      "file": "neural-large-seed2-weights.tar.gz",
+      "sha256": "5bb33f5dcdbc662c71da8947dd1a9bd03164e149b8b515be4f294a4c1cdc5133",
+      "bytes": 36633316,
+      "members": [
+        {
+          "path": "neural-runs/large-seed2/mlp/best.pt",
+          "sha256": "670a612d3580103d88efa68328836782d0122beca95364f734c4c2a23df8ebc3",
+          "bytes": 20536269
+        },
+        {
+          "path": "neural-runs/large-seed2/transformer/best.pt",
+          "sha256": "f741b48caa04eed87d865c9e009c78e2ef0b3bdae7da60ba7201236e79ef40bb",
+          "bytes": 19015734
+        }
+      ]
+    },
+    {
+      "file": "neural-small-seed0-weights.tar.gz",
+      "sha256": "857a37b4b30ba321cfca470bea46f6ab5717ed4e531fb281f7c2116b5495cddf",
+      "bytes": 513333,
+      "members": [
+        {
+          "path": "neural-runs/small-seed0/transformer/best.pt",
+          "sha256": "eedbfb42b1f26df80f9e71ab4b7db77201ee5154cddd5d78ff4b8406b7d08f3e",
+          "bytes": 286406
+        },
+        {
+          "path": "neural-runs/small-seed0/mlp/best.pt",
+          "sha256": "98b0a76a3298aabb507d6e8634c7ad710af38bfab7417726769bd530ac4ac73c",
+          "bytes": 274965
+        }
+      ]
+    }
+  ]
+}

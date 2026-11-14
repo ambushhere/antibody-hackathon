@@ -1,0 +1,72 @@
+{
+  "created_at": "2026-11-14T13:49:05.058504+00:00",
+  "done": 7,
+  "error": null,
+  "finished_at": "2026-11-14T13:50:46.533038+00:00",
+  "id": "f407c12f045f1786c0d5dc3619c7e72c",
+  "kind": "predict",
+  "links": {
+    "archive": "https://api.japanfold.aiand.com/v1/jobs/f407c12f045f1786c0d5dc3619c7e72c/archive",
+    "logs": "https://api.japanfold.aiand.com/v1/jobs/f407c12f045f1786c0d5dc3619c7e72c/logs",
+    "results": "https://api.japanfold.aiand.com/v1/jobs/f407c12f045f1786c0d5dc3619c7e72c/results",
+    "self": "https://api.japanfold.aiand.com/v1/jobs/f407c12f045f1786c0d5dc3619c7e72c",
+    "usage": "https://api.japanfold.aiand.com/v1/jobs/f407c12f045f1786c0d5dc3619c7e72c/usage"
+  },
+  "model": "opendde-abag",
+  "name": "her2-domain-iv-opendde-seed44",
+  "object": "job",
+  "params": {
+    "diffusion_samples": 1,
+    "fast": false,
+    "output_format": "cif",
+    "seed": 44,
+    "use_msa_server": false,
+    "use_tfg_guidance": false,
+    "write_pae": true
+  },
+  "progress": 1,
+  "protocol": null,
+  "residues": 381,
+  "results_ready": true,
+  "stage": "done",
+  "started_at": "2026-11-14T13:49:09.731207+00:00",
+  "status": "succeeded",
+  "targets": [
+    {
+      "id": "control_wt",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "control_facs_low",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "control_spr_strong",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "control_spr_weak",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "denovo_fullseq_k1_1",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "opt_WTAVGFFAMD",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "opt_YTGDGFPAMN",
+      "stage": null,
+      "state": "done"
+    }
+  ],
+  "total": 7
+}

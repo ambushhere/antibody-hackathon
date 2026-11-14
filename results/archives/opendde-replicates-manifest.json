@@ -1,0 +1,353 @@
+{
+  "file": "opendde-replicates-20261114.tar.gz",
+  "bytes": 65598080,
+  "sha256": "2d4d4aff3432ee4d8439c8a6c21788f740e018ee2bed065cf8f44c58b65d9d82",
+  "extract_under": "results",
+  "members": [
+    {
+      "path": "campaign/opendde-replicates/seed-42/control_facs_low.cif",
+      "bytes": 317932,
+      "sha256": "25b4bb1bb32aac04637404adb09e15fb2b1590cf725f414c64afec88b3a25a1c"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-42/control_facs_low_pae.json",
+      "bytes": 1699,
+      "sha256": "78ab03ae69e8800452fddabe959643b50ce56e61a6bac468df0e88826889908a"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-42/control_facs_low_pae.npz",
+      "bytes": 1463707,
+      "sha256": "6724a0962aa75670569bd9470ec4b8014f66a3dab983be36e7c92d7a11753797"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-42/control_spr_strong.cif",
+      "bytes": 317484,
+      "sha256": "2e117b08d73ee1fbe3cd42fc5b984afe3ccccb744bd380543df60824a600d6bc"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-42/control_spr_strong_pae.json",
+      "bytes": 1699,
+      "sha256": "78ab03ae69e8800452fddabe959643b50ce56e61a6bac468df0e88826889908a"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-42/control_spr_strong_pae.npz",
+      "bytes": 1465102,
+      "sha256": "66ed1699d63e409ad03966cab5d9c42140d29c3c935c766f5e4d92ea05df6acf"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-42/control_spr_weak.cif",
+      "bytes": 317372,
+      "sha256": "562487e0921ed36d28866ecd6e9d22e423bed9f0f44879e58c6100f13b310ae1"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-42/control_spr_weak_pae.json",
+      "bytes": 1699,
+      "sha256": "78ab03ae69e8800452fddabe959643b50ce56e61a6bac468df0e88826889908a"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-42/control_spr_weak_pae.npz",
+      "bytes": 1464319,
+      "sha256": "7b4c94af304e260f8ffbb197b32e1520d397a67e871ee260c990fe715aa85091"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-42/control_wt.cif",
+      "bytes": 311034,
+      "sha256": "841a1d35384adf6a9a76cf52786a2c6290ef23a8ad4fbce4692ae341760f0bec"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-42/control_wt_pae.json",
+      "bytes": 1699,
+      "sha256": "78ab03ae69e8800452fddabe959643b50ce56e61a6bac468df0e88826889908a"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-42/control_wt_pae.npz",
+      "bytes": 1463856,
+      "sha256": "7d1c59202e9a76c2d5f69ad04391046d063df46af0cfd2de1d318d670c42c453"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-42/denovo_fullseq_k1_1.cif",
+      "bytes": 329816,
+      "sha256": "c1203257d8009c06e688bb63daf5c093cc22cead98741dba02340ada53388dea"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-42/denovo_fullseq_k1_1_pae.json",
+      "bytes": 1699,
+      "sha256": "3f8dfca9b93d492b54b9438aca75870c673e5f67914842fdf3f40e3c43144301"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-42/denovo_fullseq_k1_1_pae.npz",
+      "bytes": 1565632,
+      "sha256": "732f7160e0748816ded6e795bc00528561424d232f9329bb89de110d75bbbcb4"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-42/opt_WTAVGFFAMD.cif",
+      "bytes": 311254,
+      "sha256": "b3fa63cd0e152a9a77667d8e7af256a78268f88251bfdeb5a4ed37dca2111b3d"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-42/opt_WTAVGFFAMD_pae.json",
+      "bytes": 1699,
+      "sha256": "78ab03ae69e8800452fddabe959643b50ce56e61a6bac468df0e88826889908a"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-42/opt_WTAVGFFAMD_pae.npz",
+      "bytes": 1464200,
+      "sha256": "cb5e32770be251cb6548a4c1b519f2d26d5365813992c27697632daa8ae05478"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-42/opt_YTGDGFPAMN.cif",
+      "bytes": 316252,
+      "sha256": "d55923e93cf7a2e5864c3926da0643a01a6f6e74ca5c169bbd7be4f3c64da961"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-42/opt_YTGDGFPAMN_pae.json",
+      "bytes": 1699,
+      "sha256": "78ab03ae69e8800452fddabe959643b50ce56e61a6bac468df0e88826889908a"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-42/opt_YTGDGFPAMN_pae.npz",
+      "bytes": 1463409,
+      "sha256": "39be47f0fdb6f754144e9576ea07e6a361188d6785d7ed16e5afd3a7eefd2612"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-42/provider-results.zip",
+      "bytes": 10930880,
+      "sha256": "4580806bf0c91c10bcd0ac5bcf1071063c14436ca8a2b728a10036f27094d08f"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-42/results.json",
+      "bytes": 5317,
+      "sha256": "4fe246a27740605232a4578799aaee038ed40ebefd7f8c43c46803dc989aa08b"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-43/control_facs_low.cif",
+      "bytes": 315088,
+      "sha256": "5be258ec5c20c0811d9ee0c51d6223da2fceca525bc1cfae2926a8bd6609ed20"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-43/control_facs_low_pae.json",
+      "bytes": 1699,
+      "sha256": "78ab03ae69e8800452fddabe959643b50ce56e61a6bac468df0e88826889908a"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-43/control_facs_low_pae.npz",
+      "bytes": 1464171,
+      "sha256": "cde3e2a834693bd749f6e70f5bb2a6a4e8f51a19d0ed371d91a1fd7537445de2"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-43/control_spr_strong.cif",
+      "bytes": 320324,
+      "sha256": "4a0e8f3b899091a6abfca6a73e718b7b7cee86d25bc3948e88f09f2faed96e90"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-43/control_spr_strong_pae.json",
+      "bytes": 1699,
+      "sha256": "78ab03ae69e8800452fddabe959643b50ce56e61a6bac468df0e88826889908a"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-43/control_spr_strong_pae.npz",
+      "bytes": 1463186,
+      "sha256": "c995def26628ab5c748e4e803e5f8358df14285822c0070d9f615044cb164642"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-43/control_spr_weak.cif",
+      "bytes": 314533,
+      "sha256": "b09139dba0c81760135a2a4f18f7d83ca85fd6da51214360f679e01515beea5d"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-43/control_spr_weak_pae.json",
+      "bytes": 1699,
+      "sha256": "78ab03ae69e8800452fddabe959643b50ce56e61a6bac468df0e88826889908a"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-43/control_spr_weak_pae.npz",
+      "bytes": 1464084,
+      "sha256": "f140e5c39ad22d4e16820a2081beaada08ceae57440b8a36f75e156dbceda046"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-43/control_wt.cif",
+      "bytes": 313867,
+      "sha256": "8a10a494e43d3b223ee550050f917aba0a8e6ae602a3b4178b260cc2873de3f3"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-43/control_wt_pae.json",
+      "bytes": 1699,
+      "sha256": "78ab03ae69e8800452fddabe959643b50ce56e61a6bac468df0e88826889908a"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-43/control_wt_pae.npz",
+      "bytes": 1464024,
+      "sha256": "a58a9c2c53824937a14a9c42dfcfb12b2eeba7ddf539e7e461aed41b891328e4"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-43/denovo_fullseq_k1_1.cif",
+      "bytes": 323968,
+      "sha256": "dcf547b2abf1dbf84491e327066ea5e027fccae4d76ddf69181bcf3ab60c94b2"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-43/denovo_fullseq_k1_1_pae.json",
+      "bytes": 1699,
+      "sha256": "3f8dfca9b93d492b54b9438aca75870c673e5f67914842fdf3f40e3c43144301"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-43/denovo_fullseq_k1_1_pae.npz",
+      "bytes": 1562485,
+      "sha256": "7d3c58e437b30920a15038e36ab25b0d3d801262dee38bf7ec1bbc5abbe5d118"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-43/opt_WTAVGFFAMD.cif",
+      "bytes": 316924,
+      "sha256": "879d528706e72a8f47d0fcfc77c8887aa9e019e1dba669cf32e263610a9b4189"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-43/opt_WTAVGFFAMD_pae.json",
+      "bytes": 1699,
+      "sha256": "78ab03ae69e8800452fddabe959643b50ce56e61a6bac468df0e88826889908a"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-43/opt_WTAVGFFAMD_pae.npz",
+      "bytes": 1465385,
+      "sha256": "5a800f89e0bac2e3f853b50d28cce909cc98c0d859be4fd14b458899d5c0f11e"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-43/opt_YTGDGFPAMN.cif",
+      "bytes": 313423,
+      "sha256": "56993028cd4af52e2e1a12817a9e4f3f0ab2392db28ea37311a7245a6bc14c3b"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-43/opt_YTGDGFPAMN_pae.json",
+      "bytes": 1699,
+      "sha256": "78ab03ae69e8800452fddabe959643b50ce56e61a6bac468df0e88826889908a"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-43/opt_YTGDGFPAMN_pae.npz",
+      "bytes": 1465610,
+      "sha256": "d84744c5ba40aa7b69a23f4534b274af30e62364b90ab3132bca4a9eb54fc18b"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-43/provider-results.zip",
+      "bytes": 10928069,
+      "sha256": "f940e973729880f146f44415eccd046363c2b39235d2b482e5cc44cc8eefa72a"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-43/results.json",
+      "bytes": 5331,
+      "sha256": "6286096dd9d98877cf31d5c85443d7b3ccb2a953c58914c67f41d0ca13193e59"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-44/control_facs_low.cif",
+      "bytes": 315088,
+      "sha256": "e21e6af13de3c480664c9ae6a0fb319090380e17552ce76522568730284ea2ec"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-44/control_facs_low_pae.json",
+      "bytes": 1699,
+      "sha256": "78ab03ae69e8800452fddabe959643b50ce56e61a6bac468df0e88826889908a"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-44/control_facs_low_pae.npz",
+      "bytes": 1463508,
+      "sha256": "4f3d5d261f3f004ffce771a80d04edc63a57499f9681b9218c819234087c689b"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-44/control_spr_strong.cif",
+      "bytes": 317484,
+      "sha256": "ed2c4bddd5891ce686d2088841434e90f867f99711b857e5ebad38e113f36c8d"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-44/control_spr_strong_pae.json",
+      "bytes": 1699,
+      "sha256": "78ab03ae69e8800452fddabe959643b50ce56e61a6bac468df0e88826889908a"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-44/control_spr_strong_pae.npz",
+      "bytes": 1464978,
+      "sha256": "5179575ac456a292ce95ffeb69203c97de053b22d8b1b412b1601e58d53c1554"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-44/control_spr_weak.cif",
+      "bytes": 311694,
+      "sha256": "ec7b99c487a834738e0cbc14bfab8dac62af879ae845ace6e357853e3adaab90"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-44/control_spr_weak_pae.json",
+      "bytes": 1699,
+      "sha256": "78ab03ae69e8800452fddabe959643b50ce56e61a6bac468df0e88826889908a"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-44/control_spr_weak_pae.npz",
+      "bytes": 1463601,
+      "sha256": "884e774e10e4b666cf38136be74724fb45c5c64ad5aacb13b4d0bba6a63ced85"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-44/control_wt.cif",
+      "bytes": 313867,
+      "sha256": "bf995717ecfbeac2e78fc0719361bc053f9af33ad73e525491719821d32ff09e"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-44/control_wt_pae.json",
+      "bytes": 1699,
+      "sha256": "78ab03ae69e8800452fddabe959643b50ce56e61a6bac468df0e88826889908a"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-44/control_wt_pae.npz",
+      "bytes": 1464420,
+      "sha256": "450c6c7809bdb962f40239658d2d203216195c029c048aaa094f3450fec12a22"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-44/denovo_fullseq_k1_1.cif",
+      "bytes": 323968,
+      "sha256": "6b770018e79c286169bfa68a115a64c31d9d822cc7f62acd7948eea6692c5fa6"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-44/denovo_fullseq_k1_1_pae.json",
+      "bytes": 1699,
+      "sha256": "3f8dfca9b93d492b54b9438aca75870c673e5f67914842fdf3f40e3c43144301"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-44/denovo_fullseq_k1_1_pae.npz",
+      "bytes": 1562439,
+      "sha256": "30c665c870b1f45be21c2cdf19e316b197be5ec02f05578d1ffb9047e119a13f"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-44/opt_WTAVGFFAMD.cif",
+      "bytes": 314089,
+      "sha256": "debaf43ebc1cd40a52cb57e6b0bc1f49ebbfa7f3364080be92a9d3c454bbdb82"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-44/opt_WTAVGFFAMD_pae.json",
+      "bytes": 1699,
+      "sha256": "78ab03ae69e8800452fddabe959643b50ce56e61a6bac468df0e88826889908a"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-44/opt_WTAVGFFAMD_pae.npz",
+      "bytes": 1465041,
+      "sha256": "193e6abbcb1c803ab85465b3f95de52cc0a75bbfe827f69e34789c2d5b8812af"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-44/opt_YTGDGFPAMN.cif",
+      "bytes": 316252,
+      "sha256": "d6cfb671cc68ffcc5e8ad03e2200f37a8bd194b33b377e23e2f95312089c389a"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-44/opt_YTGDGFPAMN_pae.json",
+      "bytes": 1699,
+      "sha256": "78ab03ae69e8800452fddabe959643b50ce56e61a6bac468df0e88826889908a"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-44/opt_YTGDGFPAMN_pae.npz",
+      "bytes": 1462231,
+      "sha256": "aff73196c68df1274d8137bef919b6f32cdcfd0639e1f0f69ac6d7b672f10a9b"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-44/provider-results.zip",
+      "bytes": 10925980,
+      "sha256": "0733f1ec7f56ff151cc36fa788b8ef962236ad17f5fa7051234886eee46f77d6"
+    },
+    {
+      "path": "campaign/opendde-replicates/seed-44/results.json",
+      "bytes": 5330,
+      "sha256": "b1d9f8b7ee8b65d6b07b4412365feb08cfde3ca9c7e8896f415d9a7e0deb53bb"
+    }
+  ]
+}
