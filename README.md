@@ -6,7 +6,7 @@
 
 [Текущая воронка выбора с Mermaid и словарём](docs/SELECTION_PIPELINE_RU.md), [парные признаки и AbLang2](docs/research/ablang-benchmark.md), [проверка 28 структурных предсказаний](docs/research/context-results.md).
 
-**Новый стенд:** [единый benchmark и два пайплайна](docs/BENCHMARK_SYSTEM.md), [таблица кандидатов и контролей](results/evaluation-board/report.md), [11 нейросетевых экспериментов и 100000 псевдометок](docs/research/neural-results.md), [21 повтор OpenDDE](docs/research/structural-replicate-results.md), [возможности моделей](docs/research/model-capability-audit.md).
+**Новый стенд:** [единый benchmark и два пайплайна](docs/BENCHMARK_SYSTEM.md), [таблица кандидатов и контролей](results/evaluation-board/report.md), [11 нейросетевых экспериментов и 100000 псевдометок](docs/research/neural-results.md), [21 повтор OpenDDE](docs/research/structural-replicate-results.md), [возможности моделей](docs/research/model-capability-audit.md), [компактный срез обучающих данных RFD4](docs/research/rfd4-training-data.md).
 
 Разделы репетиции ниже описывают ранние ESM-эксперименты. Их скоры отражают правдоподобие последовательности, а не измеренное улучшение связывания.
 
