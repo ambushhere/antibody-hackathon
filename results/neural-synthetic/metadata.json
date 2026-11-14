@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "label_type": "pseudolabels",
+  "label_description": "Teacher FACS class probabilities for unvalidated sequence proposals.",
+  "measured_endpoints": [],
+  "class_order": [
+    "low",
+    "mid",
+    "high"
+  ],
+  "seed": 0,
+  "count": 100000,
+  "device": "cpu",
+  "inputs": {
+    "train": {
+      "source": "/home/hackathon/almaz/data/hackathon-data/zenodo-10831512-trastuzumab-ngs/data.zip!data/affinity_data/her2/her2_aff_large/processed/remove_overlap/clonotype_split/0.7_0.15_0.15/train.csv",
+      "sha256": "b639077ff116daa8b8c3a2122b6ed9291361892469f6237963967ca0772cb262"
+    },
+    "val": {
+      "source": "/home/hackathon/almaz/data/hackathon-data/zenodo-10831512-trastuzumab-ngs/data.zip!data/affinity_data/her2/her2_aff_large/processed/remove_overlap/clonotype_split/0.7_0.15_0.15/val.csv",
+      "sha256": "ea5e2e0908f018f579e476cef4452f9de11ba9144513bffa783588d49123f5d1"
+    },
+    "test": {
+      "source": "/home/hackathon/almaz/data/hackathon-data/zenodo-10831512-trastuzumab-ngs/data.zip!data/affinity_data/her2/her2_aff_large/processed/remove_overlap/clonotype_split/0.7_0.15_0.15/test.csv",
+      "sha256": "b350c10c7df4eb5e1b966f76909a805fc7d8011486f1ddb5dd1d7a6e19556a06"
+    },
+    "oof": {
+      "source": "/home/hackathon/almaz/work/neural-20261114/results/spr-benchmark/oof_predictions.csv",
+      "sha256": "44dfc97781fb80652aa59bfb8226e3b71fc501053d12c1d6e66cf8ea1c180fbf"
+    }
+  },
+  "teacher": {
+    "metadata": {
+      "source": "runs/large-seed0/metadata.json",
+      "sha256": "e18ae311c39a1dc437f2b30b15d8cc36149d5c5d2e2d4f3a40e38bb16f293e8f"
+    },
+    "checkpoint": {
+      "source": "runs/large-seed0/mlp/best.pt",
+      "sha256": "c0e2e5c47a70ea059852f3361f1631b9bea43107baf5107c737dc4818e4526f0"
+    },
+    "code": {
+      "trainer": {
+        "source": "/home/hackathon/almaz/work/neural-20261114/scripts/train_her2_neural.py",
+        "sha256": "bbf798058a270178f93950439dce550ab73f2dff559b6496f7b467428d7fa1e7"
+      },
+      "facs_benchmark": {
+        "source": "/home/hackathon/almaz/work/neural-20261114/src/her2_benchmark.py",
+        "sha256": "47faea9e341cbfc76a43af13fb16bd694545c9814ac8de5028b4040e20243257"
+      }
+    },
+    "facs_mapping": {
+      "source": "/home/hackathon/almaz/data/hackathon-data/her2-trastuzumab/tz_her2_facs_3classes_524346.csv.zip!tz_her2_facs_3classes_524346.csv",
+      "sha256": "7ff5a95bcc1942bb6e34b1e4ed6c02a9c177ee30ca160440f8abe82ed787735e"
+    },
+    "model": "large_mlp",
+    "latent_width": 256,
+    "training_data": "Published FACS train split only",
+    "checkpoint_selection": "highest validation high-class AP; ties use earliest epoch",
+    "selected_epoch": 15,
+    "seed": 0,
+    "torch_version": "2.15.0+cu132"
+  },
+  "environment": {
+    "python": "3.12.3",
+    "numpy": "2.5.4"
+  },
+  "generator_source": {
+    "source": "/home/hackathon/almaz/work/neural-20261114/scripts/generate_her2_synthetic.py",
+    "sha256": "68476514fe707e8f354c71860293aa59f5b37a1a8a0d401c76541a1a897063d0"
+  },
+  "generation": {
+    "attempts": 141773,
+    "max_attempts": 10000000,
+    "rejections_first_match": {
+      "cysteine": 40300,
+      "wild_type": 0,
+      "facs_train": 1235,
+      "facs_val": 114,
+      "facs_test": 89,
+      "spr_primary": 0,
+      "duplicate": 35
+    },
+    "accepted_by_mutation_count": {
+      "1": 33333,
+      "2": 33334,
+      "3": 33333
+    },
+    "parent_split": "train",
+    "sampling": "Uniform parents, distinct positions and 19 alternate residues per position. Balanced mutation counts in randomized blocks of up to three accepted rows.",
+    "exclusion_set_sizes": {
+      "wild_type": 1,
+      "facs_train": 367044,
+      "facs_val": 78651,
+      "facs_test": 78651,
+      "spr_primary": 158
+    },
+    "rejection_priority": [
+      "cysteine",
+      "wild_type",
+      "facs_train",
+      "facs_val",
+      "facs_test",
+      "spr_primary",
+      "duplicate"
+    ]
+  },
+  "exclusion_audit": {
+    "duplicate_rows": 0,
+    "cysteine_rows": 0,
+    "invalid_sequence_rows": 0,
+    "invalid_parent_rows": 0,
+    "incorrect_mutation_count_rows": 0,
+    "exact_overlaps": {
+      "wild_type": 0,
+      "facs_train": 0,
+      "facs_val": 0,
+      "facs_test": 0,
+      "spr_primary": 0
+    }
+  },
+  "probability_audit": {
+    "mean_by_class": {
+      "low": 0.2688219115822757,
+      "mid": 0.3941048890413053,
+      "high": 0.3370731993766689
+    },
+    "argmax_count_by_class": {
+      "low": 26206,
+      "mid": 39909,
+      "high": 33885
+    },
+    "entropy_nats": {
+      "p05": 0.0002933052897998919,
+      "median": 0.25205163029609645,
+      "p95": 0.9588965667351359
+    },
+    "max_row_sum_error": 1.4521356206387281e-07
+  },
+  "output": {
+    "file": "synthetic.npz",
+    "sha256": "491d4c1c72a10de6d987ea88996fd6d1d6b3ebc288903ac7619bc2da3f9cb6a2",
+    "csv": {
+      "file": "proposals.csv",
+      "sha256": "52ef5c01a97671efbb4b5840164f394d009785e72c6d652dc8c2517f1fc46388"
+    }
+  }
+}

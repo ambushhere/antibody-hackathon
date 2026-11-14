@@ -1,0 +1,11 @@
+## 2026-11-14: neural transfer and structural replication
+
+Trained eight real-data Transformer/MLP models and three synthetic-augmented Transformers on the team H100 under the committed protocol. Exported selected checkpoints, input fingerprints, histories and out-of-fold predictions. The separate 100,000-row dataset contains teacher FACS probabilities, not measured affinity or thermal labels. Large Transformer test AP reached 0.993, but frozen neural features did not improve pooled SPR ranking over direct sequence ridge. Synthetic augmentation did not give a consistent SPR improvement across seeds. No candidate ranking was promoted.
+
+Completed and independently replayed the audit of 21 OpenDDE antibody-antigen predictions over three seeds. WT footprint recovery was 2, 0 and 5 of 19. Failed controls leave this inference setup unqualified as positive pose evidence. Pair ipTM chain labels are explicitly inferred from exported confidence arrays; geometric chain roles are verified by sequence. Archived all raw predictions and selected neural weights with SHA-256 manifests before VM shutdown.
+
+Added a reproducible evaluation board covering 11 candidate IDs and 59 structural result rows, including controls. Separate affinity, interface geometry, novelty and missing thermal evidence remain visible. Audited Apheris checkpoint capabilities and external data sources. Follow-up priorities are target-template controls and a provenance-audited external SPR cohort, not more unqualified candidate generation.
+
+Root validation: 201 tests passed, four skipped and 22 subtests passed. The structural audit reproduced byte-identical JSON and CSV; all seven checkpoint archives and every archived checkpoint member matched their recorded fingerprints. No competition submission or laboratory order was made.
+
+A follow-up inspection downloaded 46.4 MB of pinned RFD4 training metadata, without structure blobs. The published sampling table includes both 1N8Z and 6OGE; their use remains reproduction control rather than independent model validation. The distilled table contains 13,652 paired Fv entries among 75,576 rows. A fingerprint-checking metadata auditor and source report were added; its replay was byte-identical. These data were not used for additional training or candidate promotion.

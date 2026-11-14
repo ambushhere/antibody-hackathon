@@ -1,0 +1,156 @@
+{
+  "amount": 0.044462,
+  "amount_micros": 44462,
+  "billable_s": 615.633,
+  "closed_at": "2026-11-14T13:50:53.149000+00:00",
+  "currency": "usd",
+  "excluded_s": 0,
+  "job": "9b7463e9c2372629d7590d16738f523a",
+  "kind": "predict",
+  "links": {
+    "job": "https://api.japanfold.aiand.com/v1/jobs/9b7463e9c2372629d7590d16738f523a"
+  },
+  "load_s": 48.52,
+  "meter": {
+    "bias": "under",
+    "bound_s": 6,
+    "method": "sampled-lease-integral+engine-clock-cap",
+    "sample_gap_s": 3,
+    "visible": true
+  },
+  "model": "opendde-abag",
+  "name": "her2-domain-iv-opendde-seed42",
+  "object": "usage",
+  "reconcile": {
+    "agree": 1,
+    "capped": 0,
+    "checked": 1,
+    "over_engine": 0,
+    "rate": 1,
+    "worst_delta_s": -1.851
+  },
+  "status": "succeeded",
+  "submitted_at": "2026-11-14T13:49:04.307000+00:00",
+  "surface": "mcp",
+  "targets": [
+    {
+      "amount": 0.007247,
+      "amount_micros": 7247,
+      "attempts": 1,
+      "billable_s": 100.349,
+      "excluded": null,
+      "excluded_s": 0,
+      "id": "control_wt",
+      "intervals": [
+        [
+          "2026-11-14T13:49:08.323000+00:00",
+          "2026-11-14T13:50:48.672000+00:00"
+        ]
+      ],
+      "load_s": 9.749,
+      "runtime_s": 90.6
+    },
+    {
+      "amount": 0.007387,
+      "amount_micros": 7387,
+      "attempts": 1,
+      "billable_s": 102.28,
+      "excluded": null,
+      "excluded_s": 0,
+      "id": "control_facs_low",
+      "intervals": [
+        [
+          "2026-11-14T13:49:08.862000+00:00",
+          "2026-11-14T13:50:51.142000+00:00"
+        ]
+      ],
+      "load_s": 6.98,
+      "runtime_s": 95.3
+    },
+    {
+      "amount": 0.007389,
+      "amount_micros": 7389,
+      "attempts": 1,
+      "billable_s": 102.307,
+      "excluded": null,
+      "excluded_s": 0,
+      "id": "control_spr_strong",
+      "intervals": [
+        [
+          "2026-11-14T13:49:09.628000+00:00",
+          "2026-11-14T13:50:51.934000+00:00"
+        ]
+      ],
+      "load_s": 6.207,
+      "runtime_s": 96.1
+    },
+    {
+      "amount": 0.004926,
+      "amount_micros": 4926,
+      "attempts": 1,
+      "billable_s": 68.213,
+      "excluded": null,
+      "excluded_s": 0,
+      "id": "control_spr_weak",
+      "intervals": [
+        [
+          "2026-11-14T13:49:09.918000+00:00",
+          "2026-11-14T13:50:18.131000+00:00"
+        ]
+      ],
+      "load_s": 0,
+      "runtime_s": 70.3
+    },
+    {
+      "amount": 0.006809,
+      "amount_micros": 6809,
+      "attempts": 1,
+      "billable_s": 94.283,
+      "excluded": null,
+      "excluded_s": 0,
+      "id": "denovo_fullseq_k1_1",
+      "intervals": [
+        [
+          "2026-11-14T13:49:10.626000+00:00",
+          "2026-11-14T13:50:44.908000+00:00"
+        ]
+      ],
+      "load_s": 11.583,
+      "runtime_s": 82.7
+    },
+    {
+      "amount": 0.005432,
+      "amount_micros": 5432,
+      "attempts": 1,
+      "billable_s": 75.21,
+      "excluded": null,
+      "excluded_s": 0,
+      "id": "opt_WTAVGFFAMD",
+      "intervals": [
+        [
+          "2026-11-14T13:49:13.139000+00:00",
+          "2026-11-14T13:50:28.349000+00:00"
+        ]
+      ],
+      "load_s": 7.21,
+      "runtime_s": 68
+    },
+    {
+      "amount": 0.005272,
+      "amount_micros": 5272,
+      "attempts": 1,
+      "billable_s": 72.991,
+      "excluded": null,
+      "excluded_s": 0,
+      "id": "opt_YTGDGFPAMN",
+      "intervals": [
+        [
+          "2026-11-14T13:49:12.376000+00:00",
+          "2026-11-14T13:50:25.367000+00:00"
+        ]
+      ],
+      "load_s": 6.791,
+      "runtime_s": 66.2
+    }
+  ]
+}

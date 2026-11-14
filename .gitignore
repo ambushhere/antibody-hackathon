@@ -24,3 +24,6 @@ nebius-runs/
 # Large local intermediate artifacts; curated evidence is tracked separately
 results/benchmark/
 results/campaign/
+
+# Pinned downloadable RFD4 metadata cache
+data/external/rfd4-metadata/

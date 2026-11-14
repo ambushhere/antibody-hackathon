@@ -1,0 +1,262 @@
+{
+  "audit": {
+    "observed_at_utc": "2026-11-14T14:01:31Z",
+    "mode": "read_only",
+    "inference_jobs_submitted": 0,
+    "paid_jobs_submitted": 0,
+    "provider_runtime_health_probed": false,
+    "catalog_entry_count": 8,
+    "scope_note": "Hosted catalog availability is not runtime-readiness proof. The hosted RFD4 entries are grouped in one matrix entry; this does not assert identical weight revisions."
+  },
+  "local_vm": {
+    "host": "team-3 VM",
+    "organizer_docs_root": "/home/hackathon/almaz/data/hack/docs",
+    "expected_rfd4_docs_root": "/home/hackathon/almaz/data/hackathon-data/rfd4-proteina/docs",
+    "expected_rfd4_docs_root_status": "absent",
+    "checkpoint_selector": "her2-novel",
+    "checkpoint_label": "her2-novel-2026-11-09",
+    "weight_root_resolution": {
+      "cli_option": "--data-path",
+      "environment_default_name": "APHERIS_DEFAULT_WEIGHTS",
+      "expected_subdirectories": ["flow_checkpoints", "ae_checkpoints"],
+      "absolute_path": null,
+      "reason_unknown": "CLI help and organizer docs expose the root contract and selector, not the resolved path. Environment values and weight files were not inspected."
+    },
+    "cached_images": [
+      {
+        "tag": "quay.io/apheris/oslo-hackathon:apheris-rfd4-proteina-v0.3.0-her2-2026-11-07",
+        "image_id": "sha256:7d30b7355a5ac505018bbfe2f4b3e8310a93960f3b5f283b5444de5117f9931b",
+        "created_at": "2026-11-10T15:54:30.566520016Z"
+      },
+      {
+        "tag": "quay.io/apheris/oslo-hackathon:apheris-rfd4-proteina-v0.3.0-her2-novel-2026-11-09",
+        "image_id": "sha256:49d8ccd71fb480fb1edd83d6ec511032aefdbe02085ada398b6a6129f2757322",
+        "created_at": "2026-11-10T15:54:30.566520016Z"
+      },
+      {
+        "tag": "quay.io/apheris/oslo-hackathon:apheris-rfd4-proteina-v0.3.0-antibody-2026-10-30",
+        "image_id": "sha256:05690f7d570eaf29f5a0e344d0818e4e318e369ef7c8f2ef950dff791fa2036a",
+        "created_at": "2026-11-10T15:54:30.566520016Z"
+      }
+    ],
+    "exposed_container_tasks": ["design", "finetune", "metrics"],
+    "exposed_teacher_outputs": ["generated sequence and structure", "native structure metrics"],
+    "not_exposed_in_help": ["teacher logits", "RFD4 embeddings", "direct distillation task", "affinity prediction", "thermal stability prediction"],
+    "her2_novel_training_record": {
+      "documented_source": "Chinery trastuzumab CDRH3 FACS screen, described as about 524000 variants",
+      "documented_recipe": "Starting from the antibody checkpoint, train on high/low binder pairs and prefer the high binder",
+      "evaluation_reported": {
+        "design_count": 100,
+        "seeds": [1],
+        "unique_design_fraction": 0.9,
+        "known_facs_binder_fraction": 0.04,
+        "known_facs_nonbinder_fraction": 0.0,
+        "local_challenge_filter_pass_fraction": 0.86,
+        "median_refold_interface_error_angstrom": 6.8
+      },
+      "independent_split_or_sequence_manifest": "not documented in the inspected organizer materials",
+      "leakage_status": "unresolved"
+    }
+  },
+  "provider_catalogs": {
+    "nebius": {
+      "list_models_tool": "mcp__nebius_scientific__list_models",
+      "get_model_schema_tool": "mcp__nebius_scientific__get_model_schema",
+      "tool_catalog_revision": "5b78813f7a6b4a4f2e764db7289e138dd90e9584e0614acea23c64e67d9e37a7",
+      "last_refreshed_at_utc": "2026-11-14T14:01:31Z",
+      "searches": ["rfd4", "antibody", "protein", "ddg", "protenix", "antifold", "proteinmpnn", "openfold3", "boltz2", "stab", "embedding", "thermal", "stability"],
+      "thermal_search_results": 0,
+      "stability_search_results": 0,
+      "availability_note": "Catalog availability or enabled status is not runtime proof. Scientific schemas marked configured-native-dag-not-a-readiness-claim were retained as such. No model job was submitted."
+    },
+    "japanfold": {
+      "list_models_tool": "mcp__japanfold__list_models",
+      "catalog_revision": null,
+      "last_refreshed_at_utc": "2026-11-14T14:01:31Z",
+      "availability_note": "Read-only model inventory; no prediction, design or embedding job was submitted. The selected catalog entries do not publish an RFD4 checkpoint hash."
+    }
+  },
+  "models": [
+    {
+      "id": "apheris-rfd4-her2-novel-vm",
+      "display_name": "Apheris RFD4-Proteina her2-novel",
+      "platform": "team-3 VM local Docker image",
+      "role": "generator",
+      "availability_evidence": "Cached image and --model her2-novel selector observed; no inference run",
+      "input": "Annotated CIF or organizer HER2 YAML/structure input",
+      "operations": ["design", "finetune", "metrics"],
+      "output": "Designed amino-acid sequence and structure; native RFD4 structural metrics",
+      "assay_prediction_output": [],
+      "thermal_prediction_output": false,
+      "evaluation_use": "Generate trastuzumab CDRH3 candidates; assess sequence novelty and structural plausibility separately from measured SPR, competition and Tm.",
+      "key_limit": "No teacher probabilities/logits, embeddings, direct distillation task or independent fine-tune split documented.",
+      "sources": [
+        "~/almaz/data/hack/docs/12-her2.md",
+        "~/almaz/data/hack/docs/14-models.md",
+        "~/almaz/data/hack/docs/foundry.md",
+        "docker help for cached her2-novel image"
+      ]
+    },
+    {
+      "id": "hosted-rfd4-japanfold-and-nebius",
+      "display_name": "Hosted RFD4-Proteina deployments",
+      "platforms": ["JapanFold", "Nebius Scientific AI"],
+      "role": "generator",
+      "availability_evidence": {
+        "japanfold": "listed as rfd4 with rfd4-binder and rfd4-scaffold protocols",
+        "nebius": {
+          "model_id": "rfd4-proteina",
+          "availability": "available in catalog",
+          "operation": "generate",
+          "runtime_revision": "rfd4-proteina-gpu-portability-20261022-4b28fe3",
+          "qualification": "configured-native-dag-not-a-readiness-claim"
+        }
+      },
+      "input": {
+        "japanfold": "Target mmCIF plus design contig",
+        "nebius": "Exactly one native annotated CIF artifact; chemical/x-cif, uncompressed, maximum 268435456 bytes"
+      },
+      "output": "All-atom sequence-and-structure designs; JapanFold orders by requested chain count and retained motif, not confidence. Nebius declares portable completed result artifacts.",
+      "assay_prediction_output": [],
+      "thermal_prediction_output": false,
+      "evaluation_use": "Generic alternate generator or service comparison; no evidence that either service exposes the Apheris her2-novel checkpoint.",
+      "key_limit": "No local Apheris checkpoint selector or import field in the selected service schemas; no hosted weight hash reported for JapanFold.",
+      "sources": [
+        "JapanFold list_models: rfd4 and rfd4-binder/rfd4-scaffold",
+        "Nebius list_models and get_model_schema: rfd4-proteina"
+      ]
+    },
+    {
+      "id": "japanfold-rf3",
+      "display_name": "RoseTTAFold3 (rf3)",
+      "platform": "JapanFold",
+      "role": "structure predictor",
+      "input": "Protein or biomolecular complex input; MSA on by default",
+      "output": "Predicted structure, PAE/PDE/contact confidence; no binding affinity",
+      "assay_prediction_output": [],
+      "thermal_prediction_output": false,
+      "evaluation_use": "Structural prediction only. Distinct from JapanFold rfd3, which is a generator.",
+      "sources": ["JapanFold list_models: rf3", "https://japanfold.aiand.com/docs/models-and-limits/"]
+    },
+    {
+      "id": "japanfold-opendde-abag",
+      "display_name": "OpenDDE Antibody-Antigen",
+      "platform": "JapanFold",
+      "role": "antibody-specialized structure predictor",
+      "input": "Fab heavy and light chains with protein antigen; MSA on by default",
+      "output": "Predicted complex structure and PAE/PDE/contact confidence; explicitly no affinity",
+      "assay_prediction_output": [],
+      "thermal_prediction_output": false,
+      "evaluation_use": "Antibody-specific structural diagnostic on matched controls and candidate complexes. The completed local 3-seed panel recovered 0-5/19 WT footprint positions and failed its prespecified 13/19 diagnostic.",
+      "key_limit": "Catalog states performance is not uniform on hard targets; Protenix-v2 stack means shared model lineage with Protenix.",
+      "sources": ["JapanFold list_models: opendde-abag", "https://japanfold.aiand.com/docs/models-and-limits/", "docs/research/structural-replicate-results.md"]
+    },
+    {
+      "id": "nebius-protenix-v2",
+      "display_name": "Protenix v2.0.0",
+      "platform": "Nebius Scientific AI",
+      "role": "complex structure predictor",
+      "availability_evidence": "available in catalog; configured-native-dag-not-a-readiness-claim",
+      "operation": "predict-complex-structure",
+      "input": "Native Protenix JSON jobs on the documented no-MSA lane",
+      "output": "Predicted complex structure and structural confidence artifacts",
+      "assay_prediction_output": [],
+      "thermal_prediction_output": false,
+      "evaluation_use": "Matched structural diagnostics; compare against measured controls and do not treat confidence as KD.",
+      "runtime_revision": "protenix-v2-gpu-portability-20261022-4b28fe3",
+      "sources": ["Nebius list_models and get_model_schema: protenix-v2", "docs/research/context-results.md"]
+    },
+    {
+      "id": "nebius-antifold",
+      "display_name": "AntiFold",
+      "platform": "Nebius Scientific AI",
+      "role": "antibody inverse folding and sequence scoring",
+      "availability_evidence": "available in catalog; configured-native-dag-not-a-readiness-claim",
+      "operation": "inverse-fold",
+      "input": "PDB archive with antibody chain IDs and optional antigen chain ID",
+      "output": "Sampled sequences and structure-conditioned residue log probabilities/scores",
+      "assay_prediction_output": [],
+      "thermal_prediction_output": false,
+      "evaluation_use": "Antibody sequence/backbone compatibility signal; not HER2 binding, KD or Tm.",
+      "runtime_revision": "antifold-oslo-20261110-3dc8a142",
+      "sources": ["Nebius get_model_schema: antifold", "docs/research/provider-papers.md"]
+    },
+    {
+      "id": "nebius-proteinmpnn",
+      "display_name": "ProteinMPNN",
+      "platform": "Nebius Scientific AI",
+      "role": "fixed-backbone sequence design",
+      "availability_evidence": "native endpoint listed available; readiness observed in serverless schema",
+      "operation": "design-protein",
+      "input": "PDB backbone",
+      "output": "Sampled sequences and sequence scores",
+      "assay_prediction_output": [],
+      "thermal_prediction_output": false,
+      "evaluation_use": "Sequence redesign only after selecting a trustworthy backbone; refold the changed sequence before interpreting the interface.",
+      "sources": ["Nebius list_models and get_model_schema: proteinmpnn", "Nebius native tool description: infer_proteinmpnn_native"]
+    },
+    {
+      "id": "nebius-stab-ddg",
+      "display_name": "StaB-ddG",
+      "platform": "Nebius Scientific AI",
+      "role": "mutation-induced binding energy predictor",
+      "availability_evidence": "available in catalog; configured-native-dag-not-a-readiness-claim",
+      "operation": "predict-binding-ddg",
+      "input": "Wild-type complex PDB, partner chain sets and mutations in original PDB numbering",
+      "output": "Predicted binding ΔΔG in kcal/mol and Monte Carlo sampling error",
+      "assay_prediction_output": ["binding ΔΔG"],
+      "thermal_prediction_output": false,
+      "evaluation_use": "Retrospective check against measured SPR variants; does not predict thermal ΔTm/Tm and is not experimental KD.",
+      "runtime_revision": "stab-ddg-b19a5d7-29c874d-matched-wt-batch-20261112",
+      "sources": ["Nebius list_models and get_model_schema: stab-ddg", "docs/research/provider-papers.md"]
+    }
+  ],
+  "license_and_distillation": {
+    "public_upstream_rfd4": {
+      "license": "BSD-3-Clause",
+      "scope_reported_by_model_card": "Upstream RFD4 model and weights",
+      "license_text": "Permits source and binary redistribution and modification under its notice, disclaimer and endorsement conditions.",
+      "sources": [
+        "https://huggingface.co/nvidia/RFD4-Proteina",
+        "https://raw.githubusercontent.com/RosettaCommons/RFD4-Proteina/68058693cb88762a8aaf806571e13b291ce6318a/LICENSE"
+      ]
+    },
+    "apheris_her2_finetune": {
+      "checkpoint_specific_license": "not found in inspected materials",
+      "export_rights": "unknown",
+      "distillation_rights": "unknown",
+      "training_data_terms": "not resolved by the inspected Apheris checkpoint docs",
+      "note": "The public upstream license does not by itself establish terms for the Apheris HER2 fine-tune, challenge data, generated outputs or a student model. No weight export was made."
+    },
+    "direct_teacher_distillation_api": false,
+    "generic_embedding_api": "JapanFold lists separate ESMC/SaProt embeddings; they are not embeddings from Apheris RFD4.",
+    "dedicated_thermal_prediction_endpoint_found": false
+  },
+  "existing_controls_relevant_to_use": {
+    "wt_cdrh3": "WGGDGFYAMD",
+    "wt_spr_kd_nm_first_read": 0.152,
+    "strong_spr_control": {
+      "cdrh3": "WGSQGFYAYD",
+      "kd_nm": 0.02343889
+    },
+    "weak_spr_control": {
+      "cdrh3": "YLLNGVFVFD",
+      "kd_nm": 13863.16,
+      "binding_status": "quantified binding"
+    },
+    "facs_low_control": {
+      "cdrh3": "WSMFGHYMFA",
+      "spr_status": "unknown"
+    },
+    "context_results": {
+      "protenix_wt_footprint_recall": "7/19 split; 3/19 domain IV; 0/19 ECD",
+      "rf3_wt_footprint_recall": "14/19 with distorted target and strong/weak footprint and target-pair-ipTM reversal",
+      "opendde_abag_wt_footprint_recall": "2/19, 0/19 and 5/19 across three local runs; all below the prespecified 13/19 diagnostic",
+      "interpretation": "Structural scores do not replace SPR, competition or thermal measurements."
+    }
+  },
+  "proposed_experiments": [
+    "Matched three-seed, equal-budget Apheris HER2 checkpoint comparison with exact challenge-filter and overlap reporting.",
+    "Retrospective Nebius StaB-ddG ranking on mapped quantified HER2 SPR variants, compared against local sequence-ridge predictions and WT/strong/weak controls."
+  ]
+}

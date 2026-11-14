@@ -1,0 +1,79 @@
+{
+  "parameter_count": 68099,
+  "latent_width": 64,
+  "history": [
+    {
+      "epoch": 1,
+      "train_cross_entropy": 0.8624610571212171,
+      "validation_high_ap": 0.9410362219179732,
+      "checkpoint": {
+        "file": "epoch-01.pt",
+        "sha256": "a089602c87d656290c7383c7af84510f13e526ded1a8f27956aec0e74b3c0661"
+      },
+      "elapsed_seconds": 0.233870260999538
+    },
+    {
+      "epoch": 2,
+      "train_cross_entropy": 0.6939916433724567,
+      "validation_high_ap": 0.9458072047881625,
+      "checkpoint": {
+        "file": "epoch-02.pt",
+        "sha256": "022dfdebc4a7141a6be3420927bc5a8e276b0fcf020ee760afb45631dedddda3"
+      },
+      "elapsed_seconds": 0.23358670599918696
+    },
+    {
+      "epoch": 3,
+      "train_cross_entropy": 0.664482451354606,
+      "validation_high_ap": 0.9515181002402697,
+      "checkpoint": {
+        "file": "epoch-03.pt",
+        "sha256": "a44bc9035afac4c7a3e55c01ecddbf422b4537aa6295019f1e8cb791fa1978fb"
+      },
+      "elapsed_seconds": 0.23599538800044684
+    },
+    {
+      "epoch": 4,
+      "train_cross_entropy": 0.6276008887898998,
+      "validation_high_ap": 0.9629184032820175,
+      "checkpoint": {
+        "file": "epoch-04.pt",
+        "sha256": "caa4bc74e413999085761468db4091ce85e8497f506d7aed511bd9b09186327e"
+      },
+      "elapsed_seconds": 0.23167459499745746
+    },
+    {
+      "epoch": 5,
+      "train_cross_entropy": 0.5754187083156242,
+      "validation_high_ap": 0.9733507607866809,
+      "checkpoint": {
+        "file": "epoch-05.pt",
+        "sha256": "98b0a76a3298aabb507d6e8634c7ad710af38bfab7417726769bd530ac4ac73c"
+      },
+      "elapsed_seconds": 0.2324720789983985
+    }
+  ],
+  "best_epoch": 5,
+  "best_validation_high_ap": 0.9733507607866809,
+  "best_checkpoint": {
+    "file": "best.pt",
+    "sha256": "98b0a76a3298aabb507d6e8634c7ad710af38bfab7417726769bd530ac4ac73c"
+  },
+  "training_seconds": 1.1686441600031685,
+  "facs_test": {
+    "roc_auc": 0.9624890444084585,
+    "pr_auc_average_precision": 0.9330040212746786,
+    "balanced_accuracy_at_0_5": 0.8892882051033729,
+    "brier": 0.0745457261800766,
+    "top_1_percent": {
+      "n": 787,
+      "precision": 1.0,
+      "enrichment": 3.045891100611881
+    },
+    "top_5_percent": {
+      "n": 3933,
+      "precision": 0.9997457411645054,
+      "enrichment": 3.0451166558875964
+    }
+  }
+}

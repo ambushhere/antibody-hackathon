@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "candidate_count": 11,
+  "structural_rows": 59,
+  "controls": 32,
+  "sources": [
+    {
+      "path": "results/spr-expanded-ranking/shortlist.csv",
+      "sha256": "8b79fc635a3036c202806ac24acedd5ab976ebe0245aaaeb3d071f1448486fe6"
+    },
+    {
+      "path": "results/context-panel/scores.csv",
+      "sha256": "0d31a1249e3c999769d9761a71d85ac5bd7fb89425a59dace1386d2e3a18f2d8"
+    },
+    {
+      "path": "results/experiment-20261114/structure_comparison.csv",
+      "sha256": "a2819c7e652de3b196a9ddfc4db0586835910a1703082576d8babc0fe0a3a86d"
+    },
+    {
+      "path": "results/structural-replicates/scores.csv",
+      "sha256": "9c860d7789a2f16419ec6d45e725ce704ae292df6f8117b07cb78910d62b790c"
+    }
+  ],
+  "scoring_policy": "Separate evidence axes. No weighted universal score, inferred binding probability or automatic submission.",
+  "interpretation": "Failure of a control removes support from that setup; it is not proof that every candidate is a nonbinder.",
+  "neural_decision": "No affinity model promotion from FACS-only or synthetic transfer experiments.",
+  "replica_audit_included": true,
+  "builder": {
+    "path": "scripts/build_evaluation_board.py",
+    "sha256": "2b388aa389366208c69c96dd57c6ea57a633e5e6352a3f403f996e3a9df2d0c4"
+  }
+}
