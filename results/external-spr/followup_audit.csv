@@ -1,0 +1,14 @@
+source_csv_row,candidate,published_imgt_h3,is_wt,model_cdrh3,sequence_status,reported_original_kd_nm_raw,reported_original_kd_nm,original_kd_status,reported_followup_fab_kd_nm_raw,reported_followup_mab_kd_nm_raw,selected_rows_matching_h3,selected_kd_nm_values,original_kd_matches_any_selected,original_kd_matches_selected_at_displayed_precision,use
+2,Trastuzumab,SRWGGDGFYAMDY,True,WGGDGFYAMD,compatible_window,1.9,1.9,finite_positive,1.38,1.61,5,1.94,False,True,provenance_only
+3,1,TRYFFNGWYYFDV,False,,non_wt_h3_anchors,0.9,0.9,finite_positive,1.93,3.41,2,0.94,False,True,provenance_only
+4,2,ARYYYGFYYFDY,False,,unsupported_h3_length,1.2,1.2,finite_positive,1.58,4.16,3,1.21,False,True,provenance_only
+5,3,ARWGNYYYYMDY,False,,unsupported_h3_length,1.7,1.7,finite_positive,1.4,3.85,4,1.69,False,True,provenance_only
+6,4,ANDIYIQGYDLNR,False,,non_wt_h3_anchors,4.0,4.0,finite_positive,2.45,3.67,22,3.99,False,True,provenance_only
+7,5,ARYYGYGGYYFDY,False,,non_wt_h3_anchors,8.1,8.1,finite_positive,7.2,9.75,51,8.05,False,True,provenance_only
+8,6,ARWGGDFYAMDY,False,,unsupported_h3_length,9.5,9.5,finite_positive,6.99,6.66,69,9.49,False,True,provenance_only
+9,7,ARWYGYGGYYFDY,False,,non_wt_h3_anchors,7.4,7.4,finite_positive,5.67,7.04,46,7.43,False,True,provenance_only
+10,8,ARYGYAPGFYYMDV,False,,unsupported_h3_length,9.7,9.7,finite_positive,9.27,6.61,71,9.72,False,True,provenance_only
+11,9,TRWGGYYYFDY,False,,unsupported_h3_length,9.8,9.8,finite_positive,6.7,8.89,72,9.79,False,True,provenance_only
+12,10,APYGPGYWYGV,False,,unsupported_h3_length,9.2,9.2,finite_positive,7.15,7.99,66,9.15,False,True,provenance_only
+13,11,ARYYYDYYYYFDY,False,,non_wt_h3_anchors,8.4,8.4,finite_positive,6.22,5.63,56,8.44,False,True,provenance_only
+14,12,ARYRHWYYDYDY,False,,unsupported_h3_length,6.2,6.2,finite_positive,8.91,10.15,35,6.15,False,True,provenance_only

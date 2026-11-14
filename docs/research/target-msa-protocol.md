@@ -1,0 +1,7 @@
+# Target-only MSA control
+
+14 November 2026. Before inspecting baseline template coordinates, prepare a second fixed input experiment. Add one HER2 target alignment from Nebius MMseqs2/PDB70_220313 to the complete 6OGE target-only template arm. Keep all four control sequences, target crop, template coordinates, seeds 42/43/44, two samples, model and selection rule unchanged. VH and VL remain without MSAs. This adds 24 poses and compares with the complete/no-MSA arm of the original experiment. Launch only after the current GPU batch finishes.
+
+The provider request used the exact 119-residue target query, a maximum of 256 sequences and idempotency key `her2-target119-20261114-msa-v1`. Operation `op-7016870328a13127` returned 43 A3M rows including the query, 18 distinct raw aligned sequence strings. Preserve all returned rows, including insertions and duplicate sequences. This is a small PDB-derived alignment, not a deep evolutionary alignment. Verify first-row identity and alignment width after removing lowercase insertion residues and dots. Exact receipts and alignment hashes are retained.
+
+Use the same top-1 rule and operational reproduction thresholds as the original control. Interpret any effect as target-MSA sensitivity in this setup. Shared homologs, template exposure and known reference structures preclude an independent novel-target performance claim. No candidate changes or binding conclusions from this control alone.

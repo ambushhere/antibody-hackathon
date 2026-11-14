@@ -2,6 +2,8 @@
 
 Research only. No competition submission or synthesis order has been made. No new candidate has measured SPR, competition or thermal results. The initial setup and benchmark were merged in PRs #2 and #3; this checkpoint adds the subsequent experiments.
 
+The latest checkpoint adds an [external SPR evaluation](research/external-spr-results.md), [72 target-template control predictions](research/template-controls-results.md), [64 audited RFD4 designs](research/denovo-scale-results.md), [fixed neural/ridge blend diagnostics](research/hybrid-spr-results.md) and a [53-row draft CSV for both tracks](../output/submission-draft/README.md). The [two-slide draft](../output/pipeline-draft/README.md) explains generation and evaluation. No-MSA and target-MSA setups missed the fixed WT reproduction gate, so the prepared 57-query candidate panels were not run. The older result table below remains the earlier checkpoint, not the current candidate inventory.
+
 ## Results and locations
 
 | Experiment | Observation and limit | Evidence |

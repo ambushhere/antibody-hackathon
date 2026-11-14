@@ -1,3 +1,7 @@
 # Preserve checksummed provider input and unified-patch context bytes.
 results/experiment-20261114/input-specs/her2_target.cif whitespace=-blank-at-eol
 results/thermal-pilot/upstream-cpu.patch whitespace=-blank-at-eol
+
+# Rendered documents are binary artifacts, even when PDF streams use ASCII85.
+*.pdf binary
+*.pptx binary

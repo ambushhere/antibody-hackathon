@@ -1,0 +1,744 @@
+sequence_id,cdrh3,origin,local_pass,abguard_pass,novelty_class,cdrh3_min_distance,reason
+pool_0000_YAAARMYTIH,YAAARMYTIH,train_high_mutation,False,False,novel,2,CDRH3 SRYAAARMYTIHY is 2 mutation(s) from SRWAAGRMYTIHY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0001_WAATRMYTVE,WAATRMYTVE,train_high_position_frequency,False,False,novel,2,CDRH3 SRWAATRMYTVEY is 2 mutation(s) from SRWAADRMYTFEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0002_FAGERLYKYA,FAGERLYKYA,train_high_mutation,False,False,novel,2,CDRH3 SRFAGERLYKYAY is 2 mutation(s) from SRFAGGRLYTYAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0003_YAATRIYTLG,YAATRIYTLG,train_high_position_frequency,False,False,novel,2,CDRH3 SRYAATRIYTLGY is 2 mutation(s) from SRYAAGRIYTLDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0004_FGKVRMYSFE,FGKVRMYSFE,train_high_mutation,False,False,novel,2,CDRH3 SRFGKVRMYSFEY is 2 mutation(s) from SRWAKVRMYSFEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0005_FTGGGFLAMD,FTGGGFLAMD,wt_mutation,False,False,novel,2,CDRH3 SRFTGGGFLAMDY is 2 mutation(s) from SRFTGGGFYAHDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0006_YGGDTLYSMD,YGGDTLYSMD,wt_mutation,False,False,novel,2,CDRH3 SRYGGDTLYSMDY is 2 mutation(s) from SRWGGDRLYSMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0007_YAAGGLYYID,YAAGGLYYID,train_high_position_frequency,False,False,novel,2,CDRH3 SRYAAGGLYYIDY is 2 mutation(s) from SRWAAGRLYYIDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0008_YAATRIYSFN,YAATRIYSFN,train_high_position_frequency,False,False,novel,2,CDRH3 SRYAATRIYSFNY is 2 mutation(s) from SRYAAGRIYSFEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0009_YNGDRVYTLD,YNGDRVYTLD,train_high_position_frequency,False,False,novel,2,CDRH3 SRYNGDRVYTLDY is 2 mutation(s) from SRWDGDRVYTLDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0010_YVGDGVFIYD,YVGDGVFIYD,train_high_mutation,False,False,novel,2,CDRH3 SRYVGDGVFIYDY is 2 mutation(s) from SRWVGDGVYIYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0011_YAGDTFYAMG,YAGDTFYAMG,wt_mutation,False,False,novel,2,CDRH3 SRYAGDTFYAMGY is 2 mutation(s) from SRYAGDTFYAYAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0012_WAGDRMYTFK,WAGDRMYTFK,train_high_mutation,False,False,novel,2,CDRH3 SRWAGDRMYTFKY is 2 mutation(s) from SRWAGGRMYTFFY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0013_SAAGRMFTHD,SAAGRMFTHD,train_high_mutation,False,False,novel,2,CDRH3 SRSAAGRMFTHDY is 2 mutation(s) from SRWAAGRMDTHDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0014_YTGDGFPAMN,YTGDGFPAMN,wt_mutation,True,True,novel,3,
+pool_0015_YALAVLFPFE,YALAVLFPFE,train_high_mutation,False,False,novel,2,CDRH3 SRYALAVLFPFEY is 2 mutation(s) from SRYALPVLFPFRY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0016_FAGDRFDTMD,FAGDRFDTMD,train_high_mutation,False,False,novel,2,CDRH3 SRFAGDRFDTMDY is 2 mutation(s) from SRWAGDRFYTMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0017_YGGETFHAMD,YGGETFHAMD,wt_mutation,False,False,novel,2,CDRH3 SRYGGETFHAMDY is 2 mutation(s) from SRYGGEGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0018_YAGTRMYSFV,YAGTRMYSFV,train_high_position_frequency,False,False,novel,2,CDRH3 SRYAGTRMYSFVY is 2 mutation(s) from SRYAGTGMYVFVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0019_YGGDRFYKYD,YGGDRFYKYD,wt_mutation,False,False,novel,2,CDRH3 SRYGGDRFYKYDY is 2 mutation(s) from SRYGGDSFYMYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0020_WGAVRMDTFP,WGAVRMDTFP,train_high_position_frequency,False,False,novel,2,CDRH3 SRWGAVRMDTFPY is 2 mutation(s) from SRWAAVRMYTFPY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0021_WAGPRFDSFE,WAGPRFDSFE,train_high_mutation,False,False,novel,2,CDRH3 SRWAGPRFDSFEY is 2 mutation(s) from SRWAGDRFYSFEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0022_YAGQRFYSME,YAGQRFYSME,train_high_mutation,False,False,novel,2,CDRH3 SRYAGQRFYSMEY is 2 mutation(s) from SRWAGDRFYSMEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0023_YAGGRMYSNA,YAGGRMYSNA,train_high_mutation,False,False,novel,2,CDRH3 SRYAGGRMYSNAY is 2 mutation(s) from SRYAGGGMYSNPY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0024_FAERRVYTYE,FAERRVYTYE,train_high_mutation,False,False,novel,2,CDRH3 SRFAERRVYTYEY is 2 mutation(s) from SRFAEARFYTYEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0025_WAGDRVYKLH,WAGDRVYKLH,train_high_mutation,False,False,novel,2,CDRH3 SRWAGDRVYKLHY is 2 mutation(s) from SRWAEVRVYKLHY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0026_YGGEGLYAMA,YGGEGLYAMA,wt_mutation,False,False,novel,2,CDRH3 SRYGGEGLYAMAY is 2 mutation(s) from SRYGAEGLYALAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0027_WPAGPMYSHD,WPAGPMYSHD,train_high_position_frequency,False,False,novel,2,CDRH3 SRWPAGPMYSHDY is 2 mutation(s) from SRWPAGRMYSLDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0028_TLGVRFTQLT,TLGVRFTQLT,train_high_mutation,False,False,novel,2,CDRH3 SRTLGVRFTQLTY is 2 mutation(s) from SRTLLRRFTQLTY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0029_YLGVGMFSFD,YLGVGMFSFD,train_high_position_frequency,False,False,novel,2,CDRH3 SRYLGVGMFSFDY is 2 mutation(s) from SRYLGVGMFMFVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0030_WDGEGFTIYD,WDGEGFTIYD,train_high_mutation,False,False,novel,2,CDRH3 SRWDGEGFTIYDY is 2 mutation(s) from SRWDGEGLYIYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0031_YSGDGFVAMA,YSGDGFVAMA,wt_mutation,False,False,novel,2,CDRH3 SRYSGDGFVAMAY is 2 mutation(s) from SRYDGDGFVAFAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0032_YTADGVYHLK,YTADGVYHLK,train_high_position_frequency,True,True,novel,3,
+pool_0033_YTGVGFDAMD,YTGVGFDAMD,wt_mutation,False,False,novel,2,CDRH3 SRYTGVGFDAMDY is 2 mutation(s) from SRWGGVGFDAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0034_YARDGLYAMD,YARDGLYAMD,wt_mutation,False,False,novel,2,CDRH3 SRYARDGLYAMDY is 2 mutation(s) from SRYTRGGLYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0035_YGGDRFPSMD,YGGDRFPSMD,wt_mutation,False,False,novel,2,CDRH3 SRYGGDRFPSMDY is 2 mutation(s) from SRYGGDGFYSMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0036_YTGDSFFAMD,YTGDSFFAMD,wt_mutation,False,False,novel,2,CDRH3 SRYTGDSFFAMDY is 2 mutation(s) from SRYLGDSFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0037_YANGRMYYIN,YANGRMYYIN,train_high_position_frequency,True,True,novel,3,
+pool_0038_WADTRGYTFP,WADTRGYTFP,train_high_position_frequency,False,False,novel,2,CDRH3 SRWADTRGYTFPY is 2 mutation(s) from SRWADGRFYTFPY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0039_WAGGRMFTYP,WAGGRMFTYP,train_high_mutation,False,False,novel,2,CDRH3 SRWAGGRMFTYPY is 2 mutation(s) from SRFAGGRMYTYPY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0040_YAGDGFYVME,YAGDGFYVME,wt_mutation,False,False,novel,2,CDRH3 SRYAGDGFYVMEY is 2 mutation(s) from SRWAGDGFYAMEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0041_LDAPSFYYIY,LDAPSFYYIY,train_high_mutation,False,False,novel,2,CDRH3 SRLDAPSFYYIYY is 2 mutation(s) from SRLPAPSFYSIYY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0042_YANGRLFTFE,YANGRLFTFE,train_high_mutation,False,False,novel,2,CDRH3 SRYANGRLFTFEY is 2 mutation(s) from SRYAAGRLYTFEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0043_YGATRMLSFD,YGATRMLSFD,train_high_mutation,True,True,novel,3,
+pool_0044_YHGNNLYAYA,YHGNNLYAYA,train_high_mutation,False,False,novel,2,CDRH3 SRYHGNNLYAYAY is 2 mutation(s) from SRYHPNSLYAYAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0045_YTAPGFYHVK,YTAPGFYHVK,train_high_mutation,False,False,novel,2,CDRH3 SRYTAPGFYHVKY is 2 mutation(s) from SRYTAPGFYALKY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0046_YGAPGWYSID,YGAPGWYSID,train_high_position_frequency,False,False,novel,2,CDRH3 SRYGAPGWYSIDY is 2 mutation(s) from SRYTAPGFYSIDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0047_YALAGVYPTE,YALAGVYPTE,train_high_position_frequency,False,False,novel,2,CDRH3 SRYALAGVYPTEY is 2 mutation(s) from SRYALAGVYPFRY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0048_WAGGGIVKYD,WAGGGIVKYD,train_high_mutation,False,False,novel,2,CDRH3 SRWAGGGIVKYDY is 2 mutation(s) from SRWAGVGIYKYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0049_YGGDGMLAMA,YGGDGMLAMA,wt_mutation,False,False,novel,2,CDRH3 SRYGGDGMLAMAY is 2 mutation(s) from SRWGGDGFLAMAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0050_YGGDSLYAYG,YGGDSLYAYG,train_high_mutation,False,False,novel,2,CDRH3 SRYGGDSLYAYGY is 2 mutation(s) from SRWGGDSLYAYPY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0051_WVEGRVYTFY,WVEGRVYTFY,train_high_mutation,False,False,novel,2,CDRH3 SRWVEGRVYTFYY is 2 mutation(s) from SRWADGRVYTFYY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0052_YAGAGIYAMD,YAGAGIYAMD,wt_mutation,False,False,novel,2,CDRH3 SRYAGAGIYAMDY is 2 mutation(s) from SRLAGAGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0053_YAGDGMYAMI,YAGDGMYAMI,wt_mutation,False,False,novel,2,CDRH3 SRYAGDGMYAMIY is 2 mutation(s) from SRYAGVGMYAHIY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0054_WGSPGAYSMD,WGSPGAYSMD,wt_mutation,False,False,novel,2,CDRH3 SRWGSPGAYSMDY is 2 mutation(s) from SRWGSDGFYSMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0055_WANPGPPMLR,WANPGPPMLR,train_high_mutation,False,False,novel,2,CDRH3 SRWANPGPPMLRY is 2 mutation(s) from SRWVNPGPYMLRY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0056_YTGSGFYAMA,YTGSGFYAMA,wt_mutation,False,False,novel,2,CDRH3 SRYTGSGFYAMAY is 2 mutation(s) from SRYTISGFYAFAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0057_YGGDGVSYMD,YGGDGVSYMD,train_high_mutation,False,False,novel,2,CDRH3 SRYGGDGVSYMDY is 2 mutation(s) from SRWGGDGVYYMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0058_YLGAGFYSMD,YLGAGFYSMD,wt_mutation,False,False,novel,2,CDRH3 SRYLGAGFYSMDY is 2 mutation(s) from SRWAGAGFYSMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0059_WYGPGFPVMD,WYGPGFPVMD,wt_mutation,True,True,novel,3,
+pool_0060_FANRRFYPFR,FANRRFYPFR,train_high_mutation,False,False,novel,2,CDRH3 SRFANRRFYPFRY is 2 mutation(s) from SRFAARRFYPFLY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0061_YAADGFDAMD,YAADGFDAMD,wt_mutation,False,False,novel,2,CDRH3 SRYAADGFDAMDY is 2 mutation(s) from SRWAADGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0062_YAATPLYSFE,YAATPLYSFE,train_high_position_frequency,False,False,novel,2,CDRH3 SRYAATPLYSFEY is 2 mutation(s) from SRYAANHLYSFEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0063_WNAGRSYKID,WNAGRSYKID,train_high_mutation,False,False,novel,2,CDRH3 SRWNAGRSYKIDY is 2 mutation(s) from SRWAAGRVYKIDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0064_WGVDRFYTYD,WGVDRFYTYD,wt_mutation,False,False,novel,2,CDRH3 SRWGVDRFYTYDY is 2 mutation(s) from SRWEGVRFYTYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0065_FPGGGLYAMD,FPGGGLYAMD,wt_mutation,False,False,novel,2,CDRH3 SRFPGGGLYAMDY is 2 mutation(s) from SRFPPGGLYAYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0066_WSGDRFFLMD,WSGDRFFLMD,wt_mutation,True,True,novel,3,
+pool_0067_YGAVRMYQLT,YGAVRMYQLT,train_high_mutation,False,False,novel,2,CDRH3 SRYGAVRMYQLTY is 2 mutation(s) from SRYGAVGMYTLTY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0068_YAANRVYSIA,YAANRVYSIA,train_high_mutation,False,False,novel,2,CDRH3 SRYAANRVYSIAY is 2 mutation(s) from SRWAAGRVYSIAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0069_WAKGRMDSND,WAKGRMDSND,train_high_mutation,False,False,novel,2,CDRH3 SRWAKGRMDSNDY is 2 mutation(s) from SRWAAGRMDSFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0070_WAARVRYYTF,WAARVRYYTF,train_high_mutation,False,False,novel,2,CDRH3 SRWAARVRYYTFY is 2 mutation(s) from SRWAAVRYYTFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0071_YAKWGMFVFV,YAKWGMFVFV,train_high_mutation,False,False,novel,2,CDRH3 SRYAKWGMFVFVY is 2 mutation(s) from SRWAKLGMFVFVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0072_FAAVRMYVLQ,FAAVRMYVLQ,train_high_mutation,False,False,novel,2,CDRH3 SRFAAVRMYVLQY is 2 mutation(s) from SRYAAVRMYTLQY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0073_YSGDGIFAMD,YSGDGIFAMD,wt_mutation,False,False,novel,2,CDRH3 SRYSGDGIFAMDY is 2 mutation(s) from SRYSGDGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0074_YGKVGFYAMA,YGKVGFYAMA,wt_mutation,False,False,novel,2,CDRH3 SRYGKVGFYAMAY is 2 mutation(s) from SRYRKVGFYAYAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0075_FAAQRLYTLP,FAAQRLYTLP,train_high_position_frequency,False,False,novel,2,CDRH3 SRFAAQRLYTLPY is 2 mutation(s) from SRFAAGRLYTLDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0076_YGGDPVYAMN,YGGDPVYAMN,wt_mutation,True,True,novel,3,
+pool_0077_YGGVGVYHLA,YGGVGVYHLA,train_high_position_frequency,False,False,novel,2,CDRH3 SRYGGVGVYHLAY is 2 mutation(s) from SRYGGVGVYTFAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0078_WDADRTYKYE,WDADRTYKYE,train_high_mutation,False,False,novel,2,CDRH3 SRWDADRTYKYEY is 2 mutation(s) from SRWDADRLYKYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0079_YDGDGMYLMD,YDGDGMYLMD,wt_mutation,False,False,novel,2,CDRH3 SRYDGDGMYLMDY is 2 mutation(s) from SRYDGDGMYNYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0080_WDATRMYMFD,WDATRMYMFD,train_high_mutation,False,False,novel,2,CDRH3 SRWDATRMYMFDY is 2 mutation(s) from SRWDAVRMYNFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0081_FAAPRLYPLY,FAAPRLYPLY,train_high_mutation,False,False,novel,2,CDRH3 SRFAAPRLYPLYY is 2 mutation(s) from SRFAAPRFYSLYY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0082_FDGHRLYQFE,FDGHRLYQFE,train_high_mutation,False,False,novel,2,CDRH3 SRFDGHRLYQFEY is 2 mutation(s) from SRFDGGRLYTFEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0083_YARVGVYKFE,YARVGVYKFE,train_high_mutation,False,False,novel,2,CDRH3 SRYARVGVYKFEY is 2 mutation(s) from SRYARAGVYTFEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0084_YAGVRMDHFV,YAGVRMDHFV,train_high_mutation,False,False,novel,2,CDRH3 SRYAGVRMDHFVY is 2 mutation(s) from SRYAGVGMYHFVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0085_FAGDGMYSMD,FAGDGMYSMD,wt_mutation,False,False,novel,2,CDRH3 SRFAGDGMYSMDY is 2 mutation(s) from SRWAGDGLYSMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0086_YLGDGFVMMD,YLGDGFVMMD,wt_mutation,False,False,novel,2,CDRH3 SRYLGDGFVMMDY is 2 mutation(s) from SRYLGDGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0087_LGAITFYSID,LGAITFYSID,train_high_mutation,False,False,novel,2,CDRH3 SRLGAITFYSIDY is 2 mutation(s) from SRLGAFTFYSFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0088_YGGDGFPAFA,YGGDGFPAFA,wt_mutation,False,False,novel,2,CDRH3 SRYGGDGFPAFAY is 2 mutation(s) from SRYEGDGFYAFAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0089_FGGVGMYQFH,FGGVGMYQFH,train_high_mutation,False,False,novel,2,CDRH3 SRFGGVGMYQFHY is 2 mutation(s) from SRFGGFGMYQFTY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0090_YAGVGLFYFV,YAGVGLFYFV,train_high_mutation,False,False,novel,2,CDRH3 SRYAGVGLFYFVY is 2 mutation(s) from SRYAGVGMFVFVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0091_YTGDGFMTMD,YTGDGFMTMD,wt_mutation,True,True,novel,3,
+pool_0092_FGPGRMYTFV,FGPGRMYTFV,train_high_position_frequency,False,False,novel,2,CDRH3 SRFGPGRMYTFVY is 2 mutation(s) from SRFGAGRFYTFVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0093_WGGGGFFKYD,WGGGGFFKYD,wt_mutation,False,False,novel,2,CDRH3 SRWGGGGFFKYDY is 2 mutation(s) from SRWGGSGFYKYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0094_FSSNRPYELV,FSSNRPYELV,train_high_mutation,False,False,novel,2,CDRH3 SRFSSNRPYELVY is 2 mutation(s) from SRWSANRPYELVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0095_WAGDRFYYMR,WAGDRFYYMR,wt_mutation,False,False,novel,2,CDRH3 SRWAGDRFYYMRY is 2 mutation(s) from SRWAGDRFYSMEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0096_WFNGGMFMYD,WFNGGMFMYD,train_high_mutation,False,False,novel,2,CDRH3 SRWFNGGMFMYDY is 2 mutation(s) from SRWANLGMFMYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0097_YGGGRYYSYE,YGGGRYYSYE,train_high_mutation,True,True,novel,3,
+pool_0098_YAGDRFLAMD,YAGDRFLAMD,wt_mutation,False,False,novel,2,CDRH3 SRYAGDRFLAMDY is 2 mutation(s) from SRYAGDGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0099_WGVVRFYQMD,WGVVRFYQMD,wt_mutation,False,False,novel,2,CDRH3 SRWGVVRFYQMDY is 2 mutation(s) from SRWGAVRFYSMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0100_WPGGGFLAFD,WPGGGFLAFD,wt_mutation,False,False,novel,2,CDRH3 SRWPGGGFLAFDY is 2 mutation(s) from SRWDEGGFLAFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0101_FAALRRYSLY,FAALRRYSLY,train_high_position_frequency,False,False,novel,2,CDRH3 SRFAALRRYSLYY is 2 mutation(s) from SRFAAPRFYSLYY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0102_FAAIRMFVFV,FAAIRMFVFV,train_high_mutation,True,True,novel,3,
+pool_0103_LGKGGFYSFV,LGKGGFYSFV,train_high_position_frequency,False,False,novel,2,CDRH3 SRLGKGGFYSFVY is 2 mutation(s) from SRLGMCGFYSFVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0104_MLAVRMYTYP,MLAVRMYTYP,train_high_mutation,False,False,novel,2,CDRH3 SRMLAVRMYTYPY is 2 mutation(s) from SRYAAVRMYTYPY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0105_YTGDGVYAYD,YTGDGVYAYD,wt_mutation,False,False,novel,2,CDRH3 SRYTGDGVYAYDY is 2 mutation(s) from SRYTADGLYAYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0106_TDDTRLYSFD,TDDTRLYSFD,train_high_position_frequency,False,False,novel,2,CDRH3 SRTDDTRLYSFDY is 2 mutation(s) from SRWDDCRLYSFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0107_WMDLHMVTHP,WMDLHMVTHP,train_high_mutation,True,True,novel,3,
+pool_0108_YGGDGMDAFD,YGGDGMDAFD,wt_mutation,False,False,novel,2,CDRH3 SRYGGDGMDAFDY is 2 mutation(s) from SRYGGDGMYAFLY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0109_WAAAGMFSLE,WAAAGMFSLE,train_high_position_frequency,False,False,novel,2,CDRH3 SRWAAAGMFSLEY is 2 mutation(s) from SRWAAAGVYSLEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0110_WVPAGVYSFE,WVPAGVYSFE,train_high_mutation,False,False,novel,2,CDRH3 SRWVPAGVYSFEY is 2 mutation(s) from SRWVLAGVYDFEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0111_YGGVGLYSLP,YGGVGLYSLP,train_high_mutation,False,False,novel,2,CDRH3 SRYGGVGLYSLPY is 2 mutation(s) from SRYFRVGLYSLPY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0112_FDRERMDQYD,FDRERMDQYD,train_high_mutation,True,True,novel,3,
+pool_0113_YGSVGMYAMD,YGSVGMYAMD,wt_mutation,False,False,novel,2,CDRH3 SRYGSVGMYAMDY is 2 mutation(s) from SRYGLVGLYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0114_FDAHRFFTFH,FDAHRFFTFH,train_high_mutation,True,True,novel,3,
+pool_0115_YANVRIYSFK,YANVRIYSFK,train_high_mutation,False,False,novel,2,CDRH3 SRYANVRIYSFKY is 2 mutation(s) from SRWANVRIYSFEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0116_YVGDGLTAMD,YVGDGLTAMD,wt_mutation,False,False,novel,2,CDRH3 SRYVGDGLTAMDY is 2 mutation(s) from SRWVGDGLYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0117_FGLNRPYTFV,FGLNRPYTFV,train_high_mutation,True,True,novel,3,
+pool_0118_YGLDGMYAMG,YGLDGMYAMG,wt_mutation,False,False,novel,2,CDRH3 SRYGLDGMYAMGY is 2 mutation(s) from SRYGLPGMYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0119_FNGDGPYNMD,FNGDGPYNMD,wt_mutation,False,False,novel,2,CDRH3 SRFNGDGPYNMDY is 2 mutation(s) from SRFNGIGPYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0120_WGAKGSYYIY,WGAKGSYYIY,train_high_mutation,False,False,novel,2,CDRH3 SRWGAKGSYYIYY is 2 mutation(s) from SRWGAKRLYYIYY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0121_YGGDGFLSFD,YGGDGFLSFD,wt_mutation,False,False,novel,2,CDRH3 SRYGGDGFLSFDY is 2 mutation(s) from SRWGGDGFLQFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0122_FARRRIYTRL,FARRRIYTRL,train_high_mutation,False,False,novel,2,CDRH3 SRFARRRIYTRLY is 2 mutation(s) from SRFAERRIYTFLY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0123_YGGDSLLAMD,YGGDSLLAMD,wt_mutation,False,False,novel,2,CDRH3 SRYGGDSLLAMDY is 2 mutation(s) from SRWGGDGLLAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0124_GAAGGIYSVE,GAAGGIYSVE,train_high_mutation,False,False,novel,2,CDRH3 SRGAAGGIYSVEY is 2 mutation(s) from SRFAAGGIYSYEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0125_WTAPSFDDLK,WTAPSFDDLK,train_high_mutation,False,False,novel,2,CDRH3 SRWTAPSFDDLKY is 2 mutation(s) from SRYTAPSFDDLFY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0126_WTGDRLYQMD,WTGDRLYQMD,wt_mutation,False,False,novel,2,CDRH3 SRWTGDRLYQMDY is 2 mutation(s) from SRWTGDRLYSIDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0127_YAGDGVYVFV,YAGDGVYVFV,train_high_mutation,False,False,novel,2,CDRH3 SRYAGDGVYVFVY is 2 mutation(s) from SRWAGDGLYVFVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0128_FGATGMYSFD,FGATGMYSFD,train_high_position_frequency,False,False,novel,2,CDRH3 SRFGATGMYSFDY is 2 mutation(s) from SRFGNTGMYFFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0129_FFADRVYKLP,FFADRVYKLP,train_high_position_frequency,True,True,novel,3,
+pool_0130_YTAPGMYSYP,YTAPGMYSYP,train_high_position_frequency,False,False,novel,2,CDRH3 SRYTAPGMYSYPY is 2 mutation(s) from SRYTAPSMYAYPY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0131_FAGDGFYYFD,FAGDGFYYFD,wt_mutation,False,False,novel,2,CDRH3 SRFAGDGFYYFDY is 2 mutation(s) from SRWAGDGFYSFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0132_WQDLHMYRFE,WQDLHMYRFE,train_high_mutation,False,False,novel,2,CDRH3 SRWQDLHMYRFEY is 2 mutation(s) from SRLQDLHMYPFEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0133_FPRGGMYAMA,FPRGGMYAMA,train_high_mutation,False,False,novel,2,CDRH3 SRFPRGGMYAMAY is 2 mutation(s) from SRFTRGGMYAHAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0134_YNATRFYSIK,YNATRFYSIK,train_high_mutation,False,False,novel,2,CDRH3 SRYNATRFYSIKY is 2 mutation(s) from SRYNATSFYAIKY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0135_YGGDGFFFYD,YGGDGFFFYD,wt_mutation,False,False,novel,2,CDRH3 SRYGGDGFFFYDY is 2 mutation(s) from SRYGGDGFYTYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0136_FALAVMFAFL,FALAVMFAFL,train_high_mutation,True,True,novel,3,
+pool_0137_YTGDRMYAMD,YTGDRMYAMD,wt_mutation,False,False,novel,2,CDRH3 SRYTGDRMYAMDY is 2 mutation(s) from SRYTEDGMYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0138_FTAVRLYSLN,FTAVRLYSLN,train_high_mutation,False,False,novel,2,CDRH3 SRFTAVRLYSLNY is 2 mutation(s) from SRFAAVRLYSLDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0139_WARGGVLKFE,WARGGVLKFE,train_high_mutation,False,False,novel,2,CDRH3 SRWARGGVLKFEY is 2 mutation(s) from SRWARGGVYKYEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0140_YGLDPFYAML,YGLDPFYAML,wt_mutation,True,True,novel,3,
+pool_0141_LAGPRLYTFQ,LAGPRLYTFQ,train_high_mutation,False,False,novel,2,CDRH3 SRLAGPRLYTFQY is 2 mutation(s) from SRLAGRRLYTFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0142_FGGVGLYAMS,FGGVGLYAMS,wt_mutation,False,False,novel,2,CDRH3 SRFGGVGLYAMSY is 2 mutation(s) from SRFGGDGLYAMYY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0143_YGADGMYFMD,YGADGMYFMD,wt_mutation,False,False,novel,2,CDRH3 SRYGADGMYFMDY is 2 mutation(s) from SRWGAPGMYFMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0144_FSADRFYAMD,FSADRFYAMD,wt_mutation,False,False,novel,2,CDRH3 SRFSADRFYAMDY is 2 mutation(s) from SRFSAGRFYAIDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0145_YADPRMYTLA,YADPRMYTLA,train_high_position_frequency,False,False,novel,2,CDRH3 SRYADPRMYTLAY is 2 mutation(s) from SRFAPPRMYTLAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0146_FAGDGLFAMD,FAGDGLFAMD,wt_mutation,False,False,novel,2,CDRH3 SRFAGDGLFAMDY is 2 mutation(s) from SRFGGDGLYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0147_YSGDVFRAMD,YSGDVFRAMD,wt_mutation,False,False,novel,2,CDRH3 SRYSGDVFRAMDY is 2 mutation(s) from SRYIGDVFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0148_WSGGGLLYYD,WSGGGLLYYD,train_high_mutation,False,False,novel,2,CDRH3 SRWSGGGLLYYDY is 2 mutation(s) from SRWSGGGLYPYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0149_YTGGGHYAMD,YTGGGHYAMD,wt_mutation,False,False,novel,2,CDRH3 SRYTGGGHYAMDY is 2 mutation(s) from SRYTGGGPYAFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0150_WPAPPRYTFY,WPAPPRYTFY,train_high_position_frequency,False,False,novel,2,CDRH3 SRWPAPPRYTFYY is 2 mutation(s) from SRWPARPFYTFYY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0151_WAGGGFDVMD,WAGGGFDVMD,wt_mutation,False,False,novel,2,CDRH3 SRWAGGGFDVMDY is 2 mutation(s) from SRWGGGGFDAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0152_WTAVGFFAMD,WTAVGFFAMD,wt_mutation,True,True,novel,3,
+pool_0153_FGGPGMYAMA,FGGPGMYAMA,wt_mutation,False,False,novel,2,CDRH3 SRFGGPGMYAMAY is 2 mutation(s) from SRFGGPGYYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0154_FGGRRFYTYP,FGGRRFYTYP,train_high_mutation,False,False,novel,2,CDRH3 SRFGGRRFYTYPY is 2 mutation(s) from SRFAGGRFYTYPY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0155_FPAPGIYTID,FPAPGIYTID,train_high_mutation,False,False,novel,2,CDRH3 SRFPAPGIYTIDY is 2 mutation(s) from SRFPAPAIYTNDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0156_FAAPRMDELE,FAAPRMDELE,train_high_mutation,True,True,novel,3,
+pool_0157_WDGGRVFMFE,WDGGRVFMFE,train_high_mutation,False,False,novel,2,CDRH3 SRWDGGRVFMFEY is 2 mutation(s) from SRWDGGRVYSFEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0158_WDGPTLYSFN,WDGPTLYSFN,train_high_position_frequency,False,False,novel,2,CDRH3 SRWDGPTLYSFNY is 2 mutation(s) from SRWDGPGLYSFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0159_WGAHGFDVMD,WGAHGFDVMD,wt_mutation,True,True,novel,3,
+pool_0160_YGGDGQFLMD,YGGDGQFLMD,wt_mutation,False,False,novel,2,CDRH3 SRYGGDGQFLMDY is 2 mutation(s) from SRYGGDGFFAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0161_YGGRSFYSMD,YGGRSFYSMD,wt_mutation,False,False,novel,2,CDRH3 SRYGGRSFYSMDY is 2 mutation(s) from SRWGGDSFYSMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0162_WANPGPDEMD,WANPGPDEMD,train_high_mutation,False,False,novel,2,CDRH3 SRWANPGPDEMDY is 2 mutation(s) from SRWANPGPYEYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0163_WNAKASYSIP,WNAKASYSIP,train_high_mutation,False,False,novel,2,CDRH3 SRWNAKASYSIPY is 2 mutation(s) from SRWNAPASYSLPY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0164_FAAPGIYSIP,FAAPGIYSIP,train_high_position_frequency,True,True,novel,3,
+pool_0165_YIAVRMYSFG,YIAVRMYSFG,train_high_position_frequency,False,False,novel,2,CDRH3 SRYIAVRMYSFGY is 2 mutation(s) from SRYYAVRMYSFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0166_WRGAGFFQFT,WRGAGFFQFT,train_high_mutation,True,True,novel,3,
+pool_0167_YTSTGYDALN,YTSTGYDALN,train_high_mutation,False,False,novel,2,CDRH3 SRYTSTGYDALNY is 2 mutation(s) from SRYTSTSYYALNY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0168_YPAVSLYSIY,YPAVSLYSIY,train_high_mutation,False,False,novel,2,CDRH3 SRYPAVSLYSIYY is 2 mutation(s) from SRYTAPSLYSIYY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0169_WGMGGMDMYD,WGMGGMDMYD,train_high_mutation,False,False,novel,2,CDRH3 SRWGMGGMDMYDY is 2 mutation(s) from SRWGMVGLDMYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0170_FSSGGFLAFD,FSSGGFLAFD,train_high_mutation,True,True,novel,3,
+pool_0171_WGGVGYYTMP,WGGVGYYTMP,wt_mutation,False,False,novel,2,CDRH3 SRWGGVGYYTMPY is 2 mutation(s) from SRWGGVGMYTYPY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0172_WGAGRMYSIH,WGAGRMYSIH,train_high_position_frequency,False,False,novel,2,CDRH3 SRWGAGRMYSIHY is 2 mutation(s) from SRWAAGRMYSFHY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0173_YQDDGMYAMD,YQDDGMYAMD,wt_mutation,False,False,novel,2,CDRH3 SRYQDDGMYAMDY is 2 mutation(s) from SRYTEDGMYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0174_YGGGRMYSFT,YGGGRMYSFT,train_high_position_frequency,False,False,novel,2,CDRH3 SRYGGGRMYSFTY is 2 mutation(s) from SRYGGAAMYSFTY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0175_YLLAAYTSST,YLLAAYTSST,train_high_mutation,False,False,novel,2,CDRH3 SRYLLAAYTSSTY is 2 mutation(s) from SRWLLAAYTHSTY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0176_FHHGRLYTYD,FHHGRLYTYD,train_high_position_frequency,False,False,novel,2,CDRH3 SRFHHGRLYTYDY is 2 mutation(s) from SRYHHGRLYAYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0177_WGGVRTYILD,WGGVRTYILD,train_high_mutation,False,False,novel,2,CDRH3 SRWGGVRTYILDY is 2 mutation(s) from SRWGGVRVYTLDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0178_WDGPGMHSFE,WDGPGMHSFE,train_high_mutation,False,False,novel,2,CDRH3 SRWDGPGMHSFEY is 2 mutation(s) from SRWDGPGFYSFEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0179_WGSGGFDSMD,WGSGGFDSMD,wt_mutation,False,False,novel,2,CDRH3 SRWGSGGFDSMDY is 2 mutation(s) from SRWGSDGFYSMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0180_LQAGRVSSID,LQAGRVSSID,train_high_mutation,False,False,novel,2,CDRH3 SRLQAGRVSSIDY is 2 mutation(s) from SRLAAGRVYSIDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0181_LRRGLMYQYD,LRRGLMYQYD,train_high_mutation,False,False,novel,2,CDRH3 SRLRRGLMYQYDY is 2 mutation(s) from SRLRRGSFYQYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0182_FANGGMYMFV,FANGGMYMFV,train_high_mutation,False,False,novel,2,CDRH3 SRFANGGMYMFVY is 2 mutation(s) from SRLANGGMYVFVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0183_YAGPGIYHFA,YAGPGIYHFA,train_high_position_frequency,False,False,novel,2,CDRH3 SRYAGPGIYHFAY is 2 mutation(s) from SRYALPGIYTFAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0184_FARGGLVSFD,FARGGLVSFD,train_high_position_frequency,False,False,novel,2,CDRH3 SRFARGGLVSFDY is 2 mutation(s) from SRFADGGLYSFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0185_YTGHTFYAMD,YTGHTFYAMD,wt_mutation,False,False,novel,2,CDRH3 SRYTGHTFYAMDY is 2 mutation(s) from SRYTMHGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0186_FAASRMRKID,FAASRMRKID,train_high_mutation,True,True,novel,3,
+pool_0187_YGGDTTYAMA,YGGDTTYAMA,wt_mutation,True,True,novel,3,
+pool_0188_WNVPRGYTFD,WNVPRGYTFD,train_high_position_frequency,True,True,novel,3,
+pool_0189_WGGAGFDRYD,WGGAGFDRYD,wt_mutation,False,False,novel,2,CDRH3 SRWGGAGFDRYDY is 2 mutation(s) from SRWGGLGFDPYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0190_YGLDGVYSFV,YGLDGVYSFV,train_high_position_frequency,False,False,novel,2,CDRH3 SRYGLDGVYSFVY is 2 mutation(s) from SRYGRDGVYSFAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0191_WGIDRMYKMD,WGIDRMYKMD,wt_mutation,True,True,novel,3,
+pool_0192_YGGVGRYAFD,YGGVGRYAFD,wt_mutation,False,False,novel,2,CDRH3 SRYGGVGRYAFDY is 2 mutation(s) from SRYMGVGMYAFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0193_WVAPRSTSLE,WVAPRSTSLE,train_high_mutation,True,True,novel,3,
+pool_0194_FTARGFYNFD,FTARGFYNFD,train_high_mutation,False,False,novel,2,CDRH3 SRFTARGFYNFDY is 2 mutation(s) from SRFTARSFYSFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0195_YAATSMYAFD,YAATSMYAFD,train_high_position_frequency,False,False,novel,2,CDRH3 SRYAATSMYAFDY is 2 mutation(s) from SRYAAGSFYAFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0196_LAALGRFYFV,LAALGRFYFV,train_high_mutation,False,False,novel,2,CDRH3 SRLAALGRFYFVY is 2 mutation(s) from SRLAAGRFYAFVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0197_YDRGGRFSFF,YDRGGRFSFF,train_high_mutation,True,True,novel,3,
+pool_0198_FASRGFYELV,FASRGFYELV,train_high_mutation,False,False,novel,2,CDRH3 SRFASRGFYELVY is 2 mutation(s) from SRFAVRGFYALVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0199_WRGDPFDAYD,WRGDPFDAYD,wt_mutation,False,False,novel,2,CDRH3 SRWRGDPFDAYDY is 2 mutation(s) from SRWSGDSFDAYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0200_WHANRMYSYD,WHANRMYSYD,train_high_mutation,False,False,novel,2,CDRH3 SRWHANRMYSYDY is 2 mutation(s) from SRYHANRMYSKDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0201_WDDGGRYYTF,WDDGGRYYTF,train_high_mutation,False,False,novel,2,CDRH3 SRWDDGGRYYTFY is 2 mutation(s) from SRWDAGGRFYTFY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0202_LTARRSYNIR,LTARRSYNIR,train_high_mutation,True,True,novel,3,
+pool_0203_YASTRMYAFM,YASTRMYAFM,train_high_mutation,False,False,novel,2,CDRH3 SRYASTRMYAFMY is 2 mutation(s) from SRYASTGMYAFKY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0204_WTAGGFDTID,WTAGGFDTID,train_high_mutation,False,False,novel,2,CDRH3 SRWTAGGFDTIDY is 2 mutation(s) from SRWTAGGFYTFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0205_YRAMGRFSTD,YRAMGRFSTD,train_high_mutation,True,True,novel,3,
+pool_0206_NAAAGMYVLV,NAAAGMYVLV,train_high_position_frequency,False,False,novel,2,CDRH3 SRNAAAGMYVLVY is 2 mutation(s) from SRWAYAGMYVLVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0207_WRGGGYYPFV,WRGGGYYPFV,train_high_mutation,False,False,novel,2,CDRH3 SRWRGGGYYPFVY is 2 mutation(s) from SRWLGGGLYPFVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0208_FAGVGRVYTN,FAGVGRVYTN,train_high_mutation,True,True,novel,3,
+pool_0209_YAYGGFLVFV,YAYGGFLVFV,train_high_mutation,True,True,novel,3,
+pool_0210_WAADRLYFFN,WAADRLYFFN,train_high_position_frequency,False,False,novel,2,CDRH3 SRWAADRLYFFNY is 2 mutation(s) from SRWAAGRLYSFNY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0211_YTADRLYAIY,YTADRLYAIY,train_high_mutation,False,False,novel,2,CDRH3 SRYTADRLYAIYY is 2 mutation(s) from SRYTAQSLYAIYY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0212_WGGDRFVQFD,WGGDRFVQFD,wt_mutation,False,False,novel,2,CDRH3 SRWGGDRFVQFDY is 2 mutation(s) from SRWGGDRFYSFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0213_WQITGMSVLK,WQITGMSVLK,train_high_mutation,True,True,novel,3,
+pool_0214_YGGVGHGAMD,YGGVGHGAMD,wt_mutation,True,True,novel,3,
+pool_0215_FHENGLYAVA,FHENGLYAVA,train_high_mutation,False,False,novel,2,CDRH3 SRFHENGLYAVAY is 2 mutation(s) from SRFHGNGLYAFAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0216_YATPRLNSLL,YATPRLNSLL,train_high_mutation,False,False,novel,2,CDRH3 SRYATPRLNSLLY is 2 mutation(s) from SRYATGRLYSLLY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0217_YDAPGWYAIA,YDAPGWYAIA,train_high_position_frequency,True,True,novel,3,
+pool_0218_YGTNSRFATF,YGTNSRFATF,train_high_mutation,True,True,novel,3,
+pool_0219_YAGDRMYVFS,YAGDRMYVFS,train_high_position_frequency,False,False,novel,2,CDRH3 SRYAGDRMYVFSY is 2 mutation(s) from SRYAGVGMYVFSY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0220_FGRTGFLAMD,FGRTGFLAMD,wt_mutation,True,True,novel,3,
+pool_0221_YGRDRFYSFV,YGRDRFYSFV,train_high_position_frequency,False,False,novel,2,CDRH3 SRYGRDRFYSFVY is 2 mutation(s) from SRYGRDRIYPFVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0222_WGGDGFDFFE,WGGDGFDFFE,wt_mutation,False,False,novel,2,CDRH3 SRWGGDGFDFFEY is 2 mutation(s) from SRWGGDGFYVFEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0223_YTGVGIYSLL,YTGVGIYSLL,train_high_position_frequency,False,False,novel,2,CDRH3 SRYTGVGIYSLLY is 2 mutation(s) from SRYATGGIYSLLY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0224_WAASRMLSFE,WAASRMLSFE,train_high_mutation,False,False,novel,2,CDRH3 SRWAASRMLSFEY is 2 mutation(s) from SRWAASRCYSFEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0225_WGGDGLLAFK,WGGDGLLAFK,wt_mutation,False,False,novel,2,CDRH3 SRWGGDGLLAFKY is 2 mutation(s) from SRWGGDGLYAFAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0226_YNGDSFYAMP,YNGDSFYAMP,wt_mutation,False,False,novel,2,CDRH3 SRYNGDSFYAMPY is 2 mutation(s) from SRYLGDSFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0227_YGGDGFYSIA,YGGDGFYSIA,wt_mutation,False,False,novel,2,CDRH3 SRYGGDGFYSIAY is 2 mutation(s) from SRWGGDGFYSYAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0228_YGGDGFTTMP,YGGDGFTTMP,wt_mutation,False,False,novel,2,CDRH3 SRYGGDGFTTMPY is 2 mutation(s) from SRWGGDGFTLMPY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0229_WGGVGQYQFA,WGGVGQYQFA,train_high_mutation,False,False,novel,2,CDRH3 SRWGGVGQYQFAY is 2 mutation(s) from SRWAGVGQYVFAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0230_YASVGLHQFD,YASVGLHQFD,train_high_position_frequency,True,True,novel,3,
+pool_0231_WGGDRFYKFA,WGGDRFYKFA,wt_mutation,False,False,novel,2,CDRH3 SRWGGDRFYKFAY is 2 mutation(s) from SRWGGDRFYSFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0232_WGGDWFLRFD,WGGDWFLRFD,wt_mutation,False,False,novel,2,CDRH3 SRWGGDWFLRFDY is 2 mutation(s) from SRWGGDWLLRFCY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0233_YASAIMYAFN,YASAIMYAFN,train_high_position_frequency,False,False,novel,2,CDRH3 SRYASAIMYAFNY is 2 mutation(s) from SRYASSGMYAFNY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0234_WGGDRPYTMP,WGGDRPYTMP,wt_mutation,False,False,novel,2,CDRH3 SRWGGDRPYTMPY is 2 mutation(s) from SRWGGDRLYTMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0235_YDGYGFYAML,YDGYGFYAML,wt_mutation,False,False,novel,2,CDRH3 SRYDGYGFYAMLY is 2 mutation(s) from SRWDGYGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0236_YGHRGVYQID,YGHRGVYQID,train_high_mutation,False,False,novel,2,CDRH3 SRYGHRGVYQIDY is 2 mutation(s) from SRYGARGFYQIDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0237_YGAGRIYKFH,YGAGRIYKFH,train_high_mutation,False,False,novel,2,CDRH3 SRYGAGRIYKFHY is 2 mutation(s) from SRYGAGRIYTFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0238_WMRTRFGKYD,WMRTRFGKYD,train_high_mutation,True,True,novel,3,
+pool_0239_WSAGGPHYFV,WSAGGPHYFV,train_high_mutation,False,False,novel,2,CDRH3 SRWSAGGPHYFVY is 2 mutation(s) from SRWSANGPYYFVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0240_WPGELLYSYD,WPGELLYSYD,train_high_mutation,False,False,novel,2,CDRH3 SRWPGELLYSYDY is 2 mutation(s) from SRWPGESFYSYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0241_YMSVRMYKLH,YMSVRMYKLH,train_high_mutation,True,True,novel,3,
+pool_0242_YYTDGFYAMV,YYTDGFYAMV,wt_mutation,False,False,novel,2,CDRH3 SRYYTDGFYAMVY is 2 mutation(s) from SRYSTGGFYAMVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0243_WGANSMYVYP,WGANSMYVYP,train_high_mutation,False,False,novel,2,CDRH3 SRWGANSMYVYPY is 2 mutation(s) from SRWGDNSFYVYPY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0244_YAADGMNVFD,YAADGMNVFD,train_high_position_frequency,False,False,novel,2,CDRH3 SRYAADGMNVFDY is 2 mutation(s) from SRYANDGMYVFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0245_WRGDTFVAFD,WRGDTFVAFD,wt_mutation,False,False,novel,2,CDRH3 SRWRGDTFVAFDY is 2 mutation(s) from SRWSGDTFYAFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0246_YGADGIYAID,YGADGIYAID,wt_mutation,False,False,novel,2,CDRH3 SRYGADGIYAIDY is 2 mutation(s) from SRWGADGLYAIDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0247_FDGDRFYAFD,FDGDRFYAFD,wt_mutation,False,False,novel,2,CDRH3 SRFDGDRFYAFDY is 2 mutation(s) from SRWAGDRFYAFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0248_YAAAGIYFYE,YAAAGIYFYE,train_high_mutation,False,False,novel,2,CDRH3 SRYAAAGIYFYEY is 2 mutation(s) from SRYAAGGIYSYEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0249_WVRDGMPLFI,WVRDGMPLFI,train_high_mutation,False,False,novel,2,CDRH3 SRWVRDGMPLFIY is 2 mutation(s) from SRWVRDGMYLFEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0250_FRGAARFSTA,FRGAARFSTA,train_high_mutation,True,True,novel,4,
+pool_0251_YGGDSFDAID,YGGDSFDAID,wt_mutation,False,False,novel,2,CDRH3 SRYGGDSFDAIDY is 2 mutation(s) from SRFGGDSFYAIDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0252_YAARPFYVFD,YAARPFYVFD,train_high_position_frequency,False,False,novel,2,CDRH3 SRYAARPFYVFDY is 2 mutation(s) from SRYAAGPFYTFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0253_YLGGGFYSLN,YLGGGFYSLN,train_high_position_frequency,False,False,novel,2,CDRH3 SRYLGGGFYSLNY is 2 mutation(s) from SRYGGGGFYALNY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0254_WNAPSGYKLY,WNAPSGYKLY,train_high_position_frequency,False,False,novel,2,CDRH3 SRWNAPSGYKLYY is 2 mutation(s) from SRWNAPSFYALYY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0255_YTATSLDVVN,YTATSLDVVN,train_high_mutation,False,False,novel,2,CDRH3 SRYTATSLDVVNY is 2 mutation(s) from SRYTATSLYAVNY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0256_WDANGFYYHD,WDANGFYYHD,train_high_mutation,False,False,novel,2,CDRH3 SRWDANGFYYHDY is 2 mutation(s) from SRWAANGFYAHDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0257_FGANGFNAMD,FGANGFNAMD,wt_mutation,False,False,novel,2,CDRH3 SRFGANGFNAMDY is 2 mutation(s) from SRFGGNGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0258_WSADSFYEMD,WSADSFYEMD,wt_mutation,False,False,novel,2,CDRH3 SRWSADSFYEMDY is 2 mutation(s) from SRWSADSFYKFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0259_YALPVPYAFG,YALPVPYAFG,train_high_position_frequency,False,False,novel,2,CDRH3 SRYALPVPYAFGY is 2 mutation(s) from SRYALPGPYAFVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0260_WSGDRLFTFA,WSGDRLFTFA,train_high_position_frequency,False,False,novel,2,CDRH3 SRWSGDRLFTFAY is 2 mutation(s) from SRWSGDSLYTFAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0261_FGANRFYTLY,FGANRFYTLY,train_high_mutation,False,False,novel,2,CDRH3 SRFGANRFYTLYY is 2 mutation(s) from SRFSAPRFYTLYY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0262_WSADGMYVMD,WSADGMYVMD,wt_mutation,False,False,novel,2,CDRH3 SRWSADGMYVMDY is 2 mutation(s) from SRWSADGMYEHDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0263_FPRSGPYMYD,FPRSGPYMYD,train_high_mutation,False,False,novel,2,CDRH3 SRFPRSGPYMYDY is 2 mutation(s) from SRFSRSGLYMYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0264_YTATSLVAQD,YTATSLVAQD,train_high_mutation,False,False,novel,2,CDRH3 SRYTATSLVAQDY is 2 mutation(s) from SRYTATSLYAQKY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0265_YGGDPFYSHD,YGGDPFYSHD,wt_mutation,False,False,novel,2,CDRH3 SRYGGDPFYSHDY is 2 mutation(s) from SRYGGDGFYSMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0266_WGGVGLLNME,WGGVGLLNME,train_high_position_frequency,False,False,novel,2,CDRH3 SRWGGVGLLNMEY is 2 mutation(s) from SRWGGVGLYAMEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0267_FTAPRSKAIY,FTAPRSKAIY,train_high_mutation,False,False,novel,2,CDRH3 SRFTAPRSKAIYY is 2 mutation(s) from SRFTAPRFYAIYY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0268_YAPTRIDTMV,YAPTRIDTMV,train_high_mutation,True,True,novel,3,
+pool_0269_YAAAGMYTYY,YAAAGMYTYY,train_high_position_frequency,False,False,novel,2,CDRH3 SRYAAAGMYTYYY is 2 mutation(s) from SRYAAVGMYTYHY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0270_FRGDGLYEMD,FRGDGLYEMD,wt_mutation,False,False,novel,2,CDRH3 SRFRGDGLYEMDY is 2 mutation(s) from SRFGGDGLYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0271_YGAAGMDVFD,YGAAGMDVFD,train_high_mutation,False,False,novel,2,CDRH3 SRYGAAGMDVFDY is 2 mutation(s) from SRYGAAGMYVLDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0272_WVGPGSYTFP,WVGPGSYTFP,train_high_position_frequency,False,False,novel,2,CDRH3 SRWVGPGSYTFPY is 2 mutation(s) from SRWPGPGFYTFPY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0273_YVAHGVYYIY,YVAHGVYYIY,train_high_mutation,False,False,novel,2,CDRH3 SRYVAHGVYYIYY is 2 mutation(s) from SRYNAHSVYYIYY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0274_WATPRLYTFP,WATPRLYTFP,train_high_mutation,False,False,novel,2,CDRH3 SRWATPRLYTFPY is 2 mutation(s) from SRCAPPRLYTFPY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0275_YLAAGMYFFK,YLAAGMYFFK,train_high_mutation,False,False,novel,2,CDRH3 SRYLAAGMYFFKY is 2 mutation(s) from SRYLAVGMYFFVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0276_LDDVRIYTFV,LDDVRIYTFV,train_high_mutation,False,False,novel,2,CDRH3 SRLDDVRIYTFVY is 2 mutation(s) from SRLDAGRIYTFVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0277_WHGERFTTYD,WHGERFTTYD,train_high_mutation,False,False,novel,2,CDRH3 SRWHGERFTTYDY is 2 mutation(s) from SRWAGERFYTYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0278_YGMESFYAMD,YGMESFYAMD,wt_mutation,False,False,novel,2,CDRH3 SRYGMESFYAMDY is 2 mutation(s) from SRYGMDGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0279_WYGDGFFSFD,WYGDGFFSFD,wt_mutation,False,False,novel,2,CDRH3 SRWYGDGFFSFDY is 2 mutation(s) from SRWAGDGFYSFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0280_FGMGGLLQYD,FGMGGLLQYD,train_high_mutation,False,False,novel,2,CDRH3 SRFGMGGLLQYDY is 2 mutation(s) from SRFGMGGLYQLDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0281_YARESLYAYG,YARESLYAYG,train_high_mutation,False,False,novel,2,CDRH3 SRYARESLYAYGY is 2 mutation(s) from SRYAVVSLYAYGY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0282_WDLPRMYTFP,WDLPRMYTFP,train_high_position_frequency,False,False,novel,2,CDRH3 SRWDLPRMYTFPY is 2 mutation(s) from SRWALGRMYTFPY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0283_YDGVSFYSFE,YDGVSFYSFE,train_high_mutation,False,False,novel,2,CDRH3 SRYDGVSFYSFEY is 2 mutation(s) from SRYDGGSFYSFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0284_YGKGSFYAFT,YGKGSFYAFT,train_high_mutation,False,False,novel,2,CDRH3 SRYGKGSFYAFTY is 2 mutation(s) from SRYGAGSFYAFAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0285_RNAPASYKLD,RNAPASYKLD,train_high_mutation,False,False,novel,2,CDRH3 SRRNAPASYKLDY is 2 mutation(s) from SRLNAPASYKLSY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0286_YGTGGMYSFP,YGTGGMYSFP,train_high_position_frequency,False,False,novel,2,CDRH3 SRYGTGGMYSFPY is 2 mutation(s) from SRWGTGGMYKFPY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0287_WSNFRPLKLE,WSNFRPLKLE,train_high_mutation,False,False,novel,2,CDRH3 SRWSNFRPLKLEY is 2 mutation(s) from SRWSNFGPLALEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0288_WLGDGLTAMA,WLGDGLTAMA,wt_mutation,False,False,novel,2,CDRH3 SRWLGDGLTAMAY is 2 mutation(s) from SRWLGDGLYALAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0289_YGPTSFLDYG,YGPTSFLDYG,train_high_mutation,False,False,novel,2,CDRH3 SRYGPTSFLDYGY is 2 mutation(s) from SRYLPTSFYDYGY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0290_RTGDGMYAMK,RTGDGMYAMK,wt_mutation,True,True,novel,3,
+pool_0291_FSGVRMYYFD,FSGVRMYYFD,train_high_position_frequency,False,False,novel,2,CDRH3 SRFSGVRMYYFDY is 2 mutation(s) from SRFSAVRFYYFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0292_YGVARLYSYE,YGVARLYSYE,train_high_mutation,False,False,novel,2,CDRH3 SRYGVARLYSYEY is 2 mutation(s) from SRWQVARLYSYEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0293_FAALGMYVFD,FAALGMYVFD,train_high_position_frequency,False,False,novel,2,CDRH3 SRFAALGMYVFDY is 2 mutation(s) from SRFAADGMYVFAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0294_WSGSRFYSMD,WSGSRFYSMD,wt_mutation,False,False,novel,2,CDRH3 SRWSGSRFYSMDY is 2 mutation(s) from SRWGGARFYSMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0295_WGAVGIYSMA,WGAVGIYSMA,train_high_position_frequency,False,False,novel,2,CDRH3 SRWGAVGIYSMAY is 2 mutation(s) from SRWGQVGIYSLAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0296_YSGDRFYAMT,YSGDRFYAMT,wt_mutation,False,False,novel,2,CDRH3 SRYSGDRFYAMTY is 2 mutation(s) from SRYSGDGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0297_FGGVGMYAID,FGGVGMYAID,wt_mutation,False,False,novel,2,CDRH3 SRFGGVGMYAIDY is 2 mutation(s) from SRFGGNGMYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0298_YAAARFDAIY,YAAARFDAIY,train_high_mutation,False,False,novel,2,CDRH3 SRYAAARFDAIYY is 2 mutation(s) from SRYAAARFYAIDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0299_WGMVGTYSME,WGMVGTYSME,train_high_position_frequency,False,False,novel,2,CDRH3 SRWGMVGTYSMEY is 2 mutation(s) from SRWGGVGFYSMEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0300_FMMGRYYSFD,FMMGRYYSFD,train_high_mutation,True,True,novel,3,
+pool_0301_YGGVLMYALA,YGGVLMYALA,train_high_mutation,False,False,novel,2,CDRH3 SRYGGVLMYALAY is 2 mutation(s) from SRYVGVGMYALAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0302_FGSGGVDVFE,FGSGGVDVFE,train_high_mutation,True,True,novel,3,
+pool_0303_WAAPRIYVFV,WAAPRIYVFV,train_high_position_frequency,False,False,novel,2,CDRH3 SRWAAPRIYVFVY is 2 mutation(s) from SRWAAGRIYTFVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0304_YLAGGMYTLP,YLAGGMYTLP,train_high_mutation,False,False,novel,2,CDRH3 SRYLAGGMYTLPY is 2 mutation(s) from SRWLAGGMYMLPY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0305_WAGDPGMYYA,WAGDPGMYYA,train_high_mutation,False,False,novel,2,CDRH3 SRWAGDPGMYYAY is 2 mutation(s) from SRWADPGMYAYAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0306_YGGDGLYMVD,YGGDGLYMVD,wt_mutation,False,False,novel,2,CDRH3 SRYGGDGLYMVDY is 2 mutation(s) from SRFGGDGLYMYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0307_WRAVGSYQYP,WRAVGSYQYP,train_high_position_frequency,True,True,novel,3,
+pool_0308_YTAPRILSLY,YTAPRILSLY,train_high_mutation,False,False,novel,2,CDRH3 SRYTAPRILSLYY is 2 mutation(s) from SRYTAPSIYSLYY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0309_FPGGGMYAFV,FPGGGMYAFV,train_high_position_frequency,False,False,novel,2,CDRH3 SRFPGGGMYAFVY is 2 mutation(s) from SRFGSGGMYAFVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0310_WAARRMYVFH,WAARRMYVFH,train_high_mutation,False,False,novel,2,CDRH3 SRWAARRMYVFHY is 2 mutation(s) from SRWAAGRMYSFHY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0311_WIGDRMYQVD,WIGDRMYQVD,train_high_position_frequency,True,True,novel,3,
+pool_0312_YAAGRFLFFV,YAAGRFLFFV,train_high_mutation,False,False,novel,2,CDRH3 SRYAAGRFLFFVY is 2 mutation(s) from SRYAAGRFYSFVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0313_WVGDRMYMMD,WVGDRMYMMD,wt_mutation,False,False,novel,2,CDRH3 SRWVGDRMYMMDY is 2 mutation(s) from SRWVRDRMYMYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0314_WDGDGMYYHD,WDGDGMYYHD,wt_mutation,False,False,novel,2,CDRH3 SRWDGDGMYYHDY is 2 mutation(s) from SRWDGDGMYNYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0315_WYRERMLTYD,WYRERMLTYD,train_high_mutation,False,False,novel,2,CDRH3 SRWYRERMLTYDY is 2 mutation(s) from SRWDRERMYTYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0316_YDGDGFYNMY,YDGDGFYNMY,wt_mutation,False,False,novel,2,CDRH3 SRYDGDGFYNMYY is 2 mutation(s) from SRYDGDGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0317_YTAPRIYYFV,YTAPRIYYFV,train_high_position_frequency,False,False,novel,2,CDRH3 SRYTAPRIYYFVY is 2 mutation(s) from SRYAAPRIYTFVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0318_WDAGTMYSYD,WDAGTMYSYD,train_high_mutation,False,False,novel,2,CDRH3 SRWDAGTMYSYDY is 2 mutation(s) from SRWDRAGMYSYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0319_YGGDHFYTME,YGGDHFYTME,wt_mutation,False,False,novel,2,CDRH3 SRYGGDHFYTMEY is 2 mutation(s) from SRYGGDGFYAMEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0320_WFANGMYVID,WFANGMYVID,train_high_mutation,False,False,novel,2,CDRH3 SRWFANGMYVIDY is 2 mutation(s) from SRWGPNGMYVIDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0321_WGAPSHYSHD,WGAPSHYSHD,train_high_position_frequency,True,True,novel,3,
+pool_0322_YTGPSLYTHY,YTGPSLYTHY,train_high_position_frequency,False,False,novel,2,CDRH3 SRYTGPSLYTHYY is 2 mutation(s) from SRYTGPSLYALYY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0323_WAGPSFYYMD,WAGPSFYYMD,wt_mutation,False,False,novel,2,CDRH3 SRWAGPSFYYMDY is 2 mutation(s) from SRWPGPSFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0324_WRAATFDDTD,WRAATFDDTD,train_high_position_frequency,True,True,novel,4,
+pool_0325_YHEKTITTKA,YHEKTITTKA,train_high_mutation,True,True,novel,4,
+pool_0326_FDGPGPYTIL,FDGPGPYTIL,train_high_mutation,False,False,novel,2,CDRH3 SRFDGPGPYTILY is 2 mutation(s) from SRFDGPGPYTFPY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0327_WGATSMLAFN,WGATSMLAFN,train_high_mutation,True,True,novel,3,
+pool_0328_YGGEGFFTMD,YGGEGFFTMD,wt_mutation,False,False,novel,2,CDRH3 SRYGGEGFFTMDY is 2 mutation(s) from SRYGGVGFFTFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0329_WGQIGLDAMD,WGQIGLDAMD,wt_mutation,False,False,novel,2,CDRH3 SRWGQIGLDAMDY is 2 mutation(s) from SRWGGDGLDAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0330_WHEPGMYSLA,WHEPGMYSLA,train_high_mutation,False,False,novel,2,CDRH3 SRWHEPGMYSLAY is 2 mutation(s) from SRWDEPGMYALAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0331_WAEPGFDTYP,WAEPGFDTYP,train_high_mutation,False,False,novel,2,CDRH3 SRWAEPGFDTYPY is 2 mutation(s) from SRWAEPSFDAYPY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0332_YLDVGIYSFY,YLDVGIYSFY,train_high_position_frequency,False,False,novel,2,CDRH3 SRYLDVGIYSFYY is 2 mutation(s) from SRYLDVGIYVFVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0333_LTRGGVYTYD,LTRGGVYTYD,train_high_mutation,False,False,novel,2,CDRH3 SRLTRGGVYTYDY is 2 mutation(s) from SRFTRGGLYTYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0334_YDLDGMYFID,YDLDGMYFID,train_high_position_frequency,False,False,novel,2,CDRH3 SRYDLDGMYFIDY is 2 mutation(s) from SRWDLDGMYFYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0335_WGLAALFTYD,WGLAALFTYD,train_high_mutation,False,False,novel,2,CDRH3 SRWGLAALFTYDY is 2 mutation(s) from SRWGLAALYHYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0336_YGGRGFDVMD,YGGRGFDVMD,wt_mutation,False,False,novel,2,CDRH3 SRYGGRGFDVMDY is 2 mutation(s) from SRYGGRGFYVYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0337_YAAGGMYPIK,YAAGGMYPIK,train_high_position_frequency,True,True,novel,3,
+pool_0338_FSPTRPLRLR,FSPTRPLRLR,train_high_mutation,False,False,novel,2,CDRH3 SRFSPTRPLRLRY is 2 mutation(s) from SRFGPTRLLRLRY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0339_WVGDGFVTFD,WVGDGFVTFD,wt_mutation,False,False,novel,2,CDRH3 SRWVGDGFVTFDY is 2 mutation(s) from SRWPGDGFYTFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0340_WDGKRMFSFD,WDGKRMFSFD,train_high_mutation,False,False,novel,2,CDRH3 SRWDGKRMFSFDY is 2 mutation(s) from SRWDGGRMYSFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0341_WDAPTIYTFD,WDAPTIYTFD,train_high_position_frequency,False,False,novel,2,CDRH3 SRWDAPTIYTFDY is 2 mutation(s) from SRWDAAGIYTFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0342_WAGPRLYTYT,WAGPRLYTYT,train_high_mutation,False,False,novel,2,CDRH3 SRWAGPRLYTYTY is 2 mutation(s) from SRWAGGRLYTYEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0343_YDATGMYQLT,YDATGMYQLT,train_high_position_frequency,False,False,novel,2,CDRH3 SRYDATGMYQLTY is 2 mutation(s) from SRYDARGMYQLGY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0344_WDGAGFLVYE,WDGAGFLVYE,train_high_mutation,False,False,novel,2,CDRH3 SRWDGAGFLVYEY is 2 mutation(s) from SRWDGAGFYKYEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0345_WGGVGMDMMD,WGGVGMDMMD,wt_mutation,False,False,novel,2,CDRH3 SRWGGVGMDMMDY is 2 mutation(s) from SRWGGVGHDMFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0346_YGGDTFLAMV,YGGDTFLAMV,wt_mutation,True,True,novel,3,
+pool_0347_YALDGIYRFD,YALDGIYRFD,train_high_position_frequency,False,False,novel,2,CDRH3 SRYALDGIYRFDY is 2 mutation(s) from SRYALDGLYSFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0348_WGAGGVRFRF,WGAGGVRFRF,train_high_mutation,True,True,novel,3,
+pool_0349_FGQGGLYSIN,FGQGGLYSIN,train_high_position_frequency,True,True,novel,3,
+pool_0350_WNDDRFYSLE,WNDDRFYSLE,train_high_mutation,False,False,novel,2,CDRH3 SRWNDDRFYSLEY is 2 mutation(s) from SRWGDFRFYSLEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0351_FTAGASYTLP,FTAGASYTLP,train_high_mutation,True,True,novel,3,
+pool_0352_WPGQSLVANA,WPGQSLVANA,train_high_mutation,True,True,novel,3,
+pool_0353_YAADPLFYTF,YAADPLFYTF,train_high_mutation,True,True,novel,3,
+pool_0354_FAERRPYYFG,FAERRPYYFG,train_high_position_frequency,True,True,novel,3,
+pool_0355_YRGDHFLAFD,YRGDHFLAFD,train_high_position_frequency,False,False,novel,2,CDRH3 SRYRGDHFLAFDY is 2 mutation(s) from SRYRGDGFLAFTY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0356_WVRDPRFLRQ,WVRDPRFLRQ,train_high_mutation,False,False,novel,2,CDRH3 SRWVRDPRFLRQY is 2 mutation(s) from SRWVRDGRFLRHY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0357_WDGSRMYKYV,WDGSRMYKYV,train_high_mutation,False,False,novel,2,CDRH3 SRWDGSRMYKYVY is 2 mutation(s) from SRWDGVRMYKYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0358_WDGDGLYSML,WDGDGLYSML,wt_mutation,False,False,novel,2,CDRH3 SRWDGDGLYSMLY is 2 mutation(s) from SRWAGDGLYSMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0359_FPATRIYLLY,FPATRIYLLY,train_high_mutation,True,True,novel,3,
+pool_0360_WAGTRIYVLE,WAGTRIYVLE,train_high_mutation,False,False,novel,2,CDRH3 SRWAGTRIYVLEY is 2 mutation(s) from SRWAGGRIYSLEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0361_WAASGMFMYD,WAASGMFMYD,train_high_mutation,False,False,novel,2,CDRH3 SRWAASGMFMYDY is 2 mutation(s) from SRWAAGGMYMYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0362_WASPGMYYFN,WASPGMYYFN,train_high_position_frequency,False,False,novel,2,CDRH3 SRWASPGMYYFNY is 2 mutation(s) from SRWASFGMYYFVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0363_FADRRMYSIE,FADRRMYSIE,train_high_mutation,False,False,novel,2,CDRH3 SRFADRRMYSIEY is 2 mutation(s) from SRFAARRFYSIEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0364_WPAVRYYSLD,WPAVRYYSLD,train_high_position_frequency,False,False,novel,2,CDRH3 SRWPAVRYYSLDY is 2 mutation(s) from SRWGAVRYYSLFY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0365_WVNFGPYEIV,WVNFGPYEIV,train_high_position_frequency,False,False,novel,2,CDRH3 SRWVNFGPYEIVY is 2 mutation(s) from SRWVNPGPYEYVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0366_WGMNSFLAMD,WGMNSFLAMD,wt_mutation,False,False,novel,2,CDRH3 SRWGMNSFLAMDY is 2 mutation(s) from SRWGDNSFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0367_YALPGMVNFR,YALPGMVNFR,train_high_mutation,False,False,novel,2,CDRH3 SRYALPGMVNFRY is 2 mutation(s) from SRYALPGMYAFRY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0368_YDAAGLYYFE,YDAAGLYYFE,train_high_mutation,False,False,novel,2,CDRH3 SRYDAAGLYYFEY is 2 mutation(s) from SRYGAAGLYVFEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0369_FDRLRLYTFV,FDRLRLYTFV,train_high_position_frequency,False,False,novel,2,CDRH3 SRFDRLRLYTFVY is 2 mutation(s) from SRFADRRLYTFVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0370_WNNPAPFLLW,WNNPAPFLLW,train_high_mutation,False,False,novel,2,CDRH3 SRWNNPAPFLLWY is 2 mutation(s) from SRWNAPASFLLWY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0371_WRAGLSESFE,WRAGLSESFE,train_high_mutation,False,False,novel,2,CDRH3 SRWRAGLSESFEY is 2 mutation(s) from SRWRAGLLYSFEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0372_TAAERFDLFD,TAAERFDLFD,train_high_position_frequency,False,False,novel,2,CDRH3 SRTAAERFDLFDY is 2 mutation(s) from SRTAAGRFDTFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0373_WLGAGFFAMA,WLGAGFFAMA,wt_mutation,False,False,novel,2,CDRH3 SRWLGAGFFAMAY is 2 mutation(s) from SRWGGDGFFAMAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0374_WVAPGMYSFV,WVAPGMYSFV,train_high_position_frequency,False,False,novel,2,CDRH3 SRWVAPGMYSFVY is 2 mutation(s) from SRWGAGGMYSFVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0375_WSGDGLDNMD,WSGDGLDNMD,wt_mutation,False,False,novel,2,CDRH3 SRWSGDGLDNMDY is 2 mutation(s) from SRWGGDGLDAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0376_WADPRMFTVD,WADPRMFTVD,train_high_mutation,False,False,novel,2,CDRH3 SRWADPRMFTVDY is 2 mutation(s) from SRWADPRMYTFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0377_YNSNSLYALN,YNSNSLYALN,train_high_mutation,False,False,novel,2,CDRH3 SRYNSNSLYALNY is 2 mutation(s) from SRYTSQSLYALNY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0378_WGGDRVYPME,WGGDRVYPME,wt_mutation,False,False,novel,2,CDRH3 SRWGGDRVYPMEY is 2 mutation(s) from SRWGGDRLYSMEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0379_YAAGRMSPWD,YAAGRMSPWD,train_high_mutation,False,False,novel,2,CDRH3 SRYAAGRMSPWDY is 2 mutation(s) from SRWAAGRLSPWDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0380_WPGEGFFAYD,WPGEGFFAYD,wt_mutation,False,False,novel,2,CDRH3 SRWPGEGFFAYDY is 2 mutation(s) from SRWMGVGFFAYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0381_YGRVGMYSNP,YGRVGMYSNP,train_high_mutation,False,False,novel,2,CDRH3 SRYGRVGMYSNPY is 2 mutation(s) from SRYSGVGMYSNPY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0382_YGQGRFYAMD,YGQGRFYAMD,wt_mutation,False,False,novel,2,CDRH3 SRYGQGRFYAMDY is 2 mutation(s) from SRWGGGRFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0383_WGPAGFDAFD,WGPAGFDAFD,wt_mutation,False,False,novel,2,CDRH3 SRWGPAGFDAFDY is 2 mutation(s) from SRWGAAGPDAFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0384_YSANGFFVFV,YSANGFFVFV,train_high_position_frequency,False,False,novel,2,CDRH3 SRYSANGFFVFVY is 2 mutation(s) from SRYSAIGFFVFAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0385_WGRGGGYAML,WGRGGGYAML,wt_mutation,False,False,novel,2,CDRH3 SRWGRGGGYAMLY is 2 mutation(s) from SRWGRGGLYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0386_YATGGLFAMD,YATGGLFAMD,train_high_mutation,False,False,novel,2,CDRH3 SRYATGGLFAMDY is 2 mutation(s) from SRYATGGLYAMLY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0387_YLAAGIYSFA,YLAAGIYSFA,train_high_position_frequency,False,False,novel,2,CDRH3 SRYLAAGIYSFAY is 2 mutation(s) from SRLAAGRIYSFAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0388_YGSGSVYAFN,YGSGSVYAFN,train_high_position_frequency,True,True,novel,3,
+pool_0389_MLGDGMYVMD,MLGDGMYVMD,wt_mutation,True,True,novel,3,
+pool_0390_WQGVVIYKLL,WQGVVIYKLL,train_high_mutation,True,True,novel,3,
+pool_0391_WAGERFTLFE,WAGERFTLFE,train_high_mutation,False,False,novel,2,CDRH3 SRWAGERFTLFEY is 2 mutation(s) from SRWAGERFYNFEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0392_FGLRRLYSYD,FGLRRLYSYD,train_high_mutation,False,False,novel,2,CDRH3 SRFGLRRLYSYDY is 2 mutation(s) from SRWGARRLYSYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0393_YGLARLFQFL,YGLARLFQFL,train_high_position_frequency,True,True,novel,3,
+pool_0394_WTAAGIYTVD,WTAAGIYTVD,train_high_mutation,False,False,novel,2,CDRH3 SRWTAAGIYTVDY is 2 mutation(s) from SRWAAAGIYTFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0395_FPGPGPPAFP,FPGPGPPAFP,train_high_mutation,False,False,novel,2,CDRH3 SRFPGPGPPAFPY is 2 mutation(s) from SRFPQPGPYAFPY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0396_WSAGIFFVFE,WSAGIFFVFE,train_high_mutation,False,False,novel,2,CDRH3 SRWSAGIFFVFEY is 2 mutation(s) from SRWSAGRFFLFEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0397_WASPRLDTSV,WASPRLDTSV,train_high_mutation,True,True,novel,3,
+pool_0398_YGDDGFYSMP,YGDDGFYSMP,wt_mutation,False,False,novel,2,CDRH3 SRYGDDGFYSMPY is 2 mutation(s) from SRYGDPGFYSFPY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0399_FTQGGMYSFD,FTQGGMYSFD,train_high_mutation,False,False,novel,2,CDRH3 SRFTQGGMYSFDY is 2 mutation(s) from SRFTAGGFYSFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0400_YDEPGLYMYA,YDEPGLYMYA,train_high_mutation,False,False,novel,2,CDRH3 SRYDEPGLYMYAY is 2 mutation(s) from SRYDGPGLYAYAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0401_WDRDRFYRFV,WDRDRFYRFV,train_high_position_frequency,False,False,novel,2,CDRH3 SRWDRDRFYRFVY is 2 mutation(s) from SRWDRTRFYPFVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0402_LSGDSFYSMD,LSGDSFYSMD,wt_mutation,False,False,novel,2,CDRH3 SRLSGDSFYSMDY is 2 mutation(s) from SRLSGDSFYAFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0403_NDGGGFYVVD,NDGGGFYVVD,train_high_position_frequency,True,True,novel,3,
+pool_0404_WLAVGMDYFD,WLAVGMDYFD,train_high_position_frequency,True,True,novel,3,
+pool_0405_WGRVRMSKYD,WGRVRMSKYD,train_high_mutation,False,False,novel,2,CDRH3 SRWGRVRMSKYDY is 2 mutation(s) from SRWGRVRMYNYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0406_WPKGDFYSFM,WPKGDFYSFM,train_high_position_frequency,False,False,novel,2,CDRH3 SRWPKGDFYSFMY is 2 mutation(s) from SRWPKGRFYSFVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0407_FASGGFETID,FASGGFETID,train_high_mutation,False,False,novel,2,CDRH3 SRFASGGFETIDY is 2 mutation(s) from SRLASGGFYTIDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0408_FTAPDPYTLP,FTAPDPYTLP,train_high_mutation,True,True,novel,3,
+pool_0409_FDPGRSYSFV,FDPGRSYSFV,train_high_mutation,False,False,novel,2,CDRH3 SRFDPGRSYSFVY is 2 mutation(s) from SRFDAGRFYSFVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0410_FGGDGIYSMN,FGGDGIYSMN,wt_mutation,False,False,novel,2,CDRH3 SRFGGDGIYSMNY is 2 mutation(s) from SRFGGDGIYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0411_WVGDVFYAFE,WVGDVFYAFE,wt_mutation,False,False,novel,2,CDRH3 SRWVGDVFYAFEY is 2 mutation(s) from SRWSGDVFYAFTY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0412_YGHGPIYSFV,YGHGPIYSFV,train_high_position_frequency,True,True,novel,3,
+pool_0413_WSRDRLYAMD,WSRDRLYAMD,wt_mutation,False,False,novel,2,CDRH3 SRWSRDRLYAMDY is 2 mutation(s) from SRWSRLGLYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0414_WALPGMYHFE,WALPGMYHFE,train_high_mutation,False,False,novel,2,CDRH3 SRWALPGMYHFEY is 2 mutation(s) from SRYALPGMYVFEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0415_WAAETMYMYD,WAAETMYMYD,train_high_position_frequency,False,False,novel,2,CDRH3 SRWAAETMYMYDY is 2 mutation(s) from SRWAAGGMYMYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0416_YDALSMYYIQ,YDALSMYYIQ,train_high_mutation,True,True,novel,3,
+pool_0417_WQAVGLYQFD,WQAVGLYQFD,train_high_position_frequency,False,False,novel,2,CDRH3 SRWQAVGLYQFDY is 2 mutation(s) from SRWQQLGLYQFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0418_WGNAGRYSFV,WGNAGRYSFV,train_high_mutation,False,False,novel,2,CDRH3 SRWGNAGRYSFVY is 2 mutation(s) from SRWGAAGFYSFVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0419_FAGRRFVTYD,FAGRRFVTYD,train_high_mutation,False,False,novel,2,CDRH3 SRFAGRRFVTYDY is 2 mutation(s) from SRFAGGRFYTYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0420_WAGDVIYSMD,WAGDVIYSMD,wt_mutation,False,False,novel,2,CDRH3 SRWAGDVIYSMDY is 2 mutation(s) from SRWAGDGLYSMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0421_WYEFPLYSFD,WYEFPLYSFD,train_high_mutation,False,False,novel,2,CDRH3 SRWYEFPLYSFDY is 2 mutation(s) from SRWSAFPLYSFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0422_FGDIGFFAMD,FGDIGFFAMD,wt_mutation,True,True,novel,3,
+pool_0423_YGGDGGYAFN,YGGDGGYAFN,wt_mutation,False,False,novel,2,CDRH3 SRYGGDGGYAFNY is 2 mutation(s) from SRYGGDGMYAFLY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0424_YGGAGLYAYD,YGGAGLYAYD,wt_mutation,False,False,novel,2,CDRH3 SRYGGAGLYAYDY is 2 mutation(s) from SRYGGCGLYHYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0425_WAGVTLYTFP,WAGVTLYTFP,train_high_mutation,False,False,novel,2,CDRH3 SRWAGVTLYTFPY is 2 mutation(s) from SRFAGVGLYTFPY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0426_GDLAGMTHVT,GDLAGMTHVT,train_high_mutation,False,False,novel,2,CDRH3 SRGDLAGMTHVTY is 2 mutation(s) from SRGLLAGCTHVTY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0427_WFIARMYTFP,WFIARMYTFP,train_high_position_frequency,False,False,novel,2,CDRH3 SRWFIARMYTFPY is 2 mutation(s) from SRWGIGRMYTFPY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0428_WGKRGFDRMD,WGKRGFDRMD,wt_mutation,False,False,novel,2,CDRH3 SRWGKRGFDRMDY is 2 mutation(s) from SRWGSRGFDAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0429_YARGVLYPFL,YARGVLYPFL,train_high_mutation,False,False,novel,2,CDRH3 SRYARGVLYPFLY is 2 mutation(s) from SRYAQRGVYPFLY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0430_YGLATYYSFD,YGLATYYSFD,train_high_position_frequency,False,False,novel,2,CDRH3 SRYGLATYYSFDY is 2 mutation(s) from SRYGAATFYSFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0431_YGGVGFTLMD,YGGVGFTLMD,wt_mutation,True,True,novel,3,
+pool_0432_YAEPGILTFL,YAEPGILTFL,train_high_mutation,False,False,novel,2,CDRH3 SRYAEPGILTFLY is 2 mutation(s) from SRYAHPGIYTFLY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0433_YAHVNLFQLG,YAHVNLFQLG,train_high_mutation,True,True,novel,3,
+pool_0434_FGGNGFLAFD,FGGNGFLAFD,wt_mutation,False,False,novel,2,CDRH3 SRFGGNGFLAFDY is 2 mutation(s) from SRFGGRGFYAFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0435_WSALGFFSFD,WSALGFFSFD,train_high_mutation,False,False,novel,2,CDRH3 SRWSALGFFSFDY is 2 mutation(s) from SRWSAAGFYSFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0436_WAAAGFYVIH,WAAAGFYVIH,train_high_position_frequency,False,False,novel,2,CDRH3 SRWAAAGFYVIHY is 2 mutation(s) from SRWAAGGFYVFHY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0437_WSRDGFKQMD,WSRDGFKQMD,wt_mutation,True,True,novel,3,
+pool_0438_FAKNRMYKFR,FAKNRMYKFR,train_high_mutation,False,False,novel,2,CDRH3 SRFAKNRMYKFRY is 2 mutation(s) from SRFAKNRMYYFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0439_LDATRSYAFV,LDATRSYAFV,train_high_mutation,False,False,novel,2,CDRH3 SRLDATRSYAFVY is 2 mutation(s) from SRLDRTRFYAFVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0440_YDRAGIYSSG,YDRAGIYSSG,train_high_position_frequency,True,True,novel,3,
+pool_0441_YDGVGIFRYD,YDGVGIFRYD,train_high_mutation,True,True,novel,3,
+pool_0442_LTARGMPVLP,LTARGMPVLP,train_high_position_frequency,True,True,novel,4,
+pool_0443_WGVDGMYQID,WGVDGMYQID,train_high_position_frequency,False,False,novel,2,CDRH3 SRWGVDGMYQIDY is 2 mutation(s) from SRWGVPGMYDIDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0444_RDRGGVYLFV,RDRGGVYLFV,train_high_mutation,True,True,novel,3,
+pool_0445_YPAPSIYTLE,YPAPSIYTLE,train_high_position_frequency,False,False,novel,2,CDRH3 SRYPAPSIYTLEY is 2 mutation(s) from SRYPAPSIYDLHY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0446_WAALRMYQLH,WAALRMYQLH,train_high_position_frequency,False,False,novel,2,CDRH3 SRWAALRMYQLHY is 2 mutation(s) from SRWAAGRMYTLHY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0447_YAATSMYTYG,YAATSMYTYG,train_high_position_frequency,False,False,novel,2,CDRH3 SRYAATSMYTYGY is 2 mutation(s) from SRYRATSMYVYGY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0448_YAGPGFSAMD,YAGPGFSAMD,wt_mutation,False,False,novel,2,CDRH3 SRYAGPGFSAMDY is 2 mutation(s) from SRYAGDGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0449_YRGDGTYNMD,YRGDGTYNMD,wt_mutation,False,False,novel,2,CDRH3 SRYRGDGTYNMDY is 2 mutation(s) from SRYRGDGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0450_GTGDGLYAMA,GTGDGLYAMA,wt_mutation,False,False,novel,2,CDRH3 SRGTGDGLYAMAY is 2 mutation(s) from SRYTGDGLYANAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0451_YSRAGRFYTA,YSRAGRFYTA,train_high_mutation,False,False,novel,2,CDRH3 SRYSRAGRFYTAY is 2 mutation(s) from SRYSPAGRFYTFY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0452_YATGRLYRIV,YATGRLYRIV,train_high_mutation,False,False,novel,2,CDRH3 SRYATGRLYRIVY is 2 mutation(s) from SRYATGRFYSIVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0453_LAATGFYVFV,LAATGFYVFV,train_high_position_frequency,False,False,novel,2,CDRH3 SRLAATGFYVFVY is 2 mutation(s) from SRLAARGFYSFVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0454_RAAGRMETIA,RAAGRMETIA,train_high_mutation,False,False,novel,2,CDRH3 SRRAAGRMETIAY is 2 mutation(s) from SRRAAGRMYTIDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0455_YDAGGMYKYD,YDAGGMYKYD,train_high_position_frequency,False,False,novel,2,CDRH3 SRYDAGGMYKYDY is 2 mutation(s) from SRWDRGGMYKYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0456_WSLAAGFTLE,WSLAAGFTLE,train_high_mutation,True,True,novel,3,
+pool_0457_YGAKGPYAIL,YGAKGPYAIL,train_high_position_frequency,False,False,novel,2,CDRH3 SRYGAKGPYAILY is 2 mutation(s) from SRYGAVGPYAHLY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0458_YHHPGIYSLA,YHHPGIYSLA,train_high_mutation,False,False,novel,2,CDRH3 SRYHHPGIYSLAY is 2 mutation(s) from SRYHHSGIYSYAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0459_YLGLRMYSLD,YLGLRMYSLD,train_high_position_frequency,False,False,novel,2,CDRH3 SRYLGLRMYSLDY is 2 mutation(s) from SRWGGLRMYSLDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0460_WDALGMYTFD,WDALGMYTFD,train_high_position_frequency,False,False,novel,2,CDRH3 SRWDALGMYTFDY is 2 mutation(s) from SRWDAGMFYTFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0461_WVATSFYAFN,WVATSFYAFN,train_high_position_frequency,False,False,novel,2,CDRH3 SRWVATSFYAFNY is 2 mutation(s) from SRWNAPSFYAFNY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0462_YAKGRSYRFD,YAKGRSYRFD,train_high_position_frequency,False,False,novel,2,CDRH3 SRYAKGRSYRFDY is 2 mutation(s) from SRYAAGRSYTFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0463_WSGPGRYSMD,WSGPGRYSMD,wt_mutation,True,True,novel,3,
+pool_0464_YAGDGFTSMD,YAGDGFTSMD,wt_mutation,False,False,novel,2,CDRH3 SRYAGDGFTSMDY is 2 mutation(s) from SRWAGDGFYSMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0465_WGALGILFLD,WGALGILFLD,train_high_mutation,False,False,novel,2,CDRH3 SRWGALGILFLDY is 2 mutation(s) from SRWGAPGIYFLDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0466_YDGDSFTHLT,YDGDSFTHLT,train_high_mutation,False,False,novel,2,CDRH3 SRYDGDSFTHLTY is 2 mutation(s) from SRYGGDGFTHLTY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0467_YYGDAFYKMD,YYGDAFYKMD,wt_mutation,False,False,novel,2,CDRH3 SRYYGDAFYKMDY is 2 mutation(s) from SRYYGDGFYAMDY in trastuzumab_her2_spr_all_768; a novel design needs at least 3
+pool_0468_GYAGRVYSFT,GYAGRVYSFT,train_high_mutation,False,False,novel,2,CDRH3 SRGYAGRVYSFTY is 2 mutation(s) from SRYYAGRVYSFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0469_YGDPTFYSIT,YGDPTFYSIT,train_high_mutation,False,False,novel,2,CDRH3 SRYGDPTFYSITY is 2 mutation(s) from SRYGDPGFYAITY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0470_WVLDGLFAFD,WVLDGLFAFD,train_high_mutation,False,False,novel,2,CDRH3 SRWVLDGLFAFDY is 2 mutation(s) from SRWVLDGLYSFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0471_WGGPSFVAMT,WGGPSFVAMT,wt_mutation,False,False,novel,2,CDRH3 SRWGGPSFVAMTY is 2 mutation(s) from SRWGGCSFYAMTY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0472_WSGVGMPQFT,WSGVGMPQFT,train_high_mutation,False,False,novel,2,CDRH3 SRWSGVGMPQFTY is 2 mutation(s) from SRWGGVGMYQFTY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0473_WGGAGFLDFD,WGGAGFLDFD,wt_mutation,False,False,novel,2,CDRH3 SRWGGAGFLDFDY is 2 mutation(s) from SRWGGDGFLQFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0474_YGNNGFYAMV,YGNNGFYAMV,wt_mutation,False,False,novel,2,CDRH3 SRYGNNGFYAMVY is 2 mutation(s) from SRYGNCGFYAIVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0475_WGASGIYSID,WGASGIYSID,train_high_mutation,False,False,novel,2,CDRH3 SRWGASGIYSIDY is 2 mutation(s) from SRWGARGIYDIDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0476_FGGVGFYYLD,FGGVGFYYLD,wt_mutation,False,False,novel,2,CDRH3 SRFGGVGFYYLDY is 2 mutation(s) from SRFGMVGFYTLDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0477_YGGDGPVTMD,YGGDGPVTMD,wt_mutation,False,False,novel,2,CDRH3 SRYGGDGPVTMDY is 2 mutation(s) from SRYGGDGPNYMDY in trastuzumab_her2_spr_all_768; a novel design needs at least 3
+pool_0478_WAGGGISEPD,WAGGGISEPD,train_high_mutation,True,True,novel,3,
+pool_0479_YGLDGLYLMD,YGLDGLYLMD,wt_mutation,False,False,novel,2,CDRH3 SRYGLDGLYLMDY is 2 mutation(s) from SRYGLDGLYYIDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0480_LEGGGLYSFA,LEGGGLYSFA,train_high_position_frequency,False,False,novel,2,CDRH3 SRLEGGGLYSFAY is 2 mutation(s) from SRLSLGGLYSFAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0481_WVGDGSYMHD,WVGDGSYMHD,wt_mutation,False,False,novel,2,CDRH3 SRWVGDGSYMHDY is 2 mutation(s) from SRWVGDGIYMYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0482_WGITPDSSYA,WGITPDSSYA,train_high_mutation,False,False,novel,2,CDRH3 SRWGITPDSSYAY is 2 mutation(s) from SRWGITGDSFYAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0483_YSAIGMYQFD,YSAIGMYQFD,train_high_position_frequency,False,False,novel,2,CDRH3 SRYSAIGMYQFDY is 2 mutation(s) from SRYSPIGMYLFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0484_WTAKGMYFFV,WTAKGMYFFV,train_high_position_frequency,False,False,novel,2,CDRH3 SRWTAKGMYFFVY is 2 mutation(s) from SRWAKCGMYFFVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0485_FAADRVYAFV,FAADRVYAFV,train_high_mutation,False,False,novel,2,CDRH3 SRFAADRVYAFVY is 2 mutation(s) from SRFAADRVYTFEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0486_YLGDRMYAYT,YLGDRMYAYT,train_high_mutation,True,True,novel,3,
+pool_0487_FPLDRIYKFY,FPLDRIYKFY,train_high_position_frequency,True,True,novel,3,
+pool_0488_WSAKGMYSIY,WSAKGMYSIY,train_high_position_frequency,False,False,novel,2,CDRH3 SRWSAKGMYSIYY is 2 mutation(s) from SRWSAGGFYSIYY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0489_LLGVRFYSFD,LLGVRFYSFD,train_high_mutation,False,False,novel,2,CDRH3 SRLLGVRFYSFDY is 2 mutation(s) from SRWGGVRFYSFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0490_FAAPIMYNFR,FAAPIMYNFR,train_high_position_frequency,False,False,novel,2,CDRH3 SRFAAPIMYNFRY is 2 mutation(s) from SRFAAPRMYTFRY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0491_WGGDRVYHFD,WGGDRVYHFD,wt_mutation,False,False,novel,2,CDRH3 SRWGGDRVYHFDY is 2 mutation(s) from SRWGGDRFYSFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0492_FGGDSFYQYD,FGGDSFYQYD,wt_mutation,False,False,novel,2,CDRH3 SRFGGDSFYQYDY is 2 mutation(s) from SRFGGSSFYAYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0493_YGGDGLYKMN,YGGDGLYKMN,wt_mutation,False,False,novel,2,CDRH3 SRYGGDGLYKMNY is 2 mutation(s) from SRYGGYGLYKFNY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0494_WLGGGFSAML,WLGGGFSAML,wt_mutation,False,False,novel,2,CDRH3 SRWLGGGFSAMLY is 2 mutation(s) from SRWLGGGFYAMNY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0495_YGSVTFLRSK,YGSVTFLRSK,train_high_mutation,False,False,novel,2,CDRH3 SRYGSVTFLRSKY is 2 mutation(s) from SRYMGSVFLRSKY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0496_WANARMYAFQ,WANARMYAFQ,train_high_position_frequency,False,False,novel,2,CDRH3 SRWANARMYAFQY is 2 mutation(s) from SRWAPARMYAFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0497_YGAGRVYSFN,YGAGRVYSFN,train_high_mutation,False,False,novel,2,CDRH3 SRYGAGRVYSFNY is 2 mutation(s) from SRWYGGRVYSFNY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0498_FRAFGRFDTD,FRAFGRFDTD,train_high_mutation,True,True,novel,3,
+pool_0499_WVRDGLYYIF,WVRDGLYYIF,train_high_mutation,False,False,novel,2,CDRH3 SRWVRDGLYYIFY is 2 mutation(s) from SRWVRDGLYYYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0500_HGPATGYAFD,HGPATGYAFD,rfd4_her2_novel,True,True,novel,3,
+pool_0501_DLSTYDYAFD,DLSTYDYAFD,rfd4_her2_novel,True,True,novel,4,
+pool_0502_SRGSSYLYFD,SRGSSYLYFD,rfd4_her2_novel,True,True,novel,4,
+pool_0503_ESYSSSYVFD,ESYSSSYVFD,rfd4_her2_novel,False,False,novel,2,CDRH3 SRESYSSSYVFDY is 2 mutation(s) from SRFSDSSSYVFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0504_WYGEGFYLMV,WYGEGFYLMV,wt_mutation,False,False,novel,2,CDRH3 SRWYGEGFYLMVY is 2 mutation(s) from SRWGGEGFYDMVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0505_WGSAGFYKMY,WGSAGFYKMY,wt_mutation,False,False,novel,2,CDRH3 SRWGSAGFYKMYY is 2 mutation(s) from SRWGDAGFYKLYY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0506_WKSWGFYAYD,WKSWGFYAYD,train_high_mutation,False,False,novel,2,CDRH3 SRWKSWGFYAYDY is 2 mutation(s) from SRWASLGFYAYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0507_WGRSGFYSMK,WGRSGFYSMK,wt_mutation,False,False,novel,2,CDRH3 SRWGRSGFYSMKY is 2 mutation(s) from SRWGRSGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0508_WSPPGFYEMP,WSPPGFYEMP,train_high_position_frequency,False,False,novel,2,CDRH3 SRWSPPGFYEMPY is 2 mutation(s) from SRWGPPGFYELPY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0509_WGAQGFYFME,WGAQGFYFME,wt_mutation,False,False,novel,2,CDRH3 SRWGAQGFYFMEY is 2 mutation(s) from SRWGAVGFYSMEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0510_WGIYHFYAMF,WGIYHFYAMF,wt_mutation,False,False,novel,2,CDRH3 SRWGIYHFYAMFY is 2 mutation(s) from SRWGGYGFYAMFY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0511_WADFGFYAMV,WADFGFYAMV,wt_mutation,False,False,novel,2,CDRH3 SRWADFGFYAMVY is 2 mutation(s) from SRWADTGFYAFVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0512_WGAAGFYSMS,WGAAGFYSMS,wt_mutation,False,False,novel,2,CDRH3 SRWGAAGFYSMSY is 2 mutation(s) from SRWGAAGFYSFVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0513_WGATGFYVMS,WGATGFYVMS,wt_mutation,False,False,novel,2,CDRH3 SRWGATGFYVMSY is 2 mutation(s) from SRWGVTGFYVYSY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0514_WFMGGFYSMD,WFMGGFYSMD,wt_mutation,False,False,novel,2,CDRH3 SRWFMGGFYSMDY is 2 mutation(s) from SRWFGGGFYSFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0515_WGSDAFYSMN,WGSDAFYSMN,wt_mutation,False,False,novel,2,CDRH3 SRWGSDAFYSMNY is 2 mutation(s) from SRWGSDGFYSMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0516_WGAPAFYEMD,WGAPAFYEMD,wt_mutation,False,False,novel,2,CDRH3 SRWGAPAFYEMDY is 2 mutation(s) from SRWGADAFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0517_WNSAGFYSHS,WNSAGFYSHS,train_high_position_frequency,False,False,novel,2,CDRH3 SRWNSAGFYSHSY is 2 mutation(s) from SRWNLAGFYVHSY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0518_WNRRAFYLMA,WNRRAFYLMA,train_high_mutation,False,False,novel,2,CDRH3 SRWNRRAFYLMAY is 2 mutation(s) from SRWGRGAFYLMAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0519_WLRDGFYSMA,WLRDGFYSMA,wt_mutation,False,False,novel,2,CDRH3 SRWLRDGFYSMAY is 2 mutation(s) from SRWLRDGFYPFAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0520_WPMPGFYAMI,WPMPGFYAMI,wt_mutation,False,False,novel,2,CDRH3 SRWPMPGFYAMIY is 2 mutation(s) from SRWPMGGFYALIY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0521_WGAPGFYTMS,WGAPGFYTMS,wt_mutation,False,False,novel,2,CDRH3 SRWGAPGFYTMSY is 2 mutation(s) from SRWGAGGFYTMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0522_WVPHGFYPMD,WVPHGFYPMD,wt_mutation,False,False,novel,2,CDRH3 SRWVPHGFYPMDY is 2 mutation(s) from SRWVGDGFYPMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0523_WSGPGFYSMY,WSGPGFYSMY,wt_mutation,False,False,novel,2,CDRH3 SRWSGPGFYSMYY is 2 mutation(s) from SRWGGDGFYSMYY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0524_WGSTGFYEKE,WGSTGFYEKE,train_high_position_frequency,False,False,novel,2,CDRH3 SRWGSTGFYEKEY is 2 mutation(s) from SRWGQTGFYEFEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0525_WQGGGFYSMS,WQGGGFYSMS,wt_mutation,False,False,novel,2,CDRH3 SRWQGGGFYSMSY is 2 mutation(s) from SRWGGGGFYSMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0526_WAVDGFYSMG,WAVDGFYSMG,wt_mutation,False,False,novel,2,CDRH3 SRWAVDGFYSMGY is 2 mutation(s) from SRWAGDGFYSMEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0527_WGAAGFYSMT,WGAAGFYSMT,wt_mutation,False,False,novel,2,CDRH3 SRWGAAGFYSMTY is 2 mutation(s) from SRWGAAGFYSFVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0528_WAMDGFYSMA,WAMDGFYSMA,wt_mutation,False,False,novel,2,CDRH3 SRWAMDGFYSMAY is 2 mutation(s) from SRWAGDGFYAMAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0529_WGAPGFYLMT,WGAPGFYLMT,wt_mutation,True,True,novel,3,
+pool_0530_WATLGFYAMY,WATLGFYAMY,wt_mutation,False,False,novel,2,CDRH3 SRWATLGFYAMYY is 2 mutation(s) from SRFATLGFYAMLY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0531_WNATGFYHYA,WNATGFYHYA,train_high_position_frequency,False,False,novel,2,CDRH3 SRWNATGFYHYAY is 2 mutation(s) from SRWNAAGFYTYAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0532_WGSEAFYSFV,WGSEAFYSFV,train_high_mutation,False,False,novel,2,CDRH3 SRWGSEAFYSFVY is 2 mutation(s) from SRWGHAAFYSFVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0533_WDDSGFYAMY,WDDSGFYAMY,wt_mutation,False,False,novel,2,CDRH3 SRWDDSGFYAMYY is 2 mutation(s) from SRWADSGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0534_WMKPAFYSMA,WMKPAFYSMA,train_high_position_frequency,True,True,novel,3,
+pool_0535_YNSDGFYAMT,YNSDGFYAMT,wt_mutation,False,False,novel,2,CDRH3 SRYNSDGFYAMTY is 2 mutation(s) from SRYNSQGFYAYTY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0536_WGPFGFYTML,WGPFGFYTML,wt_mutation,False,False,novel,2,CDRH3 SRWGPFGFYTMLY is 2 mutation(s) from SRWGPFGFYTFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0537_WYRGGFYSYG,WYRGGFYSYG,train_high_position_frequency,False,False,novel,2,CDRH3 SRWYRGGFYSYGY is 2 mutation(s) from SRWQRGGFYSFGY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0538_WGAFAFYLMD,WGAFAFYLMD,wt_mutation,False,False,novel,2,CDRH3 SRWGAFAFYLMDY is 2 mutation(s) from SRWGADAFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0539_WADLGFYVMD,WADLGFYVMD,wt_mutation,False,False,novel,2,CDRH3 SRWADLGFYVMDY is 2 mutation(s) from SRWADLGLYVLDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0540_WHGAGFYSMA,WHGAGFYSMA,wt_mutation,False,False,novel,2,CDRH3 SRWHGAGFYSMAY is 2 mutation(s) from SRWAGAGFYSLAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0541_WRTIGFYYMD,WRTIGFYYMD,wt_mutation,False,False,novel,2,CDRH3 SRWRTIGFYYMDY is 2 mutation(s) from SRWRTPGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0542_WGPHAFYAMP,WGPHAFYAMP,wt_mutation,False,False,novel,2,CDRH3 SRWGPHAFYAMPY is 2 mutation(s) from SRWGGHAFYAMYY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0543_FLSHGFYAMD,FLSHGFYAMD,wt_mutation,False,False,novel,2,CDRH3 SRFLSHGFYAMDY is 2 mutation(s) from SRWLSNGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0544_YWYHGFYAMD,YWYHGFYAMD,wt_mutation,False,False,novel,2,CDRH3 SRYWYHGFYAMDY is 2 mutation(s) from SRYDDHGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0545_WGIHAFYAML,WGIHAFYAML,wt_mutation,False,False,novel,2,CDRH3 SRWGIHAFYAMLY is 2 mutation(s) from SRWGGHAFYAMYY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0546_WPAINFYAMD,WPAINFYAMD,wt_mutation,False,False,novel,2,CDRH3 SRWPAINFYAMDY is 2 mutation(s) from SRWPRIGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0547_WAPAGFYPMD,WAPAGFYPMD,wt_mutation,False,False,novel,2,CDRH3 SRWAPAGFYPMDY is 2 mutation(s) from SRWAGAGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0548_WHQSGFYVME,WHQSGFYVME,train_high_position_frequency,True,True,novel,3,
+pool_0549_WYSVGFYAIF,WYSVGFYAIF,train_high_position_frequency,False,False,novel,2,CDRH3 SRWYSVGFYAIFY is 2 mutation(s) from SRWGSFGFYAIFY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0550_WHAFRFYAMD,WHAFRFYAMD,wt_mutation,False,False,novel,2,CDRH3 SRWHAFRFYAMDY is 2 mutation(s) from SRWAAFRFYAFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0551_WEKGGFYRMD,WEKGGFYRMD,wt_mutation,True,True,novel,3,
+pool_0552_WIQAGFYAMN,WIQAGFYAMN,wt_mutation,True,True,novel,3,
+pool_0553_WNADSFYAMA,WNADSFYAMA,wt_mutation,False,False,novel,2,CDRH3 SRWNADSFYAMAY is 2 mutation(s) from SRWAADSFYAFAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0554_WGPGGFYQMV,WGPGGFYQMV,wt_mutation,False,False,novel,2,CDRH3 SRWGPGGFYQMVY is 2 mutation(s) from SRWGHGGFYQFVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0555_WSLPGFYNMD,WSLPGFYNMD,wt_mutation,False,False,novel,2,CDRH3 SRWSLPGFYNMDY is 2 mutation(s) from SRWSLFGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0556_WGPSRFYSMD,WGPSRFYSMD,wt_mutation,False,False,novel,2,CDRH3 SRWGPSRFYSMDY is 2 mutation(s) from SRWGAVRFYSMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0557_WWSGGFYLVV,WWSGGFYLVV,train_high_position_frequency,False,False,novel,2,CDRH3 SRWWSGGFYLVVY is 2 mutation(s) from SRWASGGFYLFVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0558_WSNVGFYTMS,WSNVGFYTMS,train_high_position_frequency,True,True,novel,3,
+pool_0559_WTDSGFYSYP,WTDSGFYSYP,train_high_mutation,False,False,novel,2,CDRH3 SRWTDSGFYSYPY is 2 mutation(s) from SRWGDSGFYVYPY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0560_WYNTGFYAHD,WYNTGFYAHD,train_high_position_frequency,False,False,novel,2,CDRH3 SRWYNTGFYAHDY is 2 mutation(s) from SRWGITGFYAHDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0561_WGSDGFYKYK,WGSDGFYKYK,wt_mutation,False,False,novel,2,CDRH3 SRWGSDGFYKYKY is 2 mutation(s) from SRWGGDGFYPYKY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0562_WNSTRFYAYT,WNSTRFYAYT,train_high_position_frequency,False,False,novel,2,CDRH3 SRWNSTRFYAYTY is 2 mutation(s) from SRFNSTGFYAYTY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0563_WSSAGFYAFD,WSSAGFYAFD,wt_mutation,False,False,novel,2,CDRH3 SRWSSAGFYAFDY is 2 mutation(s) from SRWAEAGFYAFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0564_YIGEGFYAMH,YIGEGFYAMH,wt_mutation,False,False,novel,2,CDRH3 SRYIGEGFYAMHY is 2 mutation(s) from SRYGGEGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0565_WGHYGFYAYQ,WGHYGFYAYQ,train_high_position_frequency,False,False,novel,2,CDRH3 SRWGHYGFYAYQY is 2 mutation(s) from SRWGHGGFYAYHY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0566_WGSDSFYKMN,WGSDSFYKMN,wt_mutation,True,True,novel,3,
+pool_0567_YGRERFYAMD,YGRERFYAMD,wt_mutation,False,False,novel,2,CDRH3 SRYGRERFYAMDY is 2 mutation(s) from SRYGRDGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0568_WSHPRFYAMD,WSHPRFYAMD,wt_mutation,False,False,novel,2,CDRH3 SRWSHPRFYAMDY is 2 mutation(s) from SRWMHPRFYALDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0569_WSAEGFYANV,WSAEGFYANV,train_high_position_frequency,False,False,novel,2,CDRH3 SRWSAEGFYANVY is 2 mutation(s) from SRWAAGGFYANVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0570_WGKAGFYLMN,WGKAGFYLMN,wt_mutation,True,True,novel,3,
+pool_0571_WGASAFYQMD,WGASAFYQMD,wt_mutation,False,False,novel,2,CDRH3 SRWGASAFYQMDY is 2 mutation(s) from SRWGASGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0572_WRREGFYDYE,WRREGFYDYE,train_high_mutation,False,False,novel,2,CDRH3 SRWRREGFYDYEY is 2 mutation(s) from SRWRRVGFYQYEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0573_WGDQGFYAFE,WGDQGFYAFE,train_high_position_frequency,False,False,novel,2,CDRH3 SRWGDQGFYAFEY is 2 mutation(s) from SRWGDPGFYAFAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0574_YGSDGFYLMG,YGSDGFYLMG,wt_mutation,True,True,novel,3,
+pool_0575_WGKGNFYAML,WGKGNFYAML,wt_mutation,True,True,novel,3,
+pool_0576_WPGSGFYTMF,WPGSGFYTMF,wt_mutation,False,False,novel,2,CDRH3 SRWPGSGFYTMFY is 2 mutation(s) from SRWDGSGFYTFFY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0577_WSSAGFYSLA,WSSAGFYSLA,train_high_position_frequency,False,False,novel,2,CDRH3 SRWSSAGFYSLAY is 2 mutation(s) from SRWSAGRFYSLAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0578_WGSLGSYAME,WGSLGSYAME,wt_mutation,False,False,novel,2,CDRH3 SRWGSLGSYAMEY is 2 mutation(s) from SRWGSLGSYAYTY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0579_WMSGGFYFHD,WMSGGFYFHD,train_high_position_frequency,False,False,novel,2,CDRH3 SRWMSGGFYFHDY is 2 mutation(s) from SRWGSGGFYFYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0580_YGQEGFYTMV,YGQEGFYTMV,train_high_mutation,True,True,novel,3,
+pool_0581_WTGSAFYAMT,WTGSAFYAMT,wt_mutation,False,False,novel,2,CDRH3 SRWTGSAFYAMTY is 2 mutation(s) from SRWTGSGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0582_WRSDGSYAMP,WRSDGSYAMP,wt_mutation,True,True,novel,3,
+pool_0583_WASYGFYVFQ,WASYGFYVFQ,train_high_position_frequency,False,False,novel,2,CDRH3 SRWASYGFYVFQY is 2 mutation(s) from SRWFSYGFYVFIY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0584_WGAARFYAMS,WGAARFYAMS,wt_mutation,False,False,novel,2,CDRH3 SRWGAARFYAMSY is 2 mutation(s) from SRWGAVRFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0585_WGAGIFYAMV,WGAGIFYAMV,wt_mutation,False,False,novel,2,CDRH3 SRWGAGIFYAMVY is 2 mutation(s) from SRWGAGRFYALVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0586_WTGDRFYEMS,WTGDRFYEMS,wt_mutation,True,True,novel,3,
+pool_0587_WAPDAFYAMV,WAPDAFYAMV,wt_mutation,False,False,novel,2,CDRH3 SRWAPDAFYAMVY is 2 mutation(s) from SRWRHDAFYAMVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0588_WNSDSFYAYD,WNSDSFYAYD,wt_mutation,False,False,novel,2,CDRH3 SRWNSDSFYAYDY is 2 mutation(s) from SRWCSVSFYAYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0589_WYHSGFYSFD,WYHSGFYSFD,train_high_position_frequency,False,False,novel,2,CDRH3 SRWYHSGFYSFDY is 2 mutation(s) from SRWADSGFYSFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0590_WGTVGFYVMP,WGTVGFYVMP,wt_mutation,False,False,novel,2,CDRH3 SRWGTVGFYVMPY is 2 mutation(s) from SRWGMVGFYVYPY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0591_WGSLGFYMFY,WGSLGFYMFY,train_high_position_frequency,False,False,novel,2,CDRH3 SRWGSLGFYMFYY is 2 mutation(s) from SRWGRLGFYMFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0592_WADARFYAMD,WADARFYAMD,wt_mutation,False,False,novel,2,CDRH3 SRWADARFYAMDY is 2 mutation(s) from SRWAAARFYAFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0593_WSRDRFYAMG,WSRDRFYAMG,wt_mutation,False,False,novel,2,CDRH3 SRWSRDRFYAMGY is 2 mutation(s) from SRWIRDRFYAHGY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0594_WAGTSFYSMD,WAGTSFYSMD,wt_mutation,False,False,novel,2,CDRH3 SRWAGTSFYSMDY is 2 mutation(s) from SRWAGGSFYSFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0595_WAADGFYPMN,WAADGFYPMN,wt_mutation,False,False,novel,2,CDRH3 SRWAADGFYPMNY is 2 mutation(s) from SRWAADGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0596_WGSDGMYSME,WGSDGMYSME,wt_mutation,False,False,novel,2,CDRH3 SRWGSDGMYSMEY is 2 mutation(s) from SRWGSDGFYSMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0597_WANPGFYVMD,WANPGFYVMD,wt_mutation,False,False,novel,2,CDRH3 SRWANPGFYVMDY is 2 mutation(s) from SRWANRGFYVFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0598_WGVGLFYMMD,WGVGLFYMMD,wt_mutation,False,False,novel,2,CDRH3 SRWGVGLFYMMDY is 2 mutation(s) from SRWGVGSFYMLDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0599_WQPKGFYAYD,WQPKGFYAYD,wt_mutation,False,False,novel,2,CDRH3 SRWQPKGFYAYDY is 2 mutation(s) from SRWAPCGFYAYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0600_WSSDGFYMFD,WSSDGFYMFD,wt_mutation,False,False,novel,2,CDRH3 SRWSSDGFYMFDY is 2 mutation(s) from SRWLSDGFYQFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0601_YGMYGFYAMN,YGMYGFYAMN,wt_mutation,False,False,novel,2,CDRH3 SRYGMYGFYAMNY is 2 mutation(s) from SRYGMDGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0602_WWGSGFYSYD,WWGSGFYSYD,train_high_mutation,False,False,novel,2,CDRH3 SRWWGSGFYSYDY is 2 mutation(s) from SRWGGSGFYKYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0603_YVVPGFYAMD,YVVPGFYAMD,wt_mutation,False,False,novel,2,CDRH3 SRYVVPGFYAMDY is 2 mutation(s) from SRYGVDGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0604_FGRDGFYSMA,FGRDGFYSMA,wt_mutation,False,False,novel,2,CDRH3 SRFGRDGFYSMAY is 2 mutation(s) from SRFGRDGVYSFAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0605_WRADSFYNMA,WRADSFYNMA,train_high_position_frequency,True,True,novel,3,
+pool_0606_FTSDRFYAMD,FTSDRFYAMD,wt_mutation,True,True,novel,3,
+pool_0607_FGSDGFYYMV,FGSDGFYYMV,wt_mutation,False,False,novel,2,CDRH3 SRFGSDGFYYMVY is 2 mutation(s) from SRFGGDGFYAMVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0608_YGSDAFYAMV,YGSDAFYAMV,wt_mutation,False,False,novel,2,CDRH3 SRYGSDAFYAMVY is 2 mutation(s) from SRWGSDGFYAMVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0609_WGSPRFYAHD,WGSPRFYAHD,wt_mutation,False,False,novel,2,CDRH3 SRWGSPRFYAHDY is 2 mutation(s) from SRWGSRGFYAHDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0610_WFKYGFYAFE,WFKYGFYAFE,train_high_mutation,False,False,novel,2,CDRH3 SRWFKYGFYAFEY is 2 mutation(s) from SRWSKYGIYAFEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0611_WTDPGFYLYK,WTDPGFYLYK,train_high_position_frequency,False,False,novel,2,CDRH3 SRWTDPGFYLYKY is 2 mutation(s) from SRWADPGFYLYAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0612_FRRDGFYSMD,FRRDGFYSMD,wt_mutation,False,False,novel,2,CDRH3 SRFRRDGFYSMDY is 2 mutation(s) from SRFGGDGFYSMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0613_WAPDAFYIMD,WAPDAFYIMD,wt_mutation,True,True,novel,3,
+pool_0614_WHADRFYAMV,WHADRFYAMV,wt_mutation,False,False,novel,2,CDRH3 SRWHADRFYAMVY is 2 mutation(s) from SRWGADRFYAFVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0615_WNNYGFYAKD,WNNYGFYAKD,wt_mutation,False,False,novel,2,CDRH3 SRWNNYGFYAKDY is 2 mutation(s) from SRWCGYGFYAKDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0616_YVETGFYAMD,YVETGFYAMD,train_high_mutation,False,False,novel,2,CDRH3 SRYVETGFYAMDY is 2 mutation(s) from SRYGATGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0617_WVAVGFYAHY,WVAVGFYAHY,train_high_position_frequency,False,False,novel,2,CDRH3 SRWVAVGFYAHYY is 2 mutation(s) from SRWVAGGFYAHLY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0618_WARSGFYSHT,WARSGFYSHT,train_high_mutation,False,False,novel,2,CDRH3 SRWARSGFYSHTY is 2 mutation(s) from SRWARSGFYDLTY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0619_YSDDGFYSMD,YSDDGFYSMD,wt_mutation,False,False,novel,2,CDRH3 SRYSDDGFYSMDY is 2 mutation(s) from SRYSDSGFYSLDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0620_FVAKGFYAMD,FVAKGFYAMD,wt_mutation,False,False,novel,2,CDRH3 SRFVAKGFYAMDY is 2 mutation(s) from SRFGARGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0621_WAADSFYLMD,WAADSFYLMD,wt_mutation,False,False,novel,2,CDRH3 SRWAADSFYLMDY is 2 mutation(s) from SRWAADRFYTMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0622_WGSVGFYLFT,WGSVGFYLFT,train_high_mutation,False,False,novel,2,CDRH3 SRWGSVGFYLFTY is 2 mutation(s) from SRWGMVGFYAFTY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0623_WGANGSYAMS,WGANGSYAMS,wt_mutation,False,False,novel,2,CDRH3 SRWGANGSYAMSY is 2 mutation(s) from SRWGANGLYAFSY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0624_WAVDNFYPMD,WAVDNFYPMD,wt_mutation,False,False,novel,2,CDRH3 SRWAVDNFYPMDY is 2 mutation(s) from SRWAVDHFYPHDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0625_YGGGGFYEMI,YGGGGFYEMI,wt_mutation,True,True,novel,3,
+pool_0626_FAAPGFYSMA,FAAPGFYSMA,train_high_position_frequency,False,False,novel,2,CDRH3 SRFAAPGFYSMAY is 2 mutation(s) from SRFAAGGFYSMLY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0627_WHADRFYMMD,WHADRFYMMD,wt_mutation,False,False,novel,2,CDRH3 SRWHADRFYMMDY is 2 mutation(s) from SRWAADRFYTMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0628_WNSDAFYAFD,WNSDAFYAFD,wt_mutation,False,False,novel,2,CDRH3 SRWNSDAFYAFDY is 2 mutation(s) from SRWNNDSFYAFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0629_WASGAFYAFA,WASGAFYAFA,train_high_position_frequency,False,False,novel,2,CDRH3 SRWASGAFYAFAY is 2 mutation(s) from SRWESGGFYAFAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0630_YGANGFYTMD,YGANGFYTMD,wt_mutation,False,False,novel,2,CDRH3 SRYGANGFYTMDY is 2 mutation(s) from SRYGATGFYTFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0631_WSADRFYAMG,WSADRFYAMG,wt_mutation,False,False,novel,2,CDRH3 SRWSADRFYAMGY is 2 mutation(s) from SRWAADRFYAFGY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0632_FLGEGFYAMS,FLGEGFYAMS,wt_mutation,False,False,novel,2,CDRH3 SRFLGEGFYAMSY is 2 mutation(s) from SRFLGGGFYAFSY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0633_WDADGFYTMA,WDADGFYTMA,wt_mutation,True,True,novel,3,
+pool_0634_WSGGGFYTMQ,WSGGGFYTMQ,wt_mutation,False,False,novel,2,CDRH3 SRWSGGGFYTMQY is 2 mutation(s) from SRWGGGGFYTMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0635_WLAPRFYAMD,WLAPRFYAMD,wt_mutation,False,False,novel,2,CDRH3 SRWLAPRFYAMDY is 2 mutation(s) from SRWAAPRFYALDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0636_YGSDAFYAMT,YGSDAFYAMT,wt_mutation,True,True,novel,3,
+pool_0637_WPIDGFYVMG,WPIDGFYVMG,train_high_mutation,False,False,novel,2,CDRH3 SRWPIDGFYVMGY is 2 mutation(s) from SRWPVDGFYVHGY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0638_WGSVGFSAME,WGSVGFSAME,wt_mutation,False,False,novel,2,CDRH3 SRWGSVGFSAMEY is 2 mutation(s) from SRWGGVGFYAMEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0639_YQADGFYHMD,YQADGFYHMD,wt_mutation,True,True,novel,3,
+pool_0640_WQMDAFYKMD,WQMDAFYKMD,wt_mutation,True,True,novel,3,
+pool_0641_WLSGGFYAKH,WLSGGFYAKH,train_high_position_frequency,False,False,novel,2,CDRH3 SRWLSGGFYAKHY is 2 mutation(s) from SRWLVGGFYAYHY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0642_WGTSRFYAMV,WGTSRFYAMV,wt_mutation,False,False,novel,2,CDRH3 SRWGTSRFYAMVY is 2 mutation(s) from SRWGTSSFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0643_WGGYTFYKME,WGGYTFYKME,wt_mutation,False,False,novel,2,CDRH3 SRWGGYTFYKMEY is 2 mutation(s) from SRWGGYGFYAMEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0644_WYGHGFYYYY,WYGHGFYYYY,train_high_position_frequency,False,False,novel,2,CDRH3 SRWYGHGFYYYYY is 2 mutation(s) from SRWRGHGFYTYYY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0645_WGMHRFYKMD,WGMHRFYKMD,wt_mutation,True,True,novel,3,
+pool_0646_WSGRRFYHMD,WSGRRFYHMD,wt_mutation,True,True,novel,3,
+pool_0647_WLADAFYAME,WLADAFYAME,wt_mutation,False,False,novel,2,CDRH3 SRWLADAFYAMEY is 2 mutation(s) from SRWGADAFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0648_WGGHAFYSMQ,WGGHAFYSMQ,wt_mutation,False,False,novel,2,CDRH3 SRWGGHAFYSMQY is 2 mutation(s) from SRWGGHAFYAMYY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0649_WRAAGFYSHF,WRAAGFYSHF,train_high_position_frequency,False,False,novel,2,CDRH3 SRWRAAGFYSHFY is 2 mutation(s) from SRWRVAGFYVHFY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0650_WAQLRFYNMD,WAQLRFYNMD,train_high_mutation,False,False,novel,2,CDRH3 SRWAQLRFYNMDY is 2 mutation(s) from SRWAGLRFYNIDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0651_WGSHYFYLLD,WGSHYFYLLD,train_high_position_frequency,False,False,novel,2,CDRH3 SRWGSHYFYLLDY is 2 mutation(s) from SRWGSRGFYLLDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0652_WPLDGFYTMY,WPLDGFYTMY,wt_mutation,False,False,novel,2,CDRH3 SRWPLDGFYTMYY is 2 mutation(s) from SRWGGDGFYTMYY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0653_YADDGFYSMD,YADDGFYSMD,wt_mutation,False,False,novel,2,CDRH3 SRYADDGFYSMDY is 2 mutation(s) from SRYATCGFYSMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0654_WRAYGFFAMD,WRAYGFFAMD,wt_mutation,False,False,novel,2,CDRH3 SRWRAYGFFAMDY is 2 mutation(s) from SRWRADGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0655_WTDGGFYYYH,WTDGGFYYYH,train_high_position_frequency,False,False,novel,2,CDRH3 SRWTDGGFYYYHY is 2 mutation(s) from SRWGSGGFYYYHY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0656_WSRQTFYPYA,WSRQTFYPYA,train_high_position_frequency,False,False,novel,2,CDRH3 SRWSRQTFYPYAY is 2 mutation(s) from SRWSGDTFYPYAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0657_WVGGWFYLMD,WVGGWFYLMD,train_high_position_frequency,True,True,novel,3,
+pool_0658_WGNPGFYTMN,WGNPGFYTMN,wt_mutation,False,False,novel,2,CDRH3 SRWGNPGFYTMNY is 2 mutation(s) from SRWGNPGFYTFLY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0659_FGADGFYSMY,FGADGFYSMY,wt_mutation,False,False,novel,2,CDRH3 SRFGADGFYSMYY is 2 mutation(s) from SRFGGDGFYAMYY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0660_WGSHGFTAMV,WGSHGFTAMV,wt_mutation,False,False,novel,2,CDRH3 SRWGSHGFTAMVY is 2 mutation(s) from SRWGSDGFYAMVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0661_WVRFGFYKYE,WVRFGFYKYE,train_high_mutation,False,False,novel,2,CDRH3 SRWVRFGFYKYEY is 2 mutation(s) from SRWVRVGFYNYEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0662_WGMGLFYAMW,WGMGLFYAMW,wt_mutation,True,True,novel,3,
+pool_0663_YARDGFYAMV,YARDGFYAMV,wt_mutation,False,False,novel,2,CDRH3 SRYARDGFYAMVY is 2 mutation(s) from SRYASGGFYAMVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0664_YGMGGFYAMF,YGMGGFYAMF,wt_mutation,False,False,novel,2,CDRH3 SRYGMGGFYAMFY is 2 mutation(s) from SRFGMGGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0665_WGPASFYAMT,WGPASFYAMT,wt_mutation,False,False,novel,2,CDRH3 SRWGPASFYAMTY is 2 mutation(s) from SRWGRASFYAFTY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0666_WGADRFYPMS,WGADRFYPMS,wt_mutation,False,False,novel,2,CDRH3 SRWGADRFYPMSY is 2 mutation(s) from SRWGADRFYAFSY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0667_WMSHWFYLFA,WMSHWFYLFA,train_high_position_frequency,True,True,novel,3,
+pool_0668_YGDLGFYAML,YGDLGFYAML,wt_mutation,False,False,novel,2,CDRH3 SRYGDLGFYAMLY is 2 mutation(s) from SRYGDLSFYAVLY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0669_WSSDGLYAMV,WSSDGLYAMV,wt_mutation,False,False,novel,2,CDRH3 SRWSSDGLYAMVY is 2 mutation(s) from SRWSSDGLYAHCY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0670_WRLDGFYVMH,WRLDGFYVMH,wt_mutation,False,False,novel,2,CDRH3 SRWRLDGFYVMHY is 2 mutation(s) from SRWRLDGFYVFAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0671_WPGGGFYLMR,WPGGGFYLMR,wt_mutation,True,True,novel,3,
+pool_0672_WGMLRFYAMV,WGMLRFYAMV,wt_mutation,False,False,novel,2,CDRH3 SRWGMLRFYAMVY is 2 mutation(s) from SRWGMLRFYVHVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0673_WSVVGFWAMD,WSVVGFWAMD,wt_mutation,False,False,novel,2,CDRH3 SRWSVVGFWAMDY is 2 mutation(s) from SRWSVDGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0674_FGRDGFYMMF,FGRDGFYMMF,wt_mutation,False,False,novel,2,CDRH3 SRFGRDGFYMMFY is 2 mutation(s) from SRFGRDGFYMIEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0675_WGHARFYAMT,WGHARFYAMT,wt_mutation,False,False,novel,2,CDRH3 SRWGHARFYAMTY is 2 mutation(s) from SRWGHAGFYAYTY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0676_WGGTRFYLME,WGGTRFYLME,wt_mutation,False,False,novel,2,CDRH3 SRWGGTRFYLMEY is 2 mutation(s) from SRWGGDRFYAMEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0677_FHSVGFYAYF,FHSVGFYAYF,train_high_position_frequency,False,False,novel,2,CDRH3 SRFHSVGFYAYFY is 2 mutation(s) from SRFHVPGFYAYFY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0678_WGPLRFYRMD,WGPLRFYRMD,wt_mutation,False,False,novel,2,CDRH3 SRWGPLRFYRMDY is 2 mutation(s) from SRWDPLRFYRFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0679_WLRDRFYAME,WLRDRFYAME,wt_mutation,False,False,novel,2,CDRH3 SRWLRDRFYAMEY is 2 mutation(s) from SRWGGDRFYAMEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0680_YGVDGFYSMV,YGVDGFYSMV,wt_mutation,False,False,novel,2,CDRH3 SRYGVDGFYSMVY is 2 mutation(s) from SRYGVDGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0681_WRAEGFYTLE,WRAEGFYTLE,train_high_position_frequency,False,False,novel,2,CDRH3 SRWRAEGFYTLEY is 2 mutation(s) from SRWAAGGFYTLEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0682_WTIGGFYVYD,WTIGGFYVYD,train_high_position_frequency,False,False,novel,2,CDRH3 SRWTIGGFYVYDY is 2 mutation(s) from SRWTLGGFYQYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0683_WALDGFYTME,WALDGFYTME,wt_mutation,False,False,novel,2,CDRH3 SRWALDGFYTMEY is 2 mutation(s) from SRWAGDGFYAMEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0684_YQADGFYAMH,YQADGFYAMH,wt_mutation,True,True,novel,3,
+pool_0685_LGRDGFYSMA,LGRDGFYSMA,wt_mutation,False,False,novel,2,CDRH3 SRLGRDGFYSMAY is 2 mutation(s) from SRLGGDGFYSMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0686_WGASGFVAMF,WGASGFVAMF,wt_mutation,False,False,novel,2,CDRH3 SRWGASGFVAMFY is 2 mutation(s) from SRWGASGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0687_WGRRGFYYHD,WGRRGFYYHD,wt_mutation,False,False,novel,2,CDRH3 SRWGRRGFYYHDY is 2 mutation(s) from SRWGDRGFYYIDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0688_WARQRFYAKD,WARQRFYAKD,train_high_mutation,False,False,novel,2,CDRH3 SRWARQRFYAKDY is 2 mutation(s) from SRWARPRFYALDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0689_WVAIGFYHFD,WVAIGFYHFD,train_high_mutation,False,False,novel,2,CDRH3 SRWVAIGFYHFDY is 2 mutation(s) from SRWRAIGFYSFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0690_YGDDGFYSME,YGDDGFYSME,wt_mutation,False,False,novel,2,CDRH3 SRYGDDGFYSMEY is 2 mutation(s) from SRWGGDGFYSMEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0691_WTPDGFYPYY,WTPDGFYPYY,train_high_position_frequency,False,False,novel,2,CDRH3 SRWTPDGFYPYYY is 2 mutation(s) from SRWTPYGFYPYMY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0692_YGYDGFYSMV,YGYDGFYSMV,wt_mutation,False,False,novel,2,CDRH3 SRYGYDGFYSMVY is 2 mutation(s) from SRYGGDGFYSMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0693_WGQPRFYVMD,WGQPRFYVMD,wt_mutation,False,False,novel,2,CDRH3 SRWGQPRFYVMDY is 2 mutation(s) from SRWPQPRFYVIDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0694_WAYMGFDAMD,WAYMGFDAMD,wt_mutation,True,True,novel,3,
+pool_0695_WASIGRYTMA,WASIGRYTMA,train_high_position_frequency,False,False,novel,2,CDRH3 SRWASIGRYTMAY is 2 mutation(s) from SRWASIGMYTFAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0696_FSMPGFYAMD,FSMPGFYAMD,wt_mutation,False,False,novel,2,CDRH3 SRFSMPGFYAMDY is 2 mutation(s) from SRFGMGGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0697_WARDGFGAMY,WARDGFGAMY,wt_mutation,False,False,novel,2,CDRH3 SRWARDGFGAMYY is 2 mutation(s) from SRWARDGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0698_WFSNRFYAFV,WFSNRFYAFV,train_high_position_frequency,False,False,novel,2,CDRH3 SRWFSNRFYAFVY is 2 mutation(s) from SRWTRNRFYAFVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0699_WIPHGFYEFV,WIPHGFYEFV,train_high_position_frequency,False,False,novel,2,CDRH3 SRWIPHGFYEFVY is 2 mutation(s) from SRWDPTGFYEFVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0700_FSEPGFYAMD,FSEPGFYAMD,wt_mutation,False,False,novel,2,CDRH3 SRFSEPGFYAMDY is 2 mutation(s) from SRFHVPGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0701_WYIVGLYAMD,WYIVGLYAMD,wt_mutation,False,False,novel,2,CDRH3 SRWYIVGLYAMDY is 2 mutation(s) from SRWYISGLYALDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0702_WGNAWFYAMV,WGNAWFYAMV,wt_mutation,True,True,novel,3,
+pool_0703_YGVTSFYHMA,YGVTSFYHMA,train_high_mutation,False,False,novel,2,CDRH3 SRYGVTSFYHMAY is 2 mutation(s) from SRYGVYSFYHFAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0704_WGTEGFYAFN,WGTEGFYAFN,train_high_position_frequency,False,False,novel,2,CDRH3 SRWGTEGFYAFNY is 2 mutation(s) from SRWGTPGFYAFVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0705_WAAIGFYTYP,WAAIGFYTYP,train_high_position_frequency,False,False,novel,2,CDRH3 SRWAAIGFYTYPY is 2 mutation(s) from SRWAAHGFYTYGY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0706_FPDDGFYSMD,FPDDGFYSMD,wt_mutation,False,False,novel,2,CDRH3 SRFPDDGFYSMDY is 2 mutation(s) from SRFGGDGFYSMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0707_WRSAGPYAYY,WRSAGPYAYY,train_high_mutation,False,False,novel,2,CDRH3 SRWRSAGPYAYYY is 2 mutation(s) from SRWRKAGPYAYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0708_WNYAGFYSFD,WNYAGFYSFD,train_high_position_frequency,False,False,novel,2,CDRH3 SRWNYAGFYSFDY is 2 mutation(s) from SRWGLAGFYSFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0709_WGNVGFYAYY,WGNVGFYAYY,train_high_position_frequency,False,False,novel,2,CDRH3 SRWGNVGFYAYYY is 2 mutation(s) from SRWGRVGFYAYPY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0710_WHTDRFYAMV,WHTDRFYAMV,wt_mutation,True,True,novel,3,
+pool_0711_WGSDGFYNFN,WGSDGFYNFN,wt_mutation,False,False,novel,2,CDRH3 SRWGSDGFYNFNY is 2 mutation(s) from SRWGEDGFYNFLY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0712_WGGIGFYLYY,WGGIGFYLYY,wt_mutation,False,False,novel,2,CDRH3 SRWGGIGFYLYYY is 2 mutation(s) from SRWGGLGFYPYYY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0713_WGGGAFYRMP,WGGGAFYRMP,wt_mutation,True,True,novel,3,
+pool_0714_WAGDDFYEMG,WAGDDFYEMG,wt_mutation,True,True,novel,3,
+pool_0715_WGRVGFDLMD,WGRVGFDLMD,wt_mutation,False,False,novel,2,CDRH3 SRWGRVGFDLMDY is 2 mutation(s) from SRWGRVGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0716_WSSLGFYVQV,WSSLGFYVQV,train_high_mutation,False,False,novel,2,CDRH3 SRWSSLGFYVQVY is 2 mutation(s) from SRWSALGFYVFVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0717_YRGGGFYAMF,YRGGGFYAMF,wt_mutation,False,False,novel,2,CDRH3 SRYRGGGFYAMFY is 2 mutation(s) from SRYRGDGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0718_FATDGFYEMD,FATDGFYEMD,wt_mutation,False,False,novel,2,CDRH3 SRFATDGFYEMDY is 2 mutation(s) from SRFATCGFYELDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0719_WGGVSFYHMT,WGGVSFYHMT,wt_mutation,False,False,novel,2,CDRH3 SRWGGVSFYHMTY is 2 mutation(s) from SRWGGVSFYSMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0720_FGAGGFYPMD,FGAGGFYPMD,wt_mutation,False,False,novel,2,CDRH3 SRFGAGGFYPMDY is 2 mutation(s) from SRFGMGGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0721_WGGVRFYPMI,WGGVRFYPMI,wt_mutation,False,False,novel,2,CDRH3 SRWGGVRFYPMIY is 2 mutation(s) from SRWGGVRFYSMEY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0722_WLGGRFYAMI,WLGGRFYAMI,wt_mutation,False,False,novel,2,CDRH3 SRWLGGRFYAMIY is 2 mutation(s) from SRWGGGRFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0723_YQNGGFYSMD,YQNGGFYSMD,train_high_position_frequency,False,False,novel,2,CDRH3 SRYQNGGFYSMDY is 2 mutation(s) from SRYATGGFYSMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0724_WGNIGFYLYS,WGNIGFYLYS,train_high_position_frequency,False,False,novel,2,CDRH3 SRWGNIGFYLYSY is 2 mutation(s) from SRWGNCGFYVYSY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0725_WPGVDFYAMH,WPGVDFYAMH,wt_mutation,True,True,novel,3,
+pool_0726_WTSVAFYPFL,WTSVAFYPFL,train_high_position_frequency,False,False,novel,2,CDRH3 SRWTSVAFYPFLY is 2 mutation(s) from SRWTSVGFYSFLY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0727_FGILGFYAMV,FGILGFYAMV,wt_mutation,False,False,novel,2,CDRH3 SRFGILGFYAMVY is 2 mutation(s) from SRFGILGMYANVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0728_WGQSSFYGMD,WGQSSFYGMD,train_high_mutation,False,False,novel,2,CDRH3 SRWGQSSFYGMDY is 2 mutation(s) from SRWGTSSFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0729_WHSGRFYRYV,WHSGRFYRYV,train_high_position_frequency,False,False,novel,2,CDRH3 SRWHSGRFYRYVY is 2 mutation(s) from SRWASGRFYRYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0730_YGDDGFYPMA,YGDDGFYPMA,wt_mutation,True,True,novel,3,
+pool_0731_WIGNGTYSMD,WIGNGTYSMD,wt_mutation,False,False,novel,2,CDRH3 SRWIGNGTYSMDY is 2 mutation(s) from SRWDGNGFYSMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0732_WTADGFYALA,WTADGFYALA,wt_mutation,False,False,novel,2,CDRH3 SRWTADGFYALAY is 2 mutation(s) from SRWAADGLYALAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0733_WGRDAFYSHD,WGRDAFYSHD,wt_mutation,False,False,novel,2,CDRH3 SRWGRDAFYSHDY is 2 mutation(s) from SRWGRRAFYTHDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0734_YGVVGFYAMR,YGVVGFYAMR,wt_mutation,False,False,novel,2,CDRH3 SRYGVVGFYAMRY is 2 mutation(s) from SRYGVDGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0735_WTTTGFYNNA,WTTTGFYNNA,train_high_position_frequency,False,False,novel,2,CDRH3 SRWTTTGFYNNAY is 2 mutation(s) from SRWHTTGFYLNAY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0736_YAKDGFYAMP,YAKDGFYAMP,wt_mutation,False,False,novel,2,CDRH3 SRYAKDGFYAMPY is 2 mutation(s) from SRYAKCGFYAMLY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0737_WYADRPYAMD,WYADRPYAMD,wt_mutation,False,False,novel,2,CDRH3 SRWYADRPYAMDY is 2 mutation(s) from SRWGADRFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0738_WQALGFYHFD,WQALGFYHFD,train_high_mutation,False,False,novel,2,CDRH3 SRWQALGFYHFDY is 2 mutation(s) from SRWQQLGFYLFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0739_WVRTRFYAYV,WVRTRFYAYV,train_high_position_frequency,False,False,novel,2,CDRH3 SRWVRTRFYAYVY is 2 mutation(s) from SRWDRTCFYAYVY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0740_WTSRSFYMYR,WTSRSFYMYR,train_high_position_frequency,False,False,novel,2,CDRH3 SRWTSRSFYMYRY is 2 mutation(s) from SRWTSCSFYVYRY in tz_her2_facs_3classes_524346; a novel design needs at least 3
+pool_0741_WGMDAFYPMG,WGMDAFYPMG,wt_mutation,True,True,novel,3,
+pool_0742_FTSQSFYSFS,FTSQSFYSFS,train_high_mutation,False,False,novel,2,CDRH3 SRFTSQSFYSFSY is 2 mutation(s) from SRFTHQSFYVFSY in tz_her2_facs_3classes_524346; a novel design needs at least 3

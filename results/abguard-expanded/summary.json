@@ -1,0 +1,32 @@
+{
+  "endpoint": "installed_tool_eligibility_not_biological_performance",
+  "rows": 743,
+  "passed": 124,
+  "local_tool_disagreements": [],
+  "errors": {
+    "insufficient_cdrh3_novelty": 619
+  },
+  "by_origin": {
+    "rfd4_her2_novel": {
+      "rows": 4,
+      "passed": 3
+    },
+    "train_high_mutation": {
+      "rows": 252,
+      "passed": 45
+    },
+    "train_high_position_frequency": {
+      "rows": 169,
+      "passed": 28
+    },
+    "wt_mutation": {
+      "rows": 318,
+      "passed": 48
+    }
+  },
+  "sources": {
+    "results/screen-inputs/expanded-preflight.json": "506008eae093e6209d08ee03f11b6c8bbc67b18e6c86257b655ece8a703e82c0",
+    "results/abguard-expanded/input.csv": "8eb7b6b4551f8fe7f377a9135732ee9bb24dbe643827ee86f74cd2953236ba08",
+    "results/abguard-expanded/annotations.json": "3b741fb322d6d1cc32f8de07d8e7fb9c1ebf5c94d2df2ceef7b1c47b031f1b67"
+  }
+}

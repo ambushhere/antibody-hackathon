@@ -1,0 +1,961 @@
+{
+  "scope": "retrospective_conditional_trastuzumab_fab_transfer",
+  "external_source": {
+    "attribution": "Absci Corporation (2023)",
+    "revision": "cd2bd4b6932b5301d435555dc22084d407e4b92b",
+    "inputs": {
+      "README.md": {
+        "source": "data/raw/external-spr/README.md",
+        "sha256": "698f39c41a8e5a9e27fe0ad869cf59ada8c5daf1b0bea6e94c54ccdd6abe0b0d"
+      },
+      "LICENSE": {
+        "source": "data/raw/external-spr/LICENSE",
+        "sha256": "12e4c580339a117464d1ca9417c7c06026d7f535ea5cb55ef0aa482e6c7bb769"
+      },
+      "spr-controls.csv": {
+        "source": "data/raw/external-spr/spr-controls.csv",
+        "sha256": "33939f99b489b36e9f893641f3b4013ae4898093875067db31569801b15b2489"
+      },
+      "zero-shot-binders.csv": {
+        "source": "data/raw/external-spr/zero-shot-binders.csv",
+        "sha256": "c12742bd36ae8881a38cd41e50fd3922cbd885b184531d1151889f5fa610b639"
+      },
+      "functionality-developability-cross_reactivity-data.csv": {
+        "source": "data/raw/external-spr/functionality-developability-cross_reactivity-data.csv",
+        "sha256": "f67f8284ce21f86b56b17f75493b05217d8f603565487692372083f626fa08b5"
+      }
+    }
+  },
+  "internal_inputs": {
+    "results/spr-candidate-ranking/model.json": {
+      "source": "results/spr-candidate-ranking/model.json",
+      "sha256": "b124a240dbcd9059da47181e0c27e038a176d2a9586d01072cf3308f76dc7697"
+    },
+    "results/spr-benchmark/metrics.json": {
+      "source": "results/spr-benchmark/metrics.json",
+      "sha256": "9668a01ca8dcfdcc8e84b127c4d5f8de1580232090f5efd2925f608ae3c41edf"
+    },
+    "results/experiment-20261114/selected_model.json": {
+      "source": "results/experiment-20261114/selected_model.json",
+      "sha256": "4067c8e66e703a4db828cec37086f3d157fcad38c172ab265f1aebffe9f3a487"
+    },
+    "results/experiment-20261114/benchmark_metrics.json": {
+      "source": "results/experiment-20261114/benchmark_metrics.json",
+      "sha256": "229f4e90912aad73e4923f50f59970a53b922da8d4ce1ef0b8e413773fe36a78"
+    },
+    "docs/research/external-spr-protocol.md": {
+      "source": "docs/research/external-spr-protocol.md",
+      "sha256": "e14c2799fc707ae66b684e6d13c68e824b594ecd62263725c0d499e26980e329"
+    },
+    "src/her2_benchmark.py": {
+      "source": "src/her2_benchmark.py",
+      "sha256": "47faea9e341cbfc76a43af13fb16bd694545c9814ac8de5028b4040e20243257"
+    },
+    "src/her2_spr_benchmark.py": {
+      "source": "src/her2_spr_benchmark.py",
+      "sha256": "afdabf4a88357dccba743871c382f8ec1cbc4bb61cfb923c8d987ef63d1b6d94"
+    },
+    "train": {
+      "source": "/tmp/her2-benchmark.NjMJ71m1/train.csv",
+      "sha256": "b639077ff116daa8b8c3a2122b6ed9291361892469f6237963967ca0772cb262"
+    },
+    "val": {
+      "source": "/tmp/her2-benchmark.NjMJ71m1/val.csv",
+      "sha256": "ea5e2e0908f018f579e476cef4452f9de11ba9144513bffa783588d49123f5d1"
+    },
+    "test": {
+      "source": "/tmp/her2-benchmark.NjMJ71m1/test.csv",
+      "sha256": "b350c10c7df4eb5e1b966f76909a805fc7d8011486f1ddb5dd1d7a6e19556a06"
+    },
+    "spr": {
+      "source": "/tmp/her2-benchmark.NjMJ71m1/spr.csv",
+      "sha256": "4d6f53a6183f377670e9577b3233a7c4c14888965ac63824863219d13424fa9b"
+    }
+  },
+  "implementation": {
+    "source": "scripts/benchmark_external_spr.py",
+    "sha256": "a0db26c0515fdcf6ead15b4f347cfce15d2f8afa94c7b5e87f3179fc6f3cb88c"
+  },
+  "shared_ranking_code": {
+    "source": "scripts/rank_spr_candidates.py",
+    "sha256": "abae8b8635b5f3c65a19f190d5bad19e767f0195dea2f24c8228cff07d60d0d5"
+  },
+  "versions": {
+    "python": "3.13.18",
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "rapidfuzz": "3.14.6",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1"
+  },
+  "reference_audit": {
+    "reference_vh_prefix_matches": true,
+    "reference_vl_prefix_matches": true,
+    "reference_vh_length": 120,
+    "reference_vl_length": 107,
+    "wt_annotations": {
+      "HCDR1": "GFNIKDTY",
+      "HCDR2": "IYPTNGYT",
+      "HCDR3": "SRWGGDGFYAMDY"
+    },
+    "linear_vh_bounds_1_based_inclusive": {
+      "HCDR1": [
+        26,
+        33
+      ],
+      "HCDR2": [
+        51,
+        58
+      ],
+      "HCDR3": [
+        97,
+        109
+      ],
+      "model_window": [
+        99,
+        108
+      ]
+    },
+    "per_row_paired_sequences_supplied": false,
+    "per_row_assay_construct_supplied": false
+  },
+  "frozen_models": {
+    "predicted_neg_log10_kd_nm": {
+      "alpha": 10.0,
+      "n_fit": 158,
+      "target": "neg_log10_kd_nm"
+    },
+    "p_facs_high": {
+      "features": "pairwise",
+      "n_fit": 367044,
+      "target": "FACS high versus mid or low"
+    }
+  },
+  "uncertainty": {
+    "seed": 0,
+    "draws": 2000,
+    "sequence_group_levenshtein_cutoff": 2,
+    "minimum_groups": 5,
+    "minimum_valid_fraction": 0.9,
+    "training_distance_sensitivity_cutoff": 3
+  },
+  "audit": {
+    "internal_reference_unique_sequences": {
+      "spr_fit": 158,
+      "facs_train": 367044,
+      "facs_val": 78651,
+      "facs_test": 78651,
+      "spr_panel": 754
+    },
+    "cohorts": {
+      "spr-controls.csv": {
+        "published_rows": 1855,
+        "published_unique_h3": 1829,
+        "published_binder_calls": {
+          "False": 1097,
+          "True": 758
+        },
+        "published_binder_by_kd_status": {
+          "True": {
+            "finite_positive": 758
+          },
+          "False": {
+            "missing": 1097
+          }
+        },
+        "published_outcome_status": {
+          "published_binder_call": 1855
+        },
+        "sequence_status": {
+          "non_wt_h3_anchors": 981,
+          "unsupported_h3_length": 589,
+          "h1_h2_mismatch": 247,
+          "compatible_window": 38
+        },
+        "eligibility": {
+          "non_wt_h3_anchors": 981,
+          "unsupported_h3_length": 589,
+          "h1_h2_mismatch": 247,
+          "eligible": 36,
+          "wild_type|internal_exact_overlap": 1,
+          "internal_exact_overlap": 1
+        },
+        "compatible_wt_rows": 1,
+        "compatible_exact_internal_matches_by_panel": {
+          "spr_fit": 0,
+          "facs_train": 0,
+          "facs_val": 1,
+          "facs_test": 0,
+          "spr_panel": 1
+        },
+        "eligible_published_rows": 36,
+        "scored_windows": 36,
+        "collapsed_eligible_rows": 0,
+        "conflicting_scored_windows": 0,
+        "scored_windows_by_distance": {
+          "spr_fit": {
+            "2": 19,
+            "4": 6,
+            "5": 5,
+            "3": 4,
+            "1": 1,
+            "6": 1
+          },
+          "facs_train": {
+            "2": 15,
+            "3": 11,
+            "1": 6,
+            "4": 4
+          },
+          "facs_val": {
+            "2": 12,
+            "3": 8,
+            "1": 8,
+            "4": 6,
+            "5": 2
+          }
+        }
+      },
+      "zero-shot-binders.csv": {
+        "published_rows": 422,
+        "published_unique_h3": 422,
+        "published_binder_calls": {
+          "unavailable": 422
+        },
+        "published_binder_by_kd_status": {
+          "unavailable": {
+            "finite_positive": 422
+          }
+        },
+        "published_outcome_status": {
+          "binder_selected_series": 422
+        },
+        "sequence_status": {
+          "unsupported_h3_length": 221,
+          "non_wt_h3_anchors": 197,
+          "compatible_window": 4
+        },
+        "eligibility": {
+          "unsupported_h3_length": 221,
+          "non_wt_h3_anchors": 197,
+          "cross_series_control_match": 3,
+          "wild_type|internal_exact_overlap|cross_series_control_match": 1
+        },
+        "compatible_wt_rows": 1,
+        "compatible_exact_internal_matches_by_panel": {
+          "spr_fit": 0,
+          "facs_train": 0,
+          "facs_val": 0,
+          "facs_test": 0,
+          "spr_panel": 1
+        },
+        "eligible_published_rows": 0,
+        "scored_windows": 0,
+        "collapsed_eligible_rows": 0,
+        "conflicting_scored_windows": 0,
+        "scored_windows_by_distance": {
+          "spr_fit": {},
+          "facs_train": {},
+          "facs_val": {}
+        }
+      }
+    },
+    "followup": {
+      "rows": 13,
+      "rows_matching_any_selected_h3": 13,
+      "rows_matching_any_selected_h3_and_original_kd": 0,
+      "rows_matching_selected_at_displayed_kd_precision": 13,
+      "scored_rows": 0
+    }
+  },
+  "endpoints": {
+    "controls_binder": {
+      "all_eligible": {
+        "n": 36,
+        "groups": 19,
+        "group_sizes_desc": [
+          7,
+          4,
+          3,
+          3,
+          2,
+          2,
+          2,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "positive": 25,
+        "average_precision_baseline": 0.6944444444444444,
+        "kd_nm_range": null,
+        "attempted_bootstrap_draws": 2000,
+        "metrics": {
+          "predicted_neg_log10_kd_nm/roc_auc": {
+            "point": 0.8327272727272726,
+            "valid_draws": 1999,
+            "interval_reason": null,
+            "interval_95": [
+              0.5775092554504319,
+              0.9758256528417819
+            ]
+          },
+          "predicted_neg_log10_kd_nm/average_precision": {
+            "point": 0.9409852941176472,
+            "valid_draws": 1999,
+            "interval_reason": null,
+            "interval_95": [
+              0.7700879947125722,
+              0.994940926962458
+            ]
+          },
+          "p_facs_high/roc_auc": {
+            "point": 0.7563636363636365,
+            "valid_draws": 1999,
+            "interval_reason": null,
+            "interval_95": [
+              0.4971734892787525,
+              0.9955415092511867
+            ]
+          },
+          "p_facs_high/average_precision": {
+            "point": 0.859787423454337,
+            "valid_draws": 1999,
+            "interval_reason": null,
+            "interval_95": [
+              0.5422427683124567,
+              0.9991394272669268
+            ]
+          },
+          "negative_wt_edit_distance/roc_auc": {
+            "point": 0.6890909090909091,
+            "valid_draws": 1999,
+            "interval_reason": null,
+            "interval_95": [
+              0.39440972222222226,
+              0.9333333333333333
+            ]
+          },
+          "negative_wt_edit_distance/average_precision": {
+            "point": 0.8323476190476191,
+            "valid_draws": 1999,
+            "interval_reason": null,
+            "interval_95": [
+              0.46466874744760994,
+              0.9872074190177639
+            ]
+          },
+          "ridge_minus_facs/roc_auc": {
+            "point": 0.07636363636363619,
+            "valid_draws": 1999,
+            "interval_reason": null,
+            "interval_95": [
+              -0.26628240180871765,
+              0.31666666666666654
+            ]
+          },
+          "ridge_minus_facs/average_precision": {
+            "point": 0.08119787066331019,
+            "valid_draws": 1999,
+            "interval_reason": null,
+            "interval_95": [
+              -0.08119645834163092,
+              0.3042114311951297
+            ]
+          }
+        },
+        "leave_one_group_out_paired": {
+          "ridge_minus_facs/roc_auc": {
+            "valid": 19,
+            "range": [
+              -0.07428571428571418,
+              0.13833992094861658
+            ]
+          },
+          "ridge_minus_facs/average_precision": {
+            "valid": 19,
+            "range": [
+              -0.02053479853479867,
+              0.12131780189543706
+            ]
+          }
+        }
+      },
+      "distance_at_least_3": {
+        "n": 13,
+        "groups": 10,
+        "group_sizes_desc": [
+          2,
+          2,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "positive": 7,
+        "average_precision_baseline": 0.5384615384615384,
+        "kd_nm_range": null,
+        "attempted_bootstrap_draws": 2000,
+        "metrics": {
+          "predicted_neg_log10_kd_nm/roc_auc": {
+            "point": 0.5476190476190476,
+            "valid_draws": 1993,
+            "interval_reason": null,
+            "interval_95": [
+              0.13333333333333333,
+              0.9444444444444445
+            ]
+          },
+          "predicted_neg_log10_kd_nm/average_precision": {
+            "point": 0.6936817151102865,
+            "valid_draws": 1993,
+            "interval_reason": null,
+            "interval_95": [
+              0.36732467532467533,
+              0.9771341991341993
+            ]
+          },
+          "p_facs_high/roc_auc": {
+            "point": 0.7380952380952381,
+            "valid_draws": 1993,
+            "interval_reason": null,
+            "interval_95": [
+              0.3742857142857143,
+              1.0
+            ]
+          },
+          "p_facs_high/average_precision": {
+            "point": 0.8517316017316017,
+            "valid_draws": 1993,
+            "interval_reason": null,
+            "interval_95": [
+              0.5098834498834499,
+              1.0
+            ]
+          },
+          "negative_wt_edit_distance/roc_auc": {
+            "point": 0.34523809523809523,
+            "valid_draws": 1993,
+            "interval_reason": null,
+            "interval_95": [
+              0.06,
+              0.8125
+            ]
+          },
+          "negative_wt_edit_distance/average_precision": {
+            "point": 0.5006105006105006,
+            "valid_draws": 1993,
+            "interval_reason": null,
+            "interval_95": [
+              0.23904761904761904,
+              0.926341158841159
+            ]
+          },
+          "ridge_minus_facs/roc_auc": {
+            "point": -0.19047619047619058,
+            "valid_draws": 1993,
+            "interval_reason": null,
+            "interval_95": [
+              -0.8250793650793651,
+              0.5
+            ]
+          },
+          "ridge_minus_facs/average_precision": {
+            "point": -0.15804988662131514,
+            "valid_draws": 1993,
+            "interval_reason": null,
+            "interval_95": [
+              -0.583939393939394,
+              0.3429365079365079
+            ]
+          }
+        },
+        "leave_one_group_out_paired": {
+          "ridge_minus_facs/roc_auc": {
+            "valid": 10,
+            "range": [
+              -0.39285714285714285,
+              0.06666666666666665
+            ]
+          },
+          "ridge_minus_facs/average_precision": {
+            "valid": 10,
+            "range": [
+              -0.30555555555555547,
+              0.006507936507936352
+            ]
+          }
+        }
+      }
+    },
+    "controls_kd": {
+      "all_eligible": {
+        "n": 25,
+        "groups": 13,
+        "group_sizes_desc": [
+          7,
+          3,
+          3,
+          2,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "positive": null,
+        "average_precision_baseline": null,
+        "kd_nm_range": [
+          1.07,
+          1052.0799999999997
+        ],
+        "attempted_bootstrap_draws": 2000,
+        "metrics": {
+          "predicted_neg_log10_kd_nm/spearman": {
+            "point": 0.4923076923076923,
+            "valid_draws": 2000,
+            "interval_reason": null,
+            "interval_95": [
+              -0.2634375798797497,
+              0.7883426881802805
+            ]
+          },
+          "predicted_neg_log10_kd_nm/kendall_tau_b": {
+            "point": 0.3666666666666666,
+            "valid_draws": 2000,
+            "interval_reason": null,
+            "interval_95": [
+              -0.20278588890397936,
+              0.6405340926581494
+            ]
+          },
+          "p_facs_high/spearman": {
+            "point": 0.3423076923076923,
+            "valid_draws": 2000,
+            "interval_reason": null,
+            "interval_95": [
+              -0.39934117671841757,
+              0.5628944566882306
+            ]
+          },
+          "p_facs_high/kendall_tau_b": {
+            "point": 0.23333333333333328,
+            "valid_draws": 2000,
+            "interval_reason": null,
+            "interval_95": [
+              -0.2916795267489712,
+              0.420124938755512
+            ]
+          },
+          "negative_wt_edit_distance/spearman": {
+            "point": 0.24500038067691549,
+            "valid_draws": 2000,
+            "interval_reason": null,
+            "interval_95": [
+              -0.6395443302134158,
+              0.6222149902948385
+            ]
+          },
+          "negative_wt_edit_distance/kendall_tau_b": {
+            "point": 0.18527342263463417,
+            "valid_draws": 2000,
+            "interval_reason": null,
+            "interval_95": [
+              -0.48971088781549843,
+              0.49586860163013485
+            ]
+          },
+          "ridge_minus_facs/spearman": {
+            "point": 0.14999999999999997,
+            "valid_draws": 2000,
+            "interval_reason": null,
+            "interval_95": [
+              -0.2935267079147124,
+              0.6467449581898672
+            ]
+          },
+          "ridge_minus_facs/kendall_tau_b": {
+            "point": 0.1333333333333333,
+            "valid_draws": 2000,
+            "interval_reason": null,
+            "interval_95": [
+              -0.22362466725820765,
+              0.48317503904872255
+            ]
+          },
+          "predicted_neg_log10_kd_nm/mae": {
+            "point": 0.7653412401880617,
+            "valid_draws": 2000,
+            "interval_reason": null,
+            "interval_95": [
+              0.5347667134061772,
+              1.0571310191943304
+            ]
+          },
+          "predicted_neg_log10_kd_nm/rmse": {
+            "point": 0.8876730522493964,
+            "valid_draws": 2000,
+            "interval_reason": null,
+            "interval_95": [
+              0.6609312969353288,
+              1.1145901812530414
+            ]
+          },
+          "predicted_neg_log10_kd_nm/mean_signed_error": {
+            "point": 0.6861367579989784,
+            "valid_draws": 2000,
+            "interval_reason": null,
+            "interval_95": [
+              0.411161424361014,
+              1.031891282227647
+            ]
+          }
+        },
+        "leave_one_group_out_paired": {
+          "ridge_minus_facs/spearman": {
+            "valid": 13,
+            "range": [
+              0.07905138339920947,
+              0.2860869565217391
+            ]
+          },
+          "ridge_minus_facs/kendall_tau_b": {
+            "valid": 13,
+            "range": [
+              0.09486166007905136,
+              0.23913043478260865
+            ]
+          }
+        }
+      },
+      "distance_at_least_3": {
+        "n": 7,
+        "groups": 6,
+        "group_sizes_desc": [
+          2,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "positive": null,
+        "average_precision_baseline": null,
+        "kd_nm_range": [
+          79.65999999999998,
+          1052.0799999999997
+        ],
+        "attempted_bootstrap_draws": 2000,
+        "metrics": {
+          "predicted_neg_log10_kd_nm/spearman": {
+            "point": 0.642857142857143,
+            "valid_draws": 2000,
+            "interval_reason": null,
+            "interval_95": [
+              -0.8000000000000002,
+              1.0
+            ]
+          },
+          "predicted_neg_log10_kd_nm/kendall_tau_b": {
+            "point": 0.4285714285714286,
+            "valid_draws": 2000,
+            "interval_reason": null,
+            "interval_95": [
+              -0.6363636363636364,
+              1.0
+            ]
+          },
+          "p_facs_high/spearman": {
+            "point": -0.39285714285714296,
+            "valid_draws": 2000,
+            "interval_reason": null,
+            "interval_95": [
+              -0.9459459459459459,
+              0.8000000000000002
+            ]
+          },
+          "p_facs_high/kendall_tau_b": {
+            "point": -0.23809523809523814,
+            "valid_draws": 2000,
+            "interval_reason": null,
+            "interval_95": [
+              -0.8620689655172415,
+              0.6363636363636364
+            ]
+          },
+          "negative_wt_edit_distance/spearman": {
+            "point": 0.20788046015507503,
+            "valid_draws": 1992,
+            "interval_reason": null,
+            "interval_95": [
+              -0.8571946154145231,
+              0.9622504486493764
+            ]
+          },
+          "negative_wt_edit_distance/kendall_tau_b": {
+            "point": 0.2182178902359924,
+            "valid_draws": 1992,
+            "interval_reason": null,
+            "interval_95": [
+              -0.7453559924999299,
+              0.917662935482247
+            ]
+          },
+          "ridge_minus_facs/spearman": {
+            "point": 1.035714285714286,
+            "valid_draws": 2000,
+            "interval_reason": null,
+            "interval_95": [
+              -0.8000000000000002,
+              1.8918918918918919
+            ]
+          },
+          "ridge_minus_facs/kendall_tau_b": {
+            "point": 0.6666666666666667,
+            "valid_draws": 2000,
+            "interval_reason": null,
+            "interval_95": [
+              -0.7692307692307694,
+              1.724137931034483
+            ]
+          },
+          "predicted_neg_log10_kd_nm/mae": {
+            "point": 0.5875617440730239,
+            "valid_draws": 2000,
+            "interval_reason": null,
+            "interval_95": [
+              0.3759726068010322,
+              0.8229763327296692
+            ]
+          },
+          "predicted_neg_log10_kd_nm/rmse": {
+            "point": 0.6540639610502723,
+            "valid_draws": 2000,
+            "interval_reason": null,
+            "interval_95": [
+              0.4302145705377787,
+              0.8532028404248321
+            ]
+          },
+          "predicted_neg_log10_kd_nm/mean_signed_error": {
+            "point": 0.5554899688297558,
+            "valid_draws": 2000,
+            "interval_reason": null,
+            "interval_95": [
+              0.2833309818260452,
+              0.8187023924329923
+            ]
+          }
+        },
+        "leave_one_group_out_paired": {
+          "ridge_minus_facs/spearman": {
+            "valid": 6,
+            "range": [
+              0.39999999999999997,
+              1.3142857142857145
+            ]
+          },
+          "ridge_minus_facs/kendall_tau_b": {
+            "valid": 6,
+            "range": [
+              0.19999999999999998,
+              0.9333333333333333
+            ]
+          }
+        }
+      }
+    },
+    "selected_kd": {
+      "all_eligible": {
+        "n": 0,
+        "groups": 0,
+        "group_sizes_desc": [],
+        "positive": null,
+        "average_precision_baseline": null,
+        "kd_nm_range": null,
+        "attempted_bootstrap_draws": 0,
+        "metrics": {
+          "predicted_neg_log10_kd_nm/spearman": {
+            "point": null,
+            "valid_draws": 0,
+            "interval_reason": "undefined_point_estimate",
+            "interval_95": null
+          },
+          "predicted_neg_log10_kd_nm/kendall_tau_b": {
+            "point": null,
+            "valid_draws": 0,
+            "interval_reason": "undefined_point_estimate",
+            "interval_95": null
+          },
+          "p_facs_high/spearman": {
+            "point": null,
+            "valid_draws": 0,
+            "interval_reason": "undefined_point_estimate",
+            "interval_95": null
+          },
+          "p_facs_high/kendall_tau_b": {
+            "point": null,
+            "valid_draws": 0,
+            "interval_reason": "undefined_point_estimate",
+            "interval_95": null
+          },
+          "negative_wt_edit_distance/spearman": {
+            "point": null,
+            "valid_draws": 0,
+            "interval_reason": "undefined_point_estimate",
+            "interval_95": null
+          },
+          "negative_wt_edit_distance/kendall_tau_b": {
+            "point": null,
+            "valid_draws": 0,
+            "interval_reason": "undefined_point_estimate",
+            "interval_95": null
+          },
+          "ridge_minus_facs/spearman": {
+            "point": null,
+            "valid_draws": 0,
+            "interval_reason": "undefined_point_estimate",
+            "interval_95": null
+          },
+          "ridge_minus_facs/kendall_tau_b": {
+            "point": null,
+            "valid_draws": 0,
+            "interval_reason": "undefined_point_estimate",
+            "interval_95": null
+          },
+          "predicted_neg_log10_kd_nm/mae": {
+            "point": null,
+            "valid_draws": 0,
+            "interval_reason": "undefined_point_estimate",
+            "interval_95": null
+          },
+          "predicted_neg_log10_kd_nm/rmse": {
+            "point": null,
+            "valid_draws": 0,
+            "interval_reason": "undefined_point_estimate",
+            "interval_95": null
+          },
+          "predicted_neg_log10_kd_nm/mean_signed_error": {
+            "point": null,
+            "valid_draws": 0,
+            "interval_reason": "undefined_point_estimate",
+            "interval_95": null
+          }
+        },
+        "leave_one_group_out_paired": {
+          "ridge_minus_facs/spearman": {
+            "valid": 0,
+            "range": null
+          },
+          "ridge_minus_facs/kendall_tau_b": {
+            "valid": 0,
+            "range": null
+          }
+        }
+      },
+      "distance_at_least_3": {
+        "n": 0,
+        "groups": 0,
+        "group_sizes_desc": [],
+        "positive": null,
+        "average_precision_baseline": null,
+        "kd_nm_range": null,
+        "attempted_bootstrap_draws": 0,
+        "metrics": {
+          "predicted_neg_log10_kd_nm/spearman": {
+            "point": null,
+            "valid_draws": 0,
+            "interval_reason": "undefined_point_estimate",
+            "interval_95": null
+          },
+          "predicted_neg_log10_kd_nm/kendall_tau_b": {
+            "point": null,
+            "valid_draws": 0,
+            "interval_reason": "undefined_point_estimate",
+            "interval_95": null
+          },
+          "p_facs_high/spearman": {
+            "point": null,
+            "valid_draws": 0,
+            "interval_reason": "undefined_point_estimate",
+            "interval_95": null
+          },
+          "p_facs_high/kendall_tau_b": {
+            "point": null,
+            "valid_draws": 0,
+            "interval_reason": "undefined_point_estimate",
+            "interval_95": null
+          },
+          "negative_wt_edit_distance/spearman": {
+            "point": null,
+            "valid_draws": 0,
+            "interval_reason": "undefined_point_estimate",
+            "interval_95": null
+          },
+          "negative_wt_edit_distance/kendall_tau_b": {
+            "point": null,
+            "valid_draws": 0,
+            "interval_reason": "undefined_point_estimate",
+            "interval_95": null
+          },
+          "ridge_minus_facs/spearman": {
+            "point": null,
+            "valid_draws": 0,
+            "interval_reason": "undefined_point_estimate",
+            "interval_95": null
+          },
+          "ridge_minus_facs/kendall_tau_b": {
+            "point": null,
+            "valid_draws": 0,
+            "interval_reason": "undefined_point_estimate",
+            "interval_95": null
+          },
+          "predicted_neg_log10_kd_nm/mae": {
+            "point": null,
+            "valid_draws": 0,
+            "interval_reason": "undefined_point_estimate",
+            "interval_95": null
+          },
+          "predicted_neg_log10_kd_nm/rmse": {
+            "point": null,
+            "valid_draws": 0,
+            "interval_reason": "undefined_point_estimate",
+            "interval_95": null
+          },
+          "predicted_neg_log10_kd_nm/mean_signed_error": {
+            "point": null,
+            "valid_draws": 0,
+            "interval_reason": "undefined_point_estimate",
+            "interval_95": null
+          }
+        },
+        "leave_one_group_out_paired": {
+          "ridge_minus_facs/spearman": {
+            "valid": 0,
+            "range": null
+          },
+          "ridge_minus_facs/kendall_tau_b": {
+            "valid": 0,
+            "range": null
+          }
+        }
+      }
+    }
+  }
+}

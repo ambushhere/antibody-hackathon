@@ -1,0 +1,3 @@
+INFO     using the reference bundled with abguard (reference_data)
+INFO     candidates.csv: 53 design(s), 1 with hard errors, 423 liability occurrence(s)
+INFO     wrote 53 rows to annotated.json

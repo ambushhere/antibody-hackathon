@@ -1,0 +1,34 @@
+{
+  "file": "external-spr-sources-20261114.tar.gz",
+  "bytes": 28088,
+  "sha256": "015a3d7c06ba95a8718b68ab6ec8315714725cc02c33adc89dd9375edad438d9",
+  "extract_under": "data",
+  "source_revision": "cd2bd4b6932b5301d435555dc22084d407e4b92b",
+  "members": [
+    {
+      "path": "raw/external-spr/LICENSE",
+      "bytes": 1789,
+      "sha256": "12e4c580339a117464d1ca9417c7c06026d7f535ea5cb55ef0aa482e6c7bb769"
+    },
+    {
+      "path": "raw/external-spr/README.md",
+      "bytes": 8312,
+      "sha256": "698f39c41a8e5a9e27fe0ad869cf59ada8c5daf1b0bea6e94c54ccdd6abe0b0d"
+    },
+    {
+      "path": "raw/external-spr/functionality-developability-cross_reactivity-data.csv",
+      "bytes": 5272,
+      "sha256": "f67f8284ce21f86b56b17f75493b05217d8f603565487692372083f626fa08b5"
+    },
+    {
+      "path": "raw/external-spr/spr-controls.csv",
+      "bytes": 74896,
+      "sha256": "33939f99b489b36e9f893641f3b4013ae4898093875067db31569801b15b2489"
+    },
+    {
+      "path": "raw/external-spr/zero-shot-binders.csv",
+      "bytes": 13841,
+      "sha256": "c12742bd36ae8881a38cd41e50fd3922cbd885b184531d1151889f5fa610b639"
+    }
+  ]
+}

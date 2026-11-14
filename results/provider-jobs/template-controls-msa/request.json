@@ -1,0 +1,13 @@
+{
+  "databases": [
+    "pdb70_220313"
+  ],
+  "output_alignment_formats": [
+    "a3m"
+  ],
+  "idempotency_key": "her2-target119-20261114-msa-v1",
+  "max_msa_sequences": 256,
+  "sequence": "CHQLCARGHCWGPGPTQCVNCSQFLRGQECVEECRVLQGLPREYVNARHCLPCHPECQPQNGSVTCFGPEADQCVACAHYKDPPFCVARCPSGVKPDLSYMPIWKFPDEEGACQPCPIN",
+  "sequence_sha256": "1e079745f5855331f422ec196280ae55fe5c69931d434e2fe86216512dc648bc",
+  "output_prefix": "her2-template-controls-20261114/msa"
+}

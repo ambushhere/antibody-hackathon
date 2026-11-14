@@ -1,0 +1,7 @@
+# Template control inference admission
+
+14 November 2026, before launching inference. Run all 48 planned Protenix-v2 poses: four frozen controls, two masks of the same 6OGE target-only template, seeds 42/43/44 and two samples each. Input snapshot is `configs/her2-template-controls/manifest.json`. Target sequence P04626 511–629 is identical in both arms. Only coordinates for 603–612 differ. No antibody template, MSA or binding restraints are supplied.
+
+Each arm and seed has a distinct output directory and log. Preserve every result and failure. Select top-1 within each query/arm/seed by mean of VH–target and VL–target pair-ipTM (use the same directional convention for both). Ties prefer lower sample index. This avoids selecting by measured reference geometry. Also show best reference-interface RMSD across the two samples only as a diagnostic of whether sampling found a closer pose. Report all per-sample geometry regardless of selection.
+
+WT footprint recovery of at least 13/19 is an existing contact diagnostic, not a sufficient pose gate. Report target-only fit RMSD, interface RMSD, antibody position, PAE and clashes jointly. No candidate promotion follows from this control experiment alone. The 626–634 disulfide crosses the chosen crop boundary in both arms. Both source structures occur in public RFD4 sampling metadata, so this is reproduction and input sensitivity, not independent generalization.

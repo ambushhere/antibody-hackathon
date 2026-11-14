@@ -1,0 +1,3 @@
+INFO     using the reference bundled with abguard (reference_data)
+ERROR    candidates.csv: submission is not compliant (52 of 53 row(s) pass the schema). Re-run with --drop to discard the offending rows.
+  - [novelty] denovo-scale-antibody-k1_23: CDRH3 ARVSGYGAMDY is 1 mutation(s) from ARGVSGYGAMDY in uspto:uspto_AKV99494; a de_novo design needs at least 2

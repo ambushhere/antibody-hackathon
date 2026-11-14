@@ -1,0 +1,78 @@
+{
+  "file": "abguard-installed-package.tar.gz",
+  "bytes": 2080526,
+  "sha256": "5fba78f566c08658ac854d02a154aad5d2f5e92a141326774116721a79068cc6",
+  "extract_under": "results/tmp/abguard-installed",
+  "members": [
+    {
+      "path": "abguard/__init__.py",
+      "bytes": 1881,
+      "sha256": "2b300c3b42533a966ba66941e9bff971514fa1cfb10cd189fdc30ff77d4275af"
+    },
+    {
+      "path": "abguard/annotate.py",
+      "bytes": 14315,
+      "sha256": "0eed9f844b48b62fe4db8f0df0e0dbf1b9cafc261a1ba85b357d2ba92612658c"
+    },
+    {
+      "path": "abguard/cli.py",
+      "bytes": 19747,
+      "sha256": "232870fd212ac724828e0cb2b39fdca51aa1dc19a753e12d541556b9d0847d5d"
+    },
+    {
+      "path": "abguard/config.py",
+      "bytes": 7191,
+      "sha256": "13671d58e3acc7604b5e1ba1286d111e735f11a7bd3d89afbb82dbcb41963e0f"
+    },
+    {
+      "path": "abguard/io.py",
+      "bytes": 3246,
+      "sha256": "f26d32320c5deebd563e0b75584c3c0e62a9db3f3a39fc6bf687cf83d47248ab"
+    },
+    {
+      "path": "abguard/liabilities.py",
+      "bytes": 16673,
+      "sha256": "92122dc31eb82b1ae757ef2eee6624295fede56590ea8a1ad2c4c8146dc5e31c"
+    },
+    {
+      "path": "abguard/notebooks/__init__.py",
+      "bytes": 275,
+      "sha256": "d5ca98e2063e7565fc35a175704b7cea161a13fb08ce1069be54d1cb9e82a841"
+    },
+    {
+      "path": "abguard/notebooks/dashboard.py",
+      "bytes": 20513,
+      "sha256": "e92c206fef1e33e3ab1ef51cf5f477ea805672f8fb7b0368c4faba770141773b"
+    },
+    {
+      "path": "abguard/novelty.py",
+      "bytes": 21454,
+      "sha256": "df248d4aed9324bde1730d3ed17664efd0b1d144e164d5171a9b3354ea36056f"
+    },
+    {
+      "path": "abguard/pipeline.py",
+      "bytes": 18748,
+      "sha256": "0adf7ef03e37c12612a212a78b8ddffd1d6c3e4bd4df267a296a3e9503ccf8b4"
+    },
+    {
+      "path": "abguard/reference.py",
+      "bytes": 34089,
+      "sha256": "f966a3ed082b62e02e4a4516eea9b3d6e01e9afe660fa220daaf5b1c732fb1ba"
+    },
+    {
+      "path": "abguard/reference_data/abguard_cdrh3.parquet",
+      "bytes": 2028925,
+      "sha256": "60744436b44760be20916f0b4a0e7575d3d60197b9fbf79e9599d38e147ad0af"
+    },
+    {
+      "path": "abguard/reference_data/manifest.json",
+      "bytes": 295,
+      "sha256": "de5578eb098a576e446cd51bfe37eeafe5da0b7340a41ac2e7f38fab68f1c649"
+    },
+    {
+      "path": "abguard/schemas.py",
+      "bytes": 9215,
+      "sha256": "fe24399f7cace046c6b19eb79422436852bbc4604ca26f6e54c87c9e102eb909"
+    }
+  ]
+}

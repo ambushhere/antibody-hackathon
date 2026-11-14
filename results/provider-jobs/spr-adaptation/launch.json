@@ -1,0 +1,10 @@
+{
+  "host": "team-3",
+  "working_directory": "/home/hackathon/almaz/work/spr-adaptation-20261114",
+  "training_pid": 92354,
+  "protocol_commit": "3d0a577",
+  "first_attempt": "missing rapidfuzz, failed before output directory or training",
+  "dependency_repair": "installed rapidfuzz 3.14.6 into the existing root-owned work venv",
+  "retry": "same admitted code, data and hyperparameters",
+  "observed_mid_run_gpu_memory_MiB": 809
+}

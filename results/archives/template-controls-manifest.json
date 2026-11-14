@@ -1,0 +1,878 @@
+{
+  "file": "template-controls-20261114.tar.gz",
+  "bytes": 44883555,
+  "sha256": "6df832ba9b7de65dd589ae29ecbdc299e474bacd886582ec148fb25c66d358fa",
+  "extract_under": "results",
+  "members": [
+    {
+      "path": "campaign/template-controls/complete/seed-42/.apheris-foundry",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-42/config.json",
+      "bytes": 340,
+      "sha256": "c84979457d8113616cbe18e1ab83cce5e1f3dca219f8a188301c1c36d846a67b"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-42/control_facs_low/seed_42/control_facs_low_seed_42_sample_1_detailed_scores.cbor.gz",
+      "bytes": 859127,
+      "sha256": "7080994c53589d0ff78e8c4f4fadec08822874a91794cd792c385ce7a40d4e38"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-42/control_facs_low/seed_42/control_facs_low_seed_42_sample_1_model.cif",
+      "bytes": 231538,
+      "sha256": "ea152e42dbf91972f894a919ffe871c3f6a32c1172d232384e89b061563c58fe"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-42/control_facs_low/seed_42/control_facs_low_seed_42_sample_1_scores.json",
+      "bytes": 573,
+      "sha256": "584353ea2864db289ef101f85dea014a8c19f56e05d6ed265cffa570ef648a03"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-42/control_facs_low/seed_42/control_facs_low_seed_42_sample_2_detailed_scores.cbor.gz",
+      "bytes": 859065,
+      "sha256": "3bdc9a3a7ba7f5132ec51ccd838b8f3029a6fd83cabcbc3e9da2262033a26e9b"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-42/control_facs_low/seed_42/control_facs_low_seed_42_sample_2_model.cif",
+      "bytes": 232108,
+      "sha256": "dc7a686f9acc0f5220e1e3e50381199ea3a0103fbbec50ae00f4fa836a5313c9"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-42/control_facs_low/seed_42/control_facs_low_seed_42_sample_2_scores.json",
+      "bytes": 573,
+      "sha256": "9e05507702815c5530544241a66a078a34e5c345719a95696c8ea4d4c60dc50a"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-42/control_spr_strong/seed_42/control_spr_strong_seed_42_sample_1_detailed_scores.cbor.gz",
+      "bytes": 857705,
+      "sha256": "85e20f39f5317621b54990334e88ff5a42827fc2bfce892c5e7a300877ceb409"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-42/control_spr_strong/seed_42/control_spr_strong_seed_42_sample_1_model.cif",
+      "bytes": 230896,
+      "sha256": "20adbc1381c77c19ac7551ccc9a917f31e8daaa582549bd3e951c4ef59a76f38"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-42/control_spr_strong/seed_42/control_spr_strong_seed_42_sample_1_scores.json",
+      "bytes": 570,
+      "sha256": "92e3c8eb4162231052402b5eaa60a3c26464bfd88a5e3fd59ae854f7e149701c"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-42/control_spr_strong/seed_42/control_spr_strong_seed_42_sample_2_detailed_scores.cbor.gz",
+      "bytes": 857763,
+      "sha256": "f1d1b349adce85570be97407140b15b8a62260635f5f3a6bcd0ca76495ae7b62"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-42/control_spr_strong/seed_42/control_spr_strong_seed_42_sample_2_model.cif",
+      "bytes": 230798,
+      "sha256": "85862f2cbe01a538c8536bd755eae7947eb0e8e98ac02b6713d985e5bc09a4a2"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-42/control_spr_strong/seed_42/control_spr_strong_seed_42_sample_2_scores.json",
+      "bytes": 573,
+      "sha256": "b00d136cf50dbb96ce118f7a164641253440986074eb95dafb62bc062a8c3d29"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-42/control_spr_weak/seed_42/control_spr_weak_seed_42_sample_1_detailed_scores.cbor.gz",
+      "bytes": 863067,
+      "sha256": "440339d38a0edb00f208a99f008e9a98bfbd3858e3b836d5760a2e5a7683103c"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-42/control_spr_weak/seed_42/control_spr_weak_seed_42_sample_1_model.cif",
+      "bytes": 231302,
+      "sha256": "e3fe325f5858658bd33770db99466dc86d6ebce54ffb8c549fc27a38fcf562b3"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-42/control_spr_weak/seed_42/control_spr_weak_seed_42_sample_1_scores.json",
+      "bytes": 573,
+      "sha256": "441f907793a667e4b650a3afd40153b4d1965a66be33a9000006e5aca7401541"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-42/control_spr_weak/seed_42/control_spr_weak_seed_42_sample_2_detailed_scores.cbor.gz",
+      "bytes": 863569,
+      "sha256": "f1c51f635107a4f6e70b35a3662d401be01b2d430e355df4ba2518dce486a60c"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-42/control_spr_weak/seed_42/control_spr_weak_seed_42_sample_2_model.cif",
+      "bytes": 230978,
+      "sha256": "2fc4f765529158d7565db7080f06c62e5a01db127edfc4b1e6355110596afd17"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-42/control_spr_weak/seed_42/control_spr_weak_seed_42_sample_2_scores.json",
+      "bytes": 573,
+      "sha256": "bb18fca2f6468e785a369c402282b7aca7f7263608fc8a584801f5e780425e99"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-42/control_wt/seed_42/control_wt_seed_42_sample_1_detailed_scores.cbor.gz",
+      "bytes": 859018,
+      "sha256": "314e9a764a41d5fc1c5bf3bdadcbdbdf64dbdee5d8da035b7e6afe9e1c2b3790"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-42/control_wt/seed_42/control_wt_seed_42_sample_1_model.cif",
+      "bytes": 230486,
+      "sha256": "90aaa1fa85e42bf430c99a53ee244f0bb6882f43ebd871d9fcf1fdce0201116c"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-42/control_wt/seed_42/control_wt_seed_42_sample_1_scores.json",
+      "bytes": 570,
+      "sha256": "41ad4fbebcb7eafaf0eca3d76a4cab578d6e7fff586ed434706fc7bc5871862e"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-42/control_wt/seed_42/control_wt_seed_42_sample_2_detailed_scores.cbor.gz",
+      "bytes": 859127,
+      "sha256": "6aa42e2f2f9ea4fa22162138fa1dc6f78fc467b957508ed331bc055c1fc156e4"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-42/control_wt/seed_42/control_wt_seed_42_sample_2_model.cif",
+      "bytes": 230275,
+      "sha256": "94565ad93a268519e53f307912f0035455260a34deae1436dac5c3db7a69a8ae"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-42/control_wt/seed_42/control_wt_seed_42_sample_2_scores.json",
+      "bytes": 570,
+      "sha256": "fbc9f29c81a29b9ec96ba626ac6977966bf5794e904181653de7e728dc2b1eb1"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-42/result.json",
+      "bytes": 4233,
+      "sha256": "fec0f7d7254c6bec13e034176d49b4f5c517abcf10e082b93d4e7e9001677313"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-42.log",
+      "bytes": 6854,
+      "sha256": "69264be6d950265e5c5338454a1e85827dd58276385849910463d15cb1cf6012"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-43/.apheris-foundry",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-43/config.json",
+      "bytes": 340,
+      "sha256": "32504a634ab1512617e101cb3085e7be87f47c8b5964220458da21719908bfc6"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-43/control_facs_low/seed_43/control_facs_low_seed_43_sample_1_detailed_scores.cbor.gz",
+      "bytes": 858600,
+      "sha256": "44413e7786f1fe2a994c364557e852434552bad9ece2140e03e94121501b58a0"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-43/control_facs_low/seed_43/control_facs_low_seed_43_sample_1_model.cif",
+      "bytes": 231146,
+      "sha256": "b394704248505156162d1c6accda7e7de99ba04cc04681218235066ffa29abe3"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-43/control_facs_low/seed_43/control_facs_low_seed_43_sample_1_scores.json",
+      "bytes": 569,
+      "sha256": "a3c74dc9455cb5c0434a34b4d0e014f6e0bb90d109e1970830b8f2c840bad9bc"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-43/control_facs_low/seed_43/control_facs_low_seed_43_sample_2_detailed_scores.cbor.gz",
+      "bytes": 858330,
+      "sha256": "3160175f9b30bd3e4a096737f262d1621fd7be5b287d3e210435e1c87fddc9c8"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-43/control_facs_low/seed_43/control_facs_low_seed_43_sample_2_model.cif",
+      "bytes": 231871,
+      "sha256": "c69c10ae368a6374e0529ae4d799f9d411cc261a8a0e9e5159cd837226f481ae"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-43/control_facs_low/seed_43/control_facs_low_seed_43_sample_2_scores.json",
+      "bytes": 570,
+      "sha256": "72e7d0795b8839ed8696af0b55c9b33ce5cddcc9ca6c7db6c51f21b7e6923ccc"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-43/control_spr_strong/seed_43/control_spr_strong_seed_43_sample_1_detailed_scores.cbor.gz",
+      "bytes": 857327,
+      "sha256": "2872beb291fd699374512fc3ba8ebaef1907a9b05483e179635a764a26da684a"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-43/control_spr_strong/seed_43/control_spr_strong_seed_43_sample_1_model.cif",
+      "bytes": 230736,
+      "sha256": "9070595543b544649577fa29b99dab0603b6af26da2b73864c33b3bcdd6286c7"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-43/control_spr_strong/seed_43/control_spr_strong_seed_43_sample_1_scores.json",
+      "bytes": 572,
+      "sha256": "5de80ba2c2ef67b0e0b8ba6362efc5079c4ed1d812fcf2e69fd74bbde737c8a6"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-43/control_spr_strong/seed_43/control_spr_strong_seed_43_sample_2_detailed_scores.cbor.gz",
+      "bytes": 857248,
+      "sha256": "92b965ae5ba961d08035c8830a3b2a3fc346a0beb1bc8fc24da68bf0a7d62c84"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-43/control_spr_strong/seed_43/control_spr_strong_seed_43_sample_2_model.cif",
+      "bytes": 231646,
+      "sha256": "45e6a84db3c06a9d0026b736d1023bd9a744fac1141b76803b94e2c58dadd65a"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-43/control_spr_strong/seed_43/control_spr_strong_seed_43_sample_2_scores.json",
+      "bytes": 573,
+      "sha256": "9a29d9be910818e24a7d124c4a5fd8e82956b233ff4815530b1f47c4f2f9bcb8"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-43/control_spr_weak/seed_43/control_spr_weak_seed_43_sample_1_detailed_scores.cbor.gz",
+      "bytes": 862525,
+      "sha256": "e2a138611e4dee58724088ca3b962622b712d4bccbabc87646fbefc747e75685"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-43/control_spr_weak/seed_43/control_spr_weak_seed_43_sample_1_model.cif",
+      "bytes": 230531,
+      "sha256": "69c9f8307381ca95faa9f12f0b4d684f84387365e534a63bf5a8494ad6d25a11"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-43/control_spr_weak/seed_43/control_spr_weak_seed_43_sample_1_scores.json",
+      "bytes": 569,
+      "sha256": "cec0f8afc1be1785600070df0662faae3b75ede0e902d7a1676fcf3eebc6cf77"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-43/control_spr_weak/seed_43/control_spr_weak_seed_43_sample_2_detailed_scores.cbor.gz",
+      "bytes": 862288,
+      "sha256": "2d4fc146d25490afcbd5d63606e7a9ccdc246e4e0c7eb0916b9cc4a214c66030"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-43/control_spr_weak/seed_43/control_spr_weak_seed_43_sample_2_model.cif",
+      "bytes": 231525,
+      "sha256": "284086c8fd6f20de0e81b7bfceaa3857b181ea4ed01b4bd655f3869af9adc7be"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-43/control_spr_weak/seed_43/control_spr_weak_seed_43_sample_2_scores.json",
+      "bytes": 574,
+      "sha256": "ad673a733e3596e960cf3975d788f818c9968e5e67b5b98c48731d333fc85e1a"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-43/control_wt/seed_43/control_wt_seed_43_sample_1_detailed_scores.cbor.gz",
+      "bytes": 859866,
+      "sha256": "1284179c36e925a6c5bd7284c01106a9e5e909c60429c0181474712257c0bac3"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-43/control_wt/seed_43/control_wt_seed_43_sample_1_model.cif",
+      "bytes": 229777,
+      "sha256": "b544efffdf3527c0173f6e49e8ba04ee42ab35a58b87f56038ff439562c7719d"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-43/control_wt/seed_43/control_wt_seed_43_sample_1_scores.json",
+      "bytes": 574,
+      "sha256": "f27d59247dc7ba2ddccde8209fbf37e75b4e75ac1b4700029a89a5ae119e7823"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-43/control_wt/seed_43/control_wt_seed_43_sample_2_detailed_scores.cbor.gz",
+      "bytes": 859762,
+      "sha256": "904dbd26f572193221cd4b7dc423cb981209d9b268d837dbf2efe568ed024b48"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-43/control_wt/seed_43/control_wt_seed_43_sample_2_model.cif",
+      "bytes": 230804,
+      "sha256": "d3cc4aa8fd535ef8a02119b1aa5983dce6e9ec233ab7cd83a7425552ef57f6d3"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-43/control_wt/seed_43/control_wt_seed_43_sample_2_scores.json",
+      "bytes": 573,
+      "sha256": "ee588f5cf7803609c43db4aab51ae12ece72feaead6de722205ab3d719a55b4b"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-43/result.json",
+      "bytes": 4233,
+      "sha256": "d241b9b6786dee5f522b2947a6973d0eb180fa01d870c3f462a2f1dceb5ab171"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-43.log",
+      "bytes": 6854,
+      "sha256": "0c321b9dbd2d3925beff6709297ee1bb921dd0f275ba56ac9006a72090f65a58"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-44/.apheris-foundry",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-44/config.json",
+      "bytes": 340,
+      "sha256": "0423359aa774db89c45f87ac567734dfee567c259e152bd526e0cdfd8b82e4ea"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-44/control_facs_low/seed_44/control_facs_low_seed_44_sample_1_detailed_scores.cbor.gz",
+      "bytes": 858594,
+      "sha256": "b8601694f89b082aef9915861b90ebb555cc60779bb9932b049853e20c3a87b2"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-44/control_facs_low/seed_44/control_facs_low_seed_44_sample_1_model.cif",
+      "bytes": 230863,
+      "sha256": "80f008d7e047d6410b1e82d661652484ec7ed2ed02ef86b76c45438df5afd74e"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-44/control_facs_low/seed_44/control_facs_low_seed_44_sample_1_scores.json",
+      "bytes": 574,
+      "sha256": "2c785105dd9a31d6e9fa4463b4410cfe6876b21aafddd6874189bb94c8cc8759"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-44/control_facs_low/seed_44/control_facs_low_seed_44_sample_2_detailed_scores.cbor.gz",
+      "bytes": 858724,
+      "sha256": "265505efd7ab5a7df2aa5f03d3c24bedfb23a1d297167a23ecafbee8f3e790ff"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-44/control_facs_low/seed_44/control_facs_low_seed_44_sample_2_model.cif",
+      "bytes": 231213,
+      "sha256": "eba2df51616e1b7d4a9ef65ce07e53e4f8bcb4ffbd32a96f72e85e7cfdc4d01c"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-44/control_facs_low/seed_44/control_facs_low_seed_44_sample_2_scores.json",
+      "bytes": 573,
+      "sha256": "aa6fc9efcb00efe07abe5532bc617c0401cde156a33f99df450eb731c068f333"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-44/control_spr_strong/seed_44/control_spr_strong_seed_44_sample_1_detailed_scores.cbor.gz",
+      "bytes": 857067,
+      "sha256": "2d0a1a2d36a5a98c8863a77c6f89bf1c0e4d5fb53063bf6949a67584d7fa1008"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-44/control_spr_strong/seed_44/control_spr_strong_seed_44_sample_1_model.cif",
+      "bytes": 230509,
+      "sha256": "d7b0ef678883ff0a7a949e038643d9e3ea8acb470c29211a906a44bc82e1f853"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-44/control_spr_strong/seed_44/control_spr_strong_seed_44_sample_1_scores.json",
+      "bytes": 571,
+      "sha256": "21a37d5aa50ed39c7b7d6a5100d991868137a524b011af0d4be4c3829409f5c4"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-44/control_spr_strong/seed_44/control_spr_strong_seed_44_sample_2_detailed_scores.cbor.gz",
+      "bytes": 856527,
+      "sha256": "cf08394ca13991606b10a5769f0e0b54dfa6d5a584b2ebc56ae038afd50e8ad6"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-44/control_spr_strong/seed_44/control_spr_strong_seed_44_sample_2_model.cif",
+      "bytes": 231005,
+      "sha256": "6b169a236b7f40772ae9ad96f22cc5aeb71e52c65171d91bd42bb48638e82b41"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-44/control_spr_strong/seed_44/control_spr_strong_seed_44_sample_2_scores.json",
+      "bytes": 570,
+      "sha256": "0498e0aef81dfcad8db7b4392d47d37a51b160d27d02d45e101afdfe7b14e21e"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-44/control_spr_weak/seed_44/control_spr_weak_seed_44_sample_1_detailed_scores.cbor.gz",
+      "bytes": 861987,
+      "sha256": "ccd9364e1fdcafbcf1f975b11ba7f46b1036567af3083d811f21db3557b97000"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-44/control_spr_weak/seed_44/control_spr_weak_seed_44_sample_1_model.cif",
+      "bytes": 230749,
+      "sha256": "8673ec4db98be9d6b504084352b82ff3ee0d43d1f934166dc1a2ffd0a969d349"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-44/control_spr_weak/seed_44/control_spr_weak_seed_44_sample_1_scores.json",
+      "bytes": 574,
+      "sha256": "3ab34807209b2839637446820e58d89abb5ad7396f53ade0623c6cbdb6ac556f"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-44/control_spr_weak/seed_44/control_spr_weak_seed_44_sample_2_detailed_scores.cbor.gz",
+      "bytes": 861816,
+      "sha256": "366fc1102a747377c03e0a2b97a3fdfc49fcb03606dd54b27808156c5046af90"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-44/control_spr_weak/seed_44/control_spr_weak_seed_44_sample_2_model.cif",
+      "bytes": 230801,
+      "sha256": "1110e2fc8bee3c90dc0501916720000c73a0caeab0eeac0fd935526377c7b9c8"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-44/control_spr_weak/seed_44/control_spr_weak_seed_44_sample_2_scores.json",
+      "bytes": 569,
+      "sha256": "e1ab98b5576cabc8d96ea8db3543e7738a2ee5a9f780a1e78d5e978ee7b960d7"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-44/control_wt/seed_44/control_wt_seed_44_sample_1_detailed_scores.cbor.gz",
+      "bytes": 860254,
+      "sha256": "165b488d933bed1914828fd9099d7e65129f94fca43b3a6b8bc3fbd39abadb8b"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-44/control_wt/seed_44/control_wt_seed_44_sample_1_model.cif",
+      "bytes": 229821,
+      "sha256": "17c391c30446117069770603426cf9d0da1446a1eda6aeb6717f19c256381b1d"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-44/control_wt/seed_44/control_wt_seed_44_sample_1_scores.json",
+      "bytes": 573,
+      "sha256": "3edbcd8daeba7b08caebc5421f698549b8644d33a3a7fd18dea0eacb5f2545df"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-44/control_wt/seed_44/control_wt_seed_44_sample_2_detailed_scores.cbor.gz",
+      "bytes": 858891,
+      "sha256": "a40723338c2c608d2aa46758f177b22e2d16f9b5e4071f6f24f86d5da9138cee"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-44/control_wt/seed_44/control_wt_seed_44_sample_2_model.cif",
+      "bytes": 230268,
+      "sha256": "d3f46ce27235fa3bbe18ef953628cde1ee4cdac29c31f30693682e7a2cbbb31a"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-44/control_wt/seed_44/control_wt_seed_44_sample_2_scores.json",
+      "bytes": 570,
+      "sha256": "14480c2baccb6b8501eb22e92fc11582366295f8759721093e1d3727070f2576"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-44/result.json",
+      "bytes": 4233,
+      "sha256": "78e814cf7ab0863f6236546e1b7f31c01d3cd377ef8dac3d19de573e1fd4a265"
+    },
+    {
+      "path": "campaign/template-controls/complete/seed-44.log",
+      "bytes": 6854,
+      "sha256": "8d3415a6dd72ee517e1b178293f5de27fc7456c632b78ff80a842b785c8992ff"
+    },
+    {
+      "path": "campaign/template-controls/completed.txt",
+      "bytes": 21,
+      "sha256": "5537c80b3f94f203e11dbe76e75e8aa3ef5609c21e0dbbbe5894ba653830fd6e"
+    },
+    {
+      "path": "campaign/template-controls/image-id.txt",
+      "bytes": 72,
+      "sha256": "fb89c4139114d928a52a29fd459f49c8b836271655dd6a6db805ac2eccdbec7c"
+    },
+    {
+      "path": "campaign/template-controls/input.sha256",
+      "bytes": 569,
+      "sha256": "c18f7409d3e03a4f7d0f6d3b7e2693edfa4af7866afd686ab0c3fd45c124e3b1"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-42/.apheris-foundry",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-42/config.json",
+      "bytes": 338,
+      "sha256": "c881045de24775a9b2466dee5ada051530fa8f9471bc0294ff7579b298471541"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-42/control_facs_low/seed_42/control_facs_low_seed_42_sample_1_detailed_scores.cbor.gz",
+      "bytes": 857650,
+      "sha256": "99e6da8ab71943247d082516b8c48098eb32771356fb1634e8adbf617debc6f3"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-42/control_facs_low/seed_42/control_facs_low_seed_42_sample_1_model.cif",
+      "bytes": 231856,
+      "sha256": "e31aae2718dc552e20e2e3a6f9c05145bdcf0287646c120ca6c6df95c795ed1c"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-42/control_facs_low/seed_42/control_facs_low_seed_42_sample_1_scores.json",
+      "bytes": 572,
+      "sha256": "9988ee8524659c5a7df465f12189cdca76adbf058aee827a2003ab104e3b6646"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-42/control_facs_low/seed_42/control_facs_low_seed_42_sample_2_detailed_scores.cbor.gz",
+      "bytes": 857704,
+      "sha256": "3edbbb3c20aaaed6db57998e47944a588cbb993902d56481b20e983e0f724819"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-42/control_facs_low/seed_42/control_facs_low_seed_42_sample_2_model.cif",
+      "bytes": 231866,
+      "sha256": "fd059930851bdc533c78691360bcc300aee2001cfd91cc7865602bdd5d2fe329"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-42/control_facs_low/seed_42/control_facs_low_seed_42_sample_2_scores.json",
+      "bytes": 571,
+      "sha256": "9c8eee63d83436bb71b2c6cf094c5a9e29731d467c7c97e1ebdbc121de1094a9"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-42/control_spr_strong/seed_42/control_spr_strong_seed_42_sample_1_detailed_scores.cbor.gz",
+      "bytes": 858326,
+      "sha256": "03535d3febeaadeb199aac9a24ba504e447ae9caf90070097cffba587c36bfcb"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-42/control_spr_strong/seed_42/control_spr_strong_seed_42_sample_1_model.cif",
+      "bytes": 230952,
+      "sha256": "43654858183126144530cfc2374ebf52b15b4bdaaea81bb2e40590d223d8a60c"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-42/control_spr_strong/seed_42/control_spr_strong_seed_42_sample_1_scores.json",
+      "bytes": 572,
+      "sha256": "7cb20c8f61879568b0c85d753361716c637b94ec8d63c565fb6792071af5820d"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-42/control_spr_strong/seed_42/control_spr_strong_seed_42_sample_2_detailed_scores.cbor.gz",
+      "bytes": 858592,
+      "sha256": "b09fb7af02faf5c87feee1a6555460ff741d45d30785956c281d1bd202df5b4a"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-42/control_spr_strong/seed_42/control_spr_strong_seed_42_sample_2_model.cif",
+      "bytes": 230976,
+      "sha256": "3271019c7c1ac751025e2104800c192b2e80c0519b555cbf74f6b33032858b75"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-42/control_spr_strong/seed_42/control_spr_strong_seed_42_sample_2_scores.json",
+      "bytes": 572,
+      "sha256": "f289068de44e461c37da0adc7284177a1fab09e5c888ee1c028452a691780023"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-42/control_spr_weak/seed_42/control_spr_weak_seed_42_sample_1_detailed_scores.cbor.gz",
+      "bytes": 862712,
+      "sha256": "0bdc1a4129d39e5802aeb0f1beb59854d1c024431601266713d6e96a81601752"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-42/control_spr_weak/seed_42/control_spr_weak_seed_42_sample_1_model.cif",
+      "bytes": 231209,
+      "sha256": "43962c5862713e37cf75a43f5d70d7296226c6a190d7157af1a68f2f3bcd0881"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-42/control_spr_weak/seed_42/control_spr_weak_seed_42_sample_1_scores.json",
+      "bytes": 572,
+      "sha256": "5f9306e5a88f9367e6d52c1fccb1101bb895bb594c953e056f26b14ae74f0b90"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-42/control_spr_weak/seed_42/control_spr_weak_seed_42_sample_2_detailed_scores.cbor.gz",
+      "bytes": 862180,
+      "sha256": "796657b9f4b587c0a8bd35f6c0189ccfaa5c1c47d77f642844e09f5e14501498"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-42/control_spr_weak/seed_42/control_spr_weak_seed_42_sample_2_model.cif",
+      "bytes": 231211,
+      "sha256": "d5ce70c7a529dd3b242a2c118ad97316eb3cf9e0dcb4b798b6fca4820e332e3d"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-42/control_spr_weak/seed_42/control_spr_weak_seed_42_sample_2_scores.json",
+      "bytes": 570,
+      "sha256": "ce90c12528b97078263631e34ad5dde56d37c6b4b6fedf643b6296da87011b77"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-42/control_wt/seed_42/control_wt_seed_42_sample_1_detailed_scores.cbor.gz",
+      "bytes": 858002,
+      "sha256": "d55a8e8ddde27b2c96c632c279c505a616d9d3c2d271cc0ea0e6bbe5bbd16103"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-42/control_wt/seed_42/control_wt_seed_42_sample_1_model.cif",
+      "bytes": 230537,
+      "sha256": "7c4f70ebc7a89b865a91cf5cc039aa12cf6823945eb1b48342bd0bd5b2f789b0"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-42/control_wt/seed_42/control_wt_seed_42_sample_1_scores.json",
+      "bytes": 570,
+      "sha256": "a72073186ed89298a901f2689b8f5decda14f1d529d84117d160fe5e3544b74e"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-42/control_wt/seed_42/control_wt_seed_42_sample_2_detailed_scores.cbor.gz",
+      "bytes": 857831,
+      "sha256": "3d05dd9bd8f60fd55efb11edba0996c890a6fa057c8f2110dac9724448d8083c"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-42/control_wt/seed_42/control_wt_seed_42_sample_2_model.cif",
+      "bytes": 230195,
+      "sha256": "1612dac7dfcb31e9e1bfba49d1a0223605f7e4b5ff37cf678813fcbcdc5b5ace"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-42/control_wt/seed_42/control_wt_seed_42_sample_2_scores.json",
+      "bytes": 571,
+      "sha256": "90128caeb7f951f903ac18e3e7f97d6ab6b4330cf3f942777a6a584a114c3027"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-42/result.json",
+      "bytes": 4231,
+      "sha256": "e0d0a4c1e3e8826355b31390e042c67c529ceb7ec90f46be2303de34a3ff1ef3"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-42.log",
+      "bytes": 6854,
+      "sha256": "5e1dae9d7a08bc697e4018cede440745cdde3c1c6bbb68a369210b7f099a6501"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-43/.apheris-foundry",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-43/config.json",
+      "bytes": 338,
+      "sha256": "ca63e35cb68b7fedfc2fcd5335755aca7c8c8332a5adcc292e610a7fe0b311b2"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-43/control_facs_low/seed_43/control_facs_low_seed_43_sample_1_detailed_scores.cbor.gz",
+      "bytes": 858709,
+      "sha256": "c22c7fde4258a4d585f6857cbf16f70dc479ceccc2bcafd22f11846e79a795ac"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-43/control_facs_low/seed_43/control_facs_low_seed_43_sample_1_model.cif",
+      "bytes": 231606,
+      "sha256": "f9b10140f38e2cc689a2851b84b6e29a0759d4e0ae870b0e729e176b1c0c1a0d"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-43/control_facs_low/seed_43/control_facs_low_seed_43_sample_1_scores.json",
+      "bytes": 572,
+      "sha256": "7e4885e0b51fb65043c029f6558c7bd1cf0ad87b136efa3e07047a586a72a444"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-43/control_facs_low/seed_43/control_facs_low_seed_43_sample_2_detailed_scores.cbor.gz",
+      "bytes": 858642,
+      "sha256": "b883194a002c187a893fb8bdf33adbba725cda57122eb9b62eccb86292ef3409"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-43/control_facs_low/seed_43/control_facs_low_seed_43_sample_2_model.cif",
+      "bytes": 232096,
+      "sha256": "ac500a406f33a4c4ab1210389ba5a59c2d613bb3e9437e28cd95d1d54d425890"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-43/control_facs_low/seed_43/control_facs_low_seed_43_sample_2_scores.json",
+      "bytes": 569,
+      "sha256": "238907d4f3a11077bbc3913979212f02f4e4029a74747eb6b62a7b088f429eb4"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-43/control_spr_strong/seed_43/control_spr_strong_seed_43_sample_1_detailed_scores.cbor.gz",
+      "bytes": 857549,
+      "sha256": "6d724af64d1f4dbbf23d99b183721866cd7f244db8c2023c150b994f0b45ca40"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-43/control_spr_strong/seed_43/control_spr_strong_seed_43_sample_1_model.cif",
+      "bytes": 230686,
+      "sha256": "5806d559734e11e1ed6d3cadf852535ee625649b6b1e9085007274be54011efa"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-43/control_spr_strong/seed_43/control_spr_strong_seed_43_sample_1_scores.json",
+      "bytes": 571,
+      "sha256": "febd119fb005d79200986dfc04416adac2b582e726b36ed2e1c078089c50d8c4"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-43/control_spr_strong/seed_43/control_spr_strong_seed_43_sample_2_detailed_scores.cbor.gz",
+      "bytes": 859075,
+      "sha256": "1a3f4972dba69a37dc631001140d8347f28daddf568b4dd8d63368d37795a464"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-43/control_spr_strong/seed_43/control_spr_strong_seed_43_sample_2_model.cif",
+      "bytes": 231874,
+      "sha256": "46fb5dc927de174e14e15d86b4a5488bf19be43414d033b7ea9297f7ace20910"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-43/control_spr_strong/seed_43/control_spr_strong_seed_43_sample_2_scores.json",
+      "bytes": 573,
+      "sha256": "26c3167543a4b1a445ba407ccaec22f3b05f1a34df64522c225a2b134bc0b8f9"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-43/control_spr_weak/seed_43/control_spr_weak_seed_43_sample_1_detailed_scores.cbor.gz",
+      "bytes": 862173,
+      "sha256": "3ca85aabf5f3a1c8b2ff0ea6b60109c4cc5fabfa475b2ef79c53c76856edd0f1"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-43/control_spr_weak/seed_43/control_spr_weak_seed_43_sample_1_model.cif",
+      "bytes": 230502,
+      "sha256": "f42bdddea962efdc682339bb4daaa119af8f9885e05bbb76436af4cc64492c6f"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-43/control_spr_weak/seed_43/control_spr_weak_seed_43_sample_1_scores.json",
+      "bytes": 572,
+      "sha256": "507d88dadb3208621623c49b9faaed1d774015f0976cee8de295e35aa025fb6c"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-43/control_spr_weak/seed_43/control_spr_weak_seed_43_sample_2_detailed_scores.cbor.gz",
+      "bytes": 862503,
+      "sha256": "3e63fd7184a38c3572eb7d72a8c710fccfe341e3efe5be9791ad5a46386f8fe5"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-43/control_spr_weak/seed_43/control_spr_weak_seed_43_sample_2_model.cif",
+      "bytes": 231390,
+      "sha256": "a750f2dd9fb56ec9fa1a80f4d59704480ca68120f31b2ba68f47bc4c2863292f"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-43/control_spr_weak/seed_43/control_spr_weak_seed_43_sample_2_scores.json",
+      "bytes": 572,
+      "sha256": "f06ba59d8101b496d6e378179689cfa3328eb7ab45d853363ad4c4349b8738d5"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-43/control_wt/seed_43/control_wt_seed_43_sample_1_detailed_scores.cbor.gz",
+      "bytes": 862709,
+      "sha256": "8931fc74a599588261195871eb5cf7710d407f815559ffc2d529905c27a49abb"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-43/control_wt/seed_43/control_wt_seed_43_sample_1_model.cif",
+      "bytes": 230581,
+      "sha256": "6357643f5380f99b3a295a9b2d335344b2bd863c7d02dc64e89f5f7267afe0e1"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-43/control_wt/seed_43/control_wt_seed_43_sample_1_scores.json",
+      "bytes": 574,
+      "sha256": "1b8a0634252f7df08b4727ea418f7124745ef6af3613ed3bec565216c5319722"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-43/control_wt/seed_43/control_wt_seed_43_sample_2_detailed_scores.cbor.gz",
+      "bytes": 862123,
+      "sha256": "500327abb729c24afed3bc668b2bdae677c0d0973dcf5a067cf9a2142d4ba6c9"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-43/control_wt/seed_43/control_wt_seed_43_sample_2_model.cif",
+      "bytes": 230202,
+      "sha256": "67b073a1af767256ebebccd1c99d448fc18fc1d3a20e8d9f9c17416eb55e662c"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-43/control_wt/seed_43/control_wt_seed_43_sample_2_scores.json",
+      "bytes": 574,
+      "sha256": "8f589952617f2b8aea7acf9727b2ce79e95238e66e6b8fa0d7d178d06badfaa3"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-43/result.json",
+      "bytes": 4231,
+      "sha256": "0030c4aeb48d7d1007f4c4c5b679f4d142b36b4c956a7ebcae9e1c663e51e383"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-43.log",
+      "bytes": 6854,
+      "sha256": "69eb72472f1f5d2998a9df346663661c45bfccd7635152430463de02c826bcf6"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-44/.apheris-foundry",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-44/config.json",
+      "bytes": 338,
+      "sha256": "59daa221deaa4a03f2b71f2cf37575392bd82cfc9bda7dcccd7cc73f5eca9e11"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-44/control_facs_low/seed_44/control_facs_low_seed_44_sample_1_detailed_scores.cbor.gz",
+      "bytes": 857690,
+      "sha256": "c657e5c61d7342216736eeac5b53486785ccc8d2d124fc3a3180107f5260cb36"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-44/control_facs_low/seed_44/control_facs_low_seed_44_sample_1_model.cif",
+      "bytes": 231126,
+      "sha256": "4c39728fe4be52d4d91ccc1fd969682ccdca96a34df8e7eda229e7b454233538"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-44/control_facs_low/seed_44/control_facs_low_seed_44_sample_1_scores.json",
+      "bytes": 570,
+      "sha256": "12eab8cb1bfc6c713ceefa2588f0943af54237e659cc66124be703f06d0751e5"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-44/control_facs_low/seed_44/control_facs_low_seed_44_sample_2_detailed_scores.cbor.gz",
+      "bytes": 857844,
+      "sha256": "2fdb113a7a58211470b5a0dfcef89454697cce3a33fa76226b8675186b5d01d4"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-44/control_facs_low/seed_44/control_facs_low_seed_44_sample_2_model.cif",
+      "bytes": 231404,
+      "sha256": "06b1c412809b6b3e844ecaeb6700bb7e532a996f1ef88f7b31a77c1c036762ae"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-44/control_facs_low/seed_44/control_facs_low_seed_44_sample_2_scores.json",
+      "bytes": 573,
+      "sha256": "cef3ba7566a46da04b2994a1a53e3f5935973b9c8f0cce759d90d2f8656012f6"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-44/control_spr_strong/seed_44/control_spr_strong_seed_44_sample_1_detailed_scores.cbor.gz",
+      "bytes": 858339,
+      "sha256": "9e74f89c74c3ad4b0f005801161d8d90ce2a7eea63f8351bba4773d399fdca05"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-44/control_spr_strong/seed_44/control_spr_strong_seed_44_sample_1_model.cif",
+      "bytes": 230177,
+      "sha256": "b2da7f2c1afaa8b407bb8b2fc3019e4a561cf8b37105aae61c03b213c5f64c58"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-44/control_spr_strong/seed_44/control_spr_strong_seed_44_sample_1_scores.json",
+      "bytes": 573,
+      "sha256": "4d6badc687df5aa3afcef94ad46f770e9e27d71a833d0dc1d1cdb98f04450a94"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-44/control_spr_strong/seed_44/control_spr_strong_seed_44_sample_2_detailed_scores.cbor.gz",
+      "bytes": 858228,
+      "sha256": "72fd4ee1af50170f17512ffaf8023eb9e41b79a0587658bf9a56f658e5525b1f"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-44/control_spr_strong/seed_44/control_spr_strong_seed_44_sample_2_model.cif",
+      "bytes": 231033,
+      "sha256": "95f3da6f2cc6f7db8e1bf5f98311b1372c0372dcf6b2f77d0b801cf3b296b90d"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-44/control_spr_strong/seed_44/control_spr_strong_seed_44_sample_2_scores.json",
+      "bytes": 573,
+      "sha256": "270915b8bbebfda37ca3501710f160d75291651c5f1f0320eb8296dee6be6965"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-44/control_spr_weak/seed_44/control_spr_weak_seed_44_sample_1_detailed_scores.cbor.gz",
+      "bytes": 861985,
+      "sha256": "7dbfa8453e0a95adeed88d6e78264cf1afc0566f3be48a4b287a41606d943286"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-44/control_spr_weak/seed_44/control_spr_weak_seed_44_sample_1_model.cif",
+      "bytes": 230059,
+      "sha256": "7f4ed1e68505fd8cea91105d01b12eda3830eb17f6a8057a2e8ca80b8a7f0d94"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-44/control_spr_weak/seed_44/control_spr_weak_seed_44_sample_1_scores.json",
+      "bytes": 573,
+      "sha256": "8744d2595354fd3bc34148fadc503472050d9d9b5e704430d3aef542f3d9a872"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-44/control_spr_weak/seed_44/control_spr_weak_seed_44_sample_2_detailed_scores.cbor.gz",
+      "bytes": 863065,
+      "sha256": "f8bd8ffd2e6b84d1becdb2f212a989f8661034b1a4f439afb5502e0c4bea995a"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-44/control_spr_weak/seed_44/control_spr_weak_seed_44_sample_2_model.cif",
+      "bytes": 231148,
+      "sha256": "56d42d06a1a92e8b21ace908676779fbdb373dc4bc4fca3d1cf636a6cfb3551f"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-44/control_spr_weak/seed_44/control_spr_weak_seed_44_sample_2_scores.json",
+      "bytes": 574,
+      "sha256": "bf68f6a36a8c28e2a3f34053dd53892cbd82f131e1078597883ce561b318a2d6"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-44/control_wt/seed_44/control_wt_seed_44_sample_1_detailed_scores.cbor.gz",
+      "bytes": 858670,
+      "sha256": "799a64d537e5efbb03c91e3054c080a0082a4a427362421da737aec0ef28eb47"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-44/control_wt/seed_44/control_wt_seed_44_sample_1_model.cif",
+      "bytes": 230468,
+      "sha256": "b64337b542a5f5cfcea604a860956975def16b0054b258478d5ab4c936e2cf4e"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-44/control_wt/seed_44/control_wt_seed_44_sample_1_scores.json",
+      "bytes": 574,
+      "sha256": "8cd86bbb574b9a28d3818b745ad7a8488b7ca1931a470c4ab26279bf7d25a1c4"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-44/control_wt/seed_44/control_wt_seed_44_sample_2_detailed_scores.cbor.gz",
+      "bytes": 858412,
+      "sha256": "9e6c239a5b241357be2033ee1e909fd29761b434146ac5e01c0532aaf5900c11"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-44/control_wt/seed_44/control_wt_seed_44_sample_2_model.cif",
+      "bytes": 230541,
+      "sha256": "5a625bf4ba9e703cb14827e52c3081c9d156e7830f82fdfc5b106606ea339486"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-44/control_wt/seed_44/control_wt_seed_44_sample_2_scores.json",
+      "bytes": 573,
+      "sha256": "f512a79ba641b9913d8b2a81a0c083f3983fb3a3a05e4ff36827061288dc07a1"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-44/result.json",
+      "bytes": 4231,
+      "sha256": "eac490b8223c2a9d9e34c4011eebef854a8082d2df7312a98711d8683b35776f"
+    },
+    {
+      "path": "campaign/template-controls/masked/seed-44.log",
+      "bytes": 6854,
+      "sha256": "48a8a0fa78507bd43133b334acefcdd05ecf1802c5689b5737102ea3e4e29d76"
+    },
+    {
+      "path": "campaign/template-controls/started.txt",
+      "bytes": 21,
+      "sha256": "fb8e1687b0720a282530497da41f640a70af96a8f3176f454fd820a50c9474b0"
+    },
+    {
+      "path": "campaign/template-references/1n8z.cif",
+      "bytes": 845613,
+      "sha256": "9f22f02b6e514de56dab8a48bc31a16302a51397779e64c398ad3a7f05cb19a2"
+    },
+    {
+      "path": "campaign/template-references/6oge.cif",
+      "bytes": 1227023,
+      "sha256": "33a32b66e64aac934a7cfebfd78903027d3b4bf2a7f510e37c2ace4e4b52f18a"
+    }
+  ]
+}

@@ -1,0 +1,1219 @@
+{
+  "sources": {
+    "https://files.rcsb.org/download/6OGE.cif": "33a32b66e64aac934a7cfebfd78903027d3b4bf2a7f510e37c2ace4e4b52f18a",
+    "configs/her2-context/manifest.json": "26c494433c5329ae1add7392c843241c9b519a8e1ecbac7f6cd0cf2a6261a7fa",
+    "configs/her2-context/domain-iv-queries.json": "156ddcae0aa41acc2be6e2172b12eb470c1e633674319729eaad8529d4188126",
+    "configs/her2-context/P04626.fasta": "544da5f05e6961a6a51f6fb7540d48b61f57cdfe5c8cfe4da455bb3118574cdb"
+  },
+  "reference": {
+    "url": "https://files.rcsb.org/download/1N8Z.cif",
+    "sha256": "9f22f02b6e514de56dab8a48bc31a16302a51397779e64c398ad3a7f05cb19a2",
+    "common_canonical_positions": [
+      511,
+      512,
+      513,
+      514,
+      515,
+      516,
+      517,
+      518,
+      519,
+      520,
+      521,
+      522,
+      523,
+      524,
+      525,
+      526,
+      527,
+      528,
+      529,
+      530,
+      531,
+      532,
+      533,
+      534,
+      535,
+      536,
+      537,
+      538,
+      539,
+      540,
+      541,
+      542,
+      543,
+      544,
+      545,
+      546,
+      547,
+      548,
+      549,
+      550,
+      551,
+      552,
+      553,
+      554,
+      555,
+      556,
+      557,
+      558,
+      559,
+      560,
+      561,
+      562,
+      563,
+      564,
+      565,
+      566,
+      567,
+      568,
+      569,
+      570,
+      571,
+      572,
+      573,
+      574,
+      575,
+      576,
+      577,
+      578,
+      579,
+      580,
+      581,
+      582,
+      583,
+      584,
+      585,
+      586,
+      587,
+      588,
+      589,
+      590,
+      591,
+      592,
+      593,
+      594,
+      595,
+      596,
+      597,
+      598,
+      599,
+      600,
+      601,
+      602,
+      613,
+      614,
+      615,
+      616,
+      617,
+      618,
+      619,
+      620,
+      621,
+      622,
+      623,
+      624,
+      625,
+      626,
+      627,
+      628,
+      629
+    ]
+  },
+  "data_origin": "Both 1N8Z and 6OGE appear in upstream RFD4 sampling metadata (results/rfd4-training-metadata/audit.json). This is a reproduction control. Exact checkpoint exposure is unestablished.",
+  "target": {
+    "accession": "P04626",
+    "query_chain": "T",
+    "deposited_label_chain": "A",
+    "deposited_author_chain": "A",
+    "entity_id": "1",
+    "positions": [
+      {
+        "query_index": 1,
+        "template_label_seq_id": 1,
+        "deposited_label_seq_id": 489,
+        "deposited_auth_seq_id": 511,
+        "canonical_position": 511,
+        "aa": "C"
+      },
+      {
+        "query_index": 2,
+        "template_label_seq_id": 2,
+        "deposited_label_seq_id": 490,
+        "deposited_auth_seq_id": 512,
+        "canonical_position": 512,
+        "aa": "H"
+      },
+      {
+        "query_index": 3,
+        "template_label_seq_id": 3,
+        "deposited_label_seq_id": 491,
+        "deposited_auth_seq_id": 513,
+        "canonical_position": 513,
+        "aa": "Q"
+      },
+      {
+        "query_index": 4,
+        "template_label_seq_id": 4,
+        "deposited_label_seq_id": 492,
+        "deposited_auth_seq_id": 514,
+        "canonical_position": 514,
+        "aa": "L"
+      },
+      {
+        "query_index": 5,
+        "template_label_seq_id": 5,
+        "deposited_label_seq_id": 493,
+        "deposited_auth_seq_id": 515,
+        "canonical_position": 515,
+        "aa": "C"
+      },
+      {
+        "query_index": 6,
+        "template_label_seq_id": 6,
+        "deposited_label_seq_id": 494,
+        "deposited_auth_seq_id": 516,
+        "canonical_position": 516,
+        "aa": "A"
+      },
+      {
+        "query_index": 7,
+        "template_label_seq_id": 7,
+        "deposited_label_seq_id": 495,
+        "deposited_auth_seq_id": 517,
+        "canonical_position": 517,
+        "aa": "R"
+      },
+      {
+        "query_index": 8,
+        "template_label_seq_id": 8,
+        "deposited_label_seq_id": 496,
+        "deposited_auth_seq_id": 518,
+        "canonical_position": 518,
+        "aa": "G"
+      },
+      {
+        "query_index": 9,
+        "template_label_seq_id": 9,
+        "deposited_label_seq_id": 497,
+        "deposited_auth_seq_id": 519,
+        "canonical_position": 519,
+        "aa": "H"
+      },
+      {
+        "query_index": 10,
+        "template_label_seq_id": 10,
+        "deposited_label_seq_id": 498,
+        "deposited_auth_seq_id": 520,
+        "canonical_position": 520,
+        "aa": "C"
+      },
+      {
+        "query_index": 11,
+        "template_label_seq_id": 11,
+        "deposited_label_seq_id": 499,
+        "deposited_auth_seq_id": 521,
+        "canonical_position": 521,
+        "aa": "W"
+      },
+      {
+        "query_index": 12,
+        "template_label_seq_id": 12,
+        "deposited_label_seq_id": 500,
+        "deposited_auth_seq_id": 522,
+        "canonical_position": 522,
+        "aa": "G"
+      },
+      {
+        "query_index": 13,
+        "template_label_seq_id": 13,
+        "deposited_label_seq_id": 501,
+        "deposited_auth_seq_id": 523,
+        "canonical_position": 523,
+        "aa": "P"
+      },
+      {
+        "query_index": 14,
+        "template_label_seq_id": 14,
+        "deposited_label_seq_id": 502,
+        "deposited_auth_seq_id": 524,
+        "canonical_position": 524,
+        "aa": "G"
+      },
+      {
+        "query_index": 15,
+        "template_label_seq_id": 15,
+        "deposited_label_seq_id": 503,
+        "deposited_auth_seq_id": 525,
+        "canonical_position": 525,
+        "aa": "P"
+      },
+      {
+        "query_index": 16,
+        "template_label_seq_id": 16,
+        "deposited_label_seq_id": 504,
+        "deposited_auth_seq_id": 526,
+        "canonical_position": 526,
+        "aa": "T"
+      },
+      {
+        "query_index": 17,
+        "template_label_seq_id": 17,
+        "deposited_label_seq_id": 505,
+        "deposited_auth_seq_id": 527,
+        "canonical_position": 527,
+        "aa": "Q"
+      },
+      {
+        "query_index": 18,
+        "template_label_seq_id": 18,
+        "deposited_label_seq_id": 506,
+        "deposited_auth_seq_id": 528,
+        "canonical_position": 528,
+        "aa": "C"
+      },
+      {
+        "query_index": 19,
+        "template_label_seq_id": 19,
+        "deposited_label_seq_id": 507,
+        "deposited_auth_seq_id": 529,
+        "canonical_position": 529,
+        "aa": "V"
+      },
+      {
+        "query_index": 20,
+        "template_label_seq_id": 20,
+        "deposited_label_seq_id": 508,
+        "deposited_auth_seq_id": 530,
+        "canonical_position": 530,
+        "aa": "N"
+      },
+      {
+        "query_index": 21,
+        "template_label_seq_id": 21,
+        "deposited_label_seq_id": 509,
+        "deposited_auth_seq_id": 531,
+        "canonical_position": 531,
+        "aa": "C"
+      },
+      {
+        "query_index": 22,
+        "template_label_seq_id": 22,
+        "deposited_label_seq_id": 510,
+        "deposited_auth_seq_id": 532,
+        "canonical_position": 532,
+        "aa": "S"
+      },
+      {
+        "query_index": 23,
+        "template_label_seq_id": 23,
+        "deposited_label_seq_id": 511,
+        "deposited_auth_seq_id": 533,
+        "canonical_position": 533,
+        "aa": "Q"
+      },
+      {
+        "query_index": 24,
+        "template_label_seq_id": 24,
+        "deposited_label_seq_id": 512,
+        "deposited_auth_seq_id": 534,
+        "canonical_position": 534,
+        "aa": "F"
+      },
+      {
+        "query_index": 25,
+        "template_label_seq_id": 25,
+        "deposited_label_seq_id": 513,
+        "deposited_auth_seq_id": 535,
+        "canonical_position": 535,
+        "aa": "L"
+      },
+      {
+        "query_index": 26,
+        "template_label_seq_id": 26,
+        "deposited_label_seq_id": 514,
+        "deposited_auth_seq_id": 536,
+        "canonical_position": 536,
+        "aa": "R"
+      },
+      {
+        "query_index": 27,
+        "template_label_seq_id": 27,
+        "deposited_label_seq_id": 515,
+        "deposited_auth_seq_id": 537,
+        "canonical_position": 537,
+        "aa": "G"
+      },
+      {
+        "query_index": 28,
+        "template_label_seq_id": 28,
+        "deposited_label_seq_id": 516,
+        "deposited_auth_seq_id": 538,
+        "canonical_position": 538,
+        "aa": "Q"
+      },
+      {
+        "query_index": 29,
+        "template_label_seq_id": 29,
+        "deposited_label_seq_id": 517,
+        "deposited_auth_seq_id": 539,
+        "canonical_position": 539,
+        "aa": "E"
+      },
+      {
+        "query_index": 30,
+        "template_label_seq_id": 30,
+        "deposited_label_seq_id": 518,
+        "deposited_auth_seq_id": 540,
+        "canonical_position": 540,
+        "aa": "C"
+      },
+      {
+        "query_index": 31,
+        "template_label_seq_id": 31,
+        "deposited_label_seq_id": 519,
+        "deposited_auth_seq_id": 541,
+        "canonical_position": 541,
+        "aa": "V"
+      },
+      {
+        "query_index": 32,
+        "template_label_seq_id": 32,
+        "deposited_label_seq_id": 520,
+        "deposited_auth_seq_id": 542,
+        "canonical_position": 542,
+        "aa": "E"
+      },
+      {
+        "query_index": 33,
+        "template_label_seq_id": 33,
+        "deposited_label_seq_id": 521,
+        "deposited_auth_seq_id": 543,
+        "canonical_position": 543,
+        "aa": "E"
+      },
+      {
+        "query_index": 34,
+        "template_label_seq_id": 34,
+        "deposited_label_seq_id": 522,
+        "deposited_auth_seq_id": 544,
+        "canonical_position": 544,
+        "aa": "C"
+      },
+      {
+        "query_index": 35,
+        "template_label_seq_id": 35,
+        "deposited_label_seq_id": 523,
+        "deposited_auth_seq_id": 545,
+        "canonical_position": 545,
+        "aa": "R"
+      },
+      {
+        "query_index": 36,
+        "template_label_seq_id": 36,
+        "deposited_label_seq_id": 524,
+        "deposited_auth_seq_id": 546,
+        "canonical_position": 546,
+        "aa": "V"
+      },
+      {
+        "query_index": 37,
+        "template_label_seq_id": 37,
+        "deposited_label_seq_id": 525,
+        "deposited_auth_seq_id": 547,
+        "canonical_position": 547,
+        "aa": "L"
+      },
+      {
+        "query_index": 38,
+        "template_label_seq_id": 38,
+        "deposited_label_seq_id": 526,
+        "deposited_auth_seq_id": 548,
+        "canonical_position": 548,
+        "aa": "Q"
+      },
+      {
+        "query_index": 39,
+        "template_label_seq_id": 39,
+        "deposited_label_seq_id": 527,
+        "deposited_auth_seq_id": 549,
+        "canonical_position": 549,
+        "aa": "G"
+      },
+      {
+        "query_index": 40,
+        "template_label_seq_id": 40,
+        "deposited_label_seq_id": 528,
+        "deposited_auth_seq_id": 550,
+        "canonical_position": 550,
+        "aa": "L"
+      },
+      {
+        "query_index": 41,
+        "template_label_seq_id": 41,
+        "deposited_label_seq_id": 529,
+        "deposited_auth_seq_id": 551,
+        "canonical_position": 551,
+        "aa": "P"
+      },
+      {
+        "query_index": 42,
+        "template_label_seq_id": 42,
+        "deposited_label_seq_id": 530,
+        "deposited_auth_seq_id": 552,
+        "canonical_position": 552,
+        "aa": "R"
+      },
+      {
+        "query_index": 43,
+        "template_label_seq_id": 43,
+        "deposited_label_seq_id": 531,
+        "deposited_auth_seq_id": 553,
+        "canonical_position": 553,
+        "aa": "E"
+      },
+      {
+        "query_index": 44,
+        "template_label_seq_id": 44,
+        "deposited_label_seq_id": 532,
+        "deposited_auth_seq_id": 554,
+        "canonical_position": 554,
+        "aa": "Y"
+      },
+      {
+        "query_index": 45,
+        "template_label_seq_id": 45,
+        "deposited_label_seq_id": 533,
+        "deposited_auth_seq_id": 555,
+        "canonical_position": 555,
+        "aa": "V"
+      },
+      {
+        "query_index": 46,
+        "template_label_seq_id": 46,
+        "deposited_label_seq_id": 534,
+        "deposited_auth_seq_id": 556,
+        "canonical_position": 556,
+        "aa": "N"
+      },
+      {
+        "query_index": 47,
+        "template_label_seq_id": 47,
+        "deposited_label_seq_id": 535,
+        "deposited_auth_seq_id": 557,
+        "canonical_position": 557,
+        "aa": "A"
+      },
+      {
+        "query_index": 48,
+        "template_label_seq_id": 48,
+        "deposited_label_seq_id": 536,
+        "deposited_auth_seq_id": 558,
+        "canonical_position": 558,
+        "aa": "R"
+      },
+      {
+        "query_index": 49,
+        "template_label_seq_id": 49,
+        "deposited_label_seq_id": 537,
+        "deposited_auth_seq_id": 559,
+        "canonical_position": 559,
+        "aa": "H"
+      },
+      {
+        "query_index": 50,
+        "template_label_seq_id": 50,
+        "deposited_label_seq_id": 538,
+        "deposited_auth_seq_id": 560,
+        "canonical_position": 560,
+        "aa": "C"
+      },
+      {
+        "query_index": 51,
+        "template_label_seq_id": 51,
+        "deposited_label_seq_id": 539,
+        "deposited_auth_seq_id": 561,
+        "canonical_position": 561,
+        "aa": "L"
+      },
+      {
+        "query_index": 52,
+        "template_label_seq_id": 52,
+        "deposited_label_seq_id": 540,
+        "deposited_auth_seq_id": 562,
+        "canonical_position": 562,
+        "aa": "P"
+      },
+      {
+        "query_index": 53,
+        "template_label_seq_id": 53,
+        "deposited_label_seq_id": 541,
+        "deposited_auth_seq_id": 563,
+        "canonical_position": 563,
+        "aa": "C"
+      },
+      {
+        "query_index": 54,
+        "template_label_seq_id": 54,
+        "deposited_label_seq_id": 542,
+        "deposited_auth_seq_id": 564,
+        "canonical_position": 564,
+        "aa": "H"
+      },
+      {
+        "query_index": 55,
+        "template_label_seq_id": 55,
+        "deposited_label_seq_id": 543,
+        "deposited_auth_seq_id": 565,
+        "canonical_position": 565,
+        "aa": "P"
+      },
+      {
+        "query_index": 56,
+        "template_label_seq_id": 56,
+        "deposited_label_seq_id": 544,
+        "deposited_auth_seq_id": 566,
+        "canonical_position": 566,
+        "aa": "E"
+      },
+      {
+        "query_index": 57,
+        "template_label_seq_id": 57,
+        "deposited_label_seq_id": 545,
+        "deposited_auth_seq_id": 567,
+        "canonical_position": 567,
+        "aa": "C"
+      },
+      {
+        "query_index": 58,
+        "template_label_seq_id": 58,
+        "deposited_label_seq_id": 546,
+        "deposited_auth_seq_id": 568,
+        "canonical_position": 568,
+        "aa": "Q"
+      },
+      {
+        "query_index": 59,
+        "template_label_seq_id": 59,
+        "deposited_label_seq_id": 547,
+        "deposited_auth_seq_id": 569,
+        "canonical_position": 569,
+        "aa": "P"
+      },
+      {
+        "query_index": 60,
+        "template_label_seq_id": 60,
+        "deposited_label_seq_id": 548,
+        "deposited_auth_seq_id": 570,
+        "canonical_position": 570,
+        "aa": "Q"
+      },
+      {
+        "query_index": 61,
+        "template_label_seq_id": 61,
+        "deposited_label_seq_id": 549,
+        "deposited_auth_seq_id": 571,
+        "canonical_position": 571,
+        "aa": "N"
+      },
+      {
+        "query_index": 62,
+        "template_label_seq_id": 62,
+        "deposited_label_seq_id": 550,
+        "deposited_auth_seq_id": 572,
+        "canonical_position": 572,
+        "aa": "G"
+      },
+      {
+        "query_index": 63,
+        "template_label_seq_id": 63,
+        "deposited_label_seq_id": 551,
+        "deposited_auth_seq_id": 573,
+        "canonical_position": 573,
+        "aa": "S"
+      },
+      {
+        "query_index": 64,
+        "template_label_seq_id": 64,
+        "deposited_label_seq_id": 552,
+        "deposited_auth_seq_id": 574,
+        "canonical_position": 574,
+        "aa": "V"
+      },
+      {
+        "query_index": 65,
+        "template_label_seq_id": 65,
+        "deposited_label_seq_id": 553,
+        "deposited_auth_seq_id": 575,
+        "canonical_position": 575,
+        "aa": "T"
+      },
+      {
+        "query_index": 66,
+        "template_label_seq_id": 66,
+        "deposited_label_seq_id": 554,
+        "deposited_auth_seq_id": 576,
+        "canonical_position": 576,
+        "aa": "C"
+      },
+      {
+        "query_index": 67,
+        "template_label_seq_id": 67,
+        "deposited_label_seq_id": 555,
+        "deposited_auth_seq_id": 577,
+        "canonical_position": 577,
+        "aa": "F"
+      },
+      {
+        "query_index": 68,
+        "template_label_seq_id": 68,
+        "deposited_label_seq_id": 556,
+        "deposited_auth_seq_id": 578,
+        "canonical_position": 578,
+        "aa": "G"
+      },
+      {
+        "query_index": 69,
+        "template_label_seq_id": 69,
+        "deposited_label_seq_id": 557,
+        "deposited_auth_seq_id": 579,
+        "canonical_position": 579,
+        "aa": "P"
+      },
+      {
+        "query_index": 70,
+        "template_label_seq_id": 70,
+        "deposited_label_seq_id": 558,
+        "deposited_auth_seq_id": 580,
+        "canonical_position": 580,
+        "aa": "E"
+      },
+      {
+        "query_index": 71,
+        "template_label_seq_id": 71,
+        "deposited_label_seq_id": 559,
+        "deposited_auth_seq_id": 581,
+        "canonical_position": 581,
+        "aa": "A"
+      },
+      {
+        "query_index": 72,
+        "template_label_seq_id": 72,
+        "deposited_label_seq_id": 560,
+        "deposited_auth_seq_id": 582,
+        "canonical_position": 582,
+        "aa": "D"
+      },
+      {
+        "query_index": 73,
+        "template_label_seq_id": 73,
+        "deposited_label_seq_id": 561,
+        "deposited_auth_seq_id": 583,
+        "canonical_position": 583,
+        "aa": "Q"
+      },
+      {
+        "query_index": 74,
+        "template_label_seq_id": 74,
+        "deposited_label_seq_id": 562,
+        "deposited_auth_seq_id": 584,
+        "canonical_position": 584,
+        "aa": "C"
+      },
+      {
+        "query_index": 75,
+        "template_label_seq_id": 75,
+        "deposited_label_seq_id": 563,
+        "deposited_auth_seq_id": 585,
+        "canonical_position": 585,
+        "aa": "V"
+      },
+      {
+        "query_index": 76,
+        "template_label_seq_id": 76,
+        "deposited_label_seq_id": 564,
+        "deposited_auth_seq_id": 586,
+        "canonical_position": 586,
+        "aa": "A"
+      },
+      {
+        "query_index": 77,
+        "template_label_seq_id": 77,
+        "deposited_label_seq_id": 565,
+        "deposited_auth_seq_id": 587,
+        "canonical_position": 587,
+        "aa": "C"
+      },
+      {
+        "query_index": 78,
+        "template_label_seq_id": 78,
+        "deposited_label_seq_id": 566,
+        "deposited_auth_seq_id": 588,
+        "canonical_position": 588,
+        "aa": "A"
+      },
+      {
+        "query_index": 79,
+        "template_label_seq_id": 79,
+        "deposited_label_seq_id": 567,
+        "deposited_auth_seq_id": 589,
+        "canonical_position": 589,
+        "aa": "H"
+      },
+      {
+        "query_index": 80,
+        "template_label_seq_id": 80,
+        "deposited_label_seq_id": 568,
+        "deposited_auth_seq_id": 590,
+        "canonical_position": 590,
+        "aa": "Y"
+      },
+      {
+        "query_index": 81,
+        "template_label_seq_id": 81,
+        "deposited_label_seq_id": 569,
+        "deposited_auth_seq_id": 591,
+        "canonical_position": 591,
+        "aa": "K"
+      },
+      {
+        "query_index": 82,
+        "template_label_seq_id": 82,
+        "deposited_label_seq_id": 570,
+        "deposited_auth_seq_id": 592,
+        "canonical_position": 592,
+        "aa": "D"
+      },
+      {
+        "query_index": 83,
+        "template_label_seq_id": 83,
+        "deposited_label_seq_id": 571,
+        "deposited_auth_seq_id": 593,
+        "canonical_position": 593,
+        "aa": "P"
+      },
+      {
+        "query_index": 84,
+        "template_label_seq_id": 84,
+        "deposited_label_seq_id": 572,
+        "deposited_auth_seq_id": 594,
+        "canonical_position": 594,
+        "aa": "P"
+      },
+      {
+        "query_index": 85,
+        "template_label_seq_id": 85,
+        "deposited_label_seq_id": 573,
+        "deposited_auth_seq_id": 595,
+        "canonical_position": 595,
+        "aa": "F"
+      },
+      {
+        "query_index": 86,
+        "template_label_seq_id": 86,
+        "deposited_label_seq_id": 574,
+        "deposited_auth_seq_id": 596,
+        "canonical_position": 596,
+        "aa": "C"
+      },
+      {
+        "query_index": 87,
+        "template_label_seq_id": 87,
+        "deposited_label_seq_id": 575,
+        "deposited_auth_seq_id": 597,
+        "canonical_position": 597,
+        "aa": "V"
+      },
+      {
+        "query_index": 88,
+        "template_label_seq_id": 88,
+        "deposited_label_seq_id": 576,
+        "deposited_auth_seq_id": 598,
+        "canonical_position": 598,
+        "aa": "A"
+      },
+      {
+        "query_index": 89,
+        "template_label_seq_id": 89,
+        "deposited_label_seq_id": 577,
+        "deposited_auth_seq_id": 599,
+        "canonical_position": 599,
+        "aa": "R"
+      },
+      {
+        "query_index": 90,
+        "template_label_seq_id": 90,
+        "deposited_label_seq_id": 578,
+        "deposited_auth_seq_id": 600,
+        "canonical_position": 600,
+        "aa": "C"
+      },
+      {
+        "query_index": 91,
+        "template_label_seq_id": 91,
+        "deposited_label_seq_id": 579,
+        "deposited_auth_seq_id": 601,
+        "canonical_position": 601,
+        "aa": "P"
+      },
+      {
+        "query_index": 92,
+        "template_label_seq_id": 92,
+        "deposited_label_seq_id": 580,
+        "deposited_auth_seq_id": 602,
+        "canonical_position": 602,
+        "aa": "S"
+      },
+      {
+        "query_index": 93,
+        "template_label_seq_id": 93,
+        "deposited_label_seq_id": 581,
+        "deposited_auth_seq_id": 603,
+        "canonical_position": 603,
+        "aa": "G"
+      },
+      {
+        "query_index": 94,
+        "template_label_seq_id": 94,
+        "deposited_label_seq_id": 582,
+        "deposited_auth_seq_id": 604,
+        "canonical_position": 604,
+        "aa": "V"
+      },
+      {
+        "query_index": 95,
+        "template_label_seq_id": 95,
+        "deposited_label_seq_id": 583,
+        "deposited_auth_seq_id": 605,
+        "canonical_position": 605,
+        "aa": "K"
+      },
+      {
+        "query_index": 96,
+        "template_label_seq_id": 96,
+        "deposited_label_seq_id": 584,
+        "deposited_auth_seq_id": 606,
+        "canonical_position": 606,
+        "aa": "P"
+      },
+      {
+        "query_index": 97,
+        "template_label_seq_id": 97,
+        "deposited_label_seq_id": 585,
+        "deposited_auth_seq_id": 607,
+        "canonical_position": 607,
+        "aa": "D"
+      },
+      {
+        "query_index": 98,
+        "template_label_seq_id": 98,
+        "deposited_label_seq_id": 586,
+        "deposited_auth_seq_id": 608,
+        "canonical_position": 608,
+        "aa": "L"
+      },
+      {
+        "query_index": 99,
+        "template_label_seq_id": 99,
+        "deposited_label_seq_id": 587,
+        "deposited_auth_seq_id": 609,
+        "canonical_position": 609,
+        "aa": "S"
+      },
+      {
+        "query_index": 100,
+        "template_label_seq_id": 100,
+        "deposited_label_seq_id": 588,
+        "deposited_auth_seq_id": 610,
+        "canonical_position": 610,
+        "aa": "Y"
+      },
+      {
+        "query_index": 101,
+        "template_label_seq_id": 101,
+        "deposited_label_seq_id": 589,
+        "deposited_auth_seq_id": 611,
+        "canonical_position": 611,
+        "aa": "M"
+      },
+      {
+        "query_index": 102,
+        "template_label_seq_id": 102,
+        "deposited_label_seq_id": 590,
+        "deposited_auth_seq_id": 612,
+        "canonical_position": 612,
+        "aa": "P"
+      },
+      {
+        "query_index": 103,
+        "template_label_seq_id": 103,
+        "deposited_label_seq_id": 591,
+        "deposited_auth_seq_id": 613,
+        "canonical_position": 613,
+        "aa": "I"
+      },
+      {
+        "query_index": 104,
+        "template_label_seq_id": 104,
+        "deposited_label_seq_id": 592,
+        "deposited_auth_seq_id": 614,
+        "canonical_position": 614,
+        "aa": "W"
+      },
+      {
+        "query_index": 105,
+        "template_label_seq_id": 105,
+        "deposited_label_seq_id": 593,
+        "deposited_auth_seq_id": 615,
+        "canonical_position": 615,
+        "aa": "K"
+      },
+      {
+        "query_index": 106,
+        "template_label_seq_id": 106,
+        "deposited_label_seq_id": 594,
+        "deposited_auth_seq_id": 616,
+        "canonical_position": 616,
+        "aa": "F"
+      },
+      {
+        "query_index": 107,
+        "template_label_seq_id": 107,
+        "deposited_label_seq_id": 595,
+        "deposited_auth_seq_id": 617,
+        "canonical_position": 617,
+        "aa": "P"
+      },
+      {
+        "query_index": 108,
+        "template_label_seq_id": 108,
+        "deposited_label_seq_id": 596,
+        "deposited_auth_seq_id": 618,
+        "canonical_position": 618,
+        "aa": "D"
+      },
+      {
+        "query_index": 109,
+        "template_label_seq_id": 109,
+        "deposited_label_seq_id": 597,
+        "deposited_auth_seq_id": 619,
+        "canonical_position": 619,
+        "aa": "E"
+      },
+      {
+        "query_index": 110,
+        "template_label_seq_id": 110,
+        "deposited_label_seq_id": 598,
+        "deposited_auth_seq_id": 620,
+        "canonical_position": 620,
+        "aa": "E"
+      },
+      {
+        "query_index": 111,
+        "template_label_seq_id": 111,
+        "deposited_label_seq_id": 599,
+        "deposited_auth_seq_id": 621,
+        "canonical_position": 621,
+        "aa": "G"
+      },
+      {
+        "query_index": 112,
+        "template_label_seq_id": 112,
+        "deposited_label_seq_id": 600,
+        "deposited_auth_seq_id": 622,
+        "canonical_position": 622,
+        "aa": "A"
+      },
+      {
+        "query_index": 113,
+        "template_label_seq_id": 113,
+        "deposited_label_seq_id": 601,
+        "deposited_auth_seq_id": 623,
+        "canonical_position": 623,
+        "aa": "C"
+      },
+      {
+        "query_index": 114,
+        "template_label_seq_id": 114,
+        "deposited_label_seq_id": 602,
+        "deposited_auth_seq_id": 624,
+        "canonical_position": 624,
+        "aa": "Q"
+      },
+      {
+        "query_index": 115,
+        "template_label_seq_id": 115,
+        "deposited_label_seq_id": 603,
+        "deposited_auth_seq_id": 625,
+        "canonical_position": 625,
+        "aa": "P"
+      },
+      {
+        "query_index": 116,
+        "template_label_seq_id": 116,
+        "deposited_label_seq_id": 604,
+        "deposited_auth_seq_id": 626,
+        "canonical_position": 626,
+        "aa": "C"
+      },
+      {
+        "query_index": 117,
+        "template_label_seq_id": 117,
+        "deposited_label_seq_id": 605,
+        "deposited_auth_seq_id": 627,
+        "canonical_position": 627,
+        "aa": "P"
+      },
+      {
+        "query_index": 118,
+        "template_label_seq_id": 118,
+        "deposited_label_seq_id": 606,
+        "deposited_auth_seq_id": 628,
+        "canonical_position": 628,
+        "aa": "I"
+      },
+      {
+        "query_index": 119,
+        "template_label_seq_id": 119,
+        "deposited_label_seq_id": 607,
+        "deposited_auth_seq_id": 629,
+        "canonical_position": 629,
+        "aa": "N"
+      }
+    ],
+    "internal_disulfides_p04626": [
+      [
+        511,
+        520
+      ],
+      [
+        515,
+        528
+      ],
+      [
+        531,
+        540
+      ],
+      [
+        544,
+        560
+      ],
+      [
+        563,
+        576
+      ],
+      [
+        567,
+        584
+      ],
+      [
+        587,
+        596
+      ],
+      [
+        600,
+        623
+      ]
+    ],
+    "disulfides_crossing_crop_boundary_p04626": [
+      [
+        626,
+        634
+      ]
+    ]
+  },
+  "panel": [
+    {
+      "query_id": "control_wt",
+      "vh_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGGDGFYAMDYWGQGTLVTVSS",
+      "vl_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "vh_sha256": "8b8998709aa9423e89f2c0b71328bf9702d979ecd1ce6d64a3671c60e353f454",
+      "vl_sha256": "54785c99f723d6189985caeb5db492bdb8ca3b0f77dd99c7e7b707f0868b4732",
+      "cdrh3": "WGGDGFYAMD",
+      "kd_nM": 0.152,
+      "all_wt_kd_nM": [
+        0.152,
+        0.123,
+        0.146,
+        0.165,
+        0.178,
+        0.0378713,
+        0.02851802,
+        0.07916459
+      ]
+    },
+    {
+      "query_id": "control_facs_low",
+      "vh_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWSMFGHYMFAYWGQGTLVTVSS",
+      "vl_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "vh_sha256": "76e4aaa6784442c2102a6d6489d5a9e8d89231ae00477c497c0d4ad52ed7c2da",
+      "vl_sha256": "54785c99f723d6189985caeb5db492bdb8ca3b0f77dd99c7e7b707f0868b4732",
+      "cdrh3": "WSMFGHYMFA",
+      "facs_class": "low"
+    },
+    {
+      "query_id": "control_spr_strong",
+      "vh_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGSQGFYAYDYWGQGTLVTVSS",
+      "vl_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "vh_sha256": "3dfd86d02fceede07460f9bf3f70d9b6ed7c5864dd16e86976bd61bd5c8150e4",
+      "vl_sha256": "54785c99f723d6189985caeb5db492bdb8ca3b0f77dd99c7e7b707f0868b4732",
+      "cdrh3": "WGSQGFYAYD",
+      "kd_nM": 0.02343889
+    },
+    {
+      "query_id": "control_spr_weak",
+      "vh_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRYLLNGVFVFDYWGQGTLVTVSS",
+      "vl_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "vh_sha256": "5f62e951eb3a19ea36f8387d9f19ddae8ed632a97e91d31aa280d2e9b18ae6d1",
+      "vl_sha256": "54785c99f723d6189985caeb5db492bdb8ca3b0f77dd99c7e7b707f0868b4732",
+      "cdrh3": "YLLNGVFVFD",
+      "kd_nM": 13863.16
+    }
+  ],
+  "arms": {
+    "complete": {
+      "template": "complete-target.cif",
+      "query": "queries.json",
+      "masked_canonical_positions": [],
+      "coordinate_residues": 119,
+      "atom_count": 912
+    },
+    "masked": {
+      "template": "masked-target.cif",
+      "query": "queries.json",
+      "masked_canonical_positions": [
+        603,
+        604,
+        605,
+        606,
+        607,
+        608,
+        609,
+        610,
+        611,
+        612
+      ],
+      "coordinate_residues": 109,
+      "atom_count": 836
+    }
+  },
+  "run": {
+    "model": "protenix-v2",
+    "msa": false,
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "samples": [
+      1,
+      2
+    ],
+    "expected_poses": 48
+  },
+  "artifact_sha256": {
+    "queries.json": "481a0a4c4de707fb6769d0ab6dfd70ec0a8a3ba09e981824719f3611f3794140",
+    "complete-target.cif": "7f0642f0319952d7e78aede7756a808df661c43b947509b32a7415f0b44a2cd7",
+    "masked-target.cif": "b8e0a0dce6ee474510e69edd81b8d2d46c79e8667586db33e3f5eec40f5e384c"
+  }
+}

@@ -1,0 +1,11 @@
+# Ranked research draft policy
+
+The later organizer clarification requires at least 28 designs, recommends about 30 and takes the top N rows. This supersedes the PDF's earlier count limit. A six-column draft of 30 rows is prepared for review, with an explicit track and priority repeated in the free-text description. No submission is authorized or performed by this export.
+
+Start from the 52 installed-tool passes. Exclude any mismatch between the declared track and the installed novelty regime. Preserve all ten optimization variants in their earlier FACS/SPR Pareto-diversity shortlist order. Do not replace that order based on later neural comparisons on reused labels.
+
+For de novo, take twenty from the remaining 41 using a fixed greedy sequence screen. Prefer fewer high-severity motif occurrences, then larger minimum paired sequence edit distance to previously selected de novo rows, then larger nearest-reference CDRH3 edit distance and finally lexical ID. Paired distance is Levenshtein(VH) plus Levenshtein(VL); use zero for the initial empty selected set. These are selection heuristics, not calibrated affinity or Tm predictions. The optimization SPR model is not transferred to redesigned de novo frameworks.
+
+Interleave three optimization designs then one de novo until the optimization set is exhausted, followed by the remaining de novo rows. The first four slots therefore contain three optimization variants and one de novo. The full review draft contains ten optimization and twenty de novo designs, including two reserve rows beyond the maximum stated 28 slots. This allocation reflects the stronger measured-data ranking evidence for optimization and still covers both tracks at the base allocation. It remains a review choice, not a mathematically optimal biological allocation.
+
+Before use, revalidate all thirty exact six-column rows with the installed tool, retain the declared track despite its output dropping that field, verify row/priority agreement and record source hashes. Name the eventual file after the actual team channel and send only to that channel tagging Davide when the user authorizes submission. The current `team-3` filename is a placeholder from the VM label.

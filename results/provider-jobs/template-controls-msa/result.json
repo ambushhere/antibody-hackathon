@@ -1,0 +1,127 @@
+{
+  "model_id": "msa-search-pdb70",
+  "operation": {
+    "id": "op-7016870328a13127",
+    "status": "SUCCEEDED"
+  },
+  "result": {
+    "metrics": {
+      "search_type": "colabfold"
+    },
+    "alignments": {
+      "pdb70_220313": {
+        "a3m": {
+          "alignment": ">query\nCHQLCARGHCWGPGPTQCVNCSQFLRGQECVEECRVLQGLPREYVNARHCLPCHPECQPQNGSVTCFGPEADQCVACAHYKDPPFCVARCPSGVKPDLSYMPIWKFPDEEGACQPCPIN\n>6J71_A\nCHQLCARGHCWGPGPTQCVNCSQFLRGQECVEECRVLQGLPREYVNARHCLPCHPECQPQNGSVTCFGPEADQCVACAHYKDPPFCVARCPSGVKPDLSYMPIWKFPDEEGACQPCPIN\n>5MY6_A\nCHQLCARGHCWGPGPTQCVNCSQFLRGQECVEECRVLQGLPREYVNARHCLPCHPECQPQNGSVTCFGPEADQCVACAHYKDPPFCVARCPSGVKPDLSYMPIWKFPDEEGACQPCPIN\n>7MN5_B\nCHQLCARGHCWGPGPTQCVNCSQFLRGQECVEECRVLQGLPREYVNARHCLPCHPECQPQNGSVTCFGPEADQCVACAHYKDPPFCVARCPSGVKPDLSYMPIWKFPDEEGACQPCPIN\n>7MN8_B\nCHQLCARGHCWGPGPTQCVNCSQFLRGQECVEECRVLQGLPREYVNARHCLPCHPECQPQNGSVTCFGPEADQCVACAHYKDPPFCVARCPSGVKPDLSYMPIWKFPDEEGACQPCPIN\n>6LBX_B\n--------------------CSQFLRGQECVEECRVLQGLPREYVNARHCLPCHPECQPQNGSVTCFGPEADQCVACAHYKDPPFCVARCPSGVKPDLSYMPIWKFPDEEGACQPC---\n>3WSQ_A\nCHQLCARGHCWGPGPTQCVNCSQFLRGQECVEECRVLQGLPREYVNARHCLPCHPECQPQNGSVTCFGPEADQCVA-------------------------------------------\n>7BHF_D\nCDPLCSSGGCWGPGPGQCLSCRNYSRGGVCVTHCNFLNGEPREFAHEAECFSCHPECQPMEGTATCNGSGSDTCAQCAHFRDGPHCVSSCPHGVL--GAKGPIYKYPDVQNECRPC---\n>1M6B_B\nCDPLCSSGGCWGPGPGQCLSCRNYSRGGVCVTHCNFLNGEPREFAHEAECFSCHPECQPMEGTATCNGSGSDTCAQCAHFRDGPHCVSSCPHGVL--GAKGPIYKYPDVQNECRPC---\n>4LEO_C\nCDPLCSSGGCWGPGPGQCLSCRNYSRGGVCVTHCNFLNGEPREFAHEAECFSCHPECQPMEGTATCNGSGSDTCAQCAHFRDGPHCVSSCPHGVL--GAKGPIYKYPDVQNECRPC---\n>4P59_A\nCDPLCSSGGCWGPGPGQCLSCRNYSRGGVCVTHCNFLNGEPREFAHEAECFSCHPECQPMEGTATCNGSGSDTCAQCAHFRDGPHCVSSCPHGVL--GAKGPIYKYPDVQNECRPC---\n>7MN5_A\nCDPLCSSGGCWGPGPGQCLSCRNYSRGGVCVTHCNFLNGEPREFAHEAECFSCHPECQPMEGTATCNGSGSDTCAQCAHFRDGPHCVSSCPHGVL--GAKGPIYKYPDVQNECRPC---\n>7MN6_A\nCDPLCSSGGCWGPGPGQCLSCRNYSRGGVCVTHCNFLNGEPREFAHEAECFSCHPECQPMEGTATCNGSGSDTCAQCAHFRDGPHCVSSCPHGVL--GAKGPIYKYPDVQNECRPC---\n>3NJP_B\nCHALCSPEGCWGPEPRDCVSCRNVSRGRECVDKCKLLEGEPREFVENSECIQCHPECLPQAMNITCTGRGPDNCIQCAHYIDGPHCVKTCPAGVMGENNTL-VWKYADAGHVCHLC---\n>4UV7_A\nCHALCSPEGCWGPEPRDCVSCRNVSRGRECVDKCNLLEGEPREFVENSECIQCHPECLPQAMNITCTGRGPDNCIQCAHYIDGPHCVKTCPAGVMGENNTL-VWKYADAGHVCHLC---\n>3QWQ_A\nCHALCSPEGCWGPEPRDCVSCRNVSRGRECVDKCNLLEGEPREFVENSECIQCHPECLPQAMNITCTGRGPDNCIQCAHYIDGPHCVKTCPAGVMGENNTL-VWKYADAGHVCHLC---\n>7SZ0_B\nCHALCSPEGCWGPEPRDCVSCRNVSRGRECVDKCNLLEGEPREFVENSECIQCHPECLPQAMNITCTGRGPDNCIQCAHYIDGPHCVKTCPAGVMGENNTL-VWKYADAGHVCHLC---\n>7SYD_A\nCHALCSPEGCWGPEPRDCVSCRNVSRGRECVDKCNLLEGEPREFVENSECIQCHPECLPQAMNITCTGRGPDNCIQCAHYIDGPHCVKTCPAGVMGENNTL-VWKYADAGHVCHLC---\n>3U7U_D\nCNHLCSSDGCWGPGPDQCLSCRRFSRGRICIESCNLYDGEFREFENDSICVECDPQCEKmEDGLLTCHGPGPDNCTKCSHFKDGPNCVEKCPDGLQGANSF--IFKYADPDRECHPC---\n>2AHX_A\nCNHLCSSDGCWGPGPDQCLSCRRFSRGRICIESCNLYDGEFREFENDSICVECDPQCEKmEDGLLTCHGPGPDNCTKCSHFKDGPNCVEKCPDGLQGANSF--IFKYADPDRECHPC---\n>2AHX_B\nCNHLCSSDGCWGPGPDQCLSCRRFSRGRICIESCNLYDGEFREFENDSICVECDPQCEKmEDGLLTCHGPGPDNCTKCSHFKDGPNCVEKCPDGLQGANSF--IFKYADPDRECHPC---\n>3P11_A\nCHEVC-KGRCWGPGSEDCQTLTKTICAPQCNGHC--------FGPNPNQC--CHDEC-----AGGCSGPQDTDCFACRHFNDSGACVPRCP----------------------------\n>3I2T_A\nCSDQCNEDGCWGAGTDQCLNCKNFNFNGTCIADCGYISNAYK--FDNRTCKICHPECR------TCNGAGADHCQECVH----------------------------------------\n>2A91_A\nCHQLCAKGHCWGPGPTQCVN---------------------------------------------------------------------------------------------------\n>3U2P_A\nCHKSCT-GRCWGPTENHCQTLTRTVCAEQCDGRCY------GPYVS--DC--CHREC-----AGGCSGPKDTDCFACMNFNDSGACVTQCP----------------------------\n>1MOX_B\nCDPSCPNGSCWGAGEENCQKLTKIICAQQCSGRCR--------GKSPSDC--CHNQC-----AAGCTGPRESDCLVCRKFRDEATCKDTCP----------------------------\n>5WB7_A\nCDPSCPNGSCWGAGEENCQKLTKIICAQQCSGRCR--------GKSPSDC--CHNQC-----AAGCTGPRESDCLVCRKFRDEATCKDTCP----------------------------\n>3P0Y_A\nCHALCSPEGCWGPEPRDCVSCRNVSRGRECVDK--------------------------------------------------------------------------------------\n>7D85_A\nCDPLCSSGGCWGPGPGQCL----------------------------------------------------------------------------------------------------\n>7KD6_W\nCHSEC-LGNCSQPdDPTKCVACRNFYLDGRCVETC-------------------------------------------------------------------------------------\n>4XSS_E\nCHSEC-LGNCSQPdDPTKCVACRNFYLDGRCVETC-------------------------------------------------------------------------------------\n>2HR7_A\nCHSEC-LGNCSQPdDPTKCVACRNFYLDGRCVETC-------------------------------------------------------------------------------------\n>5KQV_E\nCHSEC-LGNCSQPdDPTKCVACRNFYLDGRCVETC-------------------------------------------------------------------------------------\n>5KQV_F\nCHSEC-LGNCSQPdDPTKCVACRNFYLDGRCVETC-------------------------------------------------------------------------------------\n>6SOF_C\nCHSEC-LGNCSQPdDPTKCVACRNFYLDGRCVETC-------------------------------------------------------------------------------------\n>7QID_A\nCHSEC-LGNCSQPdDPTKCVACRNFYLDGRCVETC-------------------------------------------------------------------------------------\n>4ZXB_E\nCHSEC-LGNCSQPdDPTKCVACRNFYLDGRCVETC-------------------------------------------------------------------------------------\n>6HN5_F\nCHSEC-LGNCSQPdDPTKCVACRNFYLDGRCVETC-------------------------------------------------------------------------------------\n>6PXV_A\nCHSEC-LGNCSQPdDPTKCVACRNFYLDGRCVETC-------------------------------------------------------------------------------------\n>6PXW_A\nCHSEC-LGNCSQPdDPTKCVACRNFYLDGRCVETC-------------------------------------------------------------------------------------\n>5SX5_M\nCHALCSPEGCWGPEPRDCV----------------------------------------------------------------------------------------------------\n>5H7V_A\n-------------------NKNNYLREEECILACRGVQGPSME---RRHPV-CSGTCQP------------------------------------------------------------\n>4E4D_R\n----------------ECVYCSPVCKELQSVkQECnrthnRVCECEEGRYLEIEFCLK-HRSCPPGSGVVQAGTPE-------------------------------------------------\n",
+          "format": "a3m"
+        }
+      }
+    }
+  },
+  "response": {
+    "operation_id": "op-7016870328a13127",
+    "attempt_id": "op-7016870328a13127-9gzm2",
+    "http_status": 200,
+    "content_type": "application/json",
+    "size_bytes": 5718,
+    "sha256": "96f3409367a08bf811d75514ec155e25f1f3713e2bc916163d98175e51aafaa1",
+    "timings": {
+      "posted_at": "2026-11-14T14:38:12Z",
+      "first_byte_at": "2026-11-14T14:38:19Z",
+      "completed_at": "2026-11-14T14:38:19Z",
+      "duration_s": 7.302487
+    },
+    "capture_complete": true,
+    "artifact": {
+      "artifact_id": "5fbd1f1a-86d1-5841-a16f-6f577833a9f8",
+      "sha256": "96f3409367a08bf811d75514ec155e25f1f3713e2bc916163d98175e51aafaa1",
+      "size_bytes": 5718,
+      "media_type": "application/json",
+      "compression": "none"
+    }
+  },
+  "upstream_success": true,
+  "customer_storage": {
+    "available": true,
+    "bucket": "fs2-oslo-hackathon-participant-04-0c4c5bd9fa",
+    "prefix": "her2-template-controls-20261114/msa/op-7016870328a13127/",
+    "manifest_key": "her2-template-controls-20261114/msa/op-7016870328a13127/manifest.json",
+    "files": [
+      {
+        "path": "artifacts/5fbd1f1a-86d1-5841-a16f-6f577833a9f8.json",
+        "sha256": "96f3409367a08bf811d75514ec155e25f1f3713e2bc916163d98175e51aafaa1",
+        "size_bytes": 5718,
+        "key": "her2-template-controls-20261114/msa/op-7016870328a13127/artifacts/5fbd1f1a-86d1-5841-a16f-6f577833a9f8.json"
+      },
+      {
+        "path": "result.json",
+        "sha256": "fe04812b3e8c3b91af1ea4c75b31378e9d729e003ffffd88f79ca9d53878a79b",
+        "size_bytes": 6464,
+        "key": "her2-template-controls-20261114/msa/op-7016870328a13127/result.json"
+      }
+    ]
+  },
+  "progress": {
+    "schema": "scientific-ai/progress/v1",
+    "updated_at": null,
+    "current_step_id": null,
+    "steps": [
+      {
+        "step_id": "delivered_calls",
+        "command": null,
+        "state": "completed",
+        "unit": "call",
+        "initial_step": null,
+        "target_step": null,
+        "observed_step": null,
+        "durable_step": null,
+        "timestep_ps": null,
+        "completed_ns": null,
+        "durable_completed_ns": null,
+        "target_ns": null,
+        "ns_per_day": null,
+        "ns_per_day_source": null,
+        "completed_units": 1,
+        "durable_completed_units": 1,
+        "target_units": null,
+        "rate": null,
+        "rate_unit": null,
+        "rate_source": null,
+        "rate_window_seconds": null,
+        "observed_at": null,
+        "durable_at": null,
+        "rate_updated_at": null
+      },
+      {
+        "step_id": "aligned_sequences",
+        "command": null,
+        "state": "completed",
+        "unit": "sequence",
+        "initial_step": null,
+        "target_step": null,
+        "observed_step": null,
+        "durable_step": null,
+        "timestep_ps": null,
+        "completed_ns": null,
+        "durable_completed_ns": null,
+        "target_ns": null,
+        "ns_per_day": null,
+        "ns_per_day_source": null,
+        "completed_units": null,
+        "durable_completed_units": null,
+        "target_units": null,
+        "rate": null,
+        "rate_unit": null,
+        "rate_source": null,
+        "rate_window_seconds": null,
+        "observed_at": null,
+        "durable_at": null,
+        "rate_updated_at": null
+      }
+    ],
+    "available": true,
+    "stale": false,
+    "stale_after_seconds": null,
+    "source": "verified-delivery"
+  },
+  "execution": "async"
+}

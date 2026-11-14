@@ -1,0 +1,13 @@
+{
+  "source_operation": "op-7016870328a13127",
+  "database": "pdb70_220313",
+  "total_rows_including_query": 43,
+  "unique_aligned_sequences": 18,
+  "query_length": 119,
+  "a3m_sha256": "dfe58225ad54a75494f9db6e647d8e9c6e9048bb8708addc729a12759a9e63b5",
+  "query_sha256": "1e079745f5855331f422ec196280ae55fe5c69931d434e2fe86216512dc648bc",
+  "treatment": "Raw provider alignment retained, no quality-selected rows; lower-case insertion residues excluded from width checks",
+  "model_inputs": "HER2 target MSA only; VH and VL remain msa_path null",
+  "queries_sha256": "c1dbf19065dfd5e048e7dc15b14885fb8f23aa4607295c47e77a3c33a9b7f21c",
+  "template_sha256": "7f0642f0319952d7e78aede7756a808df661c43b947509b32a7415f0b44a2cd7"
+}

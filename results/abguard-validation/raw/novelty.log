@@ -1,0 +1,3 @@
+WARNING  --no-novelty: prior art was not checked, so is_novel_enough is null rather than true for any design that clears the trastuzumab comparison
+INFO     candidates.csv: 53 of 53 design(s) are novel enough
+INFO     wrote 53 rows to novelty.json

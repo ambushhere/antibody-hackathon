@@ -1,0 +1,432 @@
+{
+  "status": "retrospective diagnostic on previously viewed outcomes; no candidate promotion",
+  "input": {
+    "path": "results/neural-all-benchmark/oof_predictions.csv",
+    "sha256": "95e8dfbbfeb2a7d6daef8cc4582252ef3a341c29f1869eb4503977ec8140150e"
+  },
+  "code_sha256": "744f40fdd7da6fdee9fdbd0effe2e86e7f90748ee6412dacb436c2d5db087421",
+  "rules": {
+    "transformer_seed_mean": "Mean of seeds 0,1,2",
+    "position_transformer_half": "0.5 position + 0.5 seed mean",
+    "pairwise_transformer_half": "0.5 pairwise + 0.5 seed mean"
+  },
+  "bootstrap": {
+    "draws": 2000,
+    "seed": 0,
+    "method": "Paired group resampling of fixed OOF predictions, no refits or multiplicity adjustment"
+  },
+  "subsets": {
+    "pooled": {
+      "n": 158,
+      "groups": 115,
+      "metrics": {
+        "position_ridge": {
+          "spearman": {
+            "estimate": 0.6127403292354852,
+            "95_percent": [
+              0.447920445087779,
+              0.7036567603721446
+            ],
+            "valid_draws": 2000
+          },
+          "rmse": {
+            "estimate": 0.7406030519189885,
+            "95_percent": [
+              0.6266600447609615,
+              0.8204969529542581
+            ],
+            "valid_draws": 2000
+          }
+        },
+        "position_pairwise_ridge": {
+          "spearman": {
+            "estimate": 0.6484714845435837,
+            "95_percent": [
+              0.4648307102752571,
+              0.7472513256703744
+            ],
+            "valid_draws": 2000
+          },
+          "rmse": {
+            "estimate": 0.6869062452754807,
+            "95_percent": [
+              0.6024016581298935,
+              0.7689748295679832
+            ],
+            "valid_draws": 2000
+          }
+        },
+        "transformer_seed_mean": {
+          "spearman": {
+            "estimate": 0.48276764330167554,
+            "95_percent": [
+              0.3183701320238081,
+              0.5949166231297488
+            ],
+            "valid_draws": 2000
+          },
+          "rmse": {
+            "estimate": 0.8390991813854247,
+            "95_percent": [
+              0.7075307070257916,
+              0.9395285583160119
+            ],
+            "valid_draws": 2000
+          }
+        },
+        "position_transformer_half": {
+          "spearman": {
+            "estimate": 0.6012624866435402,
+            "95_percent": [
+              0.44696896863870544,
+              0.6900827932825478
+            ],
+            "valid_draws": 2000
+          },
+          "rmse": {
+            "estimate": 0.7590450374368943,
+            "95_percent": [
+              0.6279447411669536,
+              0.8516011989102308
+            ],
+            "valid_draws": 2000
+          }
+        },
+        "pairwise_transformer_half": {
+          "spearman": {
+            "estimate": 0.6265304741123547,
+            "95_percent": [
+              0.4530926242166654,
+              0.7236512591755507
+            ],
+            "valid_draws": 2000
+          },
+          "rmse": {
+            "estimate": 0.7309215203952071,
+            "95_percent": [
+              0.6199631555505488,
+              0.8162239272277665
+            ],
+            "valid_draws": 2000
+          }
+        }
+      },
+      "paired_differences": {
+        "transformer_seed_mean minus position_ridge": {
+          "spearman": {
+            "estimate": -0.12997268593380962,
+            "95_percent": [
+              -0.2483922385933802,
+              0.0034118107578039107
+            ],
+            "valid_draws": 2000
+          },
+          "rmse": {
+            "estimate": 0.09849612946643627,
+            "95_percent": [
+              0.03264805334966231,
+              0.16559879126989382
+            ],
+            "valid_draws": 2000
+          }
+        },
+        "transformer_seed_mean minus position_pairwise_ridge": {
+          "spearman": {
+            "estimate": -0.16570384124190818,
+            "95_percent": [
+              -0.26395131064549665,
+              -0.02159103933469596
+            ],
+            "valid_draws": 2000
+          },
+          "rmse": {
+            "estimate": 0.152192936109944,
+            "95_percent": [
+              0.05513315768301027,
+              0.2220077629159457
+            ],
+            "valid_draws": 2000
+          }
+        },
+        "position_transformer_half minus position_ridge": {
+          "spearman": {
+            "estimate": -0.011477842591944953,
+            "95_percent": [
+              -0.06286351661476403,
+              0.05494561126961554
+            ],
+            "valid_draws": 2000
+          },
+          "rmse": {
+            "estimate": 0.01844198551790588,
+            "95_percent": [
+              -0.024527956861236426,
+              0.05308015652434827
+            ],
+            "valid_draws": 2000
+          }
+        },
+        "position_transformer_half minus position_pairwise_ridge": {
+          "spearman": {
+            "estimate": -0.047208997900043514,
+            "95_percent": [
+              -0.1027030961768567,
+              0.044343019691856556
+            ],
+            "valid_draws": 2000
+          },
+          "rmse": {
+            "estimate": 0.07213879216141361,
+            "95_percent": [
+              -0.016103925704682262,
+              0.1315563413160932
+            ],
+            "valid_draws": 2000
+          }
+        },
+        "pairwise_transformer_half minus position_ridge": {
+          "spearman": {
+            "estimate": 0.013790144876869581,
+            "95_percent": [
+              -0.06476308970611377,
+              0.08678438509454905
+            ],
+            "valid_draws": 2000
+          },
+          "rmse": {
+            "estimate": -0.009681531523781373,
+            "95_percent": [
+              -0.04992326318650301,
+              0.04354686977409848
+            ],
+            "valid_draws": 2000
+          }
+        },
+        "pairwise_transformer_half minus position_pairwise_ridge": {
+          "spearman": {
+            "estimate": -0.02194101043122898,
+            "95_percent": [
+              -0.07026054686306957,
+              0.04384030536589997
+            ],
+            "valid_draws": 2000
+          },
+          "rmse": {
+            "estimate": 0.04401527511972636,
+            "95_percent": [
+              -0.01062721371882875,
+              0.08332970006677638
+            ],
+            "valid_draws": 2000
+          }
+        }
+      }
+    },
+    "distant75": {
+      "n": 75,
+      "groups": 67,
+      "metrics": {
+        "position_ridge": {
+          "spearman": {
+            "estimate": 0.42476013011369396,
+            "95_percent": [
+              0.2030945941283099,
+              0.6077952724339729
+            ],
+            "valid_draws": 2000
+          },
+          "rmse": {
+            "estimate": 0.6248928511343438,
+            "95_percent": [
+              0.5186793118762824,
+              0.7302675850185177
+            ],
+            "valid_draws": 2000
+          }
+        },
+        "position_pairwise_ridge": {
+          "spearman": {
+            "estimate": 0.47177393553987473,
+            "95_percent": [
+              0.2667872125959283,
+              0.6354819800670747
+            ],
+            "valid_draws": 2000
+          },
+          "rmse": {
+            "estimate": 0.5786688613466581,
+            "95_percent": [
+              0.4825494224717638,
+              0.6816143364529876
+            ],
+            "valid_draws": 2000
+          }
+        },
+        "transformer_seed_mean": {
+          "spearman": {
+            "estimate": 0.5018030257833445,
+            "95_percent": [
+              0.29498600728596297,
+              0.6676242337968673
+            ],
+            "valid_draws": 2000
+          },
+          "rmse": {
+            "estimate": 0.6465856808060355,
+            "95_percent": [
+              0.515913192741124,
+              0.7924344889055869
+            ],
+            "valid_draws": 2000
+          }
+        },
+        "position_transformer_half": {
+          "spearman": {
+            "estimate": 0.5047333870292728,
+            "95_percent": [
+              0.29759512276296357,
+              0.6664959201728566
+            ],
+            "valid_draws": 2000
+          },
+          "rmse": {
+            "estimate": 0.5867360222809228,
+            "95_percent": [
+              0.4703345485103872,
+              0.710733991683792
+            ],
+            "valid_draws": 2000
+          }
+        },
+        "pairwise_transformer_half": {
+          "spearman": {
+            "estimate": 0.5266399711007762,
+            "95_percent": [
+              0.31526850972988524,
+              0.6859924784709568
+            ],
+            "valid_draws": 2000
+          },
+          "rmse": {
+            "estimate": 0.5697035218126043,
+            "95_percent": [
+              0.45149309001768734,
+              0.6944688204315307
+            ],
+            "valid_draws": 2000
+          }
+        }
+      },
+      "paired_differences": {
+        "transformer_seed_mean minus position_ridge": {
+          "spearman": {
+            "estimate": 0.0770428956696505,
+            "95_percent": [
+              -0.10163372245922936,
+              0.2680312015905267
+            ],
+            "valid_draws": 2000
+          },
+          "rmse": {
+            "estimate": 0.021692829671691727,
+            "95_percent": [
+              -0.09268136687922734,
+              0.11834402432606948
+            ],
+            "valid_draws": 2000
+          }
+        },
+        "transformer_seed_mean minus position_pairwise_ridge": {
+          "spearman": {
+            "estimate": 0.030029090243469725,
+            "95_percent": [
+              -0.12363233306797246,
+              0.207251782918286
+            ],
+            "valid_draws": 2000
+          },
+          "rmse": {
+            "estimate": 0.06791681945937744,
+            "95_percent": [
+              -0.03195345907885113,
+              0.15589993598130697
+            ],
+            "valid_draws": 2000
+          }
+        },
+        "position_transformer_half minus position_ridge": {
+          "spearman": {
+            "estimate": 0.07997325691557888,
+            "95_percent": [
+              -0.017334365536873068,
+              0.18758506013031553
+            ],
+            "valid_draws": 2000
+          },
+          "rmse": {
+            "estimate": -0.038156828853420977,
+            "95_percent": [
+              -0.11101853215015857,
+              0.0203978285862799
+            ],
+            "valid_draws": 2000
+          }
+        },
+        "position_transformer_half minus position_pairwise_ridge": {
+          "spearman": {
+            "estimate": 0.032959451489398106,
+            "95_percent": [
+              -0.074821302165206,
+              0.1507335045985822
+            ],
+            "valid_draws": 2000
+          },
+          "rmse": {
+            "estimate": 0.008067160934264739,
+            "95_percent": [
+              -0.06869547222706662,
+              0.0662215463997876
+            ],
+            "valid_draws": 2000
+          }
+        },
+        "pairwise_transformer_half minus position_ridge": {
+          "spearman": {
+            "estimate": 0.10187984098708225,
+            "95_percent": [
+              -0.04322798653417006,
+              0.2548477525805184
+            ],
+            "valid_draws": 2000
+          },
+          "rmse": {
+            "estimate": -0.05518932932173948,
+            "95_percent": [
+              -0.14148116185991605,
+              0.018827448234163754
+            ],
+            "valid_draws": 2000
+          }
+        },
+        "pairwise_transformer_half minus position_pairwise_ridge": {
+          "spearman": {
+            "estimate": 0.05486603556090147,
+            "95_percent": [
+              -0.052559766481190304,
+              0.16631539661331537
+            ],
+            "valid_draws": 2000
+          },
+          "rmse": {
+            "estimate": -0.008965339534053762,
+            "95_percent": [
+              -0.06842604779196795,
+              0.0414979822347812
+            ],
+            "valid_draws": 2000
+          }
+        }
+      }
+    }
+  }
+}

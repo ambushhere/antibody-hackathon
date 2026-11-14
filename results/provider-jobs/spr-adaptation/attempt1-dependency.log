@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/hackathon/almaz/work/spr-adaptation-20261114/scripts/benchmark_spr_finetune.py", line 16, in <module>
+    from scripts import rank_spr_candidates as frozen
+  File "/home/hackathon/almaz/work/spr-adaptation-20261114/scripts/rank_spr_candidates.py", line 15, in <module>
+    from rapidfuzz import process
+ModuleNotFoundError: No module named 'rapidfuzz'

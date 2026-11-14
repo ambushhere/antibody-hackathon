@@ -1,0 +1,21 @@
+{
+  "status": "30_of_30_pass_installed_abguard_not_submitted",
+  "input_sha256": "6bde64fc843d7334807b32bb0deda2c57c7104ab1ef5da828c1b0833622a6919",
+  "script_sha256": "28ad1bd83a30b2bb71e774a7d37671ef784cd336b5c036056419169698e50480",
+  "validation_output_sha256": "20d1822af18254d44ddfcebb1c102af359e960e78a8e022f4bb8ce7eb83d0be3",
+  "policy_commit": "8c9e111",
+  "counts_by_declared_track": {
+    "optimization": 10,
+    "denovo": 20
+  },
+  "priority_matches_row_order": true,
+  "first_four_tracks": [
+    "optimization",
+    "optimization",
+    "optimization",
+    "denovo"
+  ],
+  "track_field_removed_by_installed_tool": true,
+  "root_independent_replay_csv_identical": true,
+  "binding_epitope_thermal": "not_measured"
+}
