@@ -6,15 +6,19 @@ Our AI × Antibodies hackathon project explores two routes to HER2 binders: chan
 
 [Final two-slide pitch](output/selection-slide/her2-selection-and-evidence-en.pptx) · [Team CSV](output/submission-draft/epitope-hunters.csv) · [Pitch narrative](PITCH.md) · [Execution guide](docs/EXECUTION_EN.md) · [Experiment results](docs/EXPERIMENT_INDEX.md)
 
-[![Animated overview: optimization and de novo converge into 30 ranked candidates](docs/assets/her2-pipeline.gif)](docs/assets/her2-pipeline.mp4)
-
-[Watch the 8-second video](docs/assets/her2-pipeline.mp4) · [Static version](docs/assets/her2-pipeline-poster.png) · [Animation source](videos/her2-pipeline/README.md)
-
 ## Why we took this approach
+
+Our pitch opened with a joke about our starting point:
+
+> Our first literature review taught us that breast cancer is bad. That was about it. (More usefully, it showed us what to focus on: binding affinity, epitope preservation and thermal stability, with ipTM as a structural-confidence check.)
 
 We came to the challenge with more experience in software and machine learning than in antibody biology. Literature review made the limits clear: a plausible structure or a confident model score does not establish a better antibody. With expensive laboratory experiments and few available slots, we chose to ground our optimization decisions in existing measurements.
 
 The two supplied datasets gave us both evidence and a design boundary. FACS provided screening labels for a large library of trastuzumab variants. SPR provided quantitative binding measurements for a smaller set. We followed that experimental setup: keep the known antibody framework and vary the same ten-residue window within CDRH3. This made our learning problem narrower and our assumptions easier to test. It is why we spent more time on optimization.
+
+![From an antibody tip to the ten-residue design window within CDRH3](docs/assets/intuition/loop.png)
+
+The highlighted window sits within one of the six CDR loops at an antigen-binding site. The drawing is schematic.
 
 For de novo, we used the supplied Apheris RFD4-Proteina workflow and its antibody/HER2 checkpoints to explore new heavy/light chain pairs. It was a relevant, available generator for the challenge. We did not establish that it was the largest or universally best model. Our [training-data inspection](docs/research/rfd4-training-data.md) examined public metadata, not the exact undisclosed training set of the Apheris HER2 fine-tune.
 
@@ -54,7 +58,13 @@ flowchart TB
 
 ### Optimization
 
+[![Four illustrative substitutions change the design window while the surrounding scaffold stays fixed](docs/assets/intuition/mutations.gif)](docs/assets/intuition/mutations.mp4)
+
+Only selected letters change. This example illustrates substitutions, not a validated or submitted design. [Static illustration](docs/assets/intuition/mutations.png) · [Sources and rendering](videos/her2-intuition/README.md).
+
 The FACS classifier uses individual amino acids and pairs of positions to predict the high-signal class. The SPR ridge uses **10 positions × 20 amino acids = 200 features** to predict `−log10(KD in nM)`. Higher SPR scores predict tighter binding, but candidate KD values remain uncalibrated. The two models predict different experimental outcomes, so we keep their scores separate.
+
+For example, “G at position 2 **and** Y at position 7” is one binary feature. Replacing Y with F switches that feature off and a different pair feature on. The model learns a weight for each combination; this does not assert physical contact between the residues. The positions shown belong to the ten-residue library window.
 
 We generated 10,000 statistical proposals. The expanded screen combined 739 statistical candidates with four earlier RFD4 optimization-pilot designs; 124 of these 743 passed the strict gates. Ten diverse candidates were selected from the FACS/SPR Pareto shortlist. The final ranking retains the original positional SPR model; later pairwise and neural comparisons did not change that frozen order. [Scoring report](results/spr-expanded-ranking/report.md).
 
