@@ -4,7 +4,7 @@
 
 Our AI × Antibodies hackathon project explores two routes to HER2 binders: changing a small region of trastuzumab and generating new antibody pairs with RFD4-Proteina. We prepared a ranked list of **30 candidates: 10 optimization and 20 de novo**.
 
-[Final two-slide pitch](output/selection-slide/her2-selection-and-evidence-en.pptx) · [Team CSV](output/submission-draft/epitope-hunters.csv) · [Pitch narrative](PITCH.md) · [Execution guide](docs/EXECUTION_EN.md) · [Experiment results](docs/EXPERIMENT_INDEX.md)
+[Final two-slide pitch](output/selection-slide/her2-selection-and-evidence-en.pptx) · [Team CSV](output/submission-draft/epitope-hunters.csv) · [Pitch narrative](PITCH.md) · [Execution guide](docs/EXECUTION_EN.md) · [Experiment results](docs/EXPERIMENT_INDEX.md) · [Our team](#our-team)
 
 ## Why we took this approach
 
@@ -119,6 +119,17 @@ For CPU tests, install the same dependencies as [CI](.github/workflows/tests.yml
 [English plain-language explanation](docs/PIPELINE_EXPLAINED_EN.md) · [Russian explanation](docs/PIPELINE_EXPLAINED_RU.md) · [PDF guides](output/pdf/README.md)
 
 The plain-language guides and earlier decks are dated research snapshots. The final pitch above is the presentation of record. Historical setup and planning documents record changing assumptions; the result reports and final selection policy take precedence when they differ.
+
+## Our team
+
+Epitope Hunters brought together four teammates with backgrounds in machine learning, software engineering, biotechnology and computational biology.
+
+| Team member | Background | Contact and profiles |
+| --- | --- | --- |
+| Almaz Ermilov | Machine learning and engineering design | [almaz.ermilov@gmail.com](mailto:almaz.ermilov@gmail.com) · [LinkedIn](https://www.linkedin.com/in/almazermilov/) · [GitHub](https://github.com/AlmazErmilov) |
+| Dmitri Kuzkin | Software, cloud and DevOps engineering; VFX pipeline infrastructure | [kuzkindmitri@gmail.com](mailto:kuzkindmitri@gmail.com) · [LinkedIn](https://www.linkedin.com/in/kuzkindmitriy/) · [GitHub](https://github.com/ambushhere) |
+| Faiza Iqbal | Biotechnology and biomedical sciences | |
+| Beatrice Pastorino | Biotechnology, bioinformatics and computational biology | [beatricepastorino@hotmail.com](mailto:beatricepastorino@hotmail.com) · [LinkedIn](https://www.linkedin.com/in/beatrice-pastorino-138b371a0/) |
 
 ## The hackathon and its partners
 
