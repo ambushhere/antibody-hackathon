@@ -1,0 +1,581 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1200, height=640">
+  <title>Epitope Hunters</title>
+  <script src="./assets/gsap-3.15.0.min.js"></script>
+  <style>
+    @font-face {
+      font-family: "EB Garamond";
+      src: url("./assets/EBGaramond-700.woff2") format("woff2");
+      font-weight: 700;
+    }
+
+    @font-face {
+      font-family: Inter;
+      src: url("./assets/Inter-400.woff2") format("woff2");
+      font-weight: 400;
+    }
+
+    @font-face {
+      font-family: Inter;
+      src: url("./assets/Inter-700.woff2") format("woff2");
+      font-weight: 700;
+    }
+
+    :root {
+      --navy: #101c2a;
+      --ivory: #f3e9d8;
+      --muted: #b7c5cc;
+      --rule: #3c4c58;
+      --teal: #75d9c2;
+      --amber: #f7be77;
+      --teal-line: #4c857e;
+      --amber-line: #99744c;
+      --tile: #192b34;
+      --tile-border: #466770;
+      --tile-lit: #295c55;
+      --tile-settled: #1e393e;
+      --tile-settled-border: #5f9e92;
+      --paper: #eee3cf;
+      --paper-lit: #f8efde;
+      --paper-rule: #b1a693;
+      --ink: #182632;
+      --paper-muted: #514b42;
+      --paper-teal: #195952;
+      --paper-amber: #75451a;
+      --display: "EB Garamond", serif;
+      --body: Inter, sans-serif;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--navy);
+      color: var(--ivory);
+      font-family: var(--body);
+    }
+
+    h1, h2, p, figure { margin: 0; }
+    svg { display: block; }
+
+    #stage {
+      position: relative;
+      width: 1200px;
+      height: 640px;
+      overflow: hidden;
+      background:
+        radial-gradient(ellipse at 17% 38%, rgba(40, 99, 97, 0.17), transparent 52%),
+        radial-gradient(ellipse at 94% 39%, rgba(125, 79, 43, 0.13), transparent 48%),
+        var(--navy);
+    }
+
+    .clip {
+      position: absolute;
+      inset: 0;
+      display: grid;
+      grid-template-rows: 160px 272px 73px 93px;
+      padding: 21px 60px;
+    }
+
+    .masthead {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--rule);
+    }
+
+    h1 {
+      font-family: var(--display);
+      font-size: 76px;
+      line-height: 1.1;
+      letter-spacing: -0.045em;
+    }
+
+    .subtitle {
+      margin-top: 6px;
+      color: var(--muted);
+      font-size: 26px;
+      line-height: 1.2;
+    }
+
+    .target {
+      margin-bottom: 2px;
+      color: var(--muted);
+      font-size: 21px;
+      line-height: 1.3;
+    }
+
+    .lanes {
+      position: relative;
+      display: grid;
+      grid-template-columns: 552px 1fr;
+      gap: 72px;
+    }
+
+    .lanes::after {
+      position: absolute;
+      top: 21px;
+      bottom: 17px;
+      left: 588px;
+      width: 1px;
+      background: var(--rule);
+      content: "";
+    }
+
+    .route {
+      display: grid;
+      grid-template-rows: 64px 154px 54px;
+    }
+
+    .optimization { --accent: var(--teal); }
+    .de-novo { --accent: var(--amber); }
+
+    .route h2 {
+      align-self: center;
+      color: var(--accent);
+      font-family: var(--display);
+      font-size: 45px;
+      font-weight: 700;
+      line-height: 1;
+      letter-spacing: -0.025em;
+    }
+
+    .optimization-diagram, .de-novo-diagram {
+      display: grid;
+      align-items: center;
+    }
+
+    .optimization-diagram {
+      grid-template-columns: 124px 1fr;
+      gap: 18px;
+    }
+
+    .scaffold {
+      text-align: center;
+    }
+
+    .scaffold figcaption {
+      margin-top: 2px;
+      color: var(--muted);
+      font-size: 18px;
+      line-height: 1.18;
+    }
+
+    .scaffold figcaption span { display: block; }
+
+    .scaffold-chains {
+      fill: none;
+      stroke: var(--muted);
+      stroke-width: 7;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .scaffold-window {
+      fill: none;
+      stroke: var(--teal);
+      stroke-width: 7;
+      stroke-linecap: round;
+    }
+
+    .window-guide {
+      fill: none;
+      stroke: var(--teal-line);
+      stroke-width: 1.5;
+      stroke-dasharray: 3 4;
+    }
+
+    .sequence {
+      position: relative;
+    }
+
+    .sequence::before {
+      position: absolute;
+      top: 60px;
+      right: 100%;
+      width: 18px;
+      border-top: 1.5px dashed var(--teal-line);
+      content: "";
+    }
+
+    .window-label, .pair-label {
+      font-size: 25px;
+      font-weight: 700;
+      line-height: 1.15;
+      letter-spacing: -0.035em;
+    }
+
+    .tiles {
+      display: grid;
+      grid-template-columns: repeat(10, 1fr);
+      gap: 5px;
+      margin: 9px 0;
+    }
+
+    .residue {
+      display: grid;
+      height: 46px;
+      place-items: center;
+      border: 1px solid var(--tile-border);
+      border-radius: 4px;
+      background: var(--tile);
+      color: var(--ivory);
+      font-size: 26px;
+      font-weight: 700;
+      line-height: 1;
+    }
+
+    .sequence-key {
+      color: var(--muted);
+      font-size: 19px;
+      line-height: 1.15;
+    }
+
+    .de-novo-diagram {
+      grid-template-columns: 1fr 183px;
+      gap: 12px;
+    }
+
+    .generator {
+      margin-bottom: 8px;
+      color: var(--muted);
+      font-size: 21px;
+      line-height: 1.15;
+    }
+
+    .domain-base {
+      fill: var(--amber);
+      fill-opacity: 0.09;
+      stroke: var(--amber-line);
+      stroke-width: 2.1;
+    }
+
+    .domain-detail {
+      fill: none;
+      stroke: var(--amber-line);
+      stroke-width: 1.8;
+      stroke-linecap: round;
+    }
+
+    .domain-label {
+      fill: var(--ivory);
+      font: 700 19px var(--body);
+      text-anchor: middle;
+    }
+
+    .evidence {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+
+    .evidence-item {
+      position: relative;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      min-width: 0;
+      border-top: 1px solid var(--rule);
+      color: var(--muted);
+      font-size: 21px;
+      line-height: 1.16;
+    }
+
+    .evidence-item strong { color: var(--accent); }
+
+    .evidence-accent {
+      position: absolute;
+      inset: -1px 0 auto;
+      height: 2px;
+      background: var(--accent);
+      opacity: 0;
+      transform-origin: left center;
+    }
+
+    .flow {
+      width: 100%;
+      height: 100%;
+      fill: none;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .flow-base { stroke-width: 2; }
+    .teal-base { stroke: var(--teal-line); }
+    .amber-base { stroke: var(--amber-line); }
+    .shared-base { stroke: var(--muted); }
+
+    .trace {
+      fill: none;
+      stroke-width: 2.7;
+      stroke-linejoin: round;
+      stroke-dasharray: 1 1.02;
+      stroke-dashoffset: 1.02;
+      opacity: 0;
+    }
+
+    .teal-trace { stroke: var(--teal); }
+    .amber-trace { stroke: var(--amber); }
+    .shared-trace { stroke: var(--ivory); }
+    .junction { fill: var(--ivory); }
+    .teal-port { fill: var(--teal); }
+    .amber-port { fill: var(--amber); }
+
+    .outcome {
+      display: grid;
+      grid-template-columns: 1.17fr 0.83fr;
+      align-items: stretch;
+      border-radius: 3px;
+      background: var(--paper);
+      color: var(--ink);
+    }
+
+    .shortlist {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      padding-inline: 24px 10px;
+    }
+
+    .count {
+      min-width: 89px;
+      margin-top: -5px;
+      font-family: var(--display);
+      font-size: 86px;
+      font-weight: 700;
+      line-height: 0.86;
+      letter-spacing: -0.07em;
+    }
+
+    .result-title, .lab-title {
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 1.14;
+      letter-spacing: -0.035em;
+    }
+
+    .split {
+      display: flex;
+      gap: 11px;
+      margin-top: 4px;
+      font-size: 20px;
+      line-height: 1.2;
+    }
+
+    .split-optimization { color: var(--paper-teal); }
+    .split-de-novo { color: var(--paper-amber); }
+    .split-mark { color: var(--paper-muted); }
+
+    .next {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      padding-inline: 21px 16px;
+      background: rgba(24, 38, 50, 0.055);
+      border-left: 1px solid var(--paper-rule);
+      border-radius: 0 3px 3px 0;
+    }
+
+    .next-label {
+      margin-bottom: 4px;
+      color: var(--paper-muted);
+      font-size: 17px;
+      font-weight: 700;
+      line-height: 1;
+      text-transform: uppercase;
+      letter-spacing: 0.11em;
+    }
+
+    .next-arrow {
+      flex: 0 0 36px;
+      fill: none;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .arrow-base { stroke: var(--paper-muted); stroke-width: 1.65; }
+    .arrow-trace { stroke: var(--ink); }
+  </style>
+</head>
+<body>
+  <main id="stage" data-composition-id="main" data-start="0" data-duration="8"
+    data-width="1200" data-height="640" data-fps="24">
+    <section id="design-routes" class="clip" data-start="0" data-duration="8" data-track-index="0"
+      aria-labelledby="title">
+      <header class="masthead">
+        <div>
+          <h1 id="title">Epitope Hunters</h1>
+          <p class="subtitle">Measured data. Two design routes.</p>
+        </div>
+        <p class="target">HER2 antibody design</p>
+      </header>
+
+      <div class="lanes">
+        <section class="route optimization" aria-labelledby="optimization-title">
+          <h2 id="optimization-title">Optimization</h2>
+          <div class="optimization-diagram">
+            <figure class="scaffold">
+              <svg width="124" height="88" viewBox="0 0 124 88" aria-hidden="true">
+                <path class="scaffold-chains" d="M27 12 51 40 Q55 45 55 54 V79 M91 12 67 40 Q63 45 63 54 V79 M15 22 37 47 M103 22 81 47"/>
+                <path class="scaffold-window" d="m91 12-8 9"/>
+                <path class="window-guide" d="M94 8 H105 Q111 8 111 14 V62 Q111 68 117 68 H124"/>
+              </svg>
+              <figcaption><span>Trastuzumab</span><span>Fixed scaffold</span></figcaption>
+            </figure>
+
+            <div class="sequence">
+              <p class="window-label">10-residue CDRH3 window</p>
+              <div class="tiles" role="img" aria-label="Wild-type sequence WGGDGFYAMD">
+                <span class="residue">W</span>
+                <span class="residue">G</span>
+                <span class="residue">G</span>
+                <span class="residue">D</span>
+                <span class="residue">G</span>
+                <span class="residue">F</span>
+                <span class="residue">Y</span>
+                <span class="residue">A</span>
+                <span class="residue">M</span>
+                <span class="residue">D</span>
+              </div>
+              <p class="sequence-key">Wild type · Variable positions</p>
+            </div>
+          </div>
+
+          <div class="evidence">
+            <p class="evidence-item"><span class="evidence-accent"></span><strong>FACS</strong> Screening class</p>
+            <p class="evidence-item"><span class="evidence-accent"></span><strong>SPR</strong> Binding rank</p>
+          </div>
+        </section>
+
+        <section class="route de-novo" aria-labelledby="denovo-title">
+          <h2 id="denovo-title">De novo</h2>
+          <div class="de-novo-diagram">
+            <div>
+              <p class="generator">RFD4-Proteina</p>
+              <p class="pair-label">New VH / VL pairs</p>
+            </div>
+
+            <svg width="183" height="136" viewBox="0 0 183 136" aria-hidden="true">
+              <defs>
+                <path id="vh-contour" pathLength="1"
+                  d="M14 34 C9 21 16 12 28 12 H48 C62 12 70 22 70 36 L72 49 C72 58 80 63 81 74 L83 91 C84 106 74 117 60 117 H47 C34 117 24 109 23 96 L21 74 C21 62 30 57 24 48 Z"/>
+                <path id="vl-contour" pathLength="1"
+                  d="M100 50 C101 37 111 29 123 29 H146 C159 29 167 37 166 50 C166 59 157 64 159 75 L160 91 C161 106 150 116 136 116 H123 C108 116 99 107 100 94 L102 79 C103 70 95 67 97 57 Z"/>
+              </defs>
+              <use href="#vh-contour" class="domain-base"/>
+              <use href="#vl-contour" class="domain-base"/>
+              <path class="domain-detail" d="M24 38 H47 Q56 38 57 48 M118 51 H155 M34 94 H66 M110 94 H149"/>
+              <path class="domain-detail" d="M88 80 H94 M89 90 H94" stroke-dasharray="2 3"/>
+              <use href="#vh-contour" id="vh-draw" class="trace amber-trace"/>
+              <use href="#vl-contour" id="vl-draw" class="trace amber-trace"/>
+              <text class="domain-label" x="52" y="81">VH</text>
+              <text class="domain-label" x="130" y="81">VL</text>
+            </svg>
+          </div>
+
+          <p class="evidence-item"><span class="evidence-accent"></span>Sequence checks + diversity</p>
+        </section>
+      </div>
+
+      <svg class="flow" viewBox="0 0 1080 73" aria-hidden="true">
+        <defs>
+          <path id="optimization-rail" pathLength="1"
+            d="M276 1 V13 Q276 28 291 28 H507 Q518 28 525 37 L540 54"/>
+          <path id="denovo-rail" pathLength="1"
+            d="M852 1 V13 Q852 28 837 28 H573 Q562 28 555 37 L540 54"/>
+          <path id="shared-rail" pathLength="1" d="M540 54 V73"/>
+        </defs>
+        <use href="#optimization-rail" class="flow-base teal-base"/>
+        <use href="#denovo-rail" class="flow-base amber-base"/>
+        <use href="#shared-rail" class="flow-base shared-base"/>
+        <use href="#optimization-rail" id="optimization-draw" class="trace teal-trace"/>
+        <use href="#denovo-rail" id="denovo-draw" class="trace amber-trace"/>
+        <use href="#shared-rail" id="shared-draw" class="trace shared-trace"/>
+        <circle class="teal-port" cx="276" cy="3" r="3"/>
+        <circle class="amber-port" cx="852" cy="3" r="3"/>
+        <circle id="junction" class="junction" cx="540" cy="54" r="3"/>
+      </svg>
+
+      <div class="outcome">
+        <div class="shortlist">
+          <span class="count">30</span>
+          <div>
+            <p class="result-title">Ranked candidates</p>
+            <p class="split"><strong class="split-optimization">10 optimization</strong><span class="split-mark">·</span><strong class="split-de-novo">20 de novo</strong></p>
+          </div>
+        </div>
+
+        <div class="next">
+          <svg class="next-arrow" width="36" height="30" viewBox="0 0 36 30" aria-hidden="true">
+            <path class="arrow-base" d="M2 15 H31 L23 7 M31 15 L23 23"/>
+            <path id="next-draw" class="trace arrow-trace" pathLength="1"
+              d="M2 15 H31 L23 7 L31 15 L23 23"/>
+          </svg>
+          <div>
+            <p class="next-label">Next</p>
+            <p class="lab-title">Laboratory validation</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const stage = document.getElementById("stage");
+    const colors = getComputedStyle(stage);
+    const color = (name) => colors.getPropertyValue(name).trim();
+    const tl = gsap.timeline({ paused: true });
+
+    function trace(target, start, duration, ease) {
+      tl.to(target, { strokeDashoffset: 0, opacity: 1, duration, ease }, start);
+    }
+
+    tl.to(".residue", {
+      backgroundColor: color("--tile-lit"),
+      borderColor: color("--teal"),
+      duration: 0.32,
+      stagger: 0.052,
+      ease: "power2.out"
+    }, 0.28);
+    tl.to(".residue", {
+      backgroundColor: color("--tile-settled"),
+      borderColor: color("--tile-settled-border"),
+      duration: 0.39,
+      stagger: 0.052,
+      ease: "sine.inOut"
+    }, 0.94);
+    tl.fromTo(".optimization .evidence-accent",
+      { scaleX: 0, opacity: 0 },
+      { scaleX: 1, opacity: 0.74, duration: 0.48, stagger: 0.14, ease: "power3.out" },
+      1.3
+    );
+
+    trace("#vh-draw", 2.24, 1.04, "power2.inOut");
+    trace("#vl-draw", 2.47, 1.03, "sine.inOut");
+    tl.fromTo(".de-novo .evidence-accent",
+      { scaleX: 0, opacity: 0 },
+      { scaleX: 1, opacity: 0.74, duration: 0.46, ease: "power4.out" },
+      3.13
+    );
+
+    trace("#optimization-draw", 3.42, 1.4, "power1.inOut");
+    trace("#denovo-draw", 3.56, 1.26, "power1.inOut");
+    trace("#shared-draw", 4.82, 0.28, "circ.out");
+    tl.to("#junction", { attr: { r: 5 }, duration: 0.28, ease: "power3.out" }, 4.82);
+    tl.to(".outcome", {
+      backgroundColor: color("--paper-lit"),
+      duration: 0.73,
+      ease: "sine.out"
+    }, 4.92);
+    trace("#next-draw", 5.65, 0.55, "expo.out");
+
+    window.__timelines = window.__timelines || {};
+    window.__timelines[stage.dataset.compositionId] = tl;
+    tl.seek(0);
+  </script>
+</body>
+</html>

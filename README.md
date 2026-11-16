@@ -6,6 +6,10 @@ Our AI × Antibodies hackathon project explores two routes to HER2 binders: chan
 
 [Final two-slide pitch](output/selection-slide/her2-selection-and-evidence-en.pptx) · [Team CSV](output/submission-draft/epitope-hunters.csv) · [Pitch narrative](PITCH.md) · [Execution guide](docs/EXECUTION_EN.md) · [Experiment results](docs/EXPERIMENT_INDEX.md)
 
+[![Animated overview: optimization and de novo converge into 30 ranked candidates](docs/assets/her2-pipeline.gif)](docs/assets/her2-pipeline.mp4)
+
+[Watch the 8-second video](docs/assets/her2-pipeline.mp4) · [Static version](docs/assets/her2-pipeline-poster.png) · [Animation source](videos/her2-pipeline/README.md)
+
 ## Why we took this approach
 
 We came to the challenge with more experience in software and machine learning than in antibody biology. Literature review made the limits clear: a plausible structure or a confident model score does not establish a better antibody. With expensive laboratory experiments and few available slots, we chose to ground our optimization decisions in existing measurements.
@@ -105,3 +109,11 @@ For CPU tests, install the same dependencies as [CI](.github/workflows/tests.yml
 [English plain-language explanation](docs/PIPELINE_EXPLAINED_EN.md) · [Russian explanation](docs/PIPELINE_EXPLAINED_RU.md) · [PDF guides](output/pdf/README.md)
 
 The plain-language guides and earlier decks are dated research snapshots. The final pitch above is the presentation of record. Historical setup and planning documents record changing assumptions; the result reports and final selection policy take precedence when they differ.
+
+## The hackathon and its partners
+
+Built at **AI × Antibodies, Oslo, 14 November 2026**, organized by Nucleate Norway. The original partner artwork and roles below come from the [official event website](https://oslo-ai-antibodies-hackathon.vercel.app/) and [organizer listing](https://luma.com/16qoctcz).
+
+[![AI × Antibodies organizer and event partner logos](docs/assets/event-partners.png)](https://oslo-ai-antibodies-hackathon.vercel.app/)
+
+[Artwork sources and attribution](docs/assets/brands/README.md)

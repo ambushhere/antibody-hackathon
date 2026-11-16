@@ -1,0 +1,106 @@
+[
+  {
+    "name": "apheris",
+    "file": "apheris.png",
+    "source": "https://oslo-ai-antibodies-hackathon.vercel.app/apheris.png",
+    "retrieved": "2026-11-16",
+    "sha256": "3c67fa4ee2c566cb0530759db5ca21b101feacfd1e39fb68ce15e4ffee71047e",
+    "bytes": 4086
+  },
+  {
+    "name": "openfold",
+    "file": "openfold.png",
+    "source": "https://oslo-ai-antibodies-hackathon.vercel.app/openfold_logo.png",
+    "retrieved": "2026-11-16",
+    "sha256": "489d5b7a95572c7a0cf9c87692fd0865a4b4c9fbc298b4ca0729f94cff5573c3",
+    "bytes": 9364
+  },
+  {
+    "name": "oslo-cancer-cluster",
+    "file": "oslo-cancer-cluster.png",
+    "source": "https://oslo-ai-antibodies-hackathon.vercel.app/#partners (embedded image)",
+    "retrieved": "2026-11-16",
+    "sha256": "6e2968aa52c8e8df5f6cab71145355fee3852565aca3fc8630cb72bb5cae3e05",
+    "bytes": 29765
+  },
+  {
+    "name": "bi-startup-village",
+    "file": "bi-startup-village.png",
+    "source": "https://oslo-ai-antibodies-hackathon.vercel.app/bi_startup_village.png",
+    "retrieved": "2026-11-16",
+    "sha256": "3ab5f9ce4ee54b039b62a492a92763179c4a42f13c866872f76d857174eb91a7",
+    "bytes": 109446
+  },
+  {
+    "name": "anthropic",
+    "file": "anthropic.png",
+    "source": "https://oslo-ai-antibodies-hackathon.vercel.app/anthropic.png",
+    "retrieved": "2026-11-16",
+    "sha256": "d78e968b2ea752eeadbe939bbcef3512512f2661048d2cc92e2af473f4b7472d",
+    "bytes": 9891
+  },
+  {
+    "name": "tenstorrent-aiand",
+    "file": "tenstorrent-aiand.png",
+    "source": "https://oslo-ai-antibodies-hackathon.vercel.app/tenstorrent-aiand-dark-1600.png",
+    "retrieved": "2026-11-16",
+    "sha256": "4f9fd1dab76247dfef81c982bc3ecfba6785c6db141253c6b36746407fba1373",
+    "bytes": 30075
+  },
+  {
+    "name": "nebius",
+    "file": "nebius.png",
+    "source": "https://oslo-ai-antibodies-hackathon.vercel.app/NEBIUS-outline-white.png",
+    "retrieved": "2026-11-16",
+    "sha256": "fcd0bacb3166ab874c4b24ff9c3c40338d0906ac6dc556198780a8ac677894d7",
+    "bytes": 16044
+  },
+  {
+    "name": "adaptyv",
+    "file": "adaptyv.png",
+    "source": "https://oslo-ai-antibodies-hackathon.vercel.app/adaptyv.png",
+    "retrieved": "2026-11-16",
+    "sha256": "92428a9b83f2f363ac0a2cc23347f20802d0aeda96c92c25c40dd603633d1bd8",
+    "bytes": 6503
+  },
+  {
+    "name": "amass",
+    "file": "amass.svg",
+    "source": "https://oslo-ai-antibodies-hackathon.vercel.app/Amass-logo-Inline-footer.svg",
+    "retrieved": "2026-11-16",
+    "sha256": "75eafb8cc672c143a83895e901987df09f66e8df5cf81fbc66318095bede1bd9",
+    "bytes": 3714
+  },
+  {
+    "name": "nucleate-norway",
+    "file": "nucleate-norway.svg",
+    "source": "https://oslo-ai-antibodies-hackathon.vercel.app/#partners (embedded image)",
+    "retrieved": "2026-11-16",
+    "sha256": "8d8f1c4918859e2c0b957deb80f819a816c289c22fc5a22c1ecc68d144d83bd1",
+    "bytes": 5632
+  },
+  {
+    "name": "girls-who-ml",
+    "file": "girls-who-ml.png",
+    "source": "https://oslo-ai-antibodies-hackathon.vercel.app/gwml.png",
+    "retrieved": "2026-11-16",
+    "sha256": "24431bdfe010def4a9e4f36ce580cce51ea4aec896e2c0025df0fb2323a23dd0",
+    "bytes": 5031
+  },
+  {
+    "name": "yogutide",
+    "file": "yogutide.png",
+    "source": "https://oslo-ai-antibodies-hackathon.vercel.app/yogutide.png",
+    "retrieved": "2026-11-16",
+    "sha256": "49991852294cb77acf8350bed280f6377bf6f1cbb9cd1d608b0ba1e71417db81",
+    "bytes": 22950
+  },
+  {
+    "name": "tekna-biotech",
+    "file": "tekna-biotech.png",
+    "source": "https://oslo-ai-antibodies-hackathon.vercel.app/tekna.png",
+    "retrieved": "2026-11-16",
+    "sha256": "5b189bf3bd23b42988a51dc7d4929c2061186762eb73ca75a963a8c1f07f3615",
+    "bytes": 8331
+  }
+]
