@@ -1,0 +1,17 @@
+{
+  "duration_s": 8,
+  "fps": 24,
+  "canvas": { "w": 960, "h": 440, "aspect": "24:11" },
+  "poster_s": 5.7,
+  "style": "Editorial scientific schematic",
+  "palette": ["#f7f4ed", "#142c3d", "#536575", "#197d74", "#a45b08"],
+  "font": "Geist and Geist",
+  "audio": "silent",
+  "beats": [
+    { "start": 0, "end": 0.55, "action": "Locate one Fab tip on a whole IgG." },
+    { "start": 0.55, "end": 2.08, "action": "Magnify the variable domains from the circled tip. Show three loops per domain." },
+    { "start": 2.08, "end": 4.18, "action": "Ring CDRH3 on VH and magnify its trace. Teal marks the design window between muted ends." },
+    { "start": 4.18, "end": 6.21, "action": "Hold the complete three-scale view." },
+    { "start": 6.21, "end": 8, "action": "Ease the two magnifications back to the opening frame." }
+  ]
+}

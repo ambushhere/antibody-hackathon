@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Four substitutions in a ten-residue window</title>
+  <script src="assets/gsap-3.15.0.min.js"></script>
+  <style>
+    @font-face {font-family:Geist;src:url("assets/Geist-Regular.woff2") format("woff2");font-weight:400}
+    @font-face {font-family:Geist;src:url("assets/Geist-Bold.woff2") format("woff2");font-weight:700}
+    :root {
+      --cream: #f7f4ed;
+      --ink: #142c3d;
+      --muted: #536575;
+      --teal: #197d74;
+      --amber: #a45b08;
+      --rule: #d5d2c8;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; width: 960px; height: 440px; overflow: hidden; }
+    #main { position: relative; width: 100%; height: 100%; background: var(--cream); color: var(--ink); font: 20px Geist, sans-serif; }
+    .clip { position: absolute; inset: 0; }
+    h1 { position: absolute; top: 24px; left: 42px; margin: 0; font: 700 30px/1.2 Geist, sans-serif; }
+    .top-rule { position: absolute; top: 72px; left: 42px; right: 42px; border-top: 1px solid var(--rule); }
+    footer { position: absolute; display: flex; justify-content: space-between; left: 42px; right: 42px; bottom: 21px; padding-top: 13px; border-top: 1px solid var(--rule); color: var(--muted); }
+    svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+    svg text { fill: var(--ink); }
+    .row-label { font-weight: 700; }
+    .residue-label { font-weight: 700; text-anchor: middle; dominant-baseline: central; }
+    .after { fill: var(--amber); opacity: 0; }
+    .changed-fill, .changed-mark { opacity: 0; }
+    .counter { font-weight: 700; fill: var(--amber); }
+  </style>
+</head>
+<body>
+<main id="main" data-composition-id="main" data-start="0" data-duration="8" data-width="960" data-height="440">
+  <svg id="mutation-art" class="clip" data-start="0" data-duration="8" data-track-index="0" viewBox="0 0 960 440" role="img" aria-label="Ten-residue loop with fixed flanks. The wild-type sequence WGGDGFYAMD becomes the illustrative variant WAGNGFFALD through substitutions G2A, D4N, Y7F and M9L.">
+    <path d="M116 209 C142 221 167 230 198 224 L238 211 M722 211 L762 224 C793 230 818 221 844 209"
+      fill="none" stroke="var(--ink)" stroke-width="12" stroke-linecap="round"/>
+    <path d="M238 211 C275 188 290 152 344 132 S426 109 454 108 C472 107 488 107 506 108 C534 109 563 118 616 132 S685 188 722 211"
+      fill="none" stroke="var(--teal)" stroke-width="4" stroke-linecap="round"/>
+
+    <text x="42" y="277" class="row-label">Wild type</text>
+    <text x="42" y="329" class="row-label">Variant</text>
+    <g id="residues"></g>
+
+    <g aria-hidden="true">
+      <text x="789" y="329" class="counter" id="change-count">0</text>
+      <text x="805" y="329" class="counter">/10 changed</text>
+    </g>
+  </svg>
+  <h1>Four substitutions in a ten-residue window</h1>
+  <div class="top-rule"></div>
+  <footer><span>Illustrative variant, not a selected design</span><span>Same scaffold. Four substitutions.</span></footer>
+</main>
+<script>
+  const wildType = "WGGDGFYAMD";
+  const substitutions = [
+    { position: 2, letter: "A", time: 1.04 },
+    { position: 4, letter: "N", time: 2.02 },
+    { position: 7, letter: "F", time: 3.06 },
+    { position: 9, letter: "L", time: 4.12 },
+  ];
+  const beadHeights = [211, 170, 132, 114, 108, 108, 114, 132, 170, 211];
+  const residues = document.querySelector("#residues");
+
+  // The aligned beads and the two sequence rows share the same position index.
+  residues.innerHTML = Array.from(wildType, (letter, index) => {
+    const x = 238 + index * (484 / 9);
+    const y = beadHeights[index];
+    const substitution = substitutions.find(({ position }) => position === index + 1);
+    const swapClass = substitution ? "before residue-label" : "residue-label";
+    const replacement = substitution?.letter;
+    return `
+      <g id="position-${index + 1}">
+        <g>
+          <circle cx="${x}" cy="${y}" r="19" fill="#e3eeea" stroke="var(--teal)" stroke-width="1.8"/>
+          ${replacement ? `<circle class="changed-fill" cx="${x}" cy="${y}" r="19" fill="#f2e4cd" stroke="var(--amber)" stroke-width="2.4"/>` : ""}
+          <text class="${swapClass}" x="${x}" y="${y}">${letter}</text>
+          ${replacement ? `<text class="after residue-label" x="${x}" y="${y}">${replacement}</text>` : ""}
+        </g>
+        <rect x="${x - 21}" y="251" width="42" height="40" rx="5" fill="#eeebe3" stroke="var(--rule)"/>
+        <text class="residue-label" x="${x}" y="271">${letter}</text>
+        <rect x="${x - 21}" y="303" width="42" height="40" rx="5" fill="#e3eeea" stroke="#b5cbc2"/>
+        ${replacement ? `<rect class="changed-fill" x="${x - 21}" y="303" width="42" height="40" rx="5" fill="#f2e4cd" stroke="var(--amber)"/>` : ""}
+        <text class="${swapClass}" x="${x}" y="323">${letter}</text>
+        ${replacement ? `
+          <text class="after residue-label" x="${x}" y="323">${replacement}</text>
+          <path class="changed-mark" d="M${x - 11} 353 h22" fill="none" stroke="var(--amber)" stroke-width="3" stroke-linecap="round"/>
+        ` : ""}
+      </g>
+    `;
+  }).join("");
+
+  const timeline = gsap.timeline({ paused: true, defaults: { ease: "power2.inOut" } });
+  gsap.set(".after", { y: 11 });
+
+  substitutions.forEach(({ position, time }, index) => {
+    const tile = `#position-${position}`;
+    const before = `${tile} .before`;
+    const after = `${tile} .after`;
+    const color = `${tile} .changed-fill, ${tile} .changed-mark`;
+
+    timeline
+      .to(before, { y: -11, opacity: 0, duration: 0.26 }, time)
+      .to(after, { y: 0, opacity: 1, duration: 0.28 }, time + 0.16)
+      .to(color, { opacity: 1, duration: 0.28 }, time + 0.16)
+      .set("#change-count", { textContent: String(index + 1) }, time + 0.44);
+  });
+
+  // This last beat resets the illustration for repeat playback.
+  timeline
+    .to(".after", { y: 11, opacity: 0, duration: 0.65 }, 6.54)
+    .to(".before", { y: 0, opacity: 1, duration: 0.65 }, 6.78)
+    .to(".changed-fill, .changed-mark", { opacity: 0, duration: 0.65 }, 6.78)
+    .set("#change-count", { textContent: "0" }, 7.28);
+
+  window.__timelines = window.__timelines || {};
+  window.__timelines.main = timeline;
+</script>
+</body>
+</html>

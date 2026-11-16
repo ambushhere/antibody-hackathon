@@ -8,9 +8,17 @@ Our AI × Antibodies hackathon project explores two routes to HER2 binders: chan
 
 ## Why we took this approach
 
+Our pitch opened with a joke about our starting point:
+
+> Our first literature review taught us that breast cancer is bad. That was about it. (More usefully, it showed us what to focus on: binding affinity, epitope preservation and thermal stability, with ipTM as a structural-confidence check.)
+
 We came to the challenge with more experience in software and machine learning than in antibody biology. Literature review made the limits clear: a plausible structure or a confident model score does not establish a better antibody. With expensive laboratory experiments and few available slots, we chose to ground our optimization decisions in existing measurements.
 
 The two supplied datasets gave us both evidence and a design boundary. FACS provided screening labels for a large library of trastuzumab variants. SPR provided quantitative binding measurements for a smaller set. We followed that experimental setup: keep the known antibody framework and vary the same ten-residue window within CDRH3. This made our learning problem narrower and our assumptions easier to test. It is why we spent more time on optimization.
+
+![From an antibody tip to the ten-residue design window within CDRH3](docs/assets/intuition/loop.png)
+
+The highlighted window sits within one of the six CDR loops at an antigen-binding site. The drawing is schematic.
 
 For de novo, we used the supplied Apheris RFD4-Proteina workflow and its antibody/HER2 checkpoints to explore new heavy/light chain pairs. It was a relevant, available generator for the challenge. We did not establish that it was the largest or universally best model. Our [training-data inspection](docs/research/rfd4-training-data.md) examined public metadata, not the exact undisclosed training set of the Apheris HER2 fine-tune.
 
@@ -50,7 +58,13 @@ flowchart TB
 
 ### Optimization
 
+[![Four illustrative substitutions change the design window while the surrounding scaffold stays fixed](docs/assets/intuition/mutations.gif)](docs/assets/intuition/mutations.mp4)
+
+Only selected letters change. This example illustrates substitutions, not a validated or submitted design. [Static illustration](docs/assets/intuition/mutations.png) · [Sources and rendering](videos/her2-intuition/README.md).
+
 The FACS classifier uses individual amino acids and pairs of positions to predict the high-signal class. The SPR ridge uses **10 positions × 20 amino acids = 200 features** to predict `−log10(KD in nM)`. Higher SPR scores predict tighter binding, but candidate KD values remain uncalibrated. The two models predict different experimental outcomes, so we keep their scores separate.
+
+For example, “G at position 2 **and** Y at position 7” is one binary feature. Replacing Y with F switches that feature off and a different pair feature on. The model learns a weight for each combination; this does not assert physical contact between the residues. The positions shown belong to the ten-residue library window.
 
 We generated 10,000 statistical proposals. The expanded screen combined 739 statistical candidates with four earlier RFD4 optimization-pilot designs; 124 of these 743 passed the strict gates. Ten diverse candidates were selected from the FACS/SPR Pareto shortlist. The final ranking retains the original positional SPR model; later pairwise and neural comparisons did not change that frozen order. [Scoring report](results/spr-expanded-ranking/report.md).
 
@@ -105,3 +119,11 @@ For CPU tests, install the same dependencies as [CI](.github/workflows/tests.yml
 [English plain-language explanation](docs/PIPELINE_EXPLAINED_EN.md) · [Russian explanation](docs/PIPELINE_EXPLAINED_RU.md) · [PDF guides](output/pdf/README.md)
 
 The plain-language guides and earlier decks are dated research snapshots. The final pitch above is the presentation of record. Historical setup and planning documents record changing assumptions; the result reports and final selection policy take precedence when they differ.
+
+## The hackathon and its partners
+
+Built at **AI × Antibodies, Oslo, 14 November 2026**, organized by Nucleate Norway. The original partner artwork and roles below come from the [official event website](https://oslo-ai-antibodies-hackathon.vercel.app/) and [organizer listing](https://luma.com/16qoctcz).
+
+[![AI × Antibodies organizer and event partner logos](docs/assets/event-partners.png)](https://oslo-ai-antibodies-hackathon.vercel.app/)
+
+[Artwork sources and attribution](docs/assets/brands/README.md)

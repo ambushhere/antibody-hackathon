@@ -1,0 +1,20 @@
+[
+  {
+    "file": "Geist-Regular.woff2",
+    "source": "https://raw.githubusercontent.com/vercel/geist-font/ef2597cfc42f4797676df105517ccc0a1cfa6569/fonts/Geist/webfonts/Geist-Regular.woff2",
+    "sha256": "12e7c80de776bc74044973a26bb96842ca4bfe9e16fc6128fa5c6420e8e1d8fc",
+    "bytes": 45228
+  },
+  {
+    "file": "Geist-Bold.woff2",
+    "source": "https://raw.githubusercontent.com/vercel/geist-font/ef2597cfc42f4797676df105517ccc0a1cfa6569/fonts/Geist/webfonts/Geist-Bold.woff2",
+    "sha256": "25c8b03dbf9668157bfb8448c0a8aa234d8c85222499295845035acbae184870",
+    "bytes": 46668
+  },
+  {
+    "file": "OFL-Geist.txt",
+    "source": "https://raw.githubusercontent.com/vercel/geist-font/ef2597cfc42f4797676df105517ccc0a1cfa6569/OFL.txt",
+    "sha256": "021caa749f89fecd7c2e40a50499de29e84d2bc19251659b47d499c2fbfffc17",
+    "bytes": 4384
+  }
+]

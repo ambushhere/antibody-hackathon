@@ -1,0 +1,19 @@
+{
+  "duration_s": 8,
+  "fps": 24,
+  "canvas": { "w": 960, "h": 440, "aspect": "24:11" },
+  "poster_s": 5.7,
+  "style": "Editorial scientific schematic",
+  "palette": ["#f7f4ed", "#142c3d", "#536575", "#197d74", "#a45b08"],
+  "font": "Geist and Geist",
+  "audio": "silent",
+  "beats": [
+    { "start": 0, "end": 1.04, "action": "Read WGGDGFYAMD on both rows and on the ten-bead loop." },
+    { "start": 1.04, "end": 1.48, "action": "Exchange G for A at position 2. The variant reads WAGDGFYAMD." },
+    { "start": 2.02, "end": 2.46, "action": "Exchange D for N at position 4. The variant reads WAGNGFYAMD." },
+    { "start": 3.06, "end": 3.50, "action": "Exchange Y for F at position 7. The variant reads WAGNGFFAMD." },
+    { "start": 4.12, "end": 4.56, "action": "Exchange M for L at position 9. The variant reads WAGNGFFALD." },
+    { "start": 4.56, "end": 6.54, "action": "Hold the aligned comparison and the four underlined substitutions." },
+    { "start": 6.54, "end": 8, "action": "Return to the reference letters before the loop repeats." }
+  ]
+}
