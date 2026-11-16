@@ -1,0 +1,9 @@
+## 2026-11-16: final pitch and repository handoff
+
+Published the final manual two-slide English pitch without changing its bytes and rendered matching previews. The English README now explains why measured FACS/SPR data guided optimization, why RFD4 was used for de novo and what the experiments did not establish. A colored Mermaid diagram distinguishes eligibility checks, ranking and laboratory follow-up. The original overview and rehearsal template remain in the documentation archive.
+
+Added the team-facing `epitope-hunters.csv`, identical to the frozen 30-row ranking and recorded installed-abguard receipt. Corrected stale setup/validator status and clarified the positional ridge used for final selection versus later pairwise comparisons. Submission, organizer acceptance and new-candidate laboratory outcomes are unverified.
+
+The local cleanup removed 4.51 GB of file contents from pretrained downloads, scratch environments, metadata, duplicate dataset copies and verified expanded archives. Available filesystem space increased by about 4.08 GiB during the cleanup interval. All 15 compressed evidence archives passed archive and member hash checks. Unique outputs and the shared development environment were preserved. Five original benchmark inputs remain in an ignored, local-only 8.4 MB archive with hashes. Restoration paths and limits are documented in `docs/DATA_RETENTION.md`.
+
+Validation: final deck SHA-256 and two-slide count verified; both rendered previews inspected; local documentation targets checked; a fresh RapidFuzz-only environment reproduced the CSV byte for byte. Tests before cleanup: 311 passed, four skipped, 22 subtests passed. Tests after cleanup: 309 passed, six skipped, 22 subtests passed; the extra skips require restored raw structural archives. Separate scientific, documentation and storage reviews informed the handoff.

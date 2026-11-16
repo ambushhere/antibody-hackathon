@@ -1,53 +1,23 @@
-# Шаблон питча на 3 минуты
+# Pitch summary
 
-Критерии жюри: научное обоснование 40%, исполнение 20%, польза 20%, путь к ценности 20%.
-Структура ниже даёт каждому критерию свой слот. Держите 1 слайд = 1 блок.
+[Final two-slide presentation](output/selection-slide/her2-selection-and-evidence-en.pptx) · [Pipeline and evidence](README.md) · [Execution guide](docs/EXECUTION_EN.md)
 
-## 0. Одна фраза (15 с)
-> Мы взяли <мишень/антитело> и получили <N> вариантов, лучший из которых <метрика> — вот почему мы в это верим.
+## Start with measured evidence
 
-Не начинайте с методов. Жюри должно за 15 секунд понять, что на выходе.
+We entered the challenge with more experience in software and machine learning than in antibody biology. Our literature review showed why a convincing structure or a high model score is not enough to establish binding. Laboratory testing is expensive, so we focused our optimization effort on evidence from experiments that had already been done.
 
-## 1. Проблема (20 с)
-- Чья боль и почему она важна именно для антител (специфичность, developability, скорость цикла).
-- Один факт или число вместо общих слов.
+The supplied FACS and SPR datasets studied variants of trastuzumab, an existing HER2 antibody. We followed their experimental design: keep the antibody framework and vary a ten-residue window within CDRH3. FACS gave us a large screening dataset; SPR gave us fewer, quantitative binding measurements. We trained separate scorers and selected candidates using both signals and sequence diversity.
 
-## 2. Подход (45 с) — 40% оценки
-- Схема пайплайна: вход -> отбор позиций -> генерация -> фильтры -> кандидаты.
-- **Обоснуйте каждый шаг:** почему эти позиции (контакт с антигеном <4.5 Å в структуре комплекса),
-  почему эта модель, почему эти фильтры.
-- Честно скажите, что метрика означает. ESM-скор — правдоподобие последовательности,
-  не аффинность. Жюри из биологов это проверит, и признание границ метода добавляет очков,
-  а не снимает.
+We tried more complex models, embeddings and synthetic data. Those experiments did not establish a reason to replace the simple final selector. Our optimization shortlist therefore uses pairwise logistic regression for the FACS screening label and positional ridge regression for the SPR ranking signal. This was a choice to stay close to measured evidence, not proof that our new variants would bind better.
 
-## 3. Результат (45 с) — 20% исполнения
-- Таблица топ-кандидатов с числами, не скриншот кода.
-- Один график: распределение скоров, позиции мутаций на структуре или интерфейс.
-- Воспроизводимость: одна команда, фиксированные версии, сид.
+## Explore new designs with a relevant generator
 
-## 4. Ограничения (20 с)
-- Что не проверено (аффинность in silico без структуры комплекса варианта, иммуногенность).
-- Где пайплайн сломается на других мишенях.
+For de novo, we used the supplied RFD4-Proteina workflow and antibody/HER2 checkpoints. It allowed us to generate new heavy/light chain pairs in the target binding-site context without training a generator from scratch. Public training metadata helped us understand the model's scope and possible overlap with known structures. It did not establish the exact fine-tuning data or superiority over other generators.
 
-## 5. Путь к ценности (30 с) — 20% оценки
-- Следующий эксперимент: что именно отдать в Adaptyv на экспрессию и почему эти <N> последовательностей.
-- Что нужно, чтобы метод работал за пределами хакатона: данные, вычисления, время.
+We selected this arm using sequence checks, motif warnings, novelty checks under the installed abguard build and diversity. We did not apply our trastuzumab-specific affinity scorer to new frameworks.
 
-## 6. Команда и роли (10 с)
-- Кто что сделал. Короткая строка.
+## Spend laboratory slots on a reasoned shortlist
 
----
+Our final ranked file contains 30 candidates: ten optimization and twenty de novo. All passed the installed abguard build. Three of the first four positions are optimization designs, reflecting our stronger measured-data basis for that track.
 
-## Чек-лист перед 18:00
-- [ ] Финальные последовательности выписаны в отдельный файл, формат как просят организаторы
-- [ ] README: одна команда воспроизводит результат с нуля
-- [ ] Все числа на слайдах совпадают с числами в `results/`
-- [ ] Названы ограничения метода
-- [ ] Прогнали питч вслух с таймером (3 минуты = ~400 слов, не больше)
-- [ ] Кто говорит какой блок, решено заранее
-
-## Частые провалы
-- Слайд с архитектурой модели вместо результата.
-- «Мы предсказали аффинность», когда модель её не предсказывает.
-- Код на экране. Жюри читает выводы, не исходники.
-- Перебор по времени: на 18:05 вас остановят на середине.
+The structural controls and thermal pilot did not support candidate ranking, and we report those negative results. The remaining test is laboratory measurement of HER2 binding, competition with trastuzumab and thermal stability. Our deliverable is a reproducible selection pipeline and a queue of hypotheses for those experiments.
