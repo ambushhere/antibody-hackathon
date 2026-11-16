@@ -1,6 +1,6 @@
 # RFD4 training data inspection
 
-14 November 2026. Downloaded two metadata tables totalling **46,415,290 bytes (44.27 MiB)**, not the 2.13 TB structure corpus. The local cache is `data/external/rfd4-metadata/`. The committed [audit](../../results/rfd4-training-metadata/audit.json) pins upstream revision, file sizes, hashes, URLs, schemas and observed counts. The raw tables remain a reproducible local cache and are not added to Git.
+14 November 2026. Downloaded two metadata tables totalling **46,415,290 bytes (44.27 MiB)**, not the 2.13 TB structure corpus. The local cache is `data/external/rfd4-metadata/`. The committed [audit](../../results/rfd4-training-metadata/audit.json) pins upstream revision, file sizes, hashes, URLs, schemas and observed counts. The raw tables were a reproducible local cache, excluded from Git. They were removed during the post-event cleanup on 16 November; the pinned audit and replay instructions remain.
 
 Source: [NVIDIA RFD4-Proteina dataset at aa86df1](https://huggingface.co/datasets/nvidia/RFD4-Proteina/tree/aa86df1eb9e3529a0f39279f216dce3a95bb3dc2). The upstream card describes public release training recipes, not the undisclosed row selection of the Apheris HER2 fine-tune.
 
@@ -19,7 +19,7 @@ The distillation table contains only **13,652 paired Fv entries**, versus 38,631
 
 ## Decision
 
-Keep the compact metadata for overlap checks and selection of a future targeted structural subset. Do not expand today's training with unfiltered rows. First qualify our HER2 structural setup on WT, and audit the external measured SPR cohort described in [benchmark evidence](benchmark-evidence.md). Any future teacher-distillation experiment should retain a separate real-measurement test and report format/target shift. No new model was trained on these tables and no candidate was promoted from them.
+The event-time decision was to keep the compact metadata for overlap checks and selection of a future targeted structural subset. After the event, retain the audit and restore the raw cache only when needed. Do not expand today's training with unfiltered rows. First qualify our HER2 structural setup on WT, and audit the external measured SPR cohort described in [benchmark evidence](benchmark-evidence.md). Any future teacher-distillation experiment should retain a separate real-measurement test and report format/target shift. No new model was trained on these tables and no candidate was promoted from them.
 
 ## Replay
 
