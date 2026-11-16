@@ -23,7 +23,10 @@ def numbered_identity(left, right):
     return matches, len(positions)
 
 
-def audit(campaign, reference_path):
+DEFAULT_ARMS = ['denovo-pilot', 'denovo-fullseq-pilot', 'denovo-fullseq-k1']
+
+
+def audit(campaign, reference_path, arms=None):
     annotator = Annotator(chains=['H', 'K', 'L'], scheme='imgt', min_confidence=0.1)
     references = {'trastuzumab': {
         'H': annotator.number(VH_PREFIX + WT_CDRH3 + VH_SUFFIX).numbering,
@@ -36,7 +39,7 @@ def audit(campaign, reference_path):
     assert set(adalimumab) == {'H', 'L'}
     references['adalimumab'] = adalimumab
     rows = []
-    for arm in ['denovo-pilot', 'denovo-fullseq-pilot', 'denovo-fullseq-k1']:
+    for arm in (arms or DEFAULT_ARMS):
         files = sorted((campaign / arm).glob('design/generation/inference_samples/*/*_generated.cif'))
         if not files:
             raise ValueError(f'No generated structures for {arm}')
@@ -83,8 +86,10 @@ def main():
     parser.add_argument('--campaign', type=Path, required=True)
     parser.add_argument('--reference', type=Path, default=Path('configs/adalimumab_reference.json'))
     parser.add_argument('--output', type=Path, required=True)
+    parser.add_argument('--arms', nargs='+', default=None,
+                        help=f'campaign subdirectories to audit; default {DEFAULT_ARMS}')
     args = parser.parse_args()
-    frame = audit(args.campaign, args.reference)
+    frame = audit(args.campaign, args.reference, args.arms)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     frame.to_csv(args.output, index=False)
     print(frame.groupby('arm').agg(n=('design', 'size'), mean_wt_identity=('trastuzumab_paired_imgt_identity','mean'), mean_scaffold_identity=('adalimumab_paired_imgt_identity','mean'), below_both=('below_70_both_local_references','sum')).to_string())

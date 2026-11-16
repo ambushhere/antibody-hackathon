@@ -9,3 +9,4 @@ fair-esm
 anarcii   # IMGT-нумерация без HMMER; abnumber требует классический ANARCI
 jupyterlab
 ipykernel
+pyarrow<19   # читает запиненные parquet метаданных RFD4; >=19 требует numpy 2
